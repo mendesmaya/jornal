@@ -60,7 +60,16 @@ nav a:hover{text-decoration:underline}
 .ficha dd{margin:0}
 
 /* agenda: quatro dias visíveis */
-.agenda{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:14px}
+.agenda{display:block;margin-top:6px}
+.dia-agenda{display:none}
+.dia-agenda.hoje,.dia-agenda:target{display:block}
+.agenda:has(.dia-agenda:target) .dia-agenda.hoje:not(:target){display:none}
+.dia-agenda .event{display:grid;grid-template-columns:200px minmax(0,1fr);column-gap:24px}
+.dia-agenda .event>*{grid-column:2}.dia-agenda .event>.ev-hora{grid-column:1;grid-row:1 / span 6;padding-top:3px}
+.menu-dias{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 18px;margin:14px 0 4px;padding:4px 0;font:700 .74rem/1.3 Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em}
+.menu-dias a{text-decoration:none;color:#555;padding:2px 0;border-bottom:2px solid transparent}
+.menu-dias a[aria-current=true]{color:#111;border-bottom-color:#111}
+.menu-dias a:hover{color:#111}
 .agenda>div{border-top:4px double #111;padding-top:8px;min-width:0}
 .agenda h3{font:700 1.6rem/1.2 Georgia,serif;margin:8px 0}
 .event{border-bottom:1px solid var(--line);padding:10px 0}
@@ -120,7 +129,8 @@ footer{margin-top:35px;font:.74rem/1.6 Arial,sans-serif;color:var(--muted);borde
   .grid>.card:nth-last-child(-n+2):nth-child(odd){border-bottom:1px solid #111}
   .grid>.card:last-child{border-bottom:0}
   .figura .moldura{height:200px}
-  .agenda,.games{grid-template-columns:1fr}
+  .games{grid-template-columns:1fr}
+  .dia-agenda .event{display:block}
   .agenda h3{font-size:1.35rem}
   .gamebox{padding:12px}
   .top{font-size:.6rem}

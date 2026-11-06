@@ -108,7 +108,13 @@ function Cronometro(el){
   reiniciar();
 })();
 
-/* ---------------- Agenda: separadores ---------------- */
+/* ---------------- Agenda: marcar o dia escolhido no menu ---------------- */
+(function(){
+  const links=[...document.querySelectorAll('.menu-dias a')];
+  const marcar=()=>{const h=location.hash||'';const alvo=links.find(a=>a.getAttribute('href')===h)||links[0];links.forEach(a=>a.setAttribute('aria-current',a===alvo?'true':'false'))};
+  window.addEventListener('hashchange',marcar);marcar();
+})();
+/* ---------------- Agenda: separadores (edições antigas) ---------------- */
 document.querySelectorAll('.dias button').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('.dias button').forEach(x=>x.setAttribute('aria-selected',x===b));
   document.querySelectorAll('.dia-agenda').forEach(p=>p.hidden=p.id!==b.getAttribute('aria-controls'));

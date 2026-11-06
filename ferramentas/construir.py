@@ -197,7 +197,7 @@ def construir(data):
     cultura = (f'<section class="newssection" id="cultura"><h2>Cultura, Cinema e Arte</h2><p class="edition-count">04 artigos · cinema · artista · curiosidade · cultura em movimento</p>'
                f'<div class="grid">{"".join(arts)}</div></section>')
 
-    dias_html = []
+    dias_html, menu_dias = [], []
     for i, d in enumerate(c["agenda"]):
         dd = dt.date.fromisoformat(d["dia"])
         evs = []
@@ -207,8 +207,13 @@ def construir(data):
                        f'<p class="ev-desc">{e(ev["descricao"])}</p><p class="eventplace">{e(ev["local"])}</p><p class="eventprice">{e(ev["preco"])}</p>'
                        f'<a href="{e(ev["url"])}" rel="noopener">{e(ev.get("ligacao", "Programação oficial"))}</a>{nota}</div>')
         titulo_dia = ("Hoje · " if i == 0 else "") + f"{DIAS[dd.weekday()].capitalize()}, {dd.day} {MESES[dd.month - 1][:3]}."
-        dias_html.append(f'<div><h3>{e(titulo_dia)}</h3>{"".join(evs)}</div>')
-    agenda = (f'<section class="newssection" id="agenda"><h2>Agenda do Porto</h2><p class="edition-count">{e(data_num(c["agenda"][0]["dia"]))} a {e(data_num(c["agenda"][-1]["dia"]))} · 4 dias</p>'
+        did = f"dia-{d['dia']}"
+        rot_menu = ("Hoje · " if i == 0 else "") + f"{DIAS[dd.weekday()].split('-')[0].capitalize()} {dd.day}"
+        menu_dias.append(f'<a href="#{did}"{" aria-current=\"true\"" if i == 0 else ""}>{e(rot_menu)}</a>')
+        # só o dia de hoje aparece; os outros dias abrem a partir do menu da agenda
+        dias_html.append(f'<div class="dia-agenda{" hoje" if i == 0 else ""}" id="{did}"><h3>{e(titulo_dia)}</h3>{"".join(evs)}</div>')
+    agenda = (f'<section class="newssection" id="agenda"><h2>Agenda do Porto</h2><p class="edition-count">{e(data_num(c["agenda"][0]["dia"]))} a {e(data_num(c["agenda"][-1]["dia"]))} · hoje e os próximos 3 dias no menu</p>'
+              f'<div class="menu-dias" role="navigation" aria-label="Dias da agenda">{"".join(menu_dias)}</div>'
               f'<div class="agenda">{"".join(dias_html)}</div>'
               f'<p class="game-note">{e(c.get("agenda_aviso", "Horários, preços e lotação podem mudar. Confirma sempre na programação oficial antes de sair."))}</p></section>')
 
