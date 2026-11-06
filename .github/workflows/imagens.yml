@@ -1,0 +1,29 @@
+name: Guardar imagens das edições
+on:
+  push:
+    branches: [main]
+    paths: ["20*/assets/imagens.json", "20*/index.html"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: imagens
+  cancel-in-progress: false
+jobs:
+  imagens:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 ferramentas/descarregar_imagens.py
+      - name: Guardar no repositório
+        run: |
+          git config user.name "jornal-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A 20*/
+          if git diff --cached --quiet; then echo "Nada a guardar"; exit 0; fi
+          git commit -m "Guardar imagens da edição em assets/"
+          git pull --rebase origin main
+          git push
