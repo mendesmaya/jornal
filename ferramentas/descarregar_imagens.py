@@ -27,7 +27,9 @@ def pedir(url, binario=False):
 
 def limpar(txt):
     txt = re.sub(r"<[^>]+>", "", txt or "")
-    return html.unescape(re.sub(r"\s+", " ", txt)).strip()
+    txt = html.unescape(re.sub(r"\s+", " ", txt)).strip()
+    txt = txt.replace("No machine-readable author provided.", "").replace("assumed (based on copyright claims).", "")
+    return re.sub(r"\bUser:", "", txt).strip(" .") 
 
 
 def info_commons(nome):
