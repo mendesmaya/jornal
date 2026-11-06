@@ -16,7 +16,9 @@ BASE = Path(__file__).resolve().parent
 RAIZ = BASE.parent
 URL_SITE = "https://mendesmaya.github.io/jornal/"
 NOME = "Jornal do Dia"
-SUB = "Notícias verificadas, cultura, agenda do Porto e jogos"
+SUB = "Notícias verificadas · Cultura · Agenda do Porto · Passatempos"
+FONTES = ("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,600..900;1,600..700"
+          "&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap")
 
 SECCOES = {
     "ciberseguranca": ("Cibersegurança", 3),
@@ -126,13 +128,14 @@ def noticia(n, principal, manifest, assets, idx, rotulo, chave):
     meta = f'<div class="meta"><span class="estado">{e(n["estado"])}</span><time datetime="{e(n.get("data", ""))}">{e(data_curta(n.get("data", "")))}</time></div>'
     fig = figura(n.get("imagem"), chave, rotulo, manifest, assets, idx)
     rodape = f'<div class="rodape-noticia">{verif_html(n.get("verificacao"))}{fontes_html(n["fontes"])}</div>'
-    corpo = f'<div class="corpo">{meta}<h3>{e(n["titulo"])}</h3>{paras}</div>'
+    cab = f'<header class="cab">{meta}<h3>{e(n["titulo"])}</h3></header>'
+    corpo = f'<div class="corpo">{paras}</div>'
     classe = "noticia larga" if principal else "noticia"
     if principal:
         # imagem mais alta quando o texto é longo, para equilibrar as duas colunas
         n_car = sum(len(p) for p in n["texto"]) + len(n["titulo"])
         classe += " texto-longo" if n_car > 1400 else (" texto-medio" if n_car > 800 else "")
-    return f'<article class="{classe}">{fig}{corpo}{rodape}</article>'
+    return f'<article class="{classe}">{cab}{fig}{corpo}{rodape}</article>'
 
 
 def construir(data):
@@ -168,7 +171,7 @@ def construir(data):
             # a primeira é a principal; se sobrar só uma, também ocupa a largura toda
             partes.append(noticia(n, i == 0 or len(itens) == 2, manifest, assets, idx, nome, chave))
             idx += 1
-        return (f'<section class="seccao s-{chave}" id="{chave}"><header><h2>{nome}</h2><span>{len(itens)} notícias</span></header><div class="principal-wrap">{partes[0]}</div>'
+        return (f'<section class="seccao s-{chave}" id="{chave}"><header><h2>{nome}</h2></header><div class="principal-wrap">{partes[0]}</div>'
                 f'<div class="lista-noticias n{len(partes) - 1}">{"".join(partes[1:])}</div></section>')
 
     digital = "".join(bloco(k) for k in ("ciberseguranca", "ia", "tecnologia"))
@@ -183,8 +186,8 @@ def construir(data):
         fig = figura(a.get("imagem"), "cultura", RUBRICAS[a["rubrica"]], manifest, assets, idx)
         idx += 1
         nota = f'<span class="verif">{e(a["nota"])}</span>' if a.get("nota") else ""
-        arts.append(f'<article class="artigo">{fig}<div class="rubrica">{RUBRICAS[a["rubrica"]]}</div><h3>{e(a["titulo"])}</h3>{ficha}{paras}{nota}{fontes_html(a["fontes"])}</article>')
-    cultura = f'<section class="seccao s-cultura" id="cultura"><header><h2>Cultura, cinema e arte</h2><span>4 artigos</span></header><div class="cultura-grelha">{"".join(arts)}</div></section>'
+        arts.append(f'<article class="artigo"><div class="rubrica">{RUBRICAS[a["rubrica"]]}</div><h3>{e(a["titulo"])}</h3>{fig}{ficha}<div class="corpo">{paras}</div>{nota}{fontes_html(a["fontes"])}</article>')
+    cultura = f'<section class="seccao s-cultura" id="cultura"><header><h2>Cultura</h2><span>Cinema · Artes · Música</span></header><div class="cultura-grelha">{"".join(arts)}</div></section>'
 
     tabs, paineis = [], []
     for i, d in enumerate(c["agenda"]):
@@ -202,7 +205,7 @@ def construir(data):
               f'<p class="aviso">{e(c.get("agenda_aviso", "Horários, preços e lotação podem mudar. Confirma sempre na programação oficial antes de sair."))}</p></section>')
 
     teclado = "".join(f'<button type="button" data-v="{v}">{v}</button>' for v in range(1, 10)) + '<button type="button" data-v="0" aria-label="Apagar">⌫</button>'
-    jogos_html = f'''<section class="seccao s-jogos" id="jogos"><header><h2>Jogos</h2><span>Desafios novos todos os dias</span></header><div class="jogos-grelha">
+    jogos_html = f'''<section class="seccao s-jogos" id="jogos"><header><h2>Passatempos</h2><span>Desafios novos todos os dias</span></header><div class="jogos-grelha">
 <div class="jogo"><h3>Sudoku</h3><p class="instr">Preenche a grelha para que cada linha, coluna e quadrado de 3×3 tenha os números de 1 a 9. Toca numa casa vazia e escolhe o número no teclado (ou usa o teclado do computador). Dificuldade: moderadamente difícil, com solução única.</p>
 <div class="barra"><span class="crono parado" id="sudoku-crono" aria-live="off">00:00</span><button class="btn" type="button" id="sudoku-recomecar">Recomeçar</button><button class="btn" type="button" id="sudoku-solucao">Mostrar solução</button></div>
 <p class="estado-jogo" id="sudoku-estado" aria-live="polite"></p><div class="sudoku" id="sudoku" role="grid" aria-label="Grelha de Sudoku"></div><div class="teclado" id="sudoku-teclado">{teclado}</div></div>
@@ -221,13 +224,14 @@ def construir(data):
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{NOME} · {e(data_pt(data, False))}</title><meta name="description" content="{e(destaque)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap" rel="stylesheet">
+<link href="{FONTES}" rel="stylesheet">
 <style>{css}.sr{{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}}</style><script>{falha}</script></head><body>
-<header class="topo"><div class="azulejo"></div><div class="contentor"><div class="cabeca"><h1 class="marca"><a href="../">{NOME}</a><small>{SUB}</small></h1>
-<div class="data-edicao"><div class="dia">{dia.day} {MESES[dia.month - 1][:3]}.</div><div class="resto">{e(DIAS[dia.weekday()].capitalize())}, {dia.year} · Edição n.º {e(c.get("numero", ""))}</div></div></div>
-<nav class="indice-sec" aria-label="Secções"><a href="#ciberseguranca">Cibersegurança</a><a href="#ia">IA</a><a href="#tecnologia">Tecnologia</a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a><a href="#cultura">Cultura</a><a href="#agenda">Agenda do Porto</a><a href="#jogos">Jogos</a><a class="arquivo" href="../">Arquivo</a></nav></div></header>
-<main><div class="digital"><div class="contentor"><div class="intro-digital"><h2 class="bloco">Cibersegurança, IA e tecnologia</h2><p>{e(destaque)}</p></div>{digital}</div></div>
-<div class="contentor">{resto}{cultura}{agenda}{jogos_html}</div></main>
+<header class="topo"><div class="contentor">
+<div class="faixa-topo"><span>{e(data_pt(data).capitalize())}</span><span>Edição n.º {e(c.get("numero", ""))}</span><span>Porto · Portugal · Edição digital</span></div>
+<h1 class="marca"><a href="../">{NOME}</a></h1><p class="lema">{SUB}</p>
+<nav class="indice-sec" aria-label="Secções"><a href="#ciberseguranca">Cibersegurança</a><a href="#ia">Inteligência Artificial</a><a href="#tecnologia">Tecnologia</a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a><a href="#cultura">Cultura</a><a href="#agenda">Agenda</a><a href="#jogos">Passatempos</a><a href="../">Arquivo</a></nav></div></header>
+<main class="contentor"><div class="sumario"><span class="sumario-rotulo">Hoje</span><p>{e(destaque)}</p></div>
+<div class="destaque-digital">{digital}</div>{resto}{cultura}{agenda}{jogos_html}</main>
 <footer class="rodape"><div class="contentor"><p>Cada notícia indica o estado da informação (facto confirmado, declaração, proposta, previsão ou anúncio), a data e as fontes consultadas. Procuramos confirmação em duas fontes independentes; quando só há uma, isso fica assinalado. Os textos são sínteses originais. As imagens têm autoria e licença identificadas; imagens de arquivo e ilustrativas estão marcadas como tal.</p>
 <p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></div></footer>
 <script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script></body></html>'''
@@ -252,9 +256,9 @@ def atualizar_arquivo(data, c):
                      f'<p>{e(x.get("resumo", ""))}{"<br>" if x.get("resumo") else ""}{e(x.get("formato", ""))}</p></li>')
     pagina = f'''<!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{NOME} · Arquivo</title>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Source+Serif+4:opsz,wght@8..60,400..700&display=swap" rel="stylesheet">
-<style>{css}</style></head><body><header class="topo"><div class="azulejo"></div><div class="contentor"><div class="cabeca"><h1 class="marca">{NOME}<small>{SUB}</small></h1>
-<div class="data-edicao"><a class="btn" href="./{arq[0]["data"]}/">Abrir a edição mais recente</a></div></div></div></header>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="{FONTES}" rel="stylesheet">
+<style>{css}</style></head><body><header class="topo"><div class="contentor"><div class="faixa-topo"><span>Arquivo</span><span>{len(arq)} edições</span><span><a href="./{arq[0]["data"]}/">Edição mais recente</a></span></div>
+<h1 class="marca">{NOME}</h1><p class="lema">{SUB}</p></div></header>
 <main class="contentor"><section class="seccao"><header><h2>Arquivo de edições</h2><span>{len(arq)} edições</span></header><ul class="arquivo-lista">{"".join(itens)}</ul></section></main>
 <footer class="rodape"><div class="contentor"><p>Cada edição tem endereço permanente no formato {URL_SITE}AAAA-MM-DD/. As edições anteriores a 6 de novembro de 2026 mantêm o formato original.</p></div></footer></body></html>'''
     (RAIZ / "index.html").write_text(pagina)
