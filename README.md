@@ -1,26 +1,17 @@
-# O DIA EM PERSPETIVA
+# Jornal do Dia
 
-Arquivo estático de edições do jornal, publicado no GitHub Pages.
+Jornal diário estático publicado no GitHub Pages: https://mendesmaya.github.io/jornal/
 
 ## Estrutura
 
-- `index.html`: arquivo de edições.
-- `AAAA-MM-DD/index.html`: edição original, com estilos e jogos incluídos.
-- `.nojekyll`: publicação direta dos ficheiros, sem transformação por Jekyll.
+- `index.html` — arquivo de edições (a mais recente primeiro).
+- `AAAA-MM-DD/index.html` — edição do dia, com estilos e jogos incluídos (funciona sem serviços externos).
+- `AAAA-MM-DD/assets/` — imagens (`img/`), ilustrações de reserva, `imagens.json` e `creditos.json`.
+- `ferramentas/` — gerador das edições:
+  - `INSTRUCOES.md` — regras editoriais e passo a passo de cada edição.
+  - `conteudo/AAAA-MM-DD.json` — conteúdo de cada edição.
+  - `jogos.py` — gera e valida o Sudoku (solução única) e o caça-palavras (15 palavras).
+  - `construir.py` — monta a edição e atualiza o arquivo.
+  - `descarregar_imagens.py` + `.github/workflows/imagens.yml` — descarregam as imagens para `assets/` e preenchem autoria e licença a partir da API do Wikimedia Commons.
 
-A edição de 2026-10-30 foi copiada sem alterações do HTML original. SHA-256: `5c55f7012065672416819e4ad97044907b4a38b19645c139be87a4db566065f3`.
-
-## Publicação
-
-Ativar GitHub Pages em Settings > Pages, escolhendo Deploy from a branch, a branch `main` e a pasta `/ (root)`.
-
-## Novas edições
-
-1. Criar uma pasta com a data no formato `AAAA-MM-DD`.
-2. Guardar o HTML dessa edição como `index.html`, preservando os recursos necessários.
-3. Adicionar a ligação à edição na página de arquivo.
-4. Publicar as alterações e confirmar o endereço público da nova edição.
-
-Não substituir as pastas de edições anteriores. Não existe publicação diária automática configurada neste pacote.
-
-Imagens e fontes tipográficas externas dependem dos servidores de origem.
+As edições anteriores a 6 de novembro de 2026 mantêm o formato original e não são alteradas.

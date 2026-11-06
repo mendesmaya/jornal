@@ -31,6 +31,7 @@ DIAS = ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
 CORES = {"mundo": "#5b6577", "portugal": "#1e4fa8", "ciberseguranca": "#0e7c6f", "ia": "#6a43c4", "tecnologia": "#b2560e", "cultura": "#a8325e"}
 
+CREDITOS = {}
 e = lambda s: html.escape(str(s or ""), quote=True)
 
 
@@ -79,19 +80,28 @@ def figura(img, chave, rotulo, manifest, assets, idx):
     if ext not in (".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"):
         ext = ".jpg"
     ficheiro = f"img/{idx:02d}-{slug(Path(orig).stem)}{ext}"
-    manifest.append({"ficheiro": ficheiro, "url": remota})
     reserva = reserva_svg(chave, rotulo, assets)
+    manifest.append({"id": idx, "ficheiro": ficheiro, "url": remota, "commons": img.get("commons", ""), "reserva": reserva})
     local = assets / ficheiro
     src = f"assets/{ficheiro}" if local.exists() else remota
     tipo = TIPOS_IMG.get(img.get("tipo", ""), img.get("tipo", ""))
     autor = img.get("autor", "")
     lic = img.get("licenca", "")
     origem = img.get("origem_url") or (f"https://commons.wikimedia.org/wiki/File:{urllib.parse.quote(img['commons'].replace(' ', '_'))}" if img.get("commons") else "")
-    cred = " · ".join(x for x in [f"Autoria: {e(autor)}" if autor else "", f"Licença: {e(lic)}" if lic else "", f'<a href="{e(origem)}" rel="noopener">origem</a>' if origem else ""] if x)
+    cr = CREDITOS.get(ficheiro)
+    if cr and cr.get("estado") == "ok":
+        autor, lic, origem = cr["autor"], cr["licenca"], cr["origem"]
+    if cr and cr.get("estado") == "falhou":
+        src, tipo, autor, lic, origem = reserva, "Ilustração do jornal (imagem original indisponível)", "Jornal do Dia", "uso livre", ""
+    if img.get("commons") and not autor:
+        # autoria e licença são preenchidas pela ação do GitHub a partir da API do Commons
+        cred = f'Imagem: Wikimedia Commons · <a href="{e(origem)}" rel="noopener">ver autoria e licença</a>'
+    else:
+        cred = " · ".join(x for x in [f"Autoria: {e(autor)}" if autor else "", f"Licença: {e(lic)}" if lic else "", f'<a href="{e(origem)}" rel="noopener">origem</a>' if origem else ""] if x)
     leg = f"{e(img['legenda'])}. " if img.get("legenda") else ""
-    return (f'<figure class="figura"><div class="moldura"><img src="{e(src)}" data-remota="{e(remota)}" data-reserva="{e(reserva)}" '
+    return (f'<figure class="figura"><div class="moldura"><img id="img-{idx:02d}" src="{e(src)}" data-remota="{e(remota)}" data-reserva="{e(reserva)}" '
             f'alt="{e(img.get("alt", ""))}" loading="lazy" decoding="async" onerror="falhaImagem(this)">'
-            f'<span class="tipo-img">{e(tipo)}</span></div><figcaption class="creditos">{leg}{cred}</figcaption></figure>')
+            f'<span class="tipo-img" id="tipo-{idx:02d}">{e(tipo)}</span></div><figcaption class="creditos">{leg}<span class="cred" id="cred-{idx:02d}">{cred}</span></figcaption></figure>')
 
 
 def fontes_html(fontes):
@@ -129,6 +139,9 @@ def construir(data):
     (assets / "img").mkdir(parents=True, exist_ok=True)
     manifest = []
     idx = 1
+    cp = assets / "creditos.json"
+    if cp.exists():
+        CREDITOS.update(json.loads(cp.read_text()))
 
     # validações de estrutura
     cont = {k: 0 for k in SECCOES}

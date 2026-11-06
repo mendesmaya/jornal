@@ -1,0 +1,142 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-refrigeration-aisle.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Refrigeration_aisle.jpg?width=1000",
+  "commons": "Refrigeration aisle.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-ssh-keygen-openssh.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ssh-keygen_openssh.png?width=1000",
+  "commons": "Ssh-keygen openssh.png",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-datacenter-server-racks-22370909788.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_Server_Racks_%2822370909788%29.jpg?width=1000",
+  "commons": "Datacenter Server Racks (22370909788).jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-tux.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tux.png?width=1000",
+  "commons": "Tux.png",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-artificial-neural-network.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Artificial_neural_network.svg?width=1000",
+  "commons": "Artificial neural network.svg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-allen-telescope-array-flickr-brewbooks-5.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Allen_Telescope_Array_-_Flickr_-_brewbooks_%285%29.jpg?width=1000",
+  "commons": "Allen Telescope Array - Flickr - brewbooks (5).jpg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-korea-exchange.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Korea_exchange.JPG?width=1000",
+  "commons": "Korea exchange.JPG",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-abb-welding-robot.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/ABB_welding_robot.jpg?width=1000",
+  "commons": "ABB welding robot.jpg",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-us-capitol-west-side.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/US_Capitol_west_side.JPG?width=1000",
+  "commons": "US Capitol west side.JPG",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 10,
+  "ficheiro": "img/10-zaporizhzhia-city-administration.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaporizhzhia_City_Administration.jpg?width=1000",
+  "commons": "Zaporizhzhia City Administration.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 11,
+  "ficheiro": "img/11-renfe-serie-112.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Renfe_Serie_112.jpg?width=1000",
+  "commons": "Renfe Serie 112.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 12,
+  "ficheiro": "img/12-macau-senado-square.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Macau_-_Senado_Square.jpg?width=1000",
+  "commons": "Macau - Senado Square.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 13,
+  "ficheiro": "img/13-auto-estrada-a1.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Auto_estrada_A1.jpg?width=1000",
+  "commons": "Auto estrada A1.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 14,
+  "ficheiro": "img/14-porto-praca-d-joao-i.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porto_Praca_D_Joao_I.JPG?width=1000",
+  "commons": "Porto Praca D Joao I.JPG",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 15,
+  "ficheiro": "img/15-pal-cio-de-bel-m-lisboa-portugal-5284651931.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pal%C3%A1cio_de_Bel%C3%A9m_-_Lisboa_-_Portugal_%285284651931%29.jpg?width=1000",
+  "commons": "Palácio de Belém - Lisboa - Portugal (5284651931).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 16,
+  "ficheiro": "img/16-alentejo-oak-on-wheat-field.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alentejo_oak_on_wheat_field.jpg?width=1000",
+  "commons": "Alentejo oak on wheat field.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 17,
+  "ficheiro": "img/17-cinema-seats-in-blue.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cinema_seats_in_blue.jpg?width=1000",
+  "commons": "Cinema seats in blue.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 18,
+  "ficheiro": "img/18-rolleiflex-camera.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rolleiflex_camera.jpg?width=1000",
+  "commons": "Rolleiflex camera.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 19,
+  "ficheiro": "img/19-azulejos-capela-das-almas-de-santa-catarina-porto.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Azulejos%2C_Capela_das_Almas_de_Santa_Catarina%2C_Porto.jpg?width=1000",
+  "commons": "Azulejos, Capela das Almas de Santa Catarina, Porto.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 20,
+  "ficheiro": "img/20-korg-ms-20-patch-feld.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Korg_MS-20_Patch-Feld.jpg?width=1000",
+  "commons": "Korg MS-20 Patch-Feld.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
