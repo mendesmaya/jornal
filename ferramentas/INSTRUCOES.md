@@ -1,4 +1,4 @@
-# Instruções da edição diária — Jornal do Dia
+# Instruções da edição diária — O Dia em Perspetiva
 
 Repositório: `mendesmaya/jornal` (branch `main`, GitHub Pages a partir da raiz).
 Endereço de cada edição: `https://mendesmaya.github.io/jornal/AAAA-MM-DD/`.

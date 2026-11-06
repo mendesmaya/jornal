@@ -1,4 +1,4 @@
-# Jornal do Dia
+# O DIA EM PERSPETIVA
 
 Jornal diário estático publicado no GitHub Pages: https://mendesmaya.github.io/jornal/
 

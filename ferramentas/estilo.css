@@ -1,4 +1,4 @@
-/* Jornal do Dia — estilo inspirado na edição de 3 de novembro de 2026 (folha branca, Georgia, filetes pretos) */
+/* O Dia em Perspetiva — estilo inspirado na edição de 3 de novembro de 2026 (folha branca, Georgia, filetes pretos) */
 :root{--ink:#111;--muted:#555;--paper:#fff;--line:#999;--suave:#555;--linha:#bbb;--cobalto:#111;--agenda:#2c5a34;--tec:#a32020;--acento:#a32020;--sec:#111}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}

@@ -92,7 +92,7 @@ for man in sorted(raiz.glob("20??-??-??/assets/imagens.json")):
         elif c["estado"] == "falhou":
             doc = re.sub(rf'(<img id="img-{n}" src=")[^"]*(")', rf'\g<1>{item["reserva"]}\g<2>', doc)
             doc = re.sub(rf'(<span class="tipo-img" id="tipo-{n}">).*?(</span>)', r'\g<1>Ilustração do jornal (imagem original indisponível)\g<2>', doc)
-            doc = re.sub(rf'(<span class="cred" id="cred-{n}">).*?(</span></figcaption>)', r'\g<1>Ilustração gráfica do Jornal do Dia, de uso livre.\g<2>', doc, flags=re.S)
+            doc = re.sub(rf'(<span class="cred" id="cred-{n}">).*?(</span></figcaption>)', r'\g<1>Ilustração gráfica de O Dia em Perspetiva, de uso livre.\g<2>', doc, flags=re.S)
         alterou = True
         print(f, c["estado"])
     if alterou:

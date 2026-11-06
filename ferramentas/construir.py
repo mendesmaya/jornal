@@ -15,7 +15,7 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent
 RAIZ = BASE.parent
 URL_SITE = "https://mendesmaya.github.io/jornal/"
-NOME = "Jornal do Dia"
+NOME = "O Dia em Perspetiva"
 SUB = "Notícias verificadas · Cultura · Agenda do Porto · Passatempos"
 FONTES = ("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,600..900;1,600..700"
           "&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400&display=swap")
@@ -94,7 +94,7 @@ def figura(img, chave, rotulo, manifest, assets, idx):
     if cr and cr.get("estado") == "ok":
         autor, lic, origem = cr["autor"], cr["licenca"], cr["origem"]
     if cr and cr.get("estado") == "falhou":
-        src, tipo, autor, lic, origem = reserva, "Ilustração do jornal (imagem original indisponível)", "Jornal do Dia", "uso livre", ""
+        src, tipo, autor, lic, origem = reserva, "Ilustração do jornal (imagem original indisponível)", "O Dia em Perspetiva", "uso livre", ""
     if img.get("commons") and not autor:
         # autoria e licença são preenchidas pela ação do GitHub a partir da API do Commons
         cred = f'Imagem: Wikimedia Commons · <a href="{e(origem)}" rel="noopener">ver autoria e licença</a>'
