@@ -123,19 +123,21 @@ def verif_html(v):
     return f'<span class="verif">{e(txt)}</span>'
 
 
-def noticia(n, principal, manifest, assets, idx, rotulo, chave):
+def data_num(iso):
+    try:
+        d = dt.date.fromisoformat(iso)
+        return f"{d.day:02d}/{d.month:02d}/{d.year}"
+    except Exception:
+        return iso or ""
+
+
+def noticia(n, num, etiqueta, manifest, assets, idx, rotulo, chave):
     paras = "".join(f"<p>{e(p)}</p>" for p in n["texto"])
-    meta = f'<div class="meta"><span class="estado">{e(n["estado"])}</span><time datetime="{e(n.get("data", ""))}">{e(data_curta(n.get("data", "")))}</time></div>'
     fig = figura(n.get("imagem"), chave, rotulo, manifest, assets, idx)
-    rodape = f'<div class="rodape-noticia">{verif_html(n.get("verificacao"))}{fontes_html(n["fontes"])}</div>'
-    cab = f'<header class="cab">{meta}<h3>{e(n["titulo"])}</h3></header>'
-    corpo = f'<div class="corpo">{paras}</div>'
-    classe = "noticia larga" if principal else "noticia"
-    if principal:
-        # imagem mais alta quando o texto é longo, para equilibrar as duas colunas
-        n_car = sum(len(p) for p in n["texto"]) + len(n["titulo"])
-        classe += " texto-longo" if n_car > 1400 else (" texto-medio" if n_car > 800 else "")
-    return f'<article class="{classe}">{cab}{fig}{corpo}{rodape}</article>'
+    meta = (f'<p class="meta"><span class="estado">{e(n["estado"])}</span> · Data: '
+            f'<time datetime="{e(n.get("data", ""))}">{e(data_num(n.get("data", "")))}</time></p>')
+    return (f'<article class="card"><span class="tag">{num:02d} / {e(etiqueta)}</span><h3>{e(n["titulo"])}</h3>{fig}'
+            f'<div class="corpo">{paras}</div><div class="rodape-noticia">{fontes_html(n["fontes"])}{verif_html(n.get("verificacao"))}{meta}</div></article>')
 
 
 def construir(data):
@@ -162,23 +164,27 @@ def construir(data):
     if len(c["agenda"]) != 4:
         raise SystemExit("A agenda precisa de quatro dias")
 
-    def bloco(chave):
+    def seccao(sid, titulo, chaves, contagem):
         nonlocal idx
-        nome, _ = SECCOES[chave]
-        itens = [n for n in c["noticias"] if n["seccao"] == chave]
-        partes = []
-        for i, n in enumerate(itens):
-            # a primeira é a principal; se sobrar só uma, também ocupa a largura toda
-            partes.append(noticia(n, i == 0 or len(itens) == 2, manifest, assets, idx, nome, chave))
-            idx += 1
-        return (f'<section class="seccao s-{chave}" id="{chave}"><header><h2>{nome}</h2></header><div class="principal-wrap">{partes[0]}</div>'
-                f'<div class="lista-noticias n{len(partes) - 1}">{"".join(partes[1:])}</div></section>')
+        cartoes, num = [], 1
+        for chave in chaves:
+            nome, total = SECCOES[chave]
+            itens = [n for n in c["noticias"] if n["seccao"] == chave]
+            for i, n in enumerate(itens, 1):
+                etiqueta = f"{nome} {i}/{total}" if len(chaves) > 1 else nome
+                cartoes.append(noticia(n, num, etiqueta, manifest, assets, idx, nome, chave))
+                idx += 1
+                num += 1
+        ancoras = "".join(f'<span id="{k}"></span>' for k in chaves if k != sid)
+        return (f'<section class="newssection" id="{sid}">{ancoras}<h2>{titulo}</h2><p class="edition-count">{contagem}</p>'
+                f'<div class="grid">{"".join(cartoes)}</div></section>')
 
-    digital = "".join(bloco(k) for k in ("ciberseguranca", "ia", "tecnologia"))
-    resto = "".join(bloco(k) for k in ("mundo", "portugal"))
+    digital = seccao("tecnologia", "Tecnologia, IA e Cibersegurança", ["ciberseguranca", "ia", "tecnologia"],
+                     "08 notícias · 3 cibersegurança · 3 IA · 2 tecnologia")
+    resto = seccao("mundo", "Mundo", ["mundo"], "04 notícias") + seccao("portugal", "Portugal", ["portugal"], "04 notícias")
 
     arts = []
-    for a in sorted(c["cultura"], key=lambda a: list(RUBRICAS).index(a["rubrica"])):
+    for num, a in enumerate(sorted(c["cultura"], key=lambda a: list(RUBRICAS).index(a["rubrica"])), 1):
         ficha = ""
         if a.get("ficha"):
             ficha = '<dl class="ficha">' + "".join(f"<dt>{e(k)}</dt><dd>{e(v)}</dd>" for k, v in a["ficha"].items()) + "</dl>"
@@ -186,33 +192,35 @@ def construir(data):
         fig = figura(a.get("imagem"), "cultura", RUBRICAS[a["rubrica"]], manifest, assets, idx)
         idx += 1
         nota = f'<span class="verif">{e(a["nota"])}</span>' if a.get("nota") else ""
-        arts.append(f'<article class="artigo"><div class="rubrica">{RUBRICAS[a["rubrica"]]}</div><h3>{e(a["titulo"])}</h3>{fig}{ficha}<div class="corpo">{paras}</div>{nota}{fontes_html(a["fontes"])}</article>')
-    cultura = f'<section class="seccao s-cultura" id="cultura"><header><h2>Cultura</h2><span>Cinema · Artes · Música</span></header><div class="cultura-grelha">{"".join(arts)}</div></section>'
+        arts.append(f'<article class="card"><span class="tag">{num:02d} / {RUBRICAS[a["rubrica"]]}</span><h3>{e(a["titulo"])}</h3>{fig}'
+                    f'<div class="corpo">{ficha}{paras}</div><div class="rodape-noticia">{fontes_html(a["fontes"])}{nota}</div></article>')
+    cultura = (f'<section class="newssection" id="cultura"><h2>Cultura, Cinema e Arte</h2><p class="edition-count">04 artigos · cinema · artista · curiosidade · cultura em movimento</p>'
+               f'<div class="grid">{"".join(arts)}</div></section>')
 
-    tabs, paineis = [], []
+    dias_html = []
     for i, d in enumerate(c["agenda"]):
         dd = dt.date.fromisoformat(d["dia"])
-        rot = ("Hoje, " if i == 0 else "") + f"{DIAS[dd.weekday()].split('-')[0]} {dd.day}"
-        tabs.append(f'<button type="button" role="tab" aria-selected="{"true" if i == 0 else "false"}" aria-controls="dia-{d["dia"]}">{e(rot.capitalize())}</button>')
         evs = []
         for ev in d["eventos"]:
-            nota = f' <em>{e(ev["nota"])}</em>' if ev.get("nota") else ""
-            evs.append(f'<div class="evento"><div class="hora">{e(ev["horario"])}<small>{e(ev.get("tipo", ""))}</small></div><div><h3>{e(ev["nome"])}</h3><p>{e(ev["descricao"])}</p>'
-                       f'<div class="det">{e(ev["local"])} · {e(ev["preco"])} · <a href="{e(ev["url"])}" rel="noopener">{e(ev.get("ligacao", "Programação oficial"))}</a>{nota}</div></div></div>')
-        paineis.append(f'<div class="dia-agenda" role="tabpanel" id="dia-{d["dia"]}"{"" if i == 0 else " hidden"}><h3 class="sr">{e(data_pt(d["dia"]))}</h3>{"".join(evs)}</div>')
-    agenda = (f'<section class="seccao s-agenda" id="agenda"><header><h2>Agenda do Porto</h2><span>{e(data_curta(c["agenda"][0]["dia"]))} a {e(data_curta(c["agenda"][-1]["dia"]))}</span></header>'
-              f'<div class="dias" role="tablist" aria-label="Dias da agenda">{"".join(tabs)}</div>{"".join(paineis)}'
-              f'<p class="aviso">{e(c.get("agenda_aviso", "Horários, preços e lotação podem mudar. Confirma sempre na programação oficial antes de sair."))}</p></section>')
+            nota = f'<small class="nota-ev">{e(ev["nota"])}</small>' if ev.get("nota") else ""
+            evs.append(f'<div class="event"><small class="ev-hora">{e(ev["horario"])} · {e(ev.get("tipo", ""))}</small><strong>{e(ev["nome"])}</strong>'
+                       f'<p class="ev-desc">{e(ev["descricao"])}</p><p class="eventplace">{e(ev["local"])}</p><p class="eventprice">{e(ev["preco"])}</p>'
+                       f'<a href="{e(ev["url"])}" rel="noopener">{e(ev.get("ligacao", "Programação oficial"))}</a>{nota}</div>')
+        titulo_dia = ("Hoje · " if i == 0 else "") + f"{DIAS[dd.weekday()].capitalize()}, {dd.day} {MESES[dd.month - 1][:3]}."
+        dias_html.append(f'<div><h3>{e(titulo_dia)}</h3>{"".join(evs)}</div>')
+    agenda = (f'<section class="newssection" id="agenda"><h2>Agenda do Porto</h2><p class="edition-count">{e(data_num(c["agenda"][0]["dia"]))} a {e(data_num(c["agenda"][-1]["dia"]))} · 4 dias</p>'
+              f'<div class="agenda">{"".join(dias_html)}</div>'
+              f'<p class="game-note">{e(c.get("agenda_aviso", "Horários, preços e lotação podem mudar. Confirma sempre na programação oficial antes de sair."))}</p></section>')
 
     teclado = "".join(f'<button type="button" data-v="{v}">{v}</button>' for v in range(1, 10)) + '<button type="button" data-v="0" aria-label="Apagar">⌫</button>'
-    jogos_html = f'''<section class="seccao s-jogos" id="jogos"><header><h2>Passatempos</h2><span>Desafios novos todos os dias</span></header><div class="jogos-grelha">
-<div class="jogo"><h3>Sudoku</h3><p class="instr">Preenche a grelha para que cada linha, coluna e quadrado de 3×3 tenha os números de 1 a 9. Toca numa casa vazia e escolhe o número no teclado (ou usa o teclado do computador). Dificuldade: moderadamente difícil, com solução única.</p>
-<div class="barra"><span class="crono parado" id="sudoku-crono" aria-live="off">00:00</span><button class="btn" type="button" id="sudoku-recomecar">Recomeçar</button><button class="btn" type="button" id="sudoku-solucao">Mostrar solução</button></div>
+    jogos_html = f"""<section class="newssection" id="jogos"><h2>Jogos</h2><p class="edition-count">Sudoku · caça-palavras · desafios novos em cada edição</p><div class="games">
+<div class="gamebox"><h3>Sudoku</h3><p class="game-instructions">Preenche a grelha para que cada linha, coluna e quadrado de 3×3 tenha os números de 1 a 9. Toca numa casa vazia e escolhe o número no teclado (ou usa o teclado do computador). Dificuldade: moderadamente difícil, com solução única.</p>
+<div class="clock"><span>Tempo</span><output class="crono parado" id="sudoku-crono">00:00</output><button class="pill" type="button" id="sudoku-recomecar">Recomeçar</button><button class="pill" type="button" id="sudoku-solucao">Mostrar solução</button></div>
 <p class="estado-jogo" id="sudoku-estado" aria-live="polite"></p><div class="sudoku" id="sudoku" role="grid" aria-label="Grelha de Sudoku"></div><div class="teclado" id="sudoku-teclado">{teclado}</div></div>
-<div class="jogo"><h3>Caça-palavras</h3><p class="instr">Encontra as 15 palavras escondidas na horizontal, vertical ou diagonal, em qualquer sentido. Arrasta da primeira à última letra, ou toca na primeira e depois na última. Tema: {e(c.get("tema_palavras", "palavras desta edição"))}.</p>
-<div class="barra"><span class="crono parado" id="caca-crono" aria-live="off">00:00</span><button class="btn" type="button" id="caca-recomecar">Recomeçar</button><button class="btn" type="button" id="caca-solucao">Mostrar solução</button></div>
+<div class="gamebox"><h3>Caça-palavras</h3><p class="game-instructions">Encontra as 15 palavras escondidas na horizontal, vertical ou diagonal, em qualquer sentido. Arrasta da primeira à última letra, ou toca na primeira e depois na última. Tema: {e(c.get("tema_palavras", "palavras desta edição"))}.</p>
+<div class="clock"><span>Tempo</span><output class="crono parado" id="caca-crono">00:00</output><button class="pill" type="button" id="caca-recomecar">Recomeçar</button><button class="pill" type="button" id="caca-solucao">Mostrar solução</button></div>
 <p class="estado-jogo" id="caca-estado" aria-live="polite"></p><div class="caca" id="caca" aria-label="Grelha do caça-palavras"></div><ul class="palavras" id="caca-palavras"></ul></div>
-</div></section>'''
+</div></section>"""
 
     css = (BASE / "estilo.css").read_text()
     js = (BASE / "jogos.js").read_text()
@@ -220,21 +228,19 @@ def construir(data):
              "i.onerror=null;i.src=i.dataset.reserva;var f=i.closest('.figura'),t=f&&f.querySelector('.tipo-img');if(t)t.textContent='Ilustração (imagem original indisponível)'}")
     dia = dt.date.fromisoformat(data)
     destaque = c.get("resumo", "")
-    pagina = f'''<!doctype html>
+    pagina = f"""<!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{NOME} · {e(data_pt(data, False))}</title><meta name="description" content="{e(destaque)}">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="{FONTES}" rel="stylesheet">
-<style>{css}.sr{{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}}</style><script>{falha}</script></head><body>
-<header class="topo"><div class="contentor">
-<div class="faixa-topo"><span>{e(data_pt(data).capitalize())}</span><span>Edição n.º {e(c.get("numero", ""))}</span><span>Porto · Portugal · Edição digital</span></div>
-<h1 class="marca"><a href="../">{NOME}</a></h1><p class="lema">{SUB}</p>
-<nav class="indice-sec" aria-label="Secções"><a href="#ciberseguranca">Cibersegurança</a><a href="#ia">Inteligência Artificial</a><a href="#tecnologia">Tecnologia</a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a><a href="#cultura">Cultura</a><a href="#agenda">Agenda</a><a href="#jogos">Passatempos</a><a href="../">Arquivo</a></nav></div></header>
-<main class="contentor"><div class="sumario"><span class="sumario-rotulo">Hoje</span><p>{e(destaque)}</p></div>
-<div class="destaque-digital">{digital}</div>{resto}{cultura}{agenda}{jogos_html}</main>
-<footer class="rodape"><div class="contentor"><p>Cada notícia indica o estado da informação (facto confirmado, declaração, proposta, previsão ou anúncio), a data e as fontes consultadas. Procuramos confirmação em duas fontes independentes; quando só há uma, isso fica assinalado. Os textos são sínteses originais. As imagens têm autoria e licença identificadas; imagens de arquivo e ilustrativas estão marcadas como tal.</p>
-<p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></div></footer>
-<script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script></body></html>'''
+<style>{css}</style><script>{falha}</script></head><body><main>
+<div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {MESES[dia.month - 1][:3]} {dia.year}</span><span>Portugal · Leitura independente</span></div>
+<h1 class="masthead"><a href="../">{NOME}</a></h1>
+<p class="deck">{e(data_pt(data).capitalize())} · 16 notícias e 4 artigos culturais · Agenda Porto · Sudoku e caça-palavras</p>
+<nav aria-label="Secções"><a href="../">Arquivo</a><a href="#tecnologia">Tecnologia, IA e Cibersegurança</a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a><a href="#cultura">Cultura, Cinema e Arte</a><a href="#agenda">Agenda Porto</a><a href="#jogos">Jogos</a></nav>
+<p class="game-note">{e(destaque)}</p>
+{digital}{resto}{cultura}{agenda}{jogos_html}
+<footer><p>Cada notícia indica o estado da informação (facto confirmado, declaração, proposta, previsão ou anúncio), a data e as fontes consultadas. Procuramos confirmação em duas fontes independentes; quando só há uma, isso fica assinalado. Os textos são sínteses originais. As imagens têm autoria e licença identificadas; imagens de arquivo e ilustrativas estão marcadas como tal.</p>
+<p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></footer></main>
+<script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script></body></html>"""
     (pasta / "index.html").write_text(pagina)
     (assets / "imagens.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
     atualizar_arquivo(data, c)
@@ -254,13 +260,13 @@ def atualizar_arquivo(data, c):
         n = f" · n.º {e(x['numero'])}" if x.get("numero") else ""
         itens.append(f'<li class="{"novo" if i == 0 else ""}"><div class="d"><a href="./{x["data"]}/">{e(data_pt(x["data"], False))}</a><small>{e(DIAS[dt.date.fromisoformat(x["data"]).weekday()].capitalize())}{n}</small></div>'
                      f'<p>{e(x.get("resumo", ""))}{"<br>" if x.get("resumo") else ""}{e(x.get("formato", ""))}</p></li>')
-    pagina = f'''<!doctype html>
+    pagina = f"""<!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{NOME} · Arquivo</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="{FONTES}" rel="stylesheet">
-<style>{css}</style></head><body><header class="topo"><div class="contentor"><div class="faixa-topo"><span>Arquivo</span><span>{len(arq)} edições</span><span><a href="./{arq[0]["data"]}/">Edição mais recente</a></span></div>
-<h1 class="marca">{NOME}</h1><p class="lema">{SUB}</p></div></header>
-<main class="contentor"><section class="seccao"><header><h2>Arquivo de edições</h2><span>{len(arq)} edições</span></header><ul class="arquivo-lista">{"".join(itens)}</ul></section></main>
-<footer class="rodape"><div class="contentor"><p>Cada edição tem endereço permanente no formato {URL_SITE}AAAA-MM-DD/. As edições anteriores a 6 de novembro de 2026 mantêm o formato original.</p></div></footer></body></html>'''
+<style>{css}</style></head><body><main><div class="top"><span>Arquivo · {len(arq)} edições</span><span>Portugal · Leitura independente</span></div>
+<h1 class="masthead">{NOME}</h1><p class="deck">Todas as edições, da mais recente para a mais antiga</p>
+<nav aria-label="Atalhos"><a href="./{arq[0]["data"]}/">Edição mais recente</a></nav>
+<section class="newssection"><h2>Arquivo de edições</h2><p class="edition-count">{len(arq):02d} edições</p><ul class="arquivo-lista">{"".join(itens)}</ul></section>
+<footer><p>Cada edição tem endereço permanente no formato {URL_SITE}AAAA-MM-DD/. As edições anteriores a 6 de novembro de 2026 mantêm o formato original.</p></footer></main></body></html>"""
     (RAIZ / "index.html").write_text(pagina)
 
 
