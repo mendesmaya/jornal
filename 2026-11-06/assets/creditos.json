@@ -1,0 +1,122 @@
+{
+ "img/01-refrigeration-aisle.jpg": {
+  "estado": "ok",
+  "autor": "AG20044018",
+  "licenca": "CC BY-SA 4.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Refrigeration_aisle.jpg"
+ },
+ "img/02-ssh-keygen-openssh.png": {
+  "estado": "ok",
+  "autor": "No machine-readable author provided. User:Der Messer assumed (based on copyright claims).",
+  "licenca": "CC BY-SA 3.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Ssh-keygen_openssh.png"
+ },
+ "img/03-datacenter-server-racks-22370909788.jpg": {
+  "estado": "ok",
+  "autor": "Carl Lender from Sunrise, USA",
+  "licenca": "CC BY 2.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg"
+ },
+ "img/04-tux.png": {
+  "estado": "ok",
+  "autor": "Larry Ewing",
+  "licenca": "Attribution",
+  "origem": "https://commons.wikimedia.org/wiki/File:Tux.png"
+ },
+ "img/05-artificial-neural-network.png": {
+  "estado": "ok",
+  "autor": "en:User:Cburnett",
+  "licenca": "CC BY-SA 3.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Artificial_neural_network.svg"
+ },
+ "img/06-allen-telescope-array-flickr-brewbooks-5.jpg": {
+  "estado": "ok",
+  "autor": "brewbooks from near Seattle, USA",
+  "licenca": "CC BY-SA 2.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Allen_Telescope_Array_-_Flickr_-_brewbooks_(5).jpg"
+ },
+ "img/07-korea-exchange.jpg": {
+  "estado": "ok",
+  "autor": "hyolee2",
+  "licenca": "CC BY-SA 3.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Korea_exchange.JPG"
+ },
+ "img/08-abb-welding-robot.jpg": {
+  "estado": "ok",
+  "autor": "Ana 2016",
+  "licenca": "CC BY-SA 4.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:ABB_welding_robot.jpg"
+ },
+ "img/09-us-capitol-west-side.jpg": {
+  "estado": "ok",
+  "autor": "Martin Falbisoner",
+  "licenca": "CC BY-SA 3.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG"
+ },
+ "img/10-zaporizhzhia-city-administration.jpg": {
+  "estado": "ok",
+  "autor": "Brücke-Osteuropa",
+  "licenca": "Public domain",
+  "origem": "https://commons.wikimedia.org/wiki/File:Zaporizhzhia_City_Administration.jpg"
+ },
+ "img/11-renfe-serie-112.jpg": {
+  "estado": "ok",
+  "autor": "Alejandro Navarro López (Usuario Manchego)",
+  "licenca": "CC0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Renfe_Serie_112.jpg"
+ },
+ "img/12-macau-senado-square.jpg": {
+  "estado": "ok",
+  "autor": "kewl",
+  "licenca": "CC BY 2.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Macau_-_Senado_Square.jpg"
+ },
+ "img/13-auto-estrada-a1.jpg": {
+  "estado": "ok",
+  "autor": "Biling",
+  "licenca": "CC BY-SA 3.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Auto_estrada_A1.jpg"
+ },
+ "img/14-porto-praca-d-joao-i.jpg": {
+  "estado": "ok",
+  "autor": "(AntoniusJ)",
+  "licenca": "Public domain",
+  "origem": "https://commons.wikimedia.org/wiki/File:Porto_Praca_D_Joao_I.JPG"
+ },
+ "img/15-pal-cio-de-bel-m-lisboa-portugal-5284651931.jpg": {
+  "estado": "ok",
+  "autor": "Vitor Oliveira from Torres Vedras, PORTUGAL",
+  "licenca": "CC BY-SA 2.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_de_Bel%C3%A9m_-_Lisboa_-_Portugal_(5284651931).jpg"
+ },
+ "img/16-alentejo-oak-on-wheat-field.jpg": {
+  "estado": "ok",
+  "autor": "Faísca from Lisboa, Portugal",
+  "licenca": "CC BY 2.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Alentejo_oak_on_wheat_field.jpg"
+ },
+ "img/17-cinema-seats-in-blue.jpg": {
+  "estado": "ok",
+  "autor": "Laura Billings from London, UK",
+  "licenca": "CC BY 2.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Cinema_seats_in_blue.jpg"
+ },
+ "img/18-rolleiflex-camera.jpg": {
+  "estado": "ok",
+  "autor": "Juhanson",
+  "licenca": "CC BY-SA 3.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Rolleiflex_camera.jpg"
+ },
+ "img/19-azulejos-capela-das-almas-de-santa-catarina-porto.jpg": {
+  "estado": "ok",
+  "autor": "TurismoenPortugal",
+  "licenca": "CC BY 2.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Azulejos,_Capela_das_Almas_de_Santa_Catarina,_Porto.jpg"
+ },
+ "img/20-korg-ms-20-patch-feld.jpg": {
+  "estado": "ok",
+  "autor": "Zinnmann",
+  "licenca": "CC BY-SA 3.0",
+  "origem": "https://commons.wikimedia.org/wiki/File:Korg_MS-20_Patch-Feld.jpg"
+ }
+}
