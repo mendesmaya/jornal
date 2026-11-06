@@ -125,10 +125,14 @@ def noticia(n, principal, manifest, assets, idx, rotulo, chave):
     paras = "".join(f"<p>{e(p)}</p>" for p in n["texto"])
     meta = f'<div class="meta"><span class="estado">{e(n["estado"])}</span><time datetime="{e(n.get("data", ""))}">{e(data_curta(n.get("data", "")))}</time></div>'
     fig = figura(n.get("imagem"), chave, rotulo, manifest, assets, idx)
-    corpo = f'{meta}<h3>{e(n["titulo"])}</h3>{paras}{verif_html(n.get("verificacao"))}{fontes_html(n["fontes"])}'
+    rodape = f'<div class="rodape-noticia">{verif_html(n.get("verificacao"))}{fontes_html(n["fontes"])}</div>'
+    corpo = f'<div class="corpo">{meta}<h3>{e(n["titulo"])}</h3>{paras}</div>'
+    classe = "noticia larga" if principal else "noticia"
     if principal:
-        return f'<article class="noticia principal">{fig}<div>{corpo}</div></article>'
-    return f'<article class="noticia">{fig}{corpo}</article>'
+        # imagem mais alta quando o texto é longo, para equilibrar as duas colunas
+        n_car = sum(len(p) for p in n["texto"]) + len(n["titulo"])
+        classe += " texto-longo" if n_car > 1400 else (" texto-medio" if n_car > 800 else "")
+    return f'<article class="{classe}">{fig}{corpo}{rodape}</article>'
 
 
 def construir(data):
@@ -161,9 +165,11 @@ def construir(data):
         itens = [n for n in c["noticias"] if n["seccao"] == chave]
         partes = []
         for i, n in enumerate(itens):
-            partes.append(noticia(n, i == 0, manifest, assets, idx, nome, chave))
+            # a primeira é a principal; se sobrar só uma, também ocupa a largura toda
+            partes.append(noticia(n, i == 0 or len(itens) == 2, manifest, assets, idx, nome, chave))
             idx += 1
-        return f'<section class="seccao s-{chave}" id="{chave}"><header><h2>{nome}</h2><span>{len(itens)} notícias</span></header><div class="lista-noticias">{"".join(partes)}</div></section>'
+        return (f'<section class="seccao s-{chave}" id="{chave}"><header><h2>{nome}</h2><span>{len(itens)} notícias</span></header><div class="principal-wrap">{partes[0]}</div>'
+                f'<div class="lista-noticias n{len(partes) - 1}">{"".join(partes[1:])}</div></section>')
 
     digital = "".join(bloco(k) for k in ("ciberseguranca", "ia", "tecnologia"))
     resto = "".join(bloco(k) for k in ("mundo", "portugal"))
