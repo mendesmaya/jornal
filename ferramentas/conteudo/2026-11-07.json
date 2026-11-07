@@ -1,0 +1,886 @@
+{
+ "data": "2026-11-07",
+ "numero": "015",
+ "resumo": "O Paraguai destitui o presidente após o colapso de um banco digital, Bruxelas acusa o TikTok de prender utilizadores em espirais de conteúdos nocivos e o Orçamento para 2027 bate o recorde de propostas de alteração.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Operação europeia apreende mais de cem servidores de rede de fraude com investimentos e detém sete suspeitos",
+   "estado": "Facto confirmado · suspeitos detidos, sem julgamento",
+   "data": "2026-11-03",
+   "texto": [
+    "Uma operação coordenada na terça-feira, 3 de novembro, em seis países resultou na detenção de sete suspeitos e na apreensão de mais de cem servidores ligados a uma rede de burlas com falsas plataformas de investimento. A ação, dirigida pelo Ministério Público alemão de Itzehoe, contou com o apoio da Europol e da Eurojust e envolveu autoridades da Alemanha, Albânia, Chipre, Finlândia, Kosovo e Macedónia do Norte, onde foram feitas buscas em 17 locais.",
+    "Segundo a Europol, o alvo principal foi uma empresa suspeita de fornecer a grupos criminosos sites de negociação fraudulentos, usados por centros de chamadas que pressionavam as vítimas a entregar as poupanças. Os investigadores estimam prejuízos acima de quatro milhões de euros e potenciais vítimas em pelo menos 50 países. De acordo com a Bitdefender, a empresa operaria a partir de Chipre e de Israel e os centros de chamadas estariam na Albânia, no Kosovo e na Macedónia do Norte.",
+    "A investigação começou em 2022, depois de um casal alemão não ter conseguido levantar dinheiro de uma plataforma de negociação online, e já tinha levado a detenções nesse ano e em 2025. Os sete detidos agora podem vir a ser extraditados ou entregues à Alemanha. Além dos servidores, foram apreendidas provas digitais e outros bens."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A Bitdefender baseia-se sobretudo no comunicado da Europol; os pormenores sobre Chipre/Israel e o historial da investigação vêm da Bitdefender. O comunicado não indica o nome da operação nem a participação de Portugal."
+   },
+   "fontes": [
+    {
+     "nome": "Europol (comunicado, 3–4 nov.)",
+     "url": "https://www.europol.europa.eu/media-press/newsroom/news/investment-scams-potential-victims-in-least-50-countries-over-100-servers-seized"
+    },
+    {
+     "nome": "Bitdefender HotForSecurity (5 nov.)",
+     "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/europol-investment-scam-100-servers-seized"
+    }
+   ],
+   "imagem": {
+    "commons": "Europol Headquarters, The Hague, Netherlands - 20100609.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício da sede da Europol na Haia, Países Baixos",
+    "legenda": "Sede da Europol na Haia (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Três acusados nos EUA de usar IA para se fazerem passar por gestores e advogados e desviar 129 milhões de dólares",
+   "estado": "Acusação formal · arguidos presumem-se inocentes",
+   "data": "2026-11-05",
+   "texto": [
+    "A justiça norte-americana acusou três homens de montarem um esquema que usava inteligência artificial para imitar a voz e, por vezes, a imagem de presidentes executivos de empresas, levando funcionários a transferir cerca de 129 milhões de dólares. A acusação, anunciada na quinta-feira, 5 de novembro, pela procuradoria federal de Manhattan, inclui fraude eletrónica, roubo de identidade agravado e branqueamento de capitais.",
+    "Segundo os documentos judiciais citados pela AP, o grupo começava por enviar aos departamentos de contabilidade um e-mail aparentemente do presidente executivo, pedindo ajuda numa operação financeira confidencial. Seguia-se uma chamada telefónica ou por vídeo com a voz do gestor recriada por IA e, depois, o contacto com um falso advogado de uma grande sociedade internacional, que dava as instruções de pagamento. O dinheiro era convertido em criptomoedas para dificultar o rasto.",
+    "Entre as vítimas estão sistemas hospitalares do Missouri e da Califórnia, um banco de Rhode Island, uma tecnológica financeira britânica e uma empresa de comida para animais da Florida. Os arguidos, Jacob Soall, Sharon Hazan e Guy Sheetrit, foram detidos entre junho e setembro: dois em Espanha e um no Reino Unido. Os pedidos de extradição para os Estados Unidos estão pendentes. Cada acusação de fraude ou branqueamento prevê até 20 anos de prisão."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "SecurityWeek e CBS News publicam o mesmo texto da AP (contam como uma fonte); a ITPro é fonte independente e atribui a informação ao Departamento de Justiça e ao FBI. Nacionalidades: a AP indica Espanha, Reino Unido, Israel e Emirados sem as atribuir; a ITPro refere Soall como britânico, Hazan como israelita e Sheetrit ligado a Israel e aos Emirados."
+   },
+   "fontes": [
+    {
+     "nome": "AP via CBS News (6 nov.)",
+     "url": "https://www.cbsnews.com/news/3-ai-steal-129-million-companies-impersonating-executives-lawyers/"
+    },
+    {
+     "nome": "ITPro (6 nov.)",
+     "url": "https://www.itpro.com/security/cyber-crime/three-charged-after-impersonating-ceos-and-attorneys-in-usd129-million-deepfake-fraud-scheme"
+    },
+    {
+     "nome": "SecurityWeek / AP (5 nov.)",
+     "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/"
+    }
+   ],
+   "imagem": {
+    "commons": "Daniel Patrick Moynihan U.S. Courthouse, Manhattan, New York (7237347688).jpg",
+    "tipo": "arquivo",
+    "alt": "Fachada do tribunal federal Daniel Patrick Moynihan, em Manhattan",
+    "legenda": "Tribunal federal do Distrito Sul de Nova Iorque, em Manhattan (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Piratas ligados à Rússia atacaram telemóveis através de sites comprometidos, revela a Sekoia",
+   "estado": "Facto relatado por investigadores · atribuição com confiança moderada a alta",
+   "data": "2026-11-04",
+   "texto": [
+    "A empresa de cibersegurança Sekoia revelou uma campanha de grande escala em que visitantes de sites legítimos comprometidos, ou de cópias fraudulentas, eram atacados nos telemóveis sem precisarem de clicar em nada. Os investigadores atribuem a operação, com confiança moderada a alta, ao APT29, também conhecido como Midnight Blizzard, um grupo associado aos serviços de informações externas russos.",
+    "Entre os sites usados estavam os de uma produtora de gás ucraniana, de uma associação industrial norte-americana e de uma entidade militar búlgara. Os atacantes comprometeram ainda o serviço ucraniano de análise web Plerdy, cujo código era carregado por milhares de páginas, sobretudo na Ucrânia, entre 27 de agosto e 3 de setembro. Foram também criados domínios falsos que imitavam o site dos 250 anos dos EUA e um hotel de luxo em Londres.",
+    "O código inicial identificava o aparelho e servia cadeias de exploração para iPhone ou Android, capazes de roubar cookies, palavras-passe, mensagens, fotografias e dados de localização. Todas as falhas usadas já tinham correção da Apple e da Google, pelo que só ficavam expostos aparelhos desatualizados. Os programas maliciosos não sobreviviam a um reinício do telemóvel. A recomendação dos especialistas é instalar as atualizações de segurança mais recentes."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "BleepingComputer e SecurityWeek baseiam-se ambos no relatório da Sekoia."
+   },
+   "fontes": [
+    {
+     "nome": "BleepingComputer (4 nov.)",
+     "url": "https://bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices"
+    },
+    {
+     "nome": "SecurityWeek (5 nov.)",
+     "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/"
+    }
+   ],
+   "imagem": {
+    "commons": "Android Smartphones.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Vários telemóveis Android dispostos lado a lado",
+    "legenda": "Telemóveis Android (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Meta suspende novos termos que lhe permitiam recolher conteúdos de editores, depois de travões judiciais na Noruega e no Brasil",
+   "estado": "Factos confirmados · decisões judiciais provisórias, processos em curso",
+   "data": "2026-11-05",
+   "texto": [
+    "A Meta colocou em pausa a revisão dos seus Termos Comerciais, que deveria entrar em vigor a 20 de novembro. Na versão inicial, as novas regras autorizavam a empresa a usar conteúdos de domínios, páginas e endereços de contas empresariais nos seus produtos, incluindo no treino de modelos de IA generativa. Num aviso publicado na sua página, a empresa diz que as alterações não avançam naquela data e que os termos atuais se mantêm, enquanto consulta as partes interessadas.",
+    "O recuo segue-se a duas decisões judiciais provisórias. A 28 de outubro, o Tribunal de Primeira Instância de Oslo suspendeu temporariamente os planos da Meta, a pedido de empresas de comunicação social norueguesas, até haver decisão final. Na terça-feira, 3 de novembro, um tribunal de São Paulo suspendeu as cláusulas contestadas por associações brasileiras de jornais, revistas e rádio e televisão, exigindo consentimento expresso dos editores para que os seus conteúdos sirvam para treinar modelos de IA.",
+    "O tribunal brasileiro proibiu ainda a Meta de retaliar contra órgãos de informação que recusem os termos, sob pena de multa diária de um milhão de reais, até um limite de 100 milhões. Antes da pausa, a empresa já tinha retirado a palavra \"treinar\" da lista de usos permitidos e adiado a entrada em vigor, inicialmente marcada para 30 de outubro, mas os editores consideravam que a versão revista continuava a permitir uma recolha ampla de conteúdos. No Reino Unido, a autoridade da concorrência anunciou que vai analisar os termos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "As fontes divergem no número de empresas norueguesas envolvidas (a RSF fala em dez empresas e grupos queixosos; a 404 Media em 180 empresas e na associação do setor como apoiantes do processo) e na data exata do anúncio da pausa (a RSF refere 28 de outubro; a 404 Media diz 'no início desta semana'). A frase da Meta é citada do aviso da própria empresa. A referência à autoridade da concorrência britânica vem apenas da Dataconomy."
+   },
+   "fontes": [
+    {
+     "nome": "Repórteres Sem Fronteiras (5 nov.)",
+     "url": "https://rsf.org/en/courts-brazil-and-norway-block-meta-s-bid-exploit-news-content-without-permission"
+    },
+    {
+     "nome": "404 Media (5 nov.)",
+     "url": "https://www.404media.co/meta-generative-ai-commercial-terms-on-pause/"
+    },
+    {
+     "nome": "Dataconomy (6 nov.)",
+     "url": "https://dataconomy.com/2026/11/06/meta-pauses-ai-terms-after-backlash-and-legal-challenges/"
+    }
+   ],
+   "imagem": {
+    "commons": "A stack of newspapers.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Pilha de jornais dobrados",
+    "legenda": "Editores de imprensa contestaram em tribunal o uso dos seus conteúdos pela Meta (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Vencedor do Goncourt admite ter usado o ChatGPT no romance premiado",
+   "estado": "Declarações do autor · factos confirmados",
+   "data": "2026-11-04",
+   "texto": [
+    "Philippe Jaenada, de 62 anos, distinguido na terça-feira, 3 de novembro, com o Prémio Goncourt, o mais prestigiado galardão literário francês, reconheceu no dia seguinte, na rádio France Inter, que recorreu à inteligência artificial em três ocasiões durante a escrita de \"L'Inconnue du quai de Javel\". O romance investiga o assassínio, nunca resolvido, de uma jovem em Paris no final dos anos 1940. O júri escolheu-o por seis votos contra três.",
+    "Segundo o escritor, uma das frases do livro foi gerada pelo ChatGPT, como forma de jogo com o leitor; só a revelou aos jurados na véspera do anúncio e recusa dizer onde está. Usou ainda a ferramenta para troçar das respostas absurdas que esta deu a uma pergunta técnica e para pesquisa. Jaenada defende que a IA não pode ser ignorada, mas deve ser usada às claras e sem substituir os escritores.",
+    "A confissão chega pouco depois de outro caso: o romance \"C'était ça ou mourir\", do autor haitiano-canadiano Thélyson Orélien, foi retirado da seleção do Goncourt por suspeitas de uso de IA e de plágio, que o autor nega. Segundo a edição francesa do Quartz, a Academia Goncourt pondera mudar o regulamento para premiar apenas obras escritas por seres humanos, e algumas editoras planeiam passar manuscritos por detetores de IA."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A Euronews baseia-se na AFP. Não foi encontrada reação pública oficial da Academia Goncourt à confissão; a possível alteração do regulamento é referida apenas pelo Quartz."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews/AFP (4 nov.)",
+     "url": "https://www.euronews.com/2026/11/04/goncourt-2026-winner-philippe-jaenada-admits-using-ai-in-novel-sparking-ai-debate-in-liter"
+    },
+    {
+     "nome": "Quartz em francês (4 nov.)",
+     "url": "https://fr.qz.com/philippe-jaenada-goncourt-ia-trois-reprises-roman-110426"
+    },
+    {
+     "nome": "France 24 (3 nov.)",
+     "url": "https://www.france24.com/fr/culture/20261103-prix-goncourt-2026-prestigieuse-philippe-jaenada"
+    }
+   ],
+   "imagem": {
+    "commons": "Philippe Jaenada-Salon du livre en Bretagne 2012 (1).jpg",
+    "tipo": "arquivo",
+    "alt": "O escritor francês Philippe Jaenada numa feira do livro",
+    "legenda": "Philippe Jaenada no Salon du livre en Bretagne, em 2012 (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "IA revela milhares de ligações entre proteínas das mitocôndrias e aponta novos alvos contra doenças",
+   "estado": "Estudo publicado · resultados divulgados pela universidade",
+   "data": "2026-11-05",
+   "texto": [
+    "Investigadores da Universidade Texas A&M usaram o AlphaFold-Multimer, ferramenta de IA da Google DeepMind que prevê a forma de complexos de proteínas, para testar todas as combinações possíveis entre as cerca de 1100 proteínas das mitocôndrias humanas, as centrais energéticas das células. Foram mais de 630 mil pares analisados, num trabalho publicado na revista Nature Communications e divulgado na quinta-feira, 5 de novembro.",
+    "A equipa identificou 2895 interações prováveis, mais de metade nunca antes descritas, e encontrou os primeiros parceiros prováveis para 85 proteínas de função desconhecida. Experiências em leveduras e células humanas, feitas ao longo de cerca de dois anos, em parte com a Faculdade de Medicina da Universidade de Washington em St. Louis, confirmaram várias das ligações previstas.",
+    "O resultado interessa à medicina porque mutações em cerca de 30% das proteínas mitocondriais estão associadas a doenças como cancro, Parkinson, Alzheimer e doenças metabólicas hereditárias raras. As previsões ligam várias destas proteínas a vias biológicas desconhecidas, o que sugere novos alvos para diagnóstico e tratamento. Os autores disponibilizaram os dados gratuitamente numa base online, a MitoMatch, e sublinham que eventuais curas ainda estão distantes."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Informação baseada no comunicado da Texas A&M AgriLife, reproduzido pela EurekAlert; não foi encontrada cobertura jornalística independente nem foi possível consultar diretamente o artigo científico."
+   },
+   "fontes": [
+    {
+     "nome": "Texas A&M AgriLife Today (5 nov.)",
+     "url": "https://agrilifetoday.tamu.edu/2026/11/05/artificial-intelligence-points-researchers-toward-new-disease-targets-hidden-in-mitochondria/"
+    },
+    {
+     "nome": "EurekAlert (comunicado)",
+     "url": "https://www.eurekalert.org/news-releases/1150930"
+    }
+   ],
+   "imagem": {
+    "commons": "Mitochondria, mammalian lung - TEM.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Mitocôndrias vistas ao microscópio eletrónico de transmissão em tecido pulmonar de mamífero",
+    "legenda": "Mitocôndrias observadas ao microscópio eletrónico (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Bruxelas acusa TikTok de arrastar utilizadores para \"tocas de coelho\" de conteúdos nocivos",
+   "estado": "Conclusões preliminares · decisão final por tomar",
+   "data": "2026-11-06",
+   "texto": [
+    "A Comissão Europeia concluiu, de forma preliminar, que o TikTok viola o Regulamento dos Serviços Digitais por causa do chamado efeito \"toca de coelho\" do seu feed \"Para ti\". O anúncio foi feito na sexta-feira, 6 de novembro. Segundo Bruxelas, quanto mais um utilizador interage com um tipo de vídeo, mais conteúdos semelhantes lhe são mostrados, incluindo sobre problemas de saúde mental, tristeza, isolamento e imagem corporal, com prejuízos sobretudo para menores e adultos vulneráveis.",
+    "A Comissão considera que a plataforma não avaliou adequadamente estes riscos e que as medidas de mitigação existentes não são eficazes, defendendo que o desenho do feed tem de mudar. A vice-presidente executiva Henna Virkkunen afirmou que o algoritmo leva os utilizadores para espirais das quais não conseguem sair facilmente. O regulador dos media da Irlanda, país onde o TikTok tem a sede europeia, apoiou a investigação.",
+    "Esta é a terceira conclusão preliminar no mesmo processo, depois das de fevereiro, sobre design viciante, e de julho, sobre proteção de menores. O TikTok pode consultar o processo e responder por escrito. Se as conclusões forem confirmadas, a Comissão pode aplicar uma coima até 6% do volume de negócios anual mundial da empresa. Até à publicação da RTÉ, o TikTok não tinha comentado."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Comunicado oficial da Comissão Europeia e RTÉ (que acrescenta a declaração de Virkkunen, o contexto processual e o limite da coima)."
+   },
+   "fontes": [
+    {
+     "nome": "Comissão Europeia (6 nov.)",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-you-feed-breach-digital-services-act-harmful-rabbit-holes"
+    },
+    {
+     "nome": "RTÉ (6 nov.)",
+     "url": "https://www.rte.ie/news/europe/2026/1106/1598263-eu-tiktok-videos/"
+    }
+   ],
+   "imagem": {
+    "commons": "Berlaymont building 2022.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício Berlaymont, sede da Comissão Europeia, em Bruxelas",
+    "legenda": "Edifício Berlaymont, sede da Comissão Europeia, em Bruxelas (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Apple vai verificar ficheiros partilhados por ligações públicas do iCloud",
+   "estado": "Anúncio da empresa · entra em vigor com o iOS 27.3",
+   "data": "2026-11-04",
+   "texto": [
+    "A Apple vai passar a verificar se há \"conteúdo nocivo\" nas fotografias e ficheiros do iCloud partilhados através de ligações públicas, acessíveis a qualquer pessoa que tenha o endereço. A mudança, descrita num documento de apoio publicado esta semana, chega com o iOS 27.3 e as versões equivalentes para iPad, Mac e Vision Pro, que estão em fase de testes para programadores. Segundo a MacRumors, a versão final é esperada em dezembro.",
+    "A verificação não se aplica a partilhas restritas a pessoas escolhidas pelo utilizador. A Apple não define o que entende por conteúdo nocivo nem explica como é feita a análise. A empresa reserva-se o direito de remover conteúdos e de bloquear ou desativar contas, impedindo ainda a criação de novas contas com o mesmo e-mail ou número de telemóvel, e admite envolver as autoridades quando necessário.",
+    "A Apple lembra que os conteúdos partilhados publicamente deixam de ter encriptação ponto a ponto, mesmo com a Proteção Avançada de Dados ativada. Não é claro se as ligações criadas antes da atualização também serão analisadas. O documento de apoio não apresenta orientações sobre os critérios a aplicar."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ambas as fontes baseiam-se no mesmo documento de apoio da Apple; a data prevista de dezembro é indicada pela MacRumors."
+   },
+   "fontes": [
+    {
+     "nome": "MacRumors (4 nov.)",
+     "url": "https://macrumors.com/2026/11/04/ios-27-3-icloud-link-check"
+    },
+    {
+     "nome": "9to5Mac (4 nov.)",
+     "url": "https://9to5mac.com/2026/11/04/with-ios-27-3-apple-will-start-checking-icloud-public-links-for-harmful-content/"
+    }
+   ],
+   "imagem": {
+    "commons": "Aerial view of Apple Park.jpg",
+    "tipo": "arquivo",
+    "alt": "Vista aérea do campus circular da Apple em Cupertino, Califórnia",
+    "legenda": "Apple Park, sede da Apple em Cupertino (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Paraguai destitui o presidente Santiago Peña após colapso de banco digital; Pedro Alliana assume o cargo",
+   "estado": "Facto confirmado · investigação criminal em curso",
+   "data": "2026-11-06",
+   "texto": [
+    "O Senado do Paraguai destituiu o presidente Santiago Peña na sexta-feira, 6 de novembro, ao fim de um julgamento político de cerca de dez horas, por «mau desempenho de funções». Segundo a MercoPress, 44 dos 45 senadores votaram a favor, incluindo membros do Partido Colorado, a força política do próprio Peña. O vice-presidente, Pedro Alliana, prestou juramento perante o Congresso minutos depois e deverá cumprir o mandato até 15 de agosto de 2028.",
+    "A crise começou na terça-feira, 3 de novembro, quando o Banco Central interveio e mandou dissolver o Ueno Bank por insolvência e empréstimos irregulares a empresas dos seus donos. Cerca de 2,9 milhões de clientes ficaram com depósitos congelados, bem como centenas de milhões de dólares de fundos públicos, incluindo do instituto de segurança social. Peña foi acionista da holding do banco até abril de 2025 e Carlos Carvallo, que nomeou para o Banco Central, tinha sido o principal executivo do Ueno.",
+    "Na quinta-feira, 5 de novembro, Peña anunciou a demissão num vídeo, mas o Congresso não a chegou a aceitar e avançou com a destituição. A diferença tem peso: um ex-presidente que sai por renúncia torna-se senador vitalício, com imunidade. O Senado recusou o pedido de 72 horas para preparar a defesa; Peña não compareceu e fez-se representar por advogados.",
+    "Horas depois da votação, o Ministério Público ordenou a prisão domiciliária do ex-chefe de Estado, investigado por alegada administração danosa, abuso de confiança e tráfico de influências, segundo a imprensa paraguaia citada pela MercoPress. Peña nega qualquer irregularidade. A ordem abrange também Carlos Carvallo. Milhares de aforradores juntaram-se à porta do Congresso para celebrar a decisão, enquanto a oposição aceitou a sucessão «para garantir a continuidade institucional», mas com reservas em relação a Alliana."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Contagem da votação (44 a favor) e prisão domiciliária segundo a MercoPress, que cita a AP e o jornal La Nación; o processo no Congresso, a demissão não aceite e os números do Ueno Bank (2,9 milhões de clientes) segundo a Infobae. As acusações criminais concretas ainda não foram formalizadas em tribunal."
+   },
+   "fontes": [
+    {
+     "nome": "MercoPress (7 nov.)",
+     "url": "https://en.mercopress.com/2026/11/07/paraguay-s-senate-removes-santiago-pena-who-is-placed-under-arrest-and-pedro-alliana-takes-office"
+    },
+    {
+     "nome": "Infobae (5 nov.)",
+     "url": "https://www.infobae.com/america/america-latina/2026/11/05/santiago-pena-renuncio-a-la-presidencia-de-paraguay-por-el-escandalo-del-ueno-bank/"
+    }
+   ],
+   "imagem": {
+    "commons": "Perfil Oficial Santiago Peña .jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato oficial de Santiago Peña",
+    "legenda": "Santiago Peña, destituído da presidência do Paraguai na sexta-feira (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Kiev às escuras: novos ataques russos à rede elétrica e troca de acusações entre Zelensky e Klitschko",
+   "estado": "Factos confirmados · números de drones segundo a Força Aérea ucraniana",
+   "data": "2026-11-06",
+   "texto": [
+    "A Rússia lançou 227 drones de longo alcance contra a Ucrânia na noite de quinta para sexta-feira, 6 de novembro, segundo a Força Aérea ucraniana, que diz ter intercetado 196. O Ministério da Energia impôs cortes de emergência de eletricidade em sete regiões — Vinnytsia, Dnipropetrovsk, Jitomir, Zaporíjia, Kiev, Kharkiv e Chernihiv —, sendo a zona da capital a mais afetada devido a «danos significativos» na infraestrutura.",
+    "Kiev, com mais de três milhões de habitantes, enfrenta cortes de água prolongados e mais frequentes do que em invernos anteriores, temperaturas próximas de zero e o aquecimento central ainda desligado. Segundo a Reuters, os ataques atingiram pela primeira vez na guerra pontes sobre o rio Dniepre, e as falhas de energia já pararam o metro várias vezes. Na terça-feira, 3 de novembro, a Rússia tinha feito o maior ataque do ano contra o setor energético.",
+    "A crise abriu um conflito político. O presidente Volodymyr Zelensky classificou a situação como «extremamente grave» e responsabilizou em parte a câmara municipal por não ter aplicado as decisões de preparação para o inverno. O presidente da câmara, Vitali Klitschko, respondeu num vídeo, acusando o Governo de atrasar a aprovação de um plano de resiliência e alertando que, sem defesa antiaérea para as instalações críticas, a sua recuperação está em risco.",
+    "Klitschko disse entretanto, numa entrevista à televisão pública Suspilne, que os seus pedidos de reunião com o presidente ficaram sem resposta."
+   ],
+   "verificacao": {
+    "independentes": 2
+   },
+   "fontes": [
+    {
+     "nome": "The Kyiv Independent (6 nov.)",
+     "url": "https://kyivindependent.com/russian-attacks-kill-1-injure-21-across-ukraine-over-past-day-as-emergency-power-cuts-hit-7-regions/"
+    },
+    {
+     "nome": "Reuters, via Yahoo News (6 nov.)",
+     "url": "https://www.yahoo.com/news/articles/zelenskiy-kyiv-mayor-trade-blame-153741684.html"
+    },
+    {
+     "nome": "The Kyiv Independent (3 nov.)",
+     "url": "https://kyivindependent.com/kyiv-faces-emergency-power-cuts-widespread-water-outages-after-russias-largest-attack-on-energy-infrastructure-this-year/"
+    }
+   ],
+   "imagem": {
+    "commons": "TEC-6 Kiev5.JPG",
+    "tipo": "arquivo",
+    "alt": "Central termoelétrica n.º 6 de Kiev",
+    "legenda": "Central termoelétrica TEC-6, em Kiev (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Outubro foi o mais quente de sempre e 2026 vai quase de certeza ultrapassar 1,5 °C, diz o Copernicus",
+   "estado": "Dados de observação · previsão anual do Copernicus",
+   "data": "2026-11-05",
+   "texto": [
+    "O mês de outubro de 2026 foi o mais quente alguma vez registado à escala global, com uma temperatura média do ar à superfície 1,75 °C acima do período pré-industrial (1850-1900), segundo o serviço europeu Copernicus para as alterações climáticas. Foi o terceiro mês consecutivo acima de 1,5 °C. A temperatura média da superfície do mar também bateu o recorde para outubro, superando o valor de 2023.",
+    "Com base nestes dados, o Copernicus considera «virtualmente certo» (mais de 99% de probabilidade) que 2026 termine acima de 1,5 °C, com uma anomalia anual estimada entre 1,56 °C e 1,61 °C. O ano deverá ser o segundo mais quente de sempre, com cerca de 20% de hipóteses de igualar ou superar 2024, e a média de 2023 a 2026 deverá também ficar acima daquele limiar do Acordo de Paris.",
+    "Um El Niño excecionalmente forte está a acrescentar calor. Na zona de referência Niño 3.4, no Pacífico, a anomalia de temperatura atingiu +3,21 °C, acima dos picos dos episódios de 1982-83, 1997-98 e 2015-16, e o fenómeno deverá culminar perto do final do ano. Segundo a AFP, os meteorologistas admitem que 2027 possa vir a ser o ano mais quente de sempre.",
+    "Na Europa, outubro foi o segundo mais quente de que há registo, atrás de 2022, e o gelo marinho da Antártida ficou cerca de 9% abaixo da média, o segundo valor mais baixo da série de satélite. Os dados surgem dias antes do arranque, na segunda-feira, 9 de novembro, da cimeira do clima da ONU, a COP31, na Turquia."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ambas as fontes se baseiam no boletim mensal do Copernicus (C3S/ECMWF); a RTÉ publica o despacho da AFP."
+   },
+   "fontes": [
+    {
+     "nome": "Copernicus Climate Change Service (5 nov.)",
+     "url": "https://climate.copernicus.eu/copernicus-warmest-october-record-2026-virtually-certain-exceed-15degc"
+    },
+    {
+     "nome": "AFP, via RTÉ (6 nov.)",
+     "url": "https://www.rte.ie/news/world/2026/1106/1598253-2026-second-hottest-year/"
+    }
+   ],
+   "imagem": {
+    "commons": "1997 El Nino TOPEX.jpg",
+    "tipo": "arquivo",
+    "alt": "Imagem de satélite do oceano Pacífico durante o El Niño de 1997",
+    "legenda": "O El Niño de 1997-98 visto pelo satélite TOPEX/Poseidon; o episódio atual já superou esse pico numa zona-chave do Pacífico (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Já são 63 os países que eliminaram pelo menos uma doença tropical negligenciada",
+   "estado": "Relatório da OMS · dados até junho de 2026",
+   "data": "2026-11-04",
+   "texto": [
+    "Até junho de 2026, 63 países tinham eliminado pelo menos uma doença tropical negligenciada, contra 42 no final de 2020, segundo uma revisão intercalar do roteiro 2021-2030 da Organização Mundial da Saúde (OMS), divulgada na quarta-feira, 4 de novembro. O número de pessoas que precisam de tratamento ou outras intervenções contra estas doenças desceu para 1,41 mil milhões em 2024, menos 36% do que em 2010.",
+    "Entre os progressos destacados, os casos de doença do sono caíram 98% desde 1999 e a dracunculose, a doença do verme-da-guiné, atingiu um mínimo histórico de dez casos humanos em 2025. Surgiram também novas ferramentas, como uma formulação pediátrica de arpraziquantel contra a esquistossomose, uma vacina contra a dengue e duas contra a chicungunha. O diretor-geral, Tedros Adhanom Ghebreyesus, descreveu a eliminação destas doenças como um dos maiores êxitos da saúde global.",
+    "A OMS avisa, porém, que os ganhos podem perder-se. A dengue bateu um recorde de 15,1 milhões de casos em 2024, a erradicação da bouba está atrasada e só três indicadores específicos cumpriram as metas de 2025. O financiamento está 30% abaixo do nível anterior à pandemia e quase 80% da ajuda internacional vem de um pequeno grupo de doadores, o que deixa os programas vulneráveis a cortes súbitos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ambas as fontes reportam o mesmo relatório e comunicado da OMS; a UA.NEWS cita a agência Anadolu."
+   },
+   "fontes": [
+    {
+     "nome": "OMS (4 nov.)",
+     "url": "https://www.who.int/news/item/04-11-2026-progress-against-neglected-tropical-diseases-requires-sustained-action"
+    },
+    {
+     "nome": "Anadolu, via UA.NEWS (4 nov.)",
+     "url": "https://ua.news/en/health/vooz-63-krayini-podolali-shchonaimenshe-odnu-tropichnu-khvorobu-anadolu-agency"
+    }
+   ],
+   "imagem": {
+    "commons": "WHO HQ main building, Geneva, from East.JPG",
+    "tipo": "arquivo",
+    "alt": "Edifício principal da sede da Organização Mundial da Saúde, em Genebra",
+    "legenda": "Sede da OMS, em Genebra (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Orçamento de 2027 recebe número recorde de propostas de alteração e Miranda Sarmento diz «não» à oposição",
+   "estado": "Factos confirmados · votações na especialidade por realizar",
+   "data": "2026-11-06",
+   "texto": [
+    "Terminou na sexta-feira, 6 de novembro, o prazo para os partidos entregarem propostas de alteração ao Orçamento do Estado para 2027. Segundo a contagem da Lusa a partir da página do Parlamento, pouco depois das 18h00 já tinham dado entrada 2502 propostas, acima do máximo de 2176 registado no ano anterior. O Chega (564), o PCP (524) e o Livre (489) foram os que mais apresentaram; PSD e CDS-PP, que suportam o Governo, entregaram 76 em conjunto. O prazo acabou por se estender até meia hora depois do fim da audição do ministro das Finanças.",
+    "Nessa audição, que fechou a ronda de ministros na especialidade, Joaquim Miranda Sarmento recusou a generalidade das propostas da oposição. Considerou difícil acolher medidas fiscais que desequilibrem as contas e lembrou que o Governo prevê um saldo equilibrado este ano e um excedente de 0,1% do PIB em 2027. Ao PS, que propõe baixar o imposto sobre combustíveis e aplicar IVA zero a um cabaz alimentar com medidas de compensação, respondeu que as contas não batem certo: segundo o ministro, um ano inteiro de IVA zero custaria cerca de 800 milhões de euros, e não os 200 milhões estimados pelos socialistas.",
+    "Ao Chega, Miranda Sarmento apontou um custo total das propostas superior a 10 mil milhões de euros e advertiu para o risco de um novo resgate financeiro; rejeitou também propostas da IL e do PAN sobre habitação e IRS. Deixou apenas uma porta aberta ao Livre, prometendo ouvir ideias sobre incentivos à poupança num plano que o Governo está a preparar. O documento, aprovado na generalidade com a abstenção do PS, segue agora para as votações na especialidade, antes da votação final global, marcada no calendário parlamentar para 24 de novembro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A contagem de 2502 propostas é da Lusa (via CNN Portugal) às 18h10; o Observador refere «mais de 2800», provavelmente numa contagem posterior. A data de 24 de novembro para a votação final provém do calendário noticiado pela TSF."
+   },
+   "fontes": [
+    {
+     "nome": "CNN Portugal / Lusa (6 nov.)",
+     "url": "https://cnnportugal.iol.pt/oe2027/partidos/partidos-ja-entregaram-mais-de-2-500-propostas-de-alteracao-ao-orcamento-do-estado-e-um-novo-recorde/20261106/6aee1e81d34e5a653d7333d8"
+    },
+    {
+     "nome": "Observador (6 nov.)",
+     "url": "https://observador.pt/2026/11/06/da-esquerda-a-direita-miranda-sarmento-distribuiu-naos-aos-partidos-da-oposicao/"
+    },
+    {
+     "nome": "TSF (calendário do OE2027)",
+     "url": "https://www.tsf.pt/politica/artigo/oe2027-proposta-debatida-na-generalidade-a-27-e-28-de-outubro-votacao-final-a-24-novembro/18129642"
+    }
+   ],
+   "imagem": {
+    "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+    "tipo": "arquivo",
+    "alt": "Fachada do Palácio de São Bento, sede da Assembleia da República, em Lisboa",
+    "legenda": "Palácio de São Bento, em Lisboa, onde decorre a discussão do Orçamento do Estado (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Morte de idoso após dez horas de espera na urgência de Portimão abre dois inquéritos",
+   "estado": "Facto confirmado · inquéritos da ULS do Algarve e da IGAS em curso",
+   "data": "2026-11-05",
+   "texto": [
+    "Um homem de 87 anos morreu na madrugada de quarta-feira, 4 de novembro, na urgência do Hospital de Portimão, depois de ter esperado cerca de dez horas para ser observado por um médico. De acordo com a Unidade Local de Saúde (ULS) do Algarve, o doente chegou por volta das 17h00 de terça-feira com vómitos e dores abdominais e recebeu pulseira amarela na triagem. Quando foi chamado, perto das 04h00, não respondeu e foi encontrado inconsciente na sala de espera. A administração nega que tenha morrido nessa sala: diz que o óbito ocorreu na sala de reanimação, após manobras sem sucesso.",
+    "A ULS, que refere várias doenças prévias do utente, incluindo um AVC, abriu um inquérito interno, e a Inspeção-Geral das Atividades em Saúde (IGAS) confirmou que fará também uma investigação. Na quinta-feira, 5 de novembro, o diretor do serviço de urgência, João Coucelo, foi substituído; fonte do hospital garantiu à Lusa que a decisão não tem relação com o caso.",
+    "O bastonário da Ordem dos Médicos, Carlos Cortes, classificou a morte como lamentável e inadmissível, pediu esclarecimentos à ULS e defendeu mecanismos nacionais para evitar casos semelhantes, alertando para a falta de médicos na região e para o aumento da procura no inverno. Na sexta-feira, a associação Gabinete Sénior propôs regras para idosos nas urgências, como reavaliar doentes com pulseira amarela que esperem mais de 60 minutos e publicar os tempos de espera por idade."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Grande parte da informação factual tem origem na Lusa (reproduzida pelo Observador e pela CNN Portugal); o DN publicou texto assinado com informação adicional sobre a substituição do diretor e a posição do Gabinete Sénior. As causas da morte não são conhecidas."
+   },
+   "fontes": [
+    {
+     "nome": "Observador / Lusa (5 nov.)",
+     "url": "https://observador.pt/2026/11/05/ordem-dos-medicos-considera-inadmissivel-morte-de-idoso-apos-espera-nas-urgencias/"
+    },
+    {
+     "nome": "Diário de Notícias (5 nov.)",
+     "url": "https://www.dn.pt/sociedade/diretor-do-servio-de-urgncia-de-portimo-substitudo"
+    },
+    {
+     "nome": "Diário de Notícias (6 nov.)",
+     "url": "https://dn.pt/sociedade/gabinete-snior-indignado-com-morte-de-idoso-em-hospital-e-prope-novas-normas-de-atendimento"
+    }
+   ],
+   "imagem": {
+    "commons": "Centro Hospitalar do Barlavento Algarvio 1 - 02.09.2023.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício do hospital do Barlavento Algarvio, em Portimão",
+    "legenda": "Hospital de Portimão, integrado na ULS do Algarve, em 2023 (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Investigação liderada na NOVA identifica anfíbio de 66 milhões de anos que viveu no fim da era dos dinossauros",
+   "estado": "Estudo científico publicado",
+   "data": "2026-11-06",
+   "texto": [
+    "Uma equipa liderada por Alexandre Guillaume, investigador do centro GEOBIOTEC da Faculdade de Ciências e Tecnologia da Universidade NOVA de Lisboa, descreveu uma nova espécie de anfíbio que viveu na Península Ibérica há cerca de 66 milhões de anos. Batizado Synorerpeton ribagorzana, o animal media menos de cinco centímetros e lembrava uma salamandra. O estudo, divulgado na sexta-feira, 6 de novembro, foi publicado na revista Cretaceous Research e contou com investigadores do Instituto Geológico e Mineiro de Espanha, da Universidade de Saragoça e de um instituto catalão de paleoecologia.",
+    "A identificação assentou em mais de 80 ossos, recolhidos em 1997 perto de Areny, na província espanhola de Huesca, numa camada imediatamente abaixo do limite que marca a extinção em massa associada ao impacto de um asteroide. A espécie pertence aos albanerpetontídeos, um grupo extinto e pouco conhecido de anfíbios capazes de projetar a língua, como os camaleões, e com pele seca e escamosa.",
+    "É a primeira espécie descrita a partir dos muitos fósseis minúsculos e frágeis deste grupo encontrados na Europa. Os resultados sugerem que, no fim do Cretácico, terão coexistido no continente duas linhagens distintas, a ocidental possivelmente influenciada por espécies da América do Norte, o que ajuda a reconstituir antigas migrações de anfíbios."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Os dois textos são muito próximos e parecem basear-se na mesma comunicação da NOVA FCT; a CNN Portugal publica texto da Lusa."
+   },
+   "fontes": [
+    {
+     "nome": "Observador (6 nov.)",
+     "url": "https://observador.pt/2026/11/06/descoberta-nova-especie-de-anfibio-da-peninsula-iberica-com-66-milhoes-de-anos/"
+    },
+    {
+     "nome": "CNN Portugal / Lusa (6 nov.)",
+     "url": "https://cnnportugal.iol.pt/peninsula-iberica/anfibio/descoberta-nova-especie-de-anfibio-da-peninsula-iberica-com-66-milhoes-de-anos/20261106/6aeda84bd34e5a653d733288"
+    }
+   ],
+   "imagem": {
+    "commons": "Albanerpeton inexpectatum.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Representação de Albanerpeton inexpectatum, um anfíbio extinto da família dos albanerpetontídeos",
+    "legenda": "Albanerpeton, género aparentado com a nova espécie, da mesma família extinta (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Governo manda estudar extensão do Metro do Porto a Espinho, Feira, São João da Madeira e Oliveira de Azeméis",
+   "estado": "Anúncio do Governo · em estudo, sem custos nem calendário",
+   "data": "2026-11-04",
+   "texto": [
+    "O ministro das Infraestruturas e Habitação, Miguel Pinto Luz, anunciou na quarta-feira, 4 de novembro, numa cerimónia na Câmara do Porto, que deu indicação à Metro do Porto para estudar a chegada do metro aos concelhos do sul da Área Metropolitana: Espinho, Santa Maria da Feira, São João da Madeira e Oliveira de Azeméis. Uma das hipóteses é aproveitar o atual corredor ferroviário da Linha do Vouga, numa ligação com origem em Santo Ovídio, em Vila Nova de Gaia. A Área Metropolitana do Porto acrescentou que os estudos incluem também Vale de Cambra.",
+    "Segundo o ministro, a extensão poderia colocar cerca de 400 mil habitantes ao alcance da rede, uma mudança que classificou como transformadora. Trata-se, porém, apenas de uma fase de estudo: não foram anunciados traçado, estações, tipo de serviço, custo nem datas.",
+    "Na mesma cerimónia, a Câmara do Porto e a Infraestruturas de Portugal assinaram protocolos sobre a gestão da Via de Cintura Interna, estudos para novas circulares externas a nascente e a poente, a requalificação da Estrada da Circunvalação (EN12) e o uso do antigo Ramal da Alfândega."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "O DN publica texto da Lusa; a The Portugal News tem texto próprio com base nas declarações do ministro e da Área Metropolitana do Porto."
+   },
+   "fontes": [
+    {
+     "nome": "Diário de Notícias / Lusa (4 nov.)",
+     "url": "https://www.dn.pt/sociedade/metro-do-porto-vai-chegar-a-espinho-so-joo-da-madeira-oliveira-de-azemis-e-santa-maria-da-feira"
+    },
+    {
+     "nome": "The Portugal News (5 nov.)",
+     "url": "https://www.theportugalnews.com/news/2026-11-05/portugal-plans-major-porto-metro-expansion/1111522"
+    }
+   ],
+   "imagem": {
+    "commons": "Metro do porto.jpg",
+    "tipo": "arquivo",
+    "alt": "Composição do Metro do Porto",
+    "legenda": "Composição do Metro do Porto (imagem de arquivo)"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "\"A Bola Negra\": o épico queer de Los Javis chega às salas e divide a crítica",
+   "ficha": {
+    "Título original": "La bola negra",
+    "Realização": "Javier Calvo e Javier Ambrossi (Los Javis)",
+    "Elenco": "Guitarricadelafuente, Miguel Bernardeau, Carlos González, Lola Dueñas, Penélope Cruz, Glenn Close",
+    "Estreia em Portugal": "5 de novembro de 2026 (distribuição Nitrato Filmes)",
+    "Avaliação": "3,5 em 5 (síntese das críticas)"
+   },
+   "texto": [
+    "Estreou na quinta-feira, 5 de novembro, nas salas portuguesas o filme mais comentado do cinema espanhol deste ano. Realizado por Javier Calvo e Javier Ambrossi, a dupla conhecida como Los Javis, \"A Bola Negra\" cruza três épocas — 1932, 1937 e 2017 — para seguir as vidas de homens homossexuais em Espanha. O ponto de partida é um romance que Federico García Lorca deixou por acabar, com apenas algumas páginas escritas antes de ser assassinado em 1936, e a peça \"La piedra oscura\", de Alberto Conejero, que assina o argumento com os realizadores.",
+    "O percurso internacional pesa: o filme valeu aos realizadores o prémio de Melhor Realização no Festival de Cannes, em maio, é a candidatura espanhola ao Óscar de melhor filme internacional e, segundo a imprensa espanhola, tornou-se o mais visto do ano em Espanha. As críticas consultadas convergem nos pontos fortes: a ambição visual, a fotografia cuidada, a música e sobretudo o elenco, com destaque para a estreia como ator do músico Guitarricadelafuente e para as breves mas marcantes aparições de Penélope Cruz e Lola Dueñas.",
+    "As reservas também se repetem. Com mais de duas horas e meia, o filme pede paciência, e vários críticos apontam-lhe excesso de melodrama e uma narrativa previsível. No Observador, Eurico de Barros atribui-lhe duas estrelas e fala de excesso em quase tudo, da emoção às explicações; na revista The New Yorker, Justin Chang foi ainda mais duro. Em sentido oposto, Pedro Carreira, no esQrever, dá quatro estrelas e meia e elogia a contenção emocional, e a espanhola AccionCine atribui quatro estrelas, embora ache estereotipada a figura de Lorca e mal integrada a personagem de Glenn Close.",
+    "Porque importa: a apreciação aqui apresentada resulta das críticas consultadas, e não de visionamento próprio. Os agregadores internacionais mostram uma receção maioritariamente positiva, mas a crítica portuguesa está longe da unanimidade. Para quem se interessa por memória histórica, pela figura de Lorca ou pelo cinema espanhol contemporâneo, é um dos títulos da semana — com a ressalva de que a duração e o tom carregado não agradarão a todos."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT — estreias da semana (5 nov.)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-5-de-novembro-2026-15092/"
+    },
+    {
+     "nome": "Observador — crítica de Eurico de Barros (5 nov.)",
+     "url": "https://observador.pt/2026/11/05/a-bola-negra-um-filme-feito-de-excessos/"
+    },
+    {
+     "nome": "esQrever — crítica de Pedro Carreira (4 nov.)",
+     "url": "https://esqrever.com/2026/11/04/critica-a-bola-negra-as-historias-de-amor-que-a-historia-tentou-enterrar/"
+    },
+    {
+     "nome": "AccionCine — crítica",
+     "url": "https://www.accioncine.es/critica-de-la-bola-negra"
+    },
+    {
+     "nome": "Libertad Digital — sobre a crítica da The New Yorker (6 nov.)",
+     "url": "https://www.libertaddigital.com/cultura/cine/2026-11-06/brutal-critica-de-the-new-yorker-a-la-bola-negra-de-los-javis-es-un-fracaso-7487529/"
+    },
+    {
+     "nome": "Wikipedia — The Black Ball (film)",
+     "url": "https://en.wikipedia.org/wiki/The_Black_Ball_(film)"
+    }
+   ],
+   "nota": "A crítica da The New Yorker foi lida através da notícia da Libertad Digital, não no original. O dado de ser o filme mais visto do ano em Espanha é referido pela imprensa espanhola e não foi verificado em dados de bilheteira.",
+   "imagem": {
+    "commons": "35mm cinema projectors.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Projetores de cinema de 35 mm numa cabine de projeção",
+    "legenda": "Projetores de cinema de 35 mm (imagem ilustrativa; não mostra o filme)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Claude Monet, cem anos depois: o pintor que quis agarrar o tempo",
+   "ficha": {
+    "Nascimento": "Paris, 1840 (morreu em Giverny a 5 de dezembro de 1926)",
+    "Área": "Pintura (Impressionismo)",
+    "Obra essencial": "\"Impressão, Nascer do Sol\"; séries da Catedral de Rouen e dos Milheiros; ciclo das Ninfeias",
+    "Exposição atual": "\"Monet, painting time\", Musée de l'Orangerie, Paris, até 25 de janeiro de 2027"
+   },
+   "texto": [
+    "A 5 de dezembro cumprem-se cem anos sobre a morte de Claude Monet, e 2026 tem sido, em França, o ano do pintor. Nascido em Paris em 1840, cresceu em Le Havre, onde o pintor Eugène Boudin o levou a pintar ao ar livre, atento à luz da costa normanda. Viveu depois em vilas à beira do Sena, como Argenteuil e Vétheuil, e a partir de 1883 instalou-se em Giverny, onde construiu o jardim e o lago que viriam a ocupar as últimas décadas da sua vida.",
+    "Deixou mais de dois mil trabalhos. Uma das suas telas, \"Impressão, Nascer do Sol\", acabou por dar nome a todo um movimento, o Impressionismo. O traço mais original da sua obra é talvez a pintura em série: o mesmo motivo — milheiros, choupos, a fachada da Catedral de Rouen — repetido a horas e em estações diferentes, para mostrar como a luz transforma aquilo que vemos. Essa obsessão culminou nas Ninfeias, um ciclo com quase trezentas pinturas dedicadas ao lago de Giverny.",
+    "É precisamente a relação de Monet com o tempo que guia a principal exposição do centenário, \"Monet, painting time\", patente no Musée de l'Orangerie, em Paris, desde 30 de setembro e até 25 de janeiro de 2027. Reúne cerca de quarenta pinturas, sobretudo vindas do Musée d'Orsay e do Musée Marmottan Monet, e viaja depois para a Tate Modern, em Londres, entre fevereiro e junho de 2027. Na Normandia, o programa comemorativo soma mais de uma centena de iniciativas e termina com uma homenagem junto ao túmulo, em Giverny, no próprio dia 5 de dezembro.",
+    "Curiosidades: a 12 de novembro de 1918, um dia depois do armistício, Monet escreveu ao amigo Georges Clemenceau a oferecer duas telas ao Estado; o político convenceu-o a ceder um conjunto inteiro, e as grandes Ninfeias foram instaladas em duas salas ovais da Orangerie, abertas ao público em 1927, meses após a morte do pintor. Nos últimos anos, Monet pintou com a visão muito afetada por cataratas — queixava-se de já não ver as cores com a mesma intensidade — e foi operado no início da década de 1920."
+   ],
+   "fontes": [
+    {
+     "nome": "Musée de l'Orangerie — exposição \"Monet, painting time\"",
+     "url": "https://www.musee-orangerie.fr/en/whats-on/exhibitions/monet-painting-time"
+    },
+    {
+     "nome": "Musée de l'Orangerie — história do ciclo das Ninfeias",
+     "url": "https://www.musee-orangerie.fr/en/node/33"
+    },
+    {
+     "nome": "Normandie Tourisme — Claude Monet 2026",
+     "url": "https://en.normandie-tourisme.fr/highlight/claude-monet-2026/"
+    },
+    {
+     "nome": "PBS NewsHour — a visão de Monet e as cataratas",
+     "url": "https://www.pbs.org/newshour/amp/arts/how-monets-artistic-vision-shone-through-blurry-eyes"
+    }
+   ],
+   "imagem": {
+    "commons": "Claude Monet 1899 Nadar crop.jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato fotográfico a preto e branco de Claude Monet, de barba, em 1899",
+    "legenda": "Claude Monet fotografado por Nadar em 1899 (imagem de arquivo, domínio público)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que o lá a 440 hertz, a nota com que as orquestras afinam, só se tornou norma no século XX?",
+   "texto": [
+    "Antes de um concerto, a orquestra afina-se por uma única nota: o lá. Hoje parece óbvio que esse lá vibra 440 vezes por segundo (440 Hz), mas durante séculos não houve acordo. Cada cidade, teatro ou fabricante de órgãos tinha a sua referência, e ao longo do século XIX a afinação foi subindo, o que obrigava cantores e instrumentos a um esforço cada vez maior. Uma revista britânica notava em 1859 que a música de Händel, tocada assim, soava cerca de um tom acima do que o compositor imaginara.",
+    "A França foi a primeira a pôr ordem no assunto: em 1859, uma comissão fixou por lei o chamado \"diapason normal\" em 435 Hz. Em 1885, vários países europeus adotaram o mesmo valor. A mudança para os 440 Hz veio de uma conferência internacional reunida em Londres em 1939, que se apoiou num estudo segundo o qual a média das afinações europeias rondava esse número. Conta-se até que a BBC preferiu 440 a 439 por este ser um número primo, mais difícil de reproduzir em laboratório.",
+    "A Organização Internacional de Normalização (ISO) recomendou os 440 Hz em 1955 e publicou em 1975 a norma ISO 16, que fixa o lá nessa frequência com uma tolerância de meio hertz e que continua em vigor, tendo sido reconfirmada em 2022.",
+    "Curiosidades: a norma não impede as variações. Algumas orquestras afinam ligeiramente acima, para obter um som mais brilhante — a Filarmónica de Viena, por exemplo, usa 443 Hz."
+   ],
+   "fontes": [
+    {
+     "nome": "Mental Floss — Why Do Orchestras Tune to an A Note?",
+     "url": "https://www.mentalfloss.com/article/547437/why-orchestras-tune-to-440-hertz-a-note"
+    },
+    {
+     "nome": "ISO — ISO 16:1975, Standard tuning frequency",
+     "url": "https://www.iso.org/standard/3601.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Tuning-fork.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Diapasão metálico em forma de forquilha",
+    "legenda": "Um diapasão, instrumento usado para dar a nota de referência na afinação (imagem ilustrativa)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Lata 65: o projeto que pôs maiores de 65 anos a fazer arte urbana",
+   "ficha": {
+    "Fundação": "2012 (CoworkLisboa, com o WOOL – Covilhã Arte Urbana)",
+    "Área": "Arte urbana · intergeracional",
+    "Próximo destaque": "Edição mais recente em Águeda (outubro de 2026), com seniores e crianças num mural"
+   },
+   "texto": [
+    "Latas de tinta em spray, paredes e participantes com, em média, 85 anos. Foi assim, no final de outubro, numa escola básica de Assequins, em Águeda: durante dois dias, 16 seniores de três instituições do concelho juntaram-se a crianças da escola para pintar um mural. A sessão, promovida pela câmara municipal, é a mais recente paragem do Lata 65, um projeto português que há mais de uma década ensina arte urbana a pessoas com mais de 65 anos.",
+    "O Lata 65 nasceu em 2012, por iniciativa do CoworkLisboa em parceria com o WOOL – Covilhã Arte Urbana, festival que ajudou a pôr a Covilhã no mapa dos murais. É dinamizado pela arquiteta Lara Seixo Rodrigues e, hoje, pela plataforma de intervenção artística Mistaker Maker, que ela criou em 2014 em Lisboa. A proposta é simples: oficinas curtas, em ambiente descontraído, nas quais os participantes aprendem técnicas de intervenção urbana e acabam a aplicá-las numa parede da sua terra.",
+    "O formato viajou: em 2022, quando celebrou dez anos, contava cerca de 57 edições e perto de 700 seniores participantes, e já tinha levado idosos a pintar não só em Portugal como no Brasil, em Espanha e nos Estados Unidos. Em Águeda, vários participantes contaram que era a primeira vez que faziam algo do género, e uma senhora de 88 anos resumiu o efeito do convívio com as crianças: alegram a gente.",
+    "Porque importa: a arte urbana é quase sempre associada à juventude, e o Lata 65 inverte essa ideia. Ao trazer para a rua uma geração muitas vezes invisível, o projeto combate o isolamento e os estereótipos sobre a idade, e deixa nas cidades e vilas marcas visíveis de quem lá vive — uma forma de cultura feita com as comunidades, e não apenas para elas."
+   ],
+   "fontes": [
+    {
+     "nome": "Jornal da Bairrada (30 out.)",
+     "url": "https://www.jb.pt/2026/10/lata-65-seniores-e-criancas-juntos-na-criacao-de-mural-de-arte-urbana/"
+    },
+    {
+     "nome": "Central Press (24 out.)",
+     "url": "https://centralpress.pt/page/154379/redacao/2026/10/24/lata-65-junta-seniores-e-criancas-na-criacao-de-mural-de-arte-urbana-em-agueda"
+    },
+    {
+     "nome": "SAPO Forever Young (3 nov. 2022)",
+     "url": "https://foreveryoung.sapo.pt/projeto-leva-maiores-de-65-anos-a-conhecer-e-experimentar-varias-expressoes-de-arte-urbana/"
+    },
+    {
+     "nome": "Rádio Hertz (out. 2021)",
+     "url": "https://radiohertz.pt/ourem-lata-65-a-idade-ainda-e-apenas-um-numero/"
+    }
+   ],
+   "nota": "Os números de edições e participantes (57 e cerca de 700) datam de 2022; não foi encontrado balanço atualizado. Não foi anunciada uma próxima edição com data; a ficha indica a mais recente. O artigo da Central Press foi encontrado na pesquisa mas não lido na íntegra.",
+   "imagem": {
+    "commons": "Spray Paint Cans Berlin (Unsplash).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Várias latas de tinta em spray coloridas",
+    "legenda": "Latas de tinta em spray (imagem ilustrativa; não mostra o projeto Lata 65)"
+   }
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos na Agenda Porto da Câmara Municipal, no iPorto, na Viral Agenda e nas páginas do Teatro Municipal do Porto e dos organizadores. Onde se lê “por confirmar”, o horário ou o preço não estava disponível na fonte: confirma na ligação antes de sair.",
+ "agenda": [
+  {
+   "dia": "2026-11-07",
+   "eventos": [
+    {
+     "nome": "Magusto Melancólico com a Sonoscopia",
+     "descricao": "Encontro sonoro comunitário na Lomba, com variedades vanguardistas dos Novelo Vago, ações do Grupo Operário do Ruído e castanhas, caldo verde e bifanas.",
+     "horario": "15:30",
+     "tipo": "Música / Festa",
+     "local": "Casa Sindical de Campanhã, R. do Padre António Vieira, 195",
+     "preco": "Entrada livre",
+     "url": "https://www.agenda-porto.pt/en/evento/magusto-melancolico/",
+     "ligacao": "Agenda Porto",
+     "nota": "A Agenda Porto indica 17:00; o programa publicado começa às 15:30."
+    },
+    {
+     "nome": "Joana Sá – Corpo: Território",
+     "descricao": "Solo para piano semipreparado, bombo e caixa que parte da geologia vulcânica dos Açores para pensar a inquietação do planeta e do corpo.",
+     "horario": "18:50",
+     "tipo": "Música / Performance (O Museu como Performance, 7–8 nov.)",
+     "local": "Serralves",
+     "preco": "Bilhete Serralves: 15 € (residentes) / 19 € (não residentes)",
+     "url": "https://www.viralagenda.com/pt/events/1869030/joana-sa-corpo-territorio-variacoes-sobre-inquietacao",
+     "ligacao": "Viral Agenda"
+    },
+    {
+     "nome": "AFRO SALOYÁ, de Isabél Zuaa",
+     "descricao": "Isabél Zuaa encena e interpreta um espetáculo sobre raízes e reinvenção, criado a partir do Zambujal, lugar saloio e afro ao mesmo tempo.",
+     "horario": "19:30",
+     "tipo": "Teatro (última récita)",
+     "local": "Teatro Rivoli, Grande Auditório",
+     "preco": "9 €",
+     "url": "https://teatromunicipaldoporto.pt/en/programa/isab-l-zuaa-afro-sal-oy/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12. Falado em várias línguas, sem legendas."
+    },
+    {
+     "nome": "Nativo, de Tiago Manuel Soares",
+     "descricao": "Adufes, trancanholas e tambores tradicionais cruzam-se com eletrónica e vídeo num concerto em digressão pelo país.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "ACE – Teatro do Bolhão (Palácio do Bolhão), Rua Formosa, 342",
+     "preco": "Por confirmar",
+     "url": "https://www.viralagenda.com/pt/events/1879446/de-norte-a-sul-do-pais-nativo-leva-a-percussao-tradicional-a-novos-palcos",
+     "ligacao": "Viral Agenda",
+     "nota": "Preço não confirmado."
+    },
+    {
+     "nome": "FIOMS: Missa em Si menor de Bach (Kyrie e Gloria)",
+     "descricao": "O Coro Sinfónico da Lapa e a Orquestra Filarmónica Portuguesa, dirigidos por Osvaldo Ferreira, interpretam Bach no Festival Internacional de Órgão e Música Sacra.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Igreja da Lapa, Largo da Lapa",
+     "preco": "Por confirmar",
+     "url": "https://www.viralagenda.com/pt/events/1879440/fioms-aproxima-grandes-obras-da-musica-sacra-de-novos-publicos",
+     "ligacao": "Viral Agenda",
+     "nota": "Preço não confirmado (mais informação em fioms.pt)."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-08",
+   "eventos": [
+    {
+     "nome": "Coro Comunitário Alquimia",
+     "descricao": "Sessão de canto coletivo aberta a todas as idades e vozes, orientada pela cantora e pedagoga Patrícia Lestre.",
+     "horario": "10:00",
+     "tipo": "Família / Música participativa",
+     "local": "Coliseu Porto Ageas",
+     "preco": "Entrada livre (com inscrição prévia)",
+     "url": "https://www.viralagenda.com/pt/events/1877046/coro-comunitario-alquimia",
+     "ligacao": "Viral Agenda",
+     "nota": "Inscrição em alquimiacoliseu.com/coro."
+    },
+    {
+     "nome": "Fado – Homenagem a Gina Santos",
+     "descricao": "Tarde de fado em tributo a Gina Santos, promovida pelo Ideal Clube de Fado.",
+     "horario": "16:00",
+     "tipo": "Música",
+     "local": "Coliseu Porto Ageas",
+     "preco": "15 €",
+     "url": "https://www.viralagenda.com/pt/events/1877047/fado-homenagem-a-gina-santos",
+     "ligacao": "Viral Agenda",
+     "nota": "M/6."
+    },
+    {
+     "nome": "Fredrik Rasten – Six Moving Guitars",
+     "descricao": "Seis guitarras acústicas em afinação justa e três bailarinos transformam som e deslocação no espaço numa coreografia partilhada.",
+     "horario": "18:10",
+     "tipo": "Música / Performance (O Museu como Performance, 7–8 nov.)",
+     "local": "Serralves",
+     "preco": "Bilhete Serralves: 15 € (residentes) / 19 € (não residentes)",
+     "url": "https://www.viralagenda.com/pt/events/1867136/fredrik-rasten-six-moving-guitars",
+     "ligacao": "Viral Agenda",
+     "nota": "Bilhetes só na receção do museu."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-09",
+   "eventos": [
+    {
+     "nome": "Mercado Allure",
+     "descricao": "Marcas independentes, escolhidas a dedo, mostram o seu trabalho nas bancas do Bolhão.",
+     "horario": "10:00",
+     "tipo": "Feira (9–14 nov.)",
+     "local": "Mercado do Bolhão",
+     "preco": "Por confirmar",
+     "url": "https://www.viralagenda.com/pt/events/1873654/mercado-allure",
+     "ligacao": "Viral Agenda",
+     "nota": "Preço não confirmado (provavelmente entrada livre, segundo a Agenda Porto)."
+    },
+    {
+     "nome": "A Doce Vida, de Federico Fellini",
+     "descricao": "O clássico de 1960 sobre a Roma mundana regressa ao grande ecrã.",
+     "horario": "Por confirmar",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade",
+     "preco": "Por confirmar",
+     "url": "https://agenda-porto.pt/en/local/cinema-trindade",
+     "ligacao": "Agenda Porto",
+     "nota": "Horário e preço não confirmados."
+    },
+    {
+     "nome": "A Desconhecida, de Arthur Harari",
+     "descricao": "Filme do realizador francês Arthur Harari, em exibição no Trindade.",
+     "horario": "Por confirmar",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade",
+     "preco": "Por confirmar",
+     "url": "https://agenda-porto.pt/en/local/cinema-trindade",
+     "ligacao": "Agenda Porto",
+     "nota": "Horário e preço não confirmados."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-10",
+   "eventos": [
+    {
+     "nome": "Regresso ao Barroco",
+     "descricao": "A Orquestra Barroca e o Remix Ensemble cruzam um drama de Pier Paolo Pasolini com a Paixão segundo São João.",
+     "horario": "19:30",
+     "tipo": "Música",
+     "local": "Casa da Música",
+     "preco": "22 € a 26 €",
+     "url": "https://iporto.amp.pt/en/eventos/return-to-the-baroque/",
+     "ligacao": "iPorto",
+     "nota": "Sala não confirmada."
+    },
+    {
+     "nome": "Rodrigo Cuevas – La Belleza",
+     "descricao": "O artista asturiano apresenta o espetáculo La Belleza no Misty Fest.",
+     "horario": "Por confirmar",
+     "tipo": "Música (Misty Fest)",
+     "local": "Casa da Música",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/local/casa-da-musica",
+     "ligacao": "Agenda Porto",
+     "nota": "Horário, sala e preço não confirmados."
+    },
+    {
+     "nome": "Monstro",
+     "descricao": "A banda apresenta ao vivo o álbum de estreia, Unborn Love.",
+     "horario": "Por confirmar",
+     "tipo": "Música",
+     "local": "Lovers & Lollypops, R. de São Vítor, 143-A",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/local/lovers-andamp-lollypops/",
+     "ligacao": "Agenda Porto",
+     "nota": "Horário e preço não confirmados."
+    },
+    {
+     "nome": "Meu País Imaginário, de Patricio Guzmán",
+     "descricao": "Documentário do cineasta chileno Patricio Guzmán, em exibição no Trindade.",
+     "horario": "Por confirmar",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade",
+     "preco": "Por confirmar",
+     "url": "https://agenda-porto.pt/en/local/cinema-trindade",
+     "ligacao": "Agenda Porto",
+     "nota": "Horário e preço não confirmados."
+    },
+    {
+     "nome": "Elogio ao Fio, de Guga Szabzon",
+     "descricao": "Exposição individual de Guga Szabzon, inaugurada a 7 de novembro.",
+     "horario": "Por confirmar",
+     "tipo": "Exposição (até 9 jan.)",
+     "local": "Kubikgallery, R. da Restauração, 6",
+     "preco": "Entrada livre",
+     "url": "https://agenda-porto.pt/en/local/kubikgallery",
+     "ligacao": "Agenda Porto",
+     "nota": "Horário de abertura não confirmado."
+    }
+   ]
+  }
+ ]
+}
