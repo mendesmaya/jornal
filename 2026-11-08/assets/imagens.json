@@ -1,0 +1,142 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-refrigeration-aisle.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Refrigeration_aisle.jpg?width=1000",
+  "commons": "Refrigeration aisle.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-devuan-gnu-linux-tty-login-server-rack.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Devuan_GNU-Linux_-_tty_login_-_server_rack.jpg?width=1000",
+  "commons": "Devuan GNU-Linux - tty login - server rack.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-official-portrait-of-sanae-takaichi-prime-minister-of-japan-.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Official_portrait_of_Sanae_Takaichi%2C_Prime_Minister_of_Japan_%28HD%29.jpg?width=1000",
+  "commons": "Official portrait of Sanae Takaichi, Prime Minister of Japan (HD).jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-vacutainer-blood-bottles.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vacutainer_blood_bottles.jpg?width=1000",
+  "commons": "Vacutainer blood bottles.jpg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-students-working-on-class-assignment-in-computer-lab.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Students_working_on_class_assignment_in_computer_lab.jpg?width=1000",
+  "commons": "Students working on class assignment in computer lab.jpg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-berlaymont-building-2022.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Berlaymont_building_2022.jpg?width=1000",
+  "commons": "Berlaymont building 2022.jpg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-web-summit-2018-opening-night-november-5-en1-0537-4482338034.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Web_Summit_2018_-_Opening_Night_-_November_5_EN1_0537_%2844823380345%29.jpg?width=1000",
+  "commons": "Web Summit 2018 - Opening Night - November 5 EN1 0537 (44823380345).jpg",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-amsterdam-westpoort.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amsterdam_Westpoort.jpg?width=1000",
+  "commons": "Amsterdam Westpoort.jpg",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-gadi-eisenkot-r-h-3639.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gadi_Eisenkot_%28R_H_3639%29.jpg?width=1000",
+  "commons": "Gadi Eisenkot (R H 3639).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 10,
+  "ficheiro": "img/10-expo-2016-antalya-west-view.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Expo_2016_Antalya_-_West_View.jpg?width=1000",
+  "commons": "Expo 2016 Antalya - West View.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 11,
+  "ficheiro": "img/11-mombasa-skyline.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mombasa_skyline.jpg?width=1000",
+  "commons": "Mombasa skyline.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 12,
+  "ficheiro": "img/12-moderna-covid-19-vaccine.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moderna_COVID-19_vaccine.jpg?width=1000",
+  "commons": "Moderna COVID-19 vaccine.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 13,
+  "ficheiro": "img/13-praia-do-norte-beach-high-waves-nazar-portugal-39615885300.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praia_do_Norte_beach_-_High_waves_-_Nazar%C3%A9_-_Portugal_%2839615885300%29.jpg?width=1000",
+  "commons": "Praia do Norte beach - High waves - Nazaré - Portugal (39615885300).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 14,
+  "ficheiro": "img/14-pra-a-dom-pedro-iv-rossio.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pra%C3%A7a_Dom_Pedro_IV_%28Rossio%29.jpg?width=1000",
+  "commons": "Praça Dom Pedro IV (Rossio).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 15,
+  "ficheiro": "img/15-luis-montenegro-at-epp-summit-21-march-brussels.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luis_Montenegro_at_EPP_Summit%2C_21_March%2C_Brussels.jpg?width=1000",
+  "commons": "Luis Montenegro at EPP Summit, 21 March, Brussels.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 16,
+  "ficheiro": "img/16-bombas-de-gasolina-paranhos-porto.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombas_de_gasolina%2C_Paranhos%2C_Porto.jpg?width=1000",
+  "commons": "Bombas de gasolina, Paranhos, Porto.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 17,
+  "ficheiro": "img/17-serra-da-estrela-ii-portugal.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serra_da_Estrela_II_Portugal.jpg?width=1000",
+  "commons": "Serra da Estrela II Portugal.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 18,
+  "ficheiro": "img/18-joaqu-n-sorolla-y-bastida-strolling-along-the-seashore-googl.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joaqu%C3%ADn_Sorolla_y_Bastida_-_Strolling_along_the_Seashore_-_Google_Art_Project.jpg?width=1000",
+  "commons": "Joaquín Sorolla y Bastida - Strolling along the Seashore - Google Art Project.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 19,
+  "ficheiro": "img/19-talbot-open-door.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Talbot_open_door.jpg?width=1000",
+  "commons": "Talbot open door.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 20,
+  "ficheiro": "img/20-teatro-acad-mico-gil-vicente.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Teatro_Acad%C3%A9mico_Gil_Vicente.jpg?width=1000",
+  "commons": "Teatro Académico Gil Vicente.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
