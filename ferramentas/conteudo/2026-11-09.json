@@ -1,0 +1,997 @@
+{
+ "data": "2026-11-09",
+ "numero": "017",
+ "resumo": "Ataque em Cracóvia faz seis mortos e é investigado como terrorismo, a COP31 abre com divisões sobre o financiamento e a Bruna mantém o continente sob aviso, com nova depressão à vista na quarta-feira.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Crédit Mutuel Arkéa admite desvio na ordem dos 118 milhões de euros num ciberataque que entrou por um prestador externo",
+   "estado": "Facto confirmado pelo banco (ataque e operações fraudulentas); montante e circuito do dinheiro são estimativas não confirmadas oficialmente",
+   "data": "2026-11-06",
+   "texto": [
+    "O grupo bancário francês Crédit Mutuel Arkéa, que reúne o Crédit Mutuel de Bretagne, o Crédit Mutuel du Sud-Ouest e filiais como o banco online Fortuneo, confirmou a 4 de novembro ter sido alvo de um ciberataque que permitiu «operações fraudulentas». Segundo a instituição, os atacantes chegaram aos seus sistemas através da plataforma de um prestador de serviços externo, que não foi identificado, e usaram uma conta própria do banco para enviar transferências para outras instituições. O grupo garante que as contas dos clientes não foram usadas e que o incidente não terá consequências financeiras para eles, embora algumas transferências tenham sido executadas com atraso enquanto certas operações estiveram suspensas por precaução. Segundo o diário tunisino La Presse, o Ministério Público de Paris abriu um inquérito.",
+    "O banco não divulgou o valor exato do prejuízo, mas admitiu que o número de cerca de 118 milhões de euros (perto de 133 milhões de dólares), avançado por investigadores e pela imprensa, corresponde à «ordem de grandeza» correta. Garantiu também que a soma não ameaça a solidez financeira do grupo, que parte dos fundos já foi bloqueada e que a recuperação do restante está em curso. A estimativa inicial partiu do investigador de blockchain conhecido como ZachXBT, que detetou, entre 1 e 3 de novembro, a saída de mais de 130 milhões de dólares em stablecoins de contas abertas em plataformas como a Kraken, a Crypto.com e a OKX.",
+    "De acordo com a análise on-chain citada pelo site IT-Connect, o dinheiro terá sido transferido para contas em plataformas de criptoativos abertas com identidades falsas, convertido em USDC e USDT e depois parcialmente trocado por ether e dispersado através de pontes entre blockchains e da criptomoeda Monero. O caso ilustra o risco das ligações de confiança com fornecedores: uma porta de entrada externa pode bastar para mover fundos do próprio banco. A instituição alertou os clientes para tentativas de phishing de burlões que se façam passar por funcionários do serviço antifraude."
+   ],
+   "verificacao": {
+    "independentes": 3,
+    "nota": "Declarações do banco recolhidas pela Boursier.com (republicada pela Fortuneo) e pelo IT-Connect; abertura de inquérito pelo Ministério Público de Paris referida pelo La Presse (Tunísia), que não indica fonte de agência. O montante de 118 milhões de euros é uma estimativa de ZachXBT e da imprensa, que o banco apenas validou como «ordem de grandeza». O percurso do dinheiro (identidades falsas, conversão em ether, Monero) vem de análises de terceiros e não foi confirmado pelo banco. O prestador de serviços não foi identificado."
+   },
+   "fontes": [
+    {
+     "nome": "Boursier.com, via Fortuneo Bourse (4 nov.)",
+     "url": "https://bourse.fortuneo.fr/actualites/banques-credit-mutuel-arkea-fait-un-nouveau-point-sur-la-cyberattaque-6453398"
+    },
+    {
+     "nome": "IT-Connect (4 nov.)",
+     "url": "https://www.it-connect.fr/cyberattaque-credit-mutuel-arkea-fortuneo-133-millions/"
+    },
+    {
+     "nome": "La Presse (6 nov.)",
+     "url": "https://www.lapresse.tn/2026/11/06/cyberattaque-contre-le-credit-mutuel-arkea-en-france-plus-de-100-millions-deuros-detournes-une-enquete-a-ete-ouverte/"
+    }
+   ],
+   "imagem": {
+    "commons": "Siège du Crédit Mutuel Arkéa au Relecq-Kerhuon.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício-sede do Crédit Mutuel Arkéa no Relecq-Kerhuon, na Bretanha",
+    "legenda": "Sede do Crédit Mutuel Arkéa no Relecq-Kerhuon, perto de Brest (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "SonicWall corrige falha já explorada que permite contornar a autenticação SAML e o duplo fator nas VPN das firewalls",
+   "estado": "Facto confirmado · correção disponível; vulnerabilidade incluída no catálogo de falhas exploradas da CISA",
+   "data": "2026-11-07",
+   "texto": [
+    "A SonicWall publicou a 6 de novembro atualizações para sete vulnerabilidades no SonicOS, o sistema operativo das suas firewalls, entre as quais uma que já está a ser aproveitada por atacantes. A falha mais grave, registada como CVE-2026-19868, afeta o serviço de VPN SSL: um utilizador que tenha credenciais válidas para outro método de início de sessão consegue contornar a autenticação SAML, incluindo o segundo fator (MFA) imposto por essa via. O problema só se coloca quando o acesso VPN por SAML está ativo. A empresa disse ter investigado um relato de «potencial exploração», mas nem ela nem as autoridades descreveram os ataques.",
+    "No mesmo dia, a agência norte-americana de cibersegurança CISA acrescentou a vulnerabilidade ao seu catálogo de falhas conhecidas e exploradas, o que obriga as agências federais dos EUA a corrigi-la até 20 de novembro. O Centro Canadiano de Cibersegurança emitiu também um aviso. Estão afetados os equipamentos Gen7 (TZ, NSa, NSsp e NSv) com SonicOS 7.3.3-7015 ou anterior e os Gen8 (TZ, NSa e NSv) com 8.2.2-8015 ou anterior; as versões corrigidas são a 7.3.4-7013 e a 8.2.3-8015, e não há solução alternativa.",
+    "O mesmo boletim corrige duas falhas na interface de gestão, avaliadas com gravidade 8,8 em 10, que em certas condições podem ser exploradas sem autenticação, três erros de memória que permitem ataques de negação de serviço e um problema de armazenamento de palavras-passe nas versões virtuais. Os equipamentos de acesso remoto são alvo frequente: o catálogo da CISA lista já 20 vulnerabilidades da SonicWall, e a recomendação é atualizar de imediato as firewalls expostas à internet."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Detalhes técnicos, versões e prazo da CISA confirmados na SecurityWeek; exploração ativa e inclusão no catálogo da CISA confirmadas no aviso oficial do Centro Canadiano de Cibersegurança. A SecurityWeek indica gravidade CVSS 7,1; outras fontes referem 7,5, pelo que o valor não foi incluído. Não se sabe se a falha foi explorada antes de haver correção."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek (7 nov.)",
+     "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/"
+    },
+    {
+     "nome": "Centro Canadiano de Cibersegurança – aviso AV26-1133 (6 nov.)",
+     "url": "https://cyber.gc.ca/en/alerts-advisories/sonicwall-security-advisory-av26-1133"
+    }
+   ],
+   "imagem": {
+    "commons": "Server Rack with Spaghetti-Like Mass of Network Cables.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Bastidor de equipamentos de rede com muitos cabos ligados",
+    "legenda": "Bastidor de equipamento de rede (imagem ilustrativa; não mostra equipamentos SonicWall)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Ferramenta de pirataria com IA ARTEX espalha-se: mais de mil servidores expostos e novos ataques contra bancos",
+   "estado": "Facto confirmado por empresas de segurança (Censys, CrowdStrike, Microsoft); atribuições a grupos são avaliações dessas empresas",
+   "data": "2026-11-06",
+   "texto": [
+    "O ARTEX, uma plataforma de testes de intrusão de código aberto que coordena vários agentes de inteligência artificial ligados a grandes modelos de linguagem, tornou-se em poucos meses uma das ferramentas preferidas de grupos criminosos e de espionagem. Publicado no GitHub em julho por um utilizador identificado como «Autumn-27», que retirou o código em outubro alegando que se destinava apenas a testes autorizados, continua a circular em cópias e numa versão comercial chamada ARTEX PRO. A ferramenta automatiza o reconhecimento, a exploração de falhas, a instalação de portas traseiras, o roubo de credenciais e o movimento dentro das redes.",
+    "Um relatório da Censys publicado a 5 de novembro encontrou 1465 servidores com a consola do ARTEX acessível a partir da internet, cerca de 815 deles aparentemente distintos. Em 155 desses servidores havia também outras ferramentas ofensivas, como o Cobalt Strike, e 32 tinham diretórios públicos com implantes e kits de pós-exploração. Segundo a análise, os operadores usam várias plataformas de agentes em simultâneo e há servidores a revender acesso a modelos de IA, sinal de que esse acesso passou a fazer parte do arsenal.",
+    "Os casos multiplicam-se. A CrowdStrike associou o ARTEX a uma campanha contra instituições financeiras sul-coreanas entre setembro e outubro e a um grupo ligado à China, que diz ter visado mais de 200 organizações em menos de duas semanas. A Microsoft relacionou a ferramenta com o ataque aos clientes da ConnectWise e, a 6 de novembro, alertou que um grupo criminoso baseado no Camboja passou a usá-la contra bancos fora do Sudeste Asiático. A WorkOS, fornecedora de serviços de autenticação, também atribuiu ao ARTEX a intrusão numa aplicação interna da equipa comercial. Ainda assim, analistas da Google lembram que não há provas de pirataria totalmente autónoma, e a Check Point notou que estes agentes falham com frequência e chegam a reportar êxitos falsos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Números da Censys e contexto da CrowdStrike confirmados na Infosecurity Magazine; campanha do grupo ligado à China, ConnectWise e avaliação da Google confirmados na Let's Data Science (que cita a CrowdStrike e o itnews); intrusão na WorkOS confirmada na BleepingComputer. O alerta da Microsoft de 6 de novembro sobre o grupo Storm-3358 e os bancos é citado a partir do resumo da Cyber Recaps; a página da Microsoft não pôde ser aberta (pedido de acesso não respondido)."
+   },
+   "fontes": [
+    {
+     "nome": "Infosecurity Magazine (6 nov.)",
+     "url": "https://infosecurity-magazine.com/news/artex-activity-exceeds-reported"
+    },
+    {
+     "nome": "Let's Data Science (1 nov.)",
+     "url": "https://letsdatascience.com/news/artex-ai-hacking-framework-spreads-to-another-china-linked-g-80a54aec"
+    },
+    {
+     "nome": "BleepingComputer – caso WorkOS (3 nov.)",
+     "url": "https://bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app"
+    },
+    {
+     "nome": "Cyber Recaps (8 nov.)",
+     "url": "https://cyberrecaps.com/news/cybersecurity-news-november-08-2026"
+    },
+    {
+     "nome": "Microsoft Security Blog (6 nov.) (citado)",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/"
+    }
+   ],
+   "imagem": {
+    "commons": "Code on computer monitor (Unsplash).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Linhas de código-fonte coloridas num monitor de computador",
+    "legenda": "Código num ecrã de computador (imagem ilustrativa; não mostra a ferramenta ARTEX)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Sistema de IA prova conjetura de computação quântica em aberto há 18 anos, com verificação formal em Lean",
+   "estado": "Anúncio da empresa · prova verificada no assistente Lean; revisão por especialistas ainda em curso",
+   "data": "2026-11-06",
+   "texto": [
+    "A startup norte-americana Physical Superintelligence (PSI) anunciou a 6 de novembro que um sistema de investigação baseado em inteligência artificial produziu uma prova da conjetura de Aaronson-Ambainis, um problema da teoria da computação quântica proposto em 2008 por Scott Aaronson e Andris Ambainis. Segundo a empresa, o sistema, que recorreu a várias instâncias de um modelo da Anthropic não disponível ao público, encontrou uma prova completa ao terceiro dia de funcionamento. As instâncias pesquisaram a literatura, propuseram e combinaram ideias e testaram argumentos, algumas em coordenação entre si.",
+    "Em termos simples, a conjetura pergunta se um algoritmo quântico pode ganhar uma vantagem exponencial, medida pelo número de vezes que consulta os dados de entrada, quando esses dados são aleatórios e não têm qualquer estrutura a explorar. A prova indica que não: nesse modelo, um algoritmo clássico consegue aproximar a resposta do quântico na maioria dos casos sem precisar de exponencialmente mais consultas. Ou seja, grandes vantagens quânticas deste tipo exigem problemas com estrutura. O trabalho, segundo a The Quantum Insider, reforça um resultado clássico da combinatória e corrige uma afirmação de um artigo anterior em que se apoiava.",
+    "O teorema principal e a formulação da conjetura foram formalizados no Lean, um assistente de prova cujo núcleo verifica cada passo lógico, e o investigador David Turturean, que escolheu o problema, operou o sistema e reviu o texto final, assume a responsabilidade pela sua correção. Uma equipa da Universidade de Stanford, que em agosto provara um caso mais restrito, analisou a prova e prepara uma explicação mais curta. As cautelas são importantes: o resultado limita consultas aos dados e não o tempo de cálculo, não diz nada sobre o valor comercial dos computadores quânticos e a maioria das afirmações sobre o desempenho do sistema vem da própria empresa."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Anúncio confirmado na The Quantum Insider e na RuntimeWire, ambas baseadas nos materiais da PSI (artigo, blogue e repositório no GitHub). A revisão pela equipa de Stanford é referida pela The Quantum Insider; não foram encontradas reações públicas de Scott Aaronson ou Andris Ambainis. O papel exato do modelo da Anthropic e a reprodutibilidade do método não foram verificados de forma independente."
+   },
+   "fontes": [
+    {
+     "nome": "The Quantum Insider (6 nov.)",
+     "url": "https://thequantuminsider.com/2026/11/06/ai-assisted-proof-settles-longstanding-question-about-quantum-speedups/"
+    },
+    {
+     "nome": "RuntimeWire (6 nov.)",
+     "url": "https://runtimewire.com/article/physical-superintelligence-aaronson-ambainis-proof"
+    }
+   ],
+   "imagem": {
+    "commons": "IBM Quantum System One.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Computador quântico IBM Quantum System One dentro de um invólucro de vidro",
+    "legenda": "Computador quântico IBM Quantum System One (imagem ilustrativa; sem relação com a prova anunciada)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "OpenAI fecha primeira parcela de 11 mil milhões de dólares, com avaliação de 1,25 biliões, abaixo do que pretendia",
+   "estado": "Notícia da Bloomberg com base em fontes anónimas · não confirmada oficialmente pela OpenAI; ronda ainda em curso",
+   "data": "2026-11-06",
+   "texto": [
+    "A OpenAI, criadora do ChatGPT, terá concluído a primeira parte de uma nova ronda de financiamento, no valor de 11 mil milhões de dólares, que avalia a empresa em 1,25 biliões de dólares, segundo a Bloomberg, que cita pessoas a par do processo. A notícia, publicada a 6 de novembro e retomada pela Reuters, indica que a ronda poderá chegar a 20 mil milhões nas próximas semanas. Os investidores desta parcela não foram identificados.",
+    "Os números ficam aquém da ambição inicial. De acordo com a Bloomberg e o Wall Street Journal, a OpenAI começou por procurar 30 mil milhões de dólares ou mais, com uma avaliação de 1,4 biliões, e reduziu o objetivo num contexto de quedas acentuadas das ações ligadas à IA nos mercados. Ainda assim, a avaliação representa um salto de cerca de 47% face aos 852 mil milhões da ronda de março, em que a empresa reuniu 122 mil milhões de dólares em compromissos. Não é claro se o valor de 1,25 biliões se refere à avaliação antes ou depois do novo dinheiro.",
+    "A ronda funciona como um teste ao apetite dos investidores privados antes de uma eventual entrada em bolsa das grandes empresas de IA. A rival Anthropic já entregou ao regulador norte-americano o pedido de admissão à cotação no Nasdaq, com uma primeira versão a 26 de outubro e uma atualização a 2 de novembro, ainda sem preço nem data. A disputa por capital reflete os custos colossais destas empresas com chips e centros de dados, num momento em que alguns grandes clientes começam a travar a expansão da capacidade contratada."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Parcela de 11 mil milhões e avaliação confirmadas na GV Wire (texto da Reuters que cita a Bloomberg) e na RuntimeWire; objetivo inicial de 30 mil milhões e possível total de 20 mil milhões referidos pela RuntimeWire e pela FourWeekMBA, que citam a Bloomberg e o Wall Street Journal. Todas as fontes dependem, em última análise, da Bloomberg e de fontes anónimas. Os pedidos de admissão à bolsa da Anthropic constam da análise da sec-api.io aos documentos entregues à SEC. Nota: o redator deste texto é um modelo da Anthropic."
+   },
+   "fontes": [
+    {
+     "nome": "GV Wire / Reuters (6 nov.)",
+     "url": "https://gvwire.com/2026/11/06/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports/"
+    },
+    {
+     "nome": "RuntimeWire (6–7 nov.)",
+     "url": "https://runtimewire.com/article/openai-11-billion-125-trillion-valuation-funding"
+    },
+    {
+     "nome": "FourWeekMBA (6 nov.)",
+     "url": "https://fourweekmba.com/ai-openai-said-to-close-11b-at-1-25t-round-may-reach-20b/"
+    },
+    {
+     "nome": "sec-api.io – análise dos documentos de entrada em bolsa da Anthropic (5 nov.)",
+     "url": "https://sec-api.io/insights/anthropic-ant-s-1-and-s-1-a-ipo-filings-analysis-q3-2026-revenue-17-0bn-and-895bn-compute-commitments"
+    }
+   ],
+   "imagem": {
+    "commons": "Pioneer Building, San Francisco (2019) -1.jpg",
+    "tipo": "arquivo",
+    "alt": "Fachada de tijolo do Pioneer Building, em São Francisco",
+    "legenda": "Pioneer Building, em São Francisco, onde a OpenAI teve sede (imagem de arquivo, 2019)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Inteligência artificial ajuda Moçambique a encontrar crianças que nunca foram vacinadas",
+   "estado": "Facto confirmado · plataforma em uso; expansão a mais de 80 distritos anunciada em setembro",
+   "data": "2026-11-08",
+   "texto": [
+    "Cerca de um quarto das crianças moçambicanas, 24% segundo o Inquérito Demográfico e de Saúde de 2022-2023, nunca recebeu qualquer vacina de rotina. Para chegar até elas, o Ministério da Saúde de Moçambique está a usar uma plataforma de análise de dados com inteligência artificial, a PAAD (Plataforma Avançada de Análise de Dados), desenvolvida em conjunto com a empresa Zenysis Technologies e com o apoio da Gavi, a Aliança para as Vacinas. A ferramenta junta, num único painel, informação de mais de uma dezena de sistemas de saúde que antes não comunicavam entre si, sobre vacinação, disponibilidade de vacinas e desempenho dos serviços.",
+    "Na prática, as equipas usam-na para identificar zonas com baixa cobertura vacinal, detetar incoerências nos dados e localizar comunidades com falhas na vacinação. Um responsável provincial pela imunização na Zambézia contou que análises que lhe levavam mais de um dia em folhas de Excel passaram a demorar uma fração desse tempo. A plataforma já é usada a nível nacional e nas 11 províncias, e Moçambique anunciou em setembro o alargamento do uso ao nível distrital, de 15 para mais de 80 distritos em seis províncias.",
+    "Os progressos são visíveis nos números da UNICEF e da Organização Mundial da Saúde: a cobertura da terceira dose da vacina contra a difteria, o tétano e a tosse convulsa subiu de 55% em 2022 para 70% em 2023, embora não seja possível atribuir essa melhoria apenas à plataforma. A tecnologia tem raízes numa emergência: depois do ciclone Idai, em 2019, uma versão anterior ajudou a montar uma sala de operações virtual na província de Sofala, onde os casos diários de cólera caíram de cerca de 400 para zero em menos de um mês."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Dados e declarações confirmados no artigo da Gavi (VaccinesWork, 4 nov.) e no texto da Lusa publicado pelo Observador (8 nov.), que se baseia nesse artigo; não são, por isso, totalmente independentes. A Gavi é parceira do projeto. A relação entre a plataforma e a subida da cobertura vacinal não está demonstrada nas fontes."
+   },
+   "fontes": [
+    {
+     "nome": "Observador / Lusa (8 nov.)",
+     "url": "https://observador.pt/2026/11/08/inteligencia-artificial-esta-a-ajudar-campanhas-de-vacinacao-em-mocambique/"
+    },
+    {
+     "nome": "Gavi – VaccinesWork (4 nov.)",
+     "url": "https://www.gavi.org/vaccineswork/how-ai-helping-mozambique-boost-vaccine-decision-making"
+    }
+   ],
+   "imagem": {
+    "commons": "Vaccination of a child.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Profissional de saúde a vacinar uma criança",
+    "legenda": "Vacinação de uma criança (imagem ilustrativa; não foi captada em Moçambique nem mostra a campanha)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Nvidia abre investigação independente às suspeitas de que o líder, Jensen Huang, foi alvo de espionagem chinesa",
+   "estado": "Facto confirmado (investigação anunciada pelo conselho de administração); acusações de espionagem são alegações de responsáveis norte-americanos citadas pela imprensa",
+   "data": "2026-11-08",
+   "texto": [
+    "O conselho de administração da Nvidia, a maior fabricante mundial de chips para inteligência artificial, anunciou no domingo, 8 de novembro, uma investigação independente às notícias de que o fundador e presidente executivo, Jensen Huang, terá sido alvo de serviços de informações estrangeiros. A averiguação será supervisionada por uma comissão de administradores independentes, com apoio de advogados externos. O conselho afirma não ter, para já, motivos para crer que a segurança nacional ou segredos da empresa tenham sido comprometidos, e Huang continua em funções e comprometeu-se a colaborar.",
+    "Em causa está uma mulher conhecida como Alice Huang (ou Huang Le), apresentada como diretora da Megaspeed, uma empresa de centros de dados com sede em Singapura. Segundo o New York Times, responsáveis norte-americanos acusam-na de espiar para a China, com o objetivo de obter informação sobre o hardware mais avançado da Nvidia e de convencer o gestor a defender a exportação de chips para o país. O mesmo jornal noticiou, citado pelo Gizmodo, que Jensen Huang admitiu ao conselho ter tido uma relação íntima com ela e pediu desculpa à família. A Nvidia tinha antes afirmado que os contactos entre ambos eram de rotina e que não houve fuga de informação sensível; Pequim já classificou de «especulação infundada» acusações semelhantes.",
+    "O caso chegou ao Congresso dos EUA: a 5 de novembro, três congressistas republicanos, incluindo os presidentes da comissão de Negócios Estrangeiros e da comissão sobre o Partido Comunista Chinês, pediram a Huang uma reunião à porta fechada sobre as defesas da empresa contra adversários estrangeiros e sobre a relação com Alice Huang. Não há, até agora, indícios técnicos de intrusão informática, e o anúncio da Nvidia não identifica o serviço de informações nem a duração da alegada operação. Analistas admitem que o desfecho possa pesar na liderança da empresa e aumentar o escrutínio das vendas de chips à China."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Investigação e declaração do conselho confirmadas no Gizmodo (8 nov.) e na GBHackers (9 nov.); carta dos congressistas confirmada na SBS (6 nov.), que cita a Axios, o New York Times e o Wall Street Journal. A admissão da relação vem do New York Times, citado pelo Gizmodo, e não foi lida diretamente. A declaração original da Nvidia não foi consultada. As acusações de espionagem não estão provadas."
+   },
+   "fontes": [
+    {
+     "nome": "Gizmodo (8 nov.)",
+     "url": "https://gizmodo.com/jensen-huang-admits-to-having-an-affair-with-nvidias-chinese-spy-2000836796"
+    },
+    {
+     "nome": "GBHackers (9 nov.)",
+     "url": "https://gbhackers.com/nvidia-investigates-suspected-foreign-espionage-campaign"
+    },
+    {
+     "nome": "SBS News (6 nov.)",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008834050"
+    }
+   ],
+   "imagem": {
+    "commons": "NVIDIA Headquarters.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício da sede da Nvidia em Santa Clara, Califórnia",
+    "legenda": "Sede da Nvidia em Santa Clara, Califórnia (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Microsoft trava expansão de centros de dados para IA: recusa duplicar contrato com a Nscale e enfrenta atrasos da IREN",
+   "estado": "Notícias com base em fontes anónimas (Financial Times) e em resultados da IREN · Microsoft não comentou oficialmente",
+   "data": "2026-11-06",
+   "texto": [
+    "A Microsoft decidiu não exercer uma opção que lhe permitiria mais do que duplicar a capacidade de computação alugada à britânica Nscale num campus de centros de dados em Barstow, no Texas, noticiou o Financial Times a 5 de novembro, citando pessoas conhecedoras do processo. A opção dizia respeito a uma segunda fase de 700 megawatts prevista para o final de 2027 e poderia valer dezenas de milhares de milhões de dólares para a Nscale. O contrato em vigor no Texas, que prevê a entrega de cerca de 104 mil chips da Nvidia, mantém-se.",
+    "É o segundo revés recente para a Nscale, que prepara a entrada na bolsa de Nova Iorque com uma avaliação que pode chegar aos 35 mil milhões de dólares: em outubro, a Microsoft já tinha abandonado o projeto de Loughton, no Essex, apresentado como o maior centro de dados de IA do Reino Unido, depois de atrasos na ligação à rede elétrica terem empurrado o fornecimento de energia para a década de 2030. A norueguesa Aker, que detém cerca de 23% da empresa, desvalorizou o caso britânico como um contrato relativamente pequeno numa carteira maior.",
+    "Do lado dos fornecedores, a IREN anunciou a 5 de novembro, com os resultados trimestrais, atrasos em parte das infraestruturas que está a construir para a Microsoft no Texas, que atribui a uma alteração do desenho da rede pedida pelo cliente e a prazos de fornecedores, e adiou para janeiro a meta de receitas anualizadas acima de 4 mil milhões de dólares. A diretora financeira da Microsoft, Amy Hood, já tinha explicado que o investimento trimestral, de 45,2 mil milhões, ficou abaixo do previsto por atrasos de terceiros. Os sinais surgem numa altura em que os mercados questionam o ritmo dos gastos em IA."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Decisão sobre a Nscale confirmada na The Next Web e no Lifeboat, ambos citando o Financial Times, que não foi lido diretamente. Atrasos da IREN e declarações de Amy Hood confirmados na Tech Insider, que cita o comunicado da IREN, a Reuters e a The Information. A ligação entre os atrasos da IREN e o défice de investimento da Microsoft não foi confirmada por nenhuma das empresas."
+   },
+   "fontes": [
+    {
+     "nome": "The Next Web (5 nov.)",
+     "url": "https://thenextweb.com/news/microsoft-rejects-nscale-texas-option"
+    },
+    {
+     "nome": "Lifeboat News (5 nov.)",
+     "url": "https://lifeboat.com/blog/2026/11/microsoft-will-not-expand-texas-data-center-deal-with-uks-nscale-source-says"
+    },
+    {
+     "nome": "Tech Insider (6 nov.)",
+     "url": "https://tech-insider.org/iren-delays-microsoft-ai-deliveries-15-billion-capex-2026/"
+    }
+   ],
+   "imagem": {
+    "commons": "Cern datacenter.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Corredor de um centro de dados com filas de bastidores de servidores",
+    "legenda": "Centro de dados do CERN (imagem ilustrativa; não mostra instalações da Microsoft, da Nscale ou da IREN)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Ataque na praça central de Cracóvia faz seis mortos e é investigado como terrorismo; atirador morreu no hospital",
+   "estado": "Facto confirmado · motivo por apurar; investigação por terrorismo em curso",
+   "data": "2026-11-09",
+   "texto": [
+    "Morreu na madrugada desta segunda-feira, num hospital de Cracóvia, o homem de 24 anos suspeito do ataque de sábado na Praça do Mercado (Rynek Główny), o coração turístico da cidade polaca. Por volta das 15h00 de dia 7, o atacante, mascarado e com roupa de estilo militar, entrou de carro na praça e disparou sobre quem fugia, matando seis pessoas — quatro mulheres e dois homens entre os 32 e os 61 anos, quatro polacos, um britânico e, segundo a Euronews, um austríaco. Foi baleado e detido pela polícia depois de uma troca de tiros e esteve em estado crítico até morrer, por volta das 4h30.",
+    "Há entre 15 e 16 feridos, conforme a contagem, incluindo dois polícias, um deles em estado grave. Entre os feridos estrangeiros está uma portuguesa de 74 anos, segundo a Lusa, além de cidadãos da Áustria, do Reino Unido, da Alemanha e da Rússia. Em casa do suspeito, em Ostrowiec Świętokrzyski, a polícia encontrou os corpos do pai, da mãe e da irmã, com ferimentos de bala, e os investigadores acreditam que o mesmo autor é responsável pelas três mortes.",
+    "O suspeito não tinha cadastro e possuía licença de porte de arma; a polícia admite que tenha usado uma das armas legalmente registadas. Levava uma espingarda semiautomática semelhante a uma AR-15 e uma pistola, e havia mais armas e munições no carro. O ministro do Interior, Marcin Kierwiński, disse que o atirador mostrava ideias «muito radicais» e fascínio por ideologias de extrema-direita, mas não há motivo confirmado. O Ministério Público abriu uma investigação por crime de natureza terrorista.",
+    "O primeiro-ministro, Donald Tusk, classificou o ataque como terrorismo e o mais mortífero na Polónia desde 1989, e elogiou como «verdadeiros heróis» os dois agentes que travaram o atacante. O país cumpre dois dias de luto nacional, com bandeiras a meia haste e eventos de entretenimento cancelados. As autópsias às nove vítimas começaram esta segunda-feira e podem demorar cerca de dois dias."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Factos confirmados pela Lusa (via Observador) e pela Euronews. O número de feridos difere: 16 segundo a Lusa e a Euronews de domingo, 15 na atualização da Euronews de segunda-feira. A nacionalidade austríaca de uma das vítimas mortais consta apenas da Euronews; a Lusa refere 'outro estrangeiro'. A idade da irmã aparece como 21 e 20 anos na mesma peça da Euronews. O estado de saúde da cidadã portuguesa não foi detalhado."
+   },
+   "fontes": [
+    {
+     "nome": "Observador / Lusa (9 nov.)",
+     "url": "https://observador.pt/2026/11/09/policia-anuncia-que-alegado-autor-de-ataque-armado-na-polonia-morreu/"
+    },
+    {
+     "nome": "Euronews (9 nov.)",
+     "url": "https://www.euronews.com/2026/11/09/krakow-main-square-shooting-suspect-dies-in-hospital-police-say"
+    },
+    {
+     "nome": "Euronews (8 nov.)",
+     "url": "https://www.euronews.com/2026/11/08/what-we-know-about-the-krakow-shooting-that-left-six-people-dead"
+    }
+   ],
+   "imagem": {
+    "commons": "Sukiennice, Kraków.jpg",
+    "tipo": "arquivo",
+    "alt": "O edifício renascentista dos Sukiennice, o antigo mercado de tecidos, na praça principal de Cracóvia",
+    "legenda": "Os Sukiennice, na Praça do Mercado de Cracóvia, onde ocorreu o ataque (imagem de arquivo; não mostra o acontecimento)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31 abre com atraso e divisões sobre dinheiro, enquanto ONU avisa que o mundo entrou numa «nova era de extremos climáticos»",
+   "estado": "Facto confirmado (abertura e relatório da OMM) · previsões climáticas da OMM; negociações em curso até 20 de novembro",
+   "data": "2026-11-09",
+   "texto": [
+    "A conferência do clima das Nações Unidas abriu esta segunda-feira em Antalya, na Turquia, com uma hora de atraso que não foi explicada e com os negociadores já divididos sobre financiamento. Os países em desenvolvimento querem acrescentar à agenda oficial pontos sobre o dinheiro que os países ricos devem mobilizar, incluindo a plataforma criada na COP30 sobre o tema, e os africanos pedem que se discuta a triplicação do financiamento para adaptação. Os países desenvolvidos resistem e um alto responsável europeu, citado pela AFP, admitiu que não há «vontade política» para novos compromissos financeiros. «Já foi um início difícil», resumiu Jasper Inventor, da Greenpeace.",
+    "Na abertura, o secretário-geral da ONU, António Guterres, pediu aos líderes que levem o problema «a sério», com cortes de emissões mais rápidos e uma transição justa para fora dos combustíveis fósseis. «Entrámos numa nova era de extremos climáticos», afirmou, acrescentando que um El Niño de grandes dimensões está a chocar com um planeta já sobreaquecido. O responsável da ONU para o clima, Simon Stiell, reconheceu que o progresso não é «nem de perto» rápido ou justo o suficiente.",
+    "O alerta coincide com a atualização do estado do clima da Organização Meteorológica Mundial (OMM), divulgada em Genebra. Entre janeiro e setembro, a temperatura média à superfície ficou cerca de 1,47 °C acima do período pré-industrial; os últimos quatro anos são os mais quentes em 177 anos de registos, o oceano atingiu o calor mais elevado alguma vez medido e o nível do mar está em máximos. O El Niño em curso deverá ser o mais forte pelo menos desde 1950, com pico em dezembro, e a secretária-geral da OMM, Celeste Saulo, pediu que o mundo se prepare para um novo recorde em 2027. A OMM nota um sinal positivo: os países com sistemas de alerta precoce para vários riscos passaram de 55, em 2015, para 136 no ano passado.",
+    "A presidência turca e a Austrália, que conduz as negociações, apresentam esta como a «COP da implementação», com uma proposta de eletrificação que a UE quer que seja «limpa». Os EUA, que saíram do Acordo de Paris, não enviaram representantes do Governo, apenas uma delegação do Congresso. A cimeira de líderes realiza-se a 11 e 12 de novembro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Abertura, atraso, divisões sobre a agenda e citações de Guterres confirmados pela AFP (publicada no Dawn e no Arab News, contadas como uma fonte) e pelo Irish Times, que também cita a OMM e Simon Stiell. A frase do responsável europeu é atribuída pela AFP a uma fonte anónima. O valor de 1,47 °C e o número de sistemas de alerta precoce vêm apenas da AFP. As previsões sobre o El Niño e 2027 são previsões da OMM. A abertura foi noticiada na edição de 8 nov.; esta peça foca o arranque efetivo e o relatório da OMM."
+   },
+   "fontes": [
+    {
+     "nome": "Dawn / AFP (9 nov.)",
+     "url": "https://www.dawn.com/news/2043267/un-chief-urges-leaders-to-get-serious-as-cop31-set-to-open"
+    },
+    {
+     "nome": "Arab News / AFP (9 nov.)",
+     "url": "https://www.arabnews.com/world/world-entering-age-of-climate-extremes-un-chief-3010678"
+    },
+    {
+     "nome": "The Irish Times (9 nov.)",
+     "url": "https://www.irishtimes.com/environment/climate-crisis/2026/11/09/climate-extremes-off-the-charts-as-countries-gather-for-cop31-summit/"
+    },
+    {
+     "nome": "bianet (9 nov.)",
+     "url": "https://bianet.org/haber/cop31-opens-in-antalya-today-325213"
+    }
+   ],
+   "imagem": {
+    "commons": "António Guterres, 9th Secretary-General of the United Nations.jpg",
+    "tipo": "oficial",
+    "alt": "Retrato do secretário-geral da ONU, António Guterres",
+    "legenda": "António Guterres, secretário-geral das Nações Unidas (retrato oficial de arquivo; não foi tirado na COP31)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Europeus vão estar nas negociações de paz para a Ucrânia em Abu Dhabi, apesar da oposição do Kremlin",
+   "estado": "Anúncio · conversações marcadas para 10 e 11 de novembro; papel europeu por definir",
+   "data": "2026-11-08",
+   "texto": [
+    "As delegações da Ucrânia e da Rússia voltam a sentar-se esta terça e quarta-feira em Abu Dhabi, nos Emirados Árabes Unidos, com mediação norte-americana. Será a quarta ronda promovida por Washington e a primeira desde as conversações de Genebra, em fevereiro. O ministro francês dos Negócios Estrangeiros, Jean-Noël Barrot, anunciou no domingo que os europeus, incluindo a França, vão participar, para garantir que «a voz da Europa» é ouvida, por entender que nenhum acordo que afete a segurança do continente pode ser desenhado sem eles. Não disse, contudo, quem representará Paris nem se os europeus vão negociar ou apenas observar.",
+    "O Kremlin rejeita a presença europeia: o porta-voz Dmitri Peskov afirmou que o formato a três já estava acordado, embora tenha admitido que questões de segurança acabarão por exigir a Europa. A delegação russa será chefiada por Vladimir Medinski e inclui os vice-ministros Serguei Riabkov e Mikhail Galuzin e o chefe dos serviços de informações militares, Igor Kostiukov. Segundo o enviado norte-americano Steve Witkoff, em cima da mesa estarão garantias de segurança para o pós-guerra, desescalada e questões humanitárias.",
+    "As posições continuam distantes. Moscovo exige que Kiev ceda grandes parcelas de território e renuncie à NATO; Volodimir Zelensky quer garantias de segurança definidas com clareza, incluindo quem age e como se a Rússia voltar a atacar. Depois de se reunir com o enviado russo Kirill Dmitriev, Donald Trump falou num «grande acordo» iminente que poderá abranger toda a Europa, sem dar pormenores; Zelensky disse não ter sido informado e comparou a situação à conferência de Ialta, de 1945.",
+    "No terreno, Zelensky disse que a Rússia disparou 36 mísseis balísticos contra a região de Kiev na noite de sábado, dos quais só quatro foram intercetados. Trump admitiu também, no domingo, um provável encontro com Xi Jinping e Vladimir Putin à margem da cimeira da APEC, marcada para 18 e 19 de novembro em Shenzhen, o que deixa Kiev receosa de ver os seus interesses negociados entre grandes potências."
+   ],
+   "verificacao": {
+    "independentes": 3,
+    "nota": "Datas das conversações, participação europeia e posição do Kremlin confirmadas pela Euronews e pela NPR (republicada pela OPB). A composição da delegação russa, a agenda de Witkoff e o número de mísseis vêm da NPR. O possível encontro Trump–Xi–Putin vem da Lusa (via Observador). O número de mísseis é uma declaração de Zelensky, não verificada de forma independente. A composição da representação europeia não foi anunciada."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews (8 nov.)",
+     "url": "https://www.euronews.com/2026/11/08/europeans-to-join-russia-ukraine-talks-in-abu-dhabi-says-french-fm-barrot"
+    },
+    {
+     "nome": "NPR / OPB (8 nov.)",
+     "url": "https://www.opb.org/article/2026/11/08/europe-to-join-u-s-brokered-ukraine-talks-in-abu-dhabi-defying-kremlin-objections/"
+    },
+    {
+     "nome": "Observador / Lusa (9 nov.)",
+     "url": "https://observador.pt/2026/11/09/donald-trump-admite-provavel-encontro-com-xi-e-putin-na-china/"
+    }
+   ],
+   "imagem": {
+    "commons": "Abu Dhabi Skyline.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Vista dos arranha-céus de Abu Dhabi junto ao mar",
+    "legenda": "Abu Dhabi, onde decorrem as conversações (imagem ilustrativa; não mostra as negociações)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Cria de baleia-franca «escondida» durante meses eleva nascimentos ao valor mais alto desde 2009",
+   "estado": "Facto confirmado · identificação do Catálogo da Baleia-Franca do Atlântico Norte",
+   "data": "2026-11-07",
+   "texto": [
+    "Uma cria de baleia-franca-do-atlântico-norte que tinha escapado a todos os levantamentos foi identificada no Canadá, elevando para 24 o número de nascimentos da última época de reprodução — o valor mais alto desde 2009, quando nasceram 39. A cria foi fotografada a 25 de setembro, junto à mãe, perto da ilha de Anticosti, no Quebeque, por investigadores da organização Mingan Island Cetacean Study. Os cientistas do New England Aquarium, que gerem o catálogo da espécie, compararam fotografias e registos durante semanas e concluíram que nasceu na época de 2025–2026, sem ter sido detetada nas campanhas de inverno.",
+    "A mãe é Silt, uma fêmea com pelo menos 38 anos, já avó e bisavó, com seis crias conhecidas. Tinha sido vista pela última vez a 2 de fevereiro, ao largo da Carolina do Sul, nas zonas de parto do sudeste dos EUA, e nem os voos e saídas de barco ao longo da costa leste durante a primavera e o verão a apanharam com a cria. «Mostra como o oceano é grande e como estes animais se podem perder por lá», comentou Richard Sears, fundador da organização canadiana. Uma bióloga do estado da Geórgia já lhe chama «Silt, a matreira».",
+    "A boa notícia ganha peso pela fragilidade da espécie, criticamente ameaçada: restam cerca de 380 animais e apenas perto de 70 fêmeas em idade reprodutiva. A população perdeu cerca de um quarto dos efetivos entre 2010 e 2020 e só recuperou parcialmente desde então; em 2018 não nasceu uma única cria. As principais ameaças são as colisões com navios e o enredamento em artes de pesca, e a própria Silt sobreviveu a pelo menos cinco enredamentos — uma das suas crias, Division, nascida em 2022, morreu por essa causa, e a mais velha foi atingida por um navio em 2005. Não há registo de mortes ou ferimentos entre as crias desta época, e a próxima temporada de partos no sudeste dos EUA começa em meados de novembro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Confirmado pelo comunicado do New England Aquarium (2 nov.), pela AP (republicada pela Maine Public) e pelo The Current, que entrevistou também uma bióloga da Geórgia. O New England Aquarium é a fonte primária da identificação. A data da morte da cria Division diverge: 'no início de 2026' segundo o aquário, dezembro de 2025 segundo o The Current, por isso não foi indicada. Os dados demográficos (70 fêmeas, perda de 25% entre 2010 e 2020) vêm da AP."
+   },
+   "fontes": [
+    {
+     "nome": "Maine Public / AP (6 nov.)",
+     "url": "https://www.mainepublic.org/environment-and-outdoors/2026-11-06/scientists-discovered-an-unknown-baby-right-whale-off-canada-they-say-its-a-cause-for-joy"
+    },
+    {
+     "nome": "The Current (7 nov.)",
+     "url": "https://thecurrentga.org/2026/11/07/surprise-calf-adds-to-2026-right-whale-calving-season-total/"
+    },
+    {
+     "nome": "New England Aquarium (2 nov.)",
+     "url": "https://www.neaq.org/about-us/press-room/press-releases/in-surprise-sighting-previously-unknown-north-atlantic-right-whale-calf-is-spotted-in-canadian-waters/"
+    }
+   ],
+   "imagem": {
+    "commons": "Eubalaena glacialis with calf.jpg",
+    "tipo": "arquivo",
+    "alt": "Baleia-franca-do-atlântico-norte adulta a nadar à superfície ao lado de uma cria",
+    "legenda": "Baleia-franca-do-atlântico-norte com uma cria (imagem de arquivo; não são Silt nem a cria agora identificada)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Bruna deixa o continente sob aviso até sexta, nova depressão ameaça quarta-feira e nadador-salvador continua desaparecido no Funchal",
+   "estado": "Facto confirmado (ocorrências, desalojados, desaparecimento) · Previsão do IPMA para o resto da semana; cenário de nova depressão ainda incerto",
+   "data": "2026-11-09",
+   "texto": [
+    "A depressão Bruna, praticamente estacionária a norte dos Açores, continua a empurrar sucessivas frentes sobre Portugal continental e o IPMA prevê que o padrão se mantenha pelo menos até sexta-feira, 13 de novembro. Na madrugada desta segunda-feira, entre as 00h00 e as 07h00, a Proteção Civil (ANEPC) contabilizou 73 ocorrências, sobretudo no Norte (27), Centro (20) e Alentejo (20), a maioria inundações em vias públicas (46), além de 15 quedas de árvores. Foram mobilizados 249 operacionais e 98 veículos e, segundo a ANEPC, não houve situações graves nem estradas cortadas por causa do mau tempo. Ao início do dia, 16 distritos estavam sob aviso amarelo por chuva, vento, trovoada e agitação marítima; na noite de domingo, Castelo Branco e Guarda chegaram a estar a laranja.",
+    "O boletim do IPMA aponta para acumulados que podem rondar os 200 mm até ao fim da semana, sobretudo nas terras altas do Norte e Centro, rajadas até 75 km/h no litoral e 80 km/h nas serras, que podem chegar aos 70–90 km/h em células de trovoada, e ondas de 4 a 5 metros na costa ocidental entre segunda e quarta-feira. A tarde de quarta-feira é apontada como um dos períodos mais severos: vários modelos preveem a formação ou o reforço de uma depressão profunda junto à Península Ibérica, possivelmente mais intensa do que a Bruna (receberia o nome Charles), mas a trajetória e a força continuam incertas e o IPMA não confirmou os cenários mais extremos.",
+    "Na Madeira, o fim de semana foi o mais duro. O Serviço Regional de Proteção Civil registou 145 ocorrências entre as 08h00 de sábado e as 10h00 de domingo, quase todas quedas de árvores e inundações, e nove pessoas ficaram desalojadas (quatro no Funchal e cinco em Santa Cruz). No aeroporto, até às 19h00 de domingo tinham sido canceladas 26 chegadas e 28 partidas. No domingo à tarde, um nadador-salvador de 37 anos que trabalhava para um hotel na zona do Lido, no Funchal, foi arrastado por uma onda; o corpo chegou a ser avistado entre a ondulação, mas desapareceu, e as buscas, com meios da Polícia Marítima e um helicóptero da Força Aérea, foram suspensas ao anoitecer para serem retomadas esta manhã.",
+    "O arquipélago não terá muito descanso: o IPMA emitiu aviso amarelo de chuva e vento para a Madeira e Porto Santo a partir das 21h00 de terça-feira, com rajadas até 75 km/h nas costas e 95 km/h nas zonas montanhosas, e aviso de agitação marítima para a costa sul na manhã de quarta-feira, com ondas de 4 a 4,5 metros."
+   ],
+   "verificacao": {
+    "independentes": 4,
+    "nota": "Ocorrências da madrugada de segunda-feira confirmadas pelo Observador e pela CNN Portugal (ambos com base na ANEPC/Lusa); desaparecimento do nadador-salvador confirmado pela RTP e pela Euronews; avisos para a Madeira segundo o DNoticias.pt (com base no IPMA). Não foi possível confirmar o resultado das buscas retomadas na manhã de 9 de novembro. A possível depressão de quarta-feira é uma previsão com incerteza elevada; o nome 'Charles' só se aplica se for efetivamente batizada. O número de ocorrências na Madeira varia entre fontes (145 a mais de 200), consoante o período contado."
+   },
+   "fontes": [
+    {
+     "nome": "Observador (9 nov.)",
+     "url": "https://observador.pt/2026/11/09/mau-tempo-protecao-civil-registou-73-ocorrencias-entre-as-00h00-e-as-07h00/"
+    },
+    {
+     "nome": "CNN Portugal (9 nov.)",
+     "url": "https://cnnportugal.iol.pt/ocorrencias/protecao-civil/protecao-civil-registou-73-ocorrencias-entre-as-00-00-e-as-07-00-desta-segunda-feira/20261109/6af17f28d34e5a653d73374b"
+    },
+    {
+     "nome": "Observador (8 nov.)",
+     "url": "https://observador.pt/2026/11/08/bruna-coloca-todo-o-continente-sob-avisos-de-chuva-vento-e-trovoada-dois-distritos-ja-estao-a-laranja-e-nova-depressao-ameaca-quarta-feira/"
+    },
+    {
+     "nome": "RTP (8 nov.)",
+     "url": "https://www.rtp.pt/noticias/pais/mau-tempo-nadador-salvador-de-37-anos-esta-desaparecido-no-funchal_n1777763"
+    },
+    {
+     "nome": "Euronews (8 nov.)",
+     "url": "https://pt.euronews.com/2026/11/08/depressao-bruna-continente-sob-aviso-amarelo-e-varios-desalojados-na-madeira"
+    },
+    {
+     "nome": "DNoticias.pt (8 nov.)",
+     "url": "https://www.dnoticias.pt/2026/11/8/512117-ipma-emite-novos-avisos-de-mau-tempo-para-terca-e-quarta-feira/"
+    }
+   ],
+   "imagem": {
+    "commons": "Madeira - Funchal - Coastline (6198192877).jpg",
+    "tipo": "arquivo",
+    "alt": "Linha de costa do Funchal, na ilha da Madeira, vista do mar",
+    "legenda": "Costa do Funchal, onde um nadador-salvador foi arrastado pelo mar no domingo (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Câmaras abdicam de 238 milhões de euros de IRS a favor das famílias; Lisboa e Funchal devolvem tudo",
+   "estado": "Facto confirmado · taxas municipais decididas para 2027, segundo levantamento do Jornal de Notícias",
+   "data": "2026-11-09",
+   "texto": [
+    "As autarquias portuguesas vão prescindir de mais de 238 milhões de euros de IRS em 2027, valor que fica nas mãos dos contribuintes. A lei permite a cada município receber até 5% do IRS liquidado aos residentes no seu território, mas cada câmara decide que fatia quer guardar e tem de comunicar a escolha à Autoridade Tributária até 31 de dezembro do ano anterior. Se todas ficassem com o máximo, encaixariam cerca de 748 milhões; com as taxas agora definidas, vão arrecadar perto de 510 milhões.",
+    "Dos 308 concelhos, 209 abdicam de pelo menos parte da receita: 44 fixaram a taxa em 0%, devolvendo a totalidade (Alijó e São Vicente, na Madeira, juntam-se este ano ao grupo), e 165 ficam com uma parte. Os outros 99 mantêm os 5%, o que significa que os seus residentes não beneficiam deste mecanismo. Lisboa mantém a devolução total, que vale mais de 94 milhões de euros aos lisboetas, e o Funchal também prescinde de tudo (mais de 7 milhões). O Porto baixa de 3% para 2,5%, deixando mais de 15 milhões aos munícipes, Sintra desce de 4% para 3,5% e Vila Nova de Gaia mantém 2,5%.",
+    "No sentido contrário, 12 câmaras subiram a taxa, oito delas para o máximo; o caso mais marcante é Vieira do Minho, que passa de 0% para 5%. A Figueira da Foz sobe de 3,25% para 4,5%, enquanto 40 municípios desceram a sua participação. A tendência dos últimos anos é de crescimento: segundo as contas publicadas, o montante devolvido rondava os 76 milhões em 2020 e passou os 150 milhões em 2024. O ganho concreto para cada agregado depende da taxa do concelho e do imposto que efetivamente paga."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Os números têm origem num levantamento do Jornal de Notícias (9 nov.), reproduzido e detalhado pela CNN Portugal e pela Executive Digest; não são fontes independentes entre si e não foi consultada a lista oficial da Autoridade Tributária. A Executive Digest apresenta valores contraditórios para 2025 (231 e 'mais de 209' milhões), pelo que esse ano não é indicado. As fontes não explicam em que liquidação o contribuinte sente o efeito."
+   },
+   "fontes": [
+    {
+     "nome": "CNN Portugal (9 nov.)",
+     "url": "https://cnnportugal.iol.pt/irs/autarquias/municipios-vao-prescindir-de-238-milhoes-de-euros-em-irs-a-favor-das-familias-em-2027/20261109/6af1776bd34e9ce6f1b43ab2"
+    },
+    {
+     "nome": "Executive Digest (9 nov.)",
+     "url": "https://executivedigest.sapo.pt/irs-de-2027-209-camaras-devolvem-dinheiro-as-familias-mas-99-ficam-com-a-totalidade-saiba-o-que-decidiu-a-sua-autarquia/"
+    },
+    {
+     "nome": "Rádio Observador, revista de imprensa (9 nov.)",
+     "url": "https://observador.pt/programas/conferencia-de-imprensa/no-de-partos-fora-de-hospitais-caminha-para-recorde-este-ano/"
+    }
+   ],
+   "imagem": {
+    "commons": "Cámara Municipal de Lisboa, Portugal, 2012-05-12, DD 01.JPG",
+    "tipo": "arquivo",
+    "alt": "Fachada do edifício dos Paços do Concelho de Lisboa, na Praça do Município",
+    "legenda": "Paços do Concelho de Lisboa; a capital mantém a devolução total da sua parte do IRS (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "INEM já fez 245 partos fora do hospital este ano e 2026 caminha para recorde",
+   "estado": "Facto confirmado (dados do INEM até outubro, divulgados pelo DN) · projeção de ~300 casos é estimativa",
+   "data": "2026-11-08",
+   "texto": [
+    "O INEM assistiu a 245 partos fora dos hospitais entre janeiro e outubro, em ambulâncias, em casa ou na via pública, uma média de 24,5 por mês, segundo dados avançados pelo Diário de Notícias. A manter-se o ritmo, o ano fechará perto dos 300 casos, acima dos 277 que o jornal atribui a todo o ano de 2025 (pelo menos 83 dos quais em ambulâncias) e muito acima dos 181 de 2022.",
+    "A leitura dos números divide os médicos. Carlos Veríssimo, presidente do Colégio de Ginecologia-Obstetrícia da Ordem dos Médicos, desvaloriza a subida, lembrando que se trata de casos isolados face ao total de nascimentos no país. Joana Bordalo e Sá, vice-presidente da Federação Nacional dos Médicos (FNAM), considera o número 'elevadíssimo e inaceitável' para um país da União Europeia e responsabiliza as políticas do Ministério da Saúde, num momento em que decorre a concentração de urgências obstétricas, sobretudo em Lisboa e Vale do Tejo.",
+    "O tema tem sido politicamente sensível. Em janeiro, a ministra da Saúde, Ana Paula Martins, defendeu que o número de partos fora do hospital era semelhante ao da última década, excluindo a pandemia, e que a maioria acontece em casa. Um relatório da Direção Executiva do SNS divulgado na mesma altura concluiu que apenas cerca de 9% dos partos em ambulância ou na via pública analisados poderiam ter tido outro desfecho se a urgência mais próxima estivesse aberta, e atribuiu parte do aumento registado pelo INEM a uma maior intervenção do instituto através da linha SNS 24. Em termos relativos, estes casos continuam a ser uma fração pequena: em 2024, 98,3% dos mais de 80 mil partos no continente ocorreram em hospitais."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Os dados de 2026 foram divulgados apenas pelo Diário de Notícias (com base no INEM) e repetidos na revista de imprensa da Rádio Observador; não foi possível consultar os dados diretamente no INEM. Há uma discrepância: em janeiro, o INEM indicou à Lusa 186 partos fora do hospital nos primeiros dez meses de 2025, o que não encaixa facilmente nos 277 que o DN atribui ao ano inteiro (podem estar em causa critérios de contagem diferentes). O contexto do relatório da DE-SNS vem do JN (2 jan.) e as declarações da ministra do Observador (22 jan.)."
+   },
+   "fontes": [
+    {
+     "nome": "Diário de Notícias (8 nov.)",
+     "url": "https://www.dn.pt/edicao-diaria/inem-j-fez-245-partos-fora-dos-hospitais-este-ano-quase-tantos-como-no-ano-todo-de-2025"
+    },
+    {
+     "nome": "Rádio Observador, revista de imprensa (9 nov.)",
+     "url": "https://observador.pt/programas/conferencia-de-imprensa/no-de-partos-fora-de-hospitais-caminha-para-recorde-este-ano/"
+    },
+    {
+     "nome": "Observador (22 jan.)",
+     "url": "https://observador.pt/2026/01/22/numero-de-partos-fora-dos-hospitais-e-semelhante-a-ultima-decada-afirma-a-ministra-da-saude/"
+    },
+    {
+     "nome": "Jornal de Notícias (2 jan.)",
+     "url": "https://www.jn.pt/nacional/artigo/sns-diz-que-9-dos-partos-em-ambulancias-poderiam-ter-sido-evitados/18036185"
+    }
+   ],
+   "imagem": {
+    "commons": "Ambulancia INEM2.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Ambulância amarela do INEM estacionada",
+    "legenda": "Ambulância do INEM (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Vasco Peso campeão do mundo de tumbling e Portugal fecha Mundial de trampolins com ouro, prata e bronze",
+   "estado": "Facto confirmado · resultados oficiais do Campeonato do Mundo em Nanjing",
+   "data": "2026-11-08",
+   "texto": [
+    "A seleção portuguesa de ginástica de trampolins regressa de Nanjing, na China, com três medalhas do Campeonato do Mundo, um dos melhores resultados de sempre da modalidade. O destaque vai para Vasco Peso, que se sagrou campeão mundial de tumbling. A equipa masculina de duplo mini-trampolim, com Diogo Fernandes, Diogo Cabral, Francisco José e André Dias, juntou-lhe a prata.",
+    "O bronze chegou no último dia, domingo, na competição all-around por equipas, que soma os resultados em todas as disciplinas: Portugal fez 56 pontos, atrás dos atletas russos (64) e da China, anfitriã (59). Contribuíram para a pontuação Vasco Peso e Salomé Ferraz no tumbling, Diogo Cabral e Alexandra Garcia no duplo mini-trampolim, Catarina Nunes e Sofia Correia no sincronizado feminino, Diogo Abreu e Pedro Ferreira no sincronizado masculino, e Sofia Correia e Gabriel Albuquerque no trampolim individual.",
+    "Gabriel Albuquerque esteve muito perto de um quarto pódio: terminou em quarto lugar a final de trampolim individual masculino, com 64,570 pontos, a 1,260 do bronze, igualando a melhor classificação portuguesa de sempre nesta prova em Mundiais. O título foi para o bielorrusso Ivan Litvinovich (66,300), à frente dos chineses Zisai Wang e Langyu Yan."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Medalhas e pontuações confirmadas pelo Diário de Notícias e pelo Comité Olímpico de Portugal (que confirma as três medalhas e detalha o bronze por equipas, sem nomear as outras duas). O ouro de Vasco Peso e a prata do duplo mini-trampolim constam do DN; não foi encontrada uma segunda fonte aberta que nomeie expressamente os autores dessas duas medalhas. A designação 'atletas russos' segue a pontuação atribuída à Rússia nas fontes; não foi possível confirmar se competiram sob bandeira neutra."
+   },
+   "fontes": [
+    {
+     "nome": "Diário de Notícias (8 nov.)",
+     "url": "https://www.dn.pt/desporto/portugal-conquista-bronze-no-all-around-e-fecha-mundial-de-trampolins-com-trs-medalhas"
+    },
+    {
+     "nome": "Comité Olímpico de Portugal (8 nov.)",
+     "url": "https://comiteolimpicoportugal.pt/configuracoes/lista-de-noticias/portugal-fecha-mundial-com-bronze-na-competicao-all-around"
+    }
+   ],
+   "imagem": {
+    "commons": "2018-10-14 Boys' Trampoline Gymnastics Final at 2018 Summer Youth Olympics by Sandro Halank–240.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Ginasta em pleno salto durante uma final de trampolim nos Jogos Olímpicos da Juventude de 2018",
+    "legenda": "Final de trampolim nos Jogos Olímpicos da Juventude de 2018, em Buenos Aires (imagem ilustrativa; não mostra o Mundial de Nanjing nem atletas portugueses)"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Histórias da Noite»: Léa Mysius leva um romance de Mauvignier para um thriller rural que dividiu a crítica",
+   "ficha": {
+    "Título original": "Histoires de la nuit (França, 2026)",
+    "Realização": "Léa Mysius (também argumentista, a partir do romance homónimo de Laurent Mauvignier)",
+    "Elenco": "Hafsia Herzi, Benoît Magimel, Bastien Bouillon, Monica Bellucci, Twaba El Gharbi",
+    "Estreia em Portugal": "5 de novembro de 2026 (M/16; 114 minutos; distribuição NOS Audiovisuais)",
+    "Avaliação": "Receção mista a negativa: 3,2/5 de média na imprensa francesa (AlloCiné, 37 críticas); elogios na MHD; reservas no IONCINEMA e no Little White Lies; críticas negativas no Micropsia, nss magazine e L'Éclaireur Fnac"
+   },
+   "texto": [
+    "Chegou às salas portuguesas na quinta-feira, 5 de novembro, «Histórias da Noite», a segunda longa-metragem de Léa Mysius, realizadora francesa conhecida por «Ava» e «Os Cinco Diabos». O filme adapta o romance negro que Laurent Mauvignier publicou em 2020 e passa-se num lugar isolado, entre pântanos, onde vivem Nora, o marido Thomas e a filha adolescente, Ida, com uma única vizinha, Cristina, uma pintora italiana que vive sozinha. Enquanto se prepara uma festa surpresa para o aniversário de Nora, sinais estranhos perturbam a calma do lugar, até que a chegada de três homens transforma o serão num exercício de tensão em espaço fechado, que obriga a família a enfrentar segredos antigos. Foi apresentado na competição oficial de Cannes, em maio, e estreou em França a 16 de setembro. Em Portugal, segundo a MHD, está em exibição em versão original legendada em salas NOS, como as do Alma Shopping, em Coimbra, e do Alameda Shop & Spot, no Porto.",
+    "Esta apreciação resulta das críticas consultadas e não de visionamento próprio. Entre os pontos fortes mais citados está o elenco, sobretudo Benoît Magimel, no papel do líder do grupo, e Monica Bellucci, cuja presença terna e enigmática é elogiada tanto pela MHD como pelo L'Éclaireur Fnac; o argentino Diego Lerer, no Micropsia, chega a considerá-la o melhor do filme, e a jovem Twaba El Gharbi, que interpreta Ida, é apontada como revelação. José Vieira Mendes, na MHD, valoriza o equilíbrio entre a ameaça vinda de fora e o mal-estar dentro da própria família, e a capacidade de Mysius de criar desconfiança e não apenas intriga. No Little White Lies, Jenna Mahale destaca o acabamento técnico, a atmosfera sombria e azulada e um ritmo bem doseado, enquanto Nicholas Bell, no IONCINEMA, sublinha a eficácia com que a tensão se instala e as referências a clássicos americanos de invasão doméstica.",
+    "Os reparos são, porém, numerosos e convergentes. Vários críticos consideram o argumento demasiado familiar ou previsível, com uma revelação central que se adivinha cedo e personagens que ficam por desenvolver; Hafsia Herzi e Bastien Bouillon são descritos como desaproveitados. O IONCINEMA aponta uma estrutura desequilibrada, a nss magazine fala de interpretações desencontradas e de pouca direção de atores, e o L'Éclaireur Fnac lamenta que a noite, que dá título ao filme, nunca chegue a ser verdadeiramente claustrofóbica nem psicológica. A própria MHD, a voz mais favorável entre as consultadas, admite que o cinema nem sempre acompanha o fôlego da escrita de Mauvignier, e o Little White Lies resume o filme como belo, mas algo inerte.",
+    "No balanço, «Histórias da Noite» parece funcionar melhor como thriller de ambiente, bem filmado e com um elenco de peso, do que como o drama psicológico ambicioso que a passagem por Cannes fazia esperar. A média de 3,2 em 5 na imprensa francesa, compilada pelo AlloCiné, traduz bem essa receção dividida. Para quem aprecia histórias de tensão em espaço fechado e quer ver Magimel e Bellucci frente a frente, pode valer a sessão; quem procurar a densidade e a estranheza dos filmes anteriores de Léa Mysius deve, segundo a maioria das críticas, ir com expectativas moderadas."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – estreias da semana (5 nov.)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-5-de-novembro-2026-15092/"
+    },
+    {
+     "nome": "MHD – ficha e sessões de «Histórias da Noite»",
+     "url": "https://www.magazine-hd.com/filme/histoires-de-la-nuit"
+    },
+    {
+     "nome": "MHD – José Vieira Mendes em Cannes (23 mai.)",
+     "url": "https://www.magazine-hd.com/apps/wp/cannes-2026-histoires-de-la-nuit-the-dreamed-adventure/"
+    },
+    {
+     "nome": "Festival de Cannes – apresentação do filme",
+     "url": "https://www.festival-cannes.com/en/2026/lea-mysius-captures-the-weight-of-secrets-in-histoires-de-la-nuit-the-birthday-party/"
+    },
+    {
+     "nome": "IONCINEMA – crítica de Nicholas Bell (24 mai.)",
+     "url": "https://www.ioncinema.com/?p=141760"
+    },
+    {
+     "nome": "Little White Lies – crítica de Jenna Mahale (22 mai.)",
+     "url": "https://lwlies.com/cannes-film-festival/the-birthday-party-first-look-review"
+    },
+    {
+     "nome": "Micropsia – crítica de Diego Lerer (23 mai.)",
+     "url": "https://www.micropsiacine.com/2026/05/cannes-2026-critica-de-histoires-de-la-nuit-the-birthday-party-de-lea-mysius-competicion/"
+    },
+    {
+     "nome": "nss magazine – crítica de Martina Barone (25 mai.)",
+     "url": "https://www.nssmag.com/en/art-design/45532/histoires-de-la-nuit-is-a-party-we-wouldn-t-want-to-be-invited-to"
+    },
+    {
+     "nome": "L'Éclaireur Fnac – crítica de Lisa Muratore (16 set.)",
+     "url": "https://leclaireur.fnac.com/article/675133-histoires-de-la-nuit-que-vaut-le-polar-avec-monica-bellucci-avis/"
+    },
+    {
+     "nome": "AlloCiné – ficha e média da imprensa",
+     "url": "https://www.allocine.fr/film/fichefilm_gen_cfilm=324014.html"
+    }
+   ],
+   "nota": "Não foi encontrada nenhuma crítica publicada em Portugal após a estreia comercial; a da MHD foi escrita em Cannes, em maio. A página do Cinecartaz/Público não pôde ser consultada, pelo que a lista de salas se limita às sessões indicadas pela MHD (dias 7 a 11) e não foi confirmada nos sites da NOS. A distribuidora é indicada pelo filmSPOT. O painel de críticos do IONCINEMA deu-lhe uma média de 2,3 (escala não indicada), dado não incluído no texto. A referência aos filmes anteriores de Léa Mysius («Ava», «Os Cinco Diabos») baseia-se em conhecimento geral.",
+   "imagem": {
+    "commons": "Grand Colombier et marais de Lavours.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Zona de pântano em França, com uma montanha ao fundo",
+    "legenda": "Pântano de Lavours, em França (imagem ilustrativa de uma paisagem pantanosa; não mostra o filme nem os seus locais de rodagem)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Antoni Gaudí, o arquiteto que construía com a natureza — cem anos depois, a Sagrada Família já é a igreja mais alta do mundo",
+   "ficha": {
+    "Nascimento": "25 de junho de 1852, Reus ou Riudoms, Catalunha (morreu a 10 de junho de 1926, em Barcelona)",
+    "Área": "Arquitetura (também desenho de mobiliário, jardins e artes decorativas)",
+    "Obra essencial": "Casa Vicens, Palau Güell, Park Güell, Casa Batlló, Casa Milà («La Pedrera») e a Basílica da Sagrada Família, em construção desde 1882",
+    "Atualidade": "Ano Gaudí 2026: a Torre de Jesus Cristo (172,5 m) foi inaugurada a 10 de junho; programa comemorativo em Barcelona até 23 de dezembro"
+   },
+   "texto": [
+    "Em 2026 cumprem-se cem anos sobre a morte de Antoni Gaudí, e Barcelona tem assinalado a data com um programa que se prolonga até ao fim do ano. O momento mais simbólico aconteceu a 10 de junho, dia exato do centenário, com a missa solene e a inauguração da Torre de Jesus Cristo, a torre central da Sagrada Família, presidida pelo Papa Leão XIV. Com 172,5 metros, cuja estrutura ficou concluída em fevereiro com a colocação da última peça da cruz, faz da basílica a igreja mais alta do mundo. Até dezembro há ainda concertos, a apresentação de um livro sobre o centenário e, a 13 de dezembro, a inauguração de uma maquete tátil do templo completo, feita com a Fundação ONCE.",
+    "Filho de um caldeireiro, Gaudí nasceu a 25 de junho de 1852 — em Reus, segundo a Sagrada Família, ou na vizinha Riudoms, segundo a fundação que gere La Pedrera, uma disputa antiga. Na escola destacou-se em geometria e aritmética e, a partir de 1860, aprendeu o ofício do pai, que lhe deu uma intuição rara para o espaço e os materiais. Em 1868 mudou-se para Barcelona, entrou na Escola de Arquitetura em 1873 e formou-se em 1878, trabalhando entretanto em oficinas de carpintaria, vidraria e serralharia. Em 1883, com 31 anos, assumiu a direção das obras da Sagrada Família, iniciadas no ano anterior, e a partir de 1914 abandonou todos os outros projetos para se dedicar apenas ao templo.",
+    "A UNESCO, que desde 1984 classifica as suas obras como Património Mundial (a lista foi alargada em 2005 e inclui hoje sete edifícios), descreve-o como o arquiteto mais representativo do modernismo catalão, capaz de fundir correntes do século XIX — Arts and Crafts, simbolismo, expressionismo, racionalismo — num estilo muito pessoal que junta tradição catalã e técnica industrial e antecipa formas do século XX. A luz e a natureza eram as suas grandes fontes de inspiração, a par da Bíblia e da liturgia. Trabalhava por tentativa e erro, dando mais importância às maquetes do que aos desenhos, e mantinha um ateliê ao lado das obras para testar modelos à escala. Além de Barcelona, deixou edifícios em Comillas (El Capricho), Astorga (palácio episcopal) e León (Casa Botines).",
+    "Há várias curiosidades à volta do arquiteto. Segundo La Pedrera, o diretor da escola, Elies Rogent, terá dito ao entregar-lhe o diploma que não sabia se o tinha dado a um louco ou a um génio, e que só o tempo o diria. Das 18 torres que projetou para a Sagrada Família, Gaudí só viu concluída uma, a de São Barnabé, terminada em novembro de 1925. Poucos meses depois, a 7 de junho de 1926, foi atropelado por um elétrico em Barcelona e morreu três dias mais tarde; está sepultado na cripta do templo. Em abril de 2025, o Papa Francisco declarou-o venerável, um passo no processo que pode levar à sua beatificação."
+   ],
+   "fontes": [
+    {
+     "nome": "Sagrada Família – biografia de Antoni Gaudí",
+     "url": "https://sagradafamilia.org/es/antoni-gaudi"
+    },
+    {
+     "nome": "Sagrada Família – programa do centenário 2026",
+     "url": "https://sagradafamilia2026.org/en/"
+    },
+    {
+     "nome": "PR Newswire / Sagrada Família – inauguração da Torre de Jesus Cristo",
+     "url": "https://www.prnewswire.com/news-releases/sagrada-familia-to-inaugurate-tower-of-jesus-christ-on-june-10-2026-marking-100-years-since-antoni-gaudis-death-302779425.html"
+    },
+    {
+     "nome": "La Pedrera – «Architect Antoni Gaudí»",
+     "url": "https://www.lapedrera.com/en/architect-antoni-gaudi"
+    },
+    {
+     "nome": "UNESCO – Works of Antoni Gaudí",
+     "url": "https://whc.unesco.org/en/list/320/"
+    }
+   ],
+   "nota": "A presença do Papa Leão XIV a 10 de junho baseia-se no comunicado da Sagrada Família e numa notícia relacionada na mesma página que indica que o Papa benzeu a torre; não foi lida reportagem própria do dia. O local de nascimento diverge entre as fontes (Reus na Sagrada Família, Riudoms em La Pedrera). A frase de Elies Rogent é citada por La Pedrera como «terá dito». A afirmação de que a Sagrada Família é a igreja mais alta do mundo é do comunicado da própria basílica.",
+   "imagem": {
+    "commons": "Antoni Gaudi 1878.jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato fotográfico antigo de Antoni Gaudí jovem, de barba",
+    "legenda": "Antoni Gaudí em 1878, ano em que se formou em arquitetura (fotografia de arquivo; domínio público)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que o grito mais famoso do cinema tem 75 anos, já se ouviu em mais de 400 filmes e ninguém sabe ao certo quem o gravou?",
+   "texto": [
+    "Em 1951, a Warner Bros. estreou «Distant Drums», um filme de aventuras com Gary Cooper passado nos pântanos da Florida. Numa das cenas, um soldado é atacado por um jacaré e arrastado para debaixo de água — e o grito que solta, gravado mais tarde numa sessão de dobragem em estúdio, tornar-se-ia o efeito sonoro mais célebre da história do cinema. Setenta e cinco anos depois, o chamado «grito Wilhelm» já foi ouvido em mais de 400 filmes, segundo o National Science and Media Museum, de Bradford, além de anúncios, videojogos e parques temáticos.",
+    "O nome não vem do filme original. O grito voltou a ser usado pela Warner em «Springfield Rifle» (1952) e em «The Charge at Feather River» (1953), onde uma personagem chamada soldado Wilhelm o solta ao ser atingida por uma flecha. Nos anos 70, o estudante de cinema Ben Burtt e o colega Richard L. Anderson encontraram a gravação nos arquivos sonoros da Warner, com uma etiqueta pouco clara, e batizaram-na com o nome dessa personagem. Burtt começou por usá-lo como piada nas curtas-metragens da escola e, quando se tornou o responsável pelo som de «A Guerra das Estrelas», incluiu-o no filme, no momento em que um soldado imperial cai de uma plataforma. Repetiu-o depois em praticamente toda a saga e nos quatro filmes de Indiana Jones.",
+    "A partir daí, o grito tornou-se uma espécie de assinatura secreta entre os técnicos de som, um piscar de olho aos colegas atentos: Quentin Tarantino usou-o em «Cães Danados», Peter Jackson pediu para lhe subirem o volume em «O Senhor dos Anéis: As Duas Torres», e aparece também em «Toy Story», «Carros», «Os Incríveis» ou «Transformers». Um designer de som comparou o hábito ao de deixar uma marca no território para mostrar que se passou por ali. Ainda assim, não é de uso livre: quem o quiser incluir num filme precisa de autorização.",
+    "O mistério está na voz. Ben Burtt identificou como autor mais provável o ator e cantor Sheb Wooley — famoso pela canção «The Purple People Eater» e com um pequeno papel não creditado em «Distant Drums» —, com base num memorando de pós-produção da Warner. Wooley morreu em 2003 sem nunca o ter confirmado; a viúva disse que ele era conhecido nas rodagens por fazer gritos. Os especialistas dão a atribuição como quase certa, mas a gravação continua oficialmente sem crédito: o grito mais ouvido do cinema permanece, literalmente, anónimo."
+   ],
+   "fontes": [
+    {
+     "nome": "Twenty Thousand Hertz – episódio «Wilhelm Scream»",
+     "url": "https://www.20k.org/episodes/wilhelmscream"
+    },
+    {
+     "nome": "Backstage – «The Wilhelm Scream: The History of Film's Most Popular Sound Effect»",
+     "url": "https://www.backstage.com/magazine/article/wilhelm-scream-explained-75982/"
+    },
+    {
+     "nome": "3DVF (10 jul.)",
+     "url": "https://3dvf.com/en/over-400-films-75-years-one-scream-and-its-origin-is-still-a-mystery/"
+    }
+   ],
+   "nota": "O número de mais de 400 filmes é atribuído ao National Science and Media Museum através da Backstage e da 3DVF; a página do museu não foi consultada diretamente. A comparação com a marcação de território é atribuída pelo podcast Twenty Thousand Hertz ao designer de som Dave Stone. As fontes descrevem «Distant Drums» ora como western ora como filme de aventuras.",
+   "imagem": {
+    "commons": "EMI RM-1B microphone (1930s), Abbey Road Studios.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Microfone de fita antigo, dos anos 1930, num estúdio de gravação",
+    "legenda": "Microfone de estúdio dos anos 1930 (imagem ilustrativa; não é o equipamento usado na gravação do grito Wilhelm)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Alkantara: três décadas a trazer a dança e a performance do mundo para Lisboa",
+   "ficha": {
+    "Origem": "1993, com o projeto Danças na Cidade; festival Alkantara desde 2006, Lisboa",
+    "Área": "Artes performativas (dança, teatro e performance; residências artísticas e formação)",
+    "Próximo destaque": "Festival Alkantara 2026, de 13 a 29 de novembro, com 17 espetáculos em vários palcos de Lisboa"
+   },
+   "texto": [
+    "Na sexta-feira, 13 de novembro, arranca em Lisboa mais uma edição do Festival Alkantara, um dos principais encontros internacionais de artes performativas do país. A estrutura que o organiza tem raízes em 1993, quando Mónica Lapa e Albino Moura lançaram o projeto Danças na Cidade, que nos anos seguintes trouxe a Lisboa coreógrafos de vários continentes, com direção de Mónica Lapa e do belga Mark Deputter. Em 2004 nasceram os Encontros Al Kantara e, em 2006, a primeira edição do festival com o nome atual. Depois de Deputter, a direção passou para Thomas Walgrave (2010–2018) e, desde 2020, para a dupla Carla Nobre Sousa e David Cabecinha.",
+    "O Alkantara não é só um festival. Desde 2007, a associação ocupa o Espaço Alkantara, na Calçada Marquês de Abrantes, cedido pela Câmara Municipal de Lisboa, que funciona todo o ano como casa de residências artísticas, por concurso ou convite, apresentações informais, oficinas e um escritório partilhado aberto a produtores e artistas independentes. Ali decorre também o PISTA, programa de formação profissional organizado com o Polo Cultural Gaivotas | Boavista. A proposta, segundo a própria organização, é servir de ponte entre artistas, públicos, culturas e disciplinas, com a cooperação internacional no centro: ao longo dos anos participou em redes europeias como NXTSTP, Départs ou Imagining Futures, e acompanhou durante sete anos o projeto «Sete Anos Sete Peças», da coreógrafa Cláudia Dias.",
+    "A edição de 2026 junta 17 espetáculos de dança, teatro e performance, além de conversas, oficinas gratuitas, masterclasses e festas, em parceria com o Teatro Nacional D. Maria II, o CCB, a Culturgest, o Teatro do Bairro Alto e o CAM Gulbenkian, entre outros espaços. Abre com «Menos de Cão Solteiro & André Godinho», espetáculo-festa de despedida da companhia Cão Solteiro ao fim de 29 anos, e inclui a estreia mundial de «Shikama», de Dorothée Munyaneza, «Dzudza», de Idio Chichava — inspirado num mercado dos arredores de Maputo —, «Haribo Kimchi», do sul-coreano Jaha Koo, já esgotado, a primeira criação a solo para teatro da atriz Cleo Diára e os 25 anos do grupo madeirense Dançando com a Diferença, em colaboração com a coreógrafa marroquina Bouchra Ouizguen. As noites terminam na Casa Independente, com karaoke, DJ e eventos das comunidades drag e ballroom.",
+    "A relevância do Alkantara mede-se pela forma como tem trazido a Portugal vozes de África, do Médio Oriente, da Ásia e da América Latina que raramente chegam aos grandes palcos, e por dar continuidade a artistas portugueses ao longo de vários anos. O texto curatorial deste ano fala de masculinidades, arquivos coloniais, vidas migrantes e desejo, e recusa o cinismo como resposta aos tempos que correm. Para David Cabecinha, citado pela musicfest.pt, o festival é uma oportunidade de olhar para aquilo que nos inquieta — e, três décadas depois das primeiras Danças na Cidade, continua a ser uma das janelas mais abertas da cena lisboeta para o que se faz no mundo."
+   ],
+   "fontes": [
+    {
+     "nome": "Alkantara – história",
+     "url": "https://alkantara.pt/en/about/historical/"
+    },
+    {
+     "nome": "Alkantara – sobre nós",
+     "url": "https://alkantara.pt/en/about/about-us/"
+    },
+    {
+     "nome": "BUALA (7 nov.)",
+     "url": "https://www.buala.org/pt/vou-la-visitar/alkantara-festival-2026-dancas-memorias-e-futuros-em-lisboa"
+    },
+    {
+     "nome": "Mutante (6 nov.)",
+     "url": "https://mutante.pt/2026/11/alkantara-festival26/"
+    },
+    {
+     "nome": "musicfest.pt – programação do Alkantara 2026",
+     "url": "https://musicfest.pt/alkantara-festival-2026-regressa-de-13-a-29-de-novembro-117088/"
+    }
+   ],
+   "nota": "A ligação direta entre o Danças na Cidade e o Alkantara é uma leitura da cronologia publicada pela própria organização, que não indica explicitamente quando ou porquê mudou de nome. Os 25 anos dos Dançando com a Diferença e o esgotamento das sessões de «Haribo Kimchi» vêm apenas da musicfest.pt. A afirmação sobre a presença de artistas de África, Médio Oriente, Ásia e América Latina é uma síntese editorial baseada na programação de 2026. Preços e horários não foram confirmados.",
+   "imagem": {
+    "commons": "Teatro Nacional D. Maria II (3917882376).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Fachada neoclássica do Teatro Nacional D. Maria II, no Rossio, em Lisboa",
+    "legenda": "Teatro Nacional D. Maria II, em Lisboa, onde abre o Festival Alkantara 2026 (imagem ilustrativa; não mostra o festival)"
+   }
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos na agenda da Casa da Música, na Agenda Porto da Câmara Municipal, na Ticketline e nas páginas dos organizadores (Cinema Trindade, Batalha Centro de Cinema, Serralves, Museu do Carro Eléctrico). Onde se lê “por confirmar”, o horário ou o preço não estava disponível na fonte: confirma na ligação antes de sair.",
+ "agenda": [
+  {
+   "dia": "2026-11-09",
+   "eventos": [
+    {
+     "nome": "Guarda-freio por um Século",
+     "descricao": "Visita sensorial que percorre a história do guarda-freio no Porto, dos carros americanos puxados a cavalo aos elétricos fechados, com objetos originais para tocar, como uma vara de trólei e uma farda.",
+     "horario": "15:00",
+     "tipo": "Visita / Acessibilidade",
+     "local": "Museu do Carro Eléctrico, Alameda Basílio Teles, 51, Porto",
+     "preco": "Entrada livre (marcação obrigatória)",
+     "url": "https://www.museudocarroelectrico.pt/event/guarda-freio-por-um-seculo/",
+     "ligacao": "Museu do Carro Eléctrico",
+     "nota": "Integra o programa \"Ver para além do olhar\", para pequenos grupos com pelo menos uma pessoa cega ou com baixa visão. Marcação por email para servicoeducativo.mce@stcp.pt. O museu abre habitualmente de terça a domingo, mas a página do evento indica esta sessão de segunda-feira às 15:00."
+    },
+    {
+     "nome": "A Arte da Composição: Da História à Modernidade",
+     "descricao": "Última sessão do módulo do Curso Livre de História da Música orientado por Daniel Moreira, que traça a evolução do ato de compor até aos desafios atuais, com o compositor convidado Hèctor Parra.",
+     "horario": "17:30",
+     "tipo": "Formação / Música",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "15 € por sessão",
+     "url": "https://casadamusica.com/en/event/the-art-of-composition-from-history-to-modernity/?selected_session=54741",
+     "ligacao": "Casa da Música",
+     "nota": "Integra o 17.º Curso Livre de História da Música. Módulo completo (três sessões, às segundas-feiras desde 26 de outubro) a 37 €."
+    },
+    {
+     "nome": "Aulas abertas: Danças Moçambicanas + Semba",
+     "descricao": "Aula de experimentação gratuita, numa semana de portas abertas da escola, para conhecer danças de Moçambique e o semba angolano.",
+     "horario": "Por confirmar",
+     "tipo": "Dança",
+     "local": "Bamu Zunta Mon, Porto",
+     "preco": "Entrada livre",
+     "url": "https://www.agenda-porto.pt/en",
+     "ligacao": "Agenda Porto",
+     "nota": "Data e gratuitidade confirmadas na listagem da Agenda Porto; não foi possível abrir a página do evento, pelo que a hora, a morada e a eventual inscrição ficam por confirmar junto do organizador. A semana de aulas abertas continua nos dias seguintes com outros estilos (jazz autêntico, lindy hop, blues)."
+    },
+    {
+     "nome": "A Doce Vida, de Federico Fellini",
+     "descricao": "Sessão em sala do clássico italiano de 1960, em que Marcello Mastroianni é um jornalista à deriva entre as festas e as noites da Roma mundana.",
+     "horario": "21:00",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "Por confirmar",
+     "url": "https://cinematrindade.pt/pt/filmes/a-doce-vida",
+     "ligacao": "Cinema Trindade",
+     "nota": "M/12. Duração de 2h54 (termina por volta das 23:54). O preço não é indicado na página do filme; bilhetes à venda no site do cinema."
+    },
+    {
+     "nome": "Comemorações dos 150 anos da Caixa Geral de Depósitos",
+     "descricao": "Concerto comemorativo do 150.º aniversário do banco público na sala grande da Casa da Música.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "6 € (esgotado)",
+     "url": "https://casadamusica.com/en/event/150th-anniversary-celebrations-of-caixa-geral-de-depositos/?selected_session=59776",
+     "ligacao": "Casa da Música",
+     "nota": "A agenda da Casa da Música marca o concerto como esgotado. O programa detalhado não foi confirmado."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-10",
+   "eventos": [
+    {
+     "nome": "Nini e Simão: A Aventura da Alimentação",
+     "descricao": "Sessão do Clube da Saúde em que as personagens Nini e Simão servem de ponto de partida para falar de alimentação equilibrada com os mais novos.",
+     "horario": "Por confirmar",
+     "tipo": "Família / Conversa",
+     "local": "Biblioteca Municipal Almeida Garrett, Rua de Entre-Quintas, 4 (Jardins do Palácio de Cristal), Porto",
+     "preco": "Entrada livre",
+     "url": "https://www.agenda-porto.pt/en",
+     "ligacao": "Agenda Porto",
+     "nota": "Data e gratuitidade confirmadas na listagem da Agenda Porto; não foi possível abrir a página do evento. A edição anterior indicava 14:30 (Agenda Cultural do Porto), hora que não foi possível voltar a confirmar. Público-alvo e inscrição por confirmar."
+    },
+    {
+     "nome": "A Savana e a Montanha, de Paulo Carneiro",
+     "descricao": "Documentário português de 2024 sobre a resistência dos habitantes de Covas do Barroso ao projeto de uma grande mina de lítio a céu aberto junto às suas casas.",
+     "horario": "19:30",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "Por confirmar",
+     "url": "https://cinematrindade.pt/pt/filmes/a-savana-e-a-montanha/",
+     "ligacao": "Cinema Trindade",
+     "nota": "M/12, 1h17. A página indica a estreia em sala a 10 de novembro, sessão das 19:30 às 20:47. Preço não indicado. A grelha geral do Trindade identifica o dia 10 como \"segunda-feira\" sem indicar o ano (em 2026 é terça-feira); a página do filme confirma a data."
+    },
+    {
+     "nome": "Regresso ao Barroco",
+     "descricao": "A Orquestra Barroca e o Remix Ensemble tocam juntos pela primeira vez a mesma partitura, numa obra de Hèctor Parra que cruza a Paixão segundo São João de Bach com o teatro de Pasolini; o programa inclui ainda Avondano, \"La Folia\" de Geminiani/Corelli e Sofia Avramidou.",
+     "horario": "19:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "22 € a 26 €",
+     "url": "https://casadamusica.com/en/event/return-to-the-baroque/?selected_session=46395",
+     "ligacao": "Casa da Música",
+     "nota": "Direção de Laurence Cummings (também cravo) e Ustina Dubitsky. Preços por zona: filas A–K 26 €, L–U 24 €, UU–YY 22 €. Descontos para Amigos (25%) e, nas filas L–YY, para jovens até 30 anos, estudantes e maiores de 65."
+    },
+    {
+     "nome": "Rodrigo Cuevas – \"La Belleza\" (Misty Fest)",
+     "descricao": "O artista asturiano junta folclore, performance e eletrónica num espetáculo entre o concerto, o teatro e a festa popular, a partir do álbum \"Manual de Belleza\".",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "25 €",
+     "url": "https://casadamusica.com/event/rodrigo-cuevas/",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Desconto de 25% para Amigos da Casa da Música, mediante comprovativo à entrada."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-11",
+   "eventos": [
+    {
+     "nome": "Milk + Red Road, de Andrea Arnold",
+     "descricao": "Sessão da retrospetiva dedicada à realizadora britânica, que junta a curta \"Milk\" (1998) à primeira longa, \"Red Road\" (2006).",
+     "horario": "15:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "5 € (tabela geral)",
+     "url": "https://www.batalhacentrodecinema.pt/en/calendar/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/16. Hora confirmada no calendário do Batalha (a página do filme não mostra sessões). Preço segundo a tabela geral da bilheteira para sessões Batalha (5 €; 50% de desconto para estudantes, maiores de 65 e titulares do Porto.card). A edição anterior apontava para este horário \"Wasp + Fish Tank\", com base noutra fonte; o calendário oficial indica agora \"Milk + Red Road\"."
+    },
+    {
+     "nome": "Há Fado no Mercado",
+     "descricao": "Noite de fado nos restaurantes do Mercado do Bolhão, com fadistas a cantar à mesa num dos espaços mais emblemáticos da Baixa.",
+     "horario": "Por confirmar",
+     "tipo": "Música",
+     "local": "Mercado do Bolhão, Rua Formosa, 322, Porto",
+     "preco": "Entrada livre",
+     "url": "https://www.agenda-porto.pt/en",
+     "ligacao": "Agenda Porto",
+     "nota": "Data e gratuitidade confirmadas na listagem da Agenda Porto. Segundo o Porto Secreto (abril de 2026), a iniciativa decorre às quartas-feiras, das 20:00 às 22:00, mas a hora e o fadista desta noite não foram confirmados. Consumo nos restaurantes à parte."
+    },
+    {
+     "nome": "Linda Martini – 20 anos de \"Olhos de Mongol\"",
+     "descricao": "Os Linda Martini assinalam duas décadas do disco de estreia com um concerto dedicado a esse repertório no Coliseu.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "15 € (16,11 € com custos de operação Ticketline)",
+     "url": "https://www.ticketline.pt/en/evento/linda-martini-20-anos-olhos-de-mongol-109242",
+     "ligacao": "Ticketline",
+     "nota": "Duração de 60 minutos sem intervalo; não admite menores de 3 anos. Bilhetes à venda à data da consulta. A edição anterior indicava o formato Coliseu Box; a Ticketline não especifica a sala."
+    },
+    {
+     "nome": "Quando Menos Se Espera",
+     "descricao": "Estreia no Porto de uma comédia sobre o dia caótico de um empresário a quem a família e a vizinhança trocam as voltas.",
+     "horario": "21:00",
+     "tipo": "Teatro",
+     "local": "Teatro Sá da Bandeira (Sala Principal), Rua de Sá da Bandeira, 108, Porto",
+     "preco": "17,50 € a 30 € (18,79 € a 32,21 € com custos Ticketline)",
+     "url": "https://www.ticketline.pt/en/evento/QUANDO-MENOS-SE-ESPERA-106432",
+     "ligacao": "Ticketline",
+     "nota": "M/14, 90 minutos. Em cena até 29 de novembro (última sessão listada na Ticketline; a Agenda Porto indica até 22 de novembro). Elenco não indicado na Ticketline; a edição anterior referia Miguel Falabella e Marisa Orth, segundo a Viral Agenda."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-12",
+   "eventos": [
+    {
+     "nome": "Bilhetes Há Muitos! (inauguração)",
+     "descricao": "Nova exposição que conta a história do transporte público no Porto através de bilhetes, passes e senhas de várias épocas, com documentos e materiais gráficos de arquivo.",
+     "horario": "18:00",
+     "tipo": "Exposição",
+     "local": "Museu do Carro Eléctrico, Alameda Basílio Teles, 51, Porto",
+     "preco": "Entrada livre (inauguração)",
+     "url": "https://www.museudocarroelectrico.pt/event/bilhetes-ha-muitos/",
+     "ligacao": "Museu do Carro Eléctrico",
+     "nota": "Gratuitidade da inauguração indicada pela Agenda Porto. Depois, a visita está incluída no bilhete do museu. Desenho expositivo de David Penela e Bárbara R. Fica patente até 12 de setembro (ano não indicado; a Agenda Porto aponta 2027)."
+    },
+    {
+     "nome": "Auto da Barca do Inferno, de Gil Vicente",
+     "descricao": "Estreia da nova encenação de Marta Pazos, coprodução com o Centro Dramático Galego, que relê o clássico de 1517 como uma festa de cor e luz, cruzando teatro, dança e artes visuais.",
+     "horario": "19:00",
+     "tipo": "Teatro",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "7,50 € a 16 €",
+     "url": "https://www.agenda-porto.pt/en/evento/tnsj-auto-da-barca-do-inferno/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12. Em cena até 13 de dezembro (quartas, quintas e sábados às 19:00; sextas às 21:00; domingos às 16:00). Há sessões com Língua Gestual Portuguesa, em datas por confirmar. Não foi possível abrir a página do TNSJ."
+    },
+    {
+     "nome": "Siza Talks 2026: Kjetil Thorsen (Snøhetta)",
+     "descricao": "Abertura da edição de 2026 do ciclo de conversas sobre arquitetura, dedicada ao trabalho internacional e ao encontro entre culturas construtivas, com o arquiteto norueguês cofundador do atelier Snøhetta.",
+     "horario": "19:30",
+     "tipo": "Conversa / Arquitetura",
+     "local": "Fundação de Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "5 € (passe diário)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1211-siza-talks/",
+     "ligacao": "Serralves",
+     "nota": "Receção às 19:00. 50% de desconto para Amigos de Serralves, estudantes e maiores de 65. Organização de Serralves com o Prémio Aga Khan de Arquitetura; o ciclo continua até 14 de novembro. Língua das conversas não indicada."
+    },
+    {
+     "nome": "Manoel Cordeiro convida Euterpe + Curcumbia",
+     "descricao": "Noite de abertura do festival Floresta do Amazonas: o mestre da guitarrada paraense Manoel Cordeiro junta-se à cantora Euterpe, de Roraima, seguindo-se a cúmbia psicadélica e eletrónica dos Curcumbia.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "22 €",
+     "url": "https://casadamusica.com/en/event/cordeiro-invites-euterpe-curcumbia/?selected_session=59073",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Curcumbia às 22:15. Descontos para Amigos (25%) e, nas filas L–YY, para jovens até 30 anos, estudantes e maiores de 65. Às 23:30 há entrada livre no Café da Casa da Música com Will Love e DJ Waldo Squash. A RTP grafou o nome como \"Emanuel Cordeiro\"; a Casa da Música usa \"Manoel Cordeiro\"."
+    },
+    {
+     "nome": "Salão Piolho: The Immigrant, The Cure e Easy Street",
+     "descricao": "Cineconcerto com três curtas de Charlie Chaplin musicadas ao vivo por Jorge da Rocha, a assinalar os 130 anos da primeira projeção de cinema no Porto.",
+     "horario": "21:45",
+     "tipo": "Cinema / Música",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "Entrada livre",
+     "url": "https://www.agenda-porto.pt/en/ciclo/salao-piolho-2026/",
+     "ligacao": "Agenda Porto",
+     "nota": "Organização da INATEL. Gratuitidade indicada na listagem da Agenda Porto; eventual levantamento prévio de bilhete por confirmar. A sessão não aparece na grelha de programação do site do Trindade consultada."
+    }
+   ]
+  }
+ ]
+}
