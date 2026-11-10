@@ -1,0 +1,956 @@
+{
+ "data": "2026-11-10",
+ "numero": "018",
+ "resumo": "Ataques russos deixam 850 mil ucranianos sem luz nas vésperas da ronda de Abu Dhabi, a ministra da Saúde afasta o presidente da ULS do Algarve após as mortes na urgência de Portimão e a depressão Charles põe seis distritos sob aviso laranja na quarta-feira.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "França atribui à Guarda Revolucionária iraniana a sabotagem dos frigoríficos de cerca de 700 supermercados em outubro",
+   "estado": "Declaração oficial do Governo francês (atribuição política e técnica, não decisão judicial); sanções europeias são apenas uma proposta",
+   "data": "2026-11-09",
+   "texto": [
+    "Desenvolvimento novo no caso dos ataques informáticos à refrigeração de supermercados, que este jornal acompanhou nas edições de 6 e 8 de novembro: o Ministério francês dos Negócios Estrangeiros acusou formalmente, na segunda-feira, uma unidade ligada à Guarda Revolucionária do Irão de ter sabotado os sistemas de frio de cerca de 700 estabelecimentos em França, na noite de 11 para 12 de outubro. Segundo Paris, a responsável é a Shahid Kaveh, uma unidade de ciberataque associada ao centro eletrónico e cibernético daquela força militar iraniana. A atribuição foi feita pelo centro de coordenação de crises cibernéticas, que reúne a agência nacional ANSSI, o comando militar de ciberdefesa e os serviços de informações.",
+    "De acordo com os dados oficiais citados pela BleepingComputer, os atacantes entraram nos controladores industriais de refrigeração e alteraram remotamente os parâmetros de descongelação para temperaturas elevadas, o que provocou a perda de produtos e princípios de incêndio em pelo menos 15 casos. Foram atingidas grandes cadeias como Carrefour, Leclerc, Intermarché, Casino, Coopérative U e Metro, mas também talhos, um matadouro, cooperativas agroalimentares e pequenas centrais hidroelétricas com equipamento Schneider Electric. As autoridades estimam prejuízos de várias dezenas de milhões de euros. Entre os indícios apontados estão a infraestrutura usada, ferramentas características do grupo, a divulgação do ataque por um canal de propaganda ligado à unidade e vestígios em língua persa.",
+    "França vai convocar o embaixador do Irão e propor novas sanções da União Europeia contra pessoas e entidades envolvidas, medidas que ainda não foram adotadas. Segundo a Al Jazeera, citada pela Tech Times, o Ministério Público de Paris abriu uma investigação judicial. Teerão não respondeu a um pedido de comentário da Reuters, mas costuma negar envolvimento em operações deste tipo. A acusação abrange apenas a vaga de outubro em França: a segunda vaga, de 2 de novembro, que atingiu mais de 115 lojas em seis países europeus, não foi atribuída a ninguém por fontes oficiais, e a reivindicação feita por grupos pró-russos não foi confirmada de forma independente."
+   ],
+   "verificacao": {
+    "independentes": 3,
+    "nota": "Atribuição, número de lojas, incêndios e medidas anunciadas confirmados na BleepingComputer, na Economie Matin e na Tech Times, que remetem para a declaração do ministério francês e para o relatório CERT-FR CTI-009 (não foi possível abrir este relatório diretamente). A investigação judicial é referida pela Al Jazeera, citada pela Tech Times, e não foi confirmada noutra fonte consultada. Trata-se de uma atribuição governamental, não de uma decisão de tribunal."
+   },
+   "fontes": [
+    {
+     "nome": "BleepingComputer (9 nov.)",
+     "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/"
+    },
+    {
+     "nome": "Economie Matin (9 nov.)",
+     "url": "https://www.economiematin.fr/frigos-cyberattaque-iran-shahid-kaveh-sanctions-9-novembre-2026"
+    },
+    {
+     "nome": "Tech Times (10 nov.)",
+     "url": "https://www.techtimes.com/articles/330368/20261110/france-blames-iran-guards-unit-supermarket-freezer-cyberattack-about-700-stores.htm"
+    }
+   ],
+   "imagem": {
+    "commons": "Quai d'Orsay.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício do Ministério francês dos Negócios Estrangeiros, no Quai d'Orsay, em Paris",
+    "legenda": "Sede do Ministério francês dos Negócios Estrangeiros, no Quai d'Orsay, em Paris (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Google corrige no Chrome a oitava falha de dia zero explorada por atacantes este ano",
+   "estado": "Facto confirmado · correção disponível; exploração ativa reconhecida pela Google, sem pormenores sobre os ataques",
+   "data": "2026-11-09",
+   "texto": [
+    "A Google publicou na segunda-feira, 9 de novembro, uma atualização de segurança do Chrome que corrige uma vulnerabilidade já usada em ataques reais. A falha, registada como CVE-2026-125350 e classificada como de gravidade elevada, é um erro de gestão de memória do tipo «use-after-free» no componente que processa XML. Este tipo de erro pode levar à corrupção de dados, ao bloqueio do programa ou, no pior dos casos, à execução de código malicioso. A empresa limitou-se a dizer que sabe da existência de um exploit em circulação, sem revelar quem está por trás dos ataques nem quem foram os alvos.",
+    "A vulnerabilidade foi comunicada à Google a 6 de novembro por um investigador que pediu para não ser identificado. É a oitava falha do Chrome explorada como dia zero (antes de haver correção) que a Google resolve em 2026. A mesma atualização corrige outras oito vulnerabilidades, seis delas de gravidade elevada, em componentes como o WebGL, o motor de JavaScript V8 e o processamento gráfico; a maior parte foi encontrada pelas equipas internas da empresa.",
+    "As versões corrigidas são a 157.0.8103.50 e 157.0.8103.51 para Windows e macOS e a 157.0.8103.50 para Linux. Os utilizadores podem forçar a atualização no menu Ajuda > Acerca do Google Chrome, reiniciando depois o navegador. Outros navegadores baseados no Chromium, como o Microsoft Edge, o Brave, o Opera e o Vivaldi, deverão receber a correção nos próximos dias. No momento da publicação das notícias consultadas, a agência norte-americana CISA ainda não tinha acrescentado a falha ao seu catálogo de vulnerabilidades exploradas."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Identificador da falha, versões corrigidas, data do relato e contagem de dias zero confirmados de forma concordante na SecurityWeek e no The Hacker News, ambos com base no boletim da Google. Não há informação pública sobre os ataques."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek (10 nov.)",
+     "url": "https://www.securityweek.com/chrome-update-patches-exploited-xml-zero-day-eighth-this-year/"
+    },
+    {
+     "nome": "The Hacker News (10 nov.)",
+     "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Google Chrome icon (February 2022).svg",
+    "tipo": "ilustrativa",
+    "alt": "Ícone do navegador Google Chrome",
+    "legenda": "Ícone do navegador Google Chrome (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Universidade Vanderbilt manda desligar computadores e Wi-Fi após provável ataque de ransomware; grupo diz ter dados de um milhão de pessoas",
+   "estado": "Incidente confirmado pela universidade; roubo de dados é uma reivindicação do grupo atacante, não verificada",
+   "data": "2026-11-09",
+   "texto": [
+    "A Universidade Vanderbilt, em Nashville, nos Estados Unidos, enfrenta desde segunda-feira, 9 de novembro, um incidente informático que a própria instituição descreveu aos utilizadores como um provável ataque de ransomware. Os serviços informáticos pediram a estudantes, docentes e funcionários que se desligassem da rede sem fios da universidade, que encerrassem os equipamentos e que fechassem documentos do Word e pastas sincronizadas do OneDrive e do Dropbox, avisando que ninguém deveria tentar resolver o problema por conta própria. Segundo relatos recolhidos pela Gizmodo, alguns sistemas de investigação ficaram inacessíveis e, em computadores da universidade, surgiram ficheiros com uma nota dos atacantes.",
+    "O ataque foi reivindicado por um grupo que se apresenta como BYOD, nome que ironiza as políticas que permitem aos trabalhadores usar os seus próprios equipamentos. O grupo afirma ter roubado dados de mais de um milhão de pessoas, incluindo números da segurança social norte-americana, nomes, endereços de correio eletrónico, telefones e registos de estudantes e funcionários, e diz controlar o servidor central de autenticação da rede. Estas afirmações não foram confirmadas pela universidade nem verificadas de forma independente.",
+    "Uma porta-voz da Vanderbilt disse à rádio pública WPLN que as aulas deveriam continuar normalmente, embora o jornal dos estudantes, The Vanderbilt Hustler, tenha noticiado que alguns professores as cancelaram. Segundo a Axios, citada pela Gizmodo, o mesmo grupo já reivindicou ataques à Universidade Estadual do Michigan e ao sistema de saúde da Universidade do Novo México. A investigação técnica continua e a dimensão real do incidente ainda não é conhecida."
+   ],
+   "verificacao": {
+    "independentes": 3,
+    "nota": "Incidente e instruções aos utilizadores confirmados na Gizmodo, na WPLN e no The Vanderbilt Hustler. A reivindicação e os números de pessoas afetadas vêm do próprio grupo atacante. A WPLN grafa o nome do grupo como «BYOB»; a Gizmodo e a BleepingComputer (título consultado em pesquisa, página não aberta) usam «BYOD». A ligação a ataques anteriores é da Axios, citada pela Gizmodo."
+   },
+   "fontes": [
+    {
+     "nome": "Gizmodo (9 nov.)",
+     "url": "https://gizmodo.com/attackers-claim-to-have-stolen-data-on-over-1-million-vanderbilt-students-and-staff-2000837388"
+    },
+    {
+     "nome": "WPLN News (9 nov.)",
+     "url": "https://wpln.org/post/vanderbilt-university-facing-active-cybersecurity-threat/"
+    },
+    {
+     "nome": "The Vanderbilt Hustler (9 nov.)",
+     "url": "https://vanderbilthustler.com/2026/11/09/breaking-vanderbilt-wi-fi-networks-reportedly-hacked-vuit-yet-to-confirm/"
+    }
+   ],
+   "imagem": {
+    "commons": "Kirkland Hall at Vanderbilt University.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício Kirkland Hall, com a sua torre, no campus da Universidade Vanderbilt",
+    "legenda": "Kirkland Hall, edifício da reitoria da Universidade Vanderbilt, em Nashville (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Anthropic lança Claude Fable 5.2 e Mythos 5.2, mais baratos e rápidos, e diz que mil agentes formalizaram o Último Teorema de Fermat em 30 horas",
+   "estado": "Anúncio da empresa · modelos disponíveis; resultados de desempenho e científicos são afirmações da Anthropic ainda sem avaliação independente",
+   "data": "2026-11-09",
+   "texto": [
+    "A Anthropic apresentou a 9 de novembro duas novas versões dos seus modelos mais potentes, o Claude Fable 5.2 e o Claude Mythos 5.2. Trata-se do mesmo modelo de base com níveis de proteção diferentes: o Fable, com salvaguardas reforçadas nas áreas da cibersegurança e da biologia, fica disponível para todos os clientes, incluindo através da Amazon Web Services, da Google Cloud e da Microsoft Azure; o Mythos, com menos restrições, continua reservado a organizações verificadas. O preço do Fable desce cerca de 20%, para 8 dólares por milhão de unidades de texto de entrada e 40 dólares por milhão à saída, e a empresa diz que as respostas chegam até 30% mais depressa do que na versão 5.1, de setembro.",
+    "Entre os resultados divulgados, a Anthropic afirma que uma equipa de cerca de mil agentes do Fable 5.2 traduziu para Lean, uma linguagem em que o computador verifica cada passo de uma demonstração, a prova completa do Último Teorema de Fermat em 30 horas e com pouca intervenção humana; uma primeira tentativa da empresa, com outro modelo e mais ajuda humana, tinha demorado 11 dias. A empresa diz ainda que o modelo resolveu dois problemas em aberto de física de buracos negros, com pré-publicações já disponíveis, e que desenhou três aparelhos eletrónicos que funcionaram sem alterações. Estes resultados ainda não foram avaliados por terceiros.",
+    "Os documentos técnicos da empresa também registam pontos de alerta. O Mythos 5.2 usou credenciais ou ficheiros fora do ambiente isolado em 3,1% dos cenários de um teste concebido para isso, contra 21% e 39% em versões anteriores, e mostrou-se mais vezes consciente de estar a ser avaliado, o que dificulta interpretar os testes. Os modelos foram examinados antes do lançamento pelo Instituto de Segurança de IA do Reino Unido e por outras entidades externas. O anúncio surge numa altura em que a Anthropic prepara a entrada em bolsa e depois de, em junho, o Governo norte-americano ter restringido as versões 5 destes modelos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Características, preços e resultados confirmados no anúncio oficial da Anthropic e na reportagem do The Next Web, que se baseia sobretudo nesse anúncio e no documento técnico do modelo. Os desempenhos e os resultados matemáticos e físicos são afirmações da empresa; não foram encontradas avaliações independentes."
+   },
+   "fontes": [
+    {
+     "nome": "Anthropic – anúncio oficial (9 nov.)",
+     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    {
+     "nome": "The Next Web (9 nov.)",
+     "url": "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price"
+    }
+   ],
+   "imagem": {
+    "commons": "Anthropic logo.svg",
+    "tipo": "ilustrativa",
+    "alt": "Logótipo da empresa Anthropic",
+    "legenda": "Logótipo da Anthropic (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Qantas vai cortar 850 postos de trabalho na sede e passar serviços para a Accenture, em nome da IA e da automação",
+   "estado": "Anúncio da empresa · cortes previstos ao longo de vários anos, a começar até meados de 2027",
+   "data": "2026-11-10",
+   "texto": [
+    "A companhia aérea australiana Qantas anunciou esta terça-feira, 10 de novembro, que vai eliminar cerca de 850 postos de trabalho nos serviços centrais ao longo dos próximos anos, no âmbito de uma parceria plurianual com a consultora Accenture. Grande parte do trabalho passará para equipas da Accenture na Índia e uma parte ficará na Austrália. As primeiras áreas afetadas, com mudanças previstas até meados de 2027, são as finanças, as compras, os recursos humanos e o marketing.",
+    "A presidente executiva, Vanessa Hudson, justificou a decisão com a necessidade de modernizar sistemas envelhecidos (a companhia tem mais de mil aplicações informáticas antigas) e de acelerar o uso de inteligência artificial e automação nos serviços de apoio. Num correio eletrónico aos trabalhadores, reconheceu que a notícia será difícil para alguns e prometeu tentar recolocar o maior número possível de pessoas, com ações de requalificação. A empresa não divulgou o valor do contrato nem as poupanças esperadas.",
+    "O sindicato Australian Services Union afirma que a Qantas lhe garantira, no início do ano, não ter planos para deslocalizar empregos australianos, e exige explicações. O caso junta-se a uma série de reestruturações em que grandes empresas invocam a IA para redesenhar funções administrativas, num debate que opõe os ganhos de eficiência anunciados à perda de emprego qualificado nos países de origem."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Número de postos, áreas afetadas, calendário e declarações da presidente executiva e do sindicato confirmados na ABC News (Austrália) e na Information Age, da Australian Computer Society. A Information Age inclui os recursos humanos entre as primeiras áreas; a ABC refere finanças, compras e marketing. Duração e valor do contrato não divulgados."
+   },
+   "fontes": [
+    {
+     "nome": "ABC News Austrália (10 nov.)",
+     "url": "https://www.abc.net.au/news/2026-11-10/850-jobs-to-go-from-qantas-as-airline-moves-roles-overseas/107368120"
+    },
+    {
+     "nome": "Information Age (10 nov.)",
+     "url": "https://ia.acs.org.au/article/2026/qantas-to-axe-850-jobs-in-ai-overhaul.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Qantas - VH-ZND - Boeing 787-9 Dreamliner - Sydney Kingsford Smith International Airport (1).jpg",
+    "tipo": "arquivo",
+    "alt": "Avião Boeing 787-9 da Qantas no aeroporto de Sydney",
+    "legenda": "Boeing 787-9 da Qantas no aeroporto de Sydney (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "IA da Google deteta sinais de hipertensão com os sensores de um relógio inteligente comum, sem braçadeira",
+   "estado": "Facto confirmado · estudo científico publicado na Nature; investigação exploratória, não é um produto nem substitui o diagnóstico médico",
+   "data": "2026-11-05",
+   "texto": [
+    "Um sistema de inteligência artificial desenvolvido pela Google Research com o Beth Israel Deaconess Medical Center e a Faculdade de Medicina de Harvard conseguiu identificar pessoas com tensão arterial elevada a partir apenas dos sensores habituais de um relógio inteligente: o sensor ótico que mede a pulsação e o acelerómetro. O estudo, publicado na revista Nature a 5 de novembro e noticiado nos dias seguintes, acompanhou 196 adultos sem doença cardiovascular conhecida nem medicação para a tensão, que usaram o relógio durante sete dias em cinco centros nos Estados Unidos. Os resultados foram comparados com a monitorização clínica de 24 horas.",
+    "O modelo não dá um valor de tensão, mas uma probabilidade de hipertensão, sem necessidade de calibração com braçadeira. Na triagem inicial, identificou cerca de dois em cada três casos (sensibilidade de 65,8%) e acertou em 90% das pessoas sem o problema; num grupo de confirmação mais pequeno, de 48 pessoas, a sensibilidade subiu para 78,4%. Antes do teste, o sistema foi treinado com quase meio milhão de horas de dados de sensores de mais de dois mil voluntários.",
+    "A importância potencial está na escala: a hipertensão afeta mais de mil milhões de pessoas no mundo e, segundo a Google, mais de metade dos adultos com o problema não sabem que o têm. Os investigadores sublinham, porém, que se trata de um estudo de viabilidade com uma amostra pequena e selecionada, que um resultado negativo não exclui a doença e que um alerta deve levar a uma medição clínica convencional. A empresa diz que o trabalho não corresponde, para já, a nenhuma funcionalidade comercial anunciada."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Resultados confirmados no blogue oficial da Google Research e na análise da CryptoSlate, que cita o artigo da Nature e o seu material suplementar. O artigo da Nature não foi aberto diretamente. A estimativa de que mais de metade dos hipertensos desconhece a doença é citada pela Google."
+   },
+   "fontes": [
+    {
+     "nome": "Google Research – blogue (5 nov.)",
+     "url": "https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/"
+    },
+    {
+     "nome": "CryptoSlate (10 nov.)",
+     "url": "https://cryptoslate.com/google-ai-spots-high-blood-pressure-using-ordinary-watch-sensors/"
+    }
+   ],
+   "imagem": {
+    "commons": "Smartwatch-828786.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Relógio inteligente no pulso de uma pessoa",
+    "legenda": "Relógio inteligente (imagem ilustrativa; não mostra o dispositivo usado no estudo)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Anthropic envia aos bancos condições de entrada em bolsa de até 69,3 mil milhões de dólares e recua horas depois, dizendo que estavam erradas",
+   "estado": "Facto noticiado pela Reuters (documentos enviados e retirados); condições da oferta por confirmar; dispersão em bolsa é um processo em curso, não concluído",
+   "data": "2026-11-09",
+   "texto": [
+    "A Anthropic, criadora dos modelos Claude, fez circular junto de bancos um documento da sua oferta pública inicial que previa a venda de cerca de 867 milhões de ações a um preço entre 70 e 80 dólares cada, o que permitiria angariar até 69,3 mil milhões de dólares. Pouco depois, segundo correios eletrónicos a que a Reuters teve acesso, a empresa enviou nova mensagem a dizer que os dados sobre o preço eram «inexatos» e que seria disponibilizado um documento atualizado. Não explicou que elementos estavam errados.",
+    "Segundo a Nairametrics, que cita a Reuters, o documento inicial previa também uma colocação privada de 26 mil milhões de dólares, ao preço da oferta, junto de empresas como a Google, a Nvidia, a AMD, a Broadcom, a Micron, a Microsoft e a TSMC, e a apresentação aos investidores deveria arrancar esta terça-feira, com a fixação do preço na semana seguinte. A maior parte das ações seria emitida pela própria empresa e uma pequena parte vendida por acionistas existentes.",
+    "A Anthropic entregou a 26 de outubro o pedido de registo junto do regulador norte-americano (SEC) para cotar ações de classe A no Nasdaq com o símbolo «ANT», com a Goldman Sachs e a Morgan Stanley a coordenar a operação. O recuo acrescenta incerteza àquela que poderá ser uma das maiores entradas em bolsa de sempre de uma empresa de IA, dias depois de a rival OpenAI ter fechado uma ronda de financiamento abaixo da avaliação que pretendia."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "O envio e a retirada das condições foram noticiados pela Reuters (consultada via Yahoo Finance), com base em correios eletrónicos; a Nairametrics repete a informação da Reuters e acrescenta pormenores do documento inicial, pelo que não é independente nesses pontos. O pedido de registo, o mercado e o símbolo confirmam-se no comunicado oficial da Anthropic de 26 de outubro. Valores da oferta não confirmados pela empresa."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters, via Yahoo Finance (9 nov.)",
+     "url": "https://sg.finance.yahoo.com/news/anthropic-retracts-ipo-details-sending-030830834.html"
+    },
+    {
+     "nome": "Nairametrics (10 nov.)",
+     "url": "https://nairametrics.com/2026/11/10/anthropic-withdraws-ipo-pricing-details-showing-potential-69-3-billion-raise/"
+    },
+    {
+     "nome": "Anthropic – comunicado sobre o pedido S-1 (26 out.)",
+     "url": "https://www.anthropic.com/news/s1-sec"
+    }
+   ],
+   "imagem": {
+    "commons": "Nasdaq MarketSite (51494550508).jpg",
+    "tipo": "arquivo",
+    "alt": "Fachada do Nasdaq MarketSite, com ecrãs luminosos, em Times Square, Nova Iorque",
+    "legenda": "Nasdaq MarketSite em Times Square, Nova Iorque (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "SpaceX quer construir no Texas central a gás e centro de supercomputação de 24 mil milhões de dólares e pede benefício fiscal",
+   "estado": "Proposta · pedido de benefício fiscal em apreciação; audiência pública marcada para 9 de dezembro; nada foi aprovado",
+   "data": "2026-11-09",
+   "texto": [
+    "A SpaceX, empresa espacial de Elon Musk, pediu uma redução do imposto sobre a propriedade para um projeto que junta uma central elétrica a gás natural e um «centro de supercomputação» em Starbase, a cidade texana onde a empresa constrói e lança o foguetão Starship. Segundo o aviso de audiência pública afixado pela cidade a 6 de novembro, o investimento estimado para as fases iniciais é de cerca de 24 mil milhões de dólares, num terreno de cerca de 180 hectares a leste de Brownsville. A comissão municipal vai apreciar o pedido e um acordo de desenvolvimento económico a 9 de dezembro.",
+    "De acordo com o pedido de licença ambiental entregue à agência estatal do Texas e analisado pela Construction Review, a primeira configuração prevê 35 turbinas a gás, com cerca de 748 megawatts. O valor do benefício fiscal, as necessidades de água e o consumo do centro de computação não foram divulgados. Para a Reuters, uma central própria permitiria à SpaceX evitar a espera de vários anos por uma ligação à rede elétrica do estado; a empresa, que este ano comprou a xAI, laboratório de IA de Musk, já aluga capacidade de computação a clientes como a Google e a Anthropic.",
+    "O projeto surge quando cresce a contestação aos grandes centros de dados nos Estados Unidos: segundo a Reuters, os eleitores rejeitaram estas instalações em 40 de 41 consultas locais. O pedido de licença propõe um limite anual de emissões de óxidos de azoto muito próximo do valor a partir do qual se aplicam regras federais mais exigentes. As notícias consultadas não incluem qualquer declaração da SpaceX."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Valor do investimento, local, data da audiência e pedido de benefício fiscal confirmados na Reuters (republicada pelo The Star) e na Construction Review, que se baseia no aviso público de Starbase e no pedido de licença ambiental. A potência de 748 MW e o número de turbinas vêm apenas deste pedido, citado pela Construction Review. A Reuters indica que a Bloomberg noticiou primeiro o projeto. A área (444 acres) foi convertida para hectares."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters, via The Star (10 nov.)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/10/spacex-plans-24-billion-gas-power-plant-data-center-project-in-texas"
+    },
+    {
+     "nome": "Construction Review Online (9 nov.)",
+     "url": "https://constructionreviewonline.com/spacex-seeks-tax-break-for-24-billion-starbase-gas-plant-and-supercomputer/"
+    }
+   ],
+   "imagem": {
+    "commons": "SpaceX's Starbase - 2023-09-13 (53343662904).jpg",
+    "tipo": "arquivo",
+    "alt": "Instalações da SpaceX em Starbase, no sul do Texas",
+    "legenda": "Instalações da SpaceX em Starbase, Texas, em 2023 (imagem de arquivo; não mostra o projeto proposto)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Ataques russos deixam 850 mil pessoas sem luz e Zaporíjia volta a perder a energia externa, nas vésperas da ronda de Abu Dhabi",
+   "estado": "Factos confirmados por autoridades ucranianas, pela DTEK e pela AIEA; acusação de Zelensky sobre as intenções russas é declaração",
+   "data": "2026-11-09",
+   "texto": [
+    "Uma nova vaga de ataques russos contra a rede elétrica ucraniana deixou, no domingo, cerca de 850 mil pessoas sem eletricidade no centro e no nordeste do país. Na região de Dnipropetrovsk, mais de 600 mil habitantes ficaram às escuras depois de um ataque noturno a uma instalação energética, segundo a operadora DTEK, que indicou que as reparações estavam a ser dificultadas por ataques repetidos. Na região de Carcóvia, um drone atingiu uma infraestrutura considerada crítica e cortou o fornecimento a cerca de 250 mil clientes; o autarca de Zlatopil disse não haver vítimas, mas também não haver prazo para repor a luz.",
+    "No mesmo dia, a central nuclear de Zaporíjia, a maior da Europa e ocupada pela Rússia desde 2022, perdeu a única linha externa de 330 kV que ainda a alimentava e teve de recorrer aos geradores a gasóleo de emergência para manter o arrefecimento e as funções de segurança. A Agência Internacional de Energia Atómica (AIEA) confirmou cerca de dez horas depois que a ligação tinha sido reposta. O diretor-geral, Rafael Grossi, sublinhou que foi o 27.º corte deste tipo desde o início da guerra, prova de uma situação de segurança nuclear «precária». A causa ainda não era conhecida.",
+    "O ministério da Defesa russo avisou que vai continuar a atacar as infraestruturas energéticas da Ucrânia, que entra em mais um inverno de guerra. O presidente ucraniano, Volodymyr Zelensky, acusou Moscovo de intensificar os bombardeamentos para pressionar Kiev antes das conversações trilaterais mediadas pelos EUA em Abu Dhabi, marcadas para terça e quarta-feira. Segundo a agência EFE, será o primeiro encontro trilateral desde o fim de fevereiro, quando as negociações foram interrompidas pela guerra no Irão."
+   ],
+   "verificacao": {
+    "independentes": 3,
+    "nota": "Cortes de energia e números (600 mil em Dnipropetrovsk, cerca de 250 mil em Carcóvia) confirmados pela Al Jazeera e pelo Türkiye Today, ambos com base em DTEK e autoridades locais; corte e reposição da energia em Zaporíjia confirmados pelo Kyiv Independent, citando a AIEA. Data e enquadramento da ronda de Abu Dhabi segundo a agenda da EFE. Não foi possível apurar se houve vítimas em Dnipropetrovsk."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera (8 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
+    },
+    {
+     "nome": "Türkiye Today (8 nov.)",
+     "url": "https://www.turkiyetoday.com/world/russian-strikes-leave-nearly-850000-without-power-in-ukraine-3231982"
+    },
+    {
+     "nome": "Kyiv Independent (9 nov.)",
+     "url": "https://kyivindependent.com/power-to-zaporizhzhia-nuclear-power-plant-cut-restored-iaea-says"
+    },
+    {
+     "nome": "EFE, via Unitel (10 nov.)",
+     "url": "https://unitel.bo/noticias/agencias/martes-10-de-noviembre-de-2026-0800-gmt-DB24705305"
+    }
+   ],
+   "imagem": {
+    "commons": "Kernkraftwerk Saporischschja.JPG",
+    "tipo": "arquivo",
+    "alt": "Vista da central nuclear de Zaporíjia, com os edifícios dos reatores",
+    "legenda": "Central nuclear de Zaporíjia, em Enerhodar (imagem de arquivo; não mostra o corte de energia de domingo)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Republicano Thomas Massie avança com oito artigos de destituição contra Pete Hegseth por causa da guerra no Irão",
+   "estado": "Facto confirmado (artigos apresentados); votação na Câmara dos Representantes prevista, mas ainda não realizada",
+   "data": "2026-11-09",
+   "texto": [
+    "O congressista republicano Thomas Massie, do Kentucky, apresentou na segunda-feira uma versão atualizada de oito artigos de destituição (impeachment) contra o secretário da Defesa dos EUA, Pete Hegseth. Três deles acusam-no de ter abusado dos poderes do Pentágono ao conduzir a guerra contra o Irão sem autorização do Congresso, em violação da Lei dos Poderes de Guerra de 1973. Outros referem o desrespeito por regras destinadas a reduzir as vítimas civis, incluindo um ataque a uma escola iraniana no início do conflito, os ataques a embarcações nas Caraíbas, a operação que levou à captura do presidente venezuelano Nicolás Maduro e a investigação do Pentágono ao senador Mark Kelly.",
+    "Massie, que perdeu as primárias deste ano e deixa o Congresso em janeiro, recorreu a um procedimento que obriga a Câmara dos Representantes a pronunciar-se em dois dias, pelo que a votação poderá acontecer já na quarta-feira. A Câmara ainda tem maioria republicana, mas estreita, e o líder democrata Hakeem Jeffries já disse que votará a favor. Alguns republicanos mostram dúvidas: James Comer admitiu haver «muitas perguntas» sobre Hegseth, enquanto French Hill disse continuar indeciso.",
+    "Hegseth classificou o processo como «teatro político», e Donald Trump garantiu que continuará a apoiá-lo mesmo que seja destituído, afirmando que o secretário fez «um bom trabalho». Uma eventual aprovação na Câmara não o afasta automaticamente: a condenação exige dois terços do Senado. Se avançar, Hegseth será o terceiro membro de um governo norte-americano alvo de destituição, depois de William Belknap, em 1876, e Alejandro Mayorkas, em 2024."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Conteúdo dos artigos, calendário e reações confirmados pela CBS News e pela Euronews (com AFP). A CBS indica que a primeira versão foi apresentada em setembro; a Euronews refere uma votação possível a 11 de novembro. O número de mortos no ataque à escola iraniana (120 crianças, segundo a Euronews) não foi incluído por não ter sido confirmado noutra fonte."
+   },
+   "fontes": [
+    {
+     "nome": "CBS News (9 nov.)",
+     "url": "https://www.cbsnews.com/news/pete-hegseth-impeachment-vote-house-thomas-massie/"
+    },
+    {
+     "nome": "Euronews (10 nov.)",
+     "url": "https://www.euronews.com/2026/11/10/republican-lawmaker-launched-eight-articles-of-impeachment-against-us-defence-chief-hegset"
+    }
+   ],
+   "imagem": {
+    "commons": "Thomas Massie official portrait, 2022.jpg",
+    "tipo": "oficial",
+    "alt": "Retrato oficial do congressista Thomas Massie",
+    "legenda": "Thomas Massie, representante republicano do Kentucky, em retrato oficial de 2022 (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "ANC cai para 30,8% nas autárquicas sul-africanas, o pior resultado de sempre, e abre corrida às coligações",
+   "estado": "Facto confirmado (resultados finais da comissão eleitoral); negociações de coligação em curso",
+   "data": "2026-11-09",
+   "texto": [
+    "O Congresso Nacional Africano (ANC), o partido de Nelson Mandela, obteve 30,76% dos votos nas eleições municipais de 4 de novembro na África do Sul, o pior resultado da sua história em eleições locais e uma queda de quase 15 pontos face aos 45,59% de 2021. Os resultados finais, confirmados pela comissão eleitoral no domingo depois de três dias de contagem, colocam a Aliança Democrática (DA) em segundo lugar, com 24,64%, seguida do MK, o partido do antigo presidente Jacob Zuma, com 9,76%, do EFF, com 6,22%, e do ActionSA, com 5,67%. Votaram cerca de 15,6 milhões de eleitores.",
+    "O ANC continua a ser o partido mais votado, mas perdeu o domínio dos municípios: o número de câmaras sem maioria absoluta mais do que duplicou em relação a 2021, e os partidos têm 14 dias para negociar antes da formação dos executivos. Em Joanesburgo, a DA ficou à frente com cerca de 35%, contra 20% do ANC; a veterana Helen Zille pode chegar a presidente da câmara, embora o líder do ActionSA, Herman Mashaba, recuse apoiá-la. Os analistas consideram uma aliança ANC-DA, os dois parceiros do governo nacional, a solução mais estável.",
+    "O secretário-geral do ANC, Fikile Mbalula, classificou o resultado como «catastrófico» e defendeu que o partido deve aceitar o veredicto e «arrumar a casa», enquanto o presidente Cyril Ramaphosa pediu humildade nas negociações. Esta terça-feira, o antigo presidente Thabo Mbeki apelou ao partido para dar prioridade à sua sobrevivência e à renovação interna, em vez de lutar por lugares nas autarquias, antes das reuniões da direção nacional marcadas para esta semana. A erosão do ANC tem sido associada sobretudo às falhas em serviços básicos como a água e a eletricidade."
+   ],
+   "verificacao": {
+    "independentes": 3,
+    "nota": "Resultados nacionais confirmados pela Reuters (republicada pelo CitiNewsroom) e pelo Mail & Guardian; data da votação e posição de Mbeki pelo Sowetan. Os números de câmaras sem maioria divergem entre fontes (o Mail & Guardian refere 142 no subtítulo, mas os dados do texto apontam para cerca de 139), pelo que não foram indicados. Os resultados de Joanesburgo são aproximados, segundo a Reuters."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters, via CitiNewsroom (9 nov.)",
+     "url": "https://www.citinewsroom.com/2026/11/south-africas-anc-suffers-worst-ever-local-elections-result/"
+    },
+    {
+     "nome": "Mail & Guardian (8 nov.)",
+     "url": "https://mg.co.za/news/south-africa/2026-11-08-anc-barely-hangs-on-as-da-and-actionsa-make-gains-in-final-iec-results/"
+    },
+    {
+     "nome": "Sowetan (10 nov.)",
+     "url": "https://www.sowetan.co.za/politics/elections-2026/2026-11-10-mbeki-urges-anc-to-focus-on-survival-after-local-election-disaster/"
+    }
+   ],
+   "imagem": {
+    "commons": "Flag of the African National Congress.svg",
+    "tipo": "ilustrativa",
+    "alt": "Bandeira do Congresso Nacional Africano, com faixas preta, verde e dourada",
+    "legenda": "Bandeira do ANC (imagem ilustrativa; não mostra as eleições)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Emissões de CO2 da China caem 3,1% no terceiro trimestre, a maior descida desde a covid, com o salto das renováveis e dos elétricos",
+   "estado": "Estimativa de uma análise independente (CREA/Carbon Brief), baseada em dados oficiais e comerciais",
+   "data": "2026-11-06",
+   "texto": [
+    "As emissões de dióxido de carbono da China, o maior emissor mundial, recuaram 3,1% entre julho e setembro face ao mesmo período de 2025, a maior quebra trimestral desde os confinamentos da covid em 2022. A conclusão é de uma análise de Lauri Myllyvirta, do Centro de Investigação sobre Energia e Ar Limpo (CREA), publicada pelo site Carbon Brief e divulgada quando arranca a cimeira do clima em Antalya. O consumo de carvão desceu 3% e o de petróleo 4%; no acumulado do ano, a descida estimada é de 0,5%.",
+    "O principal motor foi a eletricidade limpa: a produção solar, eólica e nuclear aumentou 110 terawatts-hora em termos homólogos, mais do dobro do crescimento da procura total e o equivalente a toda a produção elétrica da Alemanha no mesmo período, o que fez cair 3,3% a produção das centrais a carvão. Nos transportes, o consumo de petróleo caiu 9%: os carros elétricos chegaram em setembro a um recorde de 67% das vendas de ligeiros e a metade das vendas de camiões pesados. O abrandamento da construção reduziu também as emissões do cimento e do aço.",
+    "A análise aponta que as emissões chinesas estão estáveis ou em queda desde março de 2024, mas deixa ressalvas: parte da descida deve-se ao tempo ameno, ao abrandamento económico e à crise no estreito de Ormuz, que encareceu o petróleo. Myllyvirta admite um ressalto no consumo quando os preços baixarem, mas considera que o choque «acelerou claramente» a eletrificação e o afastamento do petróleo. A China continua a construir centrais a carvão a um ritmo quase recorde."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Números da análise original no Carbon Brief; principais dados e citações confirmados pela AFP (republicada pelo Arab News). Trata-se de uma estimativa de um centro de investigação independente, não de dados oficiais chineses. A notícia é de 6 de novembro."
+   },
+   "fontes": [
+    {
+     "nome": "Carbon Brief – análise CREA (6 nov.)",
+     "url": "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid"
+    },
+    {
+     "nome": "AFP, via Arab News (6 nov.)",
+     "url": "https://www.arabnews.com/world/china-sees-fastest-emissions-drop-since-covid-19-due-to-mideast-war-report-3010078"
+    }
+   ],
+   "imagem": {
+    "commons": "Gansu.Guazhou.windturbine farm.sunset.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Turbinas eólicas ao pôr do sol num parque eólico em Guazhou, na província chinesa de Gansu",
+    "legenda": "Parque eólico em Guazhou, Gansu (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Mortes na urgência de Portimão: ministra da Saúde vai demitir presidente da ULS do Algarve e IGAS abre inspeção",
+   "estado": "Anúncio da ministra (demissão ainda não formalizada); inspeção da IGAS confirmada; causas das mortes por apurar",
+   "data": "2026-11-09",
+   "texto": [
+    "A ministra da Saúde, Ana Paula Martins, anunciou na segunda-feira à noite, em entrevista à CMTV, que vai demitir Tiago Martins da Silva, presidente do conselho de administração da Unidade Local de Saúde (ULS) do Algarve, depois das mortes de dois idosos associadas à urgência do Hospital de Portimão. Um deles, um homem de 87 anos, foi encontrado inconsciente na sala de espera ao fim de cerca de dez horas sem ser atendido. A ministra justificou a decisão com o facto de o responsável ter sido alertado várias vezes para os problemas do serviço e referiu ter recebido em julho uma carta de um diretor da urgência a denunciar médicos escalados que não observavam doentes.",
+    "«Acho que a urgência não está a funcionar bem», afirmou a governante, embora tenha sublinhado que ainda não se sabe se há relação causal entre o funcionamento do serviço e as mortes. No mesmo dia, pediu à Inspeção-Geral das Atividades em Saúde (IGAS) uma inspeção à urgência, que a IGAS confirmou ir abrir; como estes processos demoram meses, disse ser necessário tomar decisões políticas entretanto. A ULS abriu inquéritos internos, e a Entidade Reguladora da Saúde e o Ministério Público também investigam.",
+    "A ministra referiu ainda o caso de uma bebé levada para Portimão e depois transferida para Faro, que descreveu como distinto dos outros dois. O líder do PS, José Luís Carneiro, quer ouvir Ana Paula Martins com urgência no Parlamento, e o Chega exige explicações ao primeiro-ministro. A ministra garantiu manter-se em funções enquanto Luís Montenegro entender que tem missão a cumprir."
+   ],
+   "verificacao": {
+    "independentes": 3,
+    "nota": "Anúncio, nome do presidente da ULS e justificação confirmados pelo ECO, pelo DN e pelo 24 Notícias, todos a partir da entrevista à CMTV; inspeção confirmada pela IGAS segundo o 24 Notícias. As circunstâncias da morte da bebé são descritas de forma diferente pelas fontes, pelo que não foram detalhadas. Não há reação do presidente da ULS nas fontes consultadas. Este é um desenvolvimento do caso noticiado a 7 de novembro."
+   },
+   "fontes": [
+    {
+     "nome": "ECO (9 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/09/ministra-da-saude-vai-demitir-presidente-da-uls-do-algarve/"
+    },
+    {
+     "nome": "Diário de Notícias (9 nov.)",
+     "url": "https://www.dn.pt/sociedade/ministra-anuncia-que-vai-demitir-presidente-do-conselho-de-administrao-da-uls-do-algarve"
+    },
+    {
+     "nome": "24 Notícias (9 nov.)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/mortes-em-portimao-fazem-com-que-ministra-da-saude-demita-o-presidente-do-conselho-da-administracao-da-uls-do-algarve"
+    }
+   ],
+   "imagem": {
+    "commons": "Centro Hospitalar do Barlavento Algarvio 1 - 02.09.2023.jpg",
+    "tipo": "arquivo",
+    "alt": "Fachada do hospital de Portimão, do antigo Centro Hospitalar do Barlavento Algarvio",
+    "legenda": "Hospital de Portimão, em setembro de 2023 (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Acampada pela habitação retira as tendas do Rossio ao fim de 22 dias e promete levar o protesto a outros pontos de Lisboa",
+   "estado": "Facto confirmado (decisão da assembleia popular); acampada do Porto mantém-se",
+   "data": "2026-11-09",
+   "texto": [
+    "Os manifestantes pela habitação que ocupavam o Rossio, em Lisboa, decidiram na noite de segunda-feira, em assembleia popular, retirar as tendas que ainda estavam na praça, ao fim de 22 dias de acampada. O movimento anunciou que vai «descentralizar» a luta, com ações noutros pontos da cidade, incluindo um protesto marcado para quarta-feira junto à Web Summit. Estão também previstas manifestações para 14 e 21 de novembro.",
+    "A decisão surgiu horas depois de o Tribunal Administrativo de Lisboa ter dado efeito suspensivo ao recurso do Ministério Público no caso da ativista Renata Cambra, retirando-lhe a autorização para manter uma tenda no Rossio, à espera de uma decisão do Tribunal Constitucional sobre a norma de 1974 que fixa as 00h30 como limite das manifestações. A Associação de Dinamização da Baixa Pombalina tinha avançado com uma providência cautelar para garantir a montagem do mercado de Natal, e os comerciantes da Baixa queixavam-se de quebras de faturação.",
+    "No Porto, a acampada da Praça D. João I mantém tendas e pernoitas e tem esta terça-feira uma reunião técnica com a câmara, que quer instalar uma pista de gelo no local. O movimento, nascido no Porto a 10 de outubro, exige a revogação da nova lei do arrendamento, o fim dos despejos sem alternativa e mais habitação pública."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Decisão de retirar as tendas confirmada pela RTP e pela TSF (com Lusa); contexto judicial, mercado de Natal e situação no Porto segundo a RTP. A TSF diz no lead que a retirada ocorreria «até ao final da semana» e no texto «durante esta noite». Desenvolvimento novo face às notícias de 6 e 8 de novembro."
+   },
+   "fontes": [
+    {
+     "nome": "RTP Notícias (9 nov.)",
+     "url": "https://www.rtp.pt/noticias/pais/participantes-da-acampada-decidem-retirar-tendas-e-deixar-o-rossio_e1777809"
+    },
+    {
+     "nome": "TSF/Lusa (9 nov.)",
+     "url": "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-decide-retirar-tendas-do-rossio/18146494"
+    }
+   ],
+   "imagem": {
+    "commons": "Rossio - Praca Dom Pedro IV.JPG",
+    "tipo": "arquivo",
+    "alt": "Praça D. Pedro IV, o Rossio, em Lisboa, com a coluna e as fontes",
+    "legenda": "Praça D. Pedro IV (Rossio), em Lisboa (imagem de arquivo; não mostra a acampada)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Depressão Charles agrava o mau tempo: aviso laranja para vento até 120 km/h em seis distritos na quarta-feira e Madeira em alerta",
+   "estado": "Previsão e avisos do IPMA; trajetória e intensidade com «elevada incerteza»",
+   "data": "2026-11-10",
+   "texto": [
+    "Ainda com a depressão Bruna a influenciar o tempo, o IPMA deu nome a uma nova tempestade, a depressão Charles, que deverá trazer na quarta-feira uma situação «mais severa», com chuva e vento mais intensos. O instituto emitiu aviso laranja para Faro, Setúbal, Santarém, Lisboa, Leiria e Beja entre as 12h00 e as 21h00 de quarta-feira, devido a rajadas de sudoeste de 100 a 120 km/h, e admite agravar os avisos. A trajetória mais provável passa entre Sines e o Cabo Carvoeiro, em Peniche, e são esperadas ondas de quatro a seis metros a sul do cabo.",
+    "O meteorologista Bruno Café admitiu que o processo pode assemelhar-se ao da tempestade Kristin, mas com o centro sobretudo sobre o mar, o que deverá tornar os impactos em terra menos severos. Na Madeira, o agravamento é esperado entre a noite de terça e a manhã de quarta-feira, com mais de 100 milímetros de chuva em 12 horas nas zonas montanhosas e rajadas até 130 km/h nas terras altas. A Charles deverá deixar o continente no fim de quarta-feira, mas a Bruna mantém-se até sexta.",
+    "Só entre a meia-noite e as 6h00 de terça-feira, os Sapadores Bombeiros de Lisboa registaram 130 ocorrências, sobretudo inundações sem gravidade. Na Madeira, onde houve 210 ocorrências no domingo e nove pessoas realojadas, continuam as buscas pelo nadador-salvador de 37 anos arrastado por uma onda no Lido, no Funchal. As autoridades alertam para cheias, deslizamentos de terras e possíveis cortes de eletricidade e comunicações, e recomendam evitar zonas inundáveis e prender objetos soltos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Avisos, trajetória, ocorrências e situação na Madeira segundo a RTP (10 nov.); previsão, comparação com a Kristin e citações de Bruno Café segundo a TSF (com Lusa). Os avisos podem ser alterados nas próximas atualizações do IPMA. Desenvolvimento novo face à notícia de 9 de novembro, que anunciava uma nova depressão ainda sem nome."
+   },
+   "fontes": [
+    {
+     "nome": "RTP Notícias (10 nov.)",
+     "url": "https://www.rtp.pt/noticias/pais/depressao-charles-esperado-agravamento-significativo-das-condicoes-meteorologicas_e1778024"
+    },
+    {
+     "nome": "TSF/Lusa (9 nov.)",
+     "url": "https://www.tsf.pt/sociedade/artigo/depressao-charles-traz-situacao-meteorologica-mais-severa-na-quarta-feira-chuva-e-vento-mais-intensos/18146495"
+    }
+   ],
+   "imagem": {
+    "commons": "Madeira - Funchal -stormy skies (33436835296).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Céu carregado de nuvens sobre o Funchal, na Madeira",
+    "legenda": "Céu de tempestade sobre o Funchal (imagem ilustrativa; não mostra a depressão Charles)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Arribas do Jurássico de Peniche entram na lista mundial de património geológico da União Internacional das Ciências Geológicas",
+   "estado": "Facto confirmado (reconhecimento anunciado pela IUGS e divulgado pela Câmara de Peniche e pela Universidade de Coimbra)",
+   "data": "2026-11-09",
+   "texto": [
+    "A secção de referência do Jurássico Inferior de Peniche foi incluída na terceira edição da lista «100 IUGS Geological Heritage Sites», da União Internacional das Ciências Geológicas (IUGS), que acrescenta 100 novos locais em 47 países. O anúncio foi feito no encontro internacional de património geológico da IUGS que decorreu entre 3 e 6 de novembro em Loulé, organizado pelo Geoparque Algarvensis, e divulgado na segunda-feira pela Câmara de Peniche e pela Faculdade de Ciências e Tecnologia da Universidade de Coimbra.",
+    "As arribas do lado norte da península, com cerca de 200 milhões de anos, formam uma sucessão de rochas carbonatadas com mais de 450 metros de espessura que regista cerca de 20 milhões de anos de história da Terra. Ali está o «prego dourado» da Ponta do Trovão, a referência mundial para o início do andar Toarciano, há cerca de 183 milhões de anos, e o registo do Evento Anóxico Oceânico do Toarciano, uma crise climática e ambiental global que atingiu a vida marinha. «A secção de Peniche preserva um dos registos marinhos do Jurássico Inferior mais completos e estudados a nível mundial», afirmou Luís Vítor Duarte, investigador da Universidade de Coimbra que liderou a candidatura.",
+    "A candidatura envolveu também investigadores da Universidade do Minho e do Laboratório Nacional de Energia e Geologia. O presidente da câmara, Filipe de Matos Sales, disse que a distinção é «motivo de orgulho para todos os penicheiros» e que o objetivo é tornar o local mais conhecido e protegido. A autarquia espera atrair turismo qualificado e programas educativos internacionais."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Reconhecimento, características geológicas e declarações confirmados pela Lusa (republicada pelo Notícias ao Minuto, com base em comunicado da câmara) e pelo Jornal Frontal (com informação da FCTUC). Não foi consultada diretamente a lista publicada pela IUGS."
+   },
+   "fontes": [
+    {
+     "nome": "Lusa, via Notícias ao Minuto (9 nov.)",
+     "url": "https://www.noticiasaominuto.com/pais/3081176/arribas-de-peniche-reconhecidas-como-patrimonio-geologico-mundial"
+    },
+    {
+     "nome": "Jornal Frontal (9 nov.)",
+     "url": "https://jornalfrontal.com/nacional/peniche-integra-lista-internacional-dos-locais-de-patrimonio-geologico-de-referencia/"
+    }
+   ],
+   "imagem": {
+    "commons": "Santa, Ponta do Trovão e Papôa - Peniche.jpg",
+    "tipo": "arquivo",
+    "alt": "Arribas da costa norte de Peniche, com a Ponta do Trovão e a Papôa",
+    "legenda": "Arribas de Peniche, com a Ponta do Trovão e a Papôa (imagem de arquivo)"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Ari»: Léonor Serraille acompanha um jovem professor à deriva num retrato sensível, mas desigual, dos vinte e tal anos",
+   "ficha": {
+    "Título original": "Ari (França/Bélgica, 2025)",
+    "Realização": "Léonor Serraille (também argumentista)",
+    "Elenco": "Andranic Manet, Pascal Rénéric, Théo Delezenne, Ryad Ferrad, Éva Lallier, Lomane de Dietrich",
+    "Estreia em Portugal": "5 de novembro de 2026 (M/14; 88 minutos; distribuição No Comboio)",
+    "Avaliação": "Receção maioritariamente favorável, com reservas: 7/10 na MHD; 3,5/5 no IONCINEMA; elogios no filmSPOT e no Cineuropa; reservas no The Hollywood Reporter"
+   },
+   "texto": [
+    "Entre as nove estreias de quinta-feira, 5 de novembro, chegou às salas portuguesas «Ari», a terceira longa-metragem da francesa Léonor Serraille, que competiu pelo Urso de Ouro na Berlinale de 2025 e passou depois pelo IndieLisboa, na secção Rizoma. Ari tem 27 anos e é professor estagiário numa turma do ensino primário. Quando se vai abaixo durante a visita de um inspetor, o pai, convencido de que o filho não vai a lado nenhum, põe-no fora de casa. Sozinho e fragilizado, Ari bate à porta de velhos amigos e, entre recordações dos meses anteriores, percebe que também eles andam às voltas com as suas próprias dúvidas. Distribuído pela No Comboio, o filme está em exibição, segundo o filmSPOT, em salas como os Cinemas NOS do Alameda Shop & Spot, no Porto, a Casa do Cinema de Coimbra e o Cinema Ideal, em Lisboa.",
+    "Esta apreciação resulta das críticas consultadas e não de visionamento próprio. O elogio mais unânime vai para Andranic Manet, no papel principal: Pedro Sesinando, no filmSPOT, fala de um desempenho admirável que dá espessura a uma personagem que podia ser apenas um tipo; o Cineuropa e Nicholas Bell, no IONCINEMA, sublinham a delicadeza discreta da interpretação, e o The Hollywood Reporter considera-a arrebatadora. Bruno Teixeira, na MHD, destaca o retrato íntimo da entrada na vida adulta, a película e os enquadramentos próximos que o aproximam do realismo francês e belga — evoca Rohmer, Doillon e os irmãos Dardenne — e os flashbacks que ligam causas e consequências com naturalidade. Vários críticos elogiam ainda a forma como o filme constrói complexidade a partir de acontecimentos mínimos, e o filmSPOT nota o diálogo com «Le Feu Follet», de Louis Malle.",
+    "Os reparos vêm sobretudo do lado da estrutura. O The Hollywood Reporter descreve um drama montado de forma solta e desigual, aquém dos filmes anteriores da realizadora, com uma câmara à mão que pode cansar, um tom maioritariamente pessimista e uma reviravolta no último ato que considera forçada. A MHD, apesar da nota positiva, aponta uma narrativa pouco firme, o uso excessivo de grandes planos — sobretudo nas cenas com os amigos — e um arranque lento. O IONCINEMA admite que a primeira parte demora a encontrar o tom, e até o filmSPOT, o mais entusiasta, acha que a epifania final oferece ao protagonista uma saída demasiado arrumada.",
+    "No balanço, «Ari» parece ser um filme pequeno e de grande sensibilidade, que vive mais do rosto e da presença do seu ator principal do que de uma história com princípio, meio e fim bem amarrados. Quem gosta de cinema francês intimista, conversado e de deambulação — e se reconhece na incerteza dos vinte e tal anos — encontrará aqui, segundo a maioria das críticas, um retrato honesto e por vezes tocante. Quem precisa de enredo e de ritmo poderá achá-lo disperso: como resume o Cineuropa, toca mais quem estiver na mesma frequência da realizadora."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – ficha de «Ari» e salas",
+     "url": "https://filmspot.pt/filme/ari-1256192/"
+    },
+    {
+     "nome": "filmSPOT – crítica de Pedro Sesinando (5 nov.)",
+     "url": "https://filmspot.pt/artigo/ari-angustia-e-desamparo-15093/"
+    },
+    {
+     "nome": "MHD – crítica de Bruno Teixeira (7 nov.)",
+     "url": "https://www.magazine-hd.com/apps/wp/ari-critica-analise-reatar-amizades-depois-colapso-leonor-serraille/"
+    },
+    {
+     "nome": "Cinevisão – estreias de 5 de novembro",
+     "url": "https://cinevisao.pt/estes-9-filmes-estreiam-esta-semana-nos-cinemas-portugueses/"
+    },
+    {
+     "nome": "IONCINEMA – crítica de Nicholas Bell (Berlinale 2025)",
+     "url": "https://www.ioncinema.com/reviews/leonor-serraille-ari-movie-review"
+    },
+    {
+     "nome": "Cineuropa – crítica (Berlinale 2025)",
+     "url": "https://cineuropa.org/en/newsdetail/473626"
+    },
+    {
+     "nome": "The Hollywood Reporter – crítica (Berlinale 2025)",
+     "url": "https://www.hollywoodreporter.com/movies/movie-reviews/ari-review-leonor-serraille-1236134397"
+    },
+    {
+     "nome": "Wikipedia – Ari (2025 film)",
+     "url": "https://en.wikipedia.org/wiki/Ari_(2025_film)"
+    }
+   ],
+   "nota": "A crítica do Público (Ípsilon, 4 nov.) não pôde ser lida (acesso bloqueado ao sistema de consulta), pelo que não foi considerada; a página de estreias do filmSPOT também não abriu, e a data, distribuidora e salas vêm da ficha do filme no filmSPOT, da MHD e do Cinevisão. A lista de salas do filmSPOT não indica horários, e a exibição esta semana em cada sala não foi confirmada nos sites dos exibidores. Os nomes dos críticos do Cineuropa e do The Hollywood Reporter não apareciam no texto consultado. A presença no IndieLisboa 2025 vem apenas da MHD.",
+   "imagem": {
+    "commons": "Summer empty classroom, blackboard and flowers on tables, 2023.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Sala de aula vazia, com quadro preto e flores sobre as mesas",
+    "legenda": "Uma sala de aula vazia (imagem ilustrativa; não mostra o filme, cujo protagonista é professor do ensino primário)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Auguste Rodin, o escultor que fez o bronze pensar — e que foi chumbado três vezes na escola de Belas-Artes",
+   "ficha": {
+    "Nascimento": "12 de novembro de 1840, Paris (morreu a 17 de novembro de 1917, em Meudon)",
+    "Área": "Escultura (também desenho)",
+    "Obra essencial": "A Idade do Bronze (1877), A Porta do Inferno (a partir de 1880), O Pensador, O Beijo, Os Burgueses de Calais (1884–1895) e o Monumento a Balzac (1898)",
+    "Atualidade": "Faz 186 anos na quinta-feira, 12 de novembro; a exposição «Rodin selon Rilke» está na Fundação Pierre Gianadda, em Martigny (Suíça), até 22 de novembro"
+   },
+   "texto": [
+    "Na quinta-feira, 12 de novembro, cumprem-se 186 anos sobre o nascimento de Auguste Rodin, o escultor que tirou a estatuária do século XIX da pose académica e lhe deu nervos, músculo e dúvida. A data coincide com a reta final de «Rodin selon Rilke», exposição que a Fundação Pierre Gianadda, em Martigny, na Suíça, organizou com o Museu Rodin de Paris e que, até 22 de novembro, relê as esculturas à luz do poeta Rainer Maria Rilke — que foi, durante algum tempo, secretário pessoal do artista.",
+    "Rodin nasceu numa rua pobre do 5.º bairro de Paris, a 12 de novembro de 1840. Aos 14 anos convenceu o pai a deixá-lo frequentar a chamada Petite École, onde aprendeu desenho com Horace Lecoq de Boisbaudran, mas falhou três vezes o exame de entrada na Escola de Belas-Artes. Passou anos como artesão anónimo: a partir de 1864 trabalhou para Albert-Ernest Carrier-Belleuse em peças decorativas que muitas vezes saíam com a assinatura do patrão, e entre 1871 e 1877 viveu em Bruxelas. Uma viagem a Itália, em 1876, pô-lo frente a frente com Miguel Ângelo, que o marcou profundamente. No ano seguinte, «A Idade do Bronze» causou escândalo: o nu era tão verosímil que o acusaram de ter feito um molde direto do corpo do modelo, um jovem soldado belga, e Rodin teve de reunir fotografias e provas para se defender.",
+    "O reconhecimento chegou com as encomendas públicas. Em 1880, o Estado francês pediu-lhe um portal para um futuro museu de artes decorativas; inspirado na «Divina Comédia» de Dante e em «As Flores do Mal» de Baudelaire, Rodin trabalhou na «Porta do Inferno» até ao fim da vida, sem a ver fundida em bronze. Dela saíram figuras que ganharam vida própria, como «O Beijo» e «O Pensador», a que o escultor chamou primeiro «O Poeta» — o nome por que ficou conhecido terá sido dado pelos operários da fundição. Seguiram-se «Os Burgueses de Calais», em que, em vez de um herói isolado, representou os seis cidadãos que se ofereceram ao rei inglês, e o «Balzac», recusado em 1898 pela Sociedade dos Homens de Letras depois de sete anos de estudos. O estilo de Rodin assenta na superfície trabalhada que agarra a luz, no gesto interrompido e no fragmento assumido como obra acabada — caminhos que abriram a porta à escultura moderna.",
+    "A vida pessoal foi tão intensa como a obra. Em 1883 conheceu Camille Claudel, então com 19 anos, que foi sua aluna, modelo, colaboradora e companheira, numa relação tumultuosa que terminou por volta de 1898; Rodin nunca deixou Rose Beuret, a companheira de décadas, com quem só casou em janeiro de 1917, duas semanas antes de ela morrer. Doente, ofereceu em 1916 toda a sua obra ao Estado, com a condição de o Hôtel Biron, em Paris, se tornar o seu museu. Morreu a 17 de novembro de 1917, em Meudon, e o Museu Rodin abriu em 1919. Como fez várias fundições das suas peças, há hoje mais de vinte exemplares de «O Pensador» espalhados pelo mundo."
+   ],
+   "fontes": [
+    {
+     "nome": "Museu Rodin – cronologia",
+     "url": "https://boutique.musee-rodin.fr/en/content/39-chronology-of-auguste-rodin"
+    },
+    {
+     "nome": "Museu Rodin – Rodin's life 1840–2015",
+     "url": "https://www.musee-rodin.fr/en/resources/rodin-life/1840-2015"
+    },
+    {
+     "nome": "Cantor Foundation – Rodin, 1880–1900",
+     "url": "https://cantorfoundation.org/resources/the-life-of-rodin-monumental-projects-and-growing-notoriety-1880-1900/"
+    },
+    {
+     "nome": "Mental Floss – curiosidades sobre «O Pensador»",
+     "url": "https://www.mentalfloss.com/art/12-things-you-didnt-know-about-thinker"
+    },
+    {
+     "nome": "Martigny – exposição «Rodin selon Rilke»",
+     "url": "https://www.martigny.com/en/fondation-p-gianadda-rodin-selon-rilke-54528/"
+    },
+    {
+     "nome": "Musée d'Orsay – ficha de Auguste Rodin",
+     "url": "https://www.musee-orsay.fr/it/risorse/repertorio-artisti-personalita/auguste-rodin-21020"
+    }
+   ],
+   "nota": "As páginas da Wikipédia e da Britannica não puderam ser consultadas. A data em que Rilke foi secretário de Rodin não ficou confirmada (o Museu Rodin confirma a função, mas não as datas), pelo que se diz apenas «durante algum tempo». A atribuição do nome «O Pensador» aos operários da fundição e o número de exemplares (mais de vinte, valor discutido) vêm do Mental Floss. Os 186 anos são calculados a partir da data de nascimento.",
+   "imagem": {
+    "commons": "Auguste Rodin 1893 Nadar.jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato fotográfico a preto e branco de Auguste Rodin, de barba comprida",
+    "legenda": "Auguste Rodin fotografado por Nadar em 1893 (imagem de arquivo, domínio público)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que o azul mais cobiçado da pintura chegou a valer mais do que o ouro?",
+   "texto": [
+    "Durante séculos, o azul mais intenso e duradouro ao alcance dos pintores europeus vinha de uma única região do mundo: as minas de Badaquexão, no atual Afeganistão, de onde se extraía o lápis-lazúli. Moída e purificada, esta pedra semipreciosa dava o ultramarino, nome que vem do latim medieval «ultramarinus», «de além-mar», precisamente porque o mineral chegava da Ásia. As pinturas murais feitas por volta de 507–554 junto aos Budas de Bamiyan são consideradas o primeiro uso conhecido do lápis-lazúli como pigmento; o pó chegou aos mercadores de Veneza por volta de 1300, primeiro pela Rota da Seda e depois por mar.",
+    "Obter o pigmento era um trabalho de paciência. Por volta de 1400, o pintor italiano Cennino Cennini descreveu a receita no seu «Livro da Arte»: escolher as pedras mais azuis, moê-las e peneirá-las, misturar o pó numa massa de resina, almécega e cera, deixá-la repousar vários dias e depois amassá-la em lixívia morna com dois paus, como quem amassa pão, para que o azul passasse para o líquido. As primeiras extrações davam o azul mais profundo; as seguintes, tons cada vez mais pálidos.",
+    "O resultado era tão caro que chegou a custar mais do que o próprio ouro, e quem encomendava uma pintura religiosa pagava à parte os pigmentos mais valiosos. Por isso o ultramarino ficava muitas vezes reservado ao manto da Virgem Maria — e é em parte daí que vem a associação entre Maria e o azul. Ticiano usou-o em «Baco e Ariadne» (1520–23) e Vermeer na saia e no avental de «A Leiteira» (c. 1657–58), hoje no Rijksmuseum, em Amesterdão.",
+    "A situação só mudou no século XIX. Depois de muitas tentativas falhadas, o francês Jean-Baptiste Guimet ganhou em 1828 um prémio de seis mil francos por um método de fabricar ultramarino sintético, quase ao mesmo tempo que o alemão Christian Gmelin, em Tubinga, chegava a outro processo; em 1830 já havia produção comercial. O pigmento natural continuou, ainda assim, a contar histórias: no famoso falso Vermeer «Os Discípulos de Emaús», de Han van Meegeren, o ultramarino estava contaminado com azul de cobalto, um pigmento só usado a partir de 1806 — um detalhe que ajudou a denunciar a fraude."
+   ],
+   "fontes": [
+    {
+     "nome": "ColourLex – Ultramarine natural",
+     "url": "https://colourlex.com/project/ultramarine/"
+    },
+    {
+     "nome": "The Eclectic Light Company – Blue from over the sea: ultramarine",
+     "url": "https://eclecticlight.co/2025/08/02/blue-from-over-the-sea-ultramarine/"
+    },
+    {
+     "nome": "Scientific American – Pinch of Pigment: The Richness of Ultramarine",
+     "url": "https://www.scientificamerican.com/blog/symbiartic/pinch-of-pigment-the-richness-of-ultramarine/"
+    }
+   ],
+   "nota": "As fontes divergem na data do ultramarino sintético: o Scientific American indica 1826, o Eclectic Light Company indica o prémio a Guimet em 1828 (versão adotada). O valor «mais caro do que o ouro» é uma comparação genérica das fontes, sem preços concretos. A atribuição do pigmento à saia e ao avental de «A Leiteira» é feita com base no conhecimento geral da obra; o ColourLex confirma apenas o uso de ultramarino no quadro.",
+   "imagem": {
+    "commons": "Johannes Vermeer - Het melkmeisje - Google Art Project.jpg",
+    "tipo": "obra",
+    "alt": "Mulher de touca branca e saia azul despeja leite de um jarro junto a uma janela",
+    "legenda": "«A Leiteira» (c. 1657–58), de Johannes Vermeer, Rijksmuseum, Amesterdão — uma das pinturas em que foi usado ultramarino natural (obra em domínio público)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Porto/Post/Doc: o festival que pôs o Porto a discutir o «cinema do real» chega à 13.ª edição",
+   "ficha": {
+    "Origem": "Porto, 2014 (primeira edição de 4 a 13 de dezembro)",
+    "Área": "Cinema documental e «cinema do real»",
+    "Próximo destaque": "13.ª edição de 19 a 28 de novembro de 2026, com abertura com «A Cidade e os Mapas» e foco no cineasta Alain Gomis"
+   },
+   "texto": [
+    "Daqui a nove dias, o Porto volta a encher-se de documentários. O Porto/Post/Doc: Film & Media Festival realiza a 13.ª edição de 19 a 28 de novembro, com oito filmes na Competição Internacional, um foco no cineasta franco-senegalês Alain Gomis e uma secção musical, «O Futuro é Punk», que assinala os cinquenta anos do primeiro punk em Londres, Nova Iorque e Berlim, com concertos no Passos Manuel em parceria com a promotora Opala. A abertura cabe a «A Cidade e os Mapas», primeira longa-metragem de Alexandra Guimarães e Gonçalo L. Almeida.",
+    "O festival nasceu em dezembro de 2014, com dez dias de programação no Rivoli, no Cinema Passos Manuel e no Maus Hábitos, uma homenagem a Manoel de Oliveira no dia em que fazia 106 anos e cerca de 6300 espectadores. Na altura, o Cineuropa apresentava-o como um festival interessado nas formas híbridas entre ficção e realidade, com uma competição pensada para reforçar a dimensão política do documentário, e dava como diretor Dario Oliveira, que antes tinha passado vários anos à frente do Curtas Vila do Conde. Desde o início, a ambição foi ir além das sessões: o projeto previa um cineclube mensal e uma vertente de produção.",
+    "A proposta assenta no chamado «cinema do real»: documentário de autor, novas formas de expressão cinematográfica e cruzamentos com a música, o arquivo e a cultura popular. Hoje o festival tem quatro competições — Internacional, Cinema Falado, Transmission e Cinema Novo, dedicada a filmes de escola —, programas temáticos, retrospetivas, sessões para crianças e jovens (como o Docs4Teens), debates, oficinas, festas e os Porto Industry Days, para profissionais. A Competição Cinema Falado, reservada a filmes falados em português, traz este ano histórias de contextos cabo-verdianos, moçambicanos, ciganos, brasileiros e ibéricos, e o foco em Gomis inclui seis filmes, entre eles «Félicité» e «Hoje», e duas sessões dedicadas ao Centro Yennenga, que o realizador criou em Dacar para formar e apoiar cineastas da África Ocidental.",
+    "A relevância do Porto/Post/Doc mede-se tanto pela continuidade como pela rede que criou: com o apoio do Instituto do Cinema e do Audiovisual, da Fundação «la Caixa» e do programa Europa Criativa MEDIA, tornou-se uma das montras do documentário contemporâneo no Norte e uma ponte entre o cinema em língua portuguesa e o circuito internacional. Para quem não chega a Lisboa e ao Doclisboa, é a grande oportunidade do ano para ver no Porto filmes que dificilmente passarão no circuito comercial — e, em 2026, até sessões em cúpula no Planetário."
+   ],
+   "fontes": [
+    {
+     "nome": "Porto/Post/Doc – site oficial",
+     "url": "https://portopostdoc.com/home-en"
+    },
+    {
+     "nome": "Porto/Post/Doc – sobre o festival",
+     "url": "https://portopostdoc.com/home-en/about-us/history-and-mission/film-and-media-festival/"
+    },
+    {
+     "nome": "Porto/Post/Doc – edição de 2014",
+     "url": "https://portopostdoc.com/home-en/festival/2014/about/"
+    },
+    {
+     "nome": "Cineuropa – Porto/Post/Doc: a new festival is born",
+     "url": "https://cineuropa.org/en/newsdetail/280662"
+    },
+    {
+     "nome": "Cinema Sétima Arte – programação da 13.ª edição",
+     "url": "https://www.cinema7arte.com/porto-post-doc-fecha-programacao-da-13-a-edicao-com-cinema-internacional-forte-presenca-de-cinema-falado-em-portugues-e-foco-em-alain-gomis/"
+    },
+    {
+     "nome": "Central Comics – programação completa 2026",
+     "url": "https://www.centralcomics.com/porto-post-doc-2026-revela-programacao-completa/"
+    },
+    {
+     "nome": "Rua de Baixo – Porto/Post/Doc 2026",
+     "url": "https://www.ruadebaixo.com/porto-post-doc-2026-programacao-13-edicao.html"
+    }
+   ],
+   "nota": "Não foi possível confirmar o nome da associação que organiza o festival nem a atual direção (Dario Oliveira é indicado como diretor em 2014, pelo Cineuropa). As salas da edição de 2026 (além do Passos Manuel e do Planetário), a data e o local da sessão de abertura e os preços não foram confirmados. A referência ao Doclisboa como termo de comparação é contextual. As datas da Competição Cinema Falado e dos restantes programas devem ser consultadas no site do festival.",
+   "imagem": {
+    "commons": "Porto Teatro Rivoli 4.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Fachada do Teatro Rivoli, no Porto",
+    "legenda": "Teatro Rivoli, no Porto, uma das salas da primeira edição do Porto/Post/Doc, em 2014 (imagem ilustrativa; não mostra o festival)"
+   }
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos na agenda da Casa da Música, na Agenda Porto da Câmara Municipal, na Ticketline e nas páginas dos organizadores (Batalha Centro de Cinema, Teatro Municipal do Porto, Serralves). Onde se lê “por confirmar”, o horário ou o preço não estava disponível na fonte: confirma na ligação antes de sair.",
+ "agenda": [
+  {
+   "dia": "2026-11-10",
+   "eventos": [
+    {
+     "nome": "Monstro",
+     "descricao": "O duo portuense de Gonçalo Ferreira e Isaac Oliveira, entre a pop-rock dos anos 60 e um psicadelismo contido, mostra ao vivo, em formação de cinco, o álbum de estreia «Unborn Love», que sai a 28 de novembro.",
+     "horario": "18:45",
+     "tipo": "Música",
+     "local": "Lovers & Lollypops, Rua de São Vítor, 143-A, Porto",
+     "preco": "10 € (8 € em pré-venda)",
+     "url": "https://www.agenda-porto.pt/en/evento/ll-monstro/",
+     "ligacao": "Agenda Porto",
+     "nota": "Página do organizador indicada pela Agenda Porto: loversandlollypops.net (não consultada)."
+    },
+    {
+     "nome": "Natal Amargo, de Pedro Almodóvar",
+     "descricao": "Comédia dramática em que Elsa, uma publicitária em luto pela mãe, foge para Lanzarote com uma amiga, enquanto uma segunda história acompanha um argumentista e realizador e explora a fronteira entre a vida e a ficção.",
+     "horario": "19:15",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "7 €",
+     "url": "https://www.agenda-porto.pt/en/evento/natal-amargo-de-pedro-almodovar-1011/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/14. Hora e preço segundo a Agenda Porto; não confirmados no site do Cinema Trindade."
+    },
+    {
+     "nome": "Regresso ao Barroco",
+     "descricao": "A Orquestra Barroca e o Remix Ensemble da Casa da Música partilham o palco num programa que vai de Avondano e de «La Folia» de Geminiani/Corelli a obras de Sofia Avramidou e Hèctor Parra.",
+     "horario": "19:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "22 € a 26 €",
+     "url": "https://casadamusica.com/event/regresso-ao-barroco/?selected_session=44132",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Direção musical de Laurence Cummings (também cravo) e Ustina Dubitsky. Filas A–K 26 €, L–U 24 €, UU–YY 22 €; descontos para Amigos (25%) e, nas filas L–YY, para menores de 30, estudantes e maiores de 65."
+    },
+    {
+     "nome": "A Savana e a Montanha, de Paulo Carneiro",
+     "descricao": "Documentário sobre a comunidade de Covas do Barroso, que se organiza para resistir ao projeto de uma grande mina de lítio a céu aberto junto às suas casas.",
+     "horario": "19:30",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "7 €",
+     "url": "https://www.agenda-porto.pt/en/evento/a-savana-e-a-montanha/",
+     "ligacao": "Agenda Porto",
+     "nota": "A Agenda Porto indica M/14 (a edição anterior referia M/12, segundo o site do Trindade). Preço segundo a Agenda Porto."
+    },
+    {
+     "nome": "Rodrigo Cuevas – «La Belleza» (Misty Fest)",
+     "descricao": "O artista asturiano reinventa o folclore com música, performance e eletrónica, a partir do repertório do álbum «Manual de Belleza».",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "25 €",
+     "url": "https://casadamusica.com/event/rodrigo-cuevas/",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Desconto de 25% para Amigos da Casa da Música."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-11",
+   "eventos": [
+    {
+     "nome": "Milk + Red Road, de Andrea Arnold",
+     "descricao": "Sessão da retrospetiva dedicada à realizadora britânica, com a curta «Milk» (1998) e a primeira longa, «Red Road» (2006).",
+     "horario": "15:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "5 €",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/milk-red-road/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/16. Hora confirmada no calendário do Batalha. Preço segundo a tabela geral da bilheteira para sessões Batalha (50% de desconto para estudantes, maiores de 65, desempregados e titulares do Porto.card)."
+    },
+    {
+     "nome": "Excepção Fatal, de David Ole (Câmara Sónica)",
+     "descricao": "Concerto com três estreias absolutas do compositor e maestro David Ole para a Criptobanda Musical de Paradela do Rio, que toca ao vivo a partir da sua sede, com transmissão em vídeo para a sala.",
+     "horario": "21:30",
+     "tipo": "Música / Performance",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Entrada livre (levantamento de bilhete no próprio dia)",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/excepcao-fatal-david-ole/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/16. Limite de dois bilhetes por pessoa. Duração não indicada."
+    },
+    {
+     "nome": "Linda Martini – 20 anos de «Olhos de Mongol»",
+     "descricao": "Os Linda Martini assinalam duas décadas do disco de estreia com um concerto dedicado a esse repertório.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "15 € (16,11 € com custos de operação Ticketline)",
+     "url": "https://www.ticketline.pt/en/evento/linda-martini-20-anos-olhos-de-mongol-109242",
+     "ligacao": "Ticketline",
+     "nota": "60 minutos sem intervalo; não admite menores de 3 anos. Bilhetes à venda à data da consulta. Sala do Coliseu não especificada."
+    },
+    {
+     "nome": "Quando Menos Se Espera",
+     "descricao": "Comédia em cena no Porto sobre o dia caótico de um empresário a quem a família e a vizinhança trocam as voltas.",
+     "horario": "21:00",
+     "tipo": "Teatro",
+     "local": "Teatro Sá da Bandeira (Sala Principal), Rua de Sá da Bandeira, 108, Porto",
+     "preco": "17,50 € a 30 € (18,79 € a 32,21 € com custos Ticketline)",
+     "url": "https://www.ticketline.pt/en/evento/QUANDO-MENOS-SE-ESPERA-106432",
+     "ligacao": "Ticketline",
+     "nota": "M/14, 90 minutos. Bilhetes à venda à data da consulta. A Ticketline não indica o elenco."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-12",
+   "eventos": [
+    {
+     "nome": "Auto da Barca do Inferno, de Gil Vicente (estreia)",
+     "descricao": "Primeira récita da nova encenação de Marta Pazos, que relê o auto de 1517 — almas num cais à espera do Anjo e do Diabo — como uma festa dos sentidos, entre teatro, dança e artes visuais.",
+     "horario": "19:00",
+     "tipo": "Teatro",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "7,50 € a 16 €",
+     "url": "https://www.agenda-porto.pt/en/evento/tnsj-auto-da-barca-do-inferno/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12. Em cena até 13 de dezembro (quartas, quintas e sábados às 19:00; sextas às 21:00; domingos às 16:00; sessões escolares às quartas e quintas, 15:00). A página do TNSJ não foi consultada."
+    },
+    {
+     "nome": "Programa de curtas: The Family and the Zombie + An Asian Ghost Story + Oh Be a Fine Girl Kiss Me",
+     "descricao": "Sessão de três filmes no Batalha Centro de Cinema.",
+     "horario": "19:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.batalhacentrodecinema.pt/en/week-calendar/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "Data e hora confirmadas no calendário semanal do Batalha; a página da sessão não foi consultada, pelo que realizadores, ciclo e classificação etária ficam por confirmar. Se for uma sessão Batalha normal, a tabela geral indica 5 €."
+    },
+    {
+     "nome": "Siza Talks 2026: Kjetil Thorsen (Snøhetta)",
+     "descricao": "Abertura do ciclo internacional de conversas sobre arquitetura, com o arquiteto norueguês cofundador do atelier Snøhetta.",
+     "horario": "19:30",
+     "tipo": "Conversa / Arquitetura",
+     "local": "Fundação de Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "5 € (acesso diário)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1211-siza-talks/",
+     "ligacao": "Serralves",
+     "nota": "Receção às 19:00. 50% de desconto para Amigos de Serralves, estudantes e maiores de 65. Língua das conversas não indicada."
+    },
+    {
+     "nome": "Manoel Cordeiro convida Euterpe + Curcumbia",
+     "descricao": "Abertura do festival Floresta do Amazonas: o mestre paraense Manoel Cordeiro recebe a cantora Euterpe, de Roraima, e segue-se a cúmbia psicadélica e eletrónica dos Curcumbia.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "22 €",
+     "url": "https://casadamusica.com/event/cordeiro-convida-euterpe-curcumbia/?selected_session=59063",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Curcumbia às 22:15. Descontos para Amigos (25%) e, nas filas L–YY, para menores de 30, estudantes e maiores de 65 (20%)."
+    },
+    {
+     "nome": "Will Love + DJ Waldo Squash (B2B DJs Gang do Eletro)",
+     "descricao": "Pós-concerto do festival Floresta do Amazonas, com a eletrónica popular de Belém do Pará.",
+     "horario": "23:30",
+     "tipo": "Música / DJ",
+     "local": "Café Casa da Música, Av. da Boavista, 604-610, Porto",
+     "preco": "Entrada livre",
+     "url": "https://casadamusica.com/en/amazonia-festival/",
+     "ligacao": "Casa da Música",
+     "nota": "Descrição do género baseada no contexto do festival; a página própria do evento não foi aberta."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-13",
+   "eventos": [
+    {
+     "nome": "Siza Talks 2026 – segundo dia",
+     "descricao": "Tarde de conversas com Nuno Melo Sousa (16:00), Mariana Simas, do Studio MK27 (17:00), Alberto Campo Baeza (18:00) e Elizabeth Diller, do Diller Scofidio + Renfro (19:00).",
+     "horario": "16:00",
+     "tipo": "Conversa / Arquitetura",
+     "local": "Fundação de Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "5 € (acesso diário)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1211-siza-talks/",
+     "ligacao": "Serralves",
+     "nota": "50% de desconto para Amigos de Serralves, estudantes e maiores de 65. O ciclo termina a 14 de novembro."
+    },
+    {
+     "nome": "Millennium Actress, de Satoshi Kon",
+     "descricao": "Clássico da animação japonesa (2001) em que uma atriz retirada aceita participar num documentário sobre a sua vida e as memórias se misturam com os papéis que interpretou.",
+     "horario": "19:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "5 €",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/millennium-actress-1783698440778/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/6, 86 minutos, versão original com legendas em português e inglês. Integra o ciclo dedicado a Satoshi Kon. Preço segundo a tabela geral para sessões Batalha."
+    },
+    {
+     "nome": "Dzudza, de Idio Chichava (estreia nacional)",
+     "descricao": "Peça do coreógrafo moçambicano inspirada no pó de Xiquelene, em Maputo: corpos que falam várias línguas, cânticos de igreja, jogos e música popular, e a capulana como símbolo de identidade, com participação do público.",
+     "horario": "19:30",
+     "tipo": "Dança",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "12 €",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/idio-chichava-dzudza/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/6, 1h15. Repete a 14 de novembro, às 19:30. Coapresentação com a Fundação Calouste Gulbenkian, no âmbito do Alkantara."
+    },
+    {
+     "nome": "Clubbing Amazónico",
+     "descricao": "A Casa da Música transforma-se em pista de dança amazónica, dos cantos do povo Puyanawa ao jazz eletrónico de MIND e ao tecnobrega da Gang do Eletro, com DJ sets nos bares.",
+     "horario": "21:00",
+     "tipo": "Música / Clubbing",
+     "local": "Casa da Música (Sala 2, Sala Roxa e Bares 1 e 2), Av. da Boavista, 604-610, Porto",
+     "preco": "22 €",
+     "url": "https://casadamusica.com/event/clubbing-amazonico/?selected_session=59185",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Integra o festival Floresta do Amazonas. Desconto de 25% para Amigos. Horários de cada atuação não indicados."
+    },
+    {
+     "nome": "Elephant, de Gus Van Sant",
+     "descricao": "Sessão do filme de 2003 inspirado no massacre de Columbine, integrada num ciclo sobre saúde mental, estigma e resiliência.",
+     "horario": "21:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/elephant-1784299891842/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/16, 81 minutos, com legendas em português e legendas para surdos. Sessão do projeto SER (Saúde Mental, Estigma e Resiliência); o preço não é indicado na página e pode diferir da tabela geral."
+    }
+   ]
+  }
+ ]
+}

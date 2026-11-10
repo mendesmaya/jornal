@@ -8,3 +8,4 @@ Acrescentar uma linha por edição para evitar repetições.
 | 2026-11-07 | A Bola Negra (Los Javis) | Claude Monet (pintura, centenário da morte) | O lá a 440 Hz como norma de afinação | Lata 65 (arte urbana com maiores de 65 anos) |
 | 2026-11-08 | Casa Pequena (Ricardo Oliveira, com os Capitão Fausto) | Joaquín Sorolla (pintura) | «The Pencil of Nature», de Talbot: o primeiro livro comercial ilustrado com fotografias | Lux Records (Coimbra, música independente) |
 | 2026-11-09 | Histórias da Noite (Léa Mysius) | Antoni Gaudí (arquitetura, centenário da morte) | O grito Wilhelm, o efeito sonoro mais famoso do cinema | Alkantara (Lisboa, dança e performance) |
+| 2026-11-10 | Ari (Léonor Serraille) | Auguste Rodin (escultura) | O ultramarino, o azul de lápis-lazúli que valeu mais do que o ouro | Porto/Post/Doc (Porto, cinema documental) |

@@ -1,0 +1,142 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-quai-d-orsay.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quai_d%27Orsay.jpg?width=1000",
+  "commons": "Quai d'Orsay.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-google-chrome-icon-february-2022.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Google_Chrome_icon_%28February_2022%29.svg?width=1000",
+  "commons": "Google Chrome icon (February 2022).svg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-kirkland-hall-at-vanderbilt-university.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirkland_Hall_at_Vanderbilt_University.jpg?width=1000",
+  "commons": "Kirkland Hall at Vanderbilt University.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-anthropic-logo.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthropic_logo.svg?width=1000",
+  "commons": "Anthropic logo.svg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-qantas-vh-znd-boeing-787-9-dreamliner-sydney-kingsford-smith.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Qantas_-_VH-ZND_-_Boeing_787-9_Dreamliner_-_Sydney_Kingsford_Smith_International_Airport_%281%29.jpg?width=1000",
+  "commons": "Qantas - VH-ZND - Boeing 787-9 Dreamliner - Sydney Kingsford Smith International Airport (1).jpg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-smartwatch-828786.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Smartwatch-828786.jpg?width=1000",
+  "commons": "Smartwatch-828786.jpg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-nasdaq-marketsite-51494550508.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasdaq_MarketSite_%2851494550508%29.jpg?width=1000",
+  "commons": "Nasdaq MarketSite (51494550508).jpg",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-spacex-s-starbase-2023-09-13-53343662904.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SpaceX%27s_Starbase_-_2023-09-13_%2853343662904%29.jpg?width=1000",
+  "commons": "SpaceX's Starbase - 2023-09-13 (53343662904).jpg",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-kernkraftwerk-saporischschja.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kernkraftwerk_Saporischschja.JPG?width=1000",
+  "commons": "Kernkraftwerk Saporischschja.JPG",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 10,
+  "ficheiro": "img/10-thomas-massie-official-portrait-2022.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thomas_Massie_official_portrait%2C_2022.jpg?width=1000",
+  "commons": "Thomas Massie official portrait, 2022.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 11,
+  "ficheiro": "img/11-flag-of-the-african-national-congress.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_African_National_Congress.svg?width=1000",
+  "commons": "Flag of the African National Congress.svg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 12,
+  "ficheiro": "img/12-gansu-guazhou-windturbine-farm-sunset.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gansu.Guazhou.windturbine_farm.sunset.jpg?width=1000",
+  "commons": "Gansu.Guazhou.windturbine farm.sunset.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 13,
+  "ficheiro": "img/13-centro-hospitalar-do-barlavento-algarvio-1-02-09-2023.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_Hospitalar_do_Barlavento_Algarvio_1_-_02.09.2023.jpg?width=1000",
+  "commons": "Centro Hospitalar do Barlavento Algarvio 1 - 02.09.2023.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 14,
+  "ficheiro": "img/14-rossio-praca-dom-pedro-iv.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rossio_-_Praca_Dom_Pedro_IV.JPG?width=1000",
+  "commons": "Rossio - Praca Dom Pedro IV.JPG",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 15,
+  "ficheiro": "img/15-madeira-funchal-stormy-skies-33436835296.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Madeira_-_Funchal_-stormy_skies_%2833436835296%29.jpg?width=1000",
+  "commons": "Madeira - Funchal -stormy skies (33436835296).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 16,
+  "ficheiro": "img/16-santa-ponta-do-trov-o-e-pap-a-peniche.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santa%2C_Ponta_do_Trov%C3%A3o_e_Pap%C3%B4a_-_Peniche.jpg?width=1000",
+  "commons": "Santa, Ponta do Trovão e Papôa - Peniche.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 17,
+  "ficheiro": "img/17-summer-empty-classroom-blackboard-and-flowers-on-tables-2023.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Summer_empty_classroom%2C_blackboard_and_flowers_on_tables%2C_2023.jpg?width=1000",
+  "commons": "Summer empty classroom, blackboard and flowers on tables, 2023.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 18,
+  "ficheiro": "img/18-auguste-rodin-1893-nadar.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Auguste_Rodin_1893_Nadar.jpg?width=1000",
+  "commons": "Auguste Rodin 1893 Nadar.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 19,
+  "ficheiro": "img/19-johannes-vermeer-het-melkmeisje-google-art-project.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.jpg?width=1000",
+  "commons": "Johannes Vermeer - Het melkmeisje - Google Art Project.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 20,
+  "ficheiro": "img/20-porto-teatro-rivoli-4.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porto_Teatro_Rivoli_4.JPG?width=1000",
+  "commons": "Porto Teatro Rivoli 4.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
