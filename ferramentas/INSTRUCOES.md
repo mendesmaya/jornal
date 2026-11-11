@@ -9,9 +9,10 @@ Fuso horário de referência: Europe/Lisbon. A data da edição é a data de Lis
 - Nunca apagar nem alterar pastas de edições anteriores (exceto correções pedidas pela dona do jornal).
 
 ## Conteúdo obrigatório (por edição)
-16 notícias, por esta ordem de destaque na página:
+18 notícias, por esta ordem de destaque na página:
 - Cibersegurança: 3 · Inteligência Artificial: 3 · Tecnologia: 2 (bloco digital em destaque, no topo)
 - Mundo: 4 · Portugal: 4
+- Espaço: 2 (secção `espaco`, logo a seguir a Portugal e antes da Cultura; desde a edição de 2026-11-11): exploração espacial, missões, lançamentos, astronomia e ciência planetária, com as mesmas regras de verificação; incluir missões europeias/portuguesas quando houver.
 
 Notícias positivas integram-se naturalmente nas secções, sem rótulo nem categoria própria.
 

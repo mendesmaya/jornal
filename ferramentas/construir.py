@@ -26,12 +26,14 @@ SECCOES = {
     "tecnologia": ("Tecnologia", 2),
     "mundo": ("Mundo", 4),
     "portugal": ("Portugal", 4),
+    "espaco": ("Espaço", 2),
 }
+INICIO_ESPACO = "2026-11-11"  # edições anteriores não têm a secção Espaço
 RUBRICAS = {"cinema": "Cinema em análise", "artista": "Conhece o artista", "sabias": "Sabias que…?", "movimento": "Cultura em movimento"}
 TIPOS_IMG = {"acontecimento": "Fotografia do acontecimento", "arquivo": "Imagem de arquivo", "ilustrativa": "Imagem ilustrativa", "oficial": "Imagem oficial / de imprensa", "obra": "Reprodução da obra", "cartaz": "Imagem promocional"}
 DIAS = ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo"]
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
-CORES = {"mundo": "#5b6577", "portugal": "#1e4fa8", "ciberseguranca": "#0e7c6f", "ia": "#6a43c4", "tecnologia": "#b2560e", "cultura": "#a8325e"}
+CORES = {"mundo": "#5b6577", "portugal": "#1e4fa8", "ciberseguranca": "#0e7c6f", "ia": "#6a43c4", "tecnologia": "#b2560e", "espaco": "#243b6b", "cultura": "#a8325e"}
 
 CREDITOS = {}
 e = lambda s: html.escape(str(s or ""), quote=True)
@@ -153,10 +155,13 @@ def construir(data):
         CREDITOS.update(json.loads(cp.read_text()))
 
     # validações de estrutura
+    com_espaco = data >= INICIO_ESPACO
     cont = {k: 0 for k in SECCOES}
     for n in c["noticias"]:
         cont[n["seccao"]] += 1
     for k, (nome, alvo) in SECCOES.items():
+        if k == "espaco" and not com_espaco and cont[k] == 0:
+            continue
         if cont[k] != alvo:
             raise SystemExit(f"{nome}: {cont[k]} notícias (esperadas {alvo})")
     if sorted(a["rubrica"] for a in c["cultura"]) != sorted(RUBRICAS):
@@ -182,6 +187,8 @@ def construir(data):
     digital = seccao("tecnologia", "Tecnologia, IA e Cibersegurança", ["ciberseguranca", "ia", "tecnologia"],
                      "08 notícias · 3 cibersegurança · 3 IA · 2 tecnologia")
     resto = seccao("mundo", "Mundo", ["mundo"], "04 notícias") + seccao("portugal", "Portugal", ["portugal"], "04 notícias")
+    if com_espaco:
+        resto += seccao("espaco", "Espaço", ["espaco"], "02 notícias")
 
     arts = []
     for num, a in enumerate(sorted(c["cultura"], key=lambda a: list(RUBRICAS).index(a["rubrica"])), 1):
@@ -233,14 +240,16 @@ def construir(data):
              "i.onerror=null;i.src=i.dataset.reserva;var f=i.closest('.figura'),t=f&&f.querySelector('.tipo-img');if(t)t.textContent='Ilustração (imagem original indisponível)'}")
     dia = dt.date.fromisoformat(data)
     destaque = c.get("resumo", "")
+    total_noticias = len(c["noticias"])
+    nav_espaco = '<a href="#espaco">Espaço</a>' if com_espaco else ""
     pagina = f"""<!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{NOME} · {e(data_pt(data, False))}</title><meta name="description" content="{e(destaque)}">
 <style>{css}</style><script>{falha}</script></head><body><main>
 <div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {MESES[dia.month - 1][:3]} {dia.year}</span><span>Portugal · Leitura independente</span></div>
 <h1 class="masthead"><a href="../">{NOME}</a></h1>
-<p class="deck">{e(data_pt(data).capitalize())} · 16 notícias e 4 artigos culturais · Agenda Porto · Sudoku e caça-palavras</p>
-<nav aria-label="Secções"><a href="../">Arquivo</a><a href="#tecnologia">Tecnologia, IA e Cibersegurança</a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a><a href="#cultura">Cultura, Cinema e Arte</a><a href="#agenda">Agenda Porto</a><a href="#jogos">Jogos</a></nav>
+<p class="deck">{e(data_pt(data).capitalize())} · {total_noticias} notícias e 4 artigos culturais · Agenda Porto · Sudoku e caça-palavras</p>
+<nav aria-label="Secções"><a href="../">Arquivo</a><a href="#tecnologia">Tecnologia, IA e Cibersegurança</a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a>{nav_espaco}<a href="#cultura">Cultura, Cinema e Arte</a><a href="#agenda">Agenda Porto</a><a href="#jogos">Jogos</a></nav>
 <p class="game-note">{e(destaque)}</p>
 {digital}{resto}{cultura}{agenda}{jogos_html}
 <footer><p>Cada notícia indica o estado da informação (facto confirmado, declaração, proposta, previsão ou anúncio), a data e as fontes consultadas. Procuramos confirmação em duas fontes independentes; quando só há uma, isso fica assinalado. Os textos são sínteses originais. As imagens têm autoria e licença identificadas; imagens de arquivo e ilustrativas estão marcadas como tal.</p>
@@ -256,7 +265,7 @@ def atualizar_arquivo(data, c):
     arq_p = BASE / "arquivo.json"
     arq = json.loads(arq_p.read_text())
     arq = [x for x in arq if x["data"] != data]
-    arq.append({"data": data, "numero": c.get("numero", ""), "resumo": c.get("resumo", ""), "formato": "16 notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras"})
+    arq.append({"data": data, "numero": c.get("numero", ""), "resumo": c.get("resumo", ""), "formato": f"{len(c['noticias'])} notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras"})
     arq.sort(key=lambda x: x["data"], reverse=True)
     arq_p.write_text(json.dumps(arq, ensure_ascii=False, indent=1))
     css = (BASE / "estilo.css").read_text()

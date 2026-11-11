@@ -543,6 +543,72 @@
     "alt": "Aerogeradores do parque eólico da serra do Barroso, no norte de Portugal",
     "legenda": "Parque eólico na serra do Barroso (imagem ilustrativa)"
    }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "SpaceX marca para sexta-feira o voo 15 da Starship e vai tentar, pela primeira vez, apanhar as duas fases do foguetão com a torre",
+   "estado": "Anúncio da empresa · lançamento previsto, dependente de autorização regulatória e das condições no dia",
+   "data": "2026-11-10",
+   "texto": [
+    "A SpaceX aponta para sexta-feira, 13 de novembro, o 15.º voo de teste da Starship, a partir de Starbase, no sul do Texas. A janela de 75 minutos abre às 22h45 em Lisboa (17h45 na costa leste dos EUA), segundo o Space.com. A data ainda depende da autorização dos reguladores. Na terça-feira, a empresa levou o propulsor Super Heavy 22 para a plataforma de lançamento, onde fez os últimos ensaios de captura, incluindo um teste de aperto com o propulsor suspenso à altura a que será agarrado.",
+    "O objetivo mais ambicioso é recuperar o foguetão inteiro. O Super Heavy deve regressar cerca de seis minutos e meio depois da descolagem para ser apanhado pelos braços da torre, algo que a SpaceX já conseguiu três vezes. A novidade é a fase superior: depois de colocar em órbita 26 satélites Starlink V3, três deles adaptados para fotografar o escudo térmico da nave, a Starship deverá ficar cerca de 21 a 22 horas em órbita, até a trajetória voltar a alinhar com Starbase, e só então tentar ser agarrada pela torre. Nunca nenhum foguetão orbital foi recuperado na totalidade desta forma.",
+    "O plano tem margens de segurança: a nave parte numa trajetória suborbital e só acende o motor para entrar em órbita depois de uma verificação; se as condições de regresso definidas pela empresa e aprovadas pela autoridade da aviação norte-americana (FAA) não se cumprirem, a amaragem é feita em zonas do Pacífico perto do Havai ou ao largo do Chile. O voo 14, a 28 de setembro, foi o primeiro em que a Starship chegou à órbita. A SpaceX quer apanhar as duas fases em todas as missões operacionais, para relançar os veículos mais depressa."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Data, plano de dupla captura e carga confirmados pelo Space.com e pela Tesla North, ambos com base em informação da SpaceX. As fontes diferem ligeiramente no tempo em órbita da nave (cerca de 21 horas na Tesla North, cerca de 22 no Space.com). A hora da janela é indicada só pelo Space.com."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (10 nov.)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-moves-starship-flight-15-booster-to-launch-pad-for-squeeze-test-ahead-of-epic-double-catch-attempt-photos"
+    },
+    {
+     "nome": "Tesla North (7 nov.)",
+     "url": "https://teslanorth.com/2026/11/07/spacex-starship-flight-15-tower-catch/"
+    }
+   ],
+   "imagem": {
+    "commons": "Starship Booster Return on Final Approach (54063904149).jpg",
+    "tipo": "arquivo",
+    "alt": "Propulsor Super Heavy da Starship a aproximar-se da torre de lançamento para ser apanhado",
+    "legenda": "Regresso de um propulsor Super Heavy à torre num voo anterior, em 2024 (imagem de arquivo; não mostra o voo 15)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Sonda europeia Hera envia a primeira imagem de perto dos asteroides desviados pela NASA em 2022",
+   "estado": "Facto confirmado (imagem divulgada pela ESA) · imagens detalhadas anunciadas para 25 de novembro",
+   "data": "2026-11-05",
+   "texto": [
+    "Depois de uma viagem de dois anos, a sonda Hera, da Agência Espacial Europeia (ESA), fotografou de perto o sistema duplo de asteroides Didymos e Dimorphos. A imagem, captada a cerca de 60 quilómetros pela câmara de enquadramento da sonda e divulgada a 5 de novembro, mostra com nitidez Didymos, com 780 metros de diâmetro, enquanto a pequena lua Dimorphos, com cerca de 150 metros, aparece quase toda na sombra. É o lado de Didymos que a câmara da missão DART não chegou a ver.",
+    "Dimorphos é o primeiro objeto do Sistema Solar cuja órbita foi alterada de forma mensurável por ação humana: em setembro de 2022, a sonda DART, da NASA, embateu nele a cerca de 6,1 km/s e encurtou em 33 minutos a sua volta em torno de Didymos, muito mais do que se previa. A Hera vai agora fazer a «investigação do local do embate», medindo a cratera, a massa e a composição dos dois corpos. Os cientistas já notam na superfície de Didymos rochas, crateras e sulcos que poderão ter sido formados por material projetado pelo impacto e que atravessou o quilómetro que separa os dois asteroides.",
+    "O objetivo é transformar o desvio por impacto, até agora uma experiência única, numa técnica de defesa planetária bem compreendida e repetível, caso algum dia um asteroide ameace a Terra. O investigador principal, Patrick Michel, do CNRS e do Observatório da Côte d'Azur, contou que a primeira reação da equipa foi de espanto, e o responsável da missão, Ian Carnelli, disse que «a aventura está só a começar». A ESA promete imagens detalhadas dos dois asteroides a 25 de novembro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Divulgação da imagem e dados da missão confirmados pela ESA e pela Popular Science (6 nov.), com mais pormenores no Space.com. A distância de 60 km e o diâmetro de Dimorphos são os indicados pela ESA; outras fontes arredondam de forma diferente."
+   },
+   "fontes": [
+    {
+     "nome": "ESA (5 nov.)",
+     "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-s-first-close-up-view-of-didymos-asteroids"
+    },
+    {
+     "nome": "Popular Science (6 nov.)",
+     "url": "https://www.popsci.com/science/esa-hera-asteroid/"
+    },
+    {
+     "nome": "Space.com (6 nov.)",
+     "url": "https://www.space.com/space-exploration/asteroid-comet-missions/hera-probe-gets-1st-good-luck-at-asteroid-system-clobbered-by-nasas-dart-mission-space-photo-of-the-day-for-nov-6-2026"
+    }
+   ],
+   "imagem": {
+    "commons": "Last image showing all of Didymos & Dimorphos by DART.png",
+    "tipo": "arquivo",
+    "alt": "Os asteroides Didymos e Dimorphos fotografados pela sonda DART",
+    "legenda": "Didymos e Dimorphos na última imagem da DART que mostra os dois asteroides, em setembro de 2022 (imagem de arquivo; não é a imagem da Hera)"
+   }
   }
  ],
  "cultura": [
