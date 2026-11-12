@@ -243,3 +243,23 @@ def titulo_svg(seed=7):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0:.0f} {y0:.0f} {x1 - x0:.0f} {y1 - y0:.0f}" role="img" aria-label="O Dia em Perspetiva">'
             f'<defs><filter id="tinta-titulo" x="-2%" y="-10%" width="104%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/>'
             f'<feDisplacementMap in="SourceGraphic" scale="3.2"/></filter></defs><g filter="url(#tinta-titulo)">{corpo}</g></svg>')
+
+
+def icone_svg(seed=11):
+    """Ícone (favicon): o sol a nascer da marca, em traço grosso, sobre um quadrado creme de cantos redondos."""
+    rng = random.Random(seed)
+    S, cx, hz, r = 512, 256, 300, 112
+    el = []
+    pts = [p for p in mancha(cx, hz, r, rng, 90, 0.05) if p[1] <= hz + 1]
+    pts.sort(key=lambda p: math.atan2(p[1] - hz, p[0] - cx))
+    el.append('<path d="M' + " L".join(f"{x:.1f} {y:.1f}" for x, y in pts) + f' Z" fill="{INK}"/>')
+    for k in range(5):
+        a = math.radians(200 + k * 35)
+        r1, r2 = r * 1.32, r * 1.72
+        el.append(traco([(cx + r1 * math.cos(a), hz + r1 * math.sin(a)), (cx + r2 * math.cos(a), hz + r2 * math.sin(a))], rng, 30, 0.6))
+    el.append(traco([(56, hz + 2), (cx, hz), (456, hz - 2)], rng, 30, 1.2))
+    for bx in (-1, 1):
+        el.append(traco([(cx + bx * 150, 440), (cx + bx * 12, hz + 10)], rng, 26, 0.8))
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {S} {S}"><rect width="{S}" height="{S}" rx="104" fill="{PAPEL}"/>'
+            f'<defs><filter id="t"><feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="6"/></filter></defs>'
+            f'<g filter="url(#t)">{"".join(el)}</g></svg>')

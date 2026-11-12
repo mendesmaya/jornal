@@ -58,9 +58,15 @@ BOTAO_TEMA = '<button type="button" class="tema" id="tema" aria-pressed="false">
 OG_IMG = URL_SITE + "og.png"
 
 
+ICONES = (f'<link rel="icon" href="{URL_SITE}favicon.svg" type="image/svg+xml">'
+          f'<link rel="icon" href="{URL_SITE}favicon-32.png" sizes="32x32" type="image/png">'
+          f'<link rel="icon" href="{URL_SITE}favicon-16.png" sizes="16x16" type="image/png">'
+          f'<link rel="apple-touch-icon" href="{URL_SITE}apple-touch-icon.png"><meta name="theme-color" content="#f1ebde">')
+
+
 def og_html(titulo, descricao, url):
-    """Etiquetas para a pré-visualização da ligação (LinkedIn, WhatsApp, etc.)."""
-    return (f'<meta property="og:type" content="website"><meta property="og:site_name" content="{NOME}">'
+    """Etiquetas para a pré-visualização da ligação (LinkedIn, WhatsApp, etc.) e ícones do separador."""
+    return (ICONES +f'<meta property="og:type" content="website"><meta property="og:site_name" content="{NOME}">'
             f'<meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(descricao)}">'
             f'<meta property="og:url" content="{e(url)}"><meta property="og:image" content="{OG_IMG}">'
             f'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
