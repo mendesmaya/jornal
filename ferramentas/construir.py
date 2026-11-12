@@ -379,7 +379,38 @@ def construir(data):
     (pasta / "index.html").write_text(pagina)
     (assets / "imagens.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
     atualizar_arquivo(data, c)
+    if v2:
+        li = texto_linkedin(data, c)
+        print(f"Texto do LinkedIn: ferramentas/linkedin/{data}.txt ({len(li)} caracteres)")
     print(f"Edição {data}: {len(manifest)} imagens, {len(pagina)//1024} KB")
+
+
+ASSINATURA_LI = ("🤖 «O Dia em Perspetiva» é um projeto pessoal, escrito com IA a partir de regras editoriais "
+                 "definidas por mim. Fontes indicadas em cada notícia.")
+HASHTAGS_LI = "#Notícias #Portugal #InteligênciaArtificial #Tecnologia #Leitura"
+
+
+def texto_linkedin(data, c):
+    """Texto pronto a colar no LinkedIn (sem markdown), gravado em ferramentas/linkedin/AAAA-MM-DD.txt."""
+    d = dt.date.fromisoformat(data)
+    man = next((i for i, n in enumerate(c["noticias"]) if n.get("manchete")), None)
+    abertura = c.get("linkedin_abertura") or (c["noticias"][man]["titulo"] if man is not None else c.get("resumo", ""))
+    pontos = [it["texto"] for it in c.get("em_2_minutos", []) if it.get("noticia") != (man + 1 if man is not None else None)][:4]
+    linhas = [f"📰 O Dia em Perspetiva · {DIAS[d.weekday()]}, {d.day} de {MESES[d.month - 1]}", "", abertura, ""]
+    if pontos:
+        linhas += ["Em 2 minutos:"] + [f"▪️ {t}" for t in pontos] + [""]
+    if c.get("acompanhar"):
+        a = c["acompanhar"][0]
+        linhas += [f"📅 A acompanhar ({a['quando']}): {a['texto']}", ""]
+    linhas += ["Também nesta edição: cultura, agenda do Porto, Sudoku e caça-palavras.", "",
+               f"👉 Edição completa: {URL_SITE}{data}/", "", ASSINATURA_LI, "", HASHTAGS_LI]
+    txt = "\n".join(linhas)
+    if len(txt) > 2900:
+        raise SystemExit(f"Texto do LinkedIn demasiado longo ({len(txt)} caracteres; máximo 3000)")
+    pasta = BASE / "linkedin"
+    pasta.mkdir(exist_ok=True)
+    (pasta / f"{data}.txt").write_text(txt + "\n")
+    return txt
 
 
 def atualizar_arquivo(data, c):
