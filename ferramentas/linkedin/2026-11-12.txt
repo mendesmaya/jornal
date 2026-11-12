@@ -1,14 +1,24 @@
 📰 Criei o meu próprio jornal diário. Com a ajuda da IA.
 
-Queria ler mais e acompanhar as notícias sem anúncios, sem títulos feitos para clicar e sem ficar a navegar entre dezenas de sites. Por isso desenhei «O Dia em Perspetiva», um jornal digital que é publicado sozinho todas as manhãs.
+Queria ler mais e acompanhar as notícias sem anúncios, sem títulos feitos para clicar e sem ficar a navegar entre dezenas de sites. Por isso desenhei «O Dia em Perspetiva», um jornal digital que é publicado sozinho todas as manhãs, por volta das 9h.
 
 A ideia, as regras editoriais e o design são meus. A pesquisa, a escrita e a montagem da página são feitas por IA (Claude), seguindo regras que defini:
 ✔️ cada notícia indica as fontes consultadas
 ✔️ procura sempre duas fontes independentes e assinala quando só há uma
 ✔️ distingue factos de declarações, propostas e previsões
-✔️ textos originais, sem anúncios
+✔️ textos originais, sem anúncios, e correções registadas quando há erros
 
-Todos os dias: tecnologia, IA e cibersegurança, Mundo, Portugal, Espaço, cultura, agenda do Porto e, para terminar, um Sudoku e um caça-palavras.
+De segunda a sábado: um resumo «Em 2 minutos», a manchete do dia, tecnologia, IA e cibersegurança, Mundo, Portugal, Espaço, cultura e a agenda do Porto.
+
+🎮 E dois jogos diferentes por dia:
+Segunda: Sudoku e caça-palavras
+Terça: jogo das diferenças e 2048
+Quarta: Sudoku e nonograma
+Quinta: campo minado e jogo da cobra
+Sexta: 2048 e Sudoku
+Sábado: corrida do dinossauro e um puzzle com a imagem da manchete
+
+☕ Ao domingo, a edição muda: «A semana em perspetiva», com as notícias mais importantes da semana e o que mudou desde então, o que acompanhar na semana seguinte, os destaques culturais e um quiz para testar o que ficou da leitura.
 
 Para mim, este é o lado mais interessante da IA: não substitui a leitura, ajuda-me a ler mais e melhor.
 
