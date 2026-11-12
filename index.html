@@ -75,9 +75,13 @@ nav a:hover{text-decoration:underline}
 /* notícias: abertura de secção com imagem, as restantes só texto em duas colunas */
 .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:0}
 .card{display:flex;flex-direction:column;min-width:0;padding:16px 0 18px;border-bottom:1px solid var(--ink);scroll-margin-top:52px}
+/* colunas só no ecrã largo (no telemóvel o texto ocupa a largura toda, sem recuos) */
+@media (min-width:721px){
 .grid>.card:nth-child(odd of :not(.abertura,.largo)){padding-right:24px;border-right:1px solid var(--linha)}
 .grid>.card:nth-child(even of :not(.abertura,.largo)){padding-left:24px}
-.grid>.card:last-child,.grid>.card:nth-last-child(2):nth-child(odd of :not(.abertura,.largo)){border-bottom:0}
+.grid>.card:nth-last-child(2):nth-child(odd of :not(.abertura,.largo)){border-bottom:0}
+}
+.grid>.card:last-child{border-bottom:0}
 .card.abertura{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:0 28px}
 .card.abertura .figura{margin:4px 0 0}
 .card.abertura .figura .moldura{height:auto;aspect-ratio:4/3}
@@ -298,6 +302,8 @@ footer{margin-top:35px;font:.74rem/1.6 Arial,sans-serif;color:var(--muted);borde
   .gamebox{padding:12px}
   .top{font-size:.6rem}
   .top .lema{display:none}
+  .topo{width:38px;height:38px;right:10px;bottom:14px;font-size:1rem}
+  .topo.visivel{opacity:.7}
   .arquivo-lista li{grid-template-columns:1fr}
   .cultura-semana{grid-template-columns:1fr 1fr;gap:0 14px}
   .edicoes-semana li{grid-template-columns:1fr;gap:2px}
