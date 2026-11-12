@@ -40,7 +40,7 @@ Privilegiar fontes primárias, organismos oficiais e meios credíveis (Lusa, RTP
 
 ## Pessoas, suspeitas e correções
 - **Presunção de inocência**: suspeitos, detidos e arguidos são sempre referidos como tal («suspeito de», «indiciado por»), nunca como culpados. **Não nomear pessoas que não sejam figuras públicas** quando são suspeitas, arguidas, vítimas ou doentes; usar a função ou descrição («seis funcionários de uma empresa de assistência em escala»). Figuras públicas podem ser nomeadas quando o caso diz respeito às suas funções.
-- **Aviso de IA**: todas as páginas mostram automaticamente o aviso de que o jornal é feito com IA (AI Act, art. 50.º). Não o remover.
+- **Aviso de IA**: o rodapé de todas as páginas mostra automaticamente o aviso de que o jornal é feito com IA (AI Act, art. 50.º). Não o remover (por decisão da dona do jornal, fica só no rodapé).
 - **Correções** (só quando a dona do jornal as pedir, ou quando a rotina detetar um erro claro numa edição anterior ao pesquisar): corrigir o texto da notícia no JSON dessa edição, acrescentar-lhe `"correcao": "O que estava errado e o que foi corrigido (data)."`, reconstruir essa edição e registar a correção em `ferramentas/correcoes.json` com `{"data": "AAAA-MM-DD (dia da correção)", "edicao": "AAAA-MM-DD", "ancora": "#nNN", "texto": "..."}`. As correções dos últimos 7 dias aparecem numa caixa no topo das edições seguintes; todas ficam na página do arquivo. Nunca apagar uma correção.
 
 ## Cultura (4 artigos, `rubrica`)

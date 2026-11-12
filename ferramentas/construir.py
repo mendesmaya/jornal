@@ -465,7 +465,6 @@ def construir(data):
 <div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {MESES[dia.month - 1][:3]} {dia.year}</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
 <h1 class="masthead"><a href="../">{NOME}</a></h1>
 <p class="deck">{e(data_pt(data).capitalize())} · {total_noticias} notícias e 4 artigos culturais · Agenda Porto · {e(descricao_jogos(jogos))}</p>
-{AVISO_IA_HTML}
 <nav aria-label="Secções"><a href="../">Arquivo</a>{nav_resumo}<a href="#tecnologia"><span class="longo">Tecnologia, IA e Cibersegurança</span><span class="curto">Digital</span></a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a>{nav_espaco}<a href="#cultura">Cultura</a><a href="#agenda"><span class="longo">Agenda Porto</span><span class="curto">Agenda</span></a><a href="#jogos">Jogos</a></nav>
 {resumo_linha}{briefing}{caixa_correcoes(data)}<span id="manchete"></span>{manchete_html}
 {digital}{resto}{cultura}{agenda}{jogos_html}
@@ -608,7 +607,6 @@ def construir_semanal(data, c, jogos, pasta, assets, manifest):
 <h1 class="masthead"><a href="../">{NOME}</a></h1>
 <p class="kicker">A semana em perspetiva</p>
 <p class="deck">{e(data_pt(data).capitalize())} · resumo de {e(dia_curto(inicio))} a {e(dia_curto(ontem))} · {len(D)} notícias da semana · Agenda Porto · Quiz</p>
-{AVISO_IA_HTML}
 <nav aria-label="Secções"><a href="../">Arquivo</a><a href="#resumo"><span class="longo">A semana em 2 minutos</span><span class="curto">Resumo</span></a><a href="#semana"><span class="longo">Notícias da semana</span><span class="curto">Notícias</span></a><a href="#semana-que-vem"><span class="longo">A semana que vem</span><span class="curto">Próxima semana</span></a><a href="#cultura">Cultura</a><a href="#edicoes">Edições</a><a href="#agenda"><span class="longo">Agenda Porto</span><span class="curto">Agenda</span></a><a href="#jogos">Quiz</a></nav>
 {briefing}{caixa_correcoes(data)}{semana}{cultura}{agenda}{jogos_html}
 <footer><p>Edição de domingo: seleção editorial das notícias mais importantes e com mais cobertura e seguimento ao longo da semana, atualizadas com o que mudou desde então. Não usamos dados de comentários nem de audiências. Cada notícia indica o estado da informação, a data e as fontes consultadas; procuramos confirmação em duas fontes independentes e assinalamos quando só há uma. Os textos são sínteses originais.</p>
@@ -703,7 +701,6 @@ def atualizar_arquivo(data, c):
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{NOME} · Arquivo</title>
 <style>{css}</style><script>{TEMA_JS}</script></head><body><main><div class="top"><span>Arquivo · {len(arq)} edições</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
 <h1 class="masthead">{NOME}</h1><p class="deck">Todas as edições, da mais recente para a mais antiga</p>
-{AVISO_IA_HTML.replace('href="../#correcoes"', 'href="#correcoes"')}
 <nav aria-label="Atalhos"><a href="./{arq[0]["data"]}/">Edição mais recente</a><a href="#correcoes">Correções</a></nav>
 <section class="newssection"><h2>Arquivo de edições</h2><p class="edition-count">{len(arq):02d} edições</p><ul class="arquivo-lista">{"".join(itens)}</ul></section>
 <section class="newssection" id="correcoes"><h2>Correções e atualizações</h2><p class="edition-count">erros detetados depois da publicação, do mais recente para o mais antigo</p>{lista_corr}</section>
