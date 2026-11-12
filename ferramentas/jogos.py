@@ -147,26 +147,27 @@ def logic_solve(grid, techniques):
 
 
 def make_sudoku(rng, seen):
-    for _ in range(400):
+    """Dificuldade média: 30–34 pistas, resolve-se só com «simples» e «ocultos»
+    (sem pares nem interseções), mas não só com «simples»."""
+    for _ in range(600):
         sol = full_grid(rng)
         puz = list(sol)
+        alvo = rng.randint(30, 33)
         cells = list(range(81))
         rng.shuffle(cells)
         for c in cells:
-            if sum(1 for v in puz if v) <= 24:
+            if sum(1 for v in puz if v) <= alvo:
                 break
             keep = puz[c]
             puz[c] = 0
             if count_solutions(puz) != 1:
                 puz[c] = keep
         clues = sum(1 for v in puz if v)
-        if not 24 <= clues <= 29:
+        if not 30 <= clues <= 34:
             continue
-        easy, _ = logic_solve(puz, {"ocultos"})
-        ok, used = logic_solve(puz, {"ocultos", "pares"})
-        # moderadamente difícil: exige técnicas além de simples/ocultos,
-        # mas resolve-se sem tentativa-erro
-        if easy or not ok:
+        so_simples, _ = logic_solve(puz, set())
+        ok, used = logic_solve(puz, {"ocultos"})
+        if so_simples or not ok:
             continue
         key = hashlib.sha256("".join(map(str, puz)).encode()).hexdigest()
         if key in seen:

@@ -233,7 +233,7 @@ def html_jogos(jogos, c):
     tema = e(c.get("tema_palavras", "palavras desta edição"))
     teclado = "".join(f'<button type="button" data-v="{v}">{v}</button>' for v in range(1, 10)) + '<button type="button" data-v="0" aria-label="Apagar">⌫</button>'
     B = {
-        "sudoku": caixa("sudoku", "Sudoku", "Preenche a grelha para que cada linha, coluna e quadrado de 3×3 tenha os números de 1 a 9. Toca numa casa vazia e escolhe o número. Liga o <strong>rascunho</strong> para anotar várias hipóteses pequenas numa casa antes de decidir (no computador: tecla N, ou Shift + número). Dificuldade: moderadamente difícil, com solução única.",
+        "sudoku": caixa("sudoku", "Sudoku", "Preenche a grelha para que cada linha, coluna e quadrado de 3×3 tenha os números de 1 a 9. Toca numa casa vazia e escolhe o número. Liga o <strong>rascunho</strong> para anotar várias hipóteses pequenas numa casa antes de decidir (no computador: tecla N, ou Shift + número). Dificuldade: média, com solução única e sem precisar de tentativa-erro.",
                         '<div class="sudoku" id="sudoku" role="grid" aria-label="Grelha de Sudoku"></div>'
                         f'<div class="teclado" id="sudoku-teclado">{teclado}<button type="button" class="rascunho" id="sudoku-rascunho" aria-pressed="false">✏️ Rascunho: desligado</button></div>'),
         "caca": caixa("caca", "Caça-palavras", f"Encontra as 15 palavras escondidas na horizontal, vertical ou diagonal, em qualquer sentido. Arrasta da primeira à última letra, ou toca na primeira e depois na última. Tema: {tema}.",
