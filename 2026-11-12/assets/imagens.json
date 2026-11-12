@@ -1,0 +1,156 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-marie-maersk-ship-2013-002.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marie_Maersk_%28ship%2C_2013%29_002.jpg?width=1000",
+  "commons": "Marie Maersk (ship, 2013) 002.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-github-invertocat-logo.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GitHub_Invertocat_Logo.svg?width=1000",
+  "commons": "GitHub Invertocat Logo.svg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-datacenter-server-racks-22370909788.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Datacenter_Server_Racks_%2822370909788%29.jpg?width=1000",
+  "commons": "Datacenter Server Racks (22370909788).jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-dna-double-helix-vertikal.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DNA_double_helix_vertikal.PNG?width=1000",
+  "commons": "DNA double helix vertikal.PNG",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-artificial-neural-network-colored.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Artificial_neural_network_colored.svg?width=1000",
+  "commons": "Artificial neural network colored.svg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-official-portrait-of-treasury-secretary-scott-bessent.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Official_portrait_of_Treasury_Secretary_Scott_Bessent.jpg?width=1000",
+  "commons": "Official portrait of Treasury Secretary Scott Bessent.jpg",
+  "reserva": "assets/reserva-ia.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-berlaymont-eu-building-brussels.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Berlaymont_EU_Building-Brussels.jpg?width=1000",
+  "commons": "Berlaymont EU Building-Brussels.jpg",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-nvidia-h100-geekerwan-011.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_011.png?width=1000",
+  "commons": "NVIDIA H100 (极客湾Geekerwan) 011.png",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-steve-witkoff-2025-cropped.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steve_Witkoff_%282025%29_%28cropped%29.jpg?width=1000",
+  "commons": "Steve Witkoff (2025) (cropped).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 10,
+  "ficheiro": "img/10-ebola-virus-em.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ebola_virus_em.png?width=1000",
+  "commons": "Ebola virus em.png",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 11,
+  "ficheiro": "img/11-cop30-ant-nio-guterres-06.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/COP30_-_Ant%C3%B3nio_Guterres_06.jpg?width=1000",
+  "commons": "COP30 - António Guterres 06.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 12,
+  "ficheiro": "img/12-giuseppe-valditara.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe_Valditara.jpg?width=1000",
+  "commons": "Giuseppe Valditara.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 13,
+  "ficheiro": "img/13-f-ia-serra-de-monchique-algarve-portugal-summer-stormy-weath.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/F%C3%B3ia%2C_Serra_de_Monchique%2C_Algarve%2C_Portugal%2C_summer_stormy_weather.jpg?width=1000",
+  "commons": "Fóia, Serra de Monchique, Algarve, Portugal, summer stormy weather.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 14,
+  "ficheiro": "img/14-centro-hospitalar-do-barlavento-algarvio-1-02-09-2023.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_Hospitalar_do_Barlavento_Algarvio_1_-_02.09.2023.jpg?width=1000",
+  "commons": "Centro Hospitalar do Barlavento Algarvio 1 - 02.09.2023.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 15,
+  "ficheiro": "img/15-lisbon-airport-terminal-2-1.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisbon_Airport%2C_Terminal_2_%281%29.jpg?width=1000",
+  "commons": "Lisbon Airport, Terminal 2 (1).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 16,
+  "ficheiro": "img/16-reitoria-da-ua.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reitoria_da_UA.jpg?width=1000",
+  "commons": "Reitoria da UA.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 17,
+  "ficheiro": "img/17-hera-in-orbit.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hera_in_orbit.jpg?width=1000",
+  "commons": "Hera in orbit.jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 18,
+  "ficheiro": "img/18-peregrine-launch.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peregrine_launch.jpg?width=1000",
+  "commons": "Peregrine launch.jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 19,
+  "ficheiro": "img/19-john-malkovich-at-83rd-venice-international-film-festival-9.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/John_Malkovich_at_83rd_Venice_International_Film_Festival-9.jpg?width=1000",
+  "commons": "John Malkovich at 83rd Venice International Film Festival-9.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 20,
+  "ficheiro": "img/20-morris-maurice-de-bevere.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morris_-_Maurice_De_Bevere.jpg?width=1000",
+  "commons": "Morris - Maurice De Bevere.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 21,
+  "ficheiro": "img/21-phonautograph-1859.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phonautograph_1859.jpg?width=1000",
+  "commons": "Phonautograph 1859.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 22,
+  "ficheiro": "img/22-laboratorio-de-actividades-criativas-de-lagos.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Laboratorio_de_Actividades_Criativas_de_Lagos.JPG?width=1000",
+  "commons": "Laboratorio de Actividades Criativas de Lagos.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
