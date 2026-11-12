@@ -54,14 +54,38 @@ Variar temas: consultar `ferramentas/arquivo_temas.md` e acrescentar lá os tema
 - Não usar cartazes de filmes, personagens protegidas, obras protegidas nem fotografias de agências sem licença; nesses casos usar imagem ilustrativa e dizê-lo.
 - Autoria e licença são lidas automaticamente da API do Commons pela ação `Guardar imagens das edições`, que também descarrega a imagem para `AAAA-MM-DD/assets/img/`. Se o ficheiro não existir, a ação troca-o por uma ilustração de reserva marcada como tal.
 
-## Jogos
-`python3 ferramentas/jogos.py AAAA-MM-DD P1 … P15` com 15 palavras ligadas à edição (máx. 15 letras, sem repetições). O script garante Sudoku moderadamente difícil com solução única, caça-palavras com as 15 palavras validadas e grelhas diferentes das anteriores (`historico_jogos.json`).
+## Jogos (mudam com o dia da semana, desde 2026-11-12)
+| Dia | Jogos |
+|---|---|
+| Segunda | Sudoku e caça-palavras |
+| Terça | Jogo das diferenças e 2048 |
+| Quarta | Sudoku e nonograma |
+| Quinta | Campo minado e jogo da cobra |
+| Sexta | 2048 e Sudoku |
+| Sábado | Corrida do dinossauro e puzzle (com a imagem da manchete) |
+| Domingo | Quiz da semana (edição de domingo) |
+
+`python3 ferramentas/jogos.py AAAA-MM-DD [P1 … P15]` escolhe sozinho os jogos do dia (tabela `JOGOS_DIA`). As 15 palavras (ligadas à edição, máx. 15 letras, sem repetições) só são obrigatórias à **segunda-feira** (caça-palavras); nos outros dias podem ser passadas e são ignoradas. O script garante Sudoku moderadamente difícil com solução única (com modo rascunho na página), nonograma 10×10 com solução lógica única, jogo das diferenças com 7 diferenças bem separadas, e grelhas diferentes das anteriores (`historico_jogos.json`). 2048, campo minado, cobra e dinossauro usam uma semente do dia (o mesmo desafio para todos os leitores). Ao sábado, a manchete deve ter uma imagem nítida e não um logótipo, porque é a imagem do puzzle.
+
+## Edição de domingo: «A semana em perspetiva» (desde 2026-11-15)
+Ao domingo **não** há edição normal: em vez das 18 notícias e dos 4 artigos culturais, faz-se o resumo da semana. Esta secção prevalece sobre qualquer outra instrução (incluindo a da tarefa agendada) quando o dia é domingo.
+- JSON com `"tipo": "semanal"` (ver `construir.py`, função `construir_semanal`, e o exemplo abaixo).
+- **Pesquisa**: ler os JSON de segunda a sábado em `ferramentas/conteudo/`, escolher as 8–10 notícias **mais importantes e com mais cobertura e seguimento** (as que voltaram em várias edições ou dominaram a imprensa). Não temos números de comentários nem de audiências: não afirmar que foram «as mais comentadas» como facto medido. Para cada uma, pesquisar o que mudou desde a publicação (desenvolvimento novo, desmentido, decisão) e confirmar com fontes atuais.
+- `destaques` (8–10, por ordem de importância; o 1.º é «A notícia da semana»): `titulo`, `seccao` (chaves das secções), `data`, `estado`, `texto` (2–3 parágrafos; o 1.º funciona sozinho), `desenvolvimento` (opcional: o que mudou desde então, com data), `verificacao`, `fontes`, `edicao` e `noticia` (edição e posição da notícia original, para a ligação «Na edição de…»). `imagem` obrigatória nos 3 primeiros (Commons, mesmas regras).
+- `em_2_minutos` (5–6, com `"destaque": N`, posição 1–10 no array `destaques`) → «A semana em 2 minutos».
+- `semana_que_vem` (4–6, `{"quando", "texto"}`): o que acompanhar na semana seguinte, só com datas confirmadas.
+- `quiz` (6–10 perguntas): `{"pergunta", "opcoes": [3–4], "certa": índice a partir de 0, "explicacao", "destaque": N}` (ou `"edicao"` + `"noticia"`). Perguntas factuais, sem ratoeiras, sobre notícias da semana; uma única resposta certa, confirmada no texto da notícia.
+- `agenda_aviso` e `agenda` (domingo e os três dias seguintes), como nas outras edições.
+- `linkedin_abertura`: frase de abertura do texto do LinkedIn da semana.
+- «Destaques culturais da semana» e «As edições da semana» são gerados automaticamente a partir de `ferramentas/arquivo_temas.md` e `ferramentas/arquivo.json` (não escrever nada).
+- `jogos.py` gera só a lista do quiz; não acrescentar linha a `arquivo_temas.md` ao domingo.
+- Exemplo mínimo de chaves: `{"data", "numero", "tipo": "semanal", "resumo", "em_2_minutos", "destaques", "semana_que_vem", "quiz", "agenda_aviso", "agenda", "linkedin_abertura"}`.
 
 ## Passo a passo
 1. `git clone` / `git pull` do repositório; verificar se a edição do dia já existe.
 2. Pesquisar e escrever `ferramentas/conteudo/AAAA-MM-DD.json` (modelo: a edição de 2026-11-12; `numero` = número anterior + 1), incluindo manchete, `em_2_minutos` e `acompanhar`.
 3. Gerar os jogos; `python3 ferramentas/construir.py AAAA-MM-DD` (valida contagens e atualiza `index.html` do arquivo).
-4. Testar a página (sem erros de JavaScript, jogos funcionais, ligações de «Em 2 minutos» a apontar para as notícias certas, modo escuro legível).
+4. Testar a página (sem erros de JavaScript, os dois jogos do dia funcionais, ligações de «Em 2 minutos» a apontar para as notícias certas, modo escuro legível).
 5. Commit e push para `main`.
 6. Esperar pela ação das imagens (~1–3 min), fazer `git pull` e confirmar em `AAAA-MM-DD/assets/creditos.json` que todas as imagens ficaram `ok`. Para cada `falhou`, escolher outra imagem do Commons, reconstruir e voltar a publicar.
 7. Confirmar que `https://mendesmaya.github.io/jornal/AAAA-MM-DD/` responde.
