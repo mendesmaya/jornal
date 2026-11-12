@@ -4,6 +4,9 @@ Repositório: `mendesmaya/jornal` (branch `main`, GitHub Pages a partir da raiz)
 Endereço de cada edição: `https://mendesmaya.github.io/jornal/AAAA-MM-DD/`.
 Fuso horário de referência: Europe/Lisbon. A data da edição é a data de Lisboa no momento da execução.
 
+## Horário
+A tarefa agendada começa às 8h31 (Lisboa) para que a edição e o texto do LinkedIn estejam prontos por volta das 9h. A notificação final deve sair assim que a edição estiver publicada e as imagens confirmadas.
+
 ## Regra prévia
 - Se `AAAA-MM-DD/index.html` já existir e o pedido for apenas publicá-lo, usar esse ficheiro. Não recriar nem reescrever; aplicar só as correções pedidas.
 - Nunca apagar nem alterar pastas de edições anteriores (exceto correções pedidas pela dona do jornal).
@@ -23,7 +26,7 @@ Modelo de referência: `ferramentas/conteudo/2026-11-12.json` (substitui as edi�
 - **`acompanhar`** («O que acompanhar»): 3 a 4 entradas `{"quando": "Sexta, 13 nov.", "texto": "...", "noticia": N}` (ou `ancora`) sobre o que vem aí nos próximos dias: votações, lançamentos, cimeiras, greves, prazos, decisões esperadas. Só datas confirmadas nas fontes consultadas; usar «previsto», «não antes de», «se não houver adiamento» quando for o caso. `noticia`/`ancora` são opcionais.
 - **Imagens**: só são mostradas na manchete, na primeira notícia de cada secção (abertura: Cibersegurança 1.ª, Mundo 1.ª, Portugal 1.ª, Espaço 1.ª — sem contar a manchete) e nos 4 artigos de cultura. Nas outras notícias o campo `imagem` é opcional e ignorado. Escolher para as aberturas imagens fortes; preferir fotografias a logótipos. Logótipos e esquemas em SVG aparecem inteiros; para forçar, usar `"ajuste": "conter"` (ou `"cobrir"`) na imagem.
 - Na página, as notícias (exceto a manchete) e os artigos de cultura mostram o 1.º parágrafo e o resto em «Continuar a ler»: o 1.º parágrafo tem de funcionar sozinho (quem, o quê, quando, onde e o essencial).
-- **`linkedin_abertura`**: uma frase de abertura forte para o LinkedIn (máx. ~30 palavras), sobre a manchete ou o facto mais marcante, informativa e sem «clickbait», com o mesmo rigor de estados. `construir.py` gera com ela `ferramentas/linkedin/AAAA-MM-DD.txt`: abertura, até 4 pontos do «Em 2 minutos» (sem repetir a manchete), o 1.º item do «O que acompanhar», ligação, assinatura de crédito à IA e hashtags. Não alterar a assinatura nem as hashtags.
+- **`linkedin_abertura`**: uma frase de abertura forte para o LinkedIn (máx. ~30 palavras), sobre a manchete ou o facto mais marcante, informativa e sem «clickbait», com o mesmo rigor de estados. `construir.py` gera com ela `ferramentas/linkedin/AAAA-MM-DD.txt`: abertura, até 4 pontos do «Em 2 minutos» (sem repetir a manchete), o 1.º item do «O que acompanhar», ligação, assinatura de crédito à IA e hashtags. Não alterar a assinatura nem as hashtags. O campo opcional `linkedin_texto` substitui o texto automático por um texto escrito à mão (usado na publicação de lançamento de 2026-11-12); nas edições normais não o usar.
 - Fontes e verificação aparecem recolhidas por baixo de cada notícia; o `estado` aparece por baixo do título, por isso deve ser curto (idealmente até ~20 palavras).
 
 Cada notícia (campo no JSON):

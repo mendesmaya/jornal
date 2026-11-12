@@ -393,6 +393,13 @@ HASHTAGS_LI = "#Notícias #Portugal #InteligênciaArtificial #Tecnologia #Leitur
 def texto_linkedin(data, c):
     """Texto pronto a colar no LinkedIn (sem markdown), gravado em ferramentas/linkedin/AAAA-MM-DD.txt."""
     d = dt.date.fromisoformat(data)
+    if c.get("linkedin_texto"):  # texto especial escrito à mão (ex.: lançamento); substitui o automático
+        txt = c["linkedin_texto"].strip()
+        if len(txt) > 2900:
+            raise SystemExit(f"Texto do LinkedIn demasiado longo ({len(txt)} caracteres; máximo 3000)")
+        (BASE / "linkedin").mkdir(exist_ok=True)
+        (BASE / "linkedin" / f"{data}.txt").write_text(txt + "\n")
+        return txt
     man = next((i for i, n in enumerate(c["noticias"]) if n.get("manchete")), None)
     abertura = c.get("linkedin_abertura") or (c["noticias"][man]["titulo"] if man is not None else c.get("resumo", ""))
     pontos = [it["texto"] for it in c.get("em_2_minutos", []) if it.get("noticia") != (man + 1 if man is not None else None)][:4]

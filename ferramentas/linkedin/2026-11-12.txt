@@ -1,19 +1,17 @@
-📰 O Dia em Perspetiva · quinta-feira, 12 de novembro
+📰 Criei o meu próprio jornal diário. Com a ajuda da IA.
 
-Ucrânia e Rússia saíram de Abu Dhabi sem acordo de paz, mas com um compromisso concreto: uma grande troca de prisioneiros, ainda sem números nem data.
+Queria ler mais e acompanhar as notícias sem anúncios, sem títulos feitos para clicar e sem ficar a navegar entre dezenas de sites. Por isso desenhei «O Dia em Perspetiva», um jornal digital que é publicado sozinho todas as manhãs.
 
-Em 2 minutos:
-▪️ A depressão Charles deixou 1630 ocorrências e nenhuma vítima mortal; a situação de alerta terminou, mas seis distritos do Norte estão hoje sob aviso amarelo por chuva.
-▪️ A Maersk confirmou o roubo de dados num sistema herdado de uma aquisição; o grupo WhiteArmor exige 5 milhões de dólares.
-▪️ O surto de Ébola na República Democrática do Congo passou os 11 mil casos e as 5300 mortes, o pior de sempre no país.
-▪️ Bruxelas propôs a Lei da Equidade Digital, contra as «armadilhas» nas subscrições online, com um botão obrigatório para cancelar.
+A ideia, as regras editoriais e o design são meus. A pesquisa, a escrita e a montagem da página são feitas por IA (Claude), seguindo regras que defini:
+✔️ cada notícia indica as fontes consultadas
+✔️ procura sempre duas fontes independentes e assinala quando só há uma
+✔️ distingue factos de declarações, propostas e previsões
+✔️ textos originais, sem anúncios
 
-📅 A acompanhar (Hoje e sexta): Jared Kushner e Steve Witkoff reúnem-se com Vladimir Putin em Moscovo e seguem depois para Dublin para informar Zelensky; o número de prisioneiros a trocar ainda não foi fixado.
+Todos os dias: tecnologia, IA e cibersegurança, Mundo, Portugal, Espaço, cultura, agenda do Porto e, para terminar, um Sudoku e um caça-palavras.
 
-Também nesta edição: cultura, agenda do Porto, Sudoku e caça-palavras.
+Para mim, este é o lado mais interessante da IA: não substitui a leitura, ajuda-me a ler mais e melhor.
 
-👉 Edição completa: https://mendesmaya.github.io/jornal/2026-11-12/
+👉 https://mendesmaya.github.io/jornal/
 
-🤖 «O Dia em Perspetiva» é um projeto pessoal, escrito com IA a partir de regras editoriais definidas por mim. Fontes indicadas em cada notícia.
-
-#Notícias #Portugal #InteligênciaArtificial #Tecnologia #Leitura
+#InteligênciaArtificial #Notícias #Portugal #Leitura #ProjetoPessoal
