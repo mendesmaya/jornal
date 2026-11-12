@@ -228,3 +228,18 @@ if __name__ == "__main__":
     out = Path(sys.argv[1])
     for v in ("A", "B", "C", "D"):
         (out / f"og-{v}.svg").write_text(svg_variante(v))
+
+
+def titulo_svg(seed=7):
+    """Título do jornal só com as letras (sem fundo), em currentColor para funcionar no modo escuro."""
+    esc = 100
+    p, w = palavra_svg("O DIA EM PERSPETIVA", 0, esc, esc, random.Random(seed + 2), esc * 0.12, 0.16)
+    import re as _re
+    nums = [float(v) for v in _re.findall(r"-?\d+\.?\d*", " ".join(_re.findall(r'd="([^"]+)"', "".join(p))))]
+    xs, ys = nums[0::2], nums[1::2]
+    m = esc * 0.12
+    x0, y0, x1, y1 = min(xs) - m, min(ys) - m, max(xs) + m, max(ys) + m
+    corpo = "".join(p).replace(f'stroke="{INK}"', 'stroke="currentColor"').replace(f'fill="{INK}"', 'fill="currentColor"')
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x0:.0f} {y0:.0f} {x1 - x0:.0f} {y1 - y0:.0f}" role="img" aria-label="O Dia em Perspetiva">'
+            f'<defs><filter id="tinta-titulo" x="-2%" y="-10%" width="104%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/>'
+            f'<feDisplacementMap in="SourceGraphic" scale="3.2"/></filter></defs><g filter="url(#tinta-titulo)">{corpo}</g></svg>')
