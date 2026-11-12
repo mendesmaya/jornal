@@ -254,12 +254,12 @@ if(J.cobra&&$('cobra'))(function(){
     const h={x:cobra[0].x+dir.x,y:cobra[0].y+dir.y};
     if(h.x<0||h.y<0||h.x>=N||h.y>=N||cobra.some(p=>p.x===h.x&&p.y===h.y)){fim=true;ativo=false;bJ.textContent='Jogar de novo';
       if(score>melhor())guardar('jornal-cobra-melhor',score);msg(estado,'Bateste '+(h.x<0||h.y<0||h.x>=N||h.y>=N?'na parede':'na própria cauda')+'. Fizeste '+score+' pontos.','revelado');return}
-    cobra.unshift(h);if(h.x===comida.x&&h.y===comida.y){score++;vel=Math.max(75,vel-4);novaComida()}else cobra.pop()}
+    cobra.unshift(h);if(h.x===comida.x&&h.y===comida.y){score++;vel=Math.max(120,vel-3);novaComida()}else cobra.pop()}
   function ciclo(t){if(!ativo){desenhar();return}acc+=t-ult;ult=t;while(acc>=vel&&ativo){acc-=vel;passo()}desenhar();raf=requestAnimationFrame(ciclo)}
   function iniciar(){if(fim||!cobra)reiniciar(true);ativo=true;bJ.textContent='Pausa';ult=performance.now();acc=0;msg(estado,'Setas, teclas WASD, deslizar no ecrã ou os botões.');cancelAnimationFrame(raf);raf=requestAnimationFrame(ciclo)}
   function pausa(){ativo=false;bJ.textContent='Continuar';desenhar()}
   function virar(d){const m={esq:{x:-1,y:0},dir:{x:1,y:0},cima:{x:0,y:-1},baixo:{x:0,y:1}}[d];if(!m)return;if(!ativo)iniciar();fila.push(m);if(fila.length>3)fila.shift()}
-  function reiniciar(semDesenho){R=aleatorio(J.cobra.semente);cobra=[{x:5,y:8},{x:4,y:8},{x:3,y:8}];dir={x:1,y:0};fila=[];score=0;vel=150;fim=false;ativo=false;novaComida();bJ.textContent='Jogar';
+  function reiniciar(semDesenho){R=aleatorio(J.cobra.semente);cobra=[{x:5,y:8},{x:4,y:8},{x:3,y:8}];dir={x:1,y:0};fila=[];score=0;vel=230;fim=false;ativo=false;novaComida();bJ.textContent='Jogar';
     if(!semDesenho){desenhar();msg(estado,'Come os pontos sem bater nas paredes nem na cauda. A comida aparece nos mesmos sítios para todos hoje.')}}
   bJ.addEventListener('click',()=>ativo?pausa():iniciar());
   $('cobra-recomecar').addEventListener('click',()=>{cancelAnimationFrame(raf);reiniciar()});
