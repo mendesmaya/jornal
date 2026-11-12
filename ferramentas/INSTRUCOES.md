@@ -7,6 +7,9 @@ Fuso horário de referência: Europe/Lisbon. A data da edição é a data de Lis
 ## Horário
 A tarefa agendada começa às 8h31 (Lisboa) para que a edição e o texto do LinkedIn estejam prontos por volta das 9h. A notificação final deve sair assim que a edição estiver publicada e as imagens confirmadas.
 
+## Imagem de partilha
+`og.png` (raiz) é a imagem que aparece quando se partilha uma ligação do jornal (LinkedIn, WhatsApp…). `construir.py` acrescenta as etiquetas Open Graph a todas as páginas. A fonte está em `ferramentas/marca/` (`og.py` gera as variantes em SVG, desenhadas à mão por código). Não alterar sem pedido da dona do jornal.
+
 ## Regra prévia
 - Se `AAAA-MM-DD/index.html` já existir e o pedido for apenas publicá-lo, usar esse ficheiro. Não recriar nem reescrever; aplicar só as correções pedidas.
 - Nunca apagar nem alterar pastas de edições anteriores (exceto correções pedidas pela dona do jornal).

@@ -55,6 +55,20 @@ AVISO_IA = ("Feito com inteligência artificial (Claude), a partir de regras edi
 AVISO_IA_HTML = f'<p class="aviso-ia"><span aria-hidden="true">🤖</span> {AVISO_IA} <a href="../#correcoes">Correções</a></p>'
 BOTAO_TEMA = '<button type="button" class="tema" id="tema" aria-pressed="false">Modo escuro</button>'
 
+OG_IMG = URL_SITE + "og.png"
+
+
+def og_html(titulo, descricao, url):
+    """Etiquetas para a pré-visualização da ligação (LinkedIn, WhatsApp, etc.)."""
+    return (f'<meta property="og:type" content="website"><meta property="og:site_name" content="{NOME}">'
+            f'<meta property="og:title" content="{e(titulo)}"><meta property="og:description" content="{e(descricao)}">'
+            f'<meta property="og:url" content="{e(url)}"><meta property="og:image" content="{OG_IMG}">'
+            f'<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">'
+            f'<meta property="og:image:alt" content="{NOME}: sol a nascer sobre o horizonte, desenhado à mão">'
+            f'<meta property="og:locale" content="pt_PT"><meta name="twitter:card" content="summary_large_image">'
+            f'<meta name="twitter:image" content="{OG_IMG}">')
+
+
 CREDITOS = {}
 e = lambda s: html.escape(str(s or ""), quote=True)
 
@@ -461,6 +475,7 @@ def construir(data):
     pagina = f"""<!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{NOME} · {e(data_pt(data, False))}</title><meta name="description" content="{e(destaque)}">
+{og_html(f"{NOME} · {data_pt(data, False)}", destaque, f"{URL_SITE}{data}/")}
 <style>{css}</style><script>{TEMA_JS}{falha}</script></head><body><main id="inicio">
 <div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {MESES[dia.month - 1][:3]} {dia.year}</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
 <h1 class="masthead"><a href="../">{NOME}</a></h1>
@@ -602,6 +617,7 @@ def construir_semanal(data, c, jogos, pasta, assets, manifest):
     pagina = f"""<!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{NOME} · A semana · {e(data_pt(data, False))}</title><meta name="description" content="{e(destaque)}">
+{og_html(f"{NOME} · A semana em perspetiva · {data_pt(data, False)}", destaque, f"{URL_SITE}{data}/")}
 <style>{css}</style><script>{TEMA_JS}{falha}</script></head><body class="semanal"><main id="inicio">
 <div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {MESES[dia.month - 1][:3]} {dia.year} · Edição de domingo</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
 <h1 class="masthead"><a href="../">{NOME}</a></h1>
@@ -698,7 +714,8 @@ def atualizar_arquivo(data, c):
         itens.append(f'<li class="{"novo" if i == 0 else ""}"><div class="d"><a href="./{x["data"]}/">{e(data_pt(x["data"], False))}</a><small>{e(DIAS[dt.date.fromisoformat(x["data"]).weekday()].capitalize())}{n}</small></div>'
                      f'<p>{e(x.get("resumo", ""))}{"<br>" if x.get("resumo") else ""}{e(x.get("formato", ""))}</p></li>')
     pagina = f"""<!doctype html>
-<html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{NOME} · Arquivo</title>
+<html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{NOME} · Arquivo</title><meta name="description" content="Jornal diário feito com IA: notícias com fontes verificadas, cultura, agenda do Porto e jogos. Sem anúncios.">
+{og_html(NOME, "Jornal diário feito com IA: notícias com fontes verificadas, cultura, agenda do Porto e jogos. Sem anúncios.", URL_SITE)}
 <style>{css}</style><script>{TEMA_JS}</script></head><body><main><div class="top"><span>Arquivo · {len(arq)} edições</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
 <h1 class="masthead">{NOME}</h1><p class="deck">Todas as edições, da mais recente para a mais antiga</p>
 <nav aria-label="Atalhos"><a href="./{arq[0]["data"]}/">Edição mais recente</a><a href="#correcoes">Correções</a></nav>
