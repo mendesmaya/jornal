@@ -285,7 +285,8 @@
     "tipo": "arquivo",
     "alt": "Retrato de Steve Witkoff, enviado especial dos Estados Unidos",
     "legenda": "Steve Witkoff, um dos dois enviados norte-americanos que seguiram para Moscovo (imagem de arquivo, 2025)"
-   }
+   },
+   "manchete": true
   },
   {
    "seccao": "mundo",
@@ -1017,6 +1018,54 @@
      "nota": "M/6. Zaynara às 20:30, Fafá de Belém às 21:25. Filas A–K 30 €, L–U 28 €, UU–YY 26 €; 25% de desconto para Amigos. Às 17:00, no Blue Lounge, conferência gratuita «Pensar a Floresta que cria». Fora do período de greve; sem aviso de alteração."
     }
    ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Ucrânia e Rússia acordaram em Abu Dhabi, em princípio, uma grande troca de prisioneiros; não houve avanços sobre o fim da guerra e os enviados dos EUA estão hoje em Moscovo.",
+   "noticia": 9
+  },
+  {
+   "texto": "A depressão Charles deixou 1630 ocorrências e nenhuma vítima mortal; a situação de alerta terminou, mas seis distritos do Norte estão hoje sob aviso amarelo por chuva.",
+   "noticia": 13
+  },
+  {
+   "texto": "A Maersk confirmou o roubo de dados num sistema herdado de uma aquisição; o grupo WhiteArmor exige 5 milhões de dólares.",
+   "noticia": 1
+  },
+  {
+   "texto": "O surto de Ébola na República Democrática do Congo passou os 11 mil casos e as 5300 mortes, o pior de sempre no país.",
+   "noticia": 10
+  },
+  {
+   "texto": "Bruxelas propôs a Lei da Equidade Digital, contra as «armadilhas» nas subscrições online, com um botão obrigatório para cancelar.",
+   "noticia": 7
+  },
+  {
+   "texto": "Na Cultura, «Cavalo Selvagem Nove», de Martin McDonagh, que hoje chega às salas, e Morris, o pai de Lucky Luke.",
+   "ancora": "cultura"
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Hoje e sexta",
+   "texto": "Jared Kushner e Steve Witkoff reúnem-se com Vladimir Putin em Moscovo e seguem depois para Dublin para informar Zelensky; o número de prisioneiros a trocar ainda não foi fixado.",
+   "noticia": 9
+  },
+  {
+   "quando": "Sexta, 13 nov.",
+   "texto": "Dia duplo de foguetões: o Vulcan volta a voar com 40 satélites da Amazon Leo (17h54 em Lisboa, se não houver adiamento) e a SpaceX tenta o voo 15 da Starship.",
+   "noticia": 18
+  },
+  {
+   "quando": "Até sábado, 14 nov.",
+   "texto": "Greve dos trabalhadores da Casa da Música, sem serviços mínimos: confirma os concertos antes de sair.",
+   "ancora": "agenda"
+  },
+  {
+   "quando": "Não antes de 23 nov.",
+   "texto": "Regresso do Ariane 6, na versão de quatro propulsores, com 36 satélites da Amazon Leo.",
+   "noticia": 18
   }
  ]
 }

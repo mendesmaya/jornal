@@ -1,63 +1,118 @@
 <!doctype html>
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>O Dia em Perspetiva · Arquivo</title>
 <style>/* O Dia em Perspetiva — estilo inspirado na edição de 3 de novembro de 2026 (folha branca, Georgia, filetes pretos) */
-:root{--ink:#111;--muted:#555;--paper:#fff;--line:#999;--suave:#555;--linha:#bbb;--cobalto:#111;--agenda:#2c5a34;--tec:#a32020;--acento:#a32020;--sec:#111}
+:root{--ink:#111;--muted:#555;--paper:#fff;--fundo:#ddd;--line:#999;--suave:#555;--linha:#bbb;--cinza:#eee;--cobalto:#111;--agenda:#2c5a34;--tec:#a32020;--acento:#a32020;--sec:#111;--sombra:#0002;--celula:#fff;--num:#125872;--sel:#ddd;--mesma:#e8eef2;--erro:#f4cccc;--logo:#fff;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-tema=claro]){--ink:#ece9e2;--muted:#a9a59c;--paper:#18191a;--fundo:#0d0d0e;--line:#555;--suave:#a9a59c;--linha:#3c3c3c;--cinza:#2a2a2b;--agenda:#7cc08a;--tec:#ef7d7d;--acento:#ef7d7d;--sombra:#0008;--celula:#202122;--num:#8cc8e6;--sel:#3a3b3d;--mesma:#26323a;--erro:#5a2626;--logo:#f2f2f2;color-scheme:dark}}
+:root[data-tema=escuro]{--ink:#ece9e2;--muted:#a9a59c;--paper:#18191a;--fundo:#0d0d0e;--line:#555;--suave:#a9a59c;--linha:#3c3c3c;--cinza:#2a2a2b;--agenda:#7cc08a;--tec:#ef7d7d;--acento:#ef7d7d;--sombra:#0008;--celula:#202122;--num:#8cc8e6;--sel:#3a3b3d;--mesma:#26323a;--erro:#5a2626;--logo:#f2f2f2;color-scheme:dark}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{margin:0;background:#ddd;color:var(--ink);font-family:Georgia,'Times New Roman',serif}
-main{max-width:1120px;margin:auto;background:var(--paper);min-height:100vh;padding:22px clamp(18px,4vw,56px) 70px;box-shadow:0 0 30px #0002}
-a{color:#111;text-underline-offset:3px}
+body{margin:0;background:var(--fundo);color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+main{max-width:1120px;margin:auto;background:var(--paper);min-height:100vh;padding:22px clamp(16px,4vw,56px) 70px;box-shadow:0 0 30px var(--sombra)}
+a{color:var(--ink);text-underline-offset:3px}
 img{max-width:100%;display:block}
 :focus-visible{outline:2px solid #c33;outline-offset:2px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 
 /* cabeçalho */
-.top{display:flex;justify-content:space-between;gap:20px;font:.75rem/1.4 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:7px 0}
-.masthead{text-align:center;font:900 clamp(1.9rem,4.6vw,3.5rem)/1.08 Georgia,'Times New Roman',serif;letter-spacing:-.035em;text-transform:uppercase;border-top:6px double #111;padding-top:20px;margin:16px 0}
+.top{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px 20px;font:.75rem/1.4 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:7px 0}
+.top-dir{display:flex;align-items:center;gap:14px}
+.tema{font:700 .68rem/1 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;background:transparent;color:var(--ink);border:1px solid var(--ink);padding:5px 8px;cursor:pointer}
+.tema:hover{background:var(--ink);color:var(--paper)}
+.masthead{text-align:center;font:900 clamp(1.9rem,4.6vw,3.5rem)/1.08 Georgia,'Times New Roman',serif;letter-spacing:-.035em;text-transform:uppercase;border-top:6px double var(--ink);padding-top:20px;margin:16px 0}
 .masthead a{text-decoration:none;color:inherit}
 .deck{text-align:center;color:var(--muted);font:.86rem/1.5 Georgia,serif;margin:0 0 20px}
-nav{display:flex;gap:15px;overflow-x:auto;white-space:nowrap;padding:12px 0;border-block:1px solid var(--ink);font:700 .78rem/1.3 Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em}
+nav{position:sticky;top:0;z-index:20;background:var(--paper);display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;padding:11px 0;border-block:1px solid var(--ink);font:700 .78rem/1.3 Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em}
 nav a{text-decoration:none;color:var(--ink)}
-/* centrado; em ecrãs estreitos continua a deslizar sem cortar o início */
-nav a:first-child{margin-left:auto}nav a:last-child{margin-right:auto}
+nav a{white-space:nowrap}
+nav .curto{display:none}
 nav a:hover{text-decoration:underline}
-.game-note{font:.8rem/1.5 Arial,sans-serif;color:#555;margin:12px 0}
+.game-note{font:.8rem/1.5 Arial,sans-serif;color:var(--muted);margin:12px 0}
 
 /* secções */
-.newssection{border-top:5px double #111;margin-top:30px;padding-top:10px}
+.newssection{border-top:5px double var(--ink);scroll-margin-top:52px;margin-top:30px;padding-top:10px}
 .newssection>h2{font:700 clamp(1.65rem,3vw,2.4rem)/1.15 Georgia,'Times New Roman',serif;margin:4px 0 4px}
-.edition-count{font:10px/1.4 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;border-bottom:1px solid #111;padding-bottom:8px;margin:5px 0 0}
+.edition-count{font:10px/1.4 Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;border-bottom:1px solid var(--ink);padding-bottom:8px;margin:5px 0 0}
+.edition-count a{color:inherit}
 
-/* notícias em duas colunas, alinhadas por linha */
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:auto;column-gap:0}
-.card{display:grid;grid-row:span 5;grid-template-rows:subgrid;row-gap:0;min-width:0;padding:16px 0 18px;border-bottom:1px solid #111}
-.card:nth-child(odd){padding-right:24px;border-right:1px solid #bbb}
-.card:nth-child(even){padding-left:24px}
-.grid>.card:nth-last-child(-n+2):nth-child(odd),.grid>.card:last-child{border-bottom:0}
-.tag{font:700 .63rem/1.4 Arial,sans-serif;color:#555;letter-spacing:.15em;text-transform:uppercase}
-.card h3{font:700 1.42rem/1.16 Georgia,'Times New Roman',serif;margin:6px 0 9px;text-wrap:balance}
+/* resumo do dia */
+.briefing{display:grid;grid-template-columns:3fr 2fr;gap:0 32px;border-top:5px double var(--ink);margin-top:22px;padding-top:6px}
+.briefing h2{font:700 1.3rem/1.2 Georgia,serif;margin:6px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--ink)}
+.briefing ol,.briefing ul{margin:0;padding:0;list-style:none}
+.briefing ol{counter-reset:b}
+.briefing li{font:.97rem/1.45 Georgia,serif;padding:7px 0;border-bottom:1px solid var(--linha)}
+.briefing li:last-child{border-bottom:0}
+.briefing ol li{counter-increment:b;display:grid;grid-template-columns:1.6em 1fr}
+.briefing ol li::before{content:counter(b);font:700 .8rem/1.8 Arial,sans-serif;color:var(--muted)}
+.briefing ol li>*{grid-column:2}
+.briefing .b-col+.b-col{border-left:1px solid var(--linha);padding-left:32px}
+.quando{display:block;font:700 .68rem/1.5 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}
+.ir{font:700 .74rem/1 Arial,sans-serif;white-space:nowrap}
+
+/* manchete */
+.manchete-sec{border-top:5px double var(--ink);margin-top:26px;padding-top:12px}
+.card.manchete{border-bottom:0;padding-bottom:4px;scroll-margin-top:52px}
+.card.manchete h3{font:700 clamp(1.7rem,3.4vw,2.6rem)/1.1 Georgia,'Times New Roman',serif;margin:6px 0 8px;text-wrap:balance}
+.manchete-grelha{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 30px;margin-top:4px}
+.card.manchete .figura{margin-top:4px}
+.card.manchete .figura .moldura{height:auto;aspect-ratio:4/3}
+.card.manchete .figura img{object-position:50% 30%}
+.card.manchete .corpo p{font-size:1.05rem}
+
+/* notícias: abertura de secção com imagem, as restantes só texto em duas colunas */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:0}
+.card{display:flex;flex-direction:column;min-width:0;padding:16px 0 18px;border-bottom:1px solid var(--ink);scroll-margin-top:52px}
+.grid>.card:nth-child(odd of :not(.abertura,.largo)){padding-right:24px;border-right:1px solid var(--linha)}
+.grid>.card:nth-child(even of :not(.abertura,.largo)){padding-left:24px}
+.grid>.card:last-child,.grid>.card:nth-last-child(2):nth-child(odd of :not(.abertura,.largo)){border-bottom:0}
+.card.abertura{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:0 28px}
+.card.abertura .figura{margin:4px 0 0}
+.card.abertura .figura .moldura{height:auto;aspect-ratio:4/3}
+.abertura-txt{display:flex;flex-direction:column;min-width:0}
+.card.abertura h3{font-size:1.7rem}
+.card.largo{grid-column:1/-1}
+.card.largo .corpo{columns:2;column-gap:32px}
+.tag{font:700 .63rem/1.4 Arial,sans-serif;color:var(--muted);letter-spacing:.15em;text-transform:uppercase}
+.card h3{font:700 1.42rem/1.16 Georgia,'Times New Roman',serif;margin:6px 0 6px;text-wrap:balance}
 .corpo p{font:1rem/1.5 Georgia,'Times New Roman',serif;margin:0 0 8px}
-/* texto justificado, com hifenização em português para evitar espaços largos */
+/* texto justificado no ecrã largo, com hifenização; alinhado à esquerda no telemóvel */
 .corpo p,.ev-desc,.game-note,.game-instructions,footer p{text-align:justify;hyphens:auto;-webkit-hyphens:auto;text-justify:inter-word}
 .corpo p:last-child{margin-bottom:0}
-.rodape-noticia{align-self:end;padding-top:10px}
-.fontes{font:700 .74rem/1.5 Arial,sans-serif;margin:0 0 4px}
-.fontes a{color:#111}
-.verif{display:block;font:.72rem/1.45 Arial,sans-serif;color:#555;margin:2px 0}
-.meta{font:.7rem/1.5 Arial,sans-serif;color:#555;margin:4px 0 0}
-.estado{font-weight:700;color:#111;text-transform:uppercase;letter-spacing:.06em;font-size:.95em}
+.meta{font:.72rem/1.45 Arial,sans-serif;color:var(--muted);margin:0 0 10px}
+.estado{font-weight:700;color:var(--ink)}
 
-/* imagens: altura uniforme */
+/* «continuar a ler» e fontes recolhidas */
+details.mais>summary,details.verificacao>summary{cursor:pointer;list-style:none;font:700 .74rem/1.4 Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);padding:4px 0;width:max-content;max-width:100%}
+details>summary::-webkit-details-marker{display:none}
+details.mais>summary::after{content:" ▾"}
+details.mais[open]>summary::after{content:" ▴"}
+details.mais .fechar,details.mais[open] .abrir{display:none}
+details.mais[open] .fechar{display:inline}
+details.mais[open]>summary{order:2}
+details.mais{display:flex;flex-direction:column}
+details.mais>p{margin:0 0 8px}
+.card .corpo{margin-bottom:6px}
+.card>details.verificacao,.abertura-txt>details.verificacao{margin-top:auto;border-top:1px solid var(--linha);padding-top:6px}
+details.verificacao>summary{color:var(--muted);font-weight:400;letter-spacing:.04em}
+details.verificacao>summary::before{content:"▸ "}
+details.verificacao[open]>summary::before{content:"▾ "}
+.fontes{font:700 .74rem/1.5 Arial,sans-serif;margin:4px 0}
+.fontes a{color:var(--ink)}
+.verif{display:block;font:.72rem/1.45 Arial,sans-serif;color:var(--muted);margin:2px 0}
+
+/* imagens */
 .figura{margin:2px 0 10px}
-.figura .moldura{position:relative;height:190px;overflow:hidden;background:#eee;border:1px solid #bbb}
+.figura .moldura{position:relative;height:190px;overflow:hidden;background:var(--cinza);border:1px solid var(--linha)}
 .figura img{width:100%;height:100%;object-fit:cover}
+/* logótipos e esquemas (SVG) aparecem inteiros, com margem */
+.figura .moldura.conter{background:var(--logo)}
+.figura .moldura.conter img{object-fit:contain;padding:22px 18px}
 .figura .tipo-img{position:absolute;left:0;top:0;background:#111;color:#fff;font:700 9px/1 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:4px 6px}
-.creditos{font:10px/1.4 Arial,sans-serif;color:#555;margin:5px 0 0}
-.creditos a{color:#111}
+.creditos{font:10px/1.4 Arial,sans-serif;color:var(--muted);margin:5px 0 0}
+.creditos a{color:var(--ink)}
 
 /* ficha técnica (cultura) */
-.ficha{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font:.78rem/1.45 Arial,sans-serif;margin:0 0 10px;padding:6px 0;border-block:1px solid #111}
+.ficha{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;font:.78rem/1.45 Arial,sans-serif;margin:0 0 10px;padding:6px 0;border-block:1px solid var(--ink)}
 .ficha dt{font-weight:700;text-transform:uppercase;letter-spacing:.05em;font-size:.68rem;padding-top:2px}
 .ficha dd{margin:0}
 
@@ -69,77 +124,98 @@ nav a:hover{text-decoration:underline}
 .dia-agenda .event{display:grid;grid-template-columns:200px minmax(0,1fr);column-gap:24px}
 .dia-agenda .event>*{grid-column:2}.dia-agenda .event>.ev-hora{grid-column:1;grid-row:1 / span 6;padding-top:3px}
 .menu-dias{display:flex;justify-content:center;flex-wrap:wrap;gap:6px 18px;margin:14px 0 4px;padding:4px 0;font:700 .74rem/1.3 Arial,sans-serif;text-transform:uppercase;letter-spacing:.07em}
-.menu-dias a{text-decoration:none;color:#555;padding:2px 0;border-bottom:2px solid transparent}
-.menu-dias a[aria-current=true]{color:#111;border-bottom-color:#111}
-.menu-dias a:hover{color:#111}
-.agenda>div{border-top:4px double #111;padding-top:8px;min-width:0}
+.menu-dias a{text-decoration:none;color:var(--muted);padding:2px 0;border-bottom:2px solid transparent}
+.menu-dias a[aria-current=true]{color:var(--ink);border-bottom-color:var(--ink)}
+.menu-dias a:hover{color:var(--ink)}
+.agenda>div{border-top:4px double var(--ink);padding-top:8px;min-width:0}
 .agenda h3{font:700 1.6rem/1.2 Georgia,serif;margin:8px 0}
 .event{border-bottom:1px solid var(--line);padding:10px 0}
 .event:last-child{border-bottom:0}
 .event strong{display:block;font:700 .98rem/1.3 Georgia,serif;margin:2px 0}
-.ev-hora{font:700 .72rem/1.4 Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:#111}
+.ev-hora{font:700 .72rem/1.4 Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase;color:var(--ink)}
 .ev-desc{margin:3px 0;font:.88rem/1.45 Georgia,serif}
 .eventplace{margin:4px 0 0;font:13px/1.3 Georgia,serif}
 .eventprice{font:bold 13px/1.3 Arial,sans-serif;margin:3px 0}
 .event a{font:700 .74rem/1.4 Arial,sans-serif}
-.nota-ev{display:block;font:italic .72rem/1.4 Arial,sans-serif;color:#555;margin-top:2px}
+.nota-ev{display:block;font:italic .72rem/1.4 Arial,sans-serif;color:var(--muted);margin-top:2px}
 
 /* jogos */
 .games{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.gamebox{border:2px solid #111;padding:20px;margin-top:20px;background:#fff;min-width:0}
+.gamebox{border:2px solid var(--ink);padding:20px;margin-top:20px;background:var(--paper);min-width:0}
 .gamebox h3{font:700 1.8rem Georgia,serif;margin:5px 0 12px}
-.game-instructions{font:.82rem/1.5 Arial,sans-serif;color:#444}
-.clock{display:flex;align-items:center;flex-wrap:wrap;gap:10px;border-block:1px solid #111;padding:9px 0;margin:12px 0;font:.75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em}
+.game-instructions{font:.82rem/1.5 Arial,sans-serif;color:var(--muted)}
+.clock{display:flex;align-items:center;flex-wrap:wrap;gap:10px;border-block:1px solid var(--ink);padding:9px 0;margin:12px 0;font:.75rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em}
 .crono{font:700 1.6rem 'Courier New',monospace;letter-spacing:.04em;text-transform:none;min-width:5ch}
-.crono.parado{color:#555}.crono.concluido{color:var(--agenda)}
-.pill{border-radius:0;background:#fff;border:1px solid #111;color:#111;padding:7px 12px;cursor:pointer;font:700 .8rem Arial,sans-serif;text-transform:none;letter-spacing:0;touch-action:manipulation}
-.pill:hover{background:#111;color:#fff}
-.estado-jogo{font:.8rem/1.4 Arial,sans-serif;color:#555;margin:0 0 8px;min-height:1.2em}
+.crono.parado{color:var(--muted)}.crono.concluido{color:var(--agenda)}
+.pill{border-radius:0;background:var(--paper);border:1px solid var(--ink);color:var(--ink);padding:7px 12px;cursor:pointer;font:700 .8rem Arial,sans-serif;text-transform:none;letter-spacing:0;touch-action:manipulation}
+.pill:hover{background:var(--ink);color:var(--paper)}
+.estado-jogo{font:.8rem/1.4 Arial,sans-serif;color:var(--muted);margin:0 0 8px;min-height:1.2em}
 .estado-jogo.revelado{color:var(--acento);font-weight:700}.estado-jogo.ganho{color:var(--agenda);font-weight:700}
-.sudoku{display:grid;grid-template-columns:repeat(9,1fr);width:min(100%,380px);aspect-ratio:1;margin:12px auto;border:2px solid #111;user-select:none}
-.sudoku button{min-width:0;aspect-ratio:1;border:0;border-right:1px solid #aaa;border-bottom:1px solid #aaa;background:#fff;color:#125872;font:700 clamp(16px,3vw,24px) Arial,sans-serif;padding:0;cursor:pointer;touch-action:manipulation}
-.sudoku button.fixo{color:#111;background:#eee;cursor:default}
-.sudoku button.c3{border-right:2px solid #111}.sudoku button.l3{border-bottom:2px solid #111}
-.sudoku button.mesma{background:#e8eef2}.sudoku button.fixo.mesma{background:#dfe6ea}
-.sudoku button.sel{outline:3px solid #555;outline-offset:-3px;background:#ddd}
-.sudoku button.erro{background:#f4cccc;color:#a32020}
-.sudoku button.revel{color:#a32020}
+.sudoku{display:grid;grid-template-columns:repeat(9,1fr);width:min(100%,380px);aspect-ratio:1;margin:12px auto;border:2px solid var(--ink);user-select:none}
+.sudoku button{min-width:0;aspect-ratio:1;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--celula);color:var(--num);font:700 clamp(16px,3vw,24px) Arial,sans-serif;padding:0;cursor:pointer;touch-action:manipulation}
+.sudoku button.fixo{color:var(--ink);background:var(--cinza);cursor:default}
+.sudoku button.c3{border-right:2px solid var(--ink)}.sudoku button.l3{border-bottom:2px solid var(--ink)}
+.sudoku button.mesma{background:var(--mesma)}.sudoku button.fixo.mesma{background:var(--mesma)}
+.sudoku button.sel{outline:3px solid var(--muted);outline-offset:-3px;background:var(--sel)}
+.sudoku button.erro{background:var(--erro);color:var(--acento)}
+.sudoku button.revel{color:var(--acento)}
 .teclado{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;width:min(100%,380px);margin:0 auto}
-.teclado button{font:700 1.05rem Arial,sans-serif;padding:10px 0;border:1px solid #111;background:#fff;color:#111;cursor:pointer;touch-action:manipulation}
-.teclado button:hover{background:#111;color:#fff}
-.caca{display:grid;width:min(100%,400px);aspect-ratio:1;margin:12px auto;touch-action:none;user-select:none;-webkit-user-select:none;border:2px solid #111}
-.caca div{display:flex;align-items:center;justify-content:center;font:700 clamp(.7rem,2.6vw,1rem)/1 'Courier New',monospace;cursor:pointer;border:1px solid #eee}
-.caca div.marca-sel{outline:2px solid #111;outline-offset:-2px;background:#eee}
-.caca div.encontrada{background:#111;color:#fff}
-.caca div.revel{background:#bbb;color:#111}
+.teclado button{font:700 1.05rem Arial,sans-serif;padding:10px 0;border:1px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer;touch-action:manipulation}
+.teclado button:hover{background:var(--ink);color:var(--paper)}
+.caca{display:grid;width:min(100%,400px);aspect-ratio:1;margin:12px auto;touch-action:none;user-select:none;-webkit-user-select:none;border:2px solid var(--ink)}
+.caca div{display:flex;align-items:center;justify-content:center;font:700 clamp(.7rem,2.6vw,1rem)/1 'Courier New',monospace;cursor:pointer;border:1px solid var(--cinza)}
+.caca div.marca-sel{outline:2px solid var(--ink);outline-offset:-2px;background:var(--cinza)}
+.caca div.encontrada{background:var(--ink);color:var(--paper)}
+.caca div.revel{background:var(--linha);color:var(--ink)}
 .caca div.inicio{outline:2px solid #c33;outline-offset:-2px}
 .palavras{list-style:none;padding:0;margin:10px 0 0;font:14px/1.8 'Courier New',monospace;display:flex;flex-wrap:wrap;gap:0 14px}
-.palavras li.ok{text-decoration:line-through;color:#888}
+.palavras li.ok{text-decoration:line-through;color:var(--muted)}
 
 /* rodapé e arquivo */
 footer{margin-top:35px;font:.74rem/1.6 Arial,sans-serif;color:var(--muted);border-top:1px solid var(--line);padding-top:15px}
 .arquivo-lista{list-style:none;padding:0;margin:0}
-.arquivo-lista li{display:grid;grid-template-columns:260px 1fr;gap:4px 24px;padding:16px 0;border-bottom:1px solid #111}
+.arquivo-lista li{display:grid;grid-template-columns:260px 1fr;gap:4px 24px;padding:16px 0;border-bottom:1px solid var(--ink)}
 .arquivo-lista .d{font:700 1.35rem/1.25 Georgia,serif}
-.arquivo-lista .d small{display:block;font:.72rem/1.5 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#555}
-.arquivo-lista p{margin:0;font:.95rem/1.5 Georgia,serif;color:#333}
+.arquivo-lista .d small{display:block;font:.72rem/1.5 Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.arquivo-lista p{margin:0;font:.95rem/1.5 Georgia,serif;color:var(--ink)}
 
+/* voltar ao topo */
+.topo{position:fixed;right:max(14px,calc(50vw - 600px));bottom:18px;z-index:30;width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:var(--ink);color:var(--paper);text-decoration:none;font:700 1.2rem/1 Arial,sans-serif;opacity:0;pointer-events:none;transition:opacity .2s}
+.topo.visivel{opacity:.9;pointer-events:auto}
+.topo:hover{opacity:1}
+
+@media (max-width:900px){
+  .card.abertura{grid-template-columns:1fr}
+  .card.abertura .figura .moldura{aspect-ratio:16/9}
+  .manchete-grelha{grid-template-columns:1fr}
+  .card.manchete .figura .moldura{aspect-ratio:16/9}
+  .card.largo .corpo{columns:1}
+}
 @media (max-width:720px){
   .grid{display:block}
-  .card{display:flex;flex-direction:column;padding:14px 0 16px;border-bottom:1px solid #111}
-  .card:nth-child(odd),.card:nth-child(even){padding-left:0;padding-right:0;border-right:0}
-  .grid>.card:nth-last-child(-n+2):nth-child(odd){border-bottom:1px solid #111}
+  .card,.grid>.card:nth-child(n){padding:14px 0 16px;border-right:0;border-bottom:1px solid var(--ink)}
   .grid>.card:last-child{border-bottom:0}
   .figura .moldura{height:200px}
+  .card.abertura .figura .moldura{height:auto}
+  .card.abertura h3,.card h3{font-size:1.32rem}
+  .card.manchete h3{font-size:1.65rem}
+  /* no telemóvel, texto alinhado à esquerda: sem espaços largos nem hifenizações forçadas */
+  .corpo p,.ev-desc,.game-note,.game-instructions,footer p{text-align:left;hyphens:manual;-webkit-hyphens:manual}
+  .briefing{grid-template-columns:1fr}
+  .briefing .b-col+.b-col{border-left:0;padding-left:0;margin-top:14px}
+  nav{gap:4px 13px;padding:8px 0;font-size:.7rem;letter-spacing:.05em}
+  nav .longo{display:none}nav .curto{display:inline}
+  .newssection,.card{scroll-margin-top:72px}
   .games{grid-template-columns:1fr}
   .dia-agenda .event{display:block}
   .agenda h3{font-size:1.35rem}
   .gamebox{padding:12px}
   .top{font-size:.6rem}
+  .top .lema{display:none}
   .arquivo-lista li{grid-template-columns:1fr}
 }
-@media print{body{background:#fff}main{box-shadow:none;max-width:none;padding:0}nav,.pill,.teclado{display:none}.newssection{break-before:page}a{color:#000}}
-</style></head><body><main><div class="top"><span>Arquivo · 13 edições</span><span>Portugal · Leitura independente</span></div>
+@media print{body{background:#fff}main{box-shadow:none;max-width:none;padding:0}nav,.pill,.teclado,.tema,.topo,details>summary{display:none}.newssection{break-before:page}a{color:#000}}
+</style><script>(function(){try{var t=localStorage.getItem('tema');if(t)document.documentElement.dataset.tema=t}catch(e){}})();</script></head><body><main><div class="top"><span>Arquivo · 13 edições</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span><button type="button" class="tema" id="tema" aria-pressed="false">Modo escuro</button></span></div>
 <h1 class="masthead">O Dia em Perspetiva</h1><p class="deck">Todas as edições, da mais recente para a mais antiga</p>
 <nav aria-label="Atalhos"><a href="./2026-11-12/">Edição mais recente</a></nav>
 <section class="newssection"><h2>Arquivo de edições</h2><p class="edition-count">13 edições</p><ul class="arquivo-lista"><li class="novo"><div class="d"><a href="./2026-11-12/">12 de novembro de 2026</a><small>Quinta-feira · n.º 020</small></div><p>Ucrânia e Rússia saem de Abu Dhabi com um acordo de princípio para uma grande troca de prisioneiros, a depressão Charles deixa 1630 ocorrências e nenhuma vítima, e a Maersk confirma um roubo de dados.<br>18 notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras</p></li><li class=""><div class="d"><a href="./2026-11-11/">11 de novembro de 2026</a><small>Quarta-feira · n.º 019</small></div><p>A depressão Charles põe o país em situação de alerta, fecha escolas e cancela um dia da Web Summit; Ucrânia, Rússia e EUA voltam a sentar-se à mesa em Abu Dhabi e a Microsoft corrige um número recorde de falhas.<br>18 notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras</p></li><li class=""><div class="d"><a href="./2026-11-10/">10 de novembro de 2026</a><small>Terça-feira · n.º 018</small></div><p>Ataques russos deixam 850 mil ucranianos sem luz nas vésperas da ronda de Abu Dhabi, a ministra da Saúde afasta o presidente da ULS do Algarve após as mortes na urgência de Portimão e a depressão Charles põe seis distritos sob aviso laranja na quarta-feira.<br>16 notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras</p></li><li class=""><div class="d"><a href="./2026-11-09/">9 de novembro de 2026</a><small>Segunda-feira · n.º 017</small></div><p>Ataque em Cracóvia faz seis mortos e é investigado como terrorismo, a COP31 abre com divisões sobre o financiamento e a Bruna mantém o continente sob aviso, com nova depressão à vista na quarta-feira.<br>16 notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras</p></li><li class=""><div class="d"><a href="./2026-11-08/">8 de novembro de 2026</a><small>Domingo · n.º 016</small></div><p>Herzog dá a Eisenkot a primeira oportunidade de formar governo em Israel, a COP31 arranca amanhã em Antalya e a depressão Bruna traz uma semana de chuva ao continente.<br>16 notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras</p></li><li class=""><div class="d"><a href="./2026-11-07/">7 de novembro de 2026</a><small>Sábado · n.º 015</small></div><p>O Paraguai destitui o presidente após o colapso de um banco digital, Bruxelas acusa o TikTok de prender utilizadores em espirais de conteúdos nocivos e o Orçamento para 2027 bate o recorde de propostas de alteração.<br>16 notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras</p></li><li class=""><div class="d"><a href="./2026-11-06/">6 de novembro de 2026</a><small>Sexta-feira · n.º 014</small></div><p>Ataques à refrigeração de supermercados chegam a Portugal, a IA da OpenAI encontra centenas de falhas no Linux e as bolsas afundam com a venda de ações ligadas à inteligência artificial.<br>16 notícias · 4 artigos culturais · Agenda do Porto · Sudoku e caça-palavras</p></li><li class=""><div class="d"><a href="./2026-11-05/">5 de novembro de 2026</a><small>Quinta-feira</small></div><p>16 notícias · 4 artigos culturais · Agenda Porto · Sudoku e caça-palavras (formato anterior)</p></li><li class=""><div class="d"><a href="./2026-11-03/">3 de novembro de 2026</a><small>Terça-feira · n.º 012</small></div><p>16 notícias · 4 artigos culturais · Agenda Porto · Sudoku e caça-palavras (formato anterior)</p></li><li class=""><div class="d"><a href="./2026-11-02/">2 de novembro de 2026</a><small>Segunda-feira · n.º 011</small></div><p>24 notícias · Agenda Porto / Arouca · Labirinto e caça-palavras (formato anterior)</p></li><li class=""><div class="d"><a href="./2026-11-01/">1 de novembro de 2026</a><small>Domingo · n.º 010</small></div><p>24 notícias · Agenda Porto / Arouca · Labirinto e caça-palavras (formato anterior)</p></li><li class=""><div class="d"><a href="./2026-10-31/">31 de outubro de 2026</a><small>Sábado · n.º 009</small></div><p>24 notícias · Agenda Porto / Arouca · Labirinto e caça-palavras (formato anterior)</p></li><li class=""><div class="d"><a href="./2026-10-30/">30 de outubro de 2026</a><small>Sexta-feira · n.º 008</small></div><p>24 notícias · Agenda Porto / Arouca · Labirinto e caça-palavras (formato anterior)</p></li></ul></section>

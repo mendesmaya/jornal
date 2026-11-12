@@ -16,6 +16,15 @@ Fuso horário de referência: Europe/Lisbon. A data da edição é a data de Lis
 
 Notícias positivas integram-se naturalmente nas secções, sem rótulo nem categoria própria.
 
+## Formato desde a edição de 2026-11-12 (obrigatório; `construir.py` valida)
+Modelo de referência: `ferramentas/conteudo/2026-11-12.json` (substitui as edições anteriores como modelo).
+- **Manchete**: exatamente uma notícia com `"manchete": true` — a mais importante do dia, de qualquer secção. Aparece no topo, em destaque e com o texto completo; a secção dela mostra uma ligação para o topo. Continua a contar para as 18 e para a sua secção.
+- **`em_2_minutos`**: 5 a 6 entradas `{"texto": "...", "noticia": N}` com o essencial do dia, uma frase cada (máx. ~35 palavras), por ordem de importância. `N` é a posição (1–18) da notícia no array `noticias`; para remeter para outra parte usar `"ancora": "cultura"` / `"agenda"` / `"jogos"` em vez de `noticia`. Só factos que já estão nas notícias da edição, com o mesmo cuidado com estados (declaração ≠ facto).
+- **`acompanhar`** («O que acompanhar»): 3 a 4 entradas `{"quando": "Sexta, 13 nov.", "texto": "...", "noticia": N}` (ou `ancora`) sobre o que vem aí nos próximos dias: votações, lançamentos, cimeiras, greves, prazos, decisões esperadas. Só datas confirmadas nas fontes consultadas; usar «previsto», «não antes de», «se não houver adiamento» quando for o caso. `noticia`/`ancora` são opcionais.
+- **Imagens**: só são mostradas na manchete, na primeira notícia de cada secção (abertura: Cibersegurança 1.ª, Mundo 1.ª, Portugal 1.ª, Espaço 1.ª — sem contar a manchete) e nos 4 artigos de cultura. Nas outras notícias o campo `imagem` é opcional e ignorado. Escolher para as aberturas imagens fortes; preferir fotografias a logótipos. Logótipos e esquemas em SVG aparecem inteiros; para forçar, usar `"ajuste": "conter"` (ou `"cobrir"`) na imagem.
+- Na página, as notícias (exceto a manchete) e os artigos de cultura mostram o 1.º parágrafo e o resto em «Continuar a ler»: o 1.º parágrafo tem de funcionar sozinho (quem, o quê, quando, onde e o essencial).
+- Fontes e verificação aparecem recolhidas por baixo de cada notícia; o `estado` aparece por baixo do título, por isso deve ser curto (idealmente até ~20 palavras).
+
 Cada notícia (campo no JSON):
 - `titulo` informativo; `texto` com 2–4 parágrafos de contexto; `data` (AAAA-MM-DD) do acontecimento ou da informação.
 - `estado`: distinguir factos confirmados, declarações, propostas, previsões e anúncios. Nunca apresentar uma intenção como medida aplicada.
@@ -46,9 +55,9 @@ Variar temas: consultar `ferramentas/arquivo_temas.md` e acrescentar lá os tema
 
 ## Passo a passo
 1. `git clone` / `git pull` do repositório; verificar se a edição do dia já existe.
-2. Pesquisar e escrever `ferramentas/conteudo/AAAA-MM-DD.json` (ver a edição de 2026-11-06 como modelo; `numero` = número anterior + 1).
+2. Pesquisar e escrever `ferramentas/conteudo/AAAA-MM-DD.json` (modelo: a edição de 2026-11-12; `numero` = número anterior + 1), incluindo manchete, `em_2_minutos` e `acompanhar`.
 3. Gerar os jogos; `python3 ferramentas/construir.py AAAA-MM-DD` (valida contagens e atualiza `index.html` do arquivo).
-4. Testar a página (sem erros de JavaScript, jogos funcionais).
+4. Testar a página (sem erros de JavaScript, jogos funcionais, ligações de «Em 2 minutos» a apontar para as notícias certas, modo escuro legível).
 5. Commit e push para `main`.
 6. Esperar pela ação das imagens (~1–3 min), fazer `git pull` e confirmar em `AAAA-MM-DD/assets/creditos.json` que todas as imagens ficaram `ok`. Para cada `falhou`, escolher outra imagem do Commons, reconstruir e voltar a publicar.
 7. Confirmar que `https://mendesmaya.github.io/jornal/AAAA-MM-DD/` responde.
