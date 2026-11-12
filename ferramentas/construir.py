@@ -55,7 +55,7 @@ AVISO_IA = ("Feito com inteligência artificial (Claude), a partir de regras edi
 AVISO_IA_HTML = f'<p class="aviso-ia"><span aria-hidden="true">🤖</span> {AVISO_IA} <a href="../#correcoes">Correções</a></p>'
 BOTAO_TEMA = '<button type="button" class="tema" id="tema" aria-pressed="false">Modo escuro</button>'
 
-OG_IMG = URL_SITE + "og.png"
+OG_IMG = URL_SITE + "og-maiusculas.png"  # mudar o nome do ficheiro obriga o LinkedIn a ir buscar a imagem nova
 
 
 ICONES = (f'<link rel="icon" href="{URL_SITE}favicon.svg" type="image/svg+xml">'
