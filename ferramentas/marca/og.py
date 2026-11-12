@@ -58,6 +58,35 @@ def glifo(c):
     raise ValueError(c)
 
 
+def glifo_maius(c):
+    """Maiúsculas desenhadas à mão (altura das maiúsculas = 1)."""
+    if c == "O":
+        return [arco(0.48, 0.5, 0.45, 0.5, 95, 455)], 0.98
+    if c == "D":
+        return [[(0.06, 0.0), (0.06, 1.0)] + catmull([(0.06, 1.0), (0.48, 0.97), (0.82, 0.72), (0.82, 0.3), (0.48, 0.03), (0.06, 0.0)])[1:]], 0.9
+    if c == "I":
+        return [[(0.12, 1.0), (0.12, 0.0)]], 0.3
+    if c == "A":
+        return [[(0.0, 0.0), (0.42, 1.02), (0.86, 0.0)], [(0.17, 0.38), (0.68, 0.39)]], 0.88
+    if c == "E":
+        return [[(0.7, 1.0), (0.06, 1.0), (0.06, 0.0), (0.72, 0.0)], [(0.06, 0.52), (0.56, 0.53)]], 0.76
+    if c == "M":
+        return [[(0.03, 0.0), (0.09, 1.0), (0.5, 0.32), (0.91, 1.0), (0.97, 0.0)]], 1.04
+    if c == "P":
+        return [[(0.06, 0.0), (0.06, 1.0)] + catmull([(0.06, 1.0), (0.5, 0.99), (0.74, 0.78), (0.52, 0.5), (0.06, 0.49)])[1:]], 0.78
+    if c == "R":
+        return [[(0.06, 0.0), (0.06, 1.0)] + catmull([(0.06, 1.0), (0.5, 0.99), (0.74, 0.78), (0.52, 0.5), (0.06, 0.49)])[1:], [(0.36, 0.5), (0.78, 0.0)]], 0.82
+    if c == "S":
+        return [catmull([(0.74, 0.88), (0.44, 1.0), (0.12, 0.86), (0.18, 0.6), (0.55, 0.47), (0.8, 0.22), (0.48, 0.0), (0.05, 0.12)])], 0.84
+    if c == "T":
+        return [[(0.0, 1.0), (0.82, 1.01)], [(0.41, 1.0), (0.41, 0.0)]], 0.82
+    if c == "V":
+        return [[(0.0, 1.0), (0.43, 0.0), (0.86, 1.0)]], 0.86
+    if c == " ":
+        return [], 0.5
+    raise ValueError(c)
+
+
 def amostrar(pts, passo=0.04):
     out = [pts[0]]
     for a, b in zip(pts, pts[1:]):
@@ -84,8 +113,8 @@ def palavra_svg(texto, x0, base, esc, rng, largura_traco, espaco=0.12):
     """Devolve (paths, largura total em px)."""
     paths, x = [], x0
     for ch in texto:
-        tracos, w = glifo(ch)
-        rot = rng.uniform(-4, 4)
+        tracos, w = (glifo_maius(ch) if ch.isupper() or (ch == ' ' and texto.isupper()) else glifo(ch))
+        rot = rng.uniform(-3, 3) if texto.isupper() else rng.uniform(-4, 4)
         dy = rng.uniform(-0.05, 0.05)
         cx = x + w * esc / 2
         for tr in tracos:
@@ -169,6 +198,26 @@ def svg_variante(var, seed=7):
         p2, _ = palavra_svg("perspetiva", x0, 300 + esc * 1.75, esc, random.Random(seed + 3), esc * 0.14)
         el += p1 + p2
         sub = f'<text x="{x0 + 4}" y="{300 + esc * 1.75 + esc * 1.25:.0f}" font-family="Inter" font-weight="700" font-size="20" letter-spacing="5" fill="#161514">JORNAL DIÁRIO · PORTUGAL</text>'
+    if var == "C":
+        el = marca(250, 330, 74, rng)
+        x0 = 505
+        esc = min(118, (1135 - x0) / largura("PERSPETIVA", 1))
+        p1, _ = palavra_svg("O DIA EM", x0, 300, esc, random.Random(seed + 2), esc * 0.12, 0.16)
+        p2, _ = palavra_svg("PERSPETIVA", x0, 300 + esc * 1.45, esc, random.Random(seed + 3), esc * 0.12, 0.16)
+        el += p1 + p2
+        sub = f'<text x="{x0 + 4}" y="{300 + esc * 1.45 + esc * 0.85:.0f}" font-family="Inter" font-weight="700" font-size="20" letter-spacing="5" fill="#161514">JORNAL DIÁRIO · PORTUGAL</text>'
+    if var == "D":
+        el = []
+        e1 = 64
+        w1 = largura("O DIA EM", e1)
+        p1, _ = palavra_svg("O DIA EM", (W - w1) / 2, 128, e1, random.Random(seed + 4), e1 * 0.13, 0.18)
+        el += p1
+        el += marca(600, 300, 62, rng)
+        e2 = min(120, 960 / largura("PERSPETIVA", 1))
+        w2 = largura("PERSPETIVA", e2)
+        p2, _ = palavra_svg("PERSPETIVA", (W - w2) / 2, 520, e2, random.Random(seed + 5), e2 * 0.12, 0.16)
+        el += p2
+        sub = '<text x="600" y="584" text-anchor="middle" font-family="Inter" font-weight="700" font-size="19" letter-spacing="6" fill="#161514">JORNAL DIÁRIO · PORTUGAL</text>'
     corpo = "".join(el)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><defs>{filtro}</defs>'
             f'<rect width="{W}" height="{H}" fill="{PAPEL}"/><g filter="url(#tinta)">{corpo}{sub}</g>'
@@ -177,5 +226,5 @@ def svg_variante(var, seed=7):
 
 if __name__ == "__main__":
     out = Path(sys.argv[1])
-    for v in ("A", "B"):
+    for v in ("A", "B", "C", "D"):
         (out / f"og-{v}.svg").write_text(svg_variante(v))
