@@ -8,7 +8,7 @@ Fuso horário de referência: Europe/Lisbon. A data da edição é a data de Lis
 A tarefa agendada começa às 8h31 (Lisboa) para que a edição e o texto do LinkedIn estejam prontos por volta das 9h. A notificação final deve sair assim que a edição estiver publicada e as imagens confirmadas.
 
 ## Imagem de partilha
-`og-maiusculas.png` (raiz; `og.png` é a versão antiga) é a imagem que aparece quando se partilha uma ligação do jornal (LinkedIn, WhatsApp…). `construir.py` acrescenta as etiquetas Open Graph a todas as páginas. A fonte está em `ferramentas/marca/` (`og.py` gera as variantes em SVG, desenhadas à mão por código). O título no topo das páginas é `ferramentas/marca/titulo.svg` (as mesmas letras desenhadas à mão, sem fundo, na cor do texto, para funcionar no modo escuro). Não alterar sem pedido da dona do jornal.
+`og-maiusculas.png` (raiz; `og.png` é a versão antiga) é a imagem que aparece quando se partilha uma ligação do jornal (LinkedIn, WhatsApp…). `construir.py` acrescenta as etiquetas Open Graph a todas as páginas. A fonte está em `ferramentas/marca/` (`og.py` gera as variantes em SVG, desenhadas à mão por código). O sol (`ferramentas/marca/sol.svg`) e o título no topo das páginas (`ferramentas/marca/titulo.svg`), bem como as letras do menu (geradas por `og.py`, separadas por •), são desenhados à mão; o título é (as mesmas letras desenhadas à mão, sem fundo, na cor do texto, para funcionar no modo escuro). Não alterar sem pedido da dona do jornal.
 
 ## Regra prévia
 - Se `AAAA-MM-DD/index.html` já existir e o pedido for apenas publicá-lo, usar esse ficheiro. Não recriar nem reescrever; aplicar só as correções pedidas.

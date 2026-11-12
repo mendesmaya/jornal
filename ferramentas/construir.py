@@ -78,11 +78,35 @@ def og_html(titulo, descricao, url):
 
 
 def titulo_html(href):
-    """Título desenhado à mão (ferramentas/marca/titulo.svg); recorre ao texto se o ficheiro faltar."""
-    tp = BASE / "marca" / "titulo.svg"
+    """Sol e título desenhados à mão (ferramentas/marca/sol.svg e titulo.svg); recorre ao texto se faltarem."""
+    tp, sp = BASE / "marca" / "titulo.svg", BASE / "marca" / "sol.svg"
     if not tp.exists():
         return f'<a href="{href}">{NOME}</a>'
-    return f'<a href="{href}" class="titulo-desenhado">{tp.read_text().strip()}</a>'
+    sol = sp.read_text().strip() if sp.exists() else ""
+    return f'<a href="{href}" class="titulo-desenhado">{sol}{tp.read_text().strip()}</a>'
+
+
+def menu_desenhado(pagina):
+    """Troca o texto das ligações do menu por letras desenhadas à mão (ferramentas/marca/og.py).
+    O texto continua presente para leitores de ecrã; se algo falhar, fica o texto normal."""
+    try:
+        if str(BASE / "marca") not in sys.path:
+            sys.path.insert(0, str(BASE / "marca"))
+        import og
+    except Exception:
+        return pagina
+    i = pagina.find("<nav")
+    j = pagina.find("</nav>", i)
+    if i < 0 or j < 0:
+        return pagina
+
+    def sub(m):
+        t = m.group(1)
+        try:
+            return ">" + f'<span class="sr">{t}</span>' + og.rotulo_svg(html.unescape(t).upper()) + "<"
+        except Exception:
+            return m.group(0)
+    return pagina[:i] + re.sub(r">([^<>]+)<", sub, pagina[i:j]) + pagina[j:]
 
 
 CREDITOS = {}
@@ -504,6 +528,7 @@ def construir(data):
 <p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></footer></main>
 <a class="topo" href="#inicio" aria-label="Voltar ao topo">↑</a>
 <script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script><script>{UI_JS}</script></body></html>"""
+    pagina = menu_desenhado(pagina)
     (pasta / "index.html").write_text(pagina)
     (assets / "imagens.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
     atualizar_arquivo(data, c)
@@ -646,6 +671,7 @@ def construir_semanal(data, c, jogos, pasta, assets, manifest):
 <p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></footer></main>
 <a class="topo" href="#inicio" aria-label="Voltar ao topo">↑</a>
 <script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script><script>{UI_JS}</script></body></html>"""
+    pagina = menu_desenhado(pagina)
     (pasta / "index.html").write_text(pagina)
     (assets / "imagens.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
     atualizar_arquivo(data, c)
@@ -738,7 +764,7 @@ def atualizar_arquivo(data, c):
 <section class="newssection"><h2>Arquivo de edições</h2><p class="edition-count">{len(arq):02d} edições</p><ul class="arquivo-lista">{"".join(itens)}</ul></section>
 <section class="newssection" id="correcoes"><h2>Correções e atualizações</h2><p class="edition-count">erros detetados depois da publicação, do mais recente para o mais antigo</p>{lista_corr}</section>
 <footer><p><strong>Sobre este jornal:</strong> {AVISO_IA} Projeto pessoal, sem publicidade e sem fins comerciais.</p><p>Cada edição tem endereço permanente no formato {URL_SITE}AAAA-MM-DD/. As edições anteriores a 6 de novembro de 2026 mantêm o formato original.</p></footer></main></body></html>"""
-    (RAIZ / "index.html").write_text(pagina)
+    (RAIZ / "index.html").write_text(menu_desenhado(pagina))
 
 
 if __name__ == "__main__":

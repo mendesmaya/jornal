@@ -58,8 +58,24 @@ def glifo(c):
     raise ValueError(c)
 
 
+ACENTOS = {"Á": ("A", "agudo"), "É": ("E", "agudo"), "Í": ("I", "agudo"), "Ó": ("O", "agudo"), "Ú": ("U", "agudo"),
+           "Ã": ("A", "til"), "Õ": ("O", "til"), "Â": ("A", "circ"), "Ê": ("E", "circ"), "Ô": ("O", "circ"), "À": ("A", "grave")}
+
+
 def glifo_maius(c):
-    """Maiúsculas desenhadas à mão (altura das maiúsculas = 1)."""
+    """Maiúsculas desenhadas à mão (altura das maiúsculas = 1), com acentos."""
+    if c in ACENTOS:
+        base, ac = ACENTOS[c]
+        tr, w = glifo_maius(base)
+        m = w / 2
+        marca_ac = {"agudo": [(m - 0.08, 1.14), (m + 0.12, 1.32)], "grave": [(m - 0.12, 1.32), (m + 0.08, 1.14)],
+                    "circ": [(m - 0.16, 1.15), (m, 1.3), (m + 0.16, 1.15)],
+                    "til": catmull([(m - 0.24, 1.16), (m - 0.1, 1.28), (m + 0.1, 1.17), (m + 0.24, 1.29)])}[ac]
+        return tr + [marca_ac], w
+    if c == "X":
+        return [[(0.02, 1.0), (0.8, 0.0)], [(0.8, 1.0), (0.02, 0.0)]], 0.84
+    if c == "Z":
+        return [[(0.05, 1.0), (0.78, 1.0), (0.04, 0.0), (0.8, 0.0)]], 0.84
     if c == "O":
         return [arco(0.48, 0.5, 0.45, 0.5, 95, 455)], 0.98
     if c == "D":
@@ -82,6 +98,30 @@ def glifo_maius(c):
         return [[(0.0, 1.0), (0.82, 1.01)], [(0.41, 1.0), (0.41, 0.0)]], 0.82
     if c == "V":
         return [[(0.0, 1.0), (0.43, 0.0), (0.86, 1.0)]], 0.86
+    if c == "Q":
+        return [arco(0.48, 0.5, 0.45, 0.5, 95, 455), [(0.6, 0.24), (0.97, -0.1)]], 1.0
+    if c == "U":
+        return [catmull([(0.08, 1.0), (0.08, 0.4), (0.2, 0.07), (0.45, 0.0), (0.7, 0.07), (0.82, 0.4), (0.82, 1.0)])], 0.9
+    if c == "N":
+        return [[(0.06, 0.0), (0.07, 1.0), (0.8, 0.0), (0.81, 1.0)]], 0.88
+    if c in "CÇ":
+        tr = [arco(0.5, 0.5, 0.45, 0.5, 40, 320)]
+        if c == "Ç":
+            tr.append([(0.5, 0.0), (0.53, -0.12), (0.42, -0.22)])
+        return tr, 0.9
+    if c == "L":
+        return [[(0.07, 1.0), (0.06, 0.0), (0.68, 0.0)]], 0.7
+    if c == "G":
+        return [arco(0.5, 0.5, 0.45, 0.5, 40, 350) + [(0.6, 0.42)]], 0.98
+    if c == "B":
+        return [[(0.06, 0.0), (0.06, 1.0)] + catmull([(0.06, 1.0), (0.5, 0.98), (0.66, 0.78), (0.48, 0.54), (0.06, 0.52)])[1:],
+                catmull([(0.06, 0.52), (0.56, 0.5), (0.78, 0.26), (0.56, 0.02), (0.06, 0.0)])], 0.84
+    if c == "J":
+        return [catmull([(0.7, 1.0), (0.7, 0.3), (0.55, 0.02), (0.3, 0.0), (0.06, 0.2)])], 0.8
+    if c == "2":
+        return [catmull([(0.08, 0.76), (0.4, 1.0), (0.72, 0.85), (0.66, 0.55), (0.06, 0.0)]) + [(0.78, 0.0)]], 0.84
+    if c == ",":
+        return [[(0.1, 0.06), (0.03, -0.16)]], 0.2
     if c == " ":
         return [], 0.5
     raise ValueError(c)
@@ -113,7 +153,7 @@ def palavra_svg(texto, x0, base, esc, rng, largura_traco, espaco=0.12):
     """Devolve (paths, largura total em px)."""
     paths, x = [], x0
     for ch in texto:
-        tracos, w = (glifo_maius(ch) if ch.isupper() or (ch == ' ' and texto.isupper()) else glifo(ch))
+        tracos, w = (glifo_maius(ch) if texto.isupper() else glifo(ch))
         rot = rng.uniform(-3, 3) if texto.isupper() else rng.uniform(-4, 4)
         dy = rng.uniform(-0.05, 0.05)
         cx = x + w * esc / 2
@@ -263,3 +303,23 @@ def icone_svg(seed=11):
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {S} {S}"><rect width="{S}" height="{S}" rx="104" fill="{PAPEL}"/>'
             f'<defs><filter id="t"><feTurbulence type="fractalNoise" baseFrequency="0.6" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="6"/></filter></defs>'
             f'<g filter="url(#t)">{"".join(el)}</g></svg>')
+
+
+def rotulo_svg(texto, seed=21, traco=0.15):
+    """Etiqueta do menu desenhada à mão: altura fixa (maiúsculas + descendentes), cor do texto."""
+    esc = 100
+    p, w = palavra_svg(texto, 0, esc, esc, random.Random(seed + len(texto)), esc * traco, 0.16)
+    m = esc * traco
+    corpo = "".join(p).replace(f'stroke="{INK}"', 'stroke="currentColor"').replace(f'fill="{INK}"', 'fill="currentColor"')
+    y0, y1 = -40 - m, esc * 1.25 + m
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{-m:.0f} {y0:.0f} {w + 2 * m:.0f} {y1 - y0:.0f}" class="rotulo" aria-hidden="true">'
+            f'<g filter="url(#tinta-titulo)">{corpo}</g></svg>')
+
+
+def sol_svg(seed=7):
+    """Sol a nascer (marca) sem fundo, na cor do texto, para pôr por cima do título."""
+    rng = random.Random(seed)
+    el = marca(250, 200, 74, rng)
+    corpo = "".join(el).replace(f'stroke="{INK}"', 'stroke="currentColor"').replace(f'fill="{INK}"', 'fill="currentColor"')
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 60 480 230" class="sol" aria-hidden="true">'
+            f'<g filter="url(#tinta-titulo)">{corpo}</g></svg>')

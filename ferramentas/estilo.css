@@ -21,8 +21,12 @@ img{max-width:100%;display:block}
 .masthead a{text-decoration:none;color:inherit}
 .masthead .titulo-desenhado{display:block;padding:6px 0 2px}
 .masthead .titulo-desenhado svg{display:block;width:min(100%,860px);height:auto;margin:0 auto;overflow:visible}
+.masthead .titulo-desenhado svg.sol{width:clamp(110px,16vw,170px);margin:0 auto 6px}
+nav a{display:inline-flex;align-items:center}
+nav svg.rotulo{height:1.3em;width:auto;display:block;overflow:visible}
+nav a:not(:last-child)::after{content:"•";padding:0 .7em;font:400 1.25em/1 Georgia,serif;opacity:.75;position:relative;top:.06em}
 .deck{text-align:center;color:var(--muted);font:.86rem/1.5 Georgia,serif;margin:0 0 20px}
-nav{position:sticky;top:0;z-index:20;background:var(--paper);display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px;padding:11px 0;border-block:1px solid var(--ink);font:700 .8rem/1.3 Georgia,'Times New Roman',serif;text-transform:uppercase;letter-spacing:.06em}
+nav{position:sticky;top:0;z-index:20;background:var(--paper);display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 0;padding:10px 0;border-block:1px solid var(--ink);font:700 .8rem/1.3 Georgia,'Times New Roman',serif;text-transform:uppercase;letter-spacing:.06em}
 nav a{text-decoration:none;color:var(--ink)}
 nav a{white-space:nowrap}
 nav .curto{display:none}
@@ -290,7 +294,9 @@ footer{margin-top:35px;font:.74rem/1.6 Arial,sans-serif;color:var(--muted);borde
   .corpo p,.ev-desc,.game-note,.game-instructions,footer p{text-align:left;hyphens:manual;-webkit-hyphens:manual}
   .briefing{grid-template-columns:1fr}
   .briefing .b-col+.b-col{border-left:0;padding-left:0;margin-top:14px}
-  nav{gap:4px 13px;padding:8px 0;font-size:.7rem;letter-spacing:.05em}
+  nav{gap:4px 0;padding:8px 0;font-size:.7rem;letter-spacing:.05em}
+  nav svg.rotulo{height:1.45em}
+  nav a:not(:last-child)::after{padding:0 .4em}
   nav .longo{display:none}nav .curto{display:inline}
   .newssection,.card{scroll-margin-top:72px}
   .games{grid-template-columns:1fr}
