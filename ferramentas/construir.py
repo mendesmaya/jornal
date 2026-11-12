@@ -50,6 +50,9 @@ addEventListener('hashchange',abrir);abrir();
 addEventListener('beforeprint',function(){document.querySelectorAll('details').forEach(function(d){d.dataset.f=d.open?'':'1';d.open=true})});
 addEventListener('afterprint',function(){document.querySelectorAll('details[data-f]').forEach(function(d){if(d.dataset.f)d.open=false;delete d.dataset.f})});
 })();"""
+AVISO_IA = ("Feito com inteligência artificial (Claude), a partir de regras editoriais definidas e supervisionadas pela autora. "
+            "Pode conter erros: confirma sempre nas fontes indicadas em cada notícia.")
+AVISO_IA_HTML = f'<p class="aviso-ia"><span aria-hidden="true">🤖</span> {AVISO_IA} <a href="../#correcoes">Correções</a></p>'
 BOTAO_TEMA = '<button type="button" class="tema" id="tema" aria-pressed="false">Modo escuro</button>'
 
 CREDITOS = {}
@@ -181,6 +184,30 @@ def corpo_html(paras, visiveis=1, ficha=""):
     return f'<div class="corpo">{ficha}{vis}{mais}</div>'
 
 
+def correcoes(ate=None, dias=None):
+    """Lista de ferramentas/correcoes.json (mais recentes primeiro), opcionalmente só as dos `dias` anteriores a `ate`."""
+    cp = BASE / "correcoes.json"
+    lista = json.loads(cp.read_text()) if cp.exists() else []
+    if ate:
+        ini = (dt.date.fromisoformat(ate) - dt.timedelta(days=dias or 7)).isoformat()
+        lista = [x for x in lista if ini <= x["data"] <= ate]
+    return sorted(lista, key=lambda x: x["data"], reverse=True)
+
+
+def item_correcao(x, prefixo="../"):
+    ed = x.get("edicao", "")
+    lig = f' <a href="{prefixo}{e(ed)}/{e(x.get("ancora", ""))}">Ver na edição de {e(data_pt(ed, False))}</a>' if ed else ""
+    return f'<li><strong>{e(data_num(x["data"]))}</strong> · {e(x["texto"])}{lig}</li>'
+
+
+def caixa_correcoes(data):
+    lista = correcoes(data, 7)
+    if not lista:
+        return ""
+    return (f'<section class="correcoes-box" aria-label="Correções"><h2>Correções e atualizações</h2>'
+            f'<ul>{"".join(item_correcao(x) for x in lista)}</ul><p><a href="../#correcoes">Ver todas as correções</a></p></section>')
+
+
 def noticia(n, num, etiqueta, fig, nid, classe="", visiveis=1):
     meta = (f'<p class="meta"><span class="estado">{e(n["estado"])}</span> · '
             f'<time datetime="{e(n.get("data", ""))}">{e(data_num(n.get("data", "")))}</time></p>')
@@ -188,6 +215,8 @@ def noticia(n, num, etiqueta, fig, nid, classe="", visiveis=1):
     cab = f'<span class="tag">{tag}</span><h3>{e(n["titulo"])}</h3>{meta}'
     corpo = corpo_html(n["texto"], visiveis)
     pe = rodape(n["fontes"], n.get("verificacao"))
+    if n.get("correcao"):
+        pe = f'<p class="correcao"><strong>Correção:</strong> {e(n["correcao"])}</p>' + pe
     if fig and "manchete" in classe:
         return (f'<article class="card {classe}" id="{nid}">{cab}<div class="manchete-grelha"><div class="abertura-img">{fig}</div>'
                 f'<div class="abertura-txt">{corpo}{pe}</div></div></article>')
@@ -436,10 +465,12 @@ def construir(data):
 <div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {MESES[dia.month - 1][:3]} {dia.year}</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
 <h1 class="masthead"><a href="../">{NOME}</a></h1>
 <p class="deck">{e(data_pt(data).capitalize())} · {total_noticias} notícias e 4 artigos culturais · Agenda Porto · {e(descricao_jogos(jogos))}</p>
+{AVISO_IA_HTML}
 <nav aria-label="Secções"><a href="../">Arquivo</a>{nav_resumo}<a href="#tecnologia"><span class="longo">Tecnologia, IA e Cibersegurança</span><span class="curto">Digital</span></a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a>{nav_espaco}<a href="#cultura">Cultura</a><a href="#agenda"><span class="longo">Agenda Porto</span><span class="curto">Agenda</span></a><a href="#jogos">Jogos</a></nav>
-{resumo_linha}{briefing}<span id="manchete"></span>{manchete_html}
+{resumo_linha}{briefing}{caixa_correcoes(data)}<span id="manchete"></span>{manchete_html}
 {digital}{resto}{cultura}{agenda}{jogos_html}
 <footer><p>Cada notícia indica o estado da informação (facto confirmado, declaração, proposta, previsão ou anúncio), a data e as fontes consultadas. Procuramos confirmação em duas fontes independentes; quando só há uma, isso fica assinalado. Os textos são sínteses originais. As imagens têm autoria e licença identificadas; imagens de arquivo e ilustrativas estão marcadas como tal.</p>
+<p><strong>Sobre este jornal:</strong> {AVISO_IA} Projeto pessoal, sem publicidade e sem fins comerciais. Os erros detetados são corrigidos e registados na <a href="../#correcoes">lista de correções</a>.</p>
 <p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></footer></main>
 <a class="topo" href="#inicio" aria-label="Voltar ao topo">↑</a>
 <script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script><script>{UI_JS}</script></body></html>"""
@@ -577,9 +608,11 @@ def construir_semanal(data, c, jogos, pasta, assets, manifest):
 <h1 class="masthead"><a href="../">{NOME}</a></h1>
 <p class="kicker">A semana em perspetiva</p>
 <p class="deck">{e(data_pt(data).capitalize())} · resumo de {e(dia_curto(inicio))} a {e(dia_curto(ontem))} · {len(D)} notícias da semana · Agenda Porto · Quiz</p>
+{AVISO_IA_HTML}
 <nav aria-label="Secções"><a href="../">Arquivo</a><a href="#resumo"><span class="longo">A semana em 2 minutos</span><span class="curto">Resumo</span></a><a href="#semana"><span class="longo">Notícias da semana</span><span class="curto">Notícias</span></a><a href="#semana-que-vem"><span class="longo">A semana que vem</span><span class="curto">Próxima semana</span></a><a href="#cultura">Cultura</a><a href="#edicoes">Edições</a><a href="#agenda"><span class="longo">Agenda Porto</span><span class="curto">Agenda</span></a><a href="#jogos">Quiz</a></nav>
-{briefing}{semana}{cultura}{agenda}{jogos_html}
+{briefing}{caixa_correcoes(data)}{semana}{cultura}{agenda}{jogos_html}
 <footer><p>Edição de domingo: seleção editorial das notícias mais importantes e com mais cobertura e seguimento ao longo da semana, atualizadas com o que mudou desde então. Não usamos dados de comentários nem de audiências. Cada notícia indica o estado da informação, a data e as fontes consultadas; procuramos confirmação em duas fontes independentes e assinalamos quando só há uma. Os textos são sínteses originais.</p>
+<p><strong>Sobre este jornal:</strong> {AVISO_IA} Projeto pessoal, sem publicidade e sem fins comerciais. Os erros detetados são corrigidos e registados na <a href="../#correcoes">lista de correções</a>.</p>
 <p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></footer></main>
 <a class="topo" href="#inicio" aria-label="Voltar ao topo">↑</a>
 <script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script><script>{UI_JS}</script></body></html>"""
@@ -658,6 +691,9 @@ def atualizar_arquivo(data, c):
     arq.sort(key=lambda x: x["data"], reverse=True)
     arq_p.write_text(json.dumps(arq, ensure_ascii=False, indent=1))
     css = (BASE / "estilo.css").read_text()
+    corr = correcoes()
+    lista_corr = (f'<ul class="lista-correcoes">{"".join(item_correcao(x, "./") for x in corr)}</ul>' if corr
+                  else '<p class="game-note">Ainda não houve correções.</p>')
     itens = []
     for i, x in enumerate(arq):
         n = f" · n.º {e(x['numero'])}" if x.get("numero") else ""
@@ -667,9 +703,11 @@ def atualizar_arquivo(data, c):
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{NOME} · Arquivo</title>
 <style>{css}</style><script>{TEMA_JS}</script></head><body><main><div class="top"><span>Arquivo · {len(arq)} edições</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
 <h1 class="masthead">{NOME}</h1><p class="deck">Todas as edições, da mais recente para a mais antiga</p>
-<nav aria-label="Atalhos"><a href="./{arq[0]["data"]}/">Edição mais recente</a></nav>
+{AVISO_IA_HTML.replace('href="../#correcoes"', 'href="#correcoes"')}
+<nav aria-label="Atalhos"><a href="./{arq[0]["data"]}/">Edição mais recente</a><a href="#correcoes">Correções</a></nav>
 <section class="newssection"><h2>Arquivo de edições</h2><p class="edition-count">{len(arq):02d} edições</p><ul class="arquivo-lista">{"".join(itens)}</ul></section>
-<footer><p>Cada edição tem endereço permanente no formato {URL_SITE}AAAA-MM-DD/. As edições anteriores a 6 de novembro de 2026 mantêm o formato original.</p></footer></main></body></html>"""
+<section class="newssection" id="correcoes"><h2>Correções e atualizações</h2><p class="edition-count">erros detetados depois da publicação, do mais recente para o mais antigo</p>{lista_corr}</section>
+<footer><p><strong>Sobre este jornal:</strong> {AVISO_IA} Projeto pessoal, sem publicidade e sem fins comerciais.</p><p>Cada edição tem endereço permanente no formato {URL_SITE}AAAA-MM-DD/. As edições anteriores a 6 de novembro de 2026 mantêm o formato original.</p></footer></main></body></html>"""
     (RAIZ / "index.html").write_text(pagina)
 
 
