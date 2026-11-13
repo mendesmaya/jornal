@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-jensen-huang-at-computex-taipei-20160531a.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jensen_Huang_at_Computex_Taipei_20160531a.jpg?width=1000",
+  "commons": "Jensen Huang at Computex Taipei 20160531a.jpg",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-cern-datacenter.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cern_datacenter.jpg?width=1000",
+  "commons": "Cern datacenter.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-press-conference-of-volodymyr-zelensky-and-ursula-von-der-le.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Press_conference_of_Volodymyr_Zelensky_and_Ursula_von_der_Leyen_at_the_EC_-_2025_%281%29.jpg?width=1000",
+  "commons": "Press conference of Volodymyr Zelensky and Ursula von der Leyen at the EC - 2025 (1).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-pal-cio-de-bel-m-lisboa-portugal-5284651931.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pal%C3%A1cio_de_Bel%C3%A9m_-_Lisboa_-_Portugal_%285284651931%29.jpg?width=1000",
+  "commons": "Palácio de Belém - Lisboa - Portugal (5284651931).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-spacex-starship-ignition-during-ift-5.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SpaceX_Starship_ignition_during_IFT-5.jpg?width=1000",
+  "commons": "SpaceX Starship ignition during IFT-5.jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-johnny-depp-festival-de-cannes-2023.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny_Depp_Festival_de_Cannes_2023.jpg?width=1000",
+  "commons": "Johnny Depp Festival de Cannes 2023.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-valentino-cropped.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentino_%28cropped%29.jpg?width=1000",
+  "commons": "Valentino (cropped).jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-tartan-ribbon.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tartan_Ribbon.jpg?width=1000",
+  "commons": "Tartan Ribbon.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-centro-cultural-de-bel-m-lisboa-01.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Centro_Cultural_de_Bel%C3%A9m%2C_Lisboa_01.jpg?width=1000",
+  "commons": "Centro Cultural de Belém, Lisboa 01.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

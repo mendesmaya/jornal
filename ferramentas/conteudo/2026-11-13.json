@@ -1,0 +1,1081 @@
+{
+ "data": "2026-11-13",
+ "numero": "021",
+ "resumo": "Jensen Huang deixa a liderança da Nvidia, os enviados dos EUA levam a Europa para as negociações sobre a Ucrânia e o Presidente da República recebe as acampadas pela habitação.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Atacantes usam novas falhas do N-central para instalar mineradores em 21 servidores, 19 deles já com a correção de emergência",
+   "estado": "Exploração relatada por empresas de segurança · N-able confirma nova divulgação e restringe funções; número de vítimas provisório",
+   "data": "2026-11-13",
+   "texto": [
+    "Pelo menos 21 servidores do N-central, a plataforma da norte-americana N-able usada por empresas de serviços informáticos para gerir à distância os computadores dos seus clientes, foram comprometidos para minerar a criptomoeda Monero, segundo a empresa de segurança Huntback, citada pela The Hacker News na sexta-feira, 13 de novembro. Dezanove desses servidores já tinham instalada a correção de emergência lançada a 10 de novembro, o que mostra que ela não basta. Os casos concentram-se nos EUA, África do Sul, Canadá, Reino Unido, Alemanha, França e Suécia.",
+    "É o capítulo mais recente de uma semana atribulada. No domingo, 8 de novembro, o investigador independente Sean Bales publicou sem aviso prévio 33 exploits para o N-central, o que levou a N-able a desligar a versão alojada na nuvem em todo o mundo e a pedir aos clientes com servidores próprios que os desligassem. Depois da correção, o mesmo investigador divulgou na noite de 11 de novembro duas novas cadeias de ataque: uma dá controlo total (root) do servidor sem credenciais; a outra, segundo o autor, permite executar comandos com privilégios máximos nos computadores Windows geridos, desde que o atacante conheça o identificador do equipamento. A empresa Previdian registou tentativas de ataque poucas horas depois, a partir de um único endereço IP.",
+    "A N-able diz que a nova falha do servidor só funciona se uma interface antiga, a «Legacy API», estiver ativa e exposta à internet — está desligada por defeito — e que os ambientes alojados não são afetados. Ainda assim, anunciou na quinta-feira que vai restringir algumas funções e integrações e exige a atualização de agentes e sondas. A Huntress, que acompanha o caso, recomenda confirmar que a interface antiga está desligada, procurar contas de administrador e tarefas desconhecidas e tratar qualquer sinal como intrusão completa, porque quem controla o servidor pode chegar a todos os clientes geridos. É a quarta resposta de emergência da N-able em cerca de 15 meses."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Cronologia, natureza das falhas e posição da N-able confirmadas pela The Hacker News, pela Huntress e pela CSO Online. O número de 21 servidores comprometidos (19 com a correção) vem apenas da Huntback, citada pela The Hacker News (o relatório original não foi consultado); a Huntress diz não ter observado exploração nos seus clientes. As falhas não foram todas verificadas de forma independente."
+   },
+   "fontes": [
+    {
+     "nome": "The Hacker News (13 nov.)",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html"
+    },
+    {
+     "nome": "The Hacker News (12 nov.)",
+     "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
+    },
+    {
+     "nome": "Huntress (atualizado a 12 nov.)",
+     "url": "https://www.huntress.com/blog/n-able-disables-cloud-services-following-disclosure-of-able2shell-exploit-chains"
+    },
+    {
+     "nome": "CSO Online",
+     "url": "https://www.csoonline.com/article/4247028/n-able-n-central-gets-emergency-fix-two-days-after-33-exploits-published.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Cern datacenter.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Corredor entre filas de servidores num centro de dados",
+    "legenda": "Centro de dados do CERN; não mostra sistemas afetados pelo ataque (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Operação Endgame: polícias de nove países derrubam 235 servidores de programas usados para preparar ataques de ransomware",
+   "estado": "Facto confirmado (operação anunciada pela Europol) · sem detenções anunciadas; datas exatas das ações não divulgadas",
+   "data": "2026-11-12",
+   "texto": [
+    "Polícias de nove países, com o apoio da Europol e da Eurojust, desmantelaram a infraestrutura de três famílias de programas maliciosos — CastleRAT, Gootloader e StealC — muito usadas para abrir caminho a ataques de ransomware, anunciou a Europol na quinta-feira, 12 de novembro. No total foram apreendidos ou desligados 235 servidores e 257 domínios de internet, e identificadas credenciais roubadas de cerca de 6,4 milhões de vítimas. Participaram Bulgária, Canadá, Dinamarca, Alemanha, Moldávia, Países Baixos, Polónia, Reino Unido e EUA.",
+    "É mais uma fase da Operação Endgame, que a Europol descreve como o maior esforço internacional contra os «facilitadores» do ransomware: os programas que dão aos criminosos o primeiro acesso aos computadores das vítimas. O CastleRAT, que permite controlar máquinas à distância, perdeu 120 servidores e 39 domínios. O Gootloader, que se espalha através de falsos documentos jurídicos em sites WordPress pirateados, perdeu 14 servidores e 218 domínios, e 681 sites infetados foram limpos. O StealC, que rouba palavras-passe, perdeu 102 servidores, depois de outra ação contra ele em junho.",
+    "Não foram anunciadas detenções. Os dados das vítimas vão ser usados para as avisar através de serviços como o Have I Been Pwned, a Shadowserver e o centro de cibersegurança neerlandês. As autoridades aconselham, sobretudo a quem gere sites WordPress, a mudar palavras-passe, ativar a autenticação em dois passos, remover contas desconhecidas e manter os sistemas atualizados, porque derrubar servidores atrasa os criminosos mas não os impede de reconstruir as redes."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Números e participantes confirmados pela CyberScoop e pela Cyber Security News, ambas com base no anúncio da Europol (não consultado diretamente). As contagens por família somam 236 servidores, mais um do que o total anunciado; a discrepância vem da fonte original."
+   },
+   "fontes": [
+    {
+     "nome": "CyberScoop (12 nov.)",
+     "url": "https://cyberscoop.com/operation-endgame-malware-takedown-gootloader-stealc-europol/"
+    },
+    {
+     "nome": "Cyber Security News (12 nov.)",
+     "url": "https://cybersecuritynews.com/malware-infrastructure-disrupted/"
+    }
+   ],
+   "imagem": {
+    "commons": "Europol building, The Hague, the Netherlands - 931.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício-sede da Europol na Haia",
+    "legenda": "Sede da Europol, na Haia (Países Baixos); não mostra a operação (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Falha crítica no Apache, um dos servidores web mais usados do mundo, pode permitir tomar o controlo de sites; correção já disponível",
+   "estado": "Facto confirmado (aviso da Apache e da Red Hat) · sem ataques conhecidos; várias distribuições Linux ainda sem correção",
+   "data": "2026-11-11",
+   "texto": [
+    "A Apache Software Foundation corrigiu na quarta-feira, 11 de novembro, uma vulnerabilidade crítica no Apache HTTP Server, um dos programas mais usados para servir páginas web. A falha, CVE-2026-119618, está no módulo que trata o protocolo HTTP/2 e afeta as versões 2.4.55 a 2.4.70: dois processos internos escrevem na mesma zona de memória sem coordenação, o que pode corromper a memória e, em teoria, permitir a um atacante remoto, sem credenciais, executar código no servidor. A Red Hat atribui-lhe 9,8 em 10. A correção está na versão 2.4.71.",
+    "A falha foi comunicada primeiro, a 26 de outubro, pelo OSS Scanner, uma ferramenta de IA da Anthropic que procura vulnerabilidades em software livre, e depois, a 3 de novembro, por dois investigadores da Google. Até agora não há registo de ataques. A Red Hat afirma que uma investigação pública demonstrou um ataque fiável contra uma configuração padrão, mas não a identificou; uma prova de conceito divulgada a 12 de novembro reproduz a corrupção de memória, mas não mostra a execução de código.",
+    "Só estão expostos os servidores com HTTP/2 ativo. O problema imediato é a diferença de ritmos: segundo a Cloud Security Alliance, a 12 de novembro algumas versões do Debian ainda constavam como vulneráveis, a Red Hat não tinha publicado pacotes corrigidos para o RHEL 9 e 10 e a Ubuntu não tinha aviso. Enquanto não houver atualização, a alternativa temporária é desligar o HTTP/2 na configuração, aceitando alguma perda de desempenho."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Versões afetadas, cronologia e estado da exploração confirmados pela The Hacker News, pela Horizon3.ai e pela Cloud Security Alliance, com base nos avisos da Apache e da Red Hat (não consultados diretamente). A alegação da Red Hat sobre um ataque fiável não foi confirmada por nenhuma das fontes."
+   },
+   "fontes": [
+    {
+     "nome": "The Hacker News (12 nov.)",
+     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+    },
+    {
+     "nome": "Cloud Security Alliance (12 nov.)",
+     "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-apache-mod-http2-cve-2026-119618-20261112/"
+    },
+    {
+     "nome": "Horizon3.ai",
+     "url": "https://horizon3.ai/attack-research/vulnerabilities/cve-2026-119618/"
+    }
+   ],
+   "imagem": {
+    "commons": "Apache Feather Logo.svg",
+    "tipo": "ilustrativa",
+    "alt": "Pena colorida, logótipo da Apache Software Foundation",
+    "legenda": "Logótipo da Apache Software Foundation, responsável pelo servidor web afetado (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Alemã Helsing apresenta Clarity, sistema militar com centenas de agentes de IA que propõe alvos; empresa garante que a decisão é sempre humana",
+   "estado": "Anúncio da empresa · sem clientes nem data de entrada em serviço divulgados; sem testes independentes de precisão",
+   "data": "2026-11-11",
+   "texto": [
+    "A empresa alemã de tecnologia de defesa Helsing apresentou na quarta-feira, 11 de novembro, em Berlim, o Clarity, uma plataforma em que centenas de agentes de inteligência artificial trabalham em paralelo para analisar informação do campo de batalha — imagens de drones e satélites, sensores, interceções de comunicações, relatórios militares e fontes abertas. O sistema identifica forças, instalações e posições inimigas, propõe possíveis alvos com as provas que os sustentam e prepara os dados para serem enviados a um sistema de armas.",
+    "A Helsing sublinha que é sempre um humano a escolher o alvo e a autorizar cada passagem para uma arma, que só recomenda alvos quando várias fontes independentes concordam e que cada decisão fica registada com o nome do responsável. O sistema corre na infraestrutura do próprio cliente, com modelos desenvolvidos na Europa, e segue normas da NATO. A empresa apresenta-o como alternativa europeia ao Maven, da norte-americana Palantir, usado pelo Pentágono e pela NATO. Não disse se algum exército já o usa, nem quando estará operacional, e não publicou testes independentes sobre a taxa de erros.",
+    "O anúncio reacende o debate sobre o controlo humano na guerra com IA. Análises citadas pela The Decoder lembram que a velocidade da automação pode reduzir a revisão humana a segundos: investigações jornalísticas relataram, por exemplo, verificações de cerca de 20 segundos por alvo no sistema israelita Lavender. A Helsing, que já fornece drones à Ucrânia, é uma das empresas que mais beneficiam do reforço europeu da despesa militar."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Funcionamento e garantias anunciadas confirmados pela The Decoder e pela Poland Insight (esta citando a Reuters). Todas as capacidades são afirmações da Helsing; não há avaliação independente. As críticas sobre outros sistemas militares vêm da análise da The Decoder."
+   },
+   "fontes": [
+    {
+     "nome": "The Decoder (11 nov.)",
+     "url": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/"
+    },
+    {
+     "nome": "Poland Insight (11 nov.)",
+     "url": "https://polandinsight.com/helsing-clarity-ai-agents-battlefield-data-97008/"
+    }
+   ],
+   "imagem": {
+    "commons": "HX-2 Image.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Drone de ataque HX-2 da Helsing",
+    "legenda": "Drone HX-2, da Helsing; não mostra o sistema Clarity (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "TSMC vai investir até mil milhões de dólares na Anthropic e na OpenAI, as duas rivais da IA que são também suas clientes",
+   "estado": "Facto confirmado (decisão do conselho de administração comunicada ao regulador dos EUA) · investimento na Anthropic depende da entrada em bolsa",
+   "data": "2026-11-10",
+   "texto": [
+    "O conselho de administração da TSMC, a maior fabricante de chips por encomenda do mundo, aprovou na terça-feira, 10 de novembro, em Hsinchu (Taiwan), investimentos até 1000 milhões de dólares nas duas principais empresas norte-americanas de inteligência artificial: até 500 milhões em ações ordinárias da Anthropic, ao preço da sua oferta pública inicial, e até 500 milhões em ações preferenciais da OpenAI. A decisão consta de um comunicado enviado pela empresa ao regulador da bolsa dos EUA.",
+    "O investimento chega dias antes da estreia da Anthropic em bolsa: a empresa fixou o preço entre 70 e 78 dólares por ação e procura uma avaliação até 1,4 biliões de dólares. As duas tecnológicas estão a desenvolver chips próprios, que precisam de fábricas como as da TSMC, que também fabrica os processadores da Apple. Analistas citados pela imprensa alertam para o financiamento «circular» no setor, em que fornecedores investem nos clientes que lhes compram, o que torna mais difícil medir a procura real.",
+    "Na mesma reunião, a TSMC aprovou cerca de 40,9 mil milhões de dólares para expandir a capacidade de produção, criou uma sociedade com até 500 milhões para investir noutras empresas de semicondutores e anunciou um dividendo de 9 dólares taiwaneses por ação. No terceiro trimestre, teve um lucro de 763 mil milhões de dólares taiwaneses. As ações subiram mais de 4% na quarta-feira, também impulsionadas por vendas de outubro 60% acima das do ano anterior."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Montantes e condições confirmados no comunicado da TSMC à SEC (formulário 6-K) e pela Investing.com e MacRumors. A referência ao financiamento circular vem de analistas citados pela Ars Technica (com base na Reuters), segundo o resumo da AI Weekly; o artigo original não foi consultado."
+   },
+   "fontes": [
+    {
+     "nome": "TSMC – comunicado à SEC (6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000797/tsm-boardx202611xx.htm"
+    },
+    {
+     "nome": "Investing.com (11 nov.)",
+     "url": "https://www.investing.com/news/stock-market-news/tsmc-board-approves-1-bln--investment-in-anthropic-openai-shares-rise-93CH-5017730"
+    },
+    {
+     "nome": "MacRumors (11 nov.)",
+     "url": "https://www.macrumors.com/2026/11/11/tsmc-approves-ai-investment/"
+    }
+   ],
+   "imagem": {
+    "commons": "Tsmc factory hsinchu.JPG",
+    "tipo": "arquivo",
+    "alt": "Fábrica da TSMC em Hsinchu, Taiwan",
+    "legenda": "Fábrica da TSMC em Hsinchu, Taiwan (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "OpenAI deixa empresas criar perfis verificados e agentes de vendas dentro do ChatGPT",
+   "estado": "Anúncio da OpenAI · funcionalidade em fase beta; agentes só para empresas dos EUA; gratuito por agora",
+   "data": "2026-11-10",
+   "texto": [
+    "A OpenAI lançou na terça-feira, 10 de novembro, em fase de testes, o «Businesses in ChatGPT», que permite às empresas reclamar e verificar o seu perfil no assistente — com um visto azul — e atualizar informação como preços e stock. Passam também a ver quantas vezes o ChatGPT as menciona, quantos utilizadores seguem para os seus sites e que temas surgem nessas conversas. A OpenAI garante que não partilha com as empresas as conversas dos utilizadores.",
+    "A novidade mais ambiciosa são os «Business Agents»: lojas online e serviços digitais elegíveis dos EUA podem publicar um agente de IA próprio que responde a perguntas de clientes sobre produtos e condições. Quando a marca aparece numa resposta, o utilizador pode abrir o perfil e falar com esse agente, numa conversa assinalada e separada das respostas do ChatGPT. Os agentes têm de dizer que são IA, manter preços corretos e não pressionar, e compras ou partilha de dados pessoais exigem autorização expressa. Por agora as compras são feitas no site da marca; a OpenAI está a preparar pagamentos com a Visa.",
+    "Reclamar o perfil e criar o agente é gratuito no lançamento, mas a OpenAI não exclui cobrar no futuro. As empresas podem ainda usar o agente como destino de anúncios no ChatGPT, um formato em teste limitado. A OpenAI afirma que pagar ou verificar o perfil não melhora a posição nas recomendações do assistente — uma promessa que será posta à prova à medida que o ChatGPT, usado por cerca de 1200 milhões de pessoas por semana, se torna também uma montra comercial."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Funcionalidades, condições e garantias confirmadas pela The Next Web e pela VentureBeat, com base no anúncio da OpenAI (a página oficial não abriu). A gratuidade foi referida por um responsável da OpenAI à Digiday, citado pela VentureBeat."
+   },
+   "fontes": [
+    {
+     "nome": "The Next Web (10 nov.)",
+     "url": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents"
+    },
+    {
+     "nome": "VentureBeat (10 nov.)",
+     "url": "https://venturebeat.com/technology/openai-lets-you-claim-your-business-in-chatgpt-and-set-up-a-custom-agentic-ai-customer-sales-rep"
+    }
+   ],
+   "imagem": {
+    "commons": "Smartphone with ChatGPT app (52917381673).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Telemóvel com a aplicação ChatGPT aberta no ecrã",
+    "legenda": "Telemóvel com a aplicação ChatGPT (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Jensen Huang demite-se da liderança da Nvidia depois de dias de escândalo; diretora financeira Colette Kress assume interinamente",
+   "estado": "Facto confirmado (comunicado da Nvidia à SEC) · empresa não deu razões; sucessor definitivo ainda por escolher",
+   "data": "2026-11-12",
+   "texto": [
+    "Jensen Huang, cofundador da Nvidia e presidente executivo da empresa desde 1993, demitiu-se na quinta-feira, 12 de novembro, dos cargos de presidente executivo, de presidente da empresa e de membro do conselho de administração, com efeitos imediatos. Segundo o comunicado entregue ao regulador dos mercados dos EUA (SEC), a diretora financeira, Colette Kress, passa a liderar a fabricante de chips de forma interina, mantendo as funções financeiras, enquanto o conselho procura um sucessor dentro e fora da empresa. A Nvidia, que domina o mercado dos processadores usados para treinar inteligência artificial, nomeou também pela primeira vez um presidente do conselho, Harvey Jones, antigo líder da Synopsys e administrador desde 1993.",
+    "O comunicado não apresenta motivos. A saída surge ao fim de uma semana de pressão: no domingo, Huang admitiu ter sido infiel à mulher e pediu desculpa à família e aos trabalhadores, e o conselho abriu uma investigação independente a notícias de que teria sido alvo de serviços de informações estrangeiros, através de uma relação com uma antiga responsável da Megaspeed, empresa de Singapura que as autoridades norte-americanas suspeitam de ter desviado chips da Nvidia para a China (a Megaspeed e Pequim negam). O conselho afirmou não ter razões para crer que a segurança nacional ou segredos da empresa tenham sido comprometidos. Na quarta-feira, o New York Times noticiou ainda uma relação com uma vice-presidente da Nvidia que respondia diretamente a Huang.",
+    "Segundo a Al Jazeera, as ações da Nvidia chegaram a cair mais de 14% durante a sessão de quinta-feira, recuperando depois parte das perdas. Em Washington, o caso ganhou dimensão política: o líder da maioria no Senado, John Thune, apoia uma investigação, e três presidentes de comissões da Câmara dos Representantes pediram para ouvir Huang à porta fechada a 1 de dezembro, ameaçando com intimações se ele recusar, segundo a Roll Call. O presidente Donald Trump defendeu o empresário e sugeriu Tim Cook, antigo líder da Apple, para o lugar. A Nvidia apresenta os resultados trimestrais na terça-feira, 17 de novembro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Demissão, cargo interino de Kress, nomeação de Harvey Jones e data dos resultados confirmados no comunicado oficial (formulário 8-K) e na Fortune e Al Jazeera. A queda máxima de mais de 14% vem só da Al Jazeera (a Fortune refere uma queda inicial de mais de 6%); o valor de fecho não foi confirmado. Os pedidos de audição no Congresso vêm da Roll Call. As alegações de espionagem não estão provadas; não há indicação de que Huang tenha ajudado Pequim conscientemente."
+   },
+   "fontes": [
+    {
+     "nome": "Nvidia – comunicado à SEC (8-K, 12 nov.)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+     "nome": "Al Jazeera (12 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
+    },
+    {
+     "nome": "Fortune",
+     "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/"
+    },
+    {
+     "nome": "Roll Call (12 nov.)",
+     "url": "https://rollcall.com/2026/11/12/calls-for-nvidia-probes-new-chip-export-limits-intensify/"
+    }
+   ],
+   "imagem": {
+    "commons": "Jensen Huang at Computex Taipei 20160531a.jpg",
+    "tipo": "arquivo",
+    "alt": "Jensen Huang, de casaco de cabedal, a discursar num palco da feira Computex",
+    "legenda": "Jensen Huang na Computex, em Taipé, em 2016 (imagem de arquivo)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Washington aperta o cerco aos chips de IA: regra em preparação exige licença em sete países e Congresso quer controlos na lei de defesa",
+   "estado": "Regra em preparação (relatos de imprensa, não publicada) · propostas legislativas em negociação no Congresso; nada aprovado",
+   "data": "2026-11-12",
+   "texto": [
+    "O Departamento do Comércio dos EUA está a finalizar regras que obrigariam empresas de sete países — Brasil, Indonésia, Malásia, Noruega, Singapura, África do Sul e Tailândia — a obter licença do Governo norte-americano antes de receberem os processadores de inteligência artificial da Nvidia da geração Blackwell ou mais avançados, segundo informações publicadas esta semana pelo The Information e retomadas pelo Dataconomy e pelo Gizmodo a 12 de novembro. Os importadores teriam de indicar o destino e o uso de cada chip, e ficaria proibido vender capacidade de computação remota a clientes na China ou na Rússia. Os centros de dados operados por empresas dos EUA nesses países poderiam ficar isentos de licença, mas teriam de declarar quem são os clientes.",
+    "O objetivo é fechar a chamada «porta lateral» do acesso remoto: empresas chinesas que, sem poderem comprar diretamente os chips mais avançados, os alugam a fornecedores de nuvem noutros países. Segundo a Reuters, citada pelo Gizmodo, várias empresas chinesas de IA estão a correr para reservar essa capacidade antes de as regras entrarem em vigor. O caso que acelerou o processo é o da Megaspeed, de Singapura, investigada pelos EUA e por Singapura por alegadamente ter feito chegar a clientes chineses até 2 mil milhões de dólares em processadores da Nvidia — acusação que a empresa nega. As regras poderão ficar fechadas até ao fim de novembro; a Nvidia tem feito pressão contra elas.",
+    "No Congresso, a demissão de Jensen Huang deu novo fôlego a três propostas de controlo de exportações, incluindo a Lei de Segurança dos Chips, que obrigaria a verificar a localização dos processadores avançados para detetar contrabando. Segundo a Roll Call, versões das três constam de uma emenda à lei de orçamento da defesa no Senado, mas não da versão da Câmara dos Representantes. A MIT Technology Review revelou que representantes da Nvidia garantiram em privado a um dos autores, o congressista democrata Bill Foster, que o rastreio era tecnicamente possível — apesar de a associação do setor, de que a Nvidia faz parte, o ter considerado publicamente «potencialmente inviável». A Nvidia não comentou."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Os pormenores da regra vêm de uma notícia do The Information (não consultada diretamente), relatada pelo Dataconomy e pelo Gizmodo; o prazo de fim de novembro vem só do Dataconomy. A corrida das empresas chinesas vem da Reuters, citada pelo Gizmodo. A situação das propostas no Congresso vem da Roll Call; a posição privada da Nvidia é o relato de Bill Foster à MIT Technology Review, que a Nvidia não confirmou."
+   },
+   "fontes": [
+    {
+     "nome": "Dataconomy (12 nov.)",
+     "url": "https://dataconomy.com/2026/11/12/us-moves-to-tighten-nvidia-chip-controls-across-seven/"
+    },
+    {
+     "nome": "Gizmodo (12 nov.)",
+     "url": "https://gizmodo.com/china-is-racing-to-exploit-an-nvidia-loophole-before-the-trump-admin-slams-it-shut-2000839012"
+    },
+    {
+     "nome": "Roll Call (12 nov.)",
+     "url": "https://rollcall.com/2026/11/12/calls-for-nvidia-probes-new-chip-export-limits-intensify/"
+    },
+    {
+     "nome": "MIT Technology Review (12 nov.)",
+     "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+    }
+   ],
+   "imagem": {
+    "commons": "Herbert C. Hoover Building.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício Herbert C. Hoover, sede do Departamento do Comércio dos EUA, em Washington",
+    "legenda": "Sede do Departamento do Comércio dos EUA, em Washington (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Depois de Putin, enviados dos EUA encontram Zelensky em Dublin e anunciam que a Europa vai sentar-se à mesa na próxima ronda de negociações",
+   "estado": "Declarações (Kushner, Witkoff, Zelensky) · Kremlin não confirmou presença europeia; data e local da próxima ronda por anunciar",
+   "data": "2026-11-12",
+   "texto": [
+    "Os enviados norte-americanos Jared Kushner e Steve Witkoff reuniram-se na quinta-feira, 12 de novembro, com Vladimir Putin em Moscovo e, ao fim do dia, com Volodymyr Zelensky na base aérea de Casement, a oeste de Dublin. No final do encontro na Irlanda, os dois enviados e o presidente ucraniano anunciaram que representantes europeus vão participar na próxima ronda de negociações para pôr fim à guerra, ao contrário do que aconteceu nas conversações a três (EUA, Rússia e Ucrânia) de Abu Dhabi. Kushner disse ter insistido junto de Putin na presença dos europeus e que o líder russo está disposto a experimentar, mas Moscovo não confirmou oficialmente.",
+    "Segundo Kushner, a entrada dos europeus permitirá discutir, além das questões territoriais, os acordos de segurança europeus para o pós-guerra; o enviado afirmou que não é possível fechar um acordo sem eles. Zelensky saudou a decisão, disse que a Europa passará a ter «voz» e que a próxima ronda terá uma agenda sobre desanuviamento e formas de cessar-fogo. Do lado russo, o conselheiro presidencial Yuri Ushakov afirmou que os europeus tentam por todos os meios entrar nas negociações e que têm de decidir se querem a paz ou a continuação da guerra. Segundo a Euronews e a BBC, Putin deu a entender que a posição russa não mudou: Moscovo mantém as exigências territoriais e rejeita tropas estrangeiras de manutenção de paz na Ucrânia.",
+    "Zelensky estava na capital irlandesa para a cimeira da Comunidade Política Europeia, que reuniu mais de 40 países. Continua por fixar a data da grande troca de prisioneiros acordada em princípio em Abu Dhabi, que poderá ser a maior desde a invasão de 2022: nas conversações falou-se em 1000 a 1500 prisioneiros de cada lado, mas o número final e o calendário não foram divulgados. Também não foram anunciados a data nem o local da próxima ronda."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Encontro de Dublin, anúncio da participação europeia e declarações de Kushner e Zelensky confirmados pela Euronews, pelo Kyiv Post e por uma reprodução de texto da BBC (Nile Post). A citação de Ushakov e a recusa de forças de manutenção de paz constam da Euronews. A cimeira da Comunidade Política Europeia em Dublin é referida pela Al Jazeera. Duração e conteúdo detalhado do encontro com Putin não foram divulgados oficialmente."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews (13 nov.)",
+     "url": "https://www.euronews.com/2026/11/13/european-negotiators-could-be-set-to-join-ukraine-peace-talks"
+    },
+    {
+     "nome": "Kyiv Post (13 nov.)",
+     "url": "https://www.kyivpost.com/post/89972"
+    },
+    {
+     "nome": "BBC via Nile Post (13 nov.)",
+     "url": "https://nilepost.co.ug/news/387160/zelensky-welcomes-us-bringing-europe-into-russia-ukraine-peace-talks"
+    },
+    {
+     "nome": "Al Jazeera (12 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin"
+    }
+   ],
+   "imagem": {
+    "commons": "Press conference of Volodymyr Zelensky and Ursula von der Leyen at the EC - 2025 (1).jpg",
+    "tipo": "arquivo",
+    "alt": "Volodymyr Zelensky e Ursula von der Leyen numa conferência de imprensa na Comissão Europeia",
+    "legenda": "Zelensky com a presidente da Comissão Europeia, Ursula von der Leyen, em Bruxelas (imagem de arquivo, 2025; não mostra o encontro de Dublin)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Guarda Revolucionária iraniana diz ter destruído radar dos EUA no Bahrein e que um navio de gás explodiu numa mina em Ormuz",
+   "estado": "Alegações do Irão não verificadas · EUA e Bahrein sem comentário; Trump diz ter adiado ataques a pedido dos aliados do Golfo",
+   "data": "2026-11-13",
+   "texto": [
+    "A Guarda Revolucionária do Irão afirmou na sexta-feira, 13 de novembro, ter atingido e destruído um radar de alerta precoce das forças norte-americanas no Bahrein, apresentando o ataque como resposta a um bombardeamento aéreo, na quinta-feira, de uma torre de telecomunicações em Sirik, cidade portuária do sul do país. Segundo a Reuters, citada pela Gulf News, é a primeira vez desde o início de setembro que o Irão reivindica um ataque a meios militares dos EUA num país do Golfo. Nem Washington nem o Bahrein, que acolhe a 5.ª Esquadra da Marinha norte-americana, comentaram, e a alegação não foi confirmada de forma independente.",
+    "No mesmo dia, a marinha da Guarda Revolucionária disse que um navio de transporte de gás liquefeito embateu numa mina e explodiu no estreito de Ormuz, acusando-o de ter ignorado avisos e de usar uma rota «não autorizada». A agência britânica de segurança marítima UKMTO não tinha registo imediato do incidente. Na véspera, os militares iranianos tinham afirmado que quatro petroleiros foram atingidos por explosões no estreito na quarta e na quinta-feira. Segundo dados do Washington Institute citados pelo The New Arab, pelo menos dez navios foram atacados nos primeiros dez dias de novembro, depois de 37 ataques em outubro.",
+    "O episódio surge numa guerra entre os EUA e Israel, de um lado, e o Irão, do outro, que começou no fim de fevereiro e se mantém com intensidade variável. O presidente Donald Trump disse que a Arábia Saudita, os Emirados, o Qatar e outros aliados do Golfo lhe pediram para adiar novos ataques em grande escala, horas depois de avisar que não hesitaria em atacar se navios ou aliados dos EUA fossem ameaçados. O bloqueio naval norte-americano aos portos iranianos mantém-se e a guarda iraniana avisou que as empresas que colaborem com os EUA no transporte de petróleo por Ormuz enfrentarão sanções mais duras."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Reivindicação do ataque no Bahrein e do incidente com a mina confirmada como alegação iraniana pela Associated Press (via Yahoo) e pelo The New Arab; a Gulf News cita a Reuters. Nenhum destes meios conseguiu verificar os factos. Lista exata dos países do Golfo citados por Trump varia entre fontes."
+   },
+   "fontes": [
+    {
+     "nome": "AP via Yahoo News (13 nov.)",
+     "url": "https://www.yahoo.com/news/world/articles/irans-revolutionary-guard-says-destroyed-080810607.html"
+    },
+    {
+     "nome": "The New Arab (13 nov.)",
+     "url": "https://www.newarab.com/news/iran-says-it-hit-us-radar-station-bahrain"
+    },
+    {
+     "nome": "Gulf News, com Reuters (13 nov.)",
+     "url": "https://gulfnews.com/world/mena/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-13-2026-1.500745956"
+    },
+    {
+     "nome": "Al Jazeera – direto (13 nov.)",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks"
+    }
+   ],
+   "imagem": {
+    "commons": "Strait of Hormuz (MODIS 2020-12-04).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Imagem de satélite do estreito de Ormuz, entre o Irão e a península de Musandam",
+    "legenda": "O estreito de Ormuz visto por satélite (imagem ilustrativa da NASA, 2020)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Drones ucranianos atingem navio de guerra russo no golfo da Finlândia, a 40 km da costa finlandesa",
+   "estado": "Facto confirmado (Finlândia detetou o ataque) · reivindicação ucraniana; danos e vítimas por confirmar",
+   "data": "2026-11-12",
+   "texto": [
+    "As Forças de Defesa da Finlândia confirmaram na quinta-feira, 12 de novembro, ter detetado na véspera um ataque a um navio de guerra russo no golfo da Finlândia, no mar Báltico. O Serviço de Segurança da Ucrânia (SBU) reivindicou a operação, feita com drones, e identificou o alvo como o Naro-Fominsk, um pequeno navio lança-mísseis da classe Buyan-M. Segundo a televisão pública finlandesa Yle, o ataque deu-se perto da ilha russa de Gogland (Suursaari), a cerca de 40 quilómetros da Finlândia e 55 da Estónia.",
+    "O ministro da Defesa estónio, Martin Herem, disse que houve uma explosão a bordo e que o navio seguiu depois para São Petersburgo. Não há informação confirmada sobre danos ou vítimas, e a Rússia não comentou. Os militares finlandeses recusaram dar mais pormenores sobre o local e a forma como detetaram o ataque, mas garantiram que a situação de segurança na zona se mantém estável e que o país não está sob ameaça militar imediata. Por precaução, a Finlândia impôs restrições temporárias ao espaço aéreo e marítimo no leste do golfo.",
+    "A Ucrânia tem enviado vagas de drones contra a região de Leningrado, onde ficam São Petersburgo e o porto petrolífero de Ust-Luga, também atacado na quarta-feira. Alguns aparelhos desviaram-se para o espaço aéreo finlandês e dos países bálticos: segundo a Reuters, Estónia, Letónia e Lituânia emitiram avisos para a população procurar abrigo e a NATO fez descolar aviões de combate."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Deteção do ataque confirmada pelas Forças de Defesa finlandesas, segundo a Reuters (via Defense News) e a Yle. Nome e classe do navio indicados pelo SBU ucraniano e reproduzidos pela Yle; não confirmados de forma independente."
+   },
+   "fontes": [
+    {
+     "nome": "Yle (12 nov.)",
+     "url": "https://yle.fi/a/74-20256496"
+    },
+    {
+     "nome": "Reuters via Defense News (12 nov.)",
+     "url": "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/"
+    }
+   ],
+   "imagem": {
+    "commons": "Orekhovo-Zuyevo corvette.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Corveta russa da classe Buyan-M no mar",
+    "legenda": "Corveta Orekhovo-Zuyevo, da mesma classe Buyan-M do navio atingido (imagem ilustrativa; não mostra o Naro-Fominsk)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Polícia do Haiti recupera o estádio nacional, ocupado por gangues há quase dois anos, e entrega-o a militares salvadorenhos",
+   "estado": "Anúncio oficial da polícia haitiana · número de efetivos, confrontos e eventuais vítimas não divulgados",
+   "data": "2026-11-12",
+   "texto": [
+    "A Polícia Nacional do Haiti anunciou ter retomado, na madrugada de quinta-feira, 12 de novembro, o estádio Sylvio Cator e as zonas em redor, no centro de Port-au-Prince. O principal estádio de futebol do país estava nas mãos da coligação de gangues Viv Ansanm desde fevereiro de 2024. A operação foi conduzida por uma unidade especial, a Task Force, e a segurança do recinto passou depois para militares de El Salvador, que vão manter uma presença permanente no local.",
+    "O presidente salvadorenho, Nayib Bukele, escreveu numa rede social, em crioulo haitiano, que as suas forças vão instalar no estádio uma base de operações para avançar sobre os territórios controlados pelos gangues, e avisou os membros que fiquem para combater de que haverá consequências. Cerca de 2000 soldados salvadorenhos chegaram ao Haiti no fim de outubro; os métodos de Bukele contra o crime organizado no seu país têm sido acusados de violar direitos humanos. A 10 de novembro, Bukele já tinha anunciado a destruição do quartel-general do gangue 400 Mawozo, perto de Croix-des-Bouquets.",
+    "Inaugurado em 1953, com capacidade para cerca de 10 mil espectadores, o Sylvio Cator era a casa da seleção haitiana, que teve de passar a jogar no estrangeiro por causa da violência. A polícia divulgou imagens aéreas com blindados no local, mas não indicou quantos agentes e militares participaram, nem se houve confrontos ou vítimas."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Recuperação do estádio confirmada pelo Rio Times e pelo De Último Minuto, ambos com base no comunicado da Polícia Nacional do Haiti; as declarações de Bukele constam do Rio Times. Não foi possível consultar diretamente o despacho da France 24 sobre o tema."
+   },
+   "fontes": [
+    {
+     "nome": "The Rio Times (12 nov.)",
+     "url": "https://www.riotimesonline.com/haiti-police-retake-stadium-from-gangs/"
+    },
+    {
+     "nome": "De Último Minuto (12 nov.)",
+     "url": "https://deultimominuto.com/en/international/haitian-police-regain-control-of-sylvio-cator-stadium-in-port-au-prince/"
+    }
+   ],
+   "imagem": {
+    "commons": "Stade Sylvio Cator after earthquake 2010.jpg",
+    "tipo": "arquivo",
+    "alt": "Estádio Sylvio Cator, em Port-au-Prince",
+    "legenda": "O estádio Sylvio Cator em 2010, depois do sismo (imagem de arquivo; não mostra a operação policial)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Seguro recebe hoje em Belém as acampadas pela habitação, que lhe pedem para travar a nova lei das rendas",
+   "estado": "Reunião confirmada para as 10h · reivindicações dos movimentos; resultado do encontro ainda por conhecer à hora de fecho",
+   "data": "2026-11-13",
+   "texto": [
+    "O Presidente da República, António José Seguro, recebe esta sexta-feira, 13 de novembro, às 10h, no Palácio de Belém, 25 representantes do movimento de protesto pela habitação: nove da acampada do Porto, nove da de Lisboa e sete da plataforma Casa Para Viver, que junta associações como a de Inquilinos Lisbonenses, a Vida Justa e a SOS Racismo. A reunião estava marcada para quinta-feira, mas foi adiada um dia a pedido dos manifestantes do Porto, por causa do mau tempo. O pedido central é que o chefe de Estado ajude a travar a revisão da lei do arrendamento que o Governo tem em curso.",
+    "O protesto começou a 10 de outubro na Praça D. João I, no Porto, e alastrou ao Rossio, em Lisboa, e a outras cidades. As operações da PSP para desmontar as tendas nas duas praças acabaram com dezenas de detidos e de feridos e foram muito criticadas; Seguro pediu explicações ao Governo e à Provedoria de Justiça e convocou o Conselho de Estado para discutir a coesão social. O Ministério Público pediu ao Tribunal Constitucional que aprecie a norma de 1974 que proíbe manifestações depois das 0h30, usada para dispersar os protestos. Além da reversão da lei, os movimentos pedem tetos às rendas, limites à compra de casas por fundos imobiliários, o fim dos despejos sem alternativa e garantias para os imigrantes que participam nas assembleias; a delegação do Porto quer ainda que o Presidente peça a demissão do ministro da Administração Interna, Luís Neves.",
+    "O Presidente não pode alterar a lei sozinho: poderá pronunciar-se sobre a lei de autorização do Parlamento e, depois, sobre o decreto do Governo. Segundo o Observador, Seguro vai sobretudo ouvir e não validará as propostas. O Governo recusa abandonar a revisão, que prevê contratos mais flexíveis e despejos mais rápidos, mas admite medidas fiscais e promete 40 mil casas públicas até dezembro. Uma sondagem DN/Aximage divulgada esta sexta-feira indica que cerca de sete em cada dez portugueses aprovam as manifestações e as acampadas."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Hora, local, composição da delegação e adiamento confirmados pelo ECO (Lusa), pelo Observador e pela Executive Digest; carta da acampada de Lisboa pela Lusa (DNoticias). Os números de detidos e feridos são aproximados («dezenas») nas fontes. A sondagem é citada a partir da primeira página do DN, sem acesso à ficha técnica. Não foi possível abrir a notícia do Observador sobre a investigação do Ministério Público à atuação policial em Lisboa."
+   },
+   "fontes": [
+    {
+     "nome": "ECO/Lusa (11 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/11/acampadas-reunem-com-presidente-da-republica-na-sexta-feira/"
+    },
+    {
+     "nome": "Observador (12 nov.)",
+     "url": "https://observador.pt/especiais/seguro-vai-liderar-reuniao-com-representantes-das-acampadas-veto-a-lei-das-rendas-e-pressao-ao-governo-entre-as-reivindicacoes/"
+    },
+    {
+     "nome": "Executive Digest (13 nov.)",
+     "url": "https://executivedigest.sapo.pt/acampadas-da-habitacao-chegam-hoje-a-belem-o-que-vao-pedir-a-seguro/"
+    },
+    {
+     "nome": "DNoticias/Lusa (12 nov.)",
+     "url": "https://www.dnoticias.pt/2026/11/12/512765-acampada-de-lisboa-quer-reunir-com-governo-e-pede-ajuda-a-seguro/"
+    },
+    {
+     "nome": "Diário de Notícias – edição de 13 nov.",
+     "url": "https://www.dn.pt/edicao-diaria/leia-aqui-o-dn-desta-sexta-feira-13-de-novembro"
+    }
+   ],
+   "imagem": {
+    "commons": "Palácio de Belém - Lisboa - Portugal (5284651931).jpg",
+    "tipo": "arquivo",
+    "alt": "Fachada principal do Palácio de Belém, em Lisboa",
+    "legenda": "O Palácio de Belém, residência oficial do Presidente da República (imagem de arquivo; não mostra a reunião)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "INE confirma inflação de 3,8% em outubro, a mais alta desde maio de 2023; portagens vão subir 3,83% em 2027",
+   "estado": "Factos confirmados · dados definitivos do INE; subida das portagens decorre da fórmula legal, valores por troço por publicar",
+   "data": "2026-11-11",
+   "texto": [
+    "A taxa de inflação em Portugal subiu para 3,8% em outubro, confirmou o Instituto Nacional de Estatística (INE) na quarta-feira, 11 de novembro. É o valor mais alto desde maio de 2023 e o terceiro mês seguido de aceleração, depois do abrandamento entre abril e julho. A energia continua a puxar pelos preços: os produtos energéticos estavam 17,4% mais caros do que há um ano, contra 15,3% em setembro. A inflação subjacente, que exclui energia e alimentos não transformados, subiu para 2,8%.",
+    "Os alimentos não transformados mantiveram-se nos 3,7%. Os transportes e os restaurantes e alojamento foram as classes que mais contribuíram para a subida; o vestuário e calçado foi a única com contributo negativo. Pelo índice harmonizado, usado para comparar países da União Europeia, a inflação portuguesa foi de 3,9%, uma décima abaixo da média da zona euro (4%).",
+    "Os números têm consequências diretas para os condutores. A atualização anual das portagens segue uma fórmula fixada por lei (decreto-lei 294/97), que usa a inflação de outubro sem habitação no continente — 3,73% — e soma-lhe 0,1 pontos de compensação às concessionárias, herdada do acordo de 2022 que limitou a subida de 2023. O resultado é um aumento de 3,83% em 2027, acima dos pouco mais de 2% dos últimos três anos. Uma portagem de 10 euros passa a custar cerca de 10,38 euros, embora os arredondamentos possam fazer variar a subida de troço para troço; os valores finais devem ser conhecidos antes do início do ano."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Dados do INE confirmados pelo ECO e pelo Contas Poupança; cálculo das portagens feito pela Lusa e reproduzido pelo Jornal Económico e pelo Contas Poupança (que dá o exemplo dos 10 euros). Não foi consultado diretamente o destaque do INE. O Governo não se pronunciou, nas fontes consultadas, sobre um eventual travão à subida."
+   },
+   "fontes": [
+    {
+     "nome": "ECO (11 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/11/ine-confirma-subida-da-inflacao-para-38-em-outubro/"
+    },
+    {
+     "nome": "Jornal Económico/Lusa (11 nov.)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/portagens-das-autoestradas-vao-aumentar-383-em-2027/"
+    },
+    {
+     "nome": "Contas Poupança (11 nov.)",
+     "url": "https://contaspoupanca.pt/carro/2026-11-11-portagens-devem-subir-383-em-2027.-saiba-quanto-pode-pagar-a-mais-c496b2c3"
+    }
+   ],
+   "imagem": {
+    "commons": "Autoestrada A3 Portugal.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Autoestrada A3 em Portugal",
+    "legenda": "A autoestrada A3, no Norte do país (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Chuva continua no Norte e Centro: sete distritos em aviso amarelo esta sexta-feira e mais precipitação persistente prevista para domingo",
+   "estado": "Avisos do IPMA confirmados para hoje · fim de semana é previsão; acumulados indicados por serviços privados de meteorologia",
+   "data": "2026-11-13",
+   "texto": [
+    "Dois dias depois da passagem da depressão Charles, o Instituto Português do Mar e da Atmosfera (IPMA) colocou sete distritos do continente sob aviso amarelo por chuva, por vezes forte, esta sexta-feira, 13 de novembro. Em Braga, Viana do Castelo, Porto e Vila Real, o aviso vigora até às 12h; em Aveiro, Coimbra e Viseu, até às 15h. A chuva deverá ser persistente sobretudo no litoral Norte e Centro, com vento fraco a moderado de oeste e uma ligeira descida das temperaturas; as máximas vão dos 12 °C na Guarda aos 22 °C em Faro.",
+    "Na costa ocidental, as ondas de 2,5 a 3,5 metros deverão baixar ao longo do dia. No sábado, segundo o IPMA, continuam a chuva e os aguaceiros no Norte e Centro, com o céu a limpar no Sul à tarde. Para domingo, o instituto prevê novos períodos de chuva, mais frequentes e intensos no litoral Norte e Centro, e vento de sul ou sudoeste até 40 km/h na costa ocidental.",
+    "Serviços privados de meteorologia apontam para um episódio longo. O Tempo.pt, com base no modelo europeu ECMWF, estima acumulados até domingo de cerca de 160 milímetros no Porto e 150 em Braga, valores indicativos que podem mudar; a Luso Meteo admite chuva quase contínua no Norte até 25 de novembro e alerta para o risco de cheias nas bacias do Mondego e do Tejo. Estas previsões a mais de uns dias têm grande incerteza e não são do IPMA, cujos avisos devem ser acompanhados no site do instituto."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Avisos e previsão para hoje confirmados por A Bola e pelo 24 Notícias, ambos citando o IPMA; previsão do IPMA para o fim de semana citada pelo Postal do Algarve. Os acumulados e a tendência até 25 de novembro são de serviços privados (Tempo.pt, Luso Meteo), citados pela Executive Digest."
+   },
+   "fontes": [
+    {
+     "nome": "A Bola (13 nov.)",
+     "url": "https://www.abola.pt/noticias/chuva-meteorologia-ipma-mau-tempo-coloca-sete-distritos-sob-aviso-amarelo-2026111307183127775"
+    },
+    {
+     "nome": "24 Notícias (13 nov.)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/chuva-persistente-e-por-vezes-forte-no-norte-e-centro-marca-esta-sexta-feira-temperaturas-descem"
+    },
+    {
+     "nome": "Postal do Algarve (13 nov.)",
+     "url": "https://postal.pt/nacional/tempo/a-chuva-continua-ate-domingo-e-podera-condicionar-os-planos-de-fim-de-semana-em-portugal-continental/"
+    },
+    {
+     "nome": "Executive Digest (13 nov.)",
+     "url": "https://executivedigest.sapo.pt/depois-do-charles-chega-a-ameaca-que-ninguem-esta-a-ver-semanas-de-chuva-e-risco-de-cheias/"
+    }
+   ],
+   "imagem": {
+    "commons": "Porto Ribeira.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Cais da Ribeira, no Porto, junto ao rio Douro",
+    "legenda": "A Ribeira, no Porto, um dos distritos sob aviso amarelo (imagem ilustrativa; não mostra o mau tempo de hoje)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Dino D'Santiago ganha um Grammy Latino com o disco gravado com os brasileiros Criolo e Amaro Freitas",
+   "estado": "Facto confirmado · prémio entregue na cerimónia de Las Vegas; Carminho e Karetus nomeados, sem vitória",
+   "data": "2026-11-12",
+   "texto": [
+    "O músico português Dino D'Santiago venceu um Grammy Latino na quinta-feira, 12 de novembro, em Las Vegas, nos Estados Unidos. O prémio de Melhor Álbum de Música Popular Brasileira/Música Afro Portuguesa Brasileira distinguiu «Criolo, Amaro & Dino», o primeiro disco do projeto que junta o cantor ao rapper brasileiro Criolo e ao pianista brasileiro Amaro Freitas. No discurso, Dino D'Santiago agradeceu aos países de língua portuguesa — Cabo Verde, Angola, Moçambique, Guiné-Bissau, São Tomé e Príncipe e Portugal —, dizendo que a língua comum os torna um só povo.",
+    "O álbum, com 12 temas, foi gravado entre o Rio de Janeiro, o Recife, São Paulo e Lisboa e nasceu da canção «Esperança», de 2024, escrita pelos três com o produtor Nave, que já tinha valido a Dino D'Santiago uma nomeação para os Grammy Latinos. O trio estava também nomeado para Melhor Canção em Língua Portuguesa, com «No Vento de Nós», mas o prémio foi para «Viver e Morrer de Amor na América Latina», de Johnny Hooker.",
+    "Houve outros portugueses na corrida da 27.ª edição, que entregou prémios em 60 categorias. A fadista Carminho estava nomeada para Melhor Álbum de Raízes em Língua Portuguesa com «Eu Vou Morrer de Amor ou Resistir», que perdeu para «Dominguinho Vol. 2 (Ao vivo)», de João Gomes, Jota.pê e Mestrinho. O vídeo de «Moleirinha», dos Karetus, realizado por Gonçalo Pereira, concorria a Melhor Vídeo Musical Curto, distinção que coube a «Sauvignon Blanc», de Rosalía."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Vitória, categoria e discurso confirmados pelo Diário de Notícias e pelo Diário de Viseu (texto de agências); o nome da categoria e o título da canção nomeada constam também da lista de nomeações publicada pela Rolling Stone Brasil em setembro. Local da cerimónia, número de faixas e restantes nomeados portugueses só na notícia de agências do Diário de Viseu."
+   },
+   "fontes": [
+    {
+     "nome": "Diário de Notícias (12 nov.)",
+     "url": "https://www.dn.pt/cultura/dino-dsantiago-vence-grammy-latino-por-disco-com-criolo-e-amaro-freitas"
+    },
+    {
+     "nome": "Diário de Viseu/agências (13 nov.)",
+     "url": "https://www.diarioviseu.pt/2026/11/13/dino-dsantiago-vence-grammy-latino-por-disco-com-criolo-e-amaro-freita/"
+    },
+    {
+     "nome": "Rolling Stone Brasil – nomeações (16 set.)",
+     "url": "https://rollingstone.com.br/?p=317923"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Starship descola hoje às 22h45 de Lisboa para tentar apanhar com a torre as duas fases do foguetão; Vulcan volta a voar às 17h54",
+   "estado": "Lançamentos previstos para hoje · horários anunciados, sujeitos a adiamento; SpaceX indicava aprovação regulatória ainda pendente",
+   "data": "2026-11-13",
+   "texto": [
+    "A SpaceX tem marcado para esta sexta-feira, 13 de novembro, o voo 15 da Starship, a partir da base de Starbase, no sul do Texas, com uma janela de 75 minutos que abre às 22h45 em Lisboa (16h45 no Texas). O plano é inédito: o propulsor Super Heavy deverá regressar e ser apanhado pelos braços da torre de lançamento cerca de seis minutos e meio depois da descolagem, e a nave, depois de cerca de 14 voltas à Terra a 275 quilómetros de altitude e de libertar 26 satélites Starlink da nova geração V3, tentará ser também apanhada pela torre cerca de 22 horas e meia depois, no sábado à noite (hora de Lisboa). Seria a primeira recuperação completa de um foguetão de classe orbital, segundo a SpaceX.",
+    "É o primeiro voo do propulsor 22 e da nave 42, ambos da versão Block 3, e a primeira tentativa de apanhar a nave. A recuperação só avança se a equipa de controlo confirmar que os sistemas de reentrada e aterragem estão em bom estado; caso contrário, a nave cai no mar, com zonas de amaragem previstas no Pacífico, no Índico e no golfo do México, e o propulsor pode também amarar no golfo. O voo anterior, a 28 de setembro, foi o primeiro em que a Starship chegou à órbita, mas um dos motores de vácuo desligou-se antes do tempo e a missão foi encurtada. À data da pesquisa, as fontes consultadas não confirmavam a emissão da licença da autoridade de aviação dos EUA para este voo.",
+    "Antes disso, às 17h54 em Lisboa (janela até às 18h24), a United Launch Alliance tenta devolver ao ativo o foguetão Vulcan, parado desde fevereiro por problemas nos propulsores laterais, a partir de Cabo Canaveral, na Florida, com 40 satélites da constelação de internet Amazon Leo — a maior carga da Amazon até hoje. A segunda missão do Vulcan para a Amazon deverá seguir semanas depois, se esta correr bem, e o próximo Ariane 6 com satélites da constelação, a partir de Kourou, na Guiana Francesa, está apontado para não antes de 23 de novembro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Horário, plano de voo e veículos da Starship confirmados pela Space.com e pelo Starlust (13 nov.) e pela página da missão no Next Spaceflight; o Starlust cita a SpaceX a indicar que o voo estava «pendente de aprovação regulatória». Hora e janela do Vulcan vêm do GCN (12 nov.); data, carga, LV-02 e Ariane 6 da página da Amazon (9 nov.). Nenhum dos lançamentos tinha acontecido à hora da pesquisa (8h30 de Lisboa)."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (13 nov.)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launching-historic-double-catch-starship-test-flight-today-watch-it-live"
+    },
+    {
+     "nome": "Starlust (13 nov.)",
+     "url": "https://starlust.org/spacex-to-launch-starship-on-15th-test-flight-today-attempt-to-catch-both-stages-how-to-watch-live/"
+    },
+    {
+     "nome": "Next Spaceflight – Starship Flight 15",
+     "url": "https://nextspaceflight.com/launches/details/8403/"
+    },
+    {
+     "nome": "GCN (12 nov.)",
+     "url": "https://gcn.com/vulcan-rocket-amazon-leo-satellites/23195/"
+    },
+    {
+     "nome": "Amazon – Amazon Leo (9 nov.)",
+     "url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-vulcan-satellites-launch"
+    }
+   ],
+   "imagem": {
+    "commons": "SpaceX Starship ignition during IFT-5.jpg",
+    "tipo": "arquivo",
+    "alt": "Foguetão Starship a acender os motores na plataforma de lançamento, no Texas",
+    "legenda": "Ignição da Starship no quinto voo de teste, em outubro de 2024 (imagem de arquivo; não mostra o voo 15)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Telescópio europeu Euclid divulga primeiro grande lote de dados: mais de mil milhões de objetos para mapear a matéria e a energia escuras",
+   "estado": "Facto confirmado (divulgação da ESA e do consórcio Euclid) · versão completa do DR1 prevista para meados de 2027",
+   "data": "2026-11-12",
+   "texto": [
+    "A Agência Espacial Europeia (ESA) e o consórcio científico da missão Euclid divulgaram na quinta-feira, 12 de novembro, o primeiro grande lote de dados do telescópio espacial, chamado DR1-Foundation. Reúne 13 meses de observações, feitas entre a primavera de 2024 e a de 2025, cobre cerca de 1900 graus quadrados do céu — o equivalente a 9500 luas cheias, cerca de 14% da área que o Euclid vai cartografar em seis anos — e inclui a luz de mais de mil milhões de objetos, entre eles mais de 900 milhões de galáxias. É a base do maior mapa tridimensional do Universo alguma vez feito, com que os cientistas querem perceber a matéria escura e a energia escura.",
+    "Além de imagens calibradas, catálogos e grandes mosaicos do céu, o lote traz espetros de mais de 160 milhões de fontes, mais de 60 milhões de candidatos a quasares e cerca de 15 mil candidatos a lentes gravitacionais fortes — galáxias cuja massa curva a luz de objetos mais distantes, o que ajuda a «pesar» a matéria escura e a medir a expansão do Universo. Segundo o Instituto de Astrofísica de Canárias, o conjunto ocupa cerca de 1,7 petabytes. A diretora de Ciência da ESA, Carole Mundell, descreveu a divulgação como um marco científico que vai muito além de imagens bonitas.",
+    "Entre as imagens mostradas estão o grupo de galáxias de Messier 81, a galáxia em anel NGC 1291 e o enxame Abell 3128, a cerca de 800 milhões de anos-luz. O consórcio Euclid junta mais de 2000 cientistas de cerca de 300 instituições; Portugal participa desde 2012 através do Instituto de Astrofísica e Ciências do Espaço e da Faculdade de Ciências da Universidade de Lisboa, que ajudaram a definir o calendário de observações do telescópio. A versão completa do primeiro lançamento de dados está prevista para meados de 2027."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Números confirmados pela Space.com e pelo Instituto de Astrofísica de Canárias (membro do consórcio), com apoio do Universe Today; o volume de dados e a data de meados de 2027 vêm só do IAC. A página da ESA não pôde ser aberta. O papel português vem de uma notícia da RTP de 2023 (contexto); não foi confirmado o contributo português específico para este lote."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (12 nov.)",
+     "url": "https://www.space.com/astronomy/dark-matter-breakthrough-coming-euclid-space-telescope-unveils-its-1st-look-into-the-dark-universe-video"
+    },
+    {
+     "nome": "Instituto de Astrofísica de Canárias (12 nov.)",
+     "url": "https://www.iac.es/en/outreach/news/euclid-releases-its-first-major-dataset-mapping-dark-universe"
+    },
+    {
+     "nome": "Universe Today (12 nov.)",
+     "url": "https://www.universetoday.com/articles/euclids-first-data-release-a-stepping-stone-to-its-3d-map-of-the-sky"
+    },
+    {
+     "nome": "RTP (29 jun. 2023, contexto)",
+     "url": "https://www.rtp.pt/noticias/mundo/telescopio-espacial-europeu-euclid-vai-fazer-50-mil-observacoes-planeadas-por-portugal_n1496558"
+    }
+   ],
+   "imagem": {
+    "commons": "Euclid’s view of the Perseus cluster of galaxies ESA25170535.jpg",
+    "tipo": "arquivo",
+    "alt": "Milhares de galáxias do enxame de Perseu vistas pelo telescópio Euclid",
+    "legenda": "O enxame de galáxias de Perseu numa das primeiras imagens do Euclid, de 2023 (imagem de arquivo; não faz parte do lote agora divulgado)"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Ebenezer: Um Conto de Natal»: Ti West, mestre do terror, assombra Johnny Depp com os fantasmas de Dickens — e divide a crítica",
+   "ficha": {
+    "Título original": "Ebenezer (2026)",
+    "Realização": "Ti West; argumento de Nathaniel Halpern, a partir de «Um Conto de Natal» (1843), de Charles Dickens",
+    "Elenco": "Johnny Depp, Ian McKellen, Rupert Grint, Andrea Riseborough, Tramell Tillman, Daisy Ridley, Sam Claflin, Arthur Conti",
+    "Estreia em Portugal": "12 de novembro de 2026 (M/12; 115 minutos; distribuição NOS Audiovisuais), em cerca de 50 salas de norte a sul, Açores e Madeira, segundo o filmSPOT",
+    "Avaliação": "Receção dividida: B+ no ShowbizJunkies, 5,5/10 no SlashFilm, C+ no A.V. Club; títulos negativos na Screen Daily e na IndieWire"
+   },
+   "texto": [
+    "Está desde ontem nas salas portuguesas «Ebenezer: Um Conto de Natal», a nova adaptação do conto de Charles Dickens, com Johnny Depp no papel do avarento Ebenezer Scrooge. A realização é de Ti West, o americano que se tornou uma referência do terror com a trilogia «X», «Pearl» e «MaXXXine», e o filme acentua o lado sobrenatural e gótico da história: na véspera de Natal, na Londres vitoriana, um velho agiota que despreza tudo e todos recebe a visita do fantasma do antigo sócio, Jacob Marley (Ian McKellen), e depois de três espíritos — o do Natal passado (Andrea Riseborough), o do Natal presente (Tramell Tillman) e o do Natal futuro — que o obrigam a olhar para a vida que levou. Rodado em Londres no início de 2026, com uma produção apresentada pela Paramount, estreou em Portugal na quinta-feira, um dia antes do Reino Unido e dos EUA, e segundo o filmSPOT está em cerca de 50 cinemas, do NorteShopping e do UCI Arrábida a Lisboa, Faro, Ponta Delgada e Funchal.",
+    "Esta apreciação resulta das críticas consultadas e não de visionamento próprio. O que reúne mais elogios é a atmosfera: Jesse Hassenger, no A.V. Club, destaca o ambiente fantasmagórico e a mistura «invulgarmente forte» de efeitos práticos e digitais; Bill Bria, no SlashFilm, chama «medonhos» aos três espíritos e encontra na Londres vitoriana ecos do cinema britânico dos anos 70. Kevin Finnerty, no ShowbizJunkies (B+), é o mais entusiasta: acha a interpretação de Depp enérgica e por vezes comovente, sobretudo numa cena em que Scrooge grita com o próprio passado, e considera o Marley de McKellen ao mesmo tempo assustador e trágico. Há também consenso em torno de Tramell Tillman (da série «Severance»), cujo espírito do Natal presente é mais irritadiço e inquietante do que é costume.",
+    "Os reparos concentram-se em Depp e na falta de ousadia. Para o A.V. Club (C+), o ator faz um Scrooge de excentricidades brandas, com um travo de teatro de revista, e o título e os trailers prometem uma releitura que o filme não cumpre, porque é afinal uma adaptação fiel; o SlashFilm (5,5 em 10) fala de uma versão contida e sem paixão, que se apoia demasiado no protagonista sem o deixar brilhar. As duas críticas notam ainda que a imagem pública de Depp, depois dos processos judiciais dos últimos anos, pesa sobre uma história de redenção, e a revista Screen e a IndieWire, cujos textos não foi possível abrir, resumem nos títulos a mesma desilusão. As personagens secundárias — Rupert Grint como Bob Cratchit, Sam Claflin como o sobrinho Fred — ficam, segundo o A.V. Club, pouco desenvolvidas.",
+    "No balanço, «Ebenezer» parece valer sobretudo pelo que Ti West traz do terror: luz, cenários, maquilhagem e fantasmas que metem medo a sério, o que explica a classificação M/12 e o aviso de que não é um conto de Natal para os mais pequenos. Quem procurar uma reinvenção radical de Dickens ou o regresso triunfal de Johnny Depp ao cinema de Hollywood poderá sair desiludido; quem quiser uma versão sombria e bem feita de uma história conhecida, a tempo da época natalícia, terá aqui uma alternativa às muitas adaptações anteriores, do «Scrooge» de 1951 ao «Conto de Natal dos Marretas». Na mesma semana estreou também «You Can See Everything», de Nathan Fielder e Lance Oppenheim, sobre os últimos dias em liberdade de Elizabeth Holmes."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – estreias da semana (12 nov.)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-12-de-novembro-2026-15097/"
+    },
+    {
+     "nome": "filmSPOT – ficha e cinemas de «Ebenezer: Um Conto de Natal»",
+     "url": "https://filmspot.pt/filme/ebenezer-1567605/"
+    },
+    {
+     "nome": "Magazine.HD – estreias da semana",
+     "url": "https://www.magazine-hd.com/apps/wp/estreiam-6-filmes-esta-semana-salas-cinema-3-melhores-12-novembro/"
+    },
+    {
+     "nome": "Time Out Portugal – ficha de Eurico de Barros",
+     "url": "https://www.timeout.com/pt/filmes/ebenezer-um-conto-de-natal-2026"
+    },
+    {
+     "nome": "A.V. Club – crítica de Jesse Hassenger (12 nov.)",
+     "url": "https://www.avclub.com/ebenezer-review-johnny-depp-ti-west-christmas-carol"
+    },
+    {
+     "nome": "SlashFilm (via Yahoo) – crítica de Bill Bria (12 nov.)",
+     "url": "https://www.yahoo.com/entertainment/movies/articles/ebenezer-review-johnny-depp-neither-170000566.html"
+    },
+    {
+     "nome": "ShowbizJunkies – crítica de Kevin Finnerty (12 nov.)",
+     "url": "https://www.showbizjunkies.com/movies/ebenezer-2026-review-johnny-depp/"
+    },
+    {
+     "nome": "Rotten Tomatoes – Ebenezer (2026)",
+     "url": "https://www.rottentomatoes.com/m/ebenezer_2026"
+    },
+    {
+     "nome": "Wikipedia – Ebenezer: A Christmas Carol",
+     "url": "https://en.wikipedia.org/wiki/Ebenezer:_A_Christmas_Carol"
+    }
+   ],
+   "nota": "As críticas da Screen Daily, da IndieWire e da Hollywood Reporter (incluindo um resumo de críticas com o título «receção fria») só foram vistas pelos títulos nos resultados de pesquisa; os textos não puderam ser abertos. No momento da consulta, o Rotten Tomatoes ainda não tinha percentagem e o Metacritic não foi consultado. O cinecartaz do Público não pôde ser aberto; a exibição em Portugal foi confirmada pela ficha e pela lista de cinemas do filmSPOT (sem horários por sala). A Wikipédia, desatualizada, ainda dá o filme como inédito e aponta dúvidas sobre o papel de Daisy Ridley. Não foi possível confirmar a página da imagem no Wikimedia Commons por acesso direto (o ficheiro surge nos resultados de pesquisa do Commons).",
+   "imagem": {
+    "commons": "Johnny Depp Festival de Cannes 2023.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Johnny Depp no Festival de Cannes de 2023",
+    "legenda": "Johnny Depp, o Scrooge do filme, no Festival de Cannes de 2023 (imagem ilustrativa; não é uma imagem do filme)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Valentino, o costureiro que pintou a moda de vermelho — e cujos vestidos dialogam agora com Joana Vasconcelos no MAAT",
+   "ficha": {
+    "Nascimento": "11 de maio de 1932, Voghera, Itália (morreu em Roma, em janeiro de 2026, aos 93 anos)",
+    "Área": "Moda (alta-costura)",
+    "Obra essencial": "A casa Valentino, fundada em Roma em 1959–60 com Giancarlo Giammetti; o «vermelho Valentino»; o vestido de Jacqueline Kennedy no casamento com Aristóteles Onassis (1968); os vestidos com que Julia Roberts e Cate Blanchett receberam os seus primeiros Óscares",
+    "Atualidade": "Exposição «VÉNUS – Valentino Garavani pelo olhar de Joana Vasconcelos», no MAAT, em Lisboa, até 22 de fevereiro de 2027 (quarta a segunda, 10h–19h; 12 euros)"
+   },
+   "texto": [
+    "Em Lisboa, no MAAT, em Belém, cerca de três dezenas de vestidos de alta-costura e pronto-a-vestir de Valentino Garavani convivem com as esculturas de Joana Vasconcelos na exposição «VÉNUS – Valentino Garavani pelo olhar de Joana Vasconcelos», aberta desde 2 de outubro e até 22 de fevereiro de 2027, no âmbito dos dez anos do museu. A mostra foi concebida para o PM23, o espaço da Fundação Valentino Garavani e Giancarlo Giammetti em Roma, onde esteve de janeiro a julho, e chegou a Lisboa adaptada e ampliada. Inaugurou-se em Roma poucos dias antes da morte do costureiro, anunciada pela fundação a 19 de janeiro de 2026, aos 93 anos — o que faz dela uma das primeiras homenagens a um dos nomes maiores da moda do século XX.",
+    "Valentino Clemente Ludovico Garavani nasceu em Voghera, perto de Milão, a 11 de maio de 1932, filho único de uma família abastada, e dizia que foi o cinema que o levou à moda. Aos 17 anos foi para Paris estudar na escola da Câmara Sindical da Alta-Costura e trabalhou durante a década de 1950 nos ateliês de Jean Dessès e de Guy Laroche. De volta a Itália, abriu casa na Via Condotti, em Roma — em 1959 ou 1960, consoante as fontes — e conheceu Giancarlo Giammetti, que foi seu companheiro e sócio a vida toda e transformou o ateliê numa marca global. A consagração veio com o desfile de 1962 em Florença e, sobretudo, com a amizade de Jacqueline Kennedy, que conheceu em 1964 e que em 1968 casou com Aristóteles Onassis num vestido seu, de renda cor de marfim.",
+    "O estilo de Valentino é o do glamour assumido: vestidos de noite de corte impecável, laços, folhos, rendas e bordados, pensados, como ele dizia, para mulheres que querem sentir-se belas. A assinatura é uma cor: o «vermelho Valentino», um tom entre o carmim e o escarlate com um toque de laranja, que, segundo a história contada pelo próprio, nasceu de uma senhora elegante, vestida de vermelho, que viu em jovem na ópera de Barcelona. Estreou-se em 1959 num vestido de cocktail de tule e nunca mais saiu das coleções. Foi o primeiro costureiro italiano a desfilar no calendário da alta-costura de Paris e vestiu de Audrey Hepburn, Sophia Loren e Elizabeth Taylor à princesa Diana, a Julia Roberts — que recebeu o Óscar em 2001 com um vestido preto e branco de arquivo — e a Cate Blanchett, de amarelo-manteiga na noite do seu primeiro Óscar.",
+    "Valentino vendeu a empresa em 1998 e retirou-se em janeiro de 2008, com um último desfile em Paris, no mesmo ano em que o documentário «Valentino: O Último Imperador» mostrou os bastidores do seu fim de carreira; a marca pertence hoje ao fundo catari Mayhoola e ao grupo Kering. Ficaram as histórias da sua vida de luxo — o bronzeado permanente, o iate de 46 metros, o castelo perto de Paris, as viagens com uma matilha de cães pug. No MAAT, Joana Vasconcelos responde a esse mundo com o seu: a «Valquíria Vénus», uma escultura têxtil suspensa com mais de 18 metros, os sapatos gigantes «Marilyn», feitos de panelas e tampas, um coração de Viana em talheres de plástico ao lado de um vestido vermelho de 1992 e, no fim, o «Jardim do Éden», onde vestidos monocromáticos dos anos 60 e 70 aparecem entre flores artificiais."
+   ],
+   "fontes": [
+    {
+     "nome": "MAAT – VÉNUS: Valentino Garavani pelo olhar de Joana Vasconcelos",
+     "url": "https://maat.pt/en/news/venus-valentino-garavani-through-eyes-joana-vasconcelos-maat-october"
+    },
+    {
+     "nome": "Time Out Lisboa – A alta-costura de Valentino chegou ao MAAT (1 out.)",
+     "url": "https://www.timeout.pt/lisboa/pt/noticias/a-alta-costura-de-valentino-chegou-ao-maat-e-trouxe-pecas-de-joana-vasconcelos-100126"
+    },
+    {
+     "nome": "musa.guide – exposições em Lisboa em novembro de 2026",
+     "url": "https://www.musa.guide/en/discover/lisbon/exhibitions/november-2026"
+    },
+    {
+     "nome": "PBS NewsHour (AP) – obituário de Valentino (19 jan.)",
+     "url": "https://www.pbs.org/newshour/arts/valentino-iconic-italian-designer-known-for-glamorous-gowns-dies-at-93"
+    },
+    {
+     "nome": "FashionUnited – Valentino, o costureiro romano que amava o vermelho",
+     "url": "https://fashionunited.com/news/people/valentino-the-roman-couturier-who-loved-red/2026012070102"
+    },
+    {
+     "nome": "Otago Daily Times – «Emperor» Valentino, who painted fashion red, dies",
+     "url": "https://www.odt.co.nz/lifestyle/fashion/emperor-valentino-who-painted-fashion-red-dies"
+    }
+   ],
+   "nota": "O número de peças de Valentino na exposição varia: o MAAT indica cerca de 30; a Time Out fala de mais de 40 criações. O ano de fundação da casa também diverge (1959 na AP/PBS; 1960 na FashionUnited e no Otago Daily Times). A data exata da morte não é indicada nas fontes consultadas, que referem o anúncio da fundação a 19 de janeiro de 2026. A história da origem do vermelho é a contada pelo próprio Valentino, segundo o Otago Daily Times. O horário e o preço do MAAT vêm da Time Out (1 de outubro); não foi confirmado se a terça-feira é dia de encerramento. A página da imagem no Wikimedia Commons não pôde ser aberta diretamente (o ficheiro surge nos resultados de pesquisa do Commons).",
+   "imagem": {
+    "commons": "Valentino (cropped).jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato do costureiro italiano Valentino Garavani",
+    "legenda": "Valentino Garavani, fundador da casa Valentino (imagem de arquivo)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que a primeira fotografia a cores, de 1861, é a de uma fita escocesa — e que só resultou, em parte, por acaso?",
+   "texto": [
+    "A 17 de maio de 1861, numa conferência sobre a teoria das cores na Royal Institution, em Londres, o físico escocês James Clerk Maxwell projetou numa tela a imagem de uma fita de tecido axadrezado, um tartan, com as suas cores. É considerada a primeira fotografia a cores da história. Maxwell não era fotógrafo: quem fez as imagens foi Thomas Sutton, fotógrafo profissional e editor da revista Photographic Notes, mais conhecido por ter inventado uma das primeiras máquinas reflex de objetiva única. Maxwell queria demonstrar uma ideia que defendia desde a década de 1850: que o olho humano tem três tipos de recetores e que, misturando apenas vermelho, verde e azul, se podem reproduzir as outras cores.",
+    "O método era engenhoso. Sutton fotografou a fita três vezes, cada uma através de um filtro líquido de cor diferente — vermelho, verde e azul —, e fez três diapositivos a preto e branco. Na conferência, cada diapositivo foi projetado com uma lanterna mágica através do mesmo filtro com que tinha sido feito, e as três imagens foram sobrepostas na tela. É o princípio da síntese aditiva, o mesmo que hoje usam os ecrãs de telemóveis, televisores e computadores, que formam todas as cores com pontos vermelhos, verdes e azuis.",
+    "O surpreendente é que, com os materiais da época, a experiência não devia ter funcionado. As placas de colódio húmido que Sutton usava eram sensíveis sobretudo ao azul, quase nada ao verde e praticamente cegas ao vermelho. Em 1961, cem anos depois, o investigador Ralph Evans, da Kodak, explicou o mistério na Scientific American: as partes vermelhas da fita refletiam também luz ultravioleta, que o filtro vermelho deixava passar e a que as placas eram sensíveis — o vermelho foi, afinal, registado por acaso. Em 2021, uma equipa da Universidade do Oeste de Inglaterra, em Bristol, recriou a experiência com colódio húmido e concluiu que a imagem projetada devia ser bastante azulada, longe de uma fotografia a cores completa; Maxwell, desiludido com o pouco eco que teve, mencionou-a apenas numa nota de rodapé.",
+    "Mesmo imperfeita, a demonstração de Maxwell lançou as bases de quase toda a fotografia a cores que se seguiu, das placas Autochrome dos irmãos Lumière, em 1907, à película Kodachrome e aos sensores das máquinas digitais. Sutton publicou um breve relato em junho de 1861 e nunca mais voltou ao assunto. Os diapositivos originais sobreviveram e a reconstituição digital da fita, que circula hoje em livros e na internet, é uma das imagens mais famosas da história da fotografia — tirada por um físico que nunca se considerou fotógrafo, com uma máquina que não conseguia ver a cor vermelha."
+   ],
+   "fontes": [
+    {
+     "nome": "Klein, Elter e Trujillo Vazquez (UWE Bristol) – Maxwell's disappointment and Sutton's accident",
+     "url": "https://uwe-repository.worktribe.com/OutputFile/10253233"
+    },
+    {
+     "nome": "History of Information – Maxwell produz a primeira fotografia a cores",
+     "url": "https://www.historyofinformation.com/detail.php?id=3666"
+    },
+    {
+     "nome": "Popular Photography – Color photography turns 150 (2011)",
+     "url": "https://www.popphoto.com/news/2011/05/150-years-ago-first-color-photograph-was-taken"
+    }
+   ],
+   "nota": "O local onde estão hoje os diapositivos originais diverge: o History of Information indica o museu da casa natal de Maxwell, no n.º 14 da India Street, em Edimburgo; o estudo da UWE Bristol diz que estão no Laboratório Cavendish, em Cambridge. As cores dos filtros também variam numa das fontes (vermelho, azul e amarelo na introdução do History of Information). A atribuição da explicação do ultravioleta a Ralph Evans, da Kodak, vem do estudo da UWE Bristol (que cita a Scientific American de 1961). As referências à Autochrome (1907) e à Kodachrome são contexto geral, não verificado nas fontes desta peça. A página da imagem no Wikimedia Commons não pôde ser aberta diretamente (o ficheiro surge nos resultados de pesquisa do Commons).",
+   "imagem": {
+    "commons": "Tartan Ribbon.jpg",
+    "tipo": "obra",
+    "alt": "Fotografia a cores de uma fita de tartan, com riscas vermelhas, verdes e azuis",
+    "legenda": "A fita de tartan fotografada por Thomas Sutton para James Clerk Maxwell em 1861, considerada a primeira fotografia a cores (domínio público)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Teatro Praga: o coletivo lisboeta que há 30 anos trabalha sem encenador e agora põe a água a contar a sua própria história no CCB",
+   "ficha": {
+    "Origem": "1995, Lisboa (o nome terá sido escolhido num café da Avenida de Roma); gere desde 2015 o espaço Rua das Gaivotas 6, na antiga escola primária do Palácio Alarcão",
+    "Área": "Teatro, performance, música, artes visuais e edição (chancela ed._____, com a Sistema Solar)",
+    "Em cena": "«Para Uma Breve História da Água», CCB – Pequeno Auditório, Lisboa, 28 de novembro a 6 de dezembro (sábados 19h, domingos 17h, quarta a sexta 20h; sessão de 6 de dezembro com interpretação em Língua Gestual Portuguesa)"
+   },
+   "texto": [
+    "A 28 de novembro, o Teatro Praga estreia no Pequeno Auditório do Centro Cultural de Belém, em Lisboa, «Para Uma Breve História da Água», o primeiro espetáculo de um ciclo dedicado aos elementos, «Para Uma Breve História dos Elementos». A água é narradora e protagonista e os seres humanos aparecem apenas como «convidados»; em vez de discutir medidas ambientais ou dar lições, o coletivo propõe uma abordagem de ficção, a partir de uma teoria antiga e ultrapassada mas que continua a marcar a forma como pensamos o mundo. O texto é de André e. Teodósio e José Maria Vieira Mendes e a música original de Alex D'Alva Teixeira. Há sessões até 6 de dezembro, e a de domingo, 6, tem interpretação em Língua Gestual Portuguesa.",
+    "O Teatro Praga nasceu em 1995, em Lisboa, e segundo Pedro Penim, o único dos atuais membros que já estava no grupo nessa altura, o nome foi escolhido num café da Avenida de Roma, quando foi preciso batizar um espetáculo. André e. Teodósio juntou-se em 2000, José Maria Vieira Mendes em 2007, e Cláudia Jardim faz também parte do núcleo. A marca da companhia é ser um coletivo sem encenador: os membros dividem e trocam entre si as funções de criação, e cada espetáculo é pensado como algo irrepetível, que mistura teatro, dança, música, artes visuais e vídeo e põe em causa as convenções do palco e da relação com o público.",
+    "Ao longo de três décadas, o Praga construiu uma linguagem própria, irreverente e cheia de referências à cultura popular e ao cânone. Fez uma série de espetáculos sobre o festival da Eurovisão (2005–2010), revisitou Shakespeare em «Sonho de Uma Noite de Verão» (CCB, 2010), a peça de Wedekind em «Despertar da Primavera», e estreou «Zululuzu» (2016), sem esquecer «Tropa Fandanga» (2014), criado com o Teatro Nacional D. Maria II. Os temas recorrentes são a política, as questões de género e a fronteira entre a chamada alta e baixa cultura, e o grupo já se apresentou em vários países da Europa, em Israel, no Brasil, na China e em Cabo Verde. Este ano levou ainda ao MAAT visitas-performance a uma exposição da coleção da Fundação EDP, conduzidas por Cláudia Jardim e Diogo Bento.",
+    "A relevância do Praga vai além dos próprios espetáculos. Desde 2015 gere a Rua das Gaivotas 6, num edifício do século XVI no bairro de Santa Catarina, que foi durante cerca de 50 anos uma escola primária, e que é hoje um espaço de apresentação de artes performativas, artes visuais, literatura, cinema e oficinas — e, sobretudo, um lugar onde artistas e companhias sem sala nem financiamento podem mostrar trabalho. A companhia tem também uma chancela editorial, a ed._____, com a editora Sistema Solar, e dedicou ciclos a recuperar performances de outros criadores que ajudaram a formá-la. Num meio em que muitas estruturas independentes sobrevivem com dificuldade, o Praga é um dos exemplos mais duradouros de que um coletivo pode manter uma identidade experimental e, ao mesmo tempo, ocupar os grandes palcos do país."
+   ],
+   "fontes": [
+    {
+     "nome": "Observador – Seis espetáculos para ver em novembro (2 nov.)",
+     "url": "https://observador.pt/2026/11/02/seis-pecas-para-ver-em-novembro/"
+    },
+    {
+     "nome": "Viral Agenda – «Para Uma Breve História da Água»",
+     "url": "https://www.viralagenda.com/pt/events/1823850/para-uma-breve-historia-da-agua"
+    },
+    {
+     "nome": "MAAT – O Praga no museu: visita-performance",
+     "url": "https://maat.pt/en/event/praga-museum-guided-tour-performance"
+    },
+    {
+     "nome": "Observador – entrevista a Pedro Penim (2017)",
+     "url": "https://observador.pt/especiais/pedro-penim-se-ha-coisa-que-nao-posso-ser-e-um-jovem-encenador/"
+    },
+    {
+     "nome": "Plataforma Portuguesa de Artes Performativas – biografia do Teatro Praga (2013)",
+     "url": "https://www.portugueseplatform.pt/2013/shows/11_praga_bio.html"
+    },
+    {
+     "nome": "Plataforma Portuguesa de Artes Performativas – biografia do Teatro Praga (2017)",
+     "url": "https://www.portugueseplatform.pt/2017/program/15_teatro_praga_bio.html"
+    },
+    {
+     "nome": "Open House Lisboa – Rua das Gaivotas 6",
+     "url": "https://www.trienaldelisboa.com/ohl/en/espaco/rua-das-gaivotas-6-teatro-praga-2/"
+    },
+    {
+     "nome": "Time Out Lisboa – Os Praga cresceram com estas performances (2017)",
+     "url": "https://www.timeout.pt/lisboa/pt/blog/os-praga-cresceram-com-estas-performances-e-agora-agradecem-lhes-070417"
+    }
+   ],
+   "nota": "A página do espetáculo no site do CCB não foi encontrada; datas e horários vêm do Viral Agenda (que também mostra, por erro, uma data de 5 de novembro e a indicação «evento terminado») e as datas de 28 de novembro a 4 de dezembro do Observador; o preço não foi confirmado. Os autores do texto e da música vêm do Observador. A data de 2015 para a Rua das Gaivotas 6 corresponde à reabilitação do edifício, segundo o Open House Lisboa; não foi confirmado o ano exato em que o Praga começou a geri-lo. A participação do D. Maria II em «Tropa Fandanga» baseia-se no Observador (2017), que refere convites do Teatro Nacional. Não foi encontrada no Commons uma fotografia do Teatro Praga; a imagem é ilustrativa e a sua página no Commons não pôde ser aberta diretamente.",
+   "imagem": {
+    "commons": "Centro Cultural de Belém, Lisboa 01.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Edifício do Centro Cultural de Belém, em Lisboa",
+    "legenda": "O Centro Cultural de Belém, onde o Teatro Praga estreia «Para Uma Breve História da Água» (imagem ilustrativa; não mostra o espetáculo)"
+   }
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos a 13 de novembro na agenda da Casa da Música, na Agenda Porto da Câmara Municipal e nas páginas do Teatro Municipal do Porto, do Batalha Centro de Cinema, do Cinema Trindade e de Serralves (horário do Auto da Barca do Inferno, do TNSJ, confirmado na Time Out Porto). Os trabalhadores da Casa da Música estão em greve até sábado, 14 de novembro, convocada pelo Cena-STE sem serviços mínimos. À data da consulta, a casa não publicara qualquer aviso de cancelamento: a sessão gratuita Jam Amazónico, no Café, continua na agenda oficial para sexta-feira (embora não conste da página do festival Floresta do Amazonas), tal como o concerto da Orquestra Sinfónica de sábado às 18:00; o Clubbing Amazónico de sexta-feira só aparece em agendas de terceiros, pelo que não o incluímos. A listagem geral do Teatro Municipal do Porto apresentava datas e horas diferentes das páginas de cada espetáculo; seguimos as páginas dos espetáculos. Onde se lê «Por confirmar», o dado não estava na fonte: confirma na ligação antes de sair.",
+ "agenda": [
+  {
+   "dia": "2026-11-13",
+   "eventos": [
+    {
+     "nome": "Ópera à Moda do Porto (FIATO)",
+     "descricao": "O Festival Internacional de Artes e Ópera do Porto leva pequenas cenas de ópera a espaços do quotidiano da cidade; na sexta-feira, o palco é o Mercado do Bolhão.",
+     "horario": "11:00",
+     "tipo": "Ópera / Rua",
+     "local": "Mercado do Bolhão, Rua Formosa, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.agenda-porto.pt/en/evento/fiato-opera-a-moda-do-porto/",
+     "ligacao": "Agenda Porto",
+     "nota": "Segunda sessão às 16:00. O ciclo continua a 14 (ViaCatarina), 15 (Aeroporto do Porto), 16 (Ribeira), 17, 18 e 21 de novembro. Duração não indicada."
+    },
+    {
+     "nome": "Jam Amazónico no Café",
+     "descricao": "Sessão informal e próxima do público no prolongamento do festival Floresta do Amazonas, com Puwewere Puyanawa, MIND, Gang do Eletro e, pela madrugada dentro, Selecta Alice.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Café Casa da Música, Av. da Boavista, 604-610, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://casadamusica.com/en/event/jam-amazonico-no-cafe-2/?selected_session=60784",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Puwewere Puyanawa às 21:00, MIND às 21:45, Gang do Eletro às 23:15, Selecta Alice às 00:45. Dia de greve dos trabalhadores da Casa da Música, sem serviços mínimos: a sessão continua na agenda oficial e sem aviso de alteração, mas não figura na página do festival — confirmar antes de ir."
+    },
+    {
+     "nome": "Auto da Barca do Inferno, de Gil Vicente",
+     "descricao": "A encenação de Marta Pazos faz do cais vicentino uma festa de luz, música e movimento, com as almas a disputar o destino entre o Anjo e o Diabo.",
+     "horario": "21:00",
+     "tipo": "Teatro",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "7 € a 16,80 €",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Única sessão da semana em horário noturno (às sextas, 21:00). Hora e preço segundo a Time Out Porto; a página do TNSJ não pôde ser consultada. Em cena até 13 de dezembro. Lugares disponíveis por confirmar."
+    },
+    {
+     "nome": "Elephant, de Gus Van Sant",
+     "descricao": "Sessão especial do filme de 2003, inspirado no massacre de Columbine, integrada num ciclo do projeto Saúde Mental, Estigma e Resiliência (SER).",
+     "horario": "21:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/elephant-1784299891842/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/16, 81 minutos, versão original em inglês com legendas em português (também legendagem para surdos). Hora confirmada no calendário do Batalha. A página não indica preço; as sessões Batalha custam 5 €, mas esta é uma sessão de um projeto externo."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-14",
+   "eventos": [
+    {
+     "nome": "Novos Talentos: Gil Brito (piano)",
+     "descricao": "Pianista portuense de 11 anos, vencedor do Got Talent Portugal 2025, toca Liszt, Chopin, Debussy e compositores portugueses como António Fragoso e Óscar da Silva.",
+     "horario": "15:30",
+     "tipo": "Música clássica",
+     "local": "Teatro Rivoli (Pequeno Auditório), Praça D. João I, Porto",
+     "preco": "5 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/gil-brito-piano/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/6, 45 minutos. Às 17:00, na mesma sala e ao mesmo preço, toca Gabriel Beck (Beethoven, Liszt e Chopin). Bilhetes na BOL. A listagem geral do TMP apontava outra sala e hora; seguimos a página do concerto."
+    },
+    {
+     "nome": "Lançamento do livro «Pioneiras do Cinema Português»",
+     "descricao": "Apresentação do livro sobre doze mulheres que fizeram cinema em Portugal, do mudo a meados dos anos 1960, com o coordenador Ricardo Vieira Lisboa e os autores Ana Sofia Pereira, Luísa Sequeira e Paulo Cunha.",
+     "horario": "17:00",
+     "tipo": "Conversa / Livro",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/apresentacao-do-livro-pioneiras-do-cinema-portugues/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "Inclui a projeção de «Roteiros Líricos do Douro», de Maria Emília Castelo Branco. Hora segundo o calendário do Batalha (a página do evento não a indica); duração por confirmar."
+    },
+    {
+     "nome": "Mimì metallurgico ferito nell'onore, de Lina Wertmüller",
+     "descricao": "Sátira de 1972 sobre um operário siciliano que perde emprego, mulher e casa por recusar apoiar o candidato da Máfia, num retrato cómico da corrupção e do orgulho masculino.",
+     "horario": "21:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "5 €",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/mimi-metallurgico-ferito-nellonore-1784126490859/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/16, 112 minutos, legendas em português e inglês. Ciclo «Tesouros do Arquivo». Hora confirmada no calendário do Batalha; preço segundo a tabela da bilheteira para sessões Batalha (50% de desconto para estudantes, maiores de 65, desempregados e titulares do Porto.card)."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-15",
+   "eventos": [
+    {
+     "nome": "Les Parents terribles, de Jean Cocteau",
+     "descricao": "Drama familiar de 1948 sobre ciúme, dependência e manipulação: quando Michel anuncia que vai casar com Madeleine, velhos segredos ameaçam a casa.",
+     "horario": "11:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/les-parents-terribles-1784228583016/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/12, 105 minutos, legendas em português. Ciclo «Matinés do Cineclube». Hora confirmada no calendário do Batalha; a página não indica preço."
+    },
+    {
+     "nome": "Amor de Perdição, pela companhia Inquieta (FIATO)",
+     "descricao": "Ópera a partir de Camilo Castelo Branco em que Teresa, Simão e Mariana, presos aos sentimentos, perguntam se o amor é prisão ou liberdade; três solistas que também fazem de coro.",
+     "horario": "17:00",
+     "tipo": "Ópera",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/evento/fiato-amor-de-perdicao/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6, até às 18:10. Integrada no Festival Internacional de Artes e Ópera do Porto (13 a 21 de novembro). A Agenda Porto não indica preço; mais informação em fiato.pt (não consultado)."
+    },
+    {
+     "nome": "Brigadoon (A Lenda dos Beijos Perdidos), de Vincente Minnelli",
+     "descricao": "Musical de 1954 em que dois caçadores descobrem uma aldeia escocesa que só aparece um dia por século; terceira sessão da retrospetiva e carta branca de Miguel Gomes.",
+     "horario": "17:00",
+     "tipo": "Cinema",
+     "local": "Fundação de Serralves (Casa do Cinema Manoel de Oliveira), Rua D. João de Castro, 210, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1511-a-lenda-dos-beijos-perdidos/",
+     "ligacao": "Serralves",
+     "nota": "108 minutos. A página só indica preços reduzidos: 3 € para estudantes/jovens e maiores de 64, 1,5 € para Amigos de Serralves; preço normal por confirmar. Classificação etária não indicada."
+    },
+    {
+     "nome": "Marina Herlop – Dja Dja",
+     "descricao": "A pianista, compositora e cantora de Barcelona estreia ao vivo o novo álbum, uma peça única inspirada na «jornada do herói» de Joseph Campbell, agora com metais e novas texturas.",
+     "horario": "19:30",
+     "tipo": "Música",
+     "local": "Teatro Campo Alegre (Auditório), Rua das Estrelas, Porto",
+     "preco": "9 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/marina-herlop-dja-dja/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/6, 1 hora. Coapresentação com a Culturgest. Bilhetes na BOL. A listagem geral do TMP indicava 16 de novembro; a página do concerto e a Songkick indicam domingo, 15."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-16",
+   "eventos": [
+    {
+     "nome": "Ópera à Moda do Porto (FIATO) na Ribeira",
+     "descricao": "As cenas de ópera ao ar livre do FIATO descem à Ribeira, numa iniciativa que leva o género a quem não costuma ir à ópera.",
+     "horario": "15:00",
+     "tipo": "Ópera / Rua",
+     "local": "Ribeira do Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.agenda-porto.pt/en/evento/fiato-opera-a-moda-do-porto/",
+     "ligacao": "Agenda Porto",
+     "nota": "Segunda sessão às 17:00. Ponto exato da Ribeira e duração não indicados; sessões ao ar livre podem depender do tempo."
+    },
+    {
+     "nome": "O Espírito da Colmeia, de Víctor Erice, com o podcast Noites de Cabíria ao vivo",
+     "descricao": "Na Castela do pós-guerra, uma menina fica assombrada pelo «Frankenstein» que vê numa sessão de cinema ambulante; a seguir à projeção do clássico de 1973, gravação ao vivo do podcast de cinema Noites de Cabíria.",
+     "horario": "21:30",
+     "tipo": "Cinema / Conversa",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "Por confirmar",
+     "url": "https://cinematrindade.pt/en/films/o-espirito-da-colmeia",
+     "ligacao": "Cinema Trindade",
+     "nota": "M/12, 1h37 (fim do filme às 23:07). Conversa com Daniel Marques Pinto, Francisco Noronha e Pedro Ludgero, segundo a Agenda Porto. O site do Trindade não indica preço; bilhetes na página do filme."
+    },
+    {
+     "nome": "Luísa Sobral – Cartas de Desamor",
+     "descricao": "A cantora e compositora apresenta o oitavo álbum, em que se aproxima da música tradicional portuguesa sem largar a canção de autor, com «Felicidade» como primeiro single.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "25 € a 35 €",
+     "url": "https://casadamusica.com/en/event/luisa-sobral-2/?selected_session=52959",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Filas A–L 35 €, M–U 30 €, UU–YY 25 €; 25% de desconto para Amigos. Promotor: Bairro da Música. Fora do período de greve; sem aviso de alteração."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Jensen Huang demitiu-se da liderança da Nvidia, sem razões no comunicado, depois de uma semana de escândalo; a diretora financeira Colette Kress assume interinamente.",
+   "noticia": 7
+  },
+  {
+   "texto": "Depois de Putin, os enviados dos EUA encontraram-se com Zelensky em Dublin e anunciaram que representantes europeus vão participar na próxima ronda de negociações; o Kremlin não confirmou.",
+   "noticia": 9
+  },
+  {
+   "texto": "O Presidente da República recebe hoje em Belém as acampadas pela habitação, que lhe pedem para travar a nova lei das rendas.",
+   "noticia": 13
+  },
+  {
+   "texto": "O INE confirmou uma inflação de 3,8% em outubro, a mais alta desde maio de 2023, puxada pela energia.",
+   "noticia": 14
+  },
+  {
+   "texto": "Polícias de nove países, com o apoio da Europol, desligaram 235 servidores de três famílias de programas maliciosos usados para preparar ataques de ransomware.",
+   "noticia": 2
+  },
+  {
+   "texto": "Na Cultura, «Ebenezer», de Ti West, com Johnny Depp, e Valentino, o costureiro do vermelho, em diálogo com Joana Vasconcelos no MAAT.",
+   "ancora": "cultura"
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Sexta, 13 nov.",
+   "texto": "Noite de foguetões: o Vulcan leva 40 satélites da Amazon Leo (17h54 em Lisboa) e a Starship tenta o voo 15 (janela a partir das 22h45), se não houver adiamentos.",
+   "noticia": 17
+  },
+  {
+   "quando": "Terça, 17 nov.",
+   "texto": "A Nvidia apresenta os resultados trimestrais, os primeiros sem Jensen Huang na liderança.",
+   "noticia": 7
+  },
+  {
+   "quando": "Até sexta, 20 nov.",
+   "texto": "A COP31 continua em Antália, na Turquia, com as negociações finais marcadas para o último dia."
+  },
+  {
+   "quando": "Terça, 24 nov.",
+   "texto": "Votação final global do Orçamento do Estado para 2027 na Assembleia da República."
+  }
+ ],
+ "linkedin_abertura": "Jensen Huang, o rosto da revolução dos chips de IA, deixou a liderança da Nvidia com efeitos imediatos; o comunicado não dá razões e a sucessão está em aberto."
+}
