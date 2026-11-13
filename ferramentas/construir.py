@@ -720,7 +720,9 @@ def texto_linkedin(data, c):
     if c.get("acompanhar"):
         a = c["acompanhar"][0]
         linhas += [f"📅 A acompanhar ({a['quando']}): {a['texto']}", ""]
-    linhas += ["Também nesta edição: cultura, agenda do Porto, Sudoku e caça-palavras.", "",
+    jp = BASE / "jogos" / f"{data}.json"
+    jogos = descricao_jogos(json.loads(jp.read_text())) if jp.exists() else "Sudoku e caça-palavras"
+    linhas += [f"Também nesta edição: cultura, agenda do Porto, {jogos}.", "",
                f"👉 Edição completa: {URL_SITE}{data}/", "", ASSINATURA_LI, "", HASHTAGS_LI]
     txt = "\n".join(linhas)
     if len(txt) > 2900:

@@ -10,7 +10,7 @@ Em 2 minutos:
 
 📅 A acompanhar (Sexta, 13 nov.): Noite de foguetões: o Vulcan leva 40 satélites da Amazon Leo (17h54 em Lisboa) e a Starship tenta o voo 15 (janela a partir das 22h45), se não houver adiamentos.
 
-Também nesta edição: cultura, agenda do Porto, Sudoku e caça-palavras.
+Também nesta edição: cultura, agenda do Porto, 2048 e Sudoku.
 
 👉 Edição completa: https://mendesmaya.github.io/jornal/2026-11-13/
 
