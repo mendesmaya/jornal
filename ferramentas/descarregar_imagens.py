@@ -50,12 +50,34 @@ def info_commons(nome):
     return None
 
 
+def aplicar(doc, item, c, en=False):
+    """Atualiza no HTML o src local e os créditos de uma imagem (en=True: página AAAA-MM-DD/en/, em inglês)."""
+    f, n = item["ficheiro"], f'{item["id"]:02d}'
+    pre = "../" if en else ""
+    if c["estado"] in ("ok", "ok-externo"):
+        doc = re.sub(rf'(<img id="img-{n}" src=")[^"]*(")', rf'\g<1>{pre}assets/{f}\g<2>', doc)
+    if c["estado"] == "ok":
+        a, l, o = ("Author", "Licence", "source") if en else ("Autoria", "Licença", "origem")
+        novo = (f'{a}: {html.escape(c["autor"])} · {l}: {html.escape(c["licenca"])} · '
+                f'<a href="{html.escape(c["origem"])}" rel="noopener">{o}</a>')
+        doc = re.sub(rf'(<span class="cred" id="cred-{n}">).*?(</span></figcaption>)', lambda m: m.group(1) + novo + m.group(2), doc, flags=re.S)
+    elif c["estado"] == "falhou":
+        t1 = "Newspaper illustration (original image unavailable)" if en else "Ilustração do jornal (imagem original indisponível)"
+        t2 = "Graphic illustration by O Dia em Perspetiva, free to use." if en else "Ilustração gráfica de O Dia em Perspetiva, de uso livre."
+        doc = re.sub(rf'(<img id="img-{n}" src=")[^"]*(")', rf'\g<1>{pre}{item["reserva"]}\g<2>', doc)
+        doc = re.sub(rf'(<span class="tipo-img" id="tipo-{n}">).*?(</span>)', rf'\g<1>{t1}\g<2>', doc)
+        doc = re.sub(rf'(<span class="cred" id="cred-{n}">).*?(</span></figcaption>)', rf'\g<1>{t2}\g<2>', doc, flags=re.S)
+    return doc
+
+
 for man in sorted(raiz.glob("20??-??-??/assets/imagens.json")):
     assets = man.parent
     pagina = assets.parent / "index.html"
     cp = assets / "creditos.json"
     creditos = json.loads(cp.read_text()) if cp.exists() else {}
     doc = pagina.read_text()
+    pagina_en = assets.parent / "en" / "index.html"
+    doc_en = pagina_en.read_text() if pagina_en.exists() else None
     alterou = False
     for item in json.loads(man.read_text()):
         f = item["ficheiro"]
@@ -81,20 +103,14 @@ for man in sorted(raiz.glob("20??-??-??/assets/imagens.json")):
                 creditos[f] = {"estado": "ok-externo"}
             else:
                 creditos[f] = {"estado": "falhou", "motivo": "download falhou"}
-        n = f'{item["id"]:02d}'
         c = creditos[f]
-        if c["estado"] in ("ok", "ok-externo"):
-            doc = re.sub(rf'(<img id="img-{n}" src=")[^"]*(")', rf'\g<1>assets/{f}\g<2>', doc)
-        if c["estado"] == "ok":
-            novo = (f'Autoria: {html.escape(c["autor"])} · Licença: {html.escape(c["licenca"])} · '
-                    f'<a href="{html.escape(c["origem"])}" rel="noopener">origem</a>')
-            doc = re.sub(rf'(<span class="cred" id="cred-{n}">).*?(</span></figcaption>)', lambda m: m.group(1) + novo + m.group(2), doc, flags=re.S)
-        elif c["estado"] == "falhou":
-            doc = re.sub(rf'(<img id="img-{n}" src=")[^"]*(")', rf'\g<1>{item["reserva"]}\g<2>', doc)
-            doc = re.sub(rf'(<span class="tipo-img" id="tipo-{n}">).*?(</span>)', r'\g<1>Ilustração do jornal (imagem original indisponível)\g<2>', doc)
-            doc = re.sub(rf'(<span class="cred" id="cred-{n}">).*?(</span></figcaption>)', r'\g<1>Ilustração gráfica de O Dia em Perspetiva, de uso livre.\g<2>', doc, flags=re.S)
+        doc = aplicar(doc, item, c)
+        if doc_en is not None:
+            doc_en = aplicar(doc_en, item, c, en=True)
         alterou = True
         print(f, c["estado"])
     if alterou:
         pagina.write_text(doc)
+        if doc_en is not None:
+            pagina_en.write_text(doc_en)
         cp.write_text(json.dumps(creditos, ensure_ascii=False, indent=1))

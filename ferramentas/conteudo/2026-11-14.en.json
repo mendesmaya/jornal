@@ -1,0 +1,1102 @@
+{
+ "data": "2026-11-14",
+ "numero": "022",
+ "resumo": "Europe picks its team for the Ukraine peace talks, Starship reaches orbit but fails to return its booster to the tower, and Seguro does not promise to veto the rent law on the day of the national housing protest.",
+ "tema_palavras": "words in this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "US freezes more than $1.2 billion stolen from Binance and dismantles North Korean fake video-call scheme that netted $400 million",
+   "estado": "Confirmed fact (Department of Justice and FBI announcement) · trail of the remaining funds still being followed; no arrests",
+   "data": "2026-11-12",
+   "texto": [
+    "The US Department of Justice (DOJ) and the FBI announced on Thursday 12 November two actions against cryptocurrency theft by hackers linked to North Korea. Under court order, more than $1.2 billion was seized or frozen out of the roughly $6.3 billion stolen in October from Binance, the world's largest cryptocurrency exchange — an attack the FBI attributes to the TraderTraitor group. On the same day, the FBI revealed it had dismantled the cloud infrastructure of a campaign it calls “FaceStealer”, which is said to have netted more than $400 million in 18 months.",
+    "According to the DOJ, the $1.2 billion is part of $2.7 billion already frozen across several platforms, close to half of the Binance theft. The trail of the rest is still being followed, because the attackers keep moving the funds through cross-chain bridges, mixers and exchanges. The analytics firm Elliptic reported that they created their own worthless cryptocurrencies to push the money through decentralised exchanges, a technique already seen after the Bybit theft in 2025.",
+    "FaceStealer operated from stolen Telegram, LinkedIn, Slack or Discord accounts: the attackers sent meeting invitations to the victim's contacts, drew them into fake Zoom or Teams video calls, where they played recordings of earlier victims and fake videos (deepfakes) of well-known figures, and simulated an audio fault whose “fix” installed programs that stole cryptocurrency. Targets' cameras were secretly recorded to deceive the next victim; the FBI seized more than 900 of these recordings. The targets were mainly cryptocurrency companies and open-source software developers. The FBI says it does not know whether the scheme was used in the Binance attack and advises wariness of unexpected invitations, even from known contacts, and of requests to install something during a call."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Amounts, dates and how FaceStealer worked confirmed by The Record and The Hacker News, both based on the DOJ and FBI announcements. The DOJ press release could not be opened directly. The value of the Binance theft appears as “around 6.3 billion” in The Record; other outlets give slightly different figures. The exact date of the October theft has not been confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "The Record (12 Nov)",
+     "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted"
+    },
+    {
+     "nome": "The Hacker News (13 Nov)",
+     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+    }
+   ],
+   "imagem": {
+    "commons": "J-Edgar-Hoover-FBI-Building-Washington-DC-2014-B.jpg",
+    "tipo": "arquivo",
+    "alt": "Façade of the J. Edgar Hoover Building, FBI headquarters, in Washington",
+    "legenda": "FBI headquarters in Washington (2014); does not show the operation (archive image)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Hackers break into Check Point firewalls through PHP flaws and wipe servers of Israeli organisations",
+   "estado": "Attacks confirmed by Check Point · perpetrators yet to be established; total number of victims not disclosed",
+   "data": "2026-11-13",
+   "texto": [
+    "An as yet unidentified group exploited serious flaws to break into security gateways (firewalls) made by Check Point, one of the brands most used by companies and governments to protect their networks, and in some cases destroyed data, the company itself revealed on Friday 13 November. The attacks began on 30 October against Israeli organisations and spread on 2 November to companies in several countries and sectors. Check Point says it detected exploitation of one of the flaws at “a few dozen” customers.",
+    "The attackers got in through the remote access portal (Mobile Access) via the “PHP2Shell” flaws (CVE-2026-109618 and CVE-2026-109619), two critical vulnerabilities in the PHP language that were patched on 21 October and that the US agency CISA already listed as exploited. They then used a previously unknown flaw in the Gaia system (CVE-2026-123039) to gain full control of the device, installed a discreet backdoor called TSGA, capable of deleting firewall logs, and, in the attacks in Israel, jumped to VMware ESXi servers, where they launched a program that wipes files. The attackers left a note with political messages that rejects any ransom negotiation.",
+    "Check Point links some of the tools to a set of programs that ESET tied to a China-linked group, but says it has no evidence to attribute the attacks with confidence and allows for the possibility of a “false flag” operation. The company urges immediate installation of the November update (Jumbo Hotfix) on all gateways and management servers, starting with those whose portal is exposed to the internet, and says any unexpected SSH connection from a gateway to internal servers should be treated as an intrusion."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Timeline, flaws, tools and recommendations confirmed by BleepingComputer and The Hacker News, both based on the Check Point Research report (which could not be opened directly). The phrase “a few dozen customers” refers to the CVE-2026-123039 flaw, according to The Hacker News; the total number of affected organisations and the countries in the second wave have not been disclosed. Attribution has not been established."
+   },
+   "fontes": [
+    {
+     "nome": "BleepingComputer (13 Nov)",
+     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
+    },
+    {
+     "nome": "The Hacker News (13 Nov)",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+    },
+    {
+     "nome": "Check Point Research (report; not opened)",
+     "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "German parliament gives intelligence services powers to hack and sabotage foreign hackers' servers",
+   "estado": "Law passed by the Bundestag · critics raise the prospect of a constitutional challenge; remaining legislative steps not confirmed",
+   "data": "2026-11-13",
+   "texto": [
+    "The Bundestag, the German federal parliament, approved on Friday 13 November a reform of the intelligence services laws that allows the BND (the foreign intelligence service) not only to monitor threats abroad but to act against them — hacking foreign systems, sabotaging adversaries' supply chains and taking down servers of hacking groups backed by hostile states. The law passed with 309 votes in favour (308, according to The Record), 190 against and 71 abstentions.",
+    "The BfV, the domestic intelligence service, gains more limited covert powers within the country, such as blocking or diverting data traffic, secretly entering homes under certain conditions and investigating organised crime networks that support extremism, but still cannot arrest people or use force. Both agencies will be able to analyse large volumes of data with artificial intelligence and compare faces with images published on the internet, and telecoms operators can be required to “freeze” traffic data. Hacking operations and active measures in Germany need prior authorisation from an independent oversight council, which grows from six to twelve members.",
+    "The interior minister, Alexander Dobrindt, called it the “reform of the century” and rejected accusations that a “secret police” is being created. The opposition says the law erases the separation between police and intelligence services, and critics point out that journalists and lawyers are left with weaker protections than doctors. The German press anticipates a possible battle in the Constitutional Court."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Vote and content of the law confirmed by The Record and the dpa news agency (via AD HOC NEWS). The tallies differ by one vote (308 in favour according to The Record, 309 according to dpa). The date of the vote is inferred from the two reports, published on 13 November. It was not possible to confirm whether the law still has to pass the Bundesrat (the upper house) or when it comes into force."
+   },
+   "fontes": [
+    {
+     "nome": "The Record (13 Nov)",
+     "url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power"
+    },
+    {
+     "nome": "AD HOC NEWS / dpa (13 Nov)",
+     "url": "https://www.ad-hoc-news.de/politik/geheimdienstreform-bundestag-gibt-bnd-und-verfassungsschutz-mehr-macht/70504488"
+    }
+   ],
+   "imagem": {
+    "commons": "Berlin-Reichstags-building.jpg",
+    "tipo": "arquivo",
+    "alt": "The Reichstag building, seat of the Bundestag, in Berlin",
+    "legenda": "The Reichstag, seat of the German parliament, in Berlin; does not show the vote (archive image)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Anthropic IPO six times oversubscribed; banks turn away investors from China and Amodei admits computing capacity “dilemma”",
+   "estado": "Press reports (Bloomberg, Business Insider) · final pricing on 18 Nov and Nasdaq debut on 19 Nov, barring postponement",
+   "data": "2026-11-13",
+   "texto": [
+    "The initial public offering of Anthropic, maker of the Claude assistant, has orders around six times the shares available, according to Bloomberg, and the banks running it are turning away requests from investors in mainland China and Hong Kong, citing US export control rules on defence material (ITAR). On Friday 13 November the chief executive, Dario Amodei, presented the company to investors in a live broadcast with Jamie Dimon, head of JPMorgan, and acknowledged that buying computing capacity is the business's biggest dilemma. The final price is expected to be set on Wednesday 18 November, and the shares start trading on the Nasdaq, under the ticker ANT, on Thursday 19 November.",
+    "According to Business Insider, cited by Azat TV, Amodei explained that the company has to decide years in advance how much computing capacity to reserve, at the risk of overspending or being unable to serve customers. In documents filed with the regulator, Anthropic declared infrastructure commitments of around $900 billion, half of them by 2030; Amodei said the company reserves relatively moderate amounts and buys more on the spot market if demand exceeds forecasts, relying on high margins and ample liquidity.",
+    "Anthropic is selling 825 million shares at between $70 and $78, which could raise up to $64.4 billion, on top of $26 billion in a private placement with companies such as Alphabet, Microsoft, Nvidia and TSMC; in total, it could be the largest stock market listing in history, ahead of SpaceX's. The exclusion of Chinese buyers repeats, according to people involved, what happened in the SpaceX deal; Anthropic did not comment. The company no longer offers its products in China and has blocked access for companies under Chinese control."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The sixfold oversubscription and the refusal of orders from China and Hong Kong come from Bloomberg, as reported by The Decoder (the Bloomberg articles were not opened). Amodei's statements come from Business Insider, according to Azat TV. Offering amounts and timetable (18 and 19 Nov) confirmed by StockAnalysis on the basis of the amended S-1. Anthropic did not comment on the exclusion of Chinese investors; how the ITAR rules specifically apply to this deal has not been explained."
+   },
+   "fontes": [
+    {
+     "nome": "The Decoder – demand (13 Nov)",
+     "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history"
+    },
+    {
+     "nome": "The Decoder – Chinese investors (13 Nov)",
+     "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/"
+    },
+    {
+     "nome": "Azat TV (14 Nov, citing Business Insider)",
+     "url": "https://azat.tv/en/anthropic-ceo-dario-amodei-ipo-compute-uncertainty-valuation/"
+    },
+    {
+     "nome": "StockAnalysis (11 Nov)",
+     "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/"
+    }
+   ],
+   "imagem": {
+    "commons": "Dario Amodei at TechCrunch Disrupt 2023 01.jpg",
+    "tipo": "arquivo",
+    "alt": "Dario Amodei, chief executive of Anthropic, on stage at the TechCrunch Disrupt conference",
+    "legenda": "Dario Amodei at TechCrunch Disrupt in 2023 (archive image)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "OpenAI launches digital wallet so its AI agents can make purchases on users' behalf",
+   "estado": "OpenAI announcement · rollout limited to a small group of Pro subscribers in the US; each purchase requires approval",
+   "data": "2026-11-13",
+   "texto": [
+    "OpenAI launched ChatGPT Wallet on Friday 13 November, a payments wallet that lets its artificial intelligence agents — the “dots” — buy products online on users' behalf. The user saves a card once and approves each purchase with a security check, such as facial recognition or a fingerprint, after reviewing the seller, the items and the total. The feature was developed with American Express, Mastercard and Visa and, for now, is only available to a small group of Pro plan subscribers in the US, aged 18 or over, with a US card and billing address.",
+    "According to OpenAI, the card networks replace the real card number with a payment code (a “token”), so neither the agent nor the shop sees the card details; card rewards and the right to dispute charges are retained. The wallet only works within the Dots agent tool. The company says it will start slowly in order to learn from real use and intends, later on, to allow pre-authorised purchases within spending limits, product categories and time periods set by the user.",
+    "Its reach depends on the shops: some, such as Amazon, block AI agents, and OpenAI has published guidance so that merchants do not bar them by mistake; prices, deliveries and returns remain the shops' responsibility. It is a fresh attempt by OpenAI at commerce, after it abandoned in March the Instant Checkout system, launched in September 2025, in a race that also includes Google, Meta and xAI."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "How it works, partners and conditions confirmed by Khaama Press (based on Reuters), Briefs (based on Bloomberg) and SQ Magazine (based on the OpenAI announcement, which was not opened). The Amazon blocking comes from SQ Magazine and Briefs. The CNBC article on the launch could not be opened; it has not been confirmed whether OpenAI charges any commission per transaction."
+   },
+   "fontes": [
+    {
+     "nome": "Khaama Press (14 Nov, citing Reuters)",
+     "url": "https://www.khaama.com/openai-chatgpt-wallet-ai-shopping/"
+    },
+    {
+     "nome": "Briefs (13 Nov)",
+     "url": "https://www.briefs.co/news/openai-rolls-out-chatgpt-wallet-for-agent-led-checkout/"
+    },
+    {
+     "nome": "SQ Magazine (13 Nov)",
+     "url": "https://sqmagazine.co.uk/openai-launches-chatgpt-wallet-ai-agents/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Claude helps decipher Kurt Gödel's notebooks and reveals hundreds of the logician's unknown theorems",
+   "estado": "Results announced by the researcher (The Guardian) · no scientific paper published and no independent review",
+   "data": "2026-11-13",
+   "texto": [
+    "The Finnish logician Jan von Plato, of the University of Helsinki, used Anthropic's artificial intelligence model Claude to analyse the 16 working notebooks that Kurt Gödel, one of the greatest logicians of the 20th century, wrote in the early 1940s — 1,009 pages of mathematics and logic, largely in a German shorthand that has fallen out of use. According to the account published by The Guardian on Friday 13 November, Claude identified 663 theorems that Gödel proved, sketched or merely imagined, many of them unknown until now.",
+    "The project, funded by the European Union since 2017, had been advancing at about one page a week. In September, von Plato gave Claude his transcriptions and books and, within a few days, received an explanation of about 650 pages, which he says he reviewed page by page. Checked with the formal proof program Coq, about 400 theorems were confirmed as they stood, about 200 needed corrections or additional assumptions and about 50 were false. According to von Plato, the notebooks show that Gödel was “one step away” from proving the independence of the axiom of choice, a result that earned Paul Cohen the Fields Medal in 1966.",
+    "The figures are the researcher's own, and there has been no scientific publication yet nor any data allowing others to repeat the analysis. The logician Joel David Hamkins, of the University of Notre Dame, who spoke to the paper, noted that the similarity with later work shows that Gödel “was on the path”, not that he had the result, and that it will be for historians to divide the credit between the mathematician and the machine."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "All the information comes from Alex Bellos's report in The Guardian (13 Nov), known through excerpts published on Tildes and a summary by ExplainX; the original article could not be opened. The figures (663, 400, 200, 50) are the researcher's and have not been independently verified. The claim that Gödel would have deserved a Fields Medal is von Plato's opinion."
+   },
+   "fontes": [
+    {
+     "nome": "The Guardian (13 Nov, cited)",
+     "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+    },
+    {
+     "nome": "Tildes (excerpts from The Guardian)",
+     "url": "https://tildes.net/~humanities.history/1wwk/ai_helps_unlock_discoveries_hidden_in_g%C3%B6dels_notebooks"
+    },
+    {
+     "nome": "ExplainX",
+     "url": "https://explainx.ai/blog/claude-godel-notebooks-von-plato-663-theorems-coq-what-is-verified-2026"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Communications failure grounds all flights in the US for more than four hours; government says new AI tool was not to blame",
+   "estado": "Confirmed fact (FAA) · technical cause under investigation; cyberattack considered unlikely but not entirely ruled out",
+   "data": "2026-11-13",
+   "texto": [
+    "The US Federal Aviation Administration (FAA) ordered a halt on Friday 13 November to all take-offs at the country's airports, after a communications failure that affected several regional air traffic control centres. The stoppage lasted more than four hours and left thousands of passengers stranded: almost 5,000 flights were cancelled, according to ABC. It was the first nationwide stoppage since January 2023 and had knock-on effects in Mexico, which also temporarily restricted air operations.",
+    "The transportation secretary, Sean Duffy, blamed old equipment: the system's switches and routers, still based on analogue telecommunications, became overloaded and began sending inconsistent data, which made the radars and communications unstable and led the FAA to shut the system down. Duffy asked Congress for $50 billion in emergency funding and said he expected normal service to be restored by Thanksgiving. The homeland security secretary, Markwayne Mullin, said there were no signs of an attack, but did not rule one out completely.",
+    "The failure came shortly after the FAA had expanded SMART, a new artificial intelligence tool that reorganises routes in real time, and Mullin at one point said the cybersecurity agency CISA was examining whether the system had contributed. The company that developed it, Air Space Intelligence, insisted that the stoppage “did not result” from SMART, and Duffy later stated that the tool played no role whatsoever."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Nationwide stoppage and communications failure confirmed by the FAA statement and Al Jazeera; duration, cancellations, Duffy's explanation, the $50 billion request and Mullin's statements come from ABC's live coverage (stations ABC7/ABC30). CISA's review of SMART comes from KPRC; Air Space Intelligence's denial from ABC7. Duffy's statement that SMART played no role was seen only in search result headlines (The Hill, Washington Times), without the articles being opened. The exact time the stoppage began and was lifted has not been confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "FAA – statement (13 Nov)",
+     "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop"
+    },
+    {
+     "nome": "Al Jazeera (13 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue"
+    },
+    {
+     "nome": "ABC30 – live (13–14 Nov)",
+     "url": "https://abc30.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20039384/"
+    },
+    {
+     "nome": "ABC7 – live (13–14 Nov)",
+     "url": "https://abc7news.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20039427/"
+    },
+    {
+     "nome": "KPRC Click2Houston (13 Nov)",
+     "url": "https://www.click2houston.com/news/local/2026/11/13/faa-investigating-whether-new-ai-technology-contributed-to-nationwide-ground-stop/"
+    }
+   ],
+   "imagem": {
+    "commons": "Air traffic controllers at the Washington ARTCC.jpg",
+    "tipo": "arquivo",
+    "alt": "Air traffic controllers in front of radar screens at the Washington control centre",
+    "legenda": "Controllers at the Washington regional air traffic control centre (archive image; does not show the 13 November failure)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Nvidia succession: board reportedly sounded out Arm chief Rene Haas to replace Jensen Huang",
+   "estado": "Financial Times report, unconfirmed · Nvidia says it has not formally contacted any candidate",
+   "data": "2026-11-13",
+   "texto": [
+    "Nvidia's board of directors approached Rene Haas, chief executive of the British company Arm, as a possible successor to Jensen Huang, who resigned on Thursday, according to the Financial Times of Friday 13 November. Haas is one of several names under consideration, and it is not certain that he will receive an offer or that he would accept it. Nvidia replied that it is choosing a recruitment firm, that it has not formally contacted any candidate and that speculating about names is “premature”; Arm did not comment. Colette Kress, the chief financial officer, remains interim leader.",
+    "Haas worked for seven years at Nvidia, where he ran the computing products division, before moving to Arm in 2013; he has led it since 2022 and steered its Nasdaq listing in 2023. Among the other names cited by analysts are Ian Buck, the engineer who created the CUDA platform, and leaders of rival companies such as Lisa Su of AMD. Arm shares closed down about 5% and Nvidia's about 2%; the chipmaker lost about $573 billion in market value over the week, according to Reuters.",
+    "At the same time, Wired reported that some employees are calling for Huang's return: an internal message from a veteran engineer, asking the board to listen to staff, received more than 1,600 comments. Elon Musk said on X that he would sign a petition to that effect. Nvidia, which did not comment on the Wired report, presents its quarterly results on Tuesday 17 November, with Kress already at the helm."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The approach to Haas is a Financial Times report (not consulted directly), relayed by Reuters (via Euronext and Korea Times) and by StockAnalysis; Reuters says it was unable to verify it. The board's response, the closing figures and the weekly loss come from Reuters (Euronext); the employee movement comes from Wired, cited by Reuters. Korea Times reports mid-session falls of more than 5% (Arm) and more than 3% (Nvidia)."
+   },
+   "fontes": [
+    {
+     "nome": "Euronext / Reuters (13 Nov)",
+     "url": "https://live.euronext.com/en/financial-news/nvidia-approaches-arm-ceo-haas-employees-seek-huangs-return-reports-say"
+    },
+    {
+     "nome": "Korea Times (14 Nov)",
+     "url": "https://www.koreatimes.co.kr/world/20261114/nvidia-approached-arm-ceo-haas-to-succeed-huang-ft-reports"
+    },
+    {
+     "nome": "StockAnalysis (13 Nov)",
+     "url": "https://stockanalysis.com/news/nvidia-approaches-arm-ceo-rene-haas/"
+    }
+   ],
+   "imagem": {
+    "commons": "NVIDIA Headquarters.jpg",
+    "tipo": "arquivo",
+    "alt": "Nvidia headquarters in Santa Clara, California",
+    "legenda": "Nvidia headquarters in Santa Clara, California (archive image)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Europe picks team for Ukraine peace talks: UK, France, Germany, Italy and Poland, with the EU institutions",
+   "estado": "Decision announced by António Costa · Kremlin does not commit to a European presence; date of the round to be confirmed",
+   "data": "2026-11-13",
+   "texto": [
+    "European Union leaders decided on Friday 13 November, at an informal summit in Dublin, that Europe will be represented in the next round of negotiations to end the war in Ukraine by a team of five countries — the United Kingdom, France, Germany, Italy and Poland — accompanied by the European institutions. The announcement was made by the President of the European Council, António Costa, who called for Europe to speak “with one voice” and described the solution as “a team effort”. The leaders did not appoint a single envoy, although Ukraine and the US had asked for one.",
+    "According to Euronews, in addition to the five countries, the team will include the European Council, the European Commission and NATO, in a format already used in previous rounds between security advisers. The EU's High Representative for foreign policy, Kaja Kallas, claimed the role of envoy and said that “the Russians don't want me” because of her firm positions; the Commission President, Ursula von der Leyen, did not back her. The German chancellor, Friedrich Merz, asked Washington for “no surprises”, while the Italian prime minister, Giorgia Meloni, argued for a single envoy. The US envoy Jared Kushner said a single European representative would be “a bigger achievement”.",
+    "On the Russian side, the Kremlin spokesman, Dmitry Peskov, said Europe must first show it is willing to contribute to the peace process, and Moscow did not confirm the European participation announced the day before by the US envoys after their meeting with Vladimir Putin. RTÉ reports that the next round is expected to take place in Abu Dhabi next week, but the date has not been officially announced. On the same day, according to Ukraine's emergency services cited by Euronews, Russian drones hit a hospital in central Kyiv, forcing the evacuation of dozens of people, and an attack in Odesa killed two people and injured five."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Team composition (UK, France, Germany, Italy, Poland and the institutions) and statements by Costa, Merz, Meloni, Kallas and Kushner confirmed by Euronews, Al Jazeera and RTÉ. NATO's inclusion appears only in Euronews. The holding of the next round in Abu Dhabi “next week” is mentioned only by RTÉ; Euronews and Al Jazeera give no date. Attacks in Kyiv and Odesa confirmed by Euronews (via Africanews); the Kyiv Post (seen only in search results) also reports two deaths in Odesa."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews (13 Nov)",
+     "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot"
+    },
+    {
+     "nome": "Al Jazeera (13 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice"
+    },
+    {
+     "nome": "RTÉ (13 Nov)",
+     "url": "https://www.rte.ie/news/ireland/2026/1113/1599056-eu-leaders-dublin/"
+    },
+    {
+     "nome": "Euronews via Yahoo – Kallas (13 Nov)",
+     "url": "https://www.yahoo.com/news/politics/articles/kallas-says-russians-dont-want-141304886.html"
+    },
+    {
+     "nome": "Euronews via Africanews – attacks in Kyiv and Odesa (13 Nov)",
+     "url": "https://www.africanews.com/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa/"
+    }
+   ],
+   "imagem": {
+    "commons": "Antonio Costa Portrait 2024 (cropped).jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of António Costa, President of the European Council",
+    "legenda": "António Costa, President of the European Council (archive portrait, 2024; does not show the Dublin summit)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "US denies Iran destroyed a radar in Bahrain; Trump removes Vance from talks and says he does not need a deal",
+   "estado": "Conflicting accounts (Revolutionary Guard vs CENTCOM) · statement by Trump; no independent verification on the ground",
+   "data": "2026-11-13",
+   "texto": [
+    "US Central Command (CENTCOM) denied on Friday 13 November that Iran's Revolutionary Guard had destroyed a US early-warning radar in Bahrain, as Tehran had announced hours earlier. According to CENTCOM, Iran launched two attack drones towards Bahrain, which were shot down by US forces without causing injuries or damage. The Revolutionary Guard had presented the attack as a response to a strike on a telecommunications tower in Sirik, in southern Iran.",
+    "The exchange of accusations comes after President Donald Trump announced on Thursday 12 November that he had removed Vice-President JD Vance from the talks with Iran so that he could focus on investigations into crime and corruption in cities and states run by Democrats. “We don't need a deal with Iran,” Trump wrote on Truth Social, adding that the naval blockade and sanctions remain in place. Vance had led efforts towards a ceasefire for months and, according to the Wall Street Journal, was considering a direct meeting with a senior Iranian official.",
+    "On the Iranian side the messages are contradictory: Foreign Minister Abbas Araghchi said the country is willing to negotiate, while other officials first demand an end to the naval blockade, the release of frozen assets and an end to fighting on all fronts. Qatar and Pakistan continue to mediate. The war began on 28 February with US and Israeli strikes and, according to USA Today, has so far killed 23 US service members."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "CENTCOM's denial (two drones shot down, no damage) confirmed by Anadolu (via Middle East Monitor) and ANI (via The Tribune); Euronews also reported the denial. Vance's removal and Trump's quote confirmed by USA Today (via Yahoo) and Radio Free Europe. It was not possible to verify independently whether there was any damage in Bahrain or who struck Sirik (Iran speaks of an “enemy” attack). Number of service members killed from USA Today only."
+   },
+   "fontes": [
+    {
+     "nome": "Anadolu via Middle East Monitor (13 Nov)",
+     "url": "https://www.middleeastmonitor.com/20261113-centcom-denies-iranian-claim-of-attack-on-us-radar-in-bahrain-says-2-drones-shot-down/"
+    },
+    {
+     "nome": "ANI via The Tribune (13 Nov)",
+     "url": "https://www.tribuneindia.com/news/usa-news/us-centcom-denies-irans-claim-of-destroying-us-radar-in-bahrain-says-two-drones-shot-down"
+    },
+    {
+     "nome": "USA Today via Yahoo (12 Nov)",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-says-deal-iran-not-223633935.html"
+    },
+    {
+     "nome": "Radio Free Europe (13 Nov)",
+     "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html"
+    },
+    {
+     "nome": "Euronews via Yahoo (13 Nov)",
+     "url": "https://ca.news.yahoo.com/irgc-says-destroyed-us-radar-093916562.html"
+    }
+   ],
+   "imagem": {
+    "commons": "January 2025 Official Vice Presidential Portrait of JD Vance (3x4 cropped).jpg",
+    "tipo": "oficial",
+    "alt": "Official portrait of US Vice-President JD Vance",
+    "legenda": "JD Vance, US vice-president, removed from the talks with Iran (official 2025 portrait; does not show the events)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31 ends its first week divided over fossil fuels; Guterres calls for “immediate and drastic” emissions cuts",
+   "estado": "Negotiations under way · first draft of the deal expected on Monday 16 November; scheduled to end on 20 November",
+   "data": "2026-11-13",
+   "texto": [
+    "The UN climate conference in Antalya, Turkey (COP31), ended the first of its two weeks on Friday 13 November divided over the future of oil, gas and coal. At his last press conference at a COP, UN Secretary-General António Guterres called for an “immediate and drastic” reduction in emissions and said the 1.5°C warming limit is still achievable if the big emitters act. The summit is due to end on 20 November.",
+    "On Friday the presidency published a summary of countries' priorities for a final decision, which includes the “transition away from fossil fuels in energy systems” agreed in Dubai in 2023 and dropped from the final texts of the two following COPs, as well as tripling adaptation finance. Turkey wants to put global electrification at the heart of the deal, without requiring the electricity to come from renewables; the EU supports it, but only with clean energy. Saudi Arabia and Russia are resisting targets on fossil fuels and India opposes measures it says would limit its development. The US is absent for the second year running.",
+    "Australia, which is leading the negotiations under a presidency shared with Turkey, is taking countries' input until Saturday night and expects to present a first draft of the political text early next week — possibly on Monday 16 November. According to the think tank E3G, Russia and the Arab Group dispute that there is a mandate for this “cover decision”. Guterres, who leaves office at the end of December, said he remains hopeful and noted that renewables have already moved to the centre of the economy."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Guterres's statements, the positions of Turkey, the EU, Saudi Arabia, Russia and India and the timetable for the draft confirmed by Reuters (via WHTC) and RTÉ. Summary of priorities, end date (20 Nov) and possible draft on 16 Nov reported by The New Arab (with AFP). The Público article (13 Nov) was seen only in search results (page not accessible). The exact date of the draft has not been officially confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via WHTC (13 Nov)",
+     "url": "https://whtc.com/2026/11/13/cop31-talks-face-early-friction-over-future-of-fossil-fuels/"
+    },
+    {
+     "nome": "RTÉ (13 Nov)",
+     "url": "https://www.rte.ie/news/2026/1113/1599060-climate-cop-fossil-fuels/"
+    },
+    {
+     "nome": "The New Arab, with AFP (13 Nov)",
+     "url": "https://newarab.com/news/cop31-deal-wish-list-includes-fossil-fuel-transition"
+    },
+    {
+     "nome": "Público (13 Nov) – seen only in search results",
+     "url": "https://www.publico.pt/2026/11/13/azul/noticia/texto-final-cop31-comeca-forma-combustiveis-fosseis-continuam-dividir-2194858"
+    }
+   ],
+   "imagem": {
+    "commons": "Antalya, Turkey skyline 19 February 2022.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Panoramic view of the city of Antalya, on Turkey's southern coast",
+    "legenda": "Antalya, host city of COP31 (illustrative image from 2022; does not show the conference)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "53 countries and organisations urge Israel to let shelter, fuel and medical supplies into Gaza for the winter",
+   "estado": "Joint statement at the UN · Israel replies that more than 93,000 tents and 8,600 lorries have already entered",
+   "data": "2026-11-13",
+   "texto": [
+    "A coalition of 53 countries and international organisations, led by the United Kingdom, Qatar and Jordan, called on Israel, in a statement read out at the UN in New York on Thursday 12 November, to immediately allow shelter materials, fuel, water, sanitation and health supplies into Gaza for the winter. The signatories also ask for the humanitarian corridors from Egypt and Jordan to operate “fully and predictably”, for the list of permitted “dual-use” goods to be expanded and for journalists and international delegations to be allowed into the territory.",
+    "The statement, also addressed to the new Israeli government expected to be formed in the coming weeks following the elections, warns of the risk of hypothermia, respiratory infections and waterborne diseases. According to the World Health Organization, cited by the Times of Israel, there are 33,000 more cases of acute respiratory infections than in the same period last year, tens of thousands of tents have been flooded and almost a million displaced people live in flood-prone areas.",
+    "Israel replied on Friday 13 November that more than 93,000 tents and more than 8,600 lorries carrying winter supplies have already entered, that it has approved the entry of 16 sewage-cleaning trucks and that it restricts some materials because they could be used by Hamas for military purposes. The office of Prime Minister Benjamin Netanyahu accuses Hamas of failing to meet its commitments under the ceasefire in force since October 2025."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Statement by the 53 signatories, the leaders of the initiative and the demands confirmed by Arab News and the Times of Israel. WHO figures from the Times of Israel only. Israeli response (tents, lorries, sewage trucks) confirmed by Xinhua and, in part, by the Times of Israel. It was not possible to consult the official text of the statement directly on the British government's website."
+   },
+   "fontes": [
+    {
+     "nome": "Arab News (12 Nov)",
+     "url": "https://www.arabnews.com/middle-east/53-countries-at-un-urge-incoming-israeli-government-to-open-up-gaza-for-winter-aid-3011505"
+    },
+    {
+     "nome": "Times of Israel (13 Nov)",
+     "url": "https://www.timesofisrael.com/dozens-of-nations-organizations-demand-israel-let-more-winter-supplies-into-gaza/"
+    },
+    {
+     "nome": "Xinhua (13 Nov)",
+     "url": "https://english.news.cn/20261113/78a7944f015447e992d145b3ea3c355f/c.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Flooded tents of displaced Palestinians due to heavy rain in Deir el-Balah, Gaza Strip.jpg",
+    "tipo": "arquivo",
+    "alt": "Tents of displaced Palestinians flooded by rain in Deir el-Balah, in the Gaza Strip",
+    "legenda": "Flooded tents of displaced people in Deir el-Balah, Gaza (archive image; not from this winter)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Seguro listens to housing protest camps for almost three hours but does not promise to veto the rent law; national housing protest takes to the streets today",
+   "estado": "Meeting held · statements by the President and the movements; veto not committed to; demonstrations scheduled for today",
+   "data": "2026-11-13",
+   "texto": [
+    "The President of the Republic, António José Seguro, received 25 representatives of the protest camps (acampadas) in Porto and Lisbon and of the Casa Para Viver platform at Belém Palace, the presidential residence, on Friday 13 November, in a closed-door meeting that lasted almost three hours, nearly twice as long as planned. Seguro did not commit to vetoing the revision of the rental law, as the movements had asked: he said he has not yet seen the bill, does not even know whether it will reach Belém and that, even if vetoed, parliament can override it. Today, Saturday, the movements take the protest to the streets of around 30 towns and cities, with the main demonstrations at 15:00 at Alameda D. Afonso Henriques in Lisbon and Praça do Marquês in Porto.",
+    "In a statement released in the late afternoon, the Presidency said the head of state is “attentive to the housing crisis” and seeks to listen to and mobilise all actors to resolve it, and that the representatives had raised concerns about legislation, urban policy, policing and protection of the most vulnerable. According to Observador, Seguro described as serious the accounts of the police charge in Porto — including assaults on a journalist and on medical staff, and officers without identification — and asked the protesters for the footage they say they have; he is awaiting the Public Prosecutor's Office (Ministério Público) inquiry and the report of the Prosecutor General's Office (PGR). The PGR announced the same day that it is investigating a plain-clothes PSP (police) officer who displayed a gun in Porto and the throwing of a firecracker in Lisbon.",
+    "The movements spoke of a “political signal” to the government and asked Seguro to mediate a meeting with the prime minister; it is not clear whether the President agreed, but he undertook to pass on their concerns to the government and to act “within his capacities” in the face of threats of reprisals against immigrants taking part in the protests. Luís Montenegro, in Dublin, said the government is open to continuing the dialogue, but through the Secretary of State for Housing and the Ministry of Infrastructure. The revision of the rental regime — a legislative authorisation approved in principle on 30 September, with Chega abstaining — is still being debated in detail in the Assembleia da República (parliament)."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Duration, make-up of the delegation, request for mediation and the movements' statements confirmed by Lusa (Jornal de Negócios, Correio da Manhã); the Presidency's statement cited by DN/Lusa and 24 Notícias, which also carries Montenegro's statements. Seguro's remarks on the veto and the footage are reported only by Observador. Times and venues of today's demonstrations come from the organisers' schedule published by Esquerda.net (12 Nov), whose count of towns does not add up (30 in the headline, 29 in the list). PGR investigation: Lusa's lead only (full text for subscribers). Vote of 30 Sept confirmed by RTP. It was not possible to open Renascença's report on the presidential statement."
+   },
+   "fontes": [
+    {
+     "nome": "Jornal de Negócios/Lusa (13 Nov)",
+     "url": "https://www.jornaldenegocios.pt/economia/habitacao/detalhe/presidente-deu-sinal-politico-e-movimentos-pela-habitacao-pediram-mediacao-com-governo"
+    },
+    {
+     "nome": "Observador (13 Nov)",
+     "url": "https://observador.pt/especiais/seguro-nao-garante-veto-a-lei-das-rendas-da-forca-as-acampadas-e-pede-filmagens-de-carga-policial-no-porto/"
+    },
+    {
+     "nome": "DN/Lusa – Presidency statement (13 Nov)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/pr-recebeu-movimentos-pela-habitao-e-diz-que-quer-mobilizar-todos-os-atores-para-resoluo-da-crise"
+    },
+    {
+     "nome": "24 Notícias (13 Nov)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/presidente-da-republica-atento-a-crise-da-habitacao-montenegro-disponivel-para-continuar-esse-dialogo"
+    },
+    {
+     "nome": "Lusa – prosecutors investigate plain-clothes PSP officer and firecracker (13 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-13/48124619/habitação-mp-investiga-psp-à-paisana-no-porto-e-lançamento-de-petardo-em-lisboa"
+    },
+    {
+     "nome": "Esquerda.net – schedule of demonstrations (12 Nov)",
+     "url": "https://www.esquerda.net/artigo/30-cidades-saem-rua-no-sabado-pelo-direito-habitacao/99474"
+    },
+    {
+     "nome": "RTP – approval in principle (30 Sept)",
+     "url": "https://www.rtp.pt/noticias/politica/parlamento-aprova-nova-lei-do-arrendamento-com-abstencao-do-chega_e1768638"
+    }
+   ],
+   "imagem": {
+    "commons": "Porto Praca D Joao I.JPG",
+    "tipo": "arquivo",
+    "alt": "Praça D. João I, in central Porto",
+    "legenda": "Praça D. João I in Porto, where the housing protest camp began on 10 October (archive image; does not show the protest)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "DBRS keeps Portugal at “A (high)” with a positive outlook; Moody's is next to report",
+   "estado": "Confirmed fact · agency's decision released on Friday; a further upgrade is a possibility, not a decision",
+   "data": "2026-11-13",
+   "texto": [
+    "The credit rating agency Morningstar DBRS on Friday 13 November confirmed Portugal's long-term sovereign debt rating at “A (high)”, with a positive trend, leaving the door open to an upgrade at a future review. The agency justifies the decision by the expected fall in the public debt burden, stronger-than-expected growth and a 2027 budget plan it considers prudent. The short-term rating stayed at “R-1 (middle)”, with a stable trend.",
+    "Public debt fell to 89.2% of GDP in 2025, the first figure below 90% since 2009, and, according to DBRS, could fall below the euro-area average as early as this year, after three years of surpluses and with at least a balanced budget expected for 2026. On the negative side, the agency points to the still-high debt burden, comparatively low GDP per capita and growth potential, the external position and house prices, among the most overvalued in the euro area; geopolitical and trade tensions are the main risk. DBRS says it does not see party fragmentation or the minority government as a threat to fiscal discipline.",
+    "Finance Minister Joaquim Miranda Sarmento said in a statement that the rating reflects the efforts of households and businesses and, at a seminar held by AIP (the Portuguese Industrial Association) in Lisbon on the 2027 State Budget, expressed confidence in further upgrades if debt keeps falling, recalling the five improvements since April 2024. Moody's is due to assess Portugal next week, according to Lusa. The decision comes as the 2027 Budget, approved in principle on 28 October, is being debated in detail."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Decision, grounds and risks confirmed by Lusa (Observador) and Jornal Económico, which carries the debt figures and the comment on the minority government. Minister's statements via Lusa (Observador, Notícias ao Minuto). The timing of the Moody's review comes only from Lusa (Observador), with no exact day. DBRS's own statement was not consulted directly. The approval in principle of the 2027 Budget on 28 October appears in headlines from ECO, RTP and Euronews in search results (ECO link not opened)."
+   },
+   "fontes": [
+    {
+     "nome": "Observador/Lusa (14 Nov)",
+     "url": "https://observador.pt/2026/11/14/dbrs-confirma-rating-de-portugal-em-a-elevado-com-tendencia-positiva-ministro-preve-mais-subidas/"
+    },
+    {
+     "nome": "Jornal Económico (14 Nov)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/dbrs-mantem-rating-de-portugal-em-a-high-e-perspetiva-positiva-devido-a-queda-da-divida-publica/"
+    },
+    {
+     "nome": "Notícias ao Minuto/Lusa (13 Nov)",
+     "url": "https://www.noticiasaominuto.com/economia/3084014/ministro-diz-que-decisao-da-dbrs-reflete-esforco-das-familias-e-das-empresas"
+    },
+    {
+     "nome": "ECO – 2027 Budget approved in principle (28 Oct)",
+     "url": "https://eco.sapo.pt/2026/10/28/orcamento-do-estado-para-2027-aprovado-na-generalidade-com-abstencao-do-ps/"
+    }
+   ],
+   "imagem": {
+    "commons": "Praça do Comércio Lisboa.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Praça do Comércio, in Lisbon",
+    "legenda": "Praça do Comércio in Lisbon, home of the Ministry of Finance (illustrative image)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Rain continues over the weekend, with a yellow warning in the North and Centre on Sunday; Charles set a national record of 502.7 mm in a day in Madeira",
+   "estado": "Record confirmed by IPMA · weekend forecast and warnings, subject to updates",
+   "data": "2026-11-14",
+   "texto": [
+    "The bad weather shows no sign of letting up on the mainland this weekend. For this Saturday, 14 November, IPMA (the Portuguese Institute for Sea and Atmosphere, Portugal's weather service) forecasts rain across the country, heavier and more frequent in the Centre, with the possibility of thunderstorms and sunny spells between showers; in the Azores, all islands are under a yellow warning for rain. On Sunday 15 November the rain will be heavier in the North and Centre, with a yellow warning between 06:00 and 15:00 in districts such as Viana do Castelo, Braga, Porto, Vila Real and Aveiro.",
+    "Temperatures fall slightly: on Saturday, minimums start at 8°C in Guarda and maximums reach 21°C in Setúbal (Lisbon 14–19°C, Porto 13–19°C, Faro 13–20°C); on Sunday, Guarda is expected to have a minimum of 7°C and Lisbon, Santarém and Setúbal a maximum of 20°C. In the South the rain eases on Sunday, but skies stay very cloudy.",
+    "Meanwhile, IPMA confirmed on Friday 13 November that storm Charles broke the national record for rainfall in a single day: the Chão do Areeiro station in Madeira recorded 502.7 millimetres in 24 hours, between 09:00 on 10 November and 09:00 the following day, beating the 497.5 mm measured at the same site on 6 June 2023. More than 90% of that volume fell within 12 hours. The strongest gust reached 136.1 km/h at Chão do Areeiro and, near Madeira airport, 126 km/h exceeded the previous November maximum."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Record and Madeira data confirmed by Observador/Lusa and DN, both based on IPMA's statement. Weekend forecast from Notícias ao Minuto (14 Nov) and O Minho (13 Nov), which cite IPMA; the lists of districts under warning for Sunday do not match (Notícias ao Minuto includes Viseu, O Minho includes Bragança), so only those common to both are given. Time of the warning from O Minho only. It was not possible to consult IPMA's website directly; warnings may change."
+   },
+   "fontes": [
+    {
+     "nome": "Notícias ao Minuto (14 Nov)",
+     "url": "https://www.noticiasaominuto.com/pais/3084079/chuva-ainda-nao-da-treguas-e-ha-alerta-amarelo-no-fim-de-semana"
+    },
+    {
+     "nome": "O Minho (13 Nov)",
+     "url": "https://ominho.pt/vem-ai-muita-chuva-para-o-minho-este-domingo-ipma-ja-emitiu-aviso-amarelo/"
+    },
+    {
+     "nome": "Observador/Lusa (13 Nov)",
+     "url": "https://observador.pt/2026/11/13/mau-tempo-depressao-charles-estabeleceu-novo-recorde-nacional-de-precipitacao-na-madeira/"
+    },
+    {
+     "nome": "Diário de Notícias (13 Nov)",
+     "url": "https://www.dn.pt/sociedade/depresso-charles-trouxe-novo-mximo-nacional-de-precipitao-5027-milmetros-em-24-horas-no-cho-do-areeiro-madeira"
+    }
+   ],
+   "imagem": {
+    "commons": "2016. Pico do Areeiro. Madeira. Portugal '04.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Mountain landscape at Pico do Areeiro, Madeira",
+    "legenda": "The Pico do Areeiro area in Madeira, near the Chão do Areeiro station (illustrative image; does not show the storm)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Portugal play Denmark in Braga today in the first match since Ronaldo's retirement; every player will walk out wearing the number 7 shirt",
+   "estado": "Match scheduled and tribute announced · result not yet known",
+   "data": "2026-11-14",
+   "texto": [
+    "Portugal's national football team face Denmark this Saturday, 14 November, at 19:45 in Braga, in the fifth round of Nations League group A4, in the first match since Cristiano Ronaldo announced the end of his international career. In tribute to the captain, all the Portuguese players will take the field wearing the number 7 shirt. Portugal have already secured a place in the competition's quarter-finals.",
+    "The tribute, approved in advance by UEFA, also includes a symbolic moment in the 7th minute, which fans in the stands can join. The idea came out of a meeting between the president of the Portuguese Football Federation, Pedro Proença, head coach Jorge Jesus and captains Bernardo Silva, Rúben Dias and Bruno Fernandes; the federation has also left Ronaldo's room empty at the Cidade do Futebol, its training centre.",
+    "Ronaldo, 41, announced his departure from the national team on 5 November in a social media video. He bows out with 234 caps and 146 goals since August 2003 — records for the men's national team — and with the titles of Euro 2016 and the 2019 and 2025 Nations Leagues. After Denmark, Portugal play Wales in Cardiff on Tuesday 17 November."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Time, venue, competition and tribute confirmed by Record and Diário do Distrito; the latter cites Record, A Bola and DN, so it is not fully independent. The 7th-minute moment, UEFA approval, empty room, date of the announcement and career figures from Diário do Distrito only. It was not possible to open Observador's report on the tribute (access request unanswered)."
+   },
+   "fontes": [
+    {
+     "nome": "Record (13 Nov)",
+     "url": "https://www.record.pt/futebol/selecoes/amp/todos-com-a-camisola-7-jogadores-da-selecao-nacional-homenageiam-cristiano-ronaldo-no-jogo-com-a-dinamarca"
+    },
+    {
+     "nome": "Diário do Distrito (13 Nov)",
+     "url": "https://diariodistrito.sapo.pt/selecao-nacional-vai-homenagear-cristiano-ronaldo-com-23-camisolas-numero-7-frente-a-dinamarca/"
+    }
+   ],
+   "imagem": {
+    "commons": "Estádio Municipal de Braga 3.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Braga Municipal Stadium, set into a former quarry",
+    "legenda": "Braga Municipal Stadium (illustrative image; sources give Braga as the match venue without naming the stadium)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Starship reaches orbit on Flight 15, but booster fails to return to the tower and falls into the Gulf of Mexico; ship to attempt catch today at 21:20",
+   "estado": "Launch and orbit confirmed · booster catch aborted, cause unexplained · ship catch expected tonight",
+   "data": "2026-11-14",
+   "texto": [
+    "SpaceX launched Starship Flight 15 from Starbase, in southern Texas, on Friday 13 November at 22:47 Lisbon time, and the ship reached orbit and released 26 new-generation Starlink V3 satellites. But the first half of the unprecedented plan to catch both stages with the tower failed: about six and a half minutes after lift-off, the Super Heavy booster was diverted to the Gulf of Mexico instead of returning to the tower's arms. The ship remains in orbit and, if all goes well, will attempt to be caught by the tower today, Saturday, at around 21:20 Lisbon time — it would be the first recovery of a second stage returning from orbit.",
+    "SpaceX did not immediately explain what led it to call off the catch of Booster 22, the first Block 3 booster to attempt a return to the tower. Company commentator Dan Huot acknowledged during the broadcast that he did not yet know why it had not been possible to bring it back. The AP news agency reported that it was an automatic abort and AFP described it falling into the sea in a fireball; Space.com called it a controlled splashdown. Ship 42, for its part, entered an orbit about 275 kilometres high 26 minutes after lift-off, in an insertion SpaceX described as nominal, and three of the satellites carried cameras to inspect the heat shield.",
+    "According to AFP, about seven hours after launch SpaceX said the ship and heat shield were in good condition. The plan calls for 14 orbits of the Earth and a braking burn of about 10 seconds at around 21 hours 36 minutes into the mission, followed by re-entry and return to Starbase about 22 and a half hours after lift-off. The company retains decision points that allow it to shorten the flight and bring the ship down in the Pacific, and there is a back-up splashdown zone in the Gulf of Mexico. At the time of going to press (Saturday morning in Lisbon), the catch attempt had not yet taken place."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Launch time, orbit, satellites, abandonment of the booster catch and expected return time confirmed by Space.com (updated at 00:10 Lisbon time on 14 Nov), AP (via PBS) and AFP (via Free Malaysia Today); GeekWire/Cosmic Log refers to unspecified “safety concerns”. The cause of the booster failure has not been disclosed and sources differ in describing its fall (controlled splashdown vs explosion). The state of the ship after ~7 hours of flight comes only from AFP; the exact time of the catch (21:17 according to Space.com, around 21:20 according to AFP) is a forecast. It was not possible to open the live coverage of CNN or Space.com."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (13 Nov)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+    },
+    {
+     "nome": "AP via PBS NewsHour (13 Nov)",
+     "url": "https://www.pbs.org/newshour/science/spacexs-starship-soars-into-orbit-after-booster-malfunction-thwarts-double-catch-attempt"
+    },
+    {
+     "nome": "AFP via Free Malaysia Today (14 Nov)",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/14/spacex-s-starship-enters-earth-s-orbit-but-booster-catch-aborted"
+    },
+    {
+     "nome": "Cosmic Log (13 Nov)",
+     "url": "https://cosmiclog.com/2026/11/13/starship-soars-but-spacex-misses-out-on-booster-catch/"
+    }
+   ],
+   "imagem": {
+    "commons": "Starship Booster Return on Final Approach (54063904149).jpg",
+    "tipo": "arquivo",
+    "alt": "Starship Super Heavy booster descending beside the launch tower at Starbase, Texas",
+    "legenda": "The Super Heavy booster approaching the tower to be caught on the fifth test flight, in October 2024 (archive image; does not show Flight 15, in which the booster catch was aborted)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Vulcan's return postponed to today at 17:32 due to a nitrogen supply failure; it carries 40 Amazon Leo satellites",
+   "estado": "Launch postponed by one day (confirmed by ULA) · new attempt expected today, 17:32–18:01 Lisbon time",
+   "data": "2026-11-14",
+   "texto": [
+    "United Launch Alliance (ULA) has postponed until today, Saturday 14 November, the return to service of its Vulcan rocket, which had been scheduled for 17:54 Lisbon time on Friday. The new window, at Cape Canaveral, Florida, opens at 17:32 and closes at 18:01 Lisbon time. The delay was caused by a power problem at a nitrogen plant that supplies the launch pad; the company said the rocket and satellites are in good condition. On board are 40 internet satellites for the Amazon Leo constellation, ULA's largest payload ever.",
+    "According to Talk of Titusville, the outage at an Air Liquide plant cut the supply of liquid nitrogen to Launch Complex 41, and the extra day is being used to restore the line; the weather forecast gave a 95% chance of favourable conditions. Vulcan has been grounded since 12 February, when one of its solid-fuel side boosters suffered a nozzle failure about 20 seconds after lift-off; this flight is the first with the redesigned nozzle, and the investigation into that incident is still open. It is also the first flight of Blue Origin's BE-4 engines since a New Glenn exploded on the pad in May.",
+    "If the launch goes well, the satellites will begin separating about 70 minutes later, at an altitude of about 460 kilometres. It is the first of 38 Vulcan missions bought by Amazon, which says a second could follow within weeks. In Europe, the next Ariane 6, carrying 36 Amazon Leo satellites, is scheduled for no earlier than 23 November from Kourou, French Guiana, after a delay of about seven weeks linked to checks on the production line."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Postponement, new time (12:32 EST = 17:32 Lisbon time) and ULA's statement on the vehicle's good condition confirmed by Space.com and Talk of Titusville (13 Nov); the Air Liquide name, the window until 13:01 EST and the 95% forecast come only from Talk of Titusville. Mission background (February failure, redesigned nozzle, BE-4, satellite separation, 38 missions) from Spaceflight Now, whose page did not yet reflect the postponement. Ariane 6 on 23 Nov according to European Spaceflight (15 Oct). At the time of going to press the launch had not yet taken place."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (13 Nov)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
+    },
+    {
+     "nome": "Talk of Titusville (13 Nov)",
+     "url": "https://talkoftitusville.com/2026/11/13/ula-delays-vulcan-amazon-leo-1-until-saturday/"
+    },
+    {
+     "nome": "Spaceflight Now (13 Nov)",
+     "url": "https://spaceflightnow.com/2026/11/13/ulas-vulcan-rocket-plans-return-to-flight-with-launch-of-40-leo-satellites-for-amazon/"
+    },
+    {
+     "nome": "European Spaceflight (15 Oct)",
+     "url": "https://europeanspaceflight.com/arianespace-targets-23-nov-ariane-6-return-following-reported-turbopump-fix/"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Como Roubar Um Banco» (How to Rob a Bank): David Leitch has Nicholas Hoult robbing banks live for social media — with good chases and a satire that stops halfway",
+   "ficha": {
+    "Original title": "How to Rob a Bank (2026)",
+    "Director": "David Leitch; screenplay by Mark Bianculli",
+    "Cast": "Nicholas Hoult, Zoë Kravitz, John C. Reilly, Anna Sawai, Rhenzy Feliz, Pete Davidson, Christian Slater, Tati Gabrielle",
+    "Release in Portugal": "12 November 2026 (M/12, ages 12+; 122 minutes; distributed by Big Picture), in 41 cinemas across the country, according to filmSPOT",
+    "Rating": "Lukewarm reception: 3/5 from Time Out («recommended»), C+ from the A.V. Club, a negative review in Inverse; Screen Daily sums it up in its headline: «fun, forgettable»"
+   },
+   "texto": [
+    "«Como Roubar Um Banco» (original title: How to Rob a Bank), the new film by David Leitch — director of «Bullet Train» and «The Fall Guy» («O Duplo» in Portugal) and co-director of the first «John Wick» — has been showing in Portuguese cinemas since Thursday 12 November. The premise is made for the age of the algorithm: in Pittsburgh, a gang of masked robbers led by Ryan (Nicholas Hoult) films its own heists and posts them online as «tutorial» videos, gaining followers and a reputation as digital Robin Hoods. To catch them, a disillusioned FBI agent (John C. Reilly) recruits Reagan (Zoë Kravitz), a software engineer under house arrest, promising her freedom in exchange for her help. According to filmSPOT, the film is showing in 41 cinemas, from Braga Parque and Forum Coimbra to Colombo, Mar Shopping Algarve and Forum Madeira, in Funchal.",
+    "This assessment is based on the reviews consulted, not on our own viewing. What draws most praise is Leitch's craft with action: Phil de Semlyen, Time Out's film editor (3 out of 5), highlights the energy of the set pieces, above all the car chases, and considers John C. Reilly at his best in years. The Reilly–Kravitz pairing is the most frequently cited asset: Jesse Hassenger, in the A.V. Club, speaks of a «buddy movie» chemistry that gives the film its best moments, and Lyvie Scott, in Inverse, sees Kravitz as the most convincing voice in the story. Pete Davidson is also singled out as the most interesting member of the gang, and the starting idea — robbers driven by online attention and a vague desire for revolution rather than by money — is acknowledged as a bold gamble.",
+    "The criticisms recur from review to review. For the A.V. Club (C+), the film swings, «at times uncomfortably», between a light caper and a dark drama, and its revelations come late and feel redundant; Inverse finds that the farcical tone disarms the political side of the script and that the critique of social media stays on the surface, and also points to an excessive use of expository dialogue. There is also agreement that Anna Sawai (the gang's driver, known from the series «Shōgun») is wasted, and Time Out notes that the robber characters are familiar genre archetypes and that Kravitz's character is underdeveloped.",
+    "On balance, «Como Roubar Um Banco» seems to work better as a competent, well-acted action film than as the satire of the attention economy it promises to be. Those who like well-shot chases and charismatic casts will get two hours of entertainment here; those looking for a sharp take on influencers and anger at the banks may feel that the film does not follow its ideas through. The M/12 rating makes it accessible to teenagers, the audience most likely to recognise the language of videos and livestreams that the film imitates."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – details and cinemas for «Como Roubar Um Banco»",
+     "url": "https://filmspot.pt/filme/how-to-rob-a-bank-1437511/"
+    },
+    {
+     "nome": "filmSPOT – screenings at Cinemas NOS Vasco da Gama (Lisbon)",
+     "url": "https://filmspot.pt/cinema/cinemas-nos-vasco-da-gama-lisboa-38/"
+    },
+    {
+     "nome": "Magazine.HD – this week's releases (12 Nov)",
+     "url": "https://www.magazine-hd.com/apps/wp/estreiam-6-filmes-esta-semana-salas-cinema-3-melhores-12-novembro/"
+    },
+    {
+     "nome": "iNews – six films arrive in Portuguese cinemas this week (11 Nov)",
+     "url": "https://ineews.eu/new/2026/11/11/do-terror-na-amazonia-a-nova-versao-de-dickens-seis-filmes-chegam-as-salas-portuguesas-esta-semana/"
+    },
+    {
+     "nome": "Time Out – review by Phil de Semlyen (10 Nov)",
+     "url": "https://www.timeout.com/movies/how-to-rob-a-bank-review-2026"
+    },
+    {
+     "nome": "A.V. Club – review by Jesse Hassenger (11 Nov)",
+     "url": "https://www.avclub.com/how-to-rob-a-bank-david-leitch-nichoulas-hoult-zoe-kravitz"
+    },
+    {
+     "nome": "Inverse – review by Lyvie Scott (11 Nov)",
+     "url": "https://www.inverse.com/entertainment/how-to-rob-a-bank-review-david-leitch-heist-thriller"
+    },
+    {
+     "nome": "Screen Daily – review (headline only seen)",
+     "url": "https://www.screendaily.com/reviews/how-to-rob-a-bank-review-nicholas-hoult-is-a-gen-z-robin-hood-in-david-leitchs-fun-forgettable-heist-movie/5222295.article"
+    }
+   ],
+   "nota": "The film's release in Portugal was confirmed by its filmSPOT listing (released on 12 Nov, M/12, 122 min, distributed by Big Picture, 41 cinemas in Portugal) and by the screenings at NOS Vasco da Gama; the week's releases also appear in Magazine.HD and iNews. filmSPOT's releases article and Público's cinecartaz listings could not be opened. The Screen Daily review was seen only by its headline in search results (page inaccessible); Rotten Tomatoes and Metacritic were not consulted. Leitch's earlier filmography and the reference to Anna Sawai in «Shōgun» are general context, not verified in the sources for this piece. The image's Commons page could not be opened directly (the file appears in Commons search results).",
+   "imagem": {
+    "commons": "Nicholas Hoult (cropped).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Portrait of the British actor Nicholas Hoult",
+    "legenda": "Nicholas Hoult, who plays the leader of the gang of robbers (illustrative image; not a still from the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Astrid Lindgren, the mother of Pippi Longstocking, was born 119 years ago — and changed children's literature and Sweden's laws",
+   "ficha": {
+    "Born": "14 November 1907, Näs farm, near Vimmerby (Småland, Sweden); died in Stockholm on 28 January 2002, aged 94",
+    "Field": "Children's and young adult literature (novels, short stories, screenplays)",
+    "Key works": "«Pippi Longstocking» (1945–1971), «The Children of Noisy Village» (Bullerby, 1946–1966), «Mio, My Son» (1954), «Karlsson-on-the-Roof» (1955–1972), Emil of Lönneberga (1963–1997), «The Brothers Lionheart» (1973), «Ronia, the Robber's Daughter» (1981)",
+    "Why now": "Anniversary: 119 years since her birth, on 14 November 2026"
+   },
+   "texto": [
+    "Today, Saturday 14 November, marks 119 years since the birth of Astrid Lindgren, the Swedish writer who invented Pippi Longstocking, the red-haired girl who is the strongest in the world, lives alone with a horse and a monkey and obeys no one. Born Astrid Ericsson in 1907 on the Näs farm, on the outskirts of Vimmerby in southern Sweden, she wrote more than 40 books for children, translated into more than 90 languages, and is one of the most widely read authors in the world: sales estimates range from around 145 million to more than 180 million copies, depending on the source and the year.",
+    "Her life began far from books. While still a teenager she worked at the local newspaper, the Vimmerby Tidning, where she published her first piece in 1921; at 18 she became pregnant, left her home town and went to Stockholm to train as a secretary, and her son, Lars, was born in Copenhagen and spent his first years with a foster family. In 1931 she married Sture Lindgren and worked as a secretary and for the Swedish intelligence services before turning to publishing. Pippi was born of a request: her daughter Karin, ill in bed, wanted to hear stories about a character whose name she herself had made up, and Astrid wrote them down as a present for the girl's tenth birthday, in 1944. Rejected by the publisher Bonniers, the manuscript won a competition run by Rabén & Sjögren in 1945, where the author would later be children's books editor from 1946 to 1970.",
+    "Lindgren's style rests on children who think for themselves, on anarchic humour and on absolute respect for the child's point of view, without moralising — and she does not shy away from difficult themes such as death, loneliness and fear, in books like «Mio, My Son» or «The Brothers Lionheart». Pippi even caused controversy among Swedish parents and teachers, who saw her as a bad example. Alongside the adventures of Emil, the children of Bullerby (Noisy Village), Karlsson-on-the-Roof and Ronia, her work gave rise to dozens of films and series and to a theme park in Vimmerby. She received the Hans Christian Andersen Award in 1958 and the Right Livelihood Award, the so-called alternative Nobel, in 1994.",
+    "Some curiosities show the writer's public weight. She wrote in shorthand, in the morning, in bed, before going to work. In 1976 she published a satirical tale, «Pomperipossa in Monismania», against a tax rule that obliged her to pay more than 100% tax on part of her income, and the case entered Swedish political debate; her campaign against corporal punishment is associated with the 1979 law, the first in the world to ban it, and her defence of farm animals inspired a 1988 law. In 1999 she was voted the most popular Swede, since 2015 her portrait has appeared on the 20-krona note and, after her death, the Swedish government created the Astrid Lindgren Memorial Award (ALMA), one of the most valuable prizes in the world for children's and young adult literature."
+   ],
+   "fontes": [
+    {
+     "nome": "BookTrust – Astrid Lindgren",
+     "url": "https://booktrust.org.uk/authors/l/lindgren-astrid"
+    },
+    {
+     "nome": "Floris Books – Astrid Lindgren",
+     "url": "https://florisbooks.co.uk/astridlindgren.html"
+    },
+    {
+     "nome": "EBSCO Research Starters – Astrid Lindgren",
+     "url": "https://ebsco.com/research-starters/biography/astrid-lindgren"
+    },
+    {
+     "nome": "New World Encyclopedia – Astrid Lindgren",
+     "url": "https://newworldencyclopedia.org/entry/Astrid_Lindgren"
+    }
+   ],
+   "nota": "Date and place of birth confirmed by BookTrust and Floris Books; date of death by Floris Books. Sales figures differ between sources (145 million in Floris Books; 167 million up to 2010 in the New World Encyclopedia; 187 million in EBSCO), hence the range. The link between Lindgren's campaign and the 1979 Swedish law comes from the New World Encyclopedia; the «marginal rate above 100%» in the Pomperipossa case is general context not detailed in the sources opened. No current exhibition or event in Portugal linked to the author was found; the link is only the anniversary. Book titles follow the best-known editions and may vary between editions. English Wikipedia could not be opened. The image's Commons page could not be opened directly (the file appears in Commons search results).",
+   "imagem": {
+    "commons": "Astrid Lindgren (cropped).jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of the Swedish writer Astrid Lindgren",
+    "legenda": "The Swedish writer Astrid Lindgren (archive image)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that the first animated feature film was not by Disney, but Argentine, from 1917 — and that no copy of it survives?",
+   "texto": [
+    "Many people believe that Disney's «Snow White and the Seven Dwarfs» (1937) was the first animated feature film in history. It was not: twenty years earlier, on 9 November 1917 — 109 years ago this week — «El Apóstol» (The Apostle), by Quirino Cristiani, premiered in Argentina. A political satire about an hour long, it is considered the first animated feature film on record.",
+    "Cristiani was born in Italy in 1896 and arrived in Argentina aged four. He was called in by the newsreel producer Federico Valle, who was looking for someone to animate caricatures for his newsreels, and spent about a year making the film: 58,000 frames on 35 mm film, projected at 14 per second. The figures were drawn by the caricaturist Diógenes «El Mono» Taborda, and Cristiani, who did practically all the animation by himself, built a machine with cranks, pedals, pulleys and a downward-pointing camera, which he went on to patent. For the climax, the architect Andrés Ducaud made scale models of Buenos Aires buildings.",
+    "The story had President Hipólito Yrigoyen ascend to heaven to ask for Jupiter's thunderbolts and cleanse Buenos Aires of corruption — with the result that the city was left in ashes. The film was a success, and Cristiani went on to make «Peludópolis» (1931), presented as the first animated feature film with sound. In 1941 Walt Disney visited Argentina, offered him a job and, according to the Argentine press, was impressed to learn that he had animated everything by himself; Cristiani turned him down.",
+    "The ending is bitter: fires in 1957 and 1961 destroyed most of Cristiani's work, including «El Apóstol», of which no copy survives — we know what it was like only from descriptions, photographs and testimony. That is why the earliest animated feature film that can still be seen is «The Adventures of Prince Achmed» (1926), by the German Lotte Reiniger, made with cut-out silhouettes. Cristiani died in 1984 in Bernal, near Buenos Aires, and his name, almost forgotten outside Argentina, has been rescued by historians and by documentaries such as «Sin dejar rastros» (Without a Trace), by Diego Kartaszewicz."
+   ],
+   "fontes": [
+    {
+     "nome": "Government of Argentina – El Apóstol, the first animated feature film",
+     "url": "https://www.argentina.gob.ar/node/484074"
+    },
+    {
+     "nome": "La Capital (Mar del Plata) – the Argentine who created the first animated feature film in 1917",
+     "url": "https://www.lacapitalmdp.com/el-argentino-que-creo-en-1917-el-primer-largometraje-animado-de-la-historia/"
+    },
+    {
+     "nome": "Wikipedia – El Apóstol (seen only in search results)",
+     "url": "https://en.wikipedia.org/wiki/El_Ap%C3%B3stol"
+    }
+   ],
+   "nota": "The premiere date (9 Nov 1917), the running time (60 min), the 58,000 frames at 14 per second, Cristiani's machine, Taborda, Ducaud and the fires of 1957 and 1961 come from the Argentine government's page; La Capital confirms Federico Valle, the 58,000 frames, the loss of the film, «Peludópolis» and the Disney episode, but gives a running time of about 50 minutes. The Wikipedia page was not opened. The reference to «The Adventures of Prince Achmed» (1926) as the oldest surviving animated feature film is general context, not verified in the sources for this piece. The image's Commons page could not be opened directly (the file appears in Commons search results); the date and authorship of the photograph were not confirmed.",
+   "imagem": {
+    "commons": "Quirino Cristiani.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of the Italian-Argentine animator Quirino Cristiani",
+    "legenda": "Quirino Cristiani, creator of «El Apóstol» (1917) (archive image; it does not show the film, of which no copies remain)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "PédeXumbo: the Évora association that gets the Alentejo dancing at traditional balls — and is preparing another Desdobra-te",
+   "ficha": {
+    "Origins": "1998 (start of its work promoting music and dance, according to the association itself); based at Espaço Celeiros, in the former EPAC granaries in Évora",
+    "Field": "Traditional music and dance, participatory balls, creative work with communities, training and record releases",
+    "Projects": "Andanças Festival (Campinho, Reguengos de Monsaraz; on hold in 2026), Entrudanças (Entradas, Castro Verde), Desdobra-te (Évora), the «Agora o Folk!» recording grant, «Pessoas Cheias de Território» (People Full of Territory)",
+    "Next": "Desdobra-te, scheduled for 28 to 30 November 2026 in Évora, with a community street parade on 27 November (according to the activity plan; programme to be confirmed)"
+   },
+   "texto": [
+    "In Évora, PédeXumbo is preparing another edition of Desdobra-te for the end of November, the dance and arts festival that brings balls, workshops and performances to several venues around the city: the association's 2026 activity plan points to 28 to 30 November, with a community street parade the day before, on the 27th, and the launch of a publication on the Baile da Pinha project. The 2025 edition, the seventh, ran from 21 to 23 November, with 28 activities in nine venues and 13 partners, according to the association's report.",
+    "PédeXumbo has been devoted since 1998 to promoting traditional music and dance, and its central idea is that the ball is not a museum piece but a living social practice that new generations can learn and reinvent. It became known across the country for Andanças, the world dance festival that for several years was held in Castelo de Vide and later moved to the village of Campinho, in Reguengos de Monsaraz. Since 2015, under new coordination, the association has focused its work on the Alentejo and on artistic creation with local communities; the permanent team is small, with Marta Guerreiro as coordinator and artistic director, and its main support comes from DGArtes (the Directorate-General for the Arts), through the four-year programme «Dançar (o) Agora».",
+    "Its activity is spread across the calendar and the region. In Entradas, in the municipality of Castro Verde, Entrudanças brings together balls, concerts, cante (Alentejo polyphonic singing) and workshops ranging from flamenco to adufe (square frame drum) dance at Carnival time — in 2025 it drew 934 people from the general public and 88 from the local public. Andanças 2025 brought together more than a thousand people and 149 volunteers, with 18 balls, 9 concerts and 22 workshops, and it holds the accessible festival label of Turismo de Portugal, the national tourism authority. There are also regular dance classes, balls in the Celeiros neighbourhood, creations that travel from Miranda do Douro to Mértola, and the «Agora o Folk!» grant, which helps musicians record traditional Portuguese dance repertoire.",
+    "PédeXumbo's relevance lies in making tradition a meeting point rather than a matter of nostalgia. The «Pessoas Cheias de Território» project, with the artist Rita Roberto, involved some 400 people from Castro Verde, Reguengos de Monsaraz and Évora in participatory creations in 2025, and the association hosts international residencies such as Ethno Portugal, which brought together 31 young musicians of 13 nationalities in Arraiolos. The road is not easy — the 2026 budget forecasts a deficit and Andanças is taking a break this year — but in an ageing Alentejo, and with Évora preparing to be European Capital of Culture in 2027, PédeXumbo is one of the most consistent examples of how popular music and dance can bring generations together and breathe life into villages and neighbourhoods."
+   ],
+   "fontes": [
+    {
+     "nome": "PédeXumbo – Activity plan and budget 2026",
+     "url": "https://pedexumbo.com/wp-content/uploads/2025/12/plano_de_atividades_e_orcamento_2026_final.pdf"
+    },
+    {
+     "nome": "PédeXumbo – Activity report and accounts 2025",
+     "url": "https://pedexumbo.com/wp-content/uploads/2026/04/relatorio_atividades_e_contas_2025_low.pdf"
+    },
+    {
+     "nome": "PédeXumbo – Entrudanças 2026 press release",
+     "url": "https://pedexumbo.com/wp-content/uploads/2026/02/press-release-Entrudancas-26.pdf"
+    },
+    {
+     "nome": "Diário de Notícias – Andanças brings world dances to Campinho (2022)",
+     "url": "https://www.dn.pt/arquivo/diario-de-noticias/festival-andancas-leva-dancas-do-mundo-a-aldeia-alentejana-de-campinho-15097002.html"
+    },
+    {
+     "nome": "Anna Lindh Foundation – PédeXumbo at Espaço Celeiros (2025)",
+     "url": "https://alf.website/en/n-news/pedexumbo-brings-music-dance-and-dialogue/"
+    }
+   ],
+   "nota": "The dates of Desdobra-te 2026 (28 to 30 Nov) and of the street parade (27 Nov) come only from the association's activity plan, published in December 2025; no programme page or independent confirmation was found, so they may have changed. Times and prices were not confirmed. The 2025 figures come from the association's own report (an interested source). 1998 is the year the association gives as the start of its activity; the founders were not identified. Andanças's earlier locations are based on DN (2022), which mentions Castelo de Vide; other earlier locations were not verified. Évora 2027 European Capital of Culture is general context, not verified in the sources for this piece. No photograph of PédeXumbo was found on Commons; the image is illustrative and its page could not be opened directly.",
+   "imagem": {
+    "commons": "Évora - Praça do Giraldo.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Praça do Giraldo, in Évora's historic centre",
+    "legenda": "Praça do Giraldo in Évora, the city where PédeXumbo is based (illustrative image; it does not show the association or its balls)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 14 November from the Casa da Música listings, the websites of Teatro Municipal do Porto, Batalha Centro de Cinema, Cinema Trindade, Serralves and Agenda Porto, and Time Out Porto (times for the TNSJ, the Ciclo Suggia and the Bryan Adams concert). Saturday 14 November is the last of three days of strike by Casa da Música workers, called by the Cena-STE union with no minimum services; according to RTP, the public broadcaster, the stoppage has already led to «changes and several cancellations» in the programme, but at the time of checking the venue had not published any notice and the Symphony Orchestra's concert on Saturday at 18:00 was still listed with tickets on sale. Agenda Porto did not yet list events for Monday and Tuesday, and the FIATO and Coliseu websites could not be consulted, so Monday and Tuesday have fewer suggestions. Where it says «To be confirmed», the information was not in the source: check the link before you go.",
+ "agenda": [
+  {
+   "dia": "2026-11-14",
+   "eventos": [
+    {
+     "nome": "#Não somos cactos# (We Are Not Cacti), by Teatro de Marionetas do Porto and Joana Magalhães",
+     "descricao": "An almost wordless puppet fiction about the lack of drinking water and the migrations it may cause, based on a text by Rui Mendonça.",
+     "horario": "16:00",
+     "tipo": "Theatre / Family",
+     "local": "Teatro Campo Alegre (Auditorium), Rua das Estrelas, Porto",
+     "preco": "€2.50",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/teatro-de-marionetas-do-porto-joana-magalh-es-n-o-somos-cactos/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "1 hour. Age rating not yet assigned. «Escolas e Famílias» (Schools and Families) programme; the other performance (Friday, 10:30) has already taken place."
+    },
+    {
+     "nome": "Floresta do Amazonas (Amazon Forest) – Orquestra Sinfónica do Porto Casa da Música",
+     "descricao": "Michael Wendeberg conducts Villa-Lobos's suite inspired by the Amazon, preceded by the Cantilena from Bachianas Brasileiras No. 5, with soprano Camila Mandillo and visuals by Bianca Dacosta.",
+     "horario": "18:00",
+     "tipo": "Classical music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€36 to €40",
+     "url": "https://casadamusica.com/en/event/amazonia-en/?selected_session=47259",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Rows A–K €40, L–U €38, UU–YY €36; discounts for Friends, young people, seniors and students. At 16:00, in the Foyer Nascente, a free talk with Bianca Dacosta. Last day of the workers' strike, with no minimum services: no notice of changes on the page at the time of checking, but the strike has already caused cancellations of other events — check before going. Seat availability to be confirmed."
+    },
+    {
+     "nome": "Christmas arrives on the Marcolino façade",
+     "descricao": "The watchmaker's on Rua de Santa Catarina switches on its Christmas lights with a show of light, music and live performers on its façade.",
+     "horario": "18:00",
+     "tipo": "Free activity / Family",
+     "local": "Relojoaria Marcolino, Rua de Santa Catarina, Porto",
+     "preco": "Free entry",
+     "url": "https://www.timeout.pt/porto/pt/coisas-para-fazer/o-que-fazer-este-mes-porto",
+     "ligacao": "Time Out Porto",
+     "nota": "Time («from 18:00») and 20 performers according to Time Out Porto; Agenda Porto lists it as free and with more than 200,000 lights, but the event page could not be opened. Street number and duration to be confirmed. The lights stay on until 6 January."
+    },
+    {
+     "nome": "Dzudza, by Idio Chichava",
+     "descricao": "Portuguese premiere of the dance piece by the Mozambican choreographer, which starts from Xiquelene, in Maputo, and brings together church hymns, children's games, popular songs and the capulana (a traditional printed cloth) to reflect on the body as a place of resistance and communion.",
+     "horario": "19:30",
+     "tipo": "Dance",
+     "local": "Teatro Rivoli (Main Auditorium), Praça D. João I, Porto",
+     "preco": "€12",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/idio-chichava-dzudza/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/6 (ages 6+), 1h15. Includes audience interaction. Co-presented with the Calouste Gulbenkian Foundation (Alkantara programme). Final performance."
+    },
+    {
+     "nome": "Mimì metallurgico ferito nell'onore (The Seduction of Mimi), by Lina Wertmüller",
+     "descricao": "A 1972 satire, in a 4K restored print, about a Sicilian worker who loses everything for not voting for the Mafia's candidate and sinks into ever more absurd situations.",
+     "horario": "21:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/mimi-metallurgico-ferito-nellonore-1784126490859/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/16 (ages 16+), 112 minutes, subtitles in Portuguese and English (and subtitles for the deaf and hard of hearing). «Tesouros do Arquivo» (Archive Treasures) series. Time confirmed in the Batalha calendar; the film's page gives no price."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-15",
+   "eventos": [
+    {
+     "nome": "Les Parents terribles, by Jean Cocteau",
+     "descricao": "Claustrophobic 1948 family melodrama: the announcement that Michel is to marry Madeleine sets off jealousies and secrets kept for years.",
+     "horario": "11:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/les-parents-terribles-1784228583016/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/12 (ages 12+), 105 minutes, in French with Portuguese subtitles. «Matinés do Cineclube» (Film Club Matinees) series. Time confirmed in the Batalha calendar; the page gives no price."
+    },
+    {
+     "nome": "Auto da Barca do Inferno (The Play of the Ship of Hell), by Gil Vicente",
+     "descricao": "Marta Pazos stages Gil Vicente's classic as a quayside of light, music and movement, where souls await the verdict of the Angel and the Devil.",
+     "horario": "16:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "€7 to €16.80",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Time and price according to Time Out Porto (Sundays at 16:00; also Saturday 14th at 19:00); the TNSJ page was not consulted. Running until 13 December. Seat availability and age rating to be confirmed."
+    },
+    {
+     "nome": "Amor de Perdição (Doomed Love), by the Inquieta company (FIATO)",
+     "descricao": "An opera based on Camilo Castelo Branco in which Teresa, Simão and Mariana move through walls, letters and memories, with three soloists who also act as the chorus.",
+     "horario": "17:00",
+     "tipo": "Opera",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.agenda-porto.pt/en/evento/fiato-amor-de-perdicao/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6 (ages 6+), ends at 18:10. Porto International Festival of Arts and Opera (13 to 21 November). Agenda Porto gives no price; the FIATO and Coliseu websites were not consulted."
+    },
+    {
+     "nome": "Marina Herlop – Dja Dja",
+     "descricao": "The Catalan pianist and singer premieres her new album live, a continuous piece inspired by the «hero's journey», now with brass and new textures.",
+     "horario": "19:30",
+     "tipo": "Music",
+     "local": "Teatro Campo Alegre (Auditorium), Rua das Estrelas, Porto",
+     "preco": "€9",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/marina-herlop-dja-dja/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/6 (ages 6+), 1 hour. Co-presented with Culturgest. Tickets from BOL."
+    },
+    {
+     "nome": "Zaynara and Fafá de Belém",
+     "descricao": "Two generations of music from Pará close the Floresta do Amazonas festival: Zaynara mixes carimbó with urban sounds and Fafá de Belém brings more than five decades of Brazilian song.",
+     "horario": "20:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€26 to €30",
+     "url": "https://casadamusica.com/en/event/zaynara-fafa-de-belem-2/?selected_session=59209",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Zaynara at 20:30, Fafá de Belém at 21:25. Rows A–K €30, L–U €28, UU–YY €26; 25% discount for Friends. Already outside the strike period; no notice of changes. Seat availability to be confirmed."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-16",
+   "eventos": [
+    {
+     "nome": "You Can See Everything, by Nathan Fielder and Lance Oppenheim",
+     "descricao": "Filmed in secret over four years, starting 34 days before her imprisonment, the film follows Elizabeth Holmes, the Theranos founder convicted of fraud, and her partner, Billy Evans, in a register somewhere between documentary and fiction.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14 (ages 14+), 2h54, subtitled. A Medeia Filmes screening; repeated on Tuesday and Wednesday at the same time."
+    },
+    {
+     "nome": "O Espírito da Colmeia (The Spirit of the Beehive), by Víctor Erice",
+     "descricao": "In post-war Castile, a little girl becomes obsessed with the «Frankenstein» she sees at a travelling cinema screening, in the 1973 Spanish classic.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "To be confirmed",
+     "url": "https://cinematrindade.pt/en/films/o-espirito-da-colmeia",
+     "ligacao": "Cinema Trindade",
+     "nota": "M/12 (ages 12+), 1h37 (ends at 23:07). The Trindade website lists the screening on Monday 16 November, but not the price; the live recording of the Noites de Cabíria podcast announced by Agenda Porto does not appear on the film's page and was not reconfirmed."
+    },
+    {
+     "nome": "Luísa Sobral – Cartas de Desamor",
+     "descricao": "The singer-songwriter presents her eighth album, in which her songwriting draws closer to traditional Portuguese music.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 to €35",
+     "url": "https://casadamusica.com/en/event/luisa-sobral-2/?selected_session=52959",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Rows A–L €35, M–U €30, UU–YY €25; 25% discount for Friends. Promoter: Bairro da Música. Outside the strike period; no notice of changes. Seat availability to be confirmed."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-17",
+   "eventos": [
+    {
+     "nome": "Exhibition «O Século de Gehry» (Gehry's Century)",
+     "descricao": "A retrospective of the architect Frank Gehry (1929–2025) with 19 projects in eight chapters and many models — from the Guggenheim Bilbao to the Fondation Louis Vuitton — highlighting his friendship with Álvaro Siza.",
+     "horario": "To be confirmed",
+     "tipo": "Exhibition",
+     "local": "Museu de Serralves (Ala Álvaro Siza), Rua D. João de Castro, 210, Porto",
+     "preco": "€24 (general ticket)",
+     "url": "https://www.serralves.pt/en/visitar-serralves/",
+     "ligacao": "Serralves",
+     "nota": "Until 10 January 2027, according to the Serralves listings. General ticket €24 (€20 for residents, box office only); from Monday to Thursday there is a late-afternoon ticket (from 17:00, last entry at 18:00) at €12 for residents and €15 for non-residents; free for children up to 12. The official page did not show winter opening hours; Time Out gives 10:00–19:00 every day, to be confirmed."
+    },
+    {
+     "nome": "Vânia Leal (Geração Casa)",
+     "descricao": "The fado singer from Barcelos traces the history of fado in a traditional concert paying tribute to Amália Rodrigues, Beatriz da Conceição and Cristina Branco.",
+     "horario": "19:30",
+     "tipo": "Fado",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€12",
+     "url": "https://casadamusica.com/en/event/vania-leal-2026-11-17-2/?selected_session=57746",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Discounts for Friends (25%), young people up to 30, students and seniors. No notice of changes."
+    },
+    {
+     "nome": "You Can See Everything, by Nathan Fielder and Lance Oppenheim",
+     "descricao": "Second screening of the secretly filmed portrait of Elizabeth Holmes and Billy Evans, who protest her innocence in their own way at home.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14 (ages 14+), 2h54, subtitled. Final screening on Wednesday 18th at 20:45."
+    },
+    {
+     "nome": "Bryan Adams – Roll With the Punches",
+     "descricao": "The Canadian singer brings the tour for his latest album to Porto, in the first of two consecutive concerts in the city.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Super Bock Arena – Pavilhão Rosa Mota, Rua de D. Manuel II, 3, Porto",
+     "preco": "Sold out",
+     "url": "https://www.timeout.pt/porto/pt/noticias/depois-de-esgotar-as-primeiras-datas-bryan-adams-anuncia-mais-concertos-no-porto-e-em-lisboa-031026",
+     "ligacao": "Time Out Porto",
+     "nota": "Sold out according to Time Out Porto, which gives the concerts as «always at 21.00»; there is a second date on 18 November (tickets from €59.06 to €509.79 on Blueticket). Time and sold-out status not confirmed on the promoter's or ticket office's page."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "EU leaders decided in Dublin that the United Kingdom, France, Germany, Italy and Poland, together with the European institutions, will represent Europe in the next round of negotiations on Ukraine; the Kremlin has not committed itself.",
+   "noticia": 9
+  },
+  {
+   "texto": "Starship reached orbit on Flight 15 and released 26 satellites, but the booster did not return to the tower and fell into the Gulf of Mexico; the catch of the ship is expected tonight.",
+   "noticia": 17
+  },
+  {
+   "texto": "Seguro listened to the housing protest camps for almost three hours but did not promise to veto the rent law; the national protest takes to the streets today.",
+   "noticia": 13
+  },
+  {
+   "texto": "A communications failure forced the FAA to halt all take-offs in the US for more than four hours; the technical cause is under investigation.",
+   "noticia": 7
+  },
+  {
+   "texto": "The FBI and the US Department of Justice have frozen more than $1.2 billion stolen from Binance by hackers they attribute to North Korea.",
+   "noticia": 1
+  },
+  {
+   "texto": "In Culture: “Como Roubar Um Banco” by David Leitch, Astrid Lindgren, and the first animated feature film, Argentine and lost.",
+   "ancora": "cultura"
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Saturday 14 Nov",
+   "texto": "Vulcan tries again to carry 40 Amazon Leo satellites (window from 17:32 Lisbon time) and the Starship ship attempts to be caught by the tower at around 21:20, barring changes.",
+   "noticia": 17
+  },
+  {
+   "quando": "Monday 16 Nov",
+   "texto": "First draft of the COP31 deal in Antalya expected at the start of the second week; the summit ends on 20 November.",
+   "noticia": 11
+  },
+  {
+   "quando": "Tuesday 17 Nov",
+   "texto": "Nvidia reports quarterly results, its first since Jensen Huang's departure.",
+   "noticia": 8
+  },
+  {
+   "quando": "Thursday 19 Nov",
+   "texto": "Anthropic's expected Nasdaq debut, after the final price is set on 18 November, barring a postponement.",
+   "noticia": 4
+  }
+ ]
+}

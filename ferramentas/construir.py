@@ -12,6 +12,8 @@ import sys
 import urllib.parse
 from pathlib import Path
 
+import ingles
+
 BASE = Path(__file__).resolve().parent
 RAIZ = BASE.parent
 URL_SITE = "https://mendesmaya.github.io/jornal/"
@@ -35,6 +37,46 @@ RUBRICAS = {"cinema": "Cinema em análise", "artista": "Conhece o artista", "sab
 TIPOS_IMG = {"acontecimento": "Fotografia do acontecimento", "arquivo": "Imagem de arquivo", "ilustrativa": "Imagem ilustrativa", "oficial": "Imagem oficial / de imprensa", "obra": "Reprodução da obra", "cartaz": "Imagem promocional"}
 DIAS = ["segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado", "domingo"]
 MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"]
+DIAS_EN = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+MESES_EN = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+LING = "pt"  # "en" enquanto se constrói a edição em inglês (AAAA-MM-DD/en/)
+NOMES_JOGOS_EN = {"sudoku": "Sudoku", "caca": "word search", "2048": "2048", "diferencas": "spot the difference", "nonograma": "nonogram",
+                  "minas": "minesweeper", "cobra": "snake", "dino": "dinosaur run", "puzzle": "jigsaw puzzle", "quiz": "quiz of the week"}
+
+
+def nome_dia(d):
+    return DIAS_EN[d.weekday()] if LING == "en" else DIAS[d.weekday()]
+
+
+def mes_curto(d):
+    return (MESES_EN if LING == "en" else MESES)[d.month - 1][:3]
+
+
+def ligacao_lingua(data, en):
+    """Botão para mudar de língua (só nas edições que têm versão em inglês)."""
+    if en:
+        return f'<a class="tema" href="{URL_SITE}{data}/" hreflang="pt-PT" lang="pt-PT">Português</a>'
+    if (BASE / "conteudo" / f"{data}.en.json").exists():
+        return '<a class="tema" href="en/" hreflang="en" lang="en">English</a>'
+    return ""
+
+
+def alternativas(data):
+    if not (BASE / "conteudo" / f"{data}.en.json").exists():
+        return ""
+    return (f'<link rel="alternate" hreflang="pt-PT" href="{URL_SITE}{data}/">'
+            f'<link rel="alternate" hreflang="en" href="{URL_SITE}{data}/en/">')
+
+
+def aviso_en(data):
+    return ('<p class="game-note" lang="en">English edition: an AI translation of the Portuguese original, '
+            f'checked against it. <a href="{URL_SITE}{data}/">Read the original in Portuguese</a>.</p>')
+
+
+def cap(s):
+    return s[:1].upper() + s[1:] if LING == "en" else s.capitalize()
+
+
 CORES = {"mundo": "#5b6577", "portugal": "#1e4fa8", "ciberseguranca": "#0e7c6f", "ia": "#6a43c4", "tecnologia": "#b2560e", "espaco": "#243b6b", "cultura": "#a8325e"}
 
 TEMA_JS = ("(function(){try{var t=localStorage.getItem('tema');if(t)document.documentElement.dataset.tema=t}catch(e){}})();")
@@ -115,6 +157,9 @@ e = lambda s: html.escape(str(s or ""), quote=True)
 
 def data_pt(iso, com_dia=True):
     d = dt.date.fromisoformat(iso)
+    if LING == "en":
+        s = f"{d.day} {MESES_EN[d.month - 1]} {d.year}"
+        return f"{DIAS_EN[d.weekday()]}, {s}" if com_dia else s
     s = f"{d.day} de {MESES[d.month - 1]} de {d.year}"
     return f"{DIAS[d.weekday()]}, {s}" if com_dia else s
 
@@ -124,7 +169,7 @@ def data_curta(iso):
         return ""
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", iso):
         d = dt.date.fromisoformat(iso)
-        return f"{d.day} {MESES[d.month - 1][:3]}. {d.year}"
+        return f"{d.day} {mes_curto(d)} {d.year}" if LING == "en" else f"{d.day} {MESES[d.month - 1][:3]}. {d.year}"
     return iso
 
 
@@ -289,8 +334,9 @@ def lista_jogos(jogos):
 
 
 def descricao_jogos(jogos):
-    nomes = [NOMES_JOGOS[k] for k in lista_jogos(jogos)]
-    txt = " e ".join(nomes) if len(nomes) <= 2 else ", ".join(nomes[:-1]) + " e " + nomes[-1]
+    nomes = [(NOMES_JOGOS_EN if LING == "en" else NOMES_JOGOS)[k] for k in lista_jogos(jogos)]
+    e_ = " and " if LING == "en" else " e "
+    txt = e_.join(nomes) if len(nomes) <= 2 else ", ".join(nomes[:-1]) + e_ + nomes[-1]
     return txt[:1].upper() + txt[1:]
 
 
@@ -358,9 +404,9 @@ def html_agenda(c):
             evs.append(f'<div class="event"><small class="ev-hora">{e(ev["horario"])} · {e(ev.get("tipo", ""))}</small><strong>{e(ev["nome"])}</strong>'
                        f'<p class="ev-desc">{e(ev["descricao"])}</p><p class="eventplace">{e(ev["local"])}</p><p class="eventprice">{e(ev["preco"])}</p>'
                        f'<a href="{e(ev["url"])}" rel="noopener">{e(ev.get("ligacao", "Programação oficial"))}</a>{nota}</div>')
-        titulo_dia = ("Hoje · " if i == 0 else "") + f"{DIAS[dd.weekday()].capitalize()}, {dd.day} {MESES[dd.month - 1][:3]}."
+        titulo_dia = ("Hoje · " if i == 0 else "") + (f"{nome_dia(dd)} {dd.day} {mes_curto(dd)}" if LING == "en" else f"{DIAS[dd.weekday()].capitalize()}, {dd.day} {MESES[dd.month - 1][:3]}.")
         did = f"dia-{d['dia']}"
-        rot_menu = ("Hoje · " if i == 0 else "") + f"{DIAS[dd.weekday()].split('-')[0].capitalize()} {dd.day}"
+        rot_menu = ("Hoje · " if i == 0 else "") + f"{nome_dia(dd).split('-')[0].capitalize()} {dd.day}"
         menu_dias.append(f'<a href="#{did}"{" aria-current=\"true\"" if i == 0 else ""}>{e(rot_menu)}</a>')
         # só o dia de hoje aparece; os outros dias abrem a partir do menu da agenda
         dias_html.append(f'<div class="dia-agenda{" hoje" if i == 0 else ""}" id="{did}"><h3>{e(titulo_dia)}</h3>{"".join(evs)}</div>')
@@ -371,8 +417,20 @@ def html_agenda(c):
     return agenda
 
 
-def construir(data):
-    c = json.loads((BASE / "conteudo" / f"{data}.json").read_text())
+def construir(data, en=False):
+    """Constrói a edição em português e, se existir conteudo/AAAA-MM-DD.en.json, também a versão em inglês (AAAA-MM-DD/en/)."""
+    global LING
+    LING = "en" if en else "pt"
+    try:
+        _construir(data, en)
+    finally:
+        LING = "pt"
+    if not en and (BASE / "conteudo" / f"{data}.en.json").exists():
+        construir(data, en=True)
+
+
+def _construir(data, en):
+    c = json.loads((BASE / "conteudo" / f"{data}{'.en' if en else ''}.json").read_text())
     jogos = json.loads((BASE / "jogos" / f"{data}.json").read_text())
     pasta = RAIZ / data
     assets = pasta / "assets"
@@ -384,7 +442,7 @@ def construir(data):
         CREDITOS.update(json.loads(cp.read_text()))
 
     if c.get("tipo") == "semanal":
-        return construir_semanal(data, c, jogos, pasta, assets, manifest)
+        return construir_semanal(data, c, jogos, pasta, assets, manifest, en)
 
     # validações de estrutura
     com_espaco = data >= INICIO_ESPACO
@@ -516,11 +574,11 @@ def construir(data):
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{NOME} · {e(data_pt(data, False))}</title><meta name="description" content="{e(destaque)}">
 {og_html(f"{NOME} · {data_pt(data, False)}", destaque, f"{URL_SITE}{data}/")}
-<style>{css}</style><script>{TEMA_JS}{falha}</script></head><body><main id="inicio">
-<div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {MESES[dia.month - 1][:3]} {dia.year}</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
+{alternativas(data)}<style>{css}</style><script>{TEMA_JS}{falha}</script></head><body><main id="inicio">
+<div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {mes_curto(dia)} {dia.year}</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{ligacao_lingua(data, en)}{BOTAO_TEMA}</span></div>
 <h1 class="masthead">{titulo_html("../")}</h1>
-<p class="deck">{e(data_pt(data).capitalize())} · {total_noticias} notícias e 4 artigos culturais · Agenda Porto · {e(descricao_jogos(jogos))}</p>
-<nav aria-label="Secções"><a href="../">Arquivo</a>{nav_resumo}<a href="#tecnologia"><span class="longo">Tecnologia, IA e Cibersegurança</span><span class="curto">Digital</span></a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a>{nav_espaco}<a href="#cultura">Cultura</a><a href="#agenda"><span class="longo">Agenda Porto</span><span class="curto">Agenda</span></a><a href="#jogos">Jogos</a></nav>
+<p class="deck">{e(cap(data_pt(data)))} · {total_noticias} notícias e 4 artigos culturais · Agenda Porto · {e(descricao_jogos(jogos))}</p>
+{aviso_en(data) if en else ""}<nav aria-label="Secções"><a href="../">Arquivo</a>{nav_resumo}<a href="#tecnologia"><span class="longo">Tecnologia, IA e Cibersegurança</span><span class="curto">Digital</span></a><a href="#mundo">Mundo</a><a href="#portugal">Portugal</a>{nav_espaco}<a href="#cultura">Cultura</a><a href="#agenda"><span class="longo">Agenda Porto</span><span class="curto">Agenda</span></a><a href="#jogos">Jogos</a></nav>
 {resumo_linha}{briefing}{caixa_correcoes(data)}<span id="manchete"></span>{manchete_html}
 {digital}{resto}{cultura}{agenda}{jogos_html}
 <footer><p>Cada notícia indica o estado da informação (facto confirmado, declaração, proposta, previsão ou anúncio), a data e as fontes consultadas. Procuramos confirmação em duas fontes independentes; quando só há uma, isso fica assinalado. Os textos são sínteses originais. As imagens têm autoria e licença identificadas; imagens de arquivo e ilustrativas estão marcadas como tal.</p>
@@ -528,6 +586,8 @@ def construir(data):
 <p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></footer></main>
 <a class="topo" href="#inicio" aria-label="Voltar ao topo">↑</a>
 <script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script><script>{UI_JS}</script></body></html>"""
+    if en:
+        return gravar_en(data, pasta, pagina)
     pagina = menu_desenhado(pagina)
     (pasta / "index.html").write_text(pagina)
     (assets / "imagens.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
@@ -538,11 +598,20 @@ def construir(data):
     print(f"Edição {data}: {len(manifest)} imagens, {len(pagina)//1024} KB")
 
 
+def gravar_en(data, pasta, pagina):
+    pagina = menu_desenhado(ingles.traduzir(pagina, data, URL_SITE))
+    (pasta / "en").mkdir(exist_ok=True)
+    (pasta / "en" / "index.html").write_text(pagina)
+    print(f"Edição em inglês {data}/en/: {len(pagina)//1024} KB")
+
+
 DIAS_CURTOS = ["seg.", "ter.", "qua.", "qui.", "sex.", "sáb.", "dom."]
 
 
 def dia_curto(iso):
     d = dt.date.fromisoformat(iso)
+    if LING == "en":
+        return f"{DIAS_EN[d.weekday()][:3]} {d.day} {mes_curto(d)}"
     return f"{DIAS_CURTOS[d.weekday()]} {d.day} {MESES[d.month - 1][:3]}."
 
 
@@ -559,7 +628,7 @@ def temas_da_semana(inicio, fim):
     return sorted(linhas)
 
 
-def construir_semanal(data, c, jogos, pasta, assets, manifest):
+def construir_semanal(data, c, jogos, pasta, assets, manifest, en=False):
     dia = dt.date.fromisoformat(data)
     # validações
     D = c.get("destaques", [])
@@ -659,18 +728,20 @@ def construir_semanal(data, c, jogos, pasta, assets, manifest):
 <html lang="pt-PT"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{NOME} · A semana · {e(data_pt(data, False))}</title><meta name="description" content="{e(destaque)}">
 {og_html(f"{NOME} · A semana em perspetiva · {data_pt(data, False)}", destaque, f"{URL_SITE}{data}/")}
-<style>{css}</style><script>{TEMA_JS}{falha}</script></head><body class="semanal"><main id="inicio">
-<div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {MESES[dia.month - 1][:3]} {dia.year} · Edição de domingo</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{BOTAO_TEMA}</span></div>
+{alternativas(data)}<style>{css}</style><script>{TEMA_JS}{falha}</script></head><body class="semanal"><main id="inicio">
+<div class="top"><span>Edição n.º {e(c.get("numero", ""))} · {dia.day:02d} {mes_curto(dia)} {dia.year} · Edição de domingo</span><span class="top-dir"><span class="lema">Portugal · Leitura independente</span>{ligacao_lingua(data, en)}{BOTAO_TEMA}</span></div>
 <h1 class="masthead">{titulo_html("../")}</h1>
 <p class="kicker">A semana em perspetiva</p>
-<p class="deck">{e(data_pt(data).capitalize())} · resumo de {e(dia_curto(inicio))} a {e(dia_curto(ontem))} · {len(D)} notícias da semana · Agenda Porto · Quiz</p>
-<nav aria-label="Secções"><a href="../">Arquivo</a><a href="#resumo"><span class="longo">A semana em 2 minutos</span><span class="curto">Resumo</span></a><a href="#semana"><span class="longo">Notícias da semana</span><span class="curto">Notícias</span></a><a href="#semana-que-vem"><span class="longo">A semana que vem</span><span class="curto">Próxima semana</span></a><a href="#cultura">Cultura</a><a href="#edicoes">Edições</a><a href="#agenda"><span class="longo">Agenda Porto</span><span class="curto">Agenda</span></a><a href="#jogos">Quiz</a></nav>
+<p class="deck">{e(cap(data_pt(data)))} · resumo de {e(dia_curto(inicio))} a {e(dia_curto(ontem))} · {len(D)} notícias da semana · Agenda Porto · Quiz</p>
+{aviso_en(data) if en else ""}<nav aria-label="Secções"><a href="../">Arquivo</a><a href="#resumo"><span class="longo">A semana em 2 minutos</span><span class="curto">Resumo</span></a><a href="#semana"><span class="longo">Notícias da semana</span><span class="curto">Notícias</span></a><a href="#semana-que-vem"><span class="longo">A semana que vem</span><span class="curto">Próxima semana</span></a><a href="#cultura">Cultura</a><a href="#edicoes">Edições</a><a href="#agenda"><span class="longo">Agenda Porto</span><span class="curto">Agenda</span></a><a href="#jogos">Quiz</a></nav>
 {briefing}{caixa_correcoes(data)}{semana}{cultura}{agenda}{jogos_html}
 <footer><p>Edição de domingo: seleção editorial das notícias mais importantes e com mais cobertura e seguimento ao longo da semana, atualizadas com o que mudou desde então. Não usamos dados de comentários nem de audiências. Cada notícia indica o estado da informação, a data e as fontes consultadas; procuramos confirmação em duas fontes independentes e assinalamos quando só há uma. Os textos são sínteses originais.</p>
 <p><strong>Sobre este jornal:</strong> {AVISO_IA} Projeto pessoal, sem publicidade e sem fins comerciais. Os erros detetados são corrigidos e registados na <a href="../#correcoes">lista de correções</a>.</p>
 <p>Edição publicada em <a href="{URL_SITE}{data}/">{URL_SITE}{data}/</a> · <a href="../">Ver todas as edições</a></p></footer></main>
 <a class="topo" href="#inicio" aria-label="Voltar ao topo">↑</a>
 <script type="application/json" id="dados-jogos">{json.dumps(jogos, ensure_ascii=False)}</script><script>{js}</script><script>{UI_JS}</script></body></html>"""
+    if en:
+        return gravar_en(data, pasta, pagina)
     pagina = menu_desenhado(pagina)
     (pasta / "index.html").write_text(pagina)
     (assets / "imagens.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=1))
