@@ -1,0 +1,1103 @@
+{
+ "data": "2026-11-14",
+ "numero": "022",
+ "resumo": "A Europa escolhe a equipa para as negociações de paz da Ucrânia, a Starship chega à órbita mas falha o regresso do propulsor à torre e Seguro não garante veto à lei das rendas no dia do protesto nacional pela habitação.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "EUA congelam mais de 1,2 mil milhões de dólares roubados à Binance e desmontam esquema norte-coreano de videochamadas falsas que rendeu 400 milhões",
+   "estado": "Facto confirmado (anúncio do Departamento de Justiça e do FBI) · rasto do resto dos fundos continua; sem detenções",
+   "data": "2026-11-12",
+   "texto": [
+    "O Departamento de Justiça (DOJ) e o FBI dos EUA anunciaram na quinta-feira, 12 de novembro, duas ações contra o roubo de criptomoedas por piratas informáticos ligados à Coreia do Norte. Por ordem judicial, foram apreendidos ou bloqueados mais de 1,2 mil milhões de dólares dos cerca de 6,3 mil milhões roubados em outubro à Binance, a maior bolsa de criptomoedas do mundo — um ataque que o FBI atribui ao grupo TraderTraitor. No mesmo dia, o FBI revelou ter desmantelado a infraestrutura na nuvem de uma campanha a que chama «FaceStealer», que terá rendido mais de 400 milhões de dólares em 18 meses.",
+    "Segundo o DOJ, os 1,2 mil milhões fazem parte de 2,7 mil milhões já congelados em várias plataformas, o que corresponde a perto de metade do roubo à Binance. O rasto do resto continua, porque os atacantes continuam a mover os fundos por pontes entre redes, misturadores e bolsas. A empresa de análise Elliptic relatou que criaram as suas próprias criptomoedas sem valor para fazer passar o dinheiro por bolsas descentralizadas, uma técnica já vista após o roubo à Bybit, em 2025.",
+    "O FaceStealer funcionava a partir de contas roubadas no Telegram, LinkedIn, Slack ou Discord: os atacantes enviavam convites de reunião a contactos da vítima, levavam-nos para falsas videochamadas Zoom ou Teams, onde passavam gravações de vítimas anteriores e vídeos falsos (deepfakes) de figuras conhecidas, e simulavam uma avaria de som cuja «correção» instalava programas que roubavam criptomoedas. As câmaras dos alvos eram gravadas às escondidas para enganar a vítima seguinte; o FBI apreendeu mais de 900 dessas gravações. Os alvos eram sobretudo empresas de criptomoedas e programadores de software livre. O FBI diz não saber se o esquema foi usado no ataque à Binance e recomenda desconfiar de convites inesperados, mesmo de contactos conhecidos, e de pedidos para instalar algo durante uma chamada."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Montantes, datas e funcionamento do FaceStealer confirmados pela The Record e pela The Hacker News, ambas com base nos anúncios do DOJ e do FBI. O comunicado do DOJ não pôde ser aberto diretamente. O valor do roubo à Binance surge como «cerca de 6,3 mil milhões» na The Record; outras publicações apontam números ligeiramente diferentes. A data exata do roubo em outubro não foi confirmada."
+   },
+   "fontes": [
+    {
+     "nome": "The Record (12 nov.)",
+     "url": "https://therecord.media/stolen-binance-crypto-recovered-doj-facestealer-disrupted"
+    },
+    {
+     "nome": "The Hacker News (13 nov.)",
+     "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+    }
+   ],
+   "imagem": {
+    "commons": "J-Edgar-Hoover-FBI-Building-Washington-DC-2014-B.jpg",
+    "tipo": "arquivo",
+    "alt": "Fachada do Edifício J. Edgar Hoover, sede do FBI, em Washington",
+    "legenda": "Sede do FBI, em Washington (2014); não mostra a operação (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Piratas entram em firewalls da Check Point por falhas no PHP e apagam servidores de organizações israelitas",
+   "estado": "Ataques confirmados pela Check Point · autoria por apurar; número total de vítimas não divulgado",
+   "data": "2026-11-13",
+   "texto": [
+    "Um grupo ainda não identificado aproveitou falhas graves para entrar em gateways de segurança (firewalls) da Check Point, uma das marcas mais usadas por empresas e governos para proteger as suas redes, e em parte dos casos destruiu dados, revelou a própria empresa na sexta-feira, 13 de novembro. Os ataques começaram a 30 de outubro contra organizações israelitas e alastraram a 2 de novembro a empresas de vários países e setores. A Check Point diz ter detetado a exploração de uma das falhas em «algumas dezenas» de clientes.",
+    "Os atacantes entraram pelo portal de acesso remoto (Mobile Access) através das falhas «PHP2Shell» (CVE-2026-109618 e CVE-2026-109619), duas vulnerabilidades críticas da linguagem PHP corrigidas a 21 de outubro e que a agência norte-americana CISA já dava como exploradas. Depois, usaram uma falha até então desconhecida do sistema Gaia (CVE-2026-123039) para obter controlo total do equipamento, instalaram uma porta das traseiras discreta, chamada TSGA, capaz de apagar registos da firewall, e, nos ataques em Israel, saltaram para servidores VMware ESXi, onde lançaram um programa que apaga ficheiros. Os atacantes deixaram uma nota com mensagens políticas que recusa qualquer negociação de resgate.",
+    "A Check Point associa parte das ferramentas a um conjunto de programas que a ESET ligou a um grupo ligado à China, mas diz não ter provas para o atribuir com confiança e admite uma operação de «falsa bandeira». A empresa pede a instalação imediata da atualização de novembro (Jumbo Hotfix) em todos os gateways e servidores de gestão, a começar pelos que têm o portal exposto à internet, e que se trate como intrusão qualquer ligação SSH inesperada de um gateway para servidores internos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Cronologia, falhas, ferramentas e recomendações confirmadas pela BleepingComputer e pela The Hacker News, ambas com base no relatório da Check Point Research (que não foi possível abrir diretamente). A expressão «algumas dezenas de clientes» refere-se à falha CVE-2026-123039, segundo a The Hacker News; o número total de organizações afetadas e os países da segunda vaga não foram divulgados. A autoria não está estabelecida."
+   },
+   "fontes": [
+    {
+     "nome": "BleepingComputer (13 nov.)",
+     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
+    },
+    {
+     "nome": "The Hacker News (13 nov.)",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+    },
+    {
+     "nome": "Check Point Research (relatório; não aberto)",
+     "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Parlamento alemão dá aos serviços secretos poderes para piratear e sabotar servidores de hackers estrangeiros",
+   "estado": "Lei aprovada no Bundestag · críticos admitem contestação constitucional; restantes passos legislativos não confirmados",
+   "data": "2026-11-13",
+   "texto": [
+    "O Bundestag, o parlamento federal alemão, aprovou na sexta-feira, 13 de novembro, uma reforma das leis dos serviços de informações que permite ao BND (serviços secretos externos) não só vigiar ameaças no estrangeiro mas agir contra elas — piratear sistemas estrangeiros, sabotar cadeias de abastecimento de adversários e deitar abaixo servidores de grupos de piratas apoiados por Estados hostis. A lei passou com 309 votos a favor (308, segundo a The Record), 190 contra e 71 abstenções.",
+    "O BfV, os serviços de informações internos, ganha poderes encobertos mais limitados dentro do país, como bloquear ou desviar tráfego de dados, entrar secretamente em casas em certas condições e investigar redes de crime organizado que apoiem o extremismo, mas continua sem poder deter pessoas nem usar a força. As duas agências passam a poder analisar grandes volumes de dados com inteligência artificial e comparar rostos com imagens publicadas na internet, e as operadoras podem ser obrigadas a «congelar» dados de tráfego. As ações de pirataria e as medidas ativas na Alemanha precisam de autorização prévia de um conselho de controlo independente, que passa de seis para doze membros.",
+    "O ministro do Interior, Alexander Dobrindt, chamou-lhe a «reforma do século» e rejeitou as acusações de que se está a criar uma «polícia secreta». A oposição diz que a lei apaga a separação entre polícia e serviços secretos, e críticos apontam que jornalistas e advogados ficam com proteções mais fracas do que médicos. A imprensa alemã antecipa uma possível batalha no Tribunal Constitucional."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Votação e conteúdo da lei confirmados pela The Record e pela agência dpa (via AD HOC NEWS). As contagens diferem num voto (308 a favor segundo a The Record, 309 segundo a dpa). A data da votação deduz-se das duas notícias, publicadas a 13 de novembro. Não foi possível confirmar se a lei ainda tem de passar pelo Bundesrat nem quando entra em vigor."
+   },
+   "fontes": [
+    {
+     "nome": "The Record (13 nov.)",
+     "url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power"
+    },
+    {
+     "nome": "AD HOC NEWS / dpa (13 nov.)",
+     "url": "https://www.ad-hoc-news.de/politik/geheimdienstreform-bundestag-gibt-bnd-und-verfassungsschutz-mehr-macht/70504488"
+    }
+   ],
+   "imagem": {
+    "commons": "Berlin-Reichstags-building.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício do Reichstag, sede do Bundestag, em Berlim",
+    "legenda": "Reichstag, sede do parlamento alemão, em Berlim; não mostra a votação (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "IPO da Anthropic com procura seis vezes superior à oferta; bancos recusam investidores da China e Amodei admite «dilema» da capacidade de computação",
+   "estado": "Relatos da imprensa (Bloomberg, Business Insider) · preço final a 18 nov. e estreia na Nasdaq a 19 nov., se não houver adiamento",
+   "data": "2026-11-13",
+   "texto": [
+    "A oferta pública inicial da Anthropic, criadora do assistente Claude, tem encomendas cerca de seis vezes superiores às ações disponíveis, segundo a Bloomberg, e os bancos que a organizam estão a recusar pedidos de investidores da China continental e de Hong Kong, invocando as regras norte-americanas de controlo de exportações de material de defesa (ITAR). Na sexta-feira, 13 de novembro, o presidente executivo, Dario Amodei, apresentou a empresa a investidores numa transmissão em direto com Jamie Dimon, líder do JPMorgan, e reconheceu que a compra de capacidade de computação é o maior dilema do negócio. O preço final deverá ser fixado na quarta-feira, 18, e as ações começam a negociar na Nasdaq, com o código ANT, na quinta-feira, 19.",
+    "Segundo o Business Insider, citado pela Azat TV, Amodei explicou que a empresa tem de decidir com anos de antecedência quanta capacidade de cálculo reservar, arriscando gastar de mais ou não conseguir servir os clientes. A Anthropic declarou nos documentos entregues ao regulador compromissos de infraestrutura de cerca de 900 mil milhões de dólares, metade dos quais até 2030; Amodei disse que a empresa reserva quantidades relativamente moderadas e compra mais no mercado imediato se a procura superar as previsões, apoiando-se em margens elevadas e em grande liquidez.",
+    "A Anthropic vende 825 milhões de ações entre 70 e 78 dólares, o que pode render até 64,4 mil milhões, a que se somam 26 mil milhões numa colocação privada junto de empresas como Alphabet, Microsoft, Nvidia e TSMC; no total, poderá ser a maior entrada em bolsa da história, acima da da SpaceX. A exclusão de compradores chineses repete, segundo pessoas envolvidas, o que aconteceu na operação da SpaceX; a Anthropic não comentou. A empresa já não disponibiliza os seus produtos na China e bloqueou o acesso de empresas sob controlo chinês."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A procura seis vezes superior e a recusa de ordens da China e de Hong Kong vêm da Bloomberg, relatada pela The Decoder (os artigos da Bloomberg não foram abertos). As declarações de Amodei vêm do Business Insider, segundo a Azat TV. Montantes da oferta e calendário (18 e 19 nov.) confirmados pela StockAnalysis com base no S-1 alterado. A Anthropic não comentou a exclusão de investidores chineses; a aplicação concreta das regras ITAR a esta operação não foi explicada."
+   },
+   "fontes": [
+    {
+     "nome": "The Decoder – procura (13 nov.)",
+     "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history"
+    },
+    {
+     "nome": "The Decoder – investidores chineses (13 nov.)",
+     "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/"
+    },
+    {
+     "nome": "Azat TV (14 nov., citando o Business Insider)",
+     "url": "https://azat.tv/en/anthropic-ceo-dario-amodei-ipo-compute-uncertainty-valuation/"
+    },
+    {
+     "nome": "StockAnalysis (11 nov.)",
+     "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/"
+    }
+   ],
+   "imagem": {
+    "commons": "Dario Amodei at TechCrunch Disrupt 2023 01.jpg",
+    "tipo": "arquivo",
+    "alt": "Dario Amodei, presidente executivo da Anthropic, num palco da conferência TechCrunch Disrupt",
+    "legenda": "Dario Amodei na TechCrunch Disrupt, em 2023 (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "OpenAI lança carteira digital para os seus agentes de IA poderem fazer compras em nome dos utilizadores",
+   "estado": "Anúncio da OpenAI · lançamento limitado a um pequeno grupo de assinantes Pro nos EUA; cada compra exige aprovação",
+   "data": "2026-11-13",
+   "texto": [
+    "A OpenAI lançou na sexta-feira, 13 de novembro, o ChatGPT Wallet, uma carteira de pagamentos que permite aos seus agentes de inteligência artificial — os «dots» — comprar produtos online em nome dos utilizadores. O utilizador guarda um cartão uma única vez e aprova cada compra com uma verificação de segurança, como reconhecimento facial ou impressão digital, depois de rever o vendedor, os artigos e o total. A novidade foi desenvolvida com a American Express, a Mastercard e a Visa e, para já, só está disponível para um pequeno grupo de assinantes do plano Pro nos EUA, maiores de 18 anos, com cartão e morada de faturação norte-americanos.",
+    "Segundo a OpenAI, as redes de cartões substituem o número verdadeiro por um código de pagamento («token»), pelo que nem o agente nem a loja veem os dados do cartão; mantêm-se as recompensas do cartão e o direito de contestar cobranças. A carteira só funciona dentro da ferramenta de agentes Dots. A empresa diz que vai começar devagar para aprender com o uso real e que pretende, mais tarde, permitir compras pré-autorizadas dentro de limites de gasto, categorias de produtos e períodos definidos pelo utilizador.",
+    "O alcance depende das lojas: algumas, como a Amazon, bloqueiam agentes de IA, e a OpenAI publicou orientações para os comerciantes não os barrarem por engano; preços, entregas e devoluções continuam a cargo das lojas. É uma nova tentativa da OpenAI no comércio, depois de ter abandonado em março o sistema Instant Checkout, lançado em setembro de 2025, numa corrida em que também entram a Google, a Meta e a xAI."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Funcionamento, parceiros e condições confirmados pela Khaama Press (com base na Reuters), pela Briefs (com base na Bloomberg) e pela SQ Magazine (com base no anúncio da OpenAI, que não foi aberto). O bloqueio pela Amazon vem da SQ Magazine e da Briefs. O artigo da CNBC sobre o lançamento não pôde ser aberto; não foi confirmado se a OpenAI cobra alguma comissão por transação."
+   },
+   "fontes": [
+    {
+     "nome": "Khaama Press (14 nov., citando a Reuters)",
+     "url": "https://www.khaama.com/openai-chatgpt-wallet-ai-shopping/"
+    },
+    {
+     "nome": "Briefs (13 nov.)",
+     "url": "https://www.briefs.co/news/openai-rolls-out-chatgpt-wallet-for-agent-led-checkout/"
+    },
+    {
+     "nome": "SQ Magazine (13 nov.)",
+     "url": "https://sqmagazine.co.uk/openai-launches-chatgpt-wallet-ai-agents/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Claude ajuda a decifrar cadernos de Kurt Gödel e revela centenas de teoremas desconhecidos do lógico",
+   "estado": "Resultados anunciados pelo investigador (The Guardian) · sem artigo científico publicado nem revisão independente",
+   "data": "2026-11-13",
+   "texto": [
+    "O lógico finlandês Jan von Plato, da Universidade de Helsínquia, usou o modelo de inteligência artificial Claude, da Anthropic, para analisar os 16 cadernos de trabalho que Kurt Gödel, um dos maiores lógicos do século XX, escreveu no início da década de 1940 — 1009 páginas de matemática e lógica, em grande parte numa estenografia alemã já em desuso. Segundo o relato publicado pelo The Guardian na sexta-feira, 13 de novembro, o Claude identificou 663 teoremas que Gödel provou, esboçou ou apenas imaginou, muitos deles desconhecidos até agora.",
+    "O projeto, financiado pela União Europeia desde 2017, avançava cerca de uma página por semana. Em setembro, von Plato entregou ao Claude as suas transcrições e livros e, em poucos dias, recebeu uma explicação de cerca de 650 páginas, que diz ter revisto página a página. Verificados com o programa de prova formal Coq, cerca de 400 teoremas confirmaram-se tal como estavam, cerca de 200 precisaram de correções ou de hipóteses adicionais e cerca de 50 eram falsos. Segundo von Plato, os cadernos mostram que Gödel esteve «a um passo» de provar a independência do axioma da escolha, resultado que valeu a Paul Cohen a Medalha Fields em 1966.",
+    "Os números são do próprio investigador e ainda não houve publicação científica nem dados que permitam a outros repetir a análise. O lógico Joel David Hamkins, da Universidade de Notre Dame, ouvido pelo jornal, lembrou que a semelhança com trabalhos posteriores mostra que Gödel «estava no caminho», não que tivesse o resultado, e que caberá aos historiadores dividir o mérito entre o matemático e a máquina."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Toda a informação vem da reportagem de Alex Bellos no The Guardian (13 nov.), conhecida através de excertos publicados no Tildes e de um resumo da ExplainX; o artigo original não pôde ser aberto. Os números (663, 400, 200, 50) são do investigador e não foram verificados de forma independente. A afirmação de que Gödel teria merecido uma Medalha Fields é opinião de von Plato."
+   },
+   "fontes": [
+    {
+     "nome": "The Guardian (13 nov., citado)",
+     "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+    },
+    {
+     "nome": "Tildes (excertos do The Guardian)",
+     "url": "https://tildes.net/~humanities.history/1wwk/ai_helps_unlock_discoveries_hidden_in_g%C3%B6dels_notebooks"
+    },
+    {
+     "nome": "ExplainX",
+     "url": "https://explainx.ai/blog/claude-godel-notebooks-von-plato-663-theorems-coq-what-is-verified-2026"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Falha de comunicações paralisa todos os voos nos EUA durante mais de quatro horas; Governo afasta culpa da nova ferramenta de IA",
+   "estado": "Facto confirmado (FAA) · causa técnica em investigação; ciberataque considerado improvável, mas não totalmente excluído",
+   "data": "2026-11-13",
+   "texto": [
+    "A agência federal da aviação dos EUA (FAA) mandou parar na sexta-feira, 13 de novembro, todas as descolagens nos aeroportos do país, depois de uma falha de comunicações que afetou vários centros regionais de controlo de tráfego aéreo. A paragem durou mais de quatro horas e deixou milhares de passageiros retidos: quase 5000 voos foram cancelados, segundo a ABC. Foi a primeira paralisação nacional desde janeiro de 2023 e teve efeitos no México, que também restringiu temporariamente as operações aéreas.",
+    "O secretário dos Transportes, Sean Duffy, atribuiu o problema a equipamento antigo: os comutadores e routers do sistema, ainda assente em telecomunicações analógicas, ficaram sobrecarregados e passaram a enviar dados inconsistentes, o que tornou instáveis os radares e as comunicações e levou a FAA a desligar o sistema. Duffy pediu ao Congresso 50 mil milhões de dólares de financiamento de emergência e disse esperar a normalidade até ao Dia de Ação de Graças. O secretário da Segurança Interna, Markwayne Mullin, disse não haver indícios de um ataque, mas não o excluiu por completo.",
+    "A falha surgiu pouco depois de a FAA ter alargado o SMART, uma nova ferramenta de inteligência artificial que reorganiza rotas em tempo real, e Mullin chegou a dizer que a agência de cibersegurança CISA estava a analisar se o sistema tinha contribuído. A empresa que o desenvolveu, a Air Space Intelligence, garantiu que a paragem «não resultou» do SMART, e Duffy afirmou depois que a ferramenta não teve qualquer papel."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Paragem nacional e falha de comunicações confirmadas pelo comunicado da FAA e pela Al Jazeera; duração, cancelamentos, explicação de Duffy, pedido de 50 mil milhões e declarações de Mullin vêm do acompanhamento em direto da ABC (estações ABC7/ABC30). A análise do SMART pela CISA vem da KPRC; a negação da Air Space Intelligence, da ABC7. A afirmação de Duffy de que o SMART não teve papel só foi vista em títulos de resultados de pesquisa (The Hill, Washington Times), sem abrir os artigos. A hora exata de início e de levantamento da paragem não foi confirmada."
+   },
+   "fontes": [
+    {
+     "nome": "FAA – comunicado (13 nov.)",
+     "url": "https://www.faa.gov/newsroom/faa-statement-nationwide-ground-stop"
+    },
+    {
+     "nome": "Al Jazeera (13 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue"
+    },
+    {
+     "nome": "ABC30 – direto (13–14 nov.)",
+     "url": "https://abc30.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20039384/"
+    },
+    {
+     "nome": "ABC7 – direto (13–14 nov.)",
+     "url": "https://abc7news.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20039427/"
+    },
+    {
+     "nome": "KPRC Click2Houston (13 nov.)",
+     "url": "https://www.click2houston.com/news/local/2026/11/13/faa-investigating-whether-new-ai-technology-contributed-to-nationwide-ground-stop/"
+    }
+   ],
+   "imagem": {
+    "commons": "Air traffic controllers at the Washington ARTCC.jpg",
+    "tipo": "arquivo",
+    "alt": "Controladores de tráfego aéreo diante de ecrãs de radar no centro de controlo de Washington",
+    "legenda": "Controladores no centro regional de controlo de tráfego aéreo de Washington (imagem de arquivo; não mostra a falha de 13 de novembro)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Sucessão na Nvidia: conselho terá sondado o líder da Arm, Rene Haas, para substituir Jensen Huang",
+   "estado": "Notícia do Financial Times, não confirmada · Nvidia diz não ter contactado formalmente nenhum candidato",
+   "data": "2026-11-13",
+   "texto": [
+    "O conselho de administração da Nvidia abordou Rene Haas, presidente executivo da britânica Arm, como possível sucessor de Jensen Huang, que se demitiu na quinta-feira, segundo o Financial Times de sexta-feira, 13 de novembro. Haas é um de vários nomes em análise e não é certo que receba uma proposta nem que a aceite. A Nvidia respondeu que está a escolher uma empresa de recrutamento, que não contactou formalmente nenhum candidato e que especular sobre nomes é «prematuro»; a Arm não comentou. Colette Kress, diretora financeira, continua como líder interina.",
+    "Haas trabalhou sete anos na Nvidia, onde dirigiu a área de produtos de computação, antes de passar para a Arm em 2013; lidera-a desde 2022 e conduziu a sua entrada na Nasdaq em 2023. Entre os outros nomes citados por analistas estão Ian Buck, engenheiro que criou a plataforma CUDA, e líderes de empresas rivais como Lisa Su, da AMD. As ações da Arm fecharam a cair cerca de 5% e as da Nvidia cerca de 2%; a fabricante perdeu cerca de 573 mil milhões de dólares em valor de mercado na semana, segundo a Reuters.",
+    "Ao mesmo tempo, a Wired noticiou que há trabalhadores a pedir o regresso de Huang: uma mensagem interna de um engenheiro antigo, a pedir ao conselho que ouvisse os funcionários, recebeu mais de 1600 comentários. Elon Musk disse no X que assinaria uma petição nesse sentido. A Nvidia, que não comentou a notícia da Wired, apresenta os resultados trimestrais na terça-feira, 17 de novembro, já com Kress à frente da empresa."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A sondagem a Haas é notícia do Financial Times (não consultado diretamente), relatada pela Reuters (via Euronext e Korea Times) e pela StockAnalysis; a Reuters diz não a ter conseguido verificar. A resposta do conselho, os valores de fecho e a perda semanal vêm da Reuters (Euronext); o movimento de trabalhadores vem da Wired, citada pela Reuters. A Korea Times refere quedas a meio da sessão de mais de 5% (Arm) e mais de 3% (Nvidia)."
+   },
+   "fontes": [
+    {
+     "nome": "Euronext / Reuters (13 nov.)",
+     "url": "https://live.euronext.com/en/financial-news/nvidia-approaches-arm-ceo-haas-employees-seek-huangs-return-reports-say"
+    },
+    {
+     "nome": "Korea Times (14 nov.)",
+     "url": "https://www.koreatimes.co.kr/world/20261114/nvidia-approached-arm-ceo-haas-to-succeed-huang-ft-reports"
+    },
+    {
+     "nome": "StockAnalysis (13 nov.)",
+     "url": "https://stockanalysis.com/news/nvidia-approaches-arm-ceo-rene-haas/"
+    }
+   ],
+   "imagem": {
+    "commons": "NVIDIA Headquarters.jpg",
+    "tipo": "arquivo",
+    "alt": "Sede da Nvidia em Santa Clara, Califórnia",
+    "legenda": "Sede da Nvidia em Santa Clara, Califórnia (imagem de arquivo)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Europa escolhe equipa para as negociações de paz da Ucrânia: Reino Unido, França, Alemanha, Itália e Polónia, com as instituições da UE",
+   "estado": "Decisão anunciada por António Costa · Kremlin não se compromete com a presença europeia; data da ronda por confirmar",
+   "data": "2026-11-13",
+   "texto": [
+    "Os líderes da União Europeia decidiram na sexta-feira, 13 de novembro, numa cimeira informal em Dublin, que a Europa será representada na próxima ronda de negociações para pôr fim à guerra na Ucrânia por uma equipa de cinco países — Reino Unido, França, Alemanha, Itália e Polónia — acompanhados pelas instituições europeias. O anúncio foi feito pelo presidente do Conselho Europeu, António Costa, que pediu que a Europa fale «a uma só voz» e descreveu a solução como «um esforço de equipa». Os líderes não nomearam um enviado único, apesar de a Ucrânia e os EUA o terem pedido.",
+    "Segundo a Euronews, além dos cinco países, a equipa incluirá o Conselho Europeu, a Comissão Europeia e a NATO, num formato já usado em rondas anteriores entre conselheiros de segurança. A alta representante para a política externa, Kaja Kallas, reclamou o papel de enviada e afirmou que «os russos não me querem» por causa das suas posições firmes; a presidente da Comissão, Ursula von der Leyen, não a apoiou. O chanceler alemão, Friedrich Merz, pediu a Washington «nenhuma surpresa», enquanto a primeira-ministra italiana, Giorgia Meloni, defendia um enviado único. O enviado norte-americano Jared Kushner disse que um único representante europeu seria «uma conquista maior».",
+    "Do lado russo, o porta-voz do Kremlin, Dmitri Peskov, disse que a Europa tem primeiro de mostrar que está disposta a contribuir para o processo de paz, e Moscovo não confirmou a participação europeia anunciada na véspera pelos enviados dos EUA depois do encontro com Vladimir Putin. A RTÉ refere que a próxima ronda deverá decorrer em Abu Dhabi na próxima semana, mas a data não foi anunciada oficialmente. No mesmo dia, segundo os serviços de emergência ucranianos citados pela Euronews, drones russos atingiram um hospital no centro de Kiev, obrigando à retirada de dezenas de pessoas, e um ataque em Odessa matou duas pessoas e feriu cinco."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Composição da equipa (Reino Unido, França, Alemanha, Itália, Polónia e instituições) e declarações de Costa, Merz, Meloni, Kallas e Kushner confirmadas pela Euronews, pela Al Jazeera e pela RTÉ. A inclusão da NATO consta só da Euronews. A realização da próxima ronda em Abu Dhabi «na próxima semana» é referida só pela RTÉ; a Euronews e a Al Jazeera não indicam data. Ataques em Kiev e Odessa confirmados pela Euronews (via Africanews); o Kyiv Post (só visto nos resultados de pesquisa) refere também duas mortes em Odessa."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews (13 nov.)",
+     "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot"
+    },
+    {
+     "nome": "Al Jazeera (13 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice"
+    },
+    {
+     "nome": "RTÉ (13 nov.)",
+     "url": "https://www.rte.ie/news/ireland/2026/1113/1599056-eu-leaders-dublin/"
+    },
+    {
+     "nome": "Euronews via Yahoo – Kallas (13 nov.)",
+     "url": "https://www.yahoo.com/news/politics/articles/kallas-says-russians-dont-want-141304886.html"
+    },
+    {
+     "nome": "Euronews via Africanews – ataques em Kiev e Odessa (13 nov.)",
+     "url": "https://www.africanews.com/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa/"
+    }
+   ],
+   "imagem": {
+    "commons": "Antonio Costa Portrait 2024 (cropped).jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato de António Costa, presidente do Conselho Europeu",
+    "legenda": "António Costa, presidente do Conselho Europeu (retrato de arquivo, 2024; não mostra a cimeira de Dublin)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "EUA desmentem que o Irão tenha destruído um radar no Bahrein; Trump afasta Vance das negociações e diz que não precisa de acordo",
+   "estado": "Versões contraditórias (Guarda Revolucionária vs. CENTCOM) · declaração de Trump; sem verificação independente no terreno",
+   "data": "2026-11-13",
+   "texto": [
+    "O Comando Central dos EUA (CENTCOM) negou na sexta-feira, 13 de novembro, que a Guarda Revolucionária iraniana tenha destruído um radar de alerta precoce norte-americano no Bahrein, como Teerão tinha anunciado horas antes. Segundo o CENTCOM, o Irão lançou dois drones de ataque em direção ao Bahrein, que foram abatidos pelas forças dos EUA sem causar feridos nem danos. A Guarda Revolucionária apresentara o ataque como resposta a um bombardeamento de uma torre de telecomunicações em Sirik, no sul do Irão.",
+    "A troca de acusações surge depois de o presidente Donald Trump ter anunciado, na quinta-feira, 12 de novembro, que retirou o vice-presidente JD Vance das conversações com o Irão para que se dedique a investigações sobre crime e corrupção em cidades e estados governados pelos democratas. «Não precisamos de um acordo com o Irão», escreveu Trump na rede Truth Social, acrescentando que o bloqueio naval e as sanções continuam. Vance tinha liderado durante meses os esforços para um cessar-fogo e, segundo o Wall Street Journal, ponderava um encontro direto com um alto responsável iraniano.",
+    "Do lado iraniano, as mensagens são contraditórias: o ministro dos Negócios Estrangeiros, Abbas Araghchi, disse que o país está disposto a negociar, enquanto outros responsáveis exigem antes o fim do bloqueio naval, a libertação de ativos congelados e o fim dos combates em todas as frentes. O Qatar e o Paquistão continuam a mediar. A guerra começou a 28 de fevereiro com ataques dos EUA e de Israel e, segundo o USA Today, já matou 23 militares norte-americanos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Desmentido do CENTCOM (dois drones abatidos, sem danos) confirmado pela Anadolu (via Middle East Monitor) e pela ANI (via The Tribune); a Euronews também noticiou o desmentido. Afastamento de Vance e citação de Trump confirmados pelo USA Today (via Yahoo) e pela Rádio Europa Livre. Não foi possível verificar de forma independente se houve danos no Bahrein nem quem atacou Sirik (o Irão fala num ataque «inimigo»). Número de militares mortos só do USA Today."
+   },
+   "fontes": [
+    {
+     "nome": "Anadolu via Middle East Monitor (13 nov.)",
+     "url": "https://www.middleeastmonitor.com/20261113-centcom-denies-iranian-claim-of-attack-on-us-radar-in-bahrain-says-2-drones-shot-down/"
+    },
+    {
+     "nome": "ANI via The Tribune (13 nov.)",
+     "url": "https://www.tribuneindia.com/news/usa-news/us-centcom-denies-irans-claim-of-destroying-us-radar-in-bahrain-says-two-drones-shot-down"
+    },
+    {
+     "nome": "USA Today via Yahoo (12 nov.)",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-says-deal-iran-not-223633935.html"
+    },
+    {
+     "nome": "Rádio Europa Livre (13 nov.)",
+     "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html"
+    },
+    {
+     "nome": "Euronews via Yahoo (13 nov.)",
+     "url": "https://ca.news.yahoo.com/irgc-says-destroyed-us-radar-093916562.html"
+    }
+   ],
+   "imagem": {
+    "commons": "January 2025 Official Vice Presidential Portrait of JD Vance (3x4 cropped).jpg",
+    "tipo": "oficial",
+    "alt": "Retrato oficial do vice-presidente dos EUA, JD Vance",
+    "legenda": "JD Vance, vice-presidente dos EUA, afastado das negociações com o Irão (retrato oficial de 2025; não mostra o acontecimento)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31 fecha a primeira semana dividida sobre os combustíveis fósseis; Guterres pede cortes «imediatos e drásticos» nas emissões",
+   "estado": "Negociações em curso · primeiro rascunho do acordo previsto para segunda-feira, 16 de novembro; fim marcado para 20 de novembro",
+   "data": "2026-11-13",
+   "texto": [
+    "A conferência do clima da ONU em Antália, na Turquia (COP31), terminou na sexta-feira, 13 de novembro, a primeira de duas semanas dividida sobre o futuro do petróleo, do gás e do carvão. Na sua última conferência de imprensa numa COP, o secretário-geral da ONU, António Guterres, pediu uma redução «imediata e drástica» das emissões e disse que o limite de 1,5 °C de aquecimento ainda é possível se os grandes emissores agirem. A cimeira deverá terminar a 20 de novembro.",
+    "A presidência publicou na sexta-feira um resumo das prioridades dos países para uma decisão final, que inclui a «transição para longe dos combustíveis fósseis nos sistemas energéticos» acordada no Dubai em 2023 e retirada dos textos finais das duas COP seguintes, bem como triplicar o financiamento da adaptação. A Turquia quer pôr a eletrificação global no centro do acordo, sem exigir que a eletricidade venha de renováveis; a UE apoia, mas só com energia limpa. A Arábia Saudita e a Rússia resistem a metas sobre fósseis e a Índia opõe-se a medidas que diz limitarem o seu desenvolvimento. Os EUA faltam pelo segundo ano consecutivo.",
+    "A Austrália, que conduz as negociações numa presidência partilhada com a Turquia, recebe contributos dos países até sábado à noite e prevê apresentar um primeiro rascunho do texto político no início da próxima semana — possivelmente na segunda-feira, 16 de novembro. Segundo o grupo de reflexão E3G, a Rússia e o Grupo Árabe contestam que haja mandato para essa «decisão de cobertura». Guterres, que deixa o cargo no fim de dezembro, disse manter a esperança e lembrou que as renováveis já entraram no centro da economia."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Declarações de Guterres, posições da Turquia, UE, Arábia Saudita, Rússia e Índia e calendário do rascunho confirmados pela Reuters (via WHTC) e pela RTÉ. Resumo de prioridades, data de fim (20 nov.) e possível rascunho a 16 nov. constam do The New Arab (com AFP). O artigo do Público (13 nov.) só foi visto nos resultados de pesquisa (página não acessível). A data exata do rascunho não está confirmada oficialmente."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via WHTC (13 nov.)",
+     "url": "https://whtc.com/2026/11/13/cop31-talks-face-early-friction-over-future-of-fossil-fuels/"
+    },
+    {
+     "nome": "RTÉ (13 nov.)",
+     "url": "https://www.rte.ie/news/2026/1113/1599060-climate-cop-fossil-fuels/"
+    },
+    {
+     "nome": "The New Arab, com AFP (13 nov.)",
+     "url": "https://newarab.com/news/cop31-deal-wish-list-includes-fossil-fuel-transition"
+    },
+    {
+     "nome": "Público (13 nov.) – só visto nos resultados de pesquisa",
+     "url": "https://www.publico.pt/2026/11/13/azul/noticia/texto-final-cop31-comeca-forma-combustiveis-fosseis-continuam-dividir-2194858"
+    }
+   ],
+   "imagem": {
+    "commons": "Antalya, Turkey skyline 19 February 2022.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Vista panorâmica da cidade de Antália, na costa sul da Turquia",
+    "legenda": "Antália, cidade anfitriã da COP31 (imagem ilustrativa de 2022; não mostra a conferência)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "53 países e organizações pedem a Israel que deixe entrar em Gaza abrigos, combustível e material médico para o inverno",
+   "estado": "Declaração conjunta na ONU · Israel responde que já entraram mais de 93 mil tendas e 8600 camiões",
+   "data": "2026-11-13",
+   "texto": [
+    "Uma coligação de 53 países e organizações internacionais, liderada pelo Reino Unido, pelo Qatar e pela Jordânia, pediu a Israel, numa declaração lida na quinta-feira, 12 de novembro, na ONU, em Nova Iorque, que deixe entrar de imediato em Gaza materiais de abrigo, combustível, água, saneamento e material de saúde para o inverno. Os signatários pedem também que os corredores humanitários do Egito e da Jordânia funcionem «de forma plena e previsível», que seja alargada a lista de bens de «duplo uso» autorizados e que jornalistas e delegações internacionais possam entrar no território.",
+    "A declaração, dirigida também ao novo governo israelita que deverá formar-se nas próximas semanas após as eleições, alerta para o risco de hipotermia, infeções respiratórias e doenças transmitidas pela água. Segundo a Organização Mundial da Saúde, citada pelo Times of Israel, há mais 33 mil casos de infeções respiratórias agudas do que no mesmo período do ano passado, dezenas de milhares de tendas ficaram inundadas e quase um milhão de deslocados vivem em zonas expostas a cheias.",
+    "Israel respondeu na sexta-feira, 13 de novembro, que já entraram mais de 93 mil tendas e mais de 8600 camiões com material de inverno, que aprovou a entrada de 16 camiões de limpeza de esgotos e que restringe alguns materiais por poderem ser usados pelo Hamas para fins militares. O gabinete do primeiro-ministro, Benjamin Netanyahu, acusa o Hamas de não cumprir os compromissos do cessar-fogo em vigor desde outubro de 2025."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Declaração dos 53 signatários, líderes da iniciativa e exigências confirmadas pela Arab News e pelo Times of Israel. Dados da OMS só do Times of Israel. Resposta israelita (tendas, camiões, camiões de esgotos) confirmada pela Xinhua e, em parte, pelo Times of Israel. Não foi possível consultar diretamente o texto oficial da declaração no site do Governo britânico."
+   },
+   "fontes": [
+    {
+     "nome": "Arab News (12 nov.)",
+     "url": "https://www.arabnews.com/middle-east/53-countries-at-un-urge-incoming-israeli-government-to-open-up-gaza-for-winter-aid-3011505"
+    },
+    {
+     "nome": "Times of Israel (13 nov.)",
+     "url": "https://www.timesofisrael.com/dozens-of-nations-organizations-demand-israel-let-more-winter-supplies-into-gaza/"
+    },
+    {
+     "nome": "Xinhua (13 nov.)",
+     "url": "https://english.news.cn/20261113/78a7944f015447e992d145b3ea3c355f/c.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Flooded tents of displaced Palestinians due to heavy rain in Deir el-Balah, Gaza Strip.jpg",
+    "tipo": "arquivo",
+    "alt": "Tendas de deslocados palestinianos inundadas pela chuva em Deir el-Balah, na Faixa de Gaza",
+    "legenda": "Tendas de deslocados inundadas em Deir el-Balah, Gaza (imagem de arquivo; não é deste inverno)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Seguro ouve as acampadas durante quase três horas mas não garante veto à lei das rendas; protesto nacional pela habitação sai hoje à rua",
+   "estado": "Reunião realizada · declarações do Presidente e dos movimentos; veto não assumido; manifestações marcadas para hoje",
+   "data": "2026-11-13",
+   "texto": [
+    "O Presidente da República, António José Seguro, recebeu na sexta-feira, 13 de novembro, no Palácio de Belém, 25 representantes das acampadas do Porto e de Lisboa e da plataforma Casa Para Viver, numa reunião à porta fechada que durou quase três horas, perto do dobro do previsto. Seguro não se comprometeu a vetar a revisão da lei do arrendamento, como os movimentos lhe pediam: disse que ainda não viu o diploma, que nem sabe se chegará a Belém e que, mesmo vetado, o Parlamento pode confirmá-lo. Os movimentos levam hoje, sábado, o protesto às ruas de cerca de 30 localidades, com as manifestações principais às 15h na Alameda D. Afonso Henriques, em Lisboa, e na Praça do Marquês, no Porto.",
+    "Numa nota divulgada ao fim da tarde, a Presidência afirmou que o chefe de Estado está «atento à crise da habitação» e procura ouvir e mobilizar todos os atores para a resolver, e que os representantes lhe deixaram preocupações sobre legislação, políticas urbanas, atuação policial e proteção dos mais vulneráveis. Segundo o Observador, Seguro classificou como graves os relatos sobre a carga policial no Porto — incluindo agressões a um jornalista e a pessoal médico e agentes sem identificação — e pediu aos manifestantes as filmagens que dizem ter; aguarda o inquérito do Ministério Público e o relatório da Procuradoria-Geral da República. A PGR anunciou no mesmo dia que investiga um agente da PSP à paisana que exibiu uma arma no Porto e o lançamento de um petardo em Lisboa.",
+    "Os movimentos falaram num «sinal político» ao Governo e pediram a Seguro que medeie um encontro com o primeiro-ministro; não é claro se o Presidente aceitou, mas comprometeu-se a transmitir as preocupações ao Governo e a agir «dentro das suas capacidades» face a ameaças de represálias contra imigrantes que participam nos protestos. Luís Montenegro, em Dublin, disse que o Governo está disponível para continuar o diálogo, mas através da secretaria de Estado da Habitação e do Ministério das Infraestruturas. A revisão do regime do arrendamento — uma autorização legislativa aprovada na generalidade a 30 de setembro, com a abstenção do Chega — continua em discussão na especialidade na Assembleia da República."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Duração, composição da delegação, pedido de mediação e declarações dos movimentos confirmados pela Lusa (Jornal de Negócios, Correio da Manhã); nota da Presidência citada pelo DN/Lusa e pelo 24 Notícias, que traz também as declarações de Montenegro. As frases de Seguro sobre o veto e as filmagens são relatadas só pelo Observador. Horários e locais das manifestações de hoje vêm da agenda dos organizadores publicada pelo Esquerda.net (12 nov.), cuja contagem de localidades não bate certo (30 no título, 29 na lista). Investigação da PGR: só o lead da Lusa (texto completo reservado a assinantes). Votação de 30 set. confirmada pela RTP. Não foi possível abrir a notícia da Renascença sobre a nota presidencial."
+   },
+   "fontes": [
+    {
+     "nome": "Jornal de Negócios/Lusa (13 nov.)",
+     "url": "https://www.jornaldenegocios.pt/economia/habitacao/detalhe/presidente-deu-sinal-politico-e-movimentos-pela-habitacao-pediram-mediacao-com-governo"
+    },
+    {
+     "nome": "Observador (13 nov.)",
+     "url": "https://observador.pt/especiais/seguro-nao-garante-veto-a-lei-das-rendas-da-forca-as-acampadas-e-pede-filmagens-de-carga-policial-no-porto/"
+    },
+    {
+     "nome": "DN/Lusa – nota da Presidência (13 nov.)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/pr-recebeu-movimentos-pela-habitao-e-diz-que-quer-mobilizar-todos-os-atores-para-resoluo-da-crise"
+    },
+    {
+     "nome": "24 Notícias (13 nov.)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/presidente-da-republica-atento-a-crise-da-habitacao-montenegro-disponivel-para-continuar-esse-dialogo"
+    },
+    {
+     "nome": "Lusa – MP investiga PSP à paisana e petardo (13 nov.)",
+     "url": "https://www.lusa.pt/national/article/2026-11-13/48124619/habitação-mp-investiga-psp-à-paisana-no-porto-e-lançamento-de-petardo-em-lisboa"
+    },
+    {
+     "nome": "Esquerda.net – agenda das manifestações (12 nov.)",
+     "url": "https://www.esquerda.net/artigo/30-cidades-saem-rua-no-sabado-pelo-direito-habitacao/99474"
+    },
+    {
+     "nome": "RTP – aprovação na generalidade (30 set.)",
+     "url": "https://www.rtp.pt/noticias/politica/parlamento-aprova-nova-lei-do-arrendamento-com-abstencao-do-chega_e1768638"
+    }
+   ],
+   "imagem": {
+    "commons": "Porto Praca D Joao I.JPG",
+    "tipo": "arquivo",
+    "alt": "Praça D. João I, no centro do Porto",
+    "legenda": "A Praça D. João I, no Porto, onde começou a acampada pela habitação a 10 de outubro (imagem de arquivo; não mostra o protesto)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "DBRS mantém Portugal em «A (high)» com perspetiva positiva; Moody's é a próxima a pronunciar-se",
+   "estado": "Facto confirmado · decisão da agência divulgada na sexta-feira; nova subida é possibilidade, não decisão",
+   "data": "2026-11-13",
+   "texto": [
+    "A agência de notação financeira Morningstar DBRS confirmou na sexta-feira, 13 de novembro, o rating de longo prazo da dívida soberana portuguesa em «A (high)», com tendência positiva, o que deixa aberta a porta a uma subida numa próxima avaliação. A agência justifica a decisão com a descida prevista do peso da dívida pública, um crescimento acima do esperado e um plano orçamental para 2027 que considera prudente. O rating de curto prazo ficou em «R-1 (middle)», com tendência estável.",
+    "A dívida pública desceu para 89,2% do PIB em 2025, o primeiro valor abaixo de 90% desde 2009, e, segundo a DBRS, poderá ficar abaixo da média da zona euro já este ano, depois de três anos de excedentes e com pelo menos um saldo equilibrado esperado para 2026. Do lado negativo, a agência aponta o peso ainda elevado da dívida, o PIB per capita e o potencial de crescimento comparativamente baixos, a posição externa e os preços da habitação, entre os mais sobreavaliados da zona euro; as tensões geopolíticas e comerciais são o principal risco. A DBRS diz não ver na fragmentação partidária nem no Governo minoritário uma ameaça à disciplina orçamental.",
+    "O ministro das Finanças, Joaquim Miranda Sarmento, disse num comunicado que a nota reflete o esforço das famílias e das empresas e, num seminário da AIP em Lisboa sobre o Orçamento do Estado para 2027, mostrou-se confiante em novas subidas se a dívida continuar a cair, lembrando as cinco melhorias desde abril de 2024. A Moody's deverá avaliar Portugal na próxima semana, segundo a Lusa. A decisão chega numa altura em que o Orçamento para 2027, aprovado na generalidade a 28 de outubro, está em discussão na especialidade."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Decisão, fundamentos e riscos confirmados pela Lusa (Observador) e pelo Jornal Económico, que traz os números da dívida e o comentário sobre o Governo minoritário. Declarações do ministro pela Lusa (Observador, Notícias ao Minuto). A data da avaliação da Moody's vem só da Lusa (Observador), sem dia exato. Não foi consultado diretamente o comunicado da DBRS. A aprovação do OE2027 na generalidade a 28 de outubro consta dos títulos do ECO, RTP e Euronews nos resultados de pesquisa (ligação do ECO não aberta)."
+   },
+   "fontes": [
+    {
+     "nome": "Observador/Lusa (14 nov.)",
+     "url": "https://observador.pt/2026/11/14/dbrs-confirma-rating-de-portugal-em-a-elevado-com-tendencia-positiva-ministro-preve-mais-subidas/"
+    },
+    {
+     "nome": "Jornal Económico (14 nov.)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/dbrs-mantem-rating-de-portugal-em-a-high-e-perspetiva-positiva-devido-a-queda-da-divida-publica/"
+    },
+    {
+     "nome": "Notícias ao Minuto/Lusa (13 nov.)",
+     "url": "https://www.noticiasaominuto.com/economia/3084014/ministro-diz-que-decisao-da-dbrs-reflete-esforco-das-familias-e-das-empresas"
+    },
+    {
+     "nome": "ECO – OE2027 aprovado na generalidade (28 out.)",
+     "url": "https://eco.sapo.pt/2026/10/28/orcamento-do-estado-para-2027-aprovado-na-generalidade-com-abstencao-do-ps/"
+    }
+   ],
+   "imagem": {
+    "commons": "Praça do Comércio Lisboa.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Praça do Comércio, em Lisboa",
+    "legenda": "A Praça do Comércio, em Lisboa, onde fica o Ministério das Finanças (imagem ilustrativa)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Chuva continua no fim de semana, com aviso amarelo no Norte e Centro no domingo; Charles deixou recorde nacional de 502,7 mm num dia na Madeira",
+   "estado": "Recorde confirmado pelo IPMA · previsão e avisos para o fim de semana, sujeitos a atualização",
+   "data": "2026-11-14",
+   "texto": [
+    "O mau tempo não dá tréguas no continente neste fim de semana. Para este sábado, 14 de novembro, o Instituto Português do Mar e da Atmosfera (IPMA) prevê chuva em todo o país, mais forte e frequente no Centro, com possibilidade de trovoada e abertas entre os aguaceiros; nos Açores, todas as ilhas estão sob aviso amarelo por chuva. No domingo, 15 de novembro, a chuva será mais intensa no Norte e Centro, com aviso amarelo entre as 6h e as 15h em distritos como Viana do Castelo, Braga, Porto, Vila Real e Aveiro.",
+    "As temperaturas descem ligeiramente: no sábado, as mínimas vão dos 8 °C na Guarda e as máximas chegam aos 21 °C em Setúbal (Lisboa 14–19 °C, Porto 13–19 °C, Faro 13–20 °C); no domingo, a Guarda deverá ter 7 °C de mínima e Lisboa, Santarém e Setúbal 20 °C de máxima. No Sul, a chuva vai perdendo força no domingo, mas o céu mantém-se muito nublado.",
+    "Entretanto, o IPMA confirmou na sexta-feira, 13 de novembro, que a depressão Charles bateu o recorde nacional de chuva num dia: a estação do Chão do Areeiro, na Madeira, registou 502,7 milímetros em 24 horas, entre as 9h de 10 de novembro e as 9h do dia seguinte, superando os 497,5 mm medidos no mesmo local a 6 de junho de 2023. Mais de 90% desse volume caiu em 12 horas. A rajada máxima chegou aos 136,1 km/h no Chão do Areeiro e, junto ao aeroporto da Madeira, os 126 km/h superaram o anterior máximo de novembro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Recorde e dados da Madeira confirmados pelo Observador/Lusa e pelo DN, ambos com base no comunicado do IPMA. Previsão do fim de semana pelo Notícias ao Minuto (14 nov.) e por O Minho (13 nov.), que citam o IPMA; as listas de distritos em aviso para domingo não coincidem (o Notícias ao Minuto inclui Viseu, O Minho inclui Bragança), por isso só se indicam os comuns. Horário do aviso só em O Minho. Não foi possível consultar diretamente o site do IPMA; os avisos podem ser alterados."
+   },
+   "fontes": [
+    {
+     "nome": "Notícias ao Minuto (14 nov.)",
+     "url": "https://www.noticiasaominuto.com/pais/3084079/chuva-ainda-nao-da-treguas-e-ha-alerta-amarelo-no-fim-de-semana"
+    },
+    {
+     "nome": "O Minho (13 nov.)",
+     "url": "https://ominho.pt/vem-ai-muita-chuva-para-o-minho-este-domingo-ipma-ja-emitiu-aviso-amarelo/"
+    },
+    {
+     "nome": "Observador/Lusa (13 nov.)",
+     "url": "https://observador.pt/2026/11/13/mau-tempo-depressao-charles-estabeleceu-novo-recorde-nacional-de-precipitacao-na-madeira/"
+    },
+    {
+     "nome": "Diário de Notícias (13 nov.)",
+     "url": "https://www.dn.pt/sociedade/depresso-charles-trouxe-novo-mximo-nacional-de-precipitao-5027-milmetros-em-24-horas-no-cho-do-areeiro-madeira"
+    }
+   ],
+   "imagem": {
+    "commons": "2016. Pico do Areeiro. Madeira. Portugal '04.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Paisagem de montanha no Pico do Areeiro, na Madeira",
+    "legenda": "A zona do Pico do Areeiro, na Madeira, perto da estação do Chão do Areeiro (imagem ilustrativa; não mostra a tempestade)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Seleção joga hoje em Braga com a Dinamarca no primeiro jogo depois da retirada de Ronaldo; todos entram com a camisola 7",
+   "estado": "Jogo marcado e homenagem anunciada · resultado por conhecer",
+   "data": "2026-11-14",
+   "texto": [
+    "A seleção nacional de futebol defronta a Dinamarca este sábado, 14 de novembro, às 19h45, em Braga, na 5.ª jornada do grupo A4 da Liga das Nações, no primeiro jogo depois de Cristiano Ronaldo ter anunciado o fim da carreira internacional. Em homenagem ao capitão, todos os jogadores portugueses vão entrar em campo com a camisola número 7. Portugal já tem garantida a presença nos quartos de final da prova.",
+    "A homenagem, aprovada previamente pela UEFA, inclui também um momento simbólico ao 7.º minuto, a que os adeptos nas bancadas se podem juntar. A ideia saiu de uma reunião entre o presidente da Federação Portuguesa de Futebol, Pedro Proença, o selecionador Jorge Jesus e os capitães Bernardo Silva, Rúben Dias e Bruno Fernandes; a federação deixou ainda vazio o quarto de Ronaldo na Cidade do Futebol.",
+    "Ronaldo, de 41 anos, anunciou a saída da seleção a 5 de novembro, num vídeo nas redes sociais. Despede-se com 234 internacionalizações e 146 golos desde agosto de 2003 — recordes da seleção masculina — e com os títulos do Euro 2016 e das Ligas das Nações de 2019 e 2025. Depois da Dinamarca, Portugal joga na terça-feira, 17 de novembro, com o País de Gales, em Cardiff."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Hora, local, competição e homenagem confirmados pelo Record e pelo Diário do Distrito; este último cita o Record, A Bola e o DN, pelo que não é inteiramente independente. Momento ao 7.º minuto, aprovação da UEFA, quarto vazio, data do anúncio e números da carreira só no Diário do Distrito. Não foi possível abrir a notícia do Observador sobre a homenagem (pedido de acesso sem resposta)."
+   },
+   "fontes": [
+    {
+     "nome": "Record (13 nov.)",
+     "url": "https://www.record.pt/futebol/selecoes/amp/todos-com-a-camisola-7-jogadores-da-selecao-nacional-homenageiam-cristiano-ronaldo-no-jogo-com-a-dinamarca"
+    },
+    {
+     "nome": "Diário do Distrito (13 nov.)",
+     "url": "https://diariodistrito.sapo.pt/selecao-nacional-vai-homenagear-cristiano-ronaldo-com-23-camisolas-numero-7-frente-a-dinamarca/"
+    }
+   ],
+   "imagem": {
+    "commons": "Estádio Municipal de Braga 3.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Estádio Municipal de Braga, encaixado numa antiga pedreira",
+    "legenda": "O Estádio Municipal de Braga (imagem ilustrativa; as fontes indicam Braga como local do jogo, sem nomear o estádio)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Starship chega à órbita no voo 15, mas propulsor falha regresso à torre e cai no golfo do México; nave tenta ser apanhada hoje às 21h20",
+   "estado": "Lançamento e órbita confirmados · captura do propulsor abortada, causa por explicar · captura da nave prevista para hoje à noite",
+   "data": "2026-11-14",
+   "texto": [
+    "A SpaceX lançou na sexta-feira, 13 de novembro, às 22h47 de Lisboa, o voo 15 da Starship a partir de Starbase, no sul do Texas, e a nave chegou à órbita e libertou 26 satélites Starlink da nova geração V3. Mas a primeira metade do plano inédito de apanhar as duas fases com a torre falhou: cerca de seis minutos e meio depois da descolagem, o propulsor Super Heavy foi desviado para o golfo do México em vez de regressar aos braços da torre. A nave continua em órbita e, se tudo correr bem, tentará ser apanhada pela torre hoje, sábado, por volta das 21h20 de Lisboa — seria a primeira recuperação de uma segunda fase vinda da órbita.",
+    "A SpaceX não explicou de imediato o que levou a cancelar a captura do propulsor 22, o primeiro da versão Block 3 a tentar regressar à torre. O comentador da empresa Dan Huot admitiu durante a transmissão não saber ainda porque não foi possível trazê-lo de volta. A agência AP noticiou que se tratou de um aborto automático e a AFP descreveu a queda no mar numa bola de fogo; a Space.com chamou-lhe uma amaragem controlada. A nave 42, por seu lado, entrou numa órbita a cerca de 275 quilómetros de altitude 26 minutos após a descolagem, numa inserção que a SpaceX classificou como nominal, e três dos satélites levavam câmaras para inspecionar o escudo térmico.",
+    "Segundo a AFP, cerca de sete horas depois do lançamento a SpaceX indicava que a nave e o escudo térmico estavam em bom estado. O plano prevê 14 voltas à Terra e uma ignição de travagem de cerca de 10 segundos perto das 21h36 de missão, seguida da reentrada e do regresso a Starbase cerca de 22 horas e meia depois da descolagem. A empresa mantém pontos de decisão que permitem encurtar o voo e fazer a nave cair no Pacífico, e há uma zona de amaragem de recurso no golfo do México. À hora de fecho (manhã de sábado em Lisboa), a tentativa de captura ainda não tinha acontecido."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Hora de lançamento, órbita, satélites, abandono da captura do propulsor e horário previsto do regresso confirmados pela Space.com (atualizada às 0h10 de Lisboa de 14 nov.), pela AP (via PBS) e pela AFP (via Free Malaysia Today); o GeekWire/Cosmic Log refere «preocupações de segurança» não especificadas. A causa da falha do propulsor não foi divulgada e as fontes divergem na descrição da queda (amaragem controlada vs. explosão). O estado da nave após as ~7 horas de voo vem só da AFP; a hora exata da captura (21h17 segundo a Space.com, cerca das 21h20 segundo a AFP) é uma previsão. Não foi possível abrir o acompanhamento ao minuto da CNN nem da Space.com."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (13 nov.)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+    },
+    {
+     "nome": "AP via PBS NewsHour (13 nov.)",
+     "url": "https://www.pbs.org/newshour/science/spacexs-starship-soars-into-orbit-after-booster-malfunction-thwarts-double-catch-attempt"
+    },
+    {
+     "nome": "AFP via Free Malaysia Today (14 nov.)",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/14/spacex-s-starship-enters-earth-s-orbit-but-booster-catch-aborted"
+    },
+    {
+     "nome": "Cosmic Log (13 nov.)",
+     "url": "https://cosmiclog.com/2026/11/13/starship-soars-but-spacex-misses-out-on-booster-catch/"
+    }
+   ],
+   "imagem": {
+    "commons": "Starship Booster Return on Final Approach (54063904149).jpg",
+    "tipo": "arquivo",
+    "alt": "Propulsor Super Heavy da Starship a descer junto à torre de lançamento em Starbase, no Texas",
+    "legenda": "O propulsor Super Heavy a aproximar-se da torre para ser apanhado no quinto voo de teste, em outubro de 2024 (imagem de arquivo; não mostra o voo 15, em que a captura do propulsor foi abortada)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Regresso do Vulcan adiado para hoje às 17h32 por falha no fornecimento de azoto; leva 40 satélites Amazon Leo",
+   "estado": "Lançamento adiado um dia (confirmado pela ULA) · nova tentativa prevista para hoje, 17h32–18h01 de Lisboa",
+   "data": "2026-11-14",
+   "texto": [
+    "A United Launch Alliance (ULA) adiou para hoje, sábado, 14 de novembro, o regresso ao ativo do foguetão Vulcan, que estava marcado para as 17h54 de Lisboa de sexta-feira. A nova janela, em Cabo Canaveral, na Florida, abre às 17h32 e fecha às 18h01 de Lisboa. O adiamento deveu-se a um problema de energia numa fábrica de azoto que abastece a plataforma de lançamento; a empresa garantiu que o foguetão e os satélites estão em bom estado. A bordo seguem 40 satélites de internet da constelação Amazon Leo, a maior carga de sempre da ULA.",
+    "Segundo o Talk of Titusville, a interrupção numa fábrica da Air Liquide cortou o fornecimento de azoto líquido à plataforma 41 e o dia extra serve para repor a conduta; a previsão meteorológica dava 95% de condições favoráveis. O Vulcan está parado desde 12 de fevereiro, quando um dos propulsores laterais de combustível sólido sofreu uma falha no bocal cerca de 20 segundos após a descolagem; este voo é o primeiro com o bocal redesenhado, e a investigação desse incidente ainda está aberta. É também o primeiro voo dos motores BE-4, da Blue Origin, desde a explosão de um New Glenn na plataforma em maio.",
+    "Se o lançamento correr bem, os satélites começam a separar-se cerca de 70 minutos depois, a cerca de 460 quilómetros de altitude. É a primeira de 38 missões do Vulcan compradas pela Amazon, que admite uma segunda dentro de semanas. Na Europa, o próximo Ariane 6, com 36 satélites Amazon Leo, está marcado para não antes de 23 de novembro, a partir de Kourou, na Guiana Francesa, depois de um atraso de cerca de sete semanas ligado a verificações na linha de produção."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Adiamento, nova hora (12h32 EST = 17h32 de Lisboa) e declaração da ULA sobre o bom estado do veículo confirmados pela Space.com e pelo Talk of Titusville (13 nov.); o nome da Air Liquide, a janela até às 13h01 EST e a previsão de 95% vêm só do Talk of Titusville. Contexto da missão (falha de fevereiro, bocal redesenhado, BE-4, separação dos satélites, 38 missões) da Spaceflight Now, cuja página ainda não refletia o adiamento. Ariane 6 a 23 nov. segundo a European Spaceflight (15 out.). À hora de fecho o lançamento ainda não tinha acontecido."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (13 nov.)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
+    },
+    {
+     "nome": "Talk of Titusville (13 nov.)",
+     "url": "https://talkoftitusville.com/2026/11/13/ula-delays-vulcan-amazon-leo-1-until-saturday/"
+    },
+    {
+     "nome": "Spaceflight Now (13 nov.)",
+     "url": "https://spaceflightnow.com/2026/11/13/ulas-vulcan-rocket-plans-return-to-flight-with-launch-of-40-leo-satellites-for-amazon/"
+    },
+    {
+     "nome": "European Spaceflight (15 out.)",
+     "url": "https://europeanspaceflight.com/arianespace-targets-23-nov-ariane-6-return-following-reported-turbopump-fix/"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Como Roubar Um Banco»: David Leitch põe Nicholas Hoult a assaltar bancos em direto para as redes sociais — com boas perseguições e uma sátira que fica a meio caminho",
+   "ficha": {
+    "Título original": "How to Rob a Bank (2026)",
+    "Realização": "David Leitch; argumento de Mark Bianculli",
+    "Elenco": "Nicholas Hoult, Zoë Kravitz, John C. Reilly, Anna Sawai, Rhenzy Feliz, Pete Davidson, Christian Slater, Tati Gabrielle",
+    "Estreia em Portugal": "12 de novembro de 2026 (M/12; 122 minutos; distribuição Big Picture), em 41 salas do país, segundo o filmSPOT",
+    "Avaliação": "Receção morna: 3/5 na Time Out («recomendado»), C+ no A.V. Club, crítica negativa na Inverse; a Screen Daily resume no título: «divertido, esquecível»"
+   },
+   "texto": [
+    "Está nas salas portuguesas desde quinta-feira, 12 de novembro, «Como Roubar Um Banco», o novo filme de David Leitch, o realizador de «Bullet Train» e «O Duplo», e co-realizador do primeiro «John Wick». A premissa é feita para a era do algoritmo: em Pittsburgh, um bando de assaltantes mascarados, liderado por Ryan (Nicholas Hoult), filma os próprios golpes e publica-os online como vídeos «tutoriais», ganhando seguidores e fama de Robin Hood digital. Para os apanhar, um agente do FBI desiludido (John C. Reilly) recruta Reagan (Zoë Kravitz), uma engenheira de software em prisão domiciliária, a quem promete a liberdade em troca de ajuda. Segundo o filmSPOT, o filme passa em 41 cinemas, do Braga Parque e do Forum Coimbra ao Colombo, ao Mar Shopping Algarve e ao Forum Madeira, no Funchal.",
+    "Esta apreciação resulta das críticas consultadas e não de visionamento próprio. O que mais se elogia é o ofício de Leitch na ação: Phil de Semlyen, editor de cinema da Time Out (3 em 5), destaca a energia das sequências e sobretudo as perseguições de automóvel, e considera John C. Reilly no seu melhor em anos. A dupla Reilly–Kravitz é o trunfo mais citado: Jesse Hassenger, no A.V. Club, fala de uma química de «buddy movie» que dá ao filme os seus melhores momentos, e Lyvie Scott, na Inverse, vê em Kravitz a voz mais convincente da história. Pete Davidson é também apontado como o elemento mais interessante do bando, e a ideia de partida — assaltantes movidos pela atenção online e por um vago desejo de revolução, mais do que pelo dinheiro — é reconhecida como uma aposta ousada.",
+    "Os reparos repetem-se de crítica para crítica. Para o A.V. Club (C+), o filme oscila, «por vezes de forma desconfortável», entre um caper ligeiro e um drama sombrio, e as revelações chegam tarde e soam redundantes; a Inverse acha que o tom de farsa desarma o lado político do argumento e que a crítica às redes sociais fica à superfície, além de apontar o uso excessivo de diálogos explicativos. Há ainda acordo em que Anna Sawai (a condutora do bando, conhecida da série «Shōgun») é desperdiçada, e a Time Out nota que as personagens de assaltante são arquétipos conhecidos do género e que a de Kravitz está pouco desenvolvida.",
+    "No balanço, «Como Roubar Um Banco» parece funcionar melhor como filme de ação competente e bem interpretado do que como a sátira à economia da atenção que promete ser. Quem gosta de perseguições bem filmadas e de elencos carismáticos terá aqui duas horas de entretenimento; quem procura um olhar afiado sobre os influenciadores e a raiva contra os bancos poderá achar que o filme não vai até ao fim das suas ideias. A classificação M/12 torna-o acessível a adolescentes, o público que mais se reconhecerá na linguagem de vídeos e transmissões em direto que o filme imita."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – ficha e cinemas de «Como Roubar Um Banco»",
+     "url": "https://filmspot.pt/filme/how-to-rob-a-bank-1437511/"
+    },
+    {
+     "nome": "filmSPOT – sessões no Cinemas NOS Vasco da Gama (Lisboa)",
+     "url": "https://filmspot.pt/cinema/cinemas-nos-vasco-da-gama-lisboa-38/"
+    },
+    {
+     "nome": "Magazine.HD – estreias da semana (12 nov.)",
+     "url": "https://www.magazine-hd.com/apps/wp/estreiam-6-filmes-esta-semana-salas-cinema-3-melhores-12-novembro/"
+    },
+    {
+     "nome": "iNews – seis filmes chegam às salas portuguesas esta semana (11 nov.)",
+     "url": "https://ineews.eu/new/2026/11/11/do-terror-na-amazonia-a-nova-versao-de-dickens-seis-filmes-chegam-as-salas-portuguesas-esta-semana/"
+    },
+    {
+     "nome": "Time Out – crítica de Phil de Semlyen (10 nov.)",
+     "url": "https://www.timeout.com/movies/how-to-rob-a-bank-review-2026"
+    },
+    {
+     "nome": "A.V. Club – crítica de Jesse Hassenger (11 nov.)",
+     "url": "https://www.avclub.com/how-to-rob-a-bank-david-leitch-nichoulas-hoult-zoe-kravitz"
+    },
+    {
+     "nome": "Inverse – crítica de Lyvie Scott (11 nov.)",
+     "url": "https://www.inverse.com/entertainment/how-to-rob-a-bank-review-david-leitch-heist-thriller"
+    },
+    {
+     "nome": "Screen Daily – crítica (só título visto)",
+     "url": "https://www.screendaily.com/reviews/how-to-rob-a-bank-review-nicholas-hoult-is-a-gen-z-robin-hood-in-david-leitchs-fun-forgettable-heist-movie/5222295.article"
+    }
+   ],
+   "nota": "A exibição em Portugal foi confirmada pela ficha do filmSPOT (estreia a 12 nov., M/12, 122 min, distribuição Big Picture, 41 salas em Portugal) e pelas sessões no NOS Vasco da Gama; as estreias da semana também constam da Magazine.HD e do iNews. O artigo de estreias do filmSPOT e o cinecartaz do Público não puderam ser abertos. A crítica da Screen Daily só foi vista pelo título nos resultados de pesquisa (página inacessível); Rotten Tomatoes e Metacritic não foram consultados. A filmografia anterior de Leitch e a referência a Anna Sawai em «Shōgun» são contexto geral, não verificado nas fontes desta peça. A página da imagem no Commons não pôde ser aberta diretamente (o ficheiro surge nos resultados de pesquisa do Commons).",
+   "imagem": {
+    "commons": "Nicholas Hoult (cropped).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Retrato do ator britânico Nicholas Hoult",
+    "legenda": "Nicholas Hoult, que interpreta o líder do bando de assaltantes (imagem ilustrativa; não é uma imagem do filme)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Astrid Lindgren, a mãe de Pippi das Meias Altas, nasceu há 119 anos — e mudou a literatura infantil e as leis da Suécia",
+   "ficha": {
+    "Nascimento": "14 de novembro de 1907, quinta de Näs, perto de Vimmerby (Småland, Suécia); morreu em Estocolmo a 28 de janeiro de 2002, aos 94 anos",
+    "Área": "Literatura infantojuvenil (romance, conto, argumento)",
+    "Obra essencial": "«Pippi das Meias Altas» (1945–1971), «As Crianças de Bullerby» (1946–1966), «Mio, Meu Mio» (1954), «Karlsson do Telhado» (1955–1972), Emil de Lönneberga (1963–1997), «Os Irmãos Coração de Leão» (1973), «Ronja, a Filha do Salteador» (1981)",
+    "Atualidade": "Efeméride: 119 anos do nascimento, a 14 de novembro de 2026"
+   },
+   "texto": [
+    "Faz hoje, sábado, 14 de novembro, 119 anos que nasceu Astrid Lindgren, a escritora sueca que inventou Pippi das Meias Altas, a menina ruiva mais forte do mundo, que vive sozinha com um cavalo e um macaco e não obedece a ninguém. Nascida Astrid Ericsson em 1907, na quinta de Näs, nos arredores de Vimmerby, no sul da Suécia, escreveu mais de 40 livros para crianças, traduzidos em mais de 90 línguas, e é uma das autoras mais lidas do mundo: as estimativas de vendas variam entre cerca de 145 e mais de 180 milhões de exemplares, conforme a fonte e o ano.",
+    "A vida começou longe dos livros. Ainda adolescente, trabalhou no jornal local, o Vimmerby Tidning, onde publicou o primeiro texto em 1921; aos 18 anos engravidou, deixou a terra natal e foi para Estocolmo estudar para secretária, e o filho, Lars, nasceu em Copenhaga e passou os primeiros anos com uma família de acolhimento. Casou em 1931 com Sture Lindgren e trabalhou como secretária e para os serviços de informações suecos, antes de se dedicar à edição. Pippi nasceu de um pedido: a filha Karin, doente na cama, quis ouvir histórias de uma personagem cujo nome ela própria inventara, e Astrid passou-as a escrito como presente para os dez anos da menina, em 1944. Recusado pela editora Bonniers, o manuscrito ganhou em 1945 um concurso da Rabén & Sjögren, onde a autora seria depois editora de livros infantis de 1946 a 1970.",
+    "O estilo de Lindgren assenta em crianças que pensam pela própria cabeça, num humor anárquico e num respeito absoluto pelo ponto de vista infantil, sem moralismo — e não foge aos temas difíceis, como a morte, a solidão e o medo, em livros como «Mio, Meu Mio» ou «Os Irmãos Coração de Leão». Pippi chegou a causar polémica entre pais e professores suecos, que viam nela um mau exemplo. Ao lado das aventuras de Emil, das crianças de Bullerby, de Karlsson do Telhado e de Ronja, a obra deu origem a dezenas de filmes e séries e a um parque temático em Vimmerby. Recebeu o Prémio Hans Christian Andersen em 1958 e o Right Livelihood Award, o chamado Nobel alternativo, em 1994.",
+    "Há curiosidades que mostram o peso público da escritora. Escrevia em estenografia, de manhã, na cama, antes de ir trabalhar. Em 1976 publicou um conto satírico, «Pomperipossa em Monismania», contra uma regra fiscal que a obrigava a pagar mais de 100% de imposto sobre parte dos rendimentos, e o caso entrou no debate político sueco; a sua campanha contra os castigos corporais é associada à lei de 1979, a primeira do mundo a proibi-los, e a defesa dos animais de quinta inspirou uma lei de 1988. Em 1999 foi eleita a sueca mais popular, desde 2015 o seu retrato está na nota de 20 coroas e, depois da sua morte, o Governo sueco criou o Prémio Memorial Astrid Lindgren (ALMA), um dos mais valiosos do mundo para a literatura infantojuvenil."
+   ],
+   "fontes": [
+    {
+     "nome": "BookTrust – Astrid Lindgren",
+     "url": "https://booktrust.org.uk/authors/l/lindgren-astrid"
+    },
+    {
+     "nome": "Floris Books – Astrid Lindgren",
+     "url": "https://florisbooks.co.uk/astridlindgren.html"
+    },
+    {
+     "nome": "EBSCO Research Starters – Astrid Lindgren",
+     "url": "https://ebsco.com/research-starters/biography/astrid-lindgren"
+    },
+    {
+     "nome": "New World Encyclopedia – Astrid Lindgren",
+     "url": "https://newworldencyclopedia.org/entry/Astrid_Lindgren"
+    }
+   ],
+   "nota": "Data e local de nascimento confirmados pelo BookTrust e pela Floris Books; data da morte pela Floris Books. Os números de vendas divergem entre as fontes (145 milhões na Floris Books; 167 milhões até 2010 na New World Encyclopedia; 187 milhões na EBSCO), daí a formulação em intervalo. A ligação da campanha de Lindgren à lei sueca de 1979 vem da New World Encyclopedia; a «taxa marginal superior a 100%» do caso Pomperipossa é contexto geral não detalhado nas fontes abertas. Não foi encontrada exposição ou acontecimento atual em Portugal ligado à autora; a ligação é apenas a efeméride. Os títulos em português seguem as edições mais conhecidas e podem variar entre edições. A Wikipédia em inglês não pôde ser aberta. A página da imagem no Commons não pôde ser aberta diretamente (o ficheiro surge nos resultados de pesquisa do Commons).",
+   "imagem": {
+    "commons": "Astrid Lindgren (cropped).jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato da escritora sueca Astrid Lindgren",
+    "legenda": "A escritora sueca Astrid Lindgren (imagem de arquivo)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que a primeira longa-metragem de animação não foi da Disney, mas argentina, de 1917 — e que já não existe nenhuma cópia?",
+   "texto": [
+    "Muita gente acredita que «Branca de Neve e os Sete Anões» (1937), da Disney, foi a primeira longa-metragem de animação da história. Não foi: vinte anos antes, a 9 de novembro de 1917 — faz esta semana 109 anos —, estreou na Argentina «El Apóstol», de Quirino Cristiani, uma sátira política com cerca de uma hora, considerada a primeira longa-metragem animada de que há registo.",
+    "Cristiani nasceu em Itália em 1896 e chegou à Argentina com quatro anos. Foi chamado pelo produtor de atualidades Federico Valle, que procurava quem animasse caricaturas para os seus noticiários, e passou cerca de um ano a fazer o filme: 58 mil imagens em película de 35 mm, projetadas a 14 por segundo. Os bonecos foram desenhados pelo caricaturista Diógenes «El Mono» Taborda, e Cristiani, que fez praticamente sozinho a animação, construiu uma máquina com manivelas, pedais, roldanas e uma câmara apontada para baixo, que chegou a patentear. Para o clímax, o arquiteto Andrés Ducaud fez maquetes de edifícios de Buenos Aires.",
+    "A história punha o presidente Hipólito Yrigoyen a subir ao céu para pedir os raios de Júpiter e limpar Buenos Aires da corrupção — com o resultado de deixar a cidade em cinzas. O filme fez sucesso, e Cristiani assinou depois «Peludópolis» (1931), apresentado como a primeira longa-metragem animada com som. Em 1941, Walt Disney visitou a Argentina, ofereceu-lhe trabalho e, segundo a imprensa argentina, ficou impressionado ao saber que ele animara tudo sozinho; Cristiani recusou.",
+    "O final é amargo: incêndios em 1957 e 1961 destruíram a maior parte da obra de Cristiani, incluindo «El Apóstol», de que não sobrevive nenhuma cópia — sabemos como era apenas por descrições, fotografias e testemunhos. Por isso, a primeira longa-metragem animada que ainda pode ser vista é «As Aventuras do Príncipe Achmed» (1926), da alemã Lotte Reiniger, feita com silhuetas recortadas. Cristiani morreu em 1984, em Bernal, perto de Buenos Aires, e o seu nome, quase esquecido fora da Argentina, foi recuperado por historiadores e documentários como «Sin dejar rastros», de Diego Kartaszewicz."
+   ],
+   "fontes": [
+    {
+     "nome": "Governo da Argentina – El Apóstol, a primeira longa-metragem animada",
+     "url": "https://www.argentina.gob.ar/node/484074"
+    },
+    {
+     "nome": "La Capital (Mar del Plata) – o argentino que criou em 1917 a primeira longa-metragem animada",
+     "url": "https://www.lacapitalmdp.com/el-argentino-que-creo-en-1917-el-primer-largometraje-animado-de-la-historia/"
+    },
+    {
+     "nome": "Wikipedia – El Apóstol (só visto nos resultados de pesquisa)",
+     "url": "https://en.wikipedia.org/wiki/El_Ap%C3%B3stol"
+    }
+   ],
+   "nota": "A data de estreia (9 nov. 1917), a duração (60 min), as 58 mil imagens a 14 por segundo, a máquina de Cristiani, Taborda, Ducaud e os incêndios de 1957 e 1961 vêm da página do Governo argentino; o La Capital confirma Federico Valle, as 58 mil imagens, a perda do filme, «Peludópolis» e o episódio com Disney, mas dá cerca de 50 minutos de duração. A página da Wikipédia não foi aberta. A referência a «As Aventuras do Príncipe Achmed» (1926) como a mais antiga longa-metragem animada conservada é contexto geral, não verificado nas fontes desta peça. A página da imagem no Commons não pôde ser aberta diretamente (o ficheiro surge nos resultados de pesquisa do Commons); a data e a autoria da fotografia não foram confirmadas.",
+   "imagem": {
+    "commons": "Quirino Cristiani.jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato do animador ítalo-argentino Quirino Cristiani",
+    "legenda": "Quirino Cristiani, autor de «El Apóstol» (1917) (imagem de arquivo; não mostra o filme, de que não restam cópias)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "PédeXumbo: a associação de Évora que põe o Alentejo a dançar em bailes tradicionais — e prepara mais um Desdobra-te",
+   "ficha": {
+    "Origem": "1998 (atividade de promoção de música e dança, segundo a própria associação); sede no Espaço Celeiros, nos antigos celeiros da EPAC, em Évora",
+    "Área": "Música e dança tradicionais, bailes participativos, criação com comunidades, formação e edição discográfica",
+    "Projetos": "Festival Andanças (Campinho, Reguengos de Monsaraz; em pausa em 2026), Entrudanças (Entradas, Castro Verde), Desdobra-te (Évora), bolsa discográfica «Agora o Folk!», «Pessoas Cheias de Território»",
+    "Próximo": "Desdobra-te, previsto para 28 a 30 de novembro de 2026, em Évora, com arruada comunitária a 27 de novembro (segundo o plano de atividades; programa por confirmar)"
+   },
+   "texto": [
+    "Em Évora, a PédeXumbo prepara para o fim de novembro mais uma edição do Desdobra-te, o festival de dança e artes que leva bailes, oficinas e espetáculos a vários espaços da cidade: o plano de atividades da associação para 2026 aponta para 28 a 30 de novembro, com uma arruada comunitária na véspera, a 27, e o lançamento de uma publicação sobre o projeto Baile da Pinha. A edição de 2025, a sétima, decorreu de 21 a 23 de novembro, com 28 atividades em nove espaços e 13 parceiros, segundo o relatório da associação.",
+    "A PédeXumbo dedica-se desde 1998 à promoção da música e da dança tradicionais, e tem como ideia central que o baile não é uma peça de museu, mas uma prática social viva, que novas gerações podem aprender e reinventar. Tornou-se conhecida em todo o país pelo Andanças, o festival de danças do mundo que durante vários anos se fez em Castelo de Vide e que se mudou depois para a aldeia de Campinho, em Reguengos de Monsaraz. Desde 2015, com uma nova coordenação, a associação concentrou o trabalho no Alentejo e na criação artística com as comunidades locais; a equipa fixa é pequena, com Marta Guerreiro como coordenadora e diretora artística, e o principal apoio vem da DGArtes, através do programa quadrienal «Dançar (o) Agora».",
+    "A atividade espalha-se pelo calendário e pelo território. Em Entradas, no concelho de Castro Verde, o Entrudanças junta pelo Carnaval bailes, concertos, cante e oficinas que vão do flamenco à dança do adufe — em 2025 contou 934 pessoas de público geral e 88 de público local. O Andanças de 2025 juntou mais de mil pessoas e 149 voluntários, com 18 bailes, 9 concertos e 22 oficinas, e tem o selo de festival acessível do Turismo de Portugal. Há ainda aulas regulares de dança, bailes no bairro dos Celeiros, criações que viajam de Miranda do Douro a Mértola e a bolsa «Agora o Folk!», que apoia músicos a gravar repertório tradicional português de dança.",
+    "A relevância da PédeXumbo está em fazer da tradição um ponto de encontro e não de nostalgia. O projeto «Pessoas Cheias de Território», com a artista Rita Roberto, envolveu em 2025 cerca de 400 pessoas de Castro Verde, Reguengos de Monsaraz e Évora em criações participativas, e a associação recebe residências internacionais como a Ethno Portugal, que juntou em Arraiolos 31 jovens músicos de 13 nacionalidades. O caminho não é fácil — o orçamento de 2026 prevê um défice e o Andanças faz este ano uma pausa —, mas num Alentejo envelhecido e com Évora a preparar-se para ser Capital Europeia da Cultura em 2027, a PédeXumbo é um dos exemplos mais consistentes de como a música e a dança populares podem juntar gerações e dar vida a aldeias e bairros."
+   ],
+   "fontes": [
+    {
+     "nome": "PédeXumbo – Plano de atividades e orçamento 2026",
+     "url": "https://pedexumbo.com/wp-content/uploads/2025/12/plano_de_atividades_e_orcamento_2026_final.pdf"
+    },
+    {
+     "nome": "PédeXumbo – Relatório de atividades e contas 2025",
+     "url": "https://pedexumbo.com/wp-content/uploads/2026/04/relatorio_atividades_e_contas_2025_low.pdf"
+    },
+    {
+     "nome": "PédeXumbo – Comunicado do Entrudanças 2026",
+     "url": "https://pedexumbo.com/wp-content/uploads/2026/02/press-release-Entrudancas-26.pdf"
+    },
+    {
+     "nome": "Diário de Notícias – Andanças leva danças do mundo a Campinho (2022)",
+     "url": "https://www.dn.pt/arquivo/diario-de-noticias/festival-andancas-leva-dancas-do-mundo-a-aldeia-alentejana-de-campinho-15097002.html"
+    },
+    {
+     "nome": "Fundação Anna Lindh – PédeXumbo no Espaço Celeiros (2025)",
+     "url": "https://alf.website/en/n-news/pedexumbo-brings-music-dance-and-dialogue/"
+    }
+   ],
+   "nota": "As datas do Desdobra-te 2026 (28 a 30 nov.) e da arruada (27 nov.) vêm apenas do plano de atividades da associação, publicado em dezembro de 2025; não foi encontrada uma página de programa nem confirmação independente, pelo que podem ter mudado. Horários e preços não foram confirmados. Os números de 2025 vêm do relatório da própria associação (fonte interessada). O ano de 1998 é o que a associação indica como início da atividade; os fundadores não foram identificados. Os locais anteriores do Andanças baseiam-se no DN (2022), que refere Castelo de Vide; outras sedes anteriores não foram verificadas. A Capital Europeia da Cultura Évora 2027 é contexto geral, não verificado nas fontes desta peça. Não foi encontrada no Commons uma fotografia da PédeXumbo; a imagem é ilustrativa e a sua página não pôde ser aberta diretamente.",
+   "imagem": {
+    "commons": "Évora - Praça do Giraldo.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Praça do Giraldo, no centro histórico de Évora",
+    "legenda": "A Praça do Giraldo, em Évora, cidade-sede da PédeXumbo (imagem ilustrativa; não mostra a associação nem os seus bailes)"
+   }
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos na manhã de 14 de novembro na agenda da Casa da Música, nas páginas do Teatro Municipal do Porto, do Batalha Centro de Cinema, do Cinema Trindade, de Serralves e da Agenda Porto, e na Time Out Porto (horários do TNSJ, do Ciclo Suggia e do concerto de Bryan Adams). Sábado, 14 de novembro, é o último dos três dias de greve dos trabalhadores da Casa da Música, convocada pelo Cena-STE sem serviços mínimos; segundo a RTP, a paralisação já levou a «alterações e vários cancelamentos» na programação, mas, à data da consulta, a casa não publicara qualquer aviso e o concerto da Orquestra Sinfónica de sábado às 18:00 continuava na agenda com bilhetes à venda. A Agenda Porto não listava ainda eventos para segunda e terça-feira, e as páginas do FIATO e do Coliseu não puderam ser consultadas; por isso, segunda e terça têm menos propostas. Onde se lê «Por confirmar», o dado não estava na fonte: confirma na ligação antes de sair.",
+ "agenda": [
+  {
+   "dia": "2026-11-14",
+   "eventos": [
+    {
+     "nome": "#Não somos cactos#, pelo Teatro de Marionetas do Porto e Joana Magalhães",
+     "descricao": "Ficção para marionetas quase sem palavras sobre a falta de água potável e as migrações que ela pode provocar, a partir de um texto de Rui Mendonça.",
+     "horario": "16:00",
+     "tipo": "Teatro / Família",
+     "local": "Teatro Campo Alegre (Auditório), Rua das Estrelas, Porto",
+     "preco": "2,50 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/teatro-de-marionetas-do-porto-joana-magalh-es-n-o-somos-cactos/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "1 hora. Classificação etária ainda por atribuir. Programa «Escolas e Famílias»; a outra sessão (sexta, 10:30) já passou."
+    },
+    {
+     "nome": "Floresta do Amazonas – Orquestra Sinfónica do Porto Casa da Música",
+     "descricao": "Michael Wendeberg dirige a suite de Villa-Lobos inspirada na Amazónia, precedida da Cantilena das Bachianas Brasileiras n.º 5, com a soprano Camila Mandillo e intervenção visual de Bianca Dacosta.",
+     "horario": "18:00",
+     "tipo": "Música clássica",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "36 € a 40 €",
+     "url": "https://casadamusica.com/en/event/amazonia-en/?selected_session=47259",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Filas A–K 40 €, L–U 38 €, UU–YY 36 €; descontos para Amigos, jovens, seniores e estudantes. Às 16:00, no Foyer Nascente, conversa gratuita com Bianca Dacosta. Último dia de greve dos trabalhadores, sem serviços mínimos: sem aviso de alteração na página à data da consulta, mas a greve já provocou cancelamentos noutros eventos — confirmar antes de ir. Lugares disponíveis por confirmar."
+    },
+    {
+     "nome": "Chegada do Natal na fachada da Marcolino",
+     "descricao": "A relojoaria da Rua de Santa Catarina inaugura as luzes de Natal com um espetáculo de luz, música e artistas ao vivo na fachada.",
+     "horario": "18:00",
+     "tipo": "Atividade gratuita / Família",
+     "local": "Relojoaria Marcolino, Rua de Santa Catarina, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.timeout.pt/porto/pt/coisas-para-fazer/o-que-fazer-este-mes-porto",
+     "ligacao": "Time Out Porto",
+     "nota": "Hora («a partir das 18:00») e 20 artistas segundo a Time Out Porto; a Agenda Porto lista-o como gratuito e com mais de 200 mil luzes, mas a página do evento não pôde ser aberta. Número da porta e duração por confirmar. As luzes ficam acesas até 6 de janeiro."
+    },
+    {
+     "nome": "Dzudza, de Idio Chichava",
+     "descricao": "Estreia nacional da peça de dança do coreógrafo moçambicano, que parte de Xiquelene, em Maputo, e junta cânticos de igreja, jogos infantis, canções populares e a capulana para pensar o corpo como lugar de resistência e de comunhão.",
+     "horario": "19:30",
+     "tipo": "Dança",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "12 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/idio-chichava-dzudza/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/6, 1h15. Inclui interação com o público. Coapresentação com a Fundação Calouste Gulbenkian (programa Alkantara). Última sessão."
+    },
+    {
+     "nome": "Mimì metallurgico ferito nell'onore, de Lina Wertmüller",
+     "descricao": "Sátira de 1972, em cópia restaurada em 4K, sobre um operário siciliano que perde tudo por não votar no candidato da Máfia e se afunda em situações cada vez mais absurdas.",
+     "horario": "21:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/mimi-metallurgico-ferito-nellonore-1784126490859/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/16, 112 minutos, legendas em português e inglês (e legendagem para surdos). Ciclo «Tesouros do Arquivo». Hora confirmada no calendário do Batalha; a página do filme não indica preço."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-15",
+   "eventos": [
+    {
+     "nome": "Les Parents terribles, de Jean Cocteau",
+     "descricao": "Melodrama familiar e claustrofóbico de 1948: o anúncio do casamento de Michel com Madeleine faz estalar ciúmes e segredos guardados há anos.",
+     "horario": "11:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/les-parents-terribles-1784228583016/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/12, 105 minutos, falado em francês com legendas em português. Ciclo «Matinés do Cineclube». Hora confirmada no calendário do Batalha; a página não indica preço."
+    },
+    {
+     "nome": "Auto da Barca do Inferno, de Gil Vicente",
+     "descricao": "Marta Pazos encena o clássico vicentino como um cais de luz, música e movimento, onde as almas esperam o veredicto do Anjo e do Diabo.",
+     "horario": "16:00",
+     "tipo": "Teatro",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "7 € a 16,80 €",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Hora e preço segundo a Time Out Porto (domingos às 16:00; também sábado, 14, às 19:00); a página do TNSJ não foi consultada. Em cena até 13 de dezembro. Lugares disponíveis e classificação etária por confirmar."
+    },
+    {
+     "nome": "Amor de Perdição, pela companhia Inquieta (FIATO)",
+     "descricao": "Ópera a partir de Camilo Castelo Branco em que Teresa, Simão e Mariana atravessam muros, cartas e memórias, com três solistas que também fazem de coro.",
+     "horario": "17:00",
+     "tipo": "Ópera",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/evento/fiato-amor-de-perdicao/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6, até às 18:10. Festival Internacional de Artes e Ópera do Porto (13 a 21 de novembro). A Agenda Porto não indica preço; os sites do FIATO e do Coliseu não foram consultados."
+    },
+    {
+     "nome": "Marina Herlop – Dja Dja",
+     "descricao": "A pianista e cantora catalã estreia ao vivo o novo disco, uma peça contínua inspirada na «jornada do herói», agora com metais e novas texturas.",
+     "horario": "19:30",
+     "tipo": "Música",
+     "local": "Teatro Campo Alegre (Auditório), Rua das Estrelas, Porto",
+     "preco": "9 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/marina-herlop-dja-dja/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/6, 1 hora. Coapresentação com a Culturgest. Bilhetes na BOL."
+    },
+    {
+     "nome": "Zaynara e Fafá de Belém",
+     "descricao": "Duas gerações da música do Pará fecham o festival Floresta do Amazonas: Zaynara mistura carimbó com sons urbanos e Fafá de Belém traz mais de cinco décadas de canção brasileira.",
+     "horario": "20:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "26 € a 30 €",
+     "url": "https://casadamusica.com/en/event/zaynara-fafa-de-belem-2/?selected_session=59209",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Zaynara às 20:30, Fafá de Belém às 21:25. Filas A–K 30 €, L–U 28 €, UU–YY 26 €; 25% de desconto para Amigos. Já fora do período de greve; sem aviso de alteração. Lugares disponíveis por confirmar."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-16",
+   "eventos": [
+    {
+     "nome": "You Can See Everything, de Nathan Fielder e Lance Oppenheim",
+     "descricao": "Filmado em segredo ao longo de quatro anos, a partir de 34 dias antes da detenção, o filme acompanha Elizabeth Holmes, fundadora da Theranos condenada por fraude, e o companheiro, Billy Evans, num registo entre o documentário e a ficção.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "5,50 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14, 2h54, legendado. Sessão Medeia Filmes; repete terça e quarta-feira à mesma hora."
+    },
+    {
+     "nome": "O Espírito da Colmeia, de Víctor Erice",
+     "descricao": "Na Castela do pós-guerra, uma menina fica obcecada pelo «Frankenstein» que vê numa sessão de cinema ambulante, no clássico espanhol de 1973.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "Por confirmar",
+     "url": "https://cinematrindade.pt/en/films/o-espirito-da-colmeia",
+     "ligacao": "Cinema Trindade",
+     "nota": "M/12, 1h37 (até às 23:07). O site do Trindade indica a sessão de segunda, 16 de novembro, mas não o preço; a gravação ao vivo do podcast Noites de Cabíria anunciada pela Agenda Porto não consta da página do filme e não foi reconfirmada."
+    },
+    {
+     "nome": "Luísa Sobral – Cartas de Desamor",
+     "descricao": "A cantora e compositora apresenta o oitavo disco, em que a canção de autor se aproxima da música tradicional portuguesa.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "25 € a 35 €",
+     "url": "https://casadamusica.com/en/event/luisa-sobral-2/?selected_session=52959",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Filas A–L 35 €, M–U 30 €, UU–YY 25 €; 25% de desconto para Amigos. Promotor: Bairro da Música. Fora do período de greve; sem aviso de alteração. Lugares disponíveis por confirmar."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-17",
+   "eventos": [
+    {
+     "nome": "Exposição «O Século de Gehry»",
+     "descricao": "Retrospetiva do arquiteto Frank Gehry (1929–2025) com 19 projetos em oito capítulos, muitas maquetas — do Guggenheim de Bilbau à Fundação Louis Vuitton — e destaque para a amizade com Álvaro Siza.",
+     "horario": "Por confirmar",
+     "tipo": "Exposição",
+     "local": "Museu de Serralves (Ala Álvaro Siza), Rua D. João de Castro, 210, Porto",
+     "preco": "24 € (bilhete geral)",
+     "url": "https://www.serralves.pt/en/visitar-serralves/",
+     "ligacao": "Serralves",
+     "nota": "Até 10 de janeiro de 2027, segundo a agenda de Serralves. Bilhete geral 24 € (20 € para residentes, só na bilheteira); de segunda a quinta há bilhete de fim de tarde (a partir das 17:00, última entrada às 18:00) a 12 € para residentes e 15 € para não residentes; gratuito até aos 12 anos. A página oficial não mostrava o horário de inverno; a Time Out indica 10:00–19:00 todos os dias, por confirmar."
+    },
+    {
+     "nome": "Vânia Leal (Geração Casa)",
+     "descricao": "A fadista de Barcelos percorre a história do fado num concerto tradicional de homenagem a Amália Rodrigues, Beatriz da Conceição e Cristina Branco.",
+     "horario": "19:30",
+     "tipo": "Fado",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "12 €",
+     "url": "https://casadamusica.com/en/event/vania-leal-2026-11-17-2/?selected_session=57746",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Descontos para Amigos (25%), jovens até 30 anos, estudantes e seniores. Sem aviso de alteração."
+    },
+    {
+     "nome": "You Can See Everything, de Nathan Fielder e Lance Oppenheim",
+     "descricao": "Segunda sessão do retrato filmado às escondidas de Elizabeth Holmes e Billy Evans, que proclamam a inocência à sua maneira dentro de casa.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "5,50 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14, 2h54, legendado. Última sessão na quarta-feira, 18, às 20:45."
+    },
+    {
+     "nome": "Bryan Adams – Roll With the Punches",
+     "descricao": "O cantor canadiano traz ao Porto a digressão do disco mais recente, no primeiro de dois concertos seguidos na cidade.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Super Bock Arena – Pavilhão Rosa Mota, Rua de D. Manuel II, 3, Porto",
+     "preco": "Esgotado",
+     "url": "https://www.timeout.pt/porto/pt/noticias/depois-de-esgotar-as-primeiras-datas-bryan-adams-anuncia-mais-concertos-no-porto-e-em-lisboa-031026",
+     "ligacao": "Time Out Porto",
+     "nota": "Esgotado segundo a Time Out Porto, que indica concertos «sempre às 21.00»; há segunda data a 18 de novembro (bilhetes de 59,06 € a 509,79 € na Blueticket). Hora e lotação não confirmadas na página do promotor ou da bilheteira."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Os líderes da UE decidiram em Dublin que Reino Unido, França, Alemanha, Itália e Polónia, com as instituições europeias, representam a Europa na próxima ronda de negociações sobre a Ucrânia; o Kremlin não se comprometeu.",
+   "noticia": 9
+  },
+  {
+   "texto": "A Starship chegou à órbita no voo 15 e libertou 26 satélites, mas o propulsor não regressou à torre e caiu no golfo do México; a captura da nave está prevista para hoje à noite.",
+   "noticia": 17
+  },
+  {
+   "texto": "Seguro ouviu as acampadas pela habitação durante quase três horas, mas não garantiu vetar a lei das rendas; o protesto nacional sai hoje à rua.",
+   "noticia": 13
+  },
+  {
+   "texto": "Uma falha de comunicações obrigou a FAA a parar todas as descolagens nos EUA durante mais de quatro horas; a causa técnica está em investigação.",
+   "noticia": 7
+  },
+  {
+   "texto": "O FBI e o Departamento de Justiça dos EUA bloquearam mais de 1,2 mil milhões de dólares roubados à Binance por piratas que atribuem à Coreia do Norte.",
+   "noticia": 1
+  },
+  {
+   "texto": "Na Cultura, «Como Roubar Um Banco», de David Leitch, Astrid Lindgren e a primeira longa-metragem de animação, argentina e perdida.",
+   "ancora": "cultura"
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Sábado, 14 nov.",
+   "texto": "O Vulcan volta a tentar levar 40 satélites Amazon Leo (janela a partir das 17h32 de Lisboa) e a nave da Starship tenta ser apanhada pela torre por volta das 21h20, se não houver alterações.",
+   "noticia": 17
+  },
+  {
+   "quando": "Segunda, 16 nov.",
+   "texto": "Primeiro rascunho do acordo da COP31, em Antália, previsto para o início da segunda semana; a cimeira termina a 20 de novembro.",
+   "noticia": 11
+  },
+  {
+   "quando": "Terça, 17 nov.",
+   "texto": "A Nvidia apresenta os resultados trimestrais, os primeiros desde a saída de Jensen Huang.",
+   "noticia": 8
+  },
+  {
+   "quando": "Quinta, 19 nov.",
+   "texto": "Estreia prevista da Anthropic na Nasdaq, depois da fixação do preço final a 18 de novembro, se não houver adiamento.",
+   "noticia": 4
+  }
+ ],
+ "linkedin_abertura": "A Europa já tem equipa para as negociações de paz da Ucrânia: Reino Unido, França, Alemanha, Itália e Polónia, com as instituições da UE, anunciou António Costa em Dublin."
+}

@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-antonio-costa-portrait-2024-cropped.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Antonio_Costa_Portrait_2024_%28cropped%29.jpg?width=1000",
+  "commons": "Antonio Costa Portrait 2024 (cropped).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-j-edgar-hoover-fbi-building-washington-dc-2014-b.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J-Edgar-Hoover-FBI-Building-Washington-DC-2014-B.jpg?width=1000",
+  "commons": "J-Edgar-Hoover-FBI-Building-Washington-DC-2014-B.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-january-2025-official-vice-presidential-portrait-of-jd-vance.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/January_2025_Official_Vice_Presidential_Portrait_of_JD_Vance_%283x4_cropped%29.jpg?width=1000",
+  "commons": "January 2025 Official Vice Presidential Portrait of JD Vance (3x4 cropped).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-porto-praca-d-joao-i.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porto_Praca_D_Joao_I.JPG?width=1000",
+  "commons": "Porto Praca D Joao I.JPG",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-starship-booster-return-on-final-approach-54063904149.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Starship_Booster_Return_on_Final_Approach_%2854063904149%29.jpg?width=1000",
+  "commons": "Starship Booster Return on Final Approach (54063904149).jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-nicholas-hoult-cropped.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicholas_Hoult_%28cropped%29.jpg?width=1000",
+  "commons": "Nicholas Hoult (cropped).jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-astrid-lindgren-cropped.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Astrid_Lindgren_%28cropped%29.jpg?width=1000",
+  "commons": "Astrid Lindgren (cropped).jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-quirino-cristiani.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quirino_Cristiani.jpg?width=1000",
+  "commons": "Quirino Cristiani.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-vora-pra-a-do-giraldo.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89vora_-_Pra%C3%A7a_do_Giraldo.jpg?width=1000",
+  "commons": "Évora - Praça do Giraldo.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
