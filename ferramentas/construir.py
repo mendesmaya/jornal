@@ -756,8 +756,49 @@ ASSINATURA_LI = ("🤖 «O Dia em Perspetiva» é um projeto pessoal, escrito co
 HASHTAGS_LI = "#Notícias #Portugal #InteligênciaArtificial #Tecnologia #Leitura"
 
 
+ASSINATURA_LI_EN = ("🤖 «O Dia em Perspetiva» is a personal project, written with AI following editorial rules "
+                    "I set. Sources are listed under each story.")
+
+
+def _bloco_linkedin(data, c, en, n):
+    """Parte de uma língua do texto do LinkedIn, com até `n` pontos."""
+    global LING
+    antes, LING = LING, ("en" if en else "pt")
+    try:
+        sufixo = "en/" if en else ""
+        if c.get("tipo") == "semanal":
+            D = c["destaques"]
+            linhas = [c.get("linkedin_abertura") or D[0]["titulo"], "", "The stories of the week:" if en else "As notícias da semana:"]
+            linhas += [f"▪️ {x['titulo']}" for x in D[1:1 + n]] + [""]
+            if c.get("semana_que_vem"):
+                a = c["semana_que_vem"][0]
+                linhas += [(f"📅 Next week ({a['quando']}): " if en else f"📅 Na semana que vem ({a['quando']}): ") + a["texto"], ""]
+            linhas += ["Also in this issue: the week in culture, what's on in Porto and a news quiz." if en else
+                       "Também nesta edição: destaques culturais da semana, agenda do Porto e um quiz sobre as notícias.", ""]
+        else:
+            man = next((i for i, x in enumerate(c["noticias"]) if x.get("manchete")), None)
+            abertura = c.get("linkedin_abertura") or (c["noticias"][man]["titulo"] if man is not None else c.get("resumo", ""))
+            pontos = [it["texto"] for it in c.get("em_2_minutos", []) if it.get("noticia") != (man + 1 if man is not None else None)][:n]
+            linhas = [abertura, ""]
+            if pontos:
+                linhas += ["In 2 minutes:" if en else "Em 2 minutos:"] + [f"▪️ {t}" for t in pontos] + [""]
+            if c.get("acompanhar"):
+                a = c["acompanhar"][0]
+                linhas += [(f"📅 What to watch ({a['quando']}): " if en else f"📅 A acompanhar ({a['quando']}): ") + a["texto"], ""]
+            jp = BASE / "jogos" / f"{data}.json"
+            jogos = descricao_jogos(json.loads(jp.read_text())) if jp.exists() else "Sudoku"
+            linhas += [(f"Also in this issue: culture, what's on in Porto, {jogos[:1].lower() + jogos[1:]}." if en else
+                        f"Também nesta edição: cultura, agenda do Porto, {jogos}."), ""]
+        linhas += [(f"👉 Full issue in English: " if en else "👉 Edição completa: ") + f"{URL_SITE}{data}/{sufixo}"]
+        return linhas
+    finally:
+        LING = antes
+
+
 def texto_linkedin(data, c):
-    """Texto pronto a colar no LinkedIn (sem markdown), gravado em ferramentas/linkedin/AAAA-MM-DD.txt."""
+    """Texto pronto a colar no LinkedIn (sem markdown), gravado em ferramentas/linkedin/AAAA-MM-DD.txt.
+    Desde 2026-11-14 é bilingue (português e depois inglês) quando existe conteudo/AAAA-MM-DD.en.json;
+    o número de pontos de cada língua desce até o texto caber no limite do LinkedIn."""
     d = dt.date.fromisoformat(data)
     if c.get("linkedin_texto"):  # texto especial escrito à mão (ex.: lançamento); substitui o automático
         txt = c["linkedin_texto"].strip()
@@ -766,36 +807,26 @@ def texto_linkedin(data, c):
         (BASE / "linkedin").mkdir(exist_ok=True)
         (BASE / "linkedin" / f"{data}.txt").write_text(txt + "\n")
         return txt
-    if c.get("tipo") == "semanal":
-        D = c["destaques"]
-        linhas = [f"📰 A semana em perspetiva · {DIAS[d.weekday()]}, {d.day} de {MESES[d.month - 1]}", "",
-                  c.get("linkedin_abertura") or D[0]["titulo"], "", "As notícias da semana:"]
-        linhas += [f"▪️ {x['titulo']}" for x in D[1:6]] + [""]
-        if c.get("semana_que_vem"):
-            a = c["semana_que_vem"][0]
-            linhas += [f"📅 Na semana que vem ({a['quando']}): {a['texto']}", ""]
-        linhas += ["Também nesta edição: destaques culturais da semana, agenda do Porto e um quiz sobre as notícias.", "",
-                   f"👉 Edição completa: {URL_SITE}{data}/", "", ASSINATURA_LI, "", HASHTAGS_LI]
+    semanal = c.get("tipo") == "semanal"
+    ep = BASE / "conteudo" / f"{data}.en.json"
+    c_en = json.loads(ep.read_text()) if ep.exists() else None
+    if semanal:
+        topo = f"📰 A semana em perspetiva · {DIAS[d.weekday()]}, {d.day} de {MESES[d.month - 1]}"
+        topo_en = f"📰 The week in perspective · {DIAS_EN[d.weekday()]} {d.day} {MESES_EN[d.month - 1]}"
+    else:
+        topo = f"📰 O Dia em Perspetiva · {DIAS[d.weekday()]}, {d.day} de {MESES[d.month - 1]}"
+        topo_en = f"📰 O Dia em Perspetiva · {DIAS_EN[d.weekday()]} {d.day} {MESES_EN[d.month - 1]}"
+    txt = ""
+    for n in ((5, 4, 3, 2, 1, 0) if semanal else (4, 3, 2, 1, 0)):
+        if c_en is None:
+            linhas = [topo, ""] + _bloco_linkedin(data, c, False, n) + ["", ASSINATURA_LI, "", HASHTAGS_LI]
+        else:
+            linhas = ([topo, "", "🇵🇹"] + _bloco_linkedin(data, c, False, n)
+                      + ["", "———", "", "🇬🇧 " + topo_en.replace("📰 ", ""), ""] + _bloco_linkedin(data, c_en, True, n)
+                      + ["", ASSINATURA_LI, ASSINATURA_LI_EN, "", HASHTAGS_LI])
         txt = "\n".join(linhas)
-        if len(txt) > 2900:
-            raise SystemExit(f"Texto do LinkedIn demasiado longo ({len(txt)} caracteres; máximo 3000)")
-        (BASE / "linkedin").mkdir(exist_ok=True)
-        (BASE / "linkedin" / f"{data}.txt").write_text(txt + "\n")
-        return txt
-    man = next((i for i, n in enumerate(c["noticias"]) if n.get("manchete")), None)
-    abertura = c.get("linkedin_abertura") or (c["noticias"][man]["titulo"] if man is not None else c.get("resumo", ""))
-    pontos = [it["texto"] for it in c.get("em_2_minutos", []) if it.get("noticia") != (man + 1 if man is not None else None)][:4]
-    linhas = [f"📰 O Dia em Perspetiva · {DIAS[d.weekday()]}, {d.day} de {MESES[d.month - 1]}", "", abertura, ""]
-    if pontos:
-        linhas += ["Em 2 minutos:"] + [f"▪️ {t}" for t in pontos] + [""]
-    if c.get("acompanhar"):
-        a = c["acompanhar"][0]
-        linhas += [f"📅 A acompanhar ({a['quando']}): {a['texto']}", ""]
-    jp = BASE / "jogos" / f"{data}.json"
-    jogos = descricao_jogos(json.loads(jp.read_text())) if jp.exists() else "Sudoku e caça-palavras"
-    linhas += [f"Também nesta edição: cultura, agenda do Porto, {jogos}.", "",
-               f"👉 Edição completa: {URL_SITE}{data}/", "", ASSINATURA_LI, "", HASHTAGS_LI]
-    txt = "\n".join(linhas)
+        if len(txt) <= 2900:
+            break
     if len(txt) > 2900:
         raise SystemExit(f"Texto do LinkedIn demasiado longo ({len(txt)} caracteres; máximo 3000)")
     pasta = BASE / "linkedin"
