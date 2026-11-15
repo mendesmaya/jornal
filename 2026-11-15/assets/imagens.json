@@ -1,0 +1,23 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-press-conference-of-volodymyr-zelensky-and-ursula-von-der-le.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Press_conference_of_Volodymyr_Zelensky_and_Ursula_von_der_Leyen_at_the_EC_-_2025_%281%29.jpg?width=1000",
+  "commons": "Press conference of Volodymyr Zelensky and Ursula von der Leyen at the EC - 2025 (1).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-jensen-huang-at-computex-taipei-20160531a.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jensen_Huang_at_Computex_Taipei_20160531a.jpg?width=1000",
+  "commons": "Jensen Huang at Computex Taipei 20160531a.jpg",
+  "reserva": "assets/reserva-tecnologia.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-felgueiras-lighthouse-storm.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Felgueiras_Lighthouse_Storm.jpg?width=1000",
+  "commons": "Felgueiras Lighthouse Storm.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ }
+]

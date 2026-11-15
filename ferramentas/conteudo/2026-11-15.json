@@ -1,0 +1,766 @@
+{
+ "data": "2026-11-15",
+ "numero": "023",
+ "tipo": "semanal",
+ "resumo": "A semana em que a Europa ganhou lugar nas negociações sobre a Ucrânia, Jensen Huang deixou a Nvidia, a depressão Charles parou o país sem vítimas mortais e a Starship foi apanhada pela torre ao regressar da órbita.",
+ "em_2_minutos": [
+  {
+   "texto": "Depois de Abu Dhabi, Moscovo e Dublin, a Europa vai ter uma equipa de cinco países nas próximas negociações sobre a Ucrânia; o Kremlin ainda não o confirmou e a data da ronda não foi anunciada.",
+   "destaque": 1
+  },
+  {
+   "texto": "Jensen Huang deixou a liderança da Nvidia ao fim de uma semana de escândalo; a diretora financeira, Colette Kress, lidera interinamente e o sucessor continua por escolher.",
+   "destaque": 2
+  },
+  {
+   "texto": "A depressão Charles levou o continente à situação de alerta e fechou escolas; deixou 1630 ocorrências, nenhuma vítima mortal e um recorde nacional de chuva num dia na Madeira.",
+   "destaque": 3
+  },
+  {
+   "texto": "A SpaceX apanhou pela primeira vez com a torre a nave da Starship regressada da órbita, no sábado, embora o propulsor tenha falhado o regresso e caído no golfo do México.",
+   "destaque": 4
+  },
+  {
+   "texto": "Milhares de pessoas manifestaram-se pela habitação em 32 cidades no sábado, um dia depois de o Presidente da República ter ouvido as acampadas sem garantir o veto à lei das rendas.",
+   "destaque": 5
+  },
+  {
+   "texto": "As mortes na urgência de Portimão e a detenção do presidente da ULS de Aveiro levaram à saída de dois líderes de unidades de saúde em 24 horas e puseram a ministra sob pressão.",
+   "destaque": 6
+  }
+ ],
+ "destaques": [
+  {
+   "titulo": "Ucrânia: troca de prisioneiros acordada em princípio e Europa à mesa na próxima ronda, mas sem data nem garantias do Kremlin",
+   "seccao": "mundo",
+   "data": "2026-11-13",
+   "estado": "Factos (acordo de princípio, equipa europeia) · Kremlin não confirmou presença europeia; ronda sem data",
+   "texto": [
+    "Foi a semana em que as negociações para acabar com a guerra na Ucrânia mudaram de formato. Ucrânia, Rússia e EUA voltaram a sentar-se frente a frente em Abu Dhabi a 10 e 11 de novembro, ao fim de nove meses, e saíram sem avanços decisivos mas com um acordo de princípio para uma grande troca de prisioneiros. A 12, os enviados norte-americanos Jared Kushner e Steve Witkoff estiveram com Vladimir Putin em Moscovo e, ao fim do dia, com Volodymyr Zelensky em Dublin, e anunciaram que a Europa participará na próxima ronda. A 13, os líderes da UE decidiram que a representação europeia será uma equipa de cinco países — Reino Unido, França, Alemanha, Itália e Polónia — com as instituições europeias, sem um enviado único.",
+    "Ficou quase tudo o resto por resolver. Zelensky reiterou que Kiev não abdica dos territórios ocupados; Moscovo mantém as exigências territoriais e rejeita tropas estrangeiras de manutenção de paz. O porta-voz do Kremlin, Dmitri Peskov, disse que a Europa tem primeiro de mostrar que quer contribuir para a paz, e a Rússia não confirmou a participação europeia anunciada pelos enviados dos EUA. A guerra continuou durante as conversações: ataques russos deixaram cerca de 850 mil pessoas sem luz nas vésperas de Abu Dhabi e, a 13, drones atingiram um hospital no centro de Kiev.",
+    "A troca de prisioneiros poderá ser a maior desde a invasão de 2022. Responsáveis russos falaram em mais de mil prisioneiros de cada lado e num prazo de duas a três semanas, mas nem o número final nem a data foram publicados por nenhum dos governos."
+   ],
+   "desenvolvimento": "A 13 de novembro, Zelensky disse que os negociadores dos EUA perguntaram pela primeira vez, em Abu Dhabi, se a Ucrânia deixaria o Donbas em troca da adesão à NATO; descreveu-o como uma pergunta e não uma proposta e admitiu um referendo apenas com garantias de segurança firmes. Até ao fecho desta edição não foram anunciados a data nem o local da próxima ronda.",
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Acordo de princípio e viagem a Moscovo confirmados pela AP (via WRAL) e pelo Military.com; anúncio de Dublin pela Kyiv Post e pela Euronews; equipa europeia pela Euronews e pela RTÉ. A pergunta sobre o Donbas em troca da NATO só foi confirmada numa fonte consultada (HNGN), que cita declarações de Zelensky; o artigo da NBC sobre o mesmo tema não pôde ser aberto. Números da troca de prisioneiros são estimativas de responsáveis, não confirmadas oficialmente."
+   },
+   "fontes": [
+    {
+     "nome": "Military.com (11 nov.)",
+     "url": "https://www.military.com/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-conclude-with-no-major-breakthrough"
+    },
+    {
+     "nome": "AP via WRAL (12 nov.)",
+     "url": "https://www.wral.com/news/ap/68381-us-envoys-in-moscow-for-meeting-with-putin-following-talks-in-abu-dhabi/"
+    },
+    {
+     "nome": "Kyiv Post (12 nov.)",
+     "url": "https://www.kyivpost.com/post/89972"
+    },
+    {
+     "nome": "Euronews – equipa europeia (13 nov.)",
+     "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot"
+    },
+    {
+     "nome": "RTÉ (13 nov.)",
+     "url": "https://www.rte.ie/news/ireland/2026/1113/1599056-eu-leaders-dublin/"
+    },
+    {
+     "nome": "HNGN (14 nov.)",
+     "url": "https://www.hngn.com/articles/273776/20261114/abu-dhabi-talks-yield-prisoner-swap-no-breakthrough.htm"
+    }
+   ],
+   "edicao": "2026-11-12",
+   "noticia": 9,
+   "imagem": {
+    "commons": "Press conference of Volodymyr Zelensky and Ursula von der Leyen at the EC - 2025 (1).jpg",
+    "tipo": "arquivo",
+    "alt": "Volodymyr Zelensky e Ursula von der Leyen numa conferência de imprensa na Comissão Europeia",
+    "legenda": "Zelensky com a presidente da Comissão Europeia, Ursula von der Leyen, em Bruxelas (imagem de arquivo, 2025; não mostra as negociações desta semana)"
+   }
+  },
+  {
+   "titulo": "Jensen Huang deixa a Nvidia ao fim de uma semana de escândalo; Colette Kress lidera interinamente e sucessão continua em aberto",
+   "seccao": "tecnologia",
+   "data": "2026-11-12",
+   "estado": "Facto confirmado (comunicado à SEC) · sucessor por escolher; notícia sobre Rene Haas não confirmada",
+   "texto": [
+    "Jensen Huang, cofundador da Nvidia e presidente executivo desde 1993, demitiu-se na quinta-feira, 12 de novembro, de todos os cargos na fabricante de chips que domina o mercado da inteligência artificial. A diretora financeira, Colette Kress, lidera a empresa interinamente e Harvey Jones passou a presidir ao conselho de administração. O comunicado à SEC não deu razões, mas a saída fechou uma semana que começou a 8 de novembro com a abertura de uma investigação independente às notícias de que Huang terá sido alvo de serviços de informações estrangeiros, através de uma relação íntima com uma antiga responsável da Megaspeed, empresa de Singapura que as autoridades norte-americanas suspeitam de ter desviado chips para a China. A Megaspeed e Pequim negam.",
+    "O conselho afirmou não ter razões para crer que a segurança nacional ou segredos da empresa tenham sido comprometidos. O caso ganhou dimensão política: três presidentes de comissões da Câmara dos Representantes querem ouvir Huang à porta fechada a 1 de dezembro, e o Presidente Donald Trump defendeu o empresário. As ações chegaram a cair mais de 14% durante a sessão de 12 de novembro e, segundo a Reuters, a empresa perdeu cerca de 573 mil milhões de dólares em valor de mercado na semana.",
+    "Na sexta-feira, o Financial Times noticiou que o conselho sondou Rene Haas, líder da britânica Arm e antigo quadro da Nvidia, como possível sucessor. A Nvidia respondeu que não contactou formalmente nenhum candidato e que especular sobre nomes é «prematuro»."
+   ],
+   "desenvolvimento": "Não foi anunciado sucessor até ao fecho desta edição. A Nvidia apresenta os resultados trimestrais na terça-feira, 17 de novembro, os primeiros já sem Huang.",
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Demissão e liderança interina confirmadas pelo comunicado à SEC e pela Al Jazeera; investigação independente pelo GBHackers e pelo Gizmodo (que cita o New York Times); audição de 1 de dezembro pela Roll Call. A abordagem a Rene Haas é uma notícia do Financial Times relatada pela Euronext/Reuters e pela Korea Times, não confirmada pela Nvidia nem pela Arm. Acusações de espionagem são alegações de responsáveis norte-americanos citadas pela imprensa."
+   },
+   "fontes": [
+    {
+     "nome": "Nvidia – comunicado à SEC (12 nov.)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+     "nome": "Al Jazeera (12 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
+    },
+    {
+     "nome": "Gizmodo (8 nov.)",
+     "url": "https://gizmodo.com/jensen-huang-admits-to-having-an-affair-with-nvidias-chinese-spy-2000836796"
+    },
+    {
+     "nome": "Roll Call (12 nov.)",
+     "url": "https://rollcall.com/2026/11/12/calls-for-nvidia-probes-new-chip-export-limits-intensify/"
+    },
+    {
+     "nome": "Euronext, com Reuters (13 nov.)",
+     "url": "https://live.euronext.com/en/financial-news/nvidia-approaches-arm-ceo-haas-employees-seek-huangs-return-reports-say"
+    },
+    {
+     "nome": "Korea Times (14 nov.)",
+     "url": "https://www.koreatimes.co.kr/world/20261114/nvidia-approached-arm-ceo-haas-to-succeed-huang-ft-reports"
+    }
+   ],
+   "edicao": "2026-11-13",
+   "noticia": 7,
+   "imagem": {
+    "commons": "Jensen Huang at Computex Taipei 20160531a.jpg",
+    "tipo": "arquivo",
+    "alt": "Jensen Huang, de casaco de cabedal, a discursar num palco da feira Computex",
+    "legenda": "Jensen Huang na Computex, em Taipé, em 2016 (imagem de arquivo)"
+   }
+  },
+  {
+   "titulo": "Depressão Charles fecha escolas e põe o país em alerta, mas deixa 1630 ocorrências e nenhuma vítima mortal; Madeira bate recorde nacional de chuva",
+   "seccao": "portugal",
+   "data": "2026-11-11",
+   "estado": "Factos confirmados (Proteção Civil, IPMA) · previsão para domingo sujeita a atualização",
+   "texto": [
+    "Portugal continental esteve em situação de alerta na quarta-feira, 11 de novembro, por causa da depressão Charles, que chegou depois da Bruna e de vários dias de avisos. O Governo fechou as escolas, das creches às universidades, e os serviços públicos não essenciais, pediu teletrabalho e proibiu a permanência em parques e jardins; houve aviso vermelho do Algarve a Coimbra e a Web Summit cancelou um dia. O balanço foi bem menos grave do que se temia: 1630 ocorrências, mais de metade inundações, sobretudo na Grande Lisboa, na Península de Setúbal e no Algarve, sem mortos nem feridos graves e com alguns desalojados em Palmela e Silves. Foram cancelados mais de 200 voos em Lisboa e Faro.",
+    "As medidas abriram um debate: o primeiro-ministro, Luís Montenegro, defendeu que «mais vale prevenir do que remediar» e o ministro da Administração Interna, Luís Neves, rejeitou ter havido excesso de cautela, invocando a tempestade Kristin; a Confederação do Comércio e Serviços criticou os dias de trabalho perdidos e o IPMA considerou as medidas adequadas.",
+    "Na Madeira, por onde a tempestade passou primeiro, o IPMA confirmou a 13 de novembro um novo recorde nacional de precipitação: 502,7 milímetros em 24 horas na estação do Chão do Areeiro, acima dos 497,5 mm medidos no mesmo local em junho de 2023."
+   ],
+   "desenvolvimento": "A chuva não parou depois da Charles: segundo a previsão divulgada no sábado, este domingo, 15 de novembro, há aviso amarelo por chuva entre as 6h e as 15h em distritos do Norte e Centro, como Viana do Castelo, Braga, Porto, Vila Real e Aveiro. Os avisos podem ser atualizados ao longo do dia.",
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Medidas e balanço confirmados pela RTP, pela Euronews e pela CNN Portugal; recorde da Madeira pelo Observador e pelo DN. A previsão para domingo vem de notícias de sábado (Notícias ao Minuto e O Minho) e não foi reconfirmada na página de avisos do IPMA esta manhã."
+   },
+   "fontes": [
+    {
+     "nome": "RTP (11 nov.)",
+     "url": "https://www.rtp.pt/noticias/pais/portugal-em-alerta-charles-passa-pela-madeira-e-ruma-a-portugal-continental-com-possivel-mudanca-de-trajetoria-para-sul_e1778319"
+    },
+    {
+     "nome": "Euronews (11 nov.)",
+     "url": "https://pt.euronews.com/2026/11/11/mau-tempo-portugal-em-alerta-devido-a-passagem-da-depressao-charles"
+    },
+    {
+     "nome": "CNN Portugal (12 nov.)",
+     "url": "https://cnnportugal.iol.pt/depressao-charles/tempo/depressao-charles-afasta-se-da-peninsula-iberica-mas-chuva-continua-seis-distritos-estao-sob-aviso-amarelo/20261112/6af55e57d34e9ce6f1b44221"
+    },
+    {
+     "nome": "Observador – recorde na Madeira (13 nov.)",
+     "url": "https://observador.pt/2026/11/13/mau-tempo-depressao-charles-estabeleceu-novo-recorde-nacional-de-precipitacao-na-madeira/"
+    },
+    {
+     "nome": "DN – recorde na Madeira (13 nov.)",
+     "url": "https://www.dn.pt/sociedade/depresso-charles-trouxe-novo-mximo-nacional-de-precipitao-5027-milmetros-em-24-horas-no-cho-do-areeiro-madeira"
+    },
+    {
+     "nome": "Notícias ao Minuto – previsão do fim de semana (14 nov.)",
+     "url": "https://www.noticiasaominuto.com/pais/3084079/chuva-ainda-nao-da-treguas-e-ha-alerta-amarelo-no-fim-de-semana"
+    },
+    {
+     "nome": "O Minho – aviso para domingo (14 nov.)",
+     "url": "https://ominho.pt/vem-ai-muita-chuva-para-o-minho-este-domingo-ipma-ja-emitiu-aviso-amarelo/"
+    }
+   ],
+   "edicao": "2026-11-12",
+   "noticia": 13,
+   "imagem": {
+    "commons": "Felgueiras Lighthouse Storm.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Ondas altas a rebentar contra o farolim de Felgueiras, no Porto, durante um temporal",
+    "legenda": "Ondas contra o farolim de Felgueiras, no Porto, num temporal anterior (imagem ilustrativa; não mostra a depressão Charles)"
+   }
+  },
+  {
+   "titulo": "Starship: nave apanhada pela torre ao regressar da órbita, pela primeira vez, depois de o propulsor ter falhado o regresso",
+   "seccao": "espaco",
+   "data": "2026-11-14",
+   "estado": "Factos confirmados (captura da nave, perda do propulsor) · causa da falha do propulsor em investigação",
+   "texto": [
+    "A SpaceX conseguiu no sábado, 14 de novembro, apanhar com os braços da torre de lançamento, em Starbase, no Texas, a nave da Starship que regressava da órbita — a primeira vez que um andar superior vindo do espaço é recuperado assim no local de lançamento. A nave 42 tinha descolado na sexta-feira, 13, às 22h47 de Lisboa, no voo 15, libertou 26 satélites Starlink da nova geração e deu cerca de 14 voltas à Terra antes de reentrar, cerca de 22 horas depois.",
+    "A outra metade do plano falhou. O propulsor Super Heavy, que devia ser o primeiro da versão Block 3 a regressar à torre, abortou sozinho a manobra por um problema de guiamento detetado durante a descida e acabou por cair no golfo do México. Elon Musk disse que os motores tiveram um desempenho ligeiramente inferior ao previsto e que o propulsor ficou sem combustível suficiente, e garantiu que a perda não altera o calendário da empresa.",
+    "A recuperação da nave é um passo central para a reutilização total do foguetão, de que depende a versão que a NASA contratou para levar astronautas à Lua no programa Artemis. O administrador da NASA, Jared Isaacman, escreveu no X que foi «quase magia»."
+   ],
+   "desenvolvimento": "Na edição de sábado, a captura da nave ainda era uma tentativa prevista para a noite; aconteceu como planeado, depois de três câmaras a bordo de satélites terem mostrado o escudo térmico em bom estado.",
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Captura da nave confirmada pela Al Jazeera e pela Teslarati; lançamento e falha do propulsor pela Space.com e pela AP (via PBS). As explicações sobre a falha são declarações de Musk e de responsáveis da SpaceX (Kate Tice, Dan Huot); a investigação continua. A hora exata da captura não foi confirmada nas fontes consultadas."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera (15 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first"
+    },
+    {
+     "nome": "Teslarati (14 nov.)",
+     "url": "https://www.teslarati.com/spacex-catches-starship-first/"
+    },
+    {
+     "nome": "Space.com (13 nov.)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship"
+    },
+    {
+     "nome": "AP via PBS NewsHour (13 nov.)",
+     "url": "https://www.pbs.org/newshour/science/spacexs-starship-soars-into-orbit-after-booster-malfunction-thwarts-double-catch-attempt"
+    },
+    {
+     "nome": "Engadget (14 nov.)",
+     "url": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/"
+    }
+   ],
+   "edicao": "2026-11-14",
+   "noticia": 17
+  },
+  {
+   "titulo": "Habitação: Seguro ouve as acampadas sem garantir veto à lei das rendas e milhares saem à rua em 32 cidades",
+   "seccao": "portugal",
+   "data": "2026-11-14",
+   "estado": "Factos (reunião, manifestações) · declarações · lei das rendas ainda em discussão no Parlamento",
+   "texto": [
+    "A crise da habitação marcou a semana do princípio ao fim. A 9 de novembro, a acampada de Lisboa retirou as tendas do Rossio ao fim de 22 dias e prometeu «descentralizar» o protesto. A 13, o Presidente da República, António José Seguro, recebeu em Belém 25 representantes das acampadas do Porto e de Lisboa e da plataforma Casa Para Viver, durante quase três horas, mas não se comprometeu a vetar a revisão da lei do arrendamento: disse que ainda não viu o diploma e que, mesmo vetado, o Parlamento pode confirmá-lo. No sábado, 14, milhares de pessoas manifestaram-se em Lisboa e no Porto, numa jornada de protestos em 32 cidades sob o lema «Não nos vão roubar o direito a morar».",
+    "Os movimentos pedem a revogação da nova lei das rendas, aprovada na generalidade a 30 de setembro com a abstenção do Chega e agora em discussão na especialidade, e mais regulação de rendas, despejos, casas vazias e alojamento local. O Governo diz estar disponível para dialogar através da secretaria de Estado da Habitação. A Procuradoria-Geral da República investiga a atuação de um agente da PSP à paisana que exibiu uma arma numa manifestação no Porto e o lançamento de um petardo em Lisboa."
+   ],
+   "desenvolvimento": "No sábado, a Casa Para Viver, que organizou a sétima manifestação desde abril de 2023, anunciou um novo protesto para 12 de dezembro. Não foram divulgadas estimativas oficiais de participantes.",
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Reunião em Belém confirmada pela Lusa (Jornal de Negócios) e pelo Observador; manifestações de sábado pelo ECO e pela TSF/Lusa (que falam em «milhares», sem números); lista das 32 cidades e data de 12 de dezembro pelo Postal do Algarve (a data de 12 de dezembro só nesta fonte). As frases de Seguro sobre o veto vêm do Observador."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – fim da acampada do Rossio (9 nov.)",
+     "url": "https://www.rtp.pt/noticias/pais/participantes-da-acampada-decidem-retirar-tendas-e-deixar-o-rossio_e1777809"
+    },
+    {
+     "nome": "Jornal de Negócios/Lusa (13 nov.)",
+     "url": "https://www.jornaldenegocios.pt/economia/habitacao/detalhe/presidente-deu-sinal-politico-e-movimentos-pela-habitacao-pediram-mediacao-com-governo"
+    },
+    {
+     "nome": "Observador (13 nov.)",
+     "url": "https://observador.pt/especiais/seguro-nao-garante-veto-a-lei-das-rendas-da-forca-as-acampadas-e-pede-filmagens-de-carga-policial-no-porto/"
+    },
+    {
+     "nome": "ECO (14 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/14/milhares-voltam-as-ruas-em-lisboa-e-porto-pelo-direito-a-habitacao/"
+    },
+    {
+     "nome": "TSF/Lusa (14 nov.)",
+     "url": "https://www.tsf.pt/sociedade/artigo/milhares-de-pessoas-manifestam-se-em-lisboa-esperando-que-governo-as-ouca-desta-vez/18148212"
+    },
+    {
+     "nome": "Postal do Algarve (14 nov.)",
+     "url": "https://postal.pt/economia/casa-para-viver-anuncia-nova-manifestacao-pela-habitacao-e-revela-a-data/"
+    }
+   ],
+   "edicao": "2026-11-14",
+   "noticia": 13
+  },
+  {
+   "titulo": "Mortes na urgência de Portimão e detenção em Aveiro afastam dois presidentes de ULS em 24 horas e põem a ministra da Saúde sob pressão",
+   "seccao": "portugal",
+   "data": "2026-11-10",
+   "estado": "Factos (exonerações, inspeção, detenção) · causas das mortes por apurar; suspeitos sem acusação",
+   "texto": [
+    "A ministra da Saúde, Ana Paula Martins, anunciou a 9 de novembro a demissão do presidente da Unidade Local de Saúde (ULS) do Algarve, Tiago Martins da Silva, depois das mortes de dois idosos que esperaram horas na urgência do Hospital de Portimão sem serem vistos por um médico; a Inspeção-Geral das Atividades em Saúde abriu uma inspeção extraordinária à triagem, ao pessoal e aos tempos de resposta. No dia seguinte, o presidente da ULS da Região de Aveiro foi detido pela Polícia Judiciária por suspeitas de corrupção, participação económica em negócio, abuso de poder e tráfico de influência, e foi demitido com efeito imediato.",
+    "A polémica chegou à própria ministra: segundo a cronologia do ministério, recebeu alertas sobre a urgência de Portimão em maio e julho e, mesmo assim, reconduziu o presidente da ULS a 30 de setembro, com base em garantias de melhorias. PS, Chega, Livre e Bloco de Esquerda pediram explicações no Parlamento. As causas das mortes continuam por apurar, e o caso de Aveiro está em investigação, sem acusação."
+   ],
+   "desenvolvimento": "A 13 de novembro, a comissão coordenadora distrital do Bloco de Esquerda no Algarve exigiu a demissão da ministra. Não encontrámos data marcada para a audição parlamentar.",
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Demissão no Algarve confirmada pelo ECO e pelo DN; inspeção da IGAS pelo Observador e pelo DN; detenção e demissão em Aveiro pelo Observador e pelo Diário de Aveiro. O resultado do primeiro interrogatório judicial em Aveiro não foi confirmado. Exigência do BE só no Observador/Lusa."
+   },
+   "fontes": [
+    {
+     "nome": "ECO (9 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/09/ministra-da-saude-vai-demitir-presidente-da-uls-do-algarve/"
+    },
+    {
+     "nome": "DN – IGAS (11 nov.)",
+     "url": "https://www.dn.pt/sociedade/igas-vai-investigar-a-qualidade-e-segurana-dos-cuidados-prestadosna-urgncia-de-portimo"
+    },
+    {
+     "nome": "Observador – recondução (11 nov.)",
+     "url": "https://observador.pt/2026/11/11/ministra-garanta-que-recebeu-garantias-para-melhorar-urgencia-de-portimao-antes-de-reconduzir-presidente-em-setembro/"
+    },
+    {
+     "nome": "Observador – Aveiro (10 nov.)",
+     "url": "https://observador.pt/2026/11/10/ministra-da-saude-demite-presidente-da-unidade-local-de-saude-de-aveiro-detido-por-suspeitas-de-corrupcao/"
+    },
+    {
+     "nome": "Diário de Aveiro (10 nov.)",
+     "url": "https://www.diarioaveiro.pt/2026/11/10/ministra-da-saude-demite-presidente-da-uls-aveiro-suspeito-de-corrupcao/"
+    },
+    {
+     "nome": "Observador/Lusa – BE (13 nov.)",
+     "url": "https://observador.pt/2026/11/13/bloco-de-esquerda-exige-demissao-da-ministra-da-saude-apos-mortes-nas-urgencias-do-hospital-de-portimao/"
+    }
+   ],
+   "edicao": "2026-11-12",
+   "noticia": 14
+  },
+  {
+   "titulo": "COP31 chega a meio dividida sobre os combustíveis fósseis; rascunho do acordo esperado no início da semana",
+   "seccao": "mundo",
+   "data": "2026-11-14",
+   "estado": "Negociações em curso · rascunho previsto para o início da semana; fim marcado para 20 de novembro",
+   "texto": [
+    "A conferência do clima da ONU em Antália, na Turquia, abriu a 9 de novembro com atraso e divisões sobre o financiamento e fechou a primeira semana, a 13, dividida sobre o futuro do petróleo, do gás e do carvão. O secretário-geral da ONU, António Guterres, pediu impostos sobre os lucros extraordinários das petrolíferas e cortes «imediatos e drásticos» nas emissões. A presidência, partilhada pela Turquia e pela Austrália, publicou um resumo das prioridades que inclui a «transição para longe dos combustíveis fósseis» acordada no Dubai em 2023; a Arábia Saudita e a Rússia resistem a metas sobre fósseis e os EUA faltam pelo segundo ano.",
+    "Para Portugal, a semana trouxe uma boa notícia: o país subiu ao 11.º lugar no Índice de Desempenho das Alterações Climáticas, apresentado na cimeira, graças à descida das emissões."
+   ],
+   "desenvolvimento": "No sábado, com a chegada dos ministros, o texto político ainda era uma lista de propostas e o rascunho continuava esperado para o início da semana. Foi publicado um rascunho separado sobre adaptação; os países africanos pedem que o financiamento da adaptação triplique para pelo menos 120 mil milhões de dólares por ano até 2035, e grandes países em desenvolvimento contestam metas setoriais, como uma meta voluntária de 35% de eletrificação até 2035.",
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Primeira semana e declarações de Guterres confirmadas pela Reuters (via WHTC) e pela RTÉ; prioridades pela The New Arab (com AFP); ponto de situação de sábado só pela Climate Home News; índice climático pelo DN e pelo Jornal de Negócios. A data exata do rascunho não está confirmada oficialmente."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via WHTC (13 nov.)",
+     "url": "https://whtc.com/2026/11/13/cop31-talks-face-early-friction-over-future-of-fossil-fuels/"
+    },
+    {
+     "nome": "RTÉ (13 nov.)",
+     "url": "https://www.rte.ie/news/2026/1113/1599060-climate-cop-fossil-fuels/"
+    },
+    {
+     "nome": "The New Arab, com AFP (13 nov.)",
+     "url": "https://newarab.com/news/cop31-deal-wish-list-includes-fossil-fuel-transition"
+    },
+    {
+     "nome": "Climate Home News (14 nov.)",
+     "url": "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/"
+    },
+    {
+     "nome": "DN – índice climático (11 nov.)",
+     "url": "https://www.dn.pt/economia/cop31-portugal-sobe-um-lugar-para-11-em-ndice-de-desempenho-climtico"
+    },
+    {
+     "nome": "Jornal de Negócios – índice climático (11 nov.)",
+     "url": "https://www.jornaldenegocios.pt/economia/ambiente/detalhe/portugal-sobe-um-lugar-no-indice-de-desempenho-climatico"
+    }
+   ],
+   "edicao": "2026-11-14",
+   "noticia": 11
+  },
+  {
+   "titulo": "Anthropic prepara a estreia na Nasdaq a 19 de novembro, com procura seis vezes superior à oferta, segundo a Bloomberg",
+   "seccao": "ia",
+   "data": "2026-11-13",
+   "estado": "Intervalo de preço confirmado (SEC) · procura segundo a Bloomberg · preço final a 18 nov., se não houver adiamento",
+   "texto": [
+    "A Anthropic, criadora do assistente Claude, fixou na terça-feira, 10 de novembro, entre 70 e 78 dólares por ação o intervalo de preço da sua entrada em bolsa, depois de, na véspera, ter enviado aos bancos condições preliminares que corrigiu horas depois por estarem «inexatas». Vende 825 milhões de ações, que podem render até cerca de 64,4 mil milhões de dólares, a que se somam 26 mil milhões numa colocação privada junto de empresas como a Alphabet, a Microsoft, a Nvidia e a TSMC; no total, poderá ser a maior entrada em bolsa da história. O preço final deve ser fixado a 18 de novembro e a negociação na Nasdaq, com o código ANT, começar a 19.",
+    "Segundo a Bloomberg, as encomendas são cerca de seis vezes superiores às ações disponíveis e os bancos estão a recusar investidores da China continental e de Hong Kong, invocando regras norte-americanas de controlo de exportações. O presidente executivo, Dario Amodei, admitiu numa apresentação a investidores que decidir com anos de antecedência quanta capacidade de computação comprar é o maior dilema do negócio."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Intervalo de preço, número de ações e calendário confirmados pela Decrypt, pela CNBC e pela StockAnalysis (com base no S-1 alterado). A procura e a exclusão de investidores chineses vêm da Bloomberg, relatada pela The Decoder (os artigos da Bloomberg não foram abertos). A Anthropic não comentou a exclusão."
+   },
+   "fontes": [
+    {
+     "nome": "Decrypt (10 nov.)",
+     "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion"
+    },
+    {
+     "nome": "CNBC (10 nov.)",
+     "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+    },
+    {
+     "nome": "The Decoder – procura (13 nov.)",
+     "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history"
+    },
+    {
+     "nome": "The Decoder – investidores chineses (13 nov.)",
+     "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/"
+    },
+    {
+     "nome": "StockAnalysis (11 nov.)",
+     "url": "https://stockanalysis.com/news/anthropic-ipo-multiple-times-oversubscribed/"
+    }
+   ],
+   "edicao": "2026-11-14",
+   "noticia": 4
+  },
+  {
+   "titulo": "Guerra com o Irão: Trump afasta Vance das negociações, Teerão e Washington trocam versões sobre ataques e a tensão em Ormuz continua",
+   "seccao": "mundo",
+   "data": "2026-11-14",
+   "estado": "Declarações e versões contraditórias · sem verificação independente no terreno",
+   "texto": [
+    "A guerra que começou a 28 de fevereiro com ataques dos EUA e de Israel ao Irão continuou a pesar na política norte-americana. A 10 de novembro, a Câmara dos Representantes enviou para comissão, por 211 votos contra 204, a resolução de destituição do secretário da Defesa, Pete Hegseth, apresentada pelo republicano Thomas Massie por causa da guerra. A 12, o Presidente Donald Trump retirou o vice-presidente JD Vance das conversações com o Irão e escreveu que os EUA não precisam de um acordo, mantendo o bloqueio naval e as sanções.",
+    "A 13, a Guarda Revolucionária iraniana disse ter destruído um radar norte-americano no Bahrein; o Comando Central dos EUA desmentiu e afirmou ter abatido dois drones sem danos. No sábado, 14, a Guarda Revolucionária afirmou que dois petroleiros se incendiaram ao atingir minas no estreito de Ormuz, depois de alegadamente terem tentado atravessá-lo por uma rota não autorizada; a informação não foi confirmada de forma independente."
+   ],
+   "desenvolvimento": "Na ONU, o secretário-geral adjunto Khaled Khiari disse ao Conselho de Segurança que outubro foi o mês com mais incidentes contra navios comerciais desde o início da guerra; a Organização Marítima Internacional contava 134 incidentes confirmados até 11 de novembro e 25 marinheiros mortos.",
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Votação sobre Hegseth confirmada pela CBS e pela ABC; afastamento de Vance pelo USA Today (via Yahoo) e pela Rádio Europa Livre; desmentido do CENTCOM pela Anadolu e pela ANI. A notícia dos petroleiros e os dados da ONU e da OMI vêm de uma só fonte consultada (DN/Lusa), que cita a Guarda Revolucionária."
+   },
+   "fontes": [
+    {
+     "nome": "CBS News (10 nov.)",
+     "url": "https://www.cbsnews.com/news/massie-hegseth-impeachment/"
+    },
+    {
+     "nome": "ABC News (10 nov.)",
+     "url": "https://abcnews.com/US/hegseth-dismisses-impeachment-effort-political-spectacle/story?id=138002466"
+    },
+    {
+     "nome": "USA Today via Yahoo (12 nov.)",
+     "url": "https://www.yahoo.com/news/politics/articles/trump-says-deal-iran-not-223633935.html"
+    },
+    {
+     "nome": "Rádio Europa Livre (13 nov.)",
+     "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html"
+    },
+    {
+     "nome": "Anadolu via Middle East Monitor (13 nov.)",
+     "url": "https://www.middleeastmonitor.com/20261113-centcom-denies-iranian-claim-of-attack-on-us-radar-in-bahrain-says-2-drones-shot-down/"
+    },
+    {
+     "nome": "ANI via The Tribune (13 nov.)",
+     "url": "https://www.tribuneindia.com/news/usa-news/us-centcom-denies-irans-claim-of-destroying-us-radar-in-bahrain-says-two-drones-shot-down"
+    },
+    {
+     "nome": "DN/Lusa (14 nov.)",
+     "url": "https://www.dn.pt/internacional/iro-dois-petroleiros-em-chamas-aps-atingirem-minas-no-estreito-de-ormuz"
+    }
+   ],
+   "edicao": "2026-11-14",
+   "noticia": 10
+  }
+ ],
+ "semana_que_vem": [
+  {
+   "quando": "Seg.–sex., 16 a 20 nov.",
+   "texto": "Segunda semana da COP31 em Antália: o rascunho do acordo político é esperado no início da semana e a cimeira deve terminar a 20 de novembro."
+  },
+  {
+   "quando": "Terça, 17 nov.",
+   "texto": "A Nvidia apresenta os resultados trimestrais, os primeiros desde a saída de Jensen Huang, com Colette Kress como líder interina."
+  },
+  {
+   "quando": "Quarta e quinta, 18–19 nov.",
+   "texto": "Reunião de líderes da APEC em Shenzhen, na China; o Kremlin admite um encontro entre Putin, Xi Jinping e Trump, que não está confirmado."
+  },
+  {
+   "quando": "Quinta, 19 nov.",
+   "texto": "Estreia prevista da Anthropic na Nasdaq, depois da fixação do preço final a 18 de novembro, se não houver adiamento."
+  }
+ ],
+ "quiz": [
+  {
+   "pergunta": "Que cinco países vão representar a Europa na próxima ronda de negociações sobre a Ucrânia, com as instituições da UE?",
+   "opcoes": [
+    "Reino Unido, França, Alemanha, Itália e Polónia",
+    "França, Alemanha, Espanha, Itália e Países Baixos",
+    "Reino Unido, França, Alemanha, Finlândia e Suécia"
+   ],
+   "certa": 0,
+   "explicacao": "A decisão foi anunciada por António Costa a 13 de novembro, numa cimeira informal em Dublin.",
+   "destaque": 1
+  },
+  {
+   "pergunta": "Onde decorreram as conversações diretas entre Ucrânia, Rússia e EUA a 10 e 11 de novembro?",
+   "opcoes": [
+    "Istambul",
+    "Abu Dhabi",
+    "Genebra",
+    "Riade"
+   ],
+   "certa": 1,
+   "explicacao": "Os Emirados Árabes Unidos acolheram as conversações, que terminaram com um acordo de princípio para uma troca de prisioneiros.",
+   "destaque": 1
+  },
+  {
+   "pergunta": "Quem passou a liderar a Nvidia de forma interina depois da demissão de Jensen Huang?",
+   "opcoes": [
+    "Rene Haas",
+    "Harvey Jones",
+    "Colette Kress",
+    "Lisa Su"
+   ],
+   "certa": 2,
+   "explicacao": "A diretora financeira, Colette Kress, lidera interinamente; Harvey Jones passou a presidir ao conselho de administração.",
+   "destaque": 2
+  },
+  {
+   "pergunta": "Quantas ocorrências contabilizou a Proteção Civil com a passagem da depressão Charles pelo continente?",
+   "opcoes": [
+    "Cerca de 300",
+    "1630",
+    "5200"
+   ],
+   "certa": 1,
+   "explicacao": "Foram 1630 ocorrências, mais de metade inundações, sem vítimas mortais.",
+   "destaque": 3
+  },
+  {
+   "pergunta": "Em que estação meteorológica se registou o novo recorde nacional de chuva num dia, 502,7 milímetros?",
+   "opcoes": [
+    "Fóia, serra de Monchique",
+    "Penhas Douradas, serra da Estrela",
+    "Chão do Areeiro, Madeira",
+    "Cabo da Roca"
+   ],
+   "certa": 2,
+   "explicacao": "O IPMA confirmou o recorde no Chão do Areeiro, na Madeira, durante a passagem da depressão Charles.",
+   "destaque": 3
+  },
+  {
+   "pergunta": "O que conseguiu a SpaceX pela primeira vez no voo 15 da Starship?",
+   "opcoes": [
+    "Apanhar com a torre o propulsor e a nave",
+    "Apanhar com a torre a nave regressada da órbita",
+    "Pousar a nave na Lua"
+   ],
+   "certa": 1,
+   "explicacao": "A nave foi apanhada pela torre no sábado; o propulsor falhou o regresso e caiu no golfo do México.",
+   "destaque": 4
+  },
+  {
+   "pergunta": "Em quantas cidades houve protestos pela habitação no sábado, 14 de novembro?",
+   "opcoes": [
+    "12",
+    "22",
+    "32",
+    "52"
+   ],
+   "certa": 2,
+   "explicacao": "A plataforma Casa Para Viver convocou protestos em 32 cidades, com as maiores manifestações em Lisboa e no Porto.",
+   "destaque": 5
+  },
+  {
+   "pergunta": "Em que hospital ocorreram as mortes de doentes à espera na urgência que levaram à demissão do presidente da ULS do Algarve?",
+   "opcoes": [
+    "Faro",
+    "Portimão",
+    "Lagos"
+   ],
+   "certa": 1,
+   "explicacao": "A IGAS abriu uma inspeção extraordinária à urgência do Hospital de Portimão.",
+   "destaque": 6
+  },
+  {
+   "pergunta": "Em que cidade decorre a COP31?",
+   "opcoes": [
+    "Antália, na Turquia",
+    "Belém, no Brasil",
+    "Adelaide, na Austrália",
+    "Baku, no Azerbaijão"
+   ],
+   "certa": 0,
+   "explicacao": "A conferência decorre em Antália, numa presidência partilhada pela Turquia e pela Austrália, e deve terminar a 20 de novembro.",
+   "destaque": 7
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos nas manhãs de 14 e 15 de novembro nas páginas do Teatro Municipal do Porto, da Casa da Música, do Batalha Centro de Cinema, do Cinema Trindade, de Serralves e da Agenda Porto, e na Time Out Porto (horários do TNSJ e do concerto de Bryan Adams). A greve dos trabalhadores da Casa da Música terminou no sábado. A página do FIATO não pôde ser consultada e a agenda da Casa da Música não pôde ser aberta diretamente esta manhã; o concerto de quarta-feira foi confirmado na Agenda Porto. Onde se lê «Por confirmar», o dado não estava na fonte: confirma na ligação antes de sair.",
+ "agenda": [
+  {
+   "dia": "2026-11-15",
+   "eventos": [
+    {
+     "nome": "Les Parents terribles, de Jean Cocteau",
+     "descricao": "Melodrama familiar e claustrofóbico de 1948: o anúncio do casamento de Michel com Madeleine faz estalar ciúmes e segredos guardados há anos.",
+     "horario": "11:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/les-parents-terribles-1784228583016/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/12, 105 minutos, falado em francês com legendas em português. Ciclo «Matinés do Cineclube». Hora confirmada no calendário do Batalha; a página não indica preço."
+    },
+    {
+     "nome": "Auto da Barca do Inferno, de Gil Vicente",
+     "descricao": "Marta Pazos encena o clássico vicentino como um cais de luz, música e movimento, onde as almas esperam o veredicto do Anjo e do Diabo.",
+     "horario": "16:00",
+     "tipo": "Teatro",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "7 € a 16,80 €",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Hora e preço segundo a Time Out Porto (domingos às 16:00); a página do TNSJ não foi consultada. Em cena até 13 de dezembro. Lugares disponíveis e classificação etária por confirmar."
+    },
+    {
+     "nome": "Amor de Perdição, pela companhia Inquieta (FIATO)",
+     "descricao": "Ópera a partir de Camilo Castelo Branco em que Teresa, Simão e Mariana atravessam muros, cartas e memórias, com três solistas que também fazem de coro.",
+     "horario": "17:00",
+     "tipo": "Ópera",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/evento/fiato-amor-de-perdicao/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6, até às 18:10. Festival Internacional de Artes e Ópera do Porto (13 a 21 de novembro). A Agenda Porto não indica preço; os sites do FIATO e do Coliseu não foram consultados."
+    },
+    {
+     "nome": "Marina Herlop – Dja Dja",
+     "descricao": "A pianista e cantora catalã estreia ao vivo o novo disco, uma peça contínua inspirada na «jornada do herói», agora com metais e novas texturas.",
+     "horario": "19:30",
+     "tipo": "Música",
+     "local": "Teatro Campo Alegre (Auditório), Rua das Estrelas, Porto",
+     "preco": "9 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/marina-herlop-dja-dja/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/6, 1 hora. Coapresentação com a Culturgest. Bilhetes na BOL."
+    },
+    {
+     "nome": "Zaynara e Fafá de Belém",
+     "descricao": "Duas gerações da música do Pará fecham o festival Floresta do Amazonas: Zaynara mistura carimbó com sons urbanos e Fafá de Belém traz mais de cinco décadas de canção brasileira.",
+     "horario": "20:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "26 € a 30 €",
+     "url": "https://casadamusica.com/en/event/zaynara-fafa-de-belem-2/?selected_session=59209",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Zaynara às 20:30, Fafá de Belém às 21:25. Filas A–K 30 €, L–U 28 €, UU–YY 26 €; 25% de desconto para Amigos. A greve dos trabalhadores terminou no sábado. Lugares disponíveis por confirmar."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-16",
+   "eventos": [
+    {
+     "nome": "You Can See Everything, de Nathan Fielder e Lance Oppenheim",
+     "descricao": "Filmado em segredo ao longo de quatro anos, a partir de 34 dias antes da detenção, o filme acompanha Elizabeth Holmes, fundadora da Theranos condenada por fraude, e o companheiro, Billy Evans, num registo entre o documentário e a ficção.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "5,50 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14, 2h54, legendado. Sessão Medeia Filmes; repete terça e quarta-feira à mesma hora."
+    },
+    {
+     "nome": "O Espírito da Colmeia, de Víctor Erice",
+     "descricao": "Na Castela do pós-guerra, uma menina fica obcecada pelo «Frankenstein» que vê numa sessão de cinema ambulante, no clássico espanhol de 1973.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "Por confirmar",
+     "url": "https://cinematrindade.pt/en/films/o-espirito-da-colmeia",
+     "ligacao": "Cinema Trindade",
+     "nota": "M/12, 1h37 (até às 23:07). O site do Trindade indica a sessão de segunda, 16 de novembro, mas não o preço; a gravação ao vivo do podcast Noites de Cabíria anunciada pela Agenda Porto não consta da página do filme e não foi reconfirmada."
+    },
+    {
+     "nome": "Luísa Sobral – Cartas de Desamor",
+     "descricao": "A cantora e compositora apresenta o oitavo disco, em que a canção de autor se aproxima da música tradicional portuguesa.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "25 € a 35 €",
+     "url": "https://casadamusica.com/en/event/luisa-sobral-2/?selected_session=52959",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Filas A–L 35 €, M–U 30 €, UU–YY 25 €; 25% de desconto para Amigos. Promotor: Bairro da Música. Lugares disponíveis por confirmar."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-17",
+   "eventos": [
+    {
+     "nome": "Exposição «O Século de Gehry»",
+     "descricao": "Retrospetiva do arquiteto Frank Gehry (1929–2025) com 19 projetos em oito capítulos, muitas maquetas — do Guggenheim de Bilbau à Fundação Louis Vuitton — e destaque para a amizade com Álvaro Siza.",
+     "horario": "Por confirmar",
+     "tipo": "Exposição",
+     "local": "Museu de Serralves (Ala Álvaro Siza), Rua D. João de Castro, 210, Porto",
+     "preco": "24 € (bilhete geral)",
+     "url": "https://www.serralves.pt/en/visitar-serralves/",
+     "ligacao": "Serralves",
+     "nota": "Até 10 de janeiro de 2027, segundo a agenda de Serralves. Bilhete geral 24 € (20 € para residentes, só na bilheteira); de segunda a quinta há bilhete de fim de tarde (a partir das 17:00, última entrada às 18:00) a 12 € para residentes e 15 € para não residentes; gratuito até aos 12 anos. A página oficial não mostrava o horário de inverno; a Time Out indica 10:00–19:00 todos os dias, por confirmar."
+    },
+    {
+     "nome": "Vânia Leal (Geração Casa)",
+     "descricao": "A fadista de Barcelos percorre a história do fado num concerto tradicional de homenagem a Amália Rodrigues, Beatriz da Conceição e Cristina Branco.",
+     "horario": "19:30",
+     "tipo": "Fado",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "12 €",
+     "url": "https://casadamusica.com/en/event/vania-leal-2026-11-17-2/?selected_session=57746",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Descontos para Amigos (25%), jovens até 30 anos, estudantes e seniores. Sem aviso de alteração."
+    },
+    {
+     "nome": "You Can See Everything, de Nathan Fielder e Lance Oppenheim",
+     "descricao": "Segunda sessão do retrato filmado às escondidas de Elizabeth Holmes e Billy Evans, que proclamam a inocência à sua maneira dentro de casa.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "5,50 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14, 2h54, legendado. Última sessão na quarta-feira, 18, às 20:45."
+    },
+    {
+     "nome": "Bryan Adams – Roll With the Punches",
+     "descricao": "O cantor canadiano traz ao Porto a digressão do disco mais recente, no primeiro de dois concertos seguidos na cidade.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Super Bock Arena – Pavilhão Rosa Mota, Rua de D. Manuel II, 3, Porto",
+     "preco": "Esgotado",
+     "url": "https://www.timeout.pt/porto/pt/noticias/depois-de-esgotar-as-primeiras-datas-bryan-adams-anuncia-mais-concertos-no-porto-e-em-lisboa-031026",
+     "ligacao": "Time Out Porto",
+     "nota": "Esgotado segundo a Time Out Porto, que indica concertos «sempre às 21.00»; há segunda data a 18 de novembro (bilhetes de 59,06 € a 509,79 € na Blueticket). Hora e lotação não confirmadas na página do promotor ou da bilheteira."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-18",
+   "eventos": [
+    {
+     "nome": "Exposição «O Século de Gehry»",
+     "descricao": "Retrospetiva do arquiteto Frank Gehry (1929–2025) com 19 projetos em oito capítulos, muitas maquetas — do Guggenheim de Bilbau à Fundação Louis Vuitton — e destaque para a amizade com Álvaro Siza.",
+     "horario": "Por confirmar",
+     "tipo": "Exposição",
+     "local": "Museu de Serralves (Ala Álvaro Siza), Rua D. João de Castro, 210, Porto",
+     "preco": "24 € (bilhete geral)",
+     "url": "https://www.serralves.pt/en/visitar-serralves/",
+     "ligacao": "Serralves",
+     "nota": "Até 10 de janeiro de 2027, segundo a agenda de Serralves. Bilhete geral 24 € (20 € para residentes, só na bilheteira); de segunda a quinta há bilhete de fim de tarde (a partir das 17:00, última entrada às 18:00) a 12 € para residentes e 15 € para não residentes; gratuito até aos 12 anos. A página oficial não mostrava o horário de inverno; a Time Out indica 10:00–19:00 todos os dias, por confirmar."
+    },
+    {
+     "nome": "You Can See Everything, de Nathan Fielder e Lance Oppenheim",
+     "descricao": "Última sessão do retrato filmado às escondidas, ao longo de quatro anos, de Elizabeth Holmes, fundadora da Theranos condenada por fraude, e do companheiro, Billy Evans.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "5,50 €",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14, 2h54, legendado. Sessão Medeia Filmes; última sessão do ciclo de três dias, segundo o Teatro Municipal do Porto."
+    },
+    {
+     "nome": "Svaneborg Kardyb + Vega Trails (Misty Fest)",
+     "descricao": "Noite dupla de jazz: o duo dinamarquês Svaneborg Kardyb apresenta o segundo disco, «Superkilen», mais eletrónico, e o projeto de jazz de câmara Vega Trails, de Milo Fitzpatrick, toca «Sierra Tracks», inspirado na serra de Guadarrama.",
+     "horario": "21:00",
+     "tipo": "Jazz",
+     "local": "Casa da Música, Av. da Boavista, 604-610, Porto",
+     "preco": "20 €",
+     "url": "https://www.agenda-porto.pt/en/evento/svaneborg-kardyb-vega-trails/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6. Sala por confirmar (a Agenda Porto não a indica); a agenda da Casa da Música não pôde ser aberta esta manhã."
+    },
+    {
+     "nome": "Bryan Adams – Roll With the Punches",
+     "descricao": "Segundo concerto seguido do cantor canadiano no Porto, com a digressão do disco mais recente.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Super Bock Arena – Pavilhão Rosa Mota, Rua de D. Manuel II, 3, Porto",
+     "preco": "59,06 € a 509,79 € (Blueticket)",
+     "url": "https://www.timeout.pt/porto/pt/noticias/depois-de-esgotar-as-primeiras-datas-bryan-adams-anuncia-mais-concertos-no-porto-e-em-lisboa-031026",
+     "ligacao": "Time Out Porto",
+     "nota": "Preços e hora («sempre às 21.00») segundo a Time Out Porto; disponibilidade de bilhetes para esta segunda data por confirmar na bilheteira (a primeira data, terça, 17, está esgotada)."
+    }
+   ]
+  }
+ ],
+ "linkedin_abertura": "Numa semana, a Europa ganhou lugar nas negociações sobre a Ucrânia, Jensen Huang deixou a Nvidia e a Starship foi, pela primeira vez, apanhada pela torre ao regressar da órbita."
+}
