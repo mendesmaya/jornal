@@ -1,0 +1,1130 @@
+{
+ "data": "2026-11-16",
+ "numero": "024",
+ "resumo": "China confirms the first summit between Xi, Trump and Putin, on Thursday in Shenzhen; Vulcan fails on its return to flight and loses 40 Amazon satellites; and the Budget enters its week of votes.",
+ "tema_palavras": "words in this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Attack on La Poste subsidiary exposes names and addresses of 22 million people, roughly one in three residents of France",
+   "estado": "Fact confirmed by Maileva and La Poste · perpetrators and method of entry yet to be established; judicial investigation under way",
+   "data": "2026-11-14",
+   "texto": [
+    "Maileva, a company in the French La Poste group that prints and sends mail (invoices, payslips, registered letters, notices to attend) on behalf of thousands of businesses, has confirmed that a cyberattack led to the theft of the first names, surnames and addresses of 22 million people. The figure was confirmed by the company to the specialist website Cyberattaque.org and announced publicly by La Poste on Saturday 14 November. Most of the victims are not direct customers: they are the recipients of letters sent by the thousands of companies that use the service.",
+    "The intrusion dates back to mid-September. On 23 September, Maileva suspended its services after detecting suspicious activity and only resumed them six days later; the day after the suspension, it admitted attempts at unauthorised access to customer accounts to send fraudulent mail. According to Cyberattaque.org, internal documents pointed to around 39 million mail records, corresponding to 22 million different people. The company says it has warned all the organisations affected, informed the CNIL (the French data protection authority) and filed a complaint; it is up to each client company to notify the people whose data appeared in its mail.",
+    "The data confirmed by Maileva is limited to names and addresses, but some clients have reported more. Foch Hospital, on the outskirts of Paris, warned that payment reminders sent between 9 and 23 September, with invoice number, treatment dates and amounts owed, may have been seen, without information on the care provided or bank details. A social housing company in northern France said letters up to ten years old may be involved. It has not been disclosed how the attackers got in or who they are. The hospital warns of the risk of scam attempts by email, text message, post or phone in the name of well-known organisations."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Number of people, type of data, September timeline, complaint and notification to the CNIL confirmed by Cyberattaque.org (with written confirmation from Maileva) and by L'Express (via 6Médias/Orange), which attributes the 14 November announcement to La Poste. The details on Foch Hospital and the housing company come from Cyberattaque.org and Gridinsoft, based on notices from those organisations. Only the headline of the franceinfo article was seen. The intrusion method, the perpetrators and the number of people actually notified have not been disclosed."
+   },
+   "fontes": [
+    {
+     "nome": "Cyberattaque.org (13 Nov)",
+     "url": "https://www.cyberattaque.org/maileva-docaposte-la-poste-cyberattaque/"
+    },
+    {
+     "nome": "L'Express via 6Médias, on Orange Actu (14 Nov)",
+     "url": "https://actu.orange.fr/france/maileva-filiale-de-la-poste-victime-d-une-cyberattaque-22-millions-de-personnes-concernees-l-express-via-6medias-CNT000002tJ3IW.html"
+    },
+    {
+     "nome": "Gridinsoft (15 Nov)",
+     "url": "https://blog.gridinsoft.com/maileva-22-million-names-addresses-stolen"
+    },
+    {
+     "nome": "franceinfo (headline only)",
+     "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-courriers-ont-pu-etre-lus-ce-que-l-on-sait-de-la-cyberattaque-contre-maileva-filiale-de-la-poste-qui-a-conduit-au-vol-de-donnees-de-22-millions-de-personnes_8283266.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Boîte murale jaune de La Poste.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Yellow La Poste letterbox fixed to a wall",
+    "legenda": "A La Poste letterbox in France; illustrative image, it does not show the attack on Maileva"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "German army grounded reconnaissance drones after hackers infected an update server at manufacturer Quantum Systems",
+   "estado": "Attack confirmed by the company, which says the drones are flying again · Bundeswehr has not confirmed; perpetrators unknown",
+   "data": "2026-11-13",
+   "texto": [
+    "The German armed forces (Bundeswehr) stopped using Vector reconnaissance drones, made by Germany's Quantum Systems, as a precaution after a cyberattack on the company detected at the end of October, the Financial Times and Der Spiegel magazine reported. Quantum Systems, one of Europe's largest drone makers and also a supplier to Ukraine, confirmed the attack on Thursday 12 November and assured the Reuters news agency on Friday 13 November that the fleet “is operating normally”, including in Germany.",
+    "According to Der Spiegel, the attackers reached the server used to distribute updates for QBase, the drones' mission-planning and flight-control software, and placed a malicious file on it. The file is said to have reached servers belonging to the Bundeswehr and other customers, but not the drones themselves, because it was detected during a check. It is not known what the malicious program did or whether it was ever installed. The suspension prevented the company from taking part in a recent military exercise, according to the Financial Times.",
+    "The company says the threat was contained together with the authorities and that using the drones poses no risk; the Bundeswehr is said to have been the only customer to suspend flights. According to Der Spiegel, the investigation involves military counter-intelligence (MAD), the domestic intelligence service (BfV) and the federal office for information security (BSI). No one has been named as responsible. German intelligence services warned in July that defence companies supporting Ukraine face a higher risk of Russian cyberattacks, espionage and sabotage. The German Defence Ministry declined to comment and has not independently confirmed that flights have resumed."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Attack, precautionary suspension and resumption of flights confirmed by AeroTime (with company statements to Reuters), DroneXL and Brandsit, which cite the Financial Times, Der Spiegel and the Quantum Systems statement. The details of the update server come from Der Spiegel (cited; paywalled, not consulted). It was not possible to confirm when the suspension began and ended, how many drones were affected, what the malicious file did or who carried out the attack."
+   },
+   "fontes": [
+    {
+     "nome": "AeroTime (13 Nov)",
+     "url": "https://www.aerotime.aero/articles/bundeswehr-quantum-systems-drones-flying-again-cyberattack"
+    },
+    {
+     "nome": "DroneXL (12 Nov)",
+     "url": "https://dronexl.co/2026/11/12/quantum-systems-qbase-malware-bundeswehr-grounds-drones/"
+    },
+    {
+     "nome": "Brandsit (13 Nov)",
+     "url": "https://brandsit.pl/en/cyberattack-on-quantum-systems-the-bundeswehr-has-resumed-drone-flights/"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "FBI warns that ARTEX, an attack tool built on AI agents, is being used in intrusions that take control of networks in under three hours",
+   "estado": "Official FBI warning (13 Nov) · tool used by attackers since August; victims and perpetrators not fully identified",
+   "data": "2026-11-13",
+   "texto": [
+    "On Friday 13 November the FBI published an urgent alert (FLASH) about ARTEX, an open-source penetration-testing program that uses artificial intelligence agents and has been exploited by hackers since at least August. According to the alert, cited by GBHackers and Cyber Press, some intrusions went from initial reconnaissance to administrator-level access in under three hours, and investigators found more than 1,600 consoles of the tool exposed on the internet in early November.",
+    "ARTEX turns goals written in everyday language (“get into this network”, for example) into commands carried out by several automated agents, with little human intervention. It has no AI model of its own: it connects to language models from various companies, and attackers mainly use cheaper Chinese models, according to the alert. It was published in July by a developer identified only by the username “Autumn-27”, who removed it from GitHub on 8 October after reports of abuse, but copies and a commercial version remain available.",
+    "Among the cases described are a campaign against South Korean financial institutions, with the theft of the personal data of around 67,000 people, and the compromise of ConnectWise's cloud backup service, which exposed more than 2,250 customers. Targeted sectors include finance, public administration, defence, health, energy and telecommunications. The FBI recommends taking an inventory of internet-facing systems, restricting access to cloud administration consoles and monitoring unexpected connections to AI model services from internal networks."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date and identifier of the alert (FLASH-20261113-001), figures (under three hours, more than 1,600 consoles, 67,000 people, 2,250 customers) and recommendations confirmed by GBHackers and Cyber Press, both based on the FBI alert. The original FBI (IC3) document and the BleepingComputer article could not be opened. The full list of affected countries and the identity of the groups using the tool have not been disclosed."
+   },
+   "fontes": [
+    {
+     "nome": "GBHackers (14 Nov)",
+     "url": "https://gbhackers.com/fbi-warns-artex-ai-framework/"
+    },
+    {
+     "nome": "Cyber Press (14 Nov)",
+     "url": "https://cyberpress.org/fbi-artex-ai-agents-breach-networks/"
+    },
+    {
+     "nome": "BleepingComputer (headline only)",
+     "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/"
+    },
+    {
+     "nome": "FBI/IC3, FLASH alert (cited; not opened)",
+     "url": "https://www.ic3.gov/CSA/2026/261113.pdf"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "COP31 launches the Antalya AI Pledge: UN warns that artificial intelligence is a “double-edged sword” for the climate",
+   "estado": "Voluntary pledge launched (16 Nov) · 80 endorsements announced, without saying how many are from countries",
+   "data": "2026-11-16",
+   "texto": [
+    "Turkey, host of the UN climate summit (COP31), launched the Antalya Pledge on Artificial Intelligence in Antalya this Monday, 16 November — a voluntary agreement to use AI in the search for climate solutions while reducing the environmental footprint of the data centres that power it. At the presentation, the UN's climate change executive secretary, Simon Stiell, described AI as a technology of “great potential and great peril” and called for its benefits to outweigh its rising costs.",
+    "Stiell argued that people cannot be asked to accept higher electricity bills and more pollution in exchange for future promises, and called on company boards and chief executives to align their investment plans with the agreed climate targets and to power data centres with renewable energy. Turkey's Minister of Industry and Technology, Mehmet Fatih Kacir, announced 80 endorsements of the pledge, without saying how many came from states and how many from companies.",
+    "The text, prepared with the International Telecommunication Union (ITU, the UN agency for the sector) and published at the end of October, encourages the use of lower-emission electricity, such as wind and solar, fuller reporting on the energy and other resources used by AI systems, and support for developing countries. It is not binding and sets no emission limits. According to the International Energy Agency, cited by CarbonCredits, data centres consumed around 415 terawatt-hours in 2024 (1.5% of the world's electricity) and could reach 945 in 2030, with AI as the main driver. The World Resources Institute, an environmental research organisation, said the pledge lacks accountability mechanisms."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Launch on 16 Nov, Stiell's statements and the 80 endorsements confirmed by AFP (via HeadTopics/The Straits Times) and Business Recorder. Content of the pledge from the COP31 presidency and CarbonCredits; the WRI's criticism from World Today Journal (citing Energy Connects). It was not possible to find out which countries and companies have signed up, or whether the EU has signed (in October it was still considering it)."
+   },
+   "fontes": [
+    {
+     "nome": "AFP via HeadTopics (16 Nov)",
+     "url": "https://sg.headtopics.com/news/un-climate-chief-warns-ai-is-a-double-edged-sword-for-89888591"
+    },
+    {
+     "nome": "Business Recorder (16 Nov)",
+     "url": "https://brecorder.com/news/40449160/un-climate-chief-highlights-ais-potential-and-peril-at-cop31"
+    },
+    {
+     "nome": "COP31 Presidency (21 Sept)",
+     "url": "https://cop31.tr/news-detail/cop31-presidency-launches-35-by-35-and-antalya-ai-pledges"
+    },
+    {
+     "nome": "CarbonCredits (3 Nov)",
+     "url": "https://carboncredits.com/cop31-antalya-ai-pledge-clean-data-centres-emissions/"
+    },
+    {
+     "nome": "World Today Journal (28 Oct)",
+     "url": "https://world-today-journal.com/turkey-launches-antalya-ai-pledge-to-assist-in-tackling-warming/"
+    }
+   ],
+   "imagem": {
+    "commons": "Cern datacenter.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Corridor between rows of server racks in a data centre",
+    "legenda": "CERN data centre in Geneva (illustrative image; not related to COP31)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Apple opens study with up to 200,000 iPhone users to understand how people use AI for health questions",
+   "estado": "Apple announcement (15 Nov) · study in the US only, lasting more than 12 months; not a launched product",
+   "data": "2026-11-15",
+   "texto": [
+    "On Sunday 15 November Apple launched a research app in the US that invites up to 200,000 iPhone users to put health questions to an artificial intelligence assistant, in order to study how far they trust the answers, whether they understand them and whether the answers help them make decisions or prepare for medical appointments. The answers are generated by OpenEvidence, a clinical AI company already used by doctors, and come with links to peer-reviewed scientific studies.",
+    "US residents aged 21 or over can take part, with an iPhone compatible with Apple Intelligence (iPhone 15 Pro or later) and iOS 26. Sharing data from the Health app — such as resting heart rate, sleep, activity or test results — is optional. Apple says the study data will not be used to train AI models and is anonymised before reaching a cloud provider; according to Startup Fortune, which cites TechCrunch, OpenEvidence deletes the questions after 24 hours. The study is expected to last more than 12 months.",
+    "Apple itself warns that the answers may sometimes be incomplete or unclear. The initiative is seen as a step towards a possible Apple health assistant, at a time when more and more people turn to chatbots for medical questions, but the company has not announced any product. The study is not available in Portugal."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Eligibility, objectives and privacy guarantees confirmed by iGeeksBlog (based on Apple's announcement and the App Store listing) and Startup Fortune (based on TechCrunch). The deletion of questions after 24 hours and the duration of more than 12 months come only from Startup Fortune/TechCrunch. Apple's announcement and the TechCrunch article were not opened directly."
+   },
+   "fontes": [
+    {
+     "nome": "iGeeksBlog (16 Nov)",
+     "url": "https://www.igeeksblog.com/apple-health-ai-usage-study-app/"
+    },
+    {
+     "nome": "Startup Fortune (16 Nov, citing TechCrunch)",
+     "url": "https://startupfortune.com/apple-launches-a-study-app-with-openevidence-to-see-how-people-use-ai-for-health/"
+    },
+    {
+     "nome": "RuntimeWire (15 Nov)",
+     "url": "https://runtimewire.com/article/apple-health-ai-usage-study-openevidence-200000"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Google's teams of AI agents verify famous proofs in formal language, from the Weil conjectures to Hilbert's tenth problem",
+   "estado": "Results announced by Google · no independent assessment; some of the tools are not yet available to the public",
+   "data": "2026-11-13",
+   "texto": [
+    "On Friday 13 November Google Research released results obtained with /teamwork, a feature of its Antigravity programming environment that puts several artificial intelligence agents to work in parallel and checks what they produce with automated verifiers. The most striking case is mathematics: the system wrote around 1.8 million lines in Lean, a language in which a program checks every step of a proof, to formalise the Weil conjectures, proved by Pierre Deligne in 1974, in work that required 28,800 calls to sub-agents.",
+    "According to the company, the system also formalised for the first time a recent proof of Hilbert's tenth problem for rings of integers (around 919,000 lines), the Birkhoff conjecture and the Bochner–Riesz conjecture in three dimensions, and helped researchers from Google and from universities in Hong Kong and the US to prove the Courtade–Kumar conjecture, an information theory problem open since 2013. Outside mathematics, Google says it converted around 170,000 lines of a video decoder from C++ to Rust, making it 20% to 30% faster, and identified molecular structures from nuclear magnetic resonance data with 95% accuracy at the first attempt.",
+    "The results are described by Google itself, which acknowledges that human experts checked and edited many of them and that it is up to mathematicians to confirm that the formal statements match the original problems. The company has opened applications for 10,000 academic researchers to get six months' free access to the highest tier of the service; some features will only arrive later."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "All the information comes from Google (Google Research blog, 13 Nov), reported by Interesting Engineering, which did not speak to outside experts. The figures (lines of code, accuracy rates, speed gains) have not been independently verified; several results refer to arXiv preprints without peer review."
+   },
+   "fontes": [
+    {
+     "nome": "Google Research (13 Nov)",
+     "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+    },
+    {
+     "nome": "Interesting Engineering (13 Nov)",
+     "url": "https://interestingengineering.com/ai-robotics/google-antigravity-multi-agent-research"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Nvidia: Huang is said to have assembled a team to try to return, 158,000 sign a letter calling for his comeback and the Treasury Secretary demands an outside leader",
+   "estado": "Press reports (FT, Reuters) and public statements · Nvidia has not commented; results on Tuesday 17 Nov",
+   "data": "2026-11-15",
+   "texto": [
+    "The succession at Nvidia has turned into a public tug of war, two days before the company presents its first results without Jensen Huang. According to the Financial Times, cited by AFP on Sunday 15 November, the co-founder, who resigned on 12 November, has discussed a possible return with people close to him and is putting together a crisis team to seek White House support. On the same day, US Treasury Secretary Scott Bessent said on Fox News that the board should look for the new chief executive outside the company, called for a “dramatic turnaround” and demanded answers from the board and the outside lawyers within the next ten days.",
+    "An open letter asking the board to “bring Jensen back” while an independent investigation establishes the facts had more than 158,000 signatures on Sunday, more than 7,500 of them from people who identify themselves as Nvidia employees (around 18% of the workforce), according to AFP; the signatories include Elon Musk, Uber co-founder Travis Kalanick and Epic Games chief Tim Sweeney. Two major shareholders, Brad Gerstner (Altimeter) and Gavin Baker (Atreides), asked on Friday for the board to keep “all options” open. Bessent, by contrast, questioned whether Nvidia ignored warning signs about shell companies, particularly in Singapore, allegedly used to divert chips to China.",
+    "The pressure grew after Reuters reported on 14 November that Huang is said to have misled the general counsel, Tim Teter, and the chief marketing officer, Alison Wagonfeld: in October messages, which the agency says it has seen, he described his relationship with businesswoman Alice Huang and with Megaspeed — a Singapore company the US suspects of diverting chips — as “normal business with customers”, without revealing that it was an intimate relationship. Huang and Nvidia have not commented; the independent investigation, entrusted to the law firm Wachtell, Lipton, Rosen & Katz, has reached no conclusions. Nvidia reports results on Tuesday 17 November, after Wall Street closes (around 21:20 Lisbon time); the company itself forecast revenue of $108 billion for the quarter, with a margin of 2% either way. The shares have fallen more than 30% since their peak on 6 October."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Open letter, number of signatures, signatories, the shareholders' position and the FT report on a return confirmed by AFP (Yahoo Finance) and Arab News; Bessent's statements by Fox Business and AFP. Huang's messages to the two executives are a Reuters exclusive (via Express Tribune and Arab News), based on two sources and on correspondence the agency did not publish. The FT and Reuters were not opened directly. Revenue forecast and time of the results from Saxo. The allegations of espionage and chip diversion are unproven; Beijing and Megaspeed deny them."
+   },
+   "fontes": [
+    {
+     "nome": "AFP via Yahoo Finance (15 Nov)",
+     "url": "https://finance.yahoo.com/technology/ai/articles/musk-uber-co-founder-join-231643816.html"
+    },
+    {
+     "nome": "Fox Business (15 Nov)",
+     "url": "https://www.foxbusiness.com/business-leaders/bessent-calls-nvidia-leadership-shake-up-amid-china-chip-scandal-urges-outside-ceo"
+    },
+    {
+     "nome": "Express Tribune, with Reuters (14 Nov)",
+     "url": "https://tribune.com.pk/story/2640308/ex-nvidia-ceo-misled-top-lawyer-on-affair-with-chinese-businesswoman-sources-say"
+    },
+    {
+     "nome": "Arab News (16 Nov)",
+     "url": "https://arabnews.com/world/musk-tech-leaders-back-jensen-huang-as-reuters-report-alleges-he-misled-nvidia-lawyer-over-affair-3012134"
+    },
+    {
+     "nome": "Saxo – results preview (16 Nov)",
+     "url": "https://www.home.saxo/content/articles/equities/nvidia-earnings-preview-the-first-big-test-after-jensen-huangs-exit-16112026"
+    }
+   ],
+   "imagem": {
+    "commons": "Jensen Huang at Computex Taipei 20160531a.jpg",
+    "tipo": "arquivo",
+    "alt": "Jensen Huang, in a leather jacket, speaking on stage at the Computex trade show",
+    "legenda": "Jensen Huang at Computex in Taipei in 2016 (archive image)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "US and eight allies sign pact to protect AI supply chains from China; Germany, the Netherlands, Sweden and the European Commission expected to join",
+   "estado": "Declaration signed (announced on 15 Nov) · concrete measures yet to be defined; European accession expected, not confirmed",
+   "data": "2026-11-15",
+   "texto": [
+    "The United States, Japan, Australia, Israel, the United Kingdom, South Korea, India, Qatar and the United Arab Emirates have signed a joint declaration to identify and protect artificial intelligence technologies and supply chains — chips, critical minerals, energy and industrial capacity — considered vulnerable to dependence on China, according to the Financial Times of 15 November. The text, called the San Francisco Declaration, is a new phase of Pax Silica, an initiative launched by Washington in December 2025. Germany, Sweden, the Netherlands and the European Commission are expected to sign next week.",
+    "The signatories commit to stepping up protection against the theft, illicit transfer or acquisition of sensitive AI technologies that could give rivals a military or intelligence advantage, to setting up working groups on supply chain vulnerabilities and to studying AI-linked industrial and investment hubs. The US Under Secretary of State for Economic Affairs, Jacob Helberg, said the partners now treat the security of these technologies as a shared responsibility. No locations, funding or deadlines were disclosed.",
+    "The agreement comes days before a planned meeting between Donald Trump and Xi Jinping at the APEC summit in Shenzhen, and in the midst of the controversy over Nvidia chips diverted to China. On the European side, member states authorised the Commission to negotiate on 11 November, but, according to Poland Insight, there are still reservations about the AI provisions and the scope of the obligations."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Signatories, content and expected accessions confirmed by Digitimes and Business Today; the date and place of signing (San Francisco, 15 Nov) and the European reservations come from Poland Insight, which cites the FT, the State Department and an EU Council document. Many of the details originate from the Financial Times, which was not opened. The official State Department statement was not found; European accession is not confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "Digitimes (16 Nov)",
+     "url": "https://www.digitimes.com/news/a20261116VL213/supply-chain-industrial-qatar-security.html"
+    },
+    {
+     "nome": "Business Today (16 Nov, citing the FT)",
+     "url": "https://www.businesstoday.in/latest/corporate/story/nvidia-chip-row-effect-us-japan-uk-allies-want-to-protect-ai-supply-chain-from-china-567549-2026-11-16"
+    },
+    {
+     "nome": "Poland Insight (15 Nov)",
+     "url": "https://polandinsight.com/us-partners-ai-supply-chain-declaration-38006/"
+    },
+    {
+     "nome": "Wikipedia – Pax Silica",
+     "url": "https://en.wikipedia.org/wiki/Pax_Silica"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Beijing confirms the first three-way summit between Xi, Trump and Putin, on Thursday in Shenzhen; nuclear weapons and Iran on the agenda, Ukraine not",
+   "estado": "Meeting confirmed by Beijing, Washington and Moscow · agenda not officially disclosed; no agreement expected",
+   "data": "2026-11-16",
+   "texto": [
+    "China's Foreign Ministry confirmed this Monday, 16 November, that Chinese President Xi Jinping will meet US President Donald Trump and Russian President Vladimir Putin on Thursday 19 November in Shenzhen, in southern China, on the sidelines of the APEC (Asia-Pacific Economic Cooperation) summit, which takes place on 18 and 19 November. It will be the first three-way meeting of the leaders of the three biggest nuclear powers. The White House had announced the meeting on Friday and the Kremlin confirmed the date on Saturday; Beijing was the only capital that had not yet done so.",
+    "The Chinese statement does not say what will be discussed. On the US side, the White House says Trump mainly wants to talk about reducing nuclear arsenals — the New START treaty, which limited US and Russian strategic weapons, expired in February, and Trump wants a new agreement that includes China. Beijing has said it is not “fair, reasonable or realistic” to ask it to join those negotiations and that the US and Russia must first reduce their own arsenals. According to US officials cited by AFP, Trump will also talk about the war with Iran, but not about the war in Ukraine; a senior administration official said they did not expect “any kind of agreement”.",
+    "Before the three-way meeting, Trump is expected to hold a bilateral meeting and a working lunch with Xi on Thursday, according to TRT. A separate meeting between Trump and Putin has not been agreed, said Kremlin adviser Yuri Ushakov. Kremlin spokesman Dmitry Peskov called the meeting “extremely significant”, but warned that whatever is agreed cannot be imposed on other countries; Russian MP Pyotr Tolstoy went as far as speaking of a “new Yalta”, a reference to the 1945 conference that divided post-war Europe. German President Frank-Walter Steinmeier told the broadcaster ARD that Xi had told him the war in Ukraine is “a European conflict” in which Europeans must also have a seat at the table."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "China's confirmation on 16 Nov and the date of 19 Nov confirmed by AFP (via ARY News) and TRT World; the Kremlin's confirmation and the date by Anadolu; the White House announcement and nuclear agenda by Al Jazeera and TRT. That Trump will talk about Iran and not Ukraine is based on US officials cited by AFP and Al Jazeera. The Trump–Xi bilateral meeting and lunch appear only in TRT. Times of the meeting not disclosed. It was not possible to open CNBC, CNN or the Japan Times."
+   },
+   "fontes": [
+    {
+     "nome": "AFP via ARY News (16 Nov)",
+     "url": "https://arynews.tv/china-confirms-first-xi-trump-putin-summit-thursday"
+    },
+    {
+     "nome": "TRT World (16 Nov)",
+     "url": "https://www.trtworld.com/article/df5f8ca3ecf9"
+    },
+    {
+     "nome": "Anadolu – Kremlin confirms date (14 Nov)",
+     "url": "https://www.aa.com.tr/en/eurasia/kremlin-says-putin-xi-trump-to-hold-trilateral-meeting-in-shenzhen-on-nov-19/4125290"
+    },
+    {
+     "nome": "Al Jazeera – what to expect (14 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
+    },
+    {
+     "nome": "CNBC (16 Nov, headline only)",
+     "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
+    }
+   ],
+   "imagem": {
+    "commons": "President Donald Trump greets Chinese President Xi Jinping before a bilateral meeting at the Gimhae International Airport terminal (54890669668).jpg",
+    "tipo": "arquivo",
+    "alt": "Donald Trump greets Xi Jinping before a bilateral meeting at Gimhae airport in South Korea",
+    "legenda": "Trump greets Xi before the Busan meeting in South Korea in October 2025 (archive image; it does not show the Shenzhen summit)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Iran attacks Bahrain with drones again and says tankers sank after hitting mines in Hormuz; US gathers three aircraft carriers in the Middle East",
+   "estado": "Attack intercepted, according to Bahrain · tanker sinking is an unverified Iranian claim · aircraft carrier confirmed by anonymous source",
+   "data": "2026-11-15",
+   "texto": [
+    "Iran launched a new drone attack on Bahrain on Sunday 15 November, the second in three days and the first to set off emergency alerts in the country in months. Iran's Revolutionary Guard said it had fired six drones at a US air defence radar at the Riffa helicopter base and claimed a “precise and successful impact”; Bahrain says it intercepted and destroyed the drones before they reached their targets. On the same day, the aircraft carrier USS Theodore Roosevelt entered the US Central Command area, according to a US official cited by The National and Axios — the first time since 2003 that the US has had three carrier groups in the Middle East.",
+    "The Gulf Cooperation Council called the attack a “flagrant challenge” to peace efforts, the Emirates spoke of a “flagrant violation” of Bahrain's sovereignty and Qatar, one of the mediators between Washington and Tehran, of a “dangerous escalation”. On the Iranian side, the speaker of parliament and negotiator Mohammad Bagher Ghalibaf said the path to ending the conflict is open if the US accepts Iran's “logical conditions”, but that Tehran will not remain in a state of “neither war nor peace”. Foreign Minister Abbas Araghchi is expected in Muscat, Oman, on Tuesday 17 November.",
+    "In the Strait of Hormuz, where shipping remains greatly reduced, the Revolutionary Guard navy claimed that two tankers using an unauthorised route hit mines on Sunday and that one of them, a supertanker carrying more than two million barrels, sank; Iranian state television said this Monday that two more ships had been hit. None of these claims has been independently confirmed. Brent crude remained close to $96 a barrel on Monday morning. Meanwhile, the Saudi-led coalition says it intercepted two ballistic missiles aimed at Riyadh and several drones over the weekend, some over the Mecca and Medina regions, attributed to Yemen's Houthis, allies of Tehran; the Houthis deny targeting Mecca."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Attack on Bahrain, the Revolutionary Guard's claim and Bahrain's version confirmed by The National, Bloomberg (via Rigzone) and CBS News. Arrival of the Theodore Roosevelt: The National cites a US official; Bloomberg cites the New York Times and an Axios journalist; the Pentagon and CENTCOM have not officially confirmed. Tankers hit by mines and the sinking: Iranian claims only (IRIB, state television), with no independent verification; the total number of ships varies between sources. Saudi interceptions confirmed by Al Jazeera and Anadolu (numbers differ); the Houthi denial of targeting Mecca by Reuters (via GMA, 12 Nov)."
+   },
+   "fontes": [
+    {
+     "nome": "The National – attack on Bahrain (15–16 Nov)",
+     "url": "https://www.thenationalnews.com/news/gulf/2026/11/16/iran-attacks-bahrain-in-blatant-challenge-to-peace-push/"
+    },
+    {
+     "nome": "Bloomberg via Rigzone (16 Nov)",
+     "url": "https://www.rigzone.com/news/iran_says_door_to_peace_open_despite_striking_bahrain-16-nov-2026-185086-article"
+    },
+    {
+     "nome": "The National – USS Theodore Roosevelt (16 Nov)",
+     "url": "https://www.thenationalnews.com/news/us/2026/11/16/uss-theodore-roosevelt-middle-east-centcom/"
+    },
+    {
+     "nome": "CBS News – live updates (15 Nov)",
+     "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-nuclear-material-no-deal/"
+    },
+    {
+     "nome": "Al Jazeera – Saudi interceptions (15 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh"
+    },
+    {
+     "nome": "Anadolu – morning briefing (16 Nov)",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    }
+   ],
+   "imagem": {
+    "commons": "USS Theodore Roosevelt (CVN-71) underway the Pacific Ocean on 30 April 2017.JPG",
+    "tipo": "arquivo",
+    "alt": "The US aircraft carrier USS Theodore Roosevelt sailing in open sea",
+    "legenda": "The aircraft carrier USS Theodore Roosevelt in the Pacific Ocean in 2017 (archive image; it does not show its arrival in the Middle East)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Estonia to close all border crossings with Russia on 1 December, after an attempted sabotage at a drone factory",
+   "estado": "Decision announced by the Estonian Foreign Ministry · closure planned for 1 December, with no end date; Russia denies involvement",
+   "data": "2026-11-15",
+   "texto": [
+    "Estonia will close all its border crossings with Russia from 1 December, Foreign Minister Margus Tsahkna announced on Sunday 15 November. The decision follows a failed attempt on 14 November to set fire to the premises of Threod Systems, an Estonian drone manufacturer, in Viimsi, near Tallinn. Estonia's internal security services say the attack was ordered by Russian military intelligence, the GRU. “Russia must understand that hostile actions against Estonia have consequences,” Tsahkna wrote on the social network X.",
+    "According to the Prosecutor General, Astrid Asi, cited by AFP, eight people living in Latvia have been detained; criminal proceedings have been opened. Prime Minister Kristen Michal said tighter security and a rapid response prevented extensive damage and framed the case as part of a Russian “hybrid” campaign to weaken European support for Ukraine. The Estonian authorities had already attributed a fire at the defence company Milrem Robotics in August to the Russian intelligence services.",
+    "Three crossings are currently open — Narva, Luhamaa and Koidula — and the government has not said how long they will remain closed. Finland, Latvia and Lithuania have been informed. Russia rejects the accusations: Russian foreign ministry spokeswoman Maria Zakharova, cited by Reuters, called the measure “another round of aggressive and unbridled Russophobia”."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Announcement, the 1 December date, the target (Threod Systems) and attribution to the GRU confirmed by Anadolu and The Copenhagen Post (Ritzau agency, citing AFP and Reuters). The detention of eight people living in Latvia and Zakharova's reaction appear only in The Copenhagen Post, which attributes them to AFP and Reuters. France 24 and the Helsinki Times could not be opened (headline only seen). It was not stated whether there will be exceptions (for example, humanitarian ones)."
+   },
+   "fontes": [
+    {
+     "nome": "Anadolu (15 Nov)",
+     "url": "https://www.aa.com.tr/en/europe/estonia-to-close-all-border-crossings-with-russia-from-dec-1-foreign-minister/4125957"
+    },
+    {
+     "nome": "The Copenhagen Post / Ritzau (16 Nov)",
+     "url": "https://cphpost.dk/2026-11-16/global/estonia-to-close-russian-border-after-alleged-sabotage-attack/"
+    },
+    {
+     "nome": "France 24 (15 Nov, headline only)",
+     "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory"
+    }
+   ],
+   "imagem": {
+    "commons": "Narva asv2022-04 img22 Friendship Bridge.jpg",
+    "tipo": "ilustrativa",
+    "alt": "The Friendship Bridge over the Narva River, linking Estonia and Russia",
+    "legenda": "The Friendship Bridge in Narva, one of the crossings between Estonia and Russia (illustrative image from 2022; it does not show the closure)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "First winter storm floods camps in Gaza; UK, Canada, Australia and Italy urge Israel to let in 150,000 tents",
+   "estado": "Joint statement by four governments · Israel has not responded publicly, according to the sources consulted",
+   "data": "2026-11-15",
+   "texto": [
+    "The foreign ministers of the United Kingdom, Canada, Australia and Italy called on Israel, in a joint statement released on Sunday 15 November, to “stop the delays now” and let into Gaza around 150,000 tents and other essential goods that, they say, are being held at the border. The appeal comes after the first winter storm flooded makeshift camps for displaced people; according to the UN humanitarian office (OCHA), cited by TRT, the floods affected more than 200,000 Palestinians.",
+    "The four governments call for “immediate, rapid and unimpeded” humanitarian access throughout the territory and for approval of “dual-use” materials — civilian goods that Israel considers could have a military use — needed for aid and recovery. They describe the situation as “entirely reversible”, but warn that this was “only the first storm of winter”, and call on all parties to respect the ceasefire and implement the international plan for Gaza.",
+    "The World Health Organization estimates that around 950,000 displaced people live in flood-prone areas. The appeal adds to that of 53 countries and organisations which, on Thursday at the UN, had already called for shelter, fuel and medical supplies to be let in before winter. At the time this edition went to press, the sources consulted recorded no public response from Israel."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Joint statement, 150,000 tents and quotes confirmed by Reuters (via Arab News) and TRT World. The figures for the floods (200,000 affected, according to OCHA) and for displaced people in flood-prone areas (950,000, according to the WHO) appear only in TRT. It was not possible to independently confirm how many tents are actually being held, or to obtain Israel's position (COGAT)."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via Arab News (15–16 Nov)",
+     "url": "https://www.arabnews.pk/world/australia-canada-italy-and-britain-urge-israel-to-let-aid-into-gaza-after-flooding-3007123"
+    },
+    {
+     "nome": "TRT World (15 Nov)",
+     "url": "https://www.trtworld.com/article/baa5d1b389b6"
+    },
+    {
+     "nome": "Anadolu – morning briefing (16 Nov)",
+     "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-16-2026/4126094"
+    }
+   ],
+   "imagem": {
+    "commons": "An aerial view of Al-Mawasi area where displaced Palestinians live in tents, Gaza Strip.jpg",
+    "tipo": "arquivo",
+    "alt": "Aerial view of a vast camp of tents for displaced Palestinians in Al-Mawasi, in the Gaza Strip",
+    "legenda": "Camp for displaced people in Al-Mawasi, southern Gaza (archive image; it does not show this weekend's floods)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "After the biggest housing protest, the protest camp returns to Lisbon: around 40 tents in Restauradores until Saturday",
+   "estado": "Protest held · 60,000 is the organisers' estimate; camp agreed until 21 Nov; new protest called for 12 Dec",
+   "data": "2026-11-15",
+   "texto": [
+    "On Saturday night into Sunday, hours after housing demonstrations held in 32 cities, the Acampada de Lisboa (Lisbon protest camp) movement pitched around 40 tents in Praça dos Restauradores, at the bottom of Avenida da Liberdade. At a plenary meeting on Sunday 15 November, delegates decided to stay there at least until Saturday 21 November, when they will join the demonstration by the CGTP, Portugal's largest trade union confederation, outside the Assembleia da República, Portugal's parliament. In Lisbon, the spokeswoman for the Casa Para Viver (A Home to Live In) platform, Rita Silva, estimated around 60,000 participants on Saturday and spoke of the biggest demonstration ever in the city; no official estimates were released.",
+    "The new site was chosen after Rossio, where the movement had been camped for more than three weeks, was handed over to the traditional Christmas market; according to RTP, the public broadcaster, the square had been suggested by the city council. Setting up began at around 23:40 and took place without police intervention: the PSP, the public security police, which said it had not been notified, stated on Sunday that it would monitor the situation “closely and preventively”. The activists say they will decide every night whether to stay over, depending on the weather and how many people are available, and DN also mentions a rally outside parliament on 24 November, the day of the final vote on the Budget.",
+    "In Porto, the march set off from Praça do Marquês and ended in Praça D. João I, where the camp began on 10 October; there were also marches in other cities, from Faro to Bragança and on the islands. Casa Para Viver, which demands the repeal of the new rent law and more regulation of rents, evictions, empty homes and short-term holiday lets, has already called a new national protest for 12 December.",
+    "Reactions are divided. Foreign Minister Paulo Rangel said there had been no “big demonstrations” on housing, a remark that José Manuel Pureza of the Left Bloc (BE) called ridiculous; the BE is counting on a presidential veto of the rental reform if the government does not back down. The secretary-general of the PS (Socialist Party), José Luís Carneiro, expressed solidarity with the demonstrators, and Mariana Leitão (Liberal Initiative, IL) argued that housing is solved in parliament and not on the streets. The revision of the rent law is still being discussed at committee stage, and President Seguro has not committed to a veto."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Tents in Restauradores, the plenary meeting and staying until Saturday confirmed by RTP/Lusa, ECO/Lusa and DN (the number of tents, around 40, by RTP and DN). The 60,000 estimate comes from the Casa Para Viver spokeswoman (RTP); there are no official figures. List of the 32 cities and the 12 December date from Diário do Distrito and Renascença (headline). Rally outside parliament on 24 Nov mentioned only by DN. Party reactions and the council's suggestion only from RTP. The Público website could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "RTP/Lusa (15 Nov)",
+     "url": "https://www.rtp.pt/noticias/economia/habitacao-manifestantes-montam-tendas-nos-restauradores_e1779157"
+    },
+    {
+     "nome": "DN (15 Nov)",
+     "url": "https://www.dn.pt/sociedade/acampada-pela-habitao-passa-a-noite-nos-restauradores-apesar-da-chuva"
+    },
+    {
+     "nome": "ECO/Lusa (15 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/15/acampada-de-lisboa-decide-manter-tendas-na-praca-dos-restauradores-ate-sabado/"
+    },
+    {
+     "nome": "Diário do Distrito (15 Nov)",
+     "url": "https://diariodistrito.sapo.pt/protestos-pela-habitacao-chegaram-a-32-cidades-a-casa-para-viver-ja-anunciou-o-proximo-passo/"
+    },
+    {
+     "nome": "Renascença (14 Nov) (headline only)",
+     "url": "https://rr.pt/noticia/pais/2026/11/14/habitacao-casa-para-viver-marca-nova-manifestacao-para-12-de-dezembro/493610/"
+    }
+   ],
+   "imagem": {
+    "commons": "Restauradores Square Lisbon (13991523924).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Praça dos Restauradores in Lisbon",
+    "legenda": "Praça dos Restauradores in Lisbon, where the Acampada pitched tents on the night of 14 to 15 November (illustrative image; it does not show the protest)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Budget enters voting week: Chega promises to let through proposals to cut housing and fuel costs, including those of the Socialists",
+   "estado": "Statement by Ventura · committee-stage votes from 18 to 23 Nov; final overall vote scheduled for 24 Nov",
+   "data": "2026-11-15",
+   "texto": [
+    "The leader of Chega, the radical right party, André Ventura, said on Sunday 15 November at the Golegã horse fair that the party will let through, at the committee stage of the 2027 State Budget (OE2027), all “budgetarily feasible” proposals that reduce housing costs and those that cut VAT or the tax on fuel, including those from the PS (Socialist Party). Voting on the amendments begins on Wednesday 18 November, and the final overall vote on the Budget is scheduled for Tuesday 24 November.",
+    "The PS proposal, submitted on 6 November, cuts the tax on petroleum products (ISP) on petrol and diesel between January and March 2027 — equivalent, according to the Socialists, to lowering VAT on fuel from 23% to 13% — and provides for zero VAT on essential foods in the same quarter. To compensate, the same provision suspends the cut in IRC (corporate income tax) in 2027, a cut that Chega supported. Finance Minister Joaquim Miranda Sarmento said on 9 November that the PS proposals would turn a surplus of around €250 million into a deficit; the PS rejects that calculation.",
+    "Ventura accused Luís Montenegro's government of not giving “a single sign” on Chega's proposals, such as an IRS (personal income tax) deduction for mortgages or a guarantee for young people looking for a home. According to ZAP, the PS and Chega together have 118 of the 230 MPs, enough to approve measures without the PSD and the CDS, the governing parties. The OE2027 was approved in principle on 28 October, with the PS abstaining, and the parties submitted more than 2,800 amendments."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ventura's statements at Golegã confirmed by ECO/Lusa and RTP. Details of the PS proposal, the minister's estimate, the voting timetable (18, 19, 20 and 23 Nov) and the parliamentary arithmetic only from ZAP; the 18–20 Nov timetable matches the title of a parliament page (not opened) and the final vote on 24 Nov matches Observador (23 Sept). It was not possible to confirm whether Chega accepts suspending the IRC cut. Number of proposals from the headlines of Observador and DN."
+   },
+   "fontes": [
+    {
+     "nome": "ECO/Lusa (15 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/15/ventura-viabilizara-todas-as-propostas-cabiveis-para-menos-custos-com-habitacao-e-combustiveis/"
+    },
+    {
+     "nome": "RTP (15 Nov)",
+     "url": "https://rtp.pt/noticias/economia/orcamento-do-estado-chega-vai-aprovar-medidas-do-ps-de-descida-de-iva_v1779340"
+    },
+    {
+     "nome": "ZAP (15–16 Nov)",
+     "url": "https://zap.aeiou.pt/chega-promete-juntar-se-ao-ps-para-viabilizar-medidas-no-oe-preco-travar-descida-do-irc-775315"
+    },
+    {
+     "nome": "Observador – OE2027 timetable (23 Sept)",
+     "url": "https://observador.pt/2026/09/23/orcamento-do-estado-para-2027-com-votacao-final-prevista-para-24-de-novembro/"
+    },
+    {
+     "nome": "Parliament – committee-stage debate and vote, 18–20 Nov (headline only)",
+     "url": "https://www.parlamento.pt/Paginas/2026/novembro/OE2027_debate-votacao-especialidade_18-20_novembro.aspx"
+    },
+    {
+     "nome": "Observador – more than 2,800 proposals (7 Nov) (headline only)",
+     "url": "https://observador.pt/2026/11/07/orcamento-de-estado-de-2027-partidos-entregaram-mais-de-2-800-propostas-de-alteracao/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Denmark thrash Portugal in Braga (1-4) on the night of Ronaldo's tribute; Portugal need a draw in Cardiff to finish first",
+   "estado": "Confirmed fact · Saturday's result; match against Wales scheduled for Tuesday, 19:45 Lisbon time",
+   "data": "2026-11-14",
+   "texto": [
+    "Portugal's national team lost 1-4 to Denmark on Saturday 14 November at the Estádio Municipal de Braga in the Nations League — their worst ever home defeat in competitive matches and the first under Jorge Jesus as head coach. It was the first match since Cristiano Ronaldo's retirement from the national team, marked with a tribute that ended up overshadowed by the result. Portugal, already through to the quarter-finals, remain top of the group and will secure that place with a draw on Tuesday 17 November against Wales in Cardiff (19:45 Lisbon time, on RTP1).",
+    "Pierre-Emile Højbjerg opened the scoring from the penalty spot in the 43rd minute, after a video assistant referee review; Rasmus Højlund scored twice (50' and 57') and Joachim Andersen headed in the fourth in the 75th minute. Bernardo Silva, who came on in the 78th minute, pulled one back in stoppage time. Portugal had not conceded four goals in a competitive match since the 2-4 against Germany at Euro 2020, and had not conceded four at home since the 4-4 against Cyprus in 2010. In the first leg, in Copenhagen, Portugal had won 4-2.",
+    "Portugal have 12 points, three more than Denmark; Norway, who beat Wales 3-1, have six and Wales three. Because Portugal lost the head-to-head with the Danes, a defeat in Cardiff combined with a Danish win over Norway would cost them first place and seeded status in the quarter-finals, scheduled for March 2027. Jesus will be without Rúben Dias and João Palhinha, who are suspended, and Bernardo Silva, who is injured: all three were released from the squad and the team travelled to Wales on Sunday with 24 players."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Result, scorers and standings confirmed by DN and Observador (Observador puts Andersen's goal in the 76th minute and from a free kick; DN in the 75th after a corner). Record for worst home defeat in competitive matches from DN and 24noticias. Players released from DN and 24noticias. Time and stadium of Tuesday's match from 24noticias and DN. March 2027 for the quarter-finals from RTP. DN wrongly gives Sunday as the day of the match; it was played on Saturday (DN, Diário do Minho, Observador)."
+   },
+   "fontes": [
+    {
+     "nome": "DN (14 Nov)",
+     "url": "https://www.dn.pt/desporto/portugal-goleado-em-braga-pela-dinamarca-no-arranque-da-era-ps-ronaldo"
+    },
+    {
+     "nome": "Observador – liveblog (14 Nov)",
+     "url": "https://observador.pt/liveblogs/portugal-dinamarca-alberto-costa-faz-a-primeira-internacionalizacao-como-titular/"
+    },
+    {
+     "nome": "DN – players released and records (15 Nov)",
+     "url": "https://www.dn.pt/desporto/trs-dispensados-depois-da-derrota-histria-da-seleo-nacional-foi-o-pior-resultado-de-sempre-em-casa"
+    },
+    {
+     "nome": "24noticias (15 Nov)",
+     "url": "https://24noticias.sapo.pt/desporto/artigos/apos-derrota-em-braga-selecao-prepara-jogo-contra-o-pais-de-gales"
+    },
+    {
+     "nome": "RTP – Nations League",
+     "url": "https://www.rtp.pt/noticias/ligadasnacoes/noticias"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "A week of rain on the mainland: up to 150 mm in Minho and Douro Litoral, yellow warning in the North tonight and possible snow on Serra da Estrela",
+   "estado": "IPMA forecast · yellow warnings in force; rainfall totals and snow are forecasts and may change",
+   "data": "2026-11-16",
+   "texto": [
+    "IPMA (Instituto Português do Mar e da Atmosfera), Portugal's weather service, forecasts a rainy week in mainland Portugal from 16 to 22 November, with rainfall totals that could reach 150 millimetres in Minho and Douro Litoral and possible snow on Serra da Estrela, the mainland's highest mountain range, at the end of the week. The districts of Porto, Braga and Viana do Castelo are under a yellow warning for persistent and at times heavy rain, especially in the mountains, from 21:00 this Monday to 06:00 on Tuesday, Lisbon time.",
+    "On Sunday, IPMA brought forward from 06:00 to 03:00 the yellow warning in six districts — Viseu, Porto, Vila Real, Viana do Castelo, Aveiro and Braga — which remained in force until 15:00. On Wednesday 18 November, the northern coast is expected to be under a yellow warning for rough seas from 03:00 to 19:00, with north-westerly waves of 4 to 5 metres. The yellow warning is the first of three levels and indicates risk for weather-dependent activities.",
+    "Temperatures remain mild for the time of year in the North: in Porto, forecasts point to 15 to 19 °C today and 16 to 18 °C on Tuesday. Warnings may be updated over the coming days; official information is at ipma.pt."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Sunday's and Monday night's warnings confirmed by Lusa (Notícias ao Minuto) and JornalOnline, which cites IPMA; Público's headline matches. The weekly forecast (150 mm, snow on Serra da Estrela) and Wednesday's rough-sea warning each come from a single source (Lusa and JornalOnline, respectively). IPMA's warnings page was not consulted directly."
+   },
+   "fontes": [
+    {
+     "nome": "Notícias ao Minuto/Lusa (15 Nov)",
+     "url": "https://www.noticiasaominuto.com/pais/3084350/ipma-antecipa-aviso-amarelo-em-seis-distritos-devido-a-chuva-forte"
+    },
+    {
+     "nome": "JornalOnline – weather for 16 Nov",
+     "url": "https://jornalonline.pt/meteorologia-segunda-feira-16-de-novembro-de-2026/"
+    },
+    {
+     "nome": "Público (15 Nov) (headline only)",
+     "url": "https://www.publico.pt/2026/11/15/sociedade/noticia/mau-tempo-ipma-antecipa-aviso-amarelo-seis-distritos-devido-chuva-forte-2195022"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Vulcan rocket fails on its return to flight and loses Amazon's 40 internet satellites; it is ULA's first total failure",
+   "estado": "Failure confirmed by ULA · cause unknown, investigation starting · Amazon keeps its confidence in Vulcan",
+   "data": "2026-11-15",
+   "texto": [
+    "The Vulcan rocket, built by United Launch Alliance (ULA, the joint venture of Boeing and Lockheed Martin), failed yesterday, Sunday 15 November, on the flight marking its return to service, and the 40 internet satellites of the Amazon Leo constellation it was carrying did not reach orbit. The launch took place at 17:40 Lisbon time from Cape Canaveral, Florida; around ten minutes later, with the Centaur upper stage already firing, the vehicle suffered an anomaly. It is ULA's first complete failure since the company was created in 2006, and the payload was the largest it had ever carried.",
+    "ULA announced the loss around 50 minutes after lift-off, admitting that it did not yet have the data to understand what had happened and promising to find the cause, fix it and fly again as soon as possible. The first part of the flight appeared normal: the six solid-fuel side boosters, made by Northrop Grumman — the ones that failed in February and grounded Vulcan for nine months — separated as planned, according to preliminary data from the manufacturer. CBS News noted, however, that the first stage burned for longer than planned and that the telemetry-based animation showed unusual changes in the Centaur's orientation, although this has not been confirmed as the cause. The launch had already been postponed on Friday, because of a fault at a nitrogen plant, and on Saturday, because of a communication problem between the ground and the rocket, and there was also a hold 20 seconds before the end of the countdown.",
+    "Amazon, for which this flight was the first of 38 launches bought on Vulcan, pointed out that all launches carry risks, especially the first ones, and said it still has confidence in ULA. NASA Administrator Jared Isaacman offered help with the investigation, noting that the agency and the Artemis programme need ULA. The constellation, a rival to Starlink, had around 400 satellites in orbit out of more than 3,200 planned. The next Amazon Leo launch falls to Europe: an Ariane 6 with 36 satellites, from Kourou in French Guiana, is scheduled for no earlier than 23 November."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Launch time (12:40 EST = 17:40 Lisbon time), the anomaly at around 10 minutes, ULA's statement and the loss of the mission confirmed by Space.com, Via Satellite and CBS News (15 Nov). Statements by Amazon and Northrop Grumman only from Via Satellite; the abnormal duration of the first stage burn, the Centaur's orientation, the hold at T-20 s, Isaacman's offer and the “first failure since 2006” only from CBS News (which also says ULA acknowledged problems “during the Centaur ignition”). Number of satellites in orbit (around 400) from Space.com; CBS says this flight would have brought it to 436. Ariane 6 on 23 Nov according to Amazon's page (updated on 14 Nov). The cause has not been disclosed; it was not possible to confirm whether the FAA or the Space Force have opened an investigation or where the debris fell. The image's Commons page could not be opened (the file «Peregrine launch.jpg» appears twice in Commons search results)."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (15 Nov)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch"
+    },
+    {
+     "nome": "Via Satellite (15 Nov)",
+     "url": "https://www.satellitetoday.com/launch/2026/11/15/ula-set-to-return-vulcan-to-flight-in-first-amazon-leo-launch/"
+    },
+    {
+     "nome": "CBS News (15 Nov)",
+     "url": "https://www.cbsnews.com/news/vulcan-rocket-40-amazon-leo-internet-satellites-launch-mishap/"
+    },
+    {
+     "nome": "Amazon – About Amazon (updated 14 Nov)",
+     "url": "https://www.aboutamazon.com/news/amazon-leo/amazon-leo-vulcan-satellites-launch"
+    }
+   ],
+   "imagem": {
+    "commons": "Peregrine launch.jpg",
+    "tipo": "arquivo",
+    "alt": "Vulcan Centaur rocket lifting off from Cape Canaveral",
+    "legenda": "Vulcan on its maiden flight, carrying the Peregrine lunar lander, in January 2024 (archive image; it does not show Sunday's failed launch)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Starship: Musk blames loss of booster on fuel shortfall and says the timetable is unchanged; next flight should reuse both stages",
+   "estado": "Preliminary explanation by Musk, no official report · date of flight 16 yet to be announced",
+   "data": "2026-11-15",
+   "texto": [
+    "After catching a Starship ship returning from orbit with the tower for the first time on Saturday, SpaceX began explaining the other half of flight 15: the Super Heavy booster lost in the Gulf of Mexico on Friday. According to Space.com, the aborted catch was triggered by a low-fuel alarm; Elon Musk wrote on X that the booster was “slightly” short of fuel because the engines performed below expectations, and that this does not change the company's timetable.",
+    "According to Tech Times, Musk points to version 3.2 of the Raptor engines and a software change that shuts the engines down about a second earlier, saving more fuel for the return — at the cost of some speed at stage separation — as the fixes. SpaceX's explanations have shifted: commentator Dan Huot first spoke of a guidance, navigation and control problem and, the next day, ruled out that hypothesis. The company has not yet published a report and has not said whether the US aviation authority, the FAA, will require an investigation.",
+    "On the positive side, ship 42 was caught by the tower's arms at Starbase, Texas, at around 21:20 Lisbon time on Saturday, after 14 orbits of the Earth, and images taken by Starlink satellites showed the heat shield in good condition. SpaceX wants the double catch to become routine and had already said that flight 16 will try to reuse a booster and a ship, but there is no date. The next big test is in-orbit propellant transfer, essential for the version of Starship that is due to take astronauts to the Moon in NASA's Artemis programme."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ship catch on 14 Nov (around 16:20 ET = 21:20 Lisbon time), 14 orbits and the low-fuel alarm on the booster confirmed by Space.com (Mike Wall, 15 Nov) and Tech Times (15 Nov). Musk's statements on X (fuel, Raptor 3.2, cut-off a second earlier, unchanged timetable), Dan Huot's change of explanation, the state of the heat shield and the reuse plan for flight 16 come from Tech Times, which cites SpaceX, X and other media; it was not possible to see Musk's post directly. There is no official report or known FAA decision; flight 16 has no date."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com (15 Nov)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch"
+    },
+    {
+     "nome": "Tech Times (15 Nov)",
+     "url": "https://www.techtimes.com/articles/330764/20261115/spacex-starship-tower-catch-succeeds-after-14-orbits-booster-lost-fuel-shortfall.htm"
+    },
+    {
+     "nome": "Spaceflight Now – «Starship returns to Starbase and a successful tower catch» (headline only)",
+     "url": "https://spaceflightnow.com/2026/"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«You Can See Everything»: Nathan Fielder and Lance Oppenheim film Elizabeth Holmes before prison — an acclaimed documentary that distrusts itself",
+   "ficha": {
+    "Original title": "You Can See Everything (2026, USA)",
+    "Directors": "Nathan Fielder and Lance Oppenheim",
+    "Featuring": "Elizabeth Holmes, Nathan Fielder, Billy Evans",
+    "Release in Portugal": "12 November 2026 (documentary; M/12, ages 12+; 174 minutes; distributed by Cinemundo), in 41 cinemas across the country, according to filmSPOT",
+    "Rating": "Almost unanimous acclaim: Metascore of 97 (43 reviews, only one mixed), A- from the A.V. Club; reservations from Time (60/100), The Playlist and Next Best Picture"
+   },
+   "texto": [
+    "«You Can See Everything» has been in Portuguese cinemas since Thursday 12 November: the documentary in which Canadian comedian Nathan Fielder (of the series «Nathan For You» and «The Rehearsal») and director Lance Oppenheim follow Elizabeth Holmes, founder of Theranos — the company that promised to run dozens of clinical tests with a few drops of blood and whose technology did not work as advertised. Convicted of fraud in 2022 and sentenced to around 11 years in prison, Holmes invited a small crew to film the 34 days before she went to prison; the project ended up lasting three years and became something else. Almost three hours long, it premiered at a surprise screening at the Telluride festival and is showing in 41 cinemas, from the Trindade in Porto to the Ideal and the Nimas in Lisbon and the Forum Madeira in Funchal.",
+    "This assessment is based on the reviews consulted, not on our own viewing. The dominant praise is that the film rethinks what a documentary can be: Monica Castillo, in the A.V. Club, speaks of an “impressive reassessment” of the genre, and Nick Newman, in The Film Stage, compares the experience to the cinema of Iranian director Abbas Kiarostami. Critics highlight Fielder's method — deadpan questions, staged reconstructions of scenes that could not be filmed — and Oppenheim's visual style, built on close-ups that give domestic scenes a strange air. Sonny Bunch, in The Bulwark, finds it “strangely fascinating” because it forces viewers to doubt everything they see, including the film itself.",
+    "There are reservations, even if they are in the minority. Gregory Ellwood, in The Playlist, finds the directors somewhat self-indulgent and the length hard to justify, although the second half makes up for it; J. Don Birnam, in Next Best Picture, thinks the film sometimes stumbles under the weight of its own ambition. Newman admits he does not know whether he was won over or manipulated and questions how much of what is seen was shaped in the edit, and Bunch warns that many viewers will be frustrated by the lack of easy answers. Stephanie Zacharek, in Time, is one of the coolest voices (60 out of 100, according to Metacritic).",
+    "On balance, «You Can See Everything» looks set to be one of the most talked-about documentaries of the year and an unusual experience, more interested in asking what is true in front of a camera than in retelling the Theranos scandal. Those who know Fielder's uncomfortable humour will find here his most ambitious work; those looking for a classic investigation with clear answers, or who have little patience for long films, may prefer to know what they are getting into. The M/12 rating and wide release make it easy to find."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – details and cinemas for «You Can See Everything»",
+     "url": "https://filmspot.pt/filme/you-can-see-everything-1765072/"
+    },
+    {
+     "nome": "filmSPOT – this week's releases (12 Nov)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-12-de-novembro-2026-15097/"
+    },
+    {
+     "nome": "iNews – six films arrive in Portuguese cinemas this week (11 Nov)",
+     "url": "https://ineews.eu/new/2026/11/11/do-terror-na-amazonia-a-nova-versao-de-dickens-seis-filmes-chegam-as-salas-portuguesas-esta-semana/"
+    },
+    {
+     "nome": "A.V. Club – review by Monica Castillo (7 Oct)",
+     "url": "https://www.avclub.com/you-can-see-everything-review-nathan-fielder-elizabeth-holmes-documentary-lance-oppenheim"
+    },
+    {
+     "nome": "The Film Stage – review by Nick Newman (13 Oct)",
+     "url": "https://thefilmstage.com/you-can-see-everything-review-nathan-fielder-and-lance-oppenheims-extraordinary-troubling-documentary-evokes-the-spirit-of-kiarostami/"
+    },
+    {
+     "nome": "The Bulwark – review by Sonny Bunch (13 Oct)",
+     "url": "https://www.thebulwark.com/p/you-can-see-everything-review"
+    },
+    {
+     "nome": "Rotten Tomatoes – first reviews (11 Sept)",
+     "url": "https://editorial.rottentomatoes.com/article/you-can-see-everything-first-reviews/"
+    },
+    {
+     "nome": "Metacritic – review summary",
+     "url": "https://www.metacritic.com/movie/you-can-see-everything/"
+    }
+   ],
+   "nota": "The screenings in Portugal were confirmed by the filmSPOT listing (release on 12 Nov, M/12, 174 min, distributed by Cinemundo, 41 cinemas, including Trindade, Ideal, Nimas and Forum Madeira) and by the release articles from filmSPOT and iNews; specific screening times were not consulted. The opinions of Ellwood (The Playlist) and Birnam (Next Best Picture) and the Telluride premiere come from the Rotten Tomatoes summary; Time's score comes only from Metacritic. The Slant and Deadline reviews could not be opened. Holmes's sentence (11 years, according to filmSPOT) and the description of Theranos come from the filmSPOT synopsis; Fielder's earlier series are mentioned by the A.V. Club. The image's Commons page could not be opened (the file appears in Commons search results).",
+   "imagem": {
+    "commons": "Nathan Fielder.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Portrait of the Canadian comedian and director Nathan Fielder",
+    "legenda": "Nathan Fielder, co-director of the documentary (illustrative image; not a still from the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Shigeru Miyamoto, the father of Mario and Zelda, turns 74 today — and has just become the first video game creator to receive Japan's highest cultural honour",
+   "ficha": {
+    "Born": "16 November 1952, in Sonobe, Kyoto Prefecture (Japan)",
+    "Field": "Video games (game and character design, production)",
+    "Key works": "«Donkey Kong» (1981), «Super Mario Bros.» (1985), «The Legend of Zelda» (1986), «Super Mario 64» (1996), «The Legend of Zelda: Ocarina of Time» (1998), «Pikmin» (2001), «Wii Fit» (2007)",
+    "Why now": "Anniversary: 74 years old on 16 November 2026; awarded Japan's Order of Culture, with the presentation announced for 3 November"
+   },
+   "texto": [
+    "Shigeru Miyamoto, the Japanese designer who invented Mario, Donkey Kong and The Legend of Zelda and whom many consider the father of the modern video game, turns 74 today, Monday 16 November. The birthday comes weeks after an unprecedented honour: in October it was announced that Miyamoto would be the first video game creator to receive the Order of Culture, Japan's highest cultural honour, created in 1937, with the presentation by Emperor Naruhito scheduled for 3 November, Culture Day in Japan. “These achievements were not the work of one person,” he said, dedicating the award to those who have worked with him.",
+    "Miyamoto grew up in a rural village near Kyoto, in a house without a television, drawing, putting on puppet shows and exploring the countryside by bicycle — on one of these expeditions he discovered a series of interconnected caves, a memory he says inspired the way he builds game worlds. He studied industrial design in Kanazawa and, in 1977, joined Nintendo, then a playing-card and toy company, as its first staff design artist. His big chance came by accident: the company had thousands of arcade machines for a failed game, «Radarscope», and asked him for a new game to reuse them. The result was «Donkey Kong» (1981), with a gorilla inspired by King Kong and a small carpenter called “Jumpman”, who would later be named Mario.",
+    "Miyamoto's style starts from play rather than technology: games without graphic violence, easy to pick up and hard to put down, in which players learn to play by playing. «Super Mario Bros.» (1985) became one of the best-selling games of all time, with more than 40 million copies; «The Legend of Zelda» took further the idea of a vast, coherent world where everyone finds their own way; «Super Mario 64» and «Ocarina of Time» showed how to make games in three dimensions. Later, with «Wii Fit» and «Pikmin», he brought video games to people who had never picked up a controller. Among other honours, he was made a Knight of France's Order of Arts and Letters (2006) and received the Prince of Asturias Award for Communication and Humanities (2012), whose jury called him “the father of the modern video game”.",
+    "Some details help explain his method. Mario's cap and moustache were not an aesthetic choice but a technical one: with the few pixels available at the time, it was hard to draw hair and a mouth, and the moustache solved the problem. Miyamoto plays the banjo and bluegrass, used to cycle to Nintendo's headquarters and is said to have let his children play only for a limited time — and never on sunny days. With almost 50 years at the company, he is now a representative director and “fellow” of Nintendo, and continues to follow the projects of the company, which has just released, on 5 November, a new version of «Ocarina of Time», the 1998 classic he produced and supervised."
+   ],
+   "fontes": [
+    {
+     "nome": "GamesRadar+ – Miyamoto receives the Order of Culture (23 Oct)",
+     "url": "https://www.gamesradar.com/games/zelda-and-mario-creator-shigeru-miyamoto-becomes-first-ever-dev-to-receive-japans-greatest-cultural-award-but-hes-crediting-all-of-nintendo-these-achievements-were-not-the-work-of-one-person/"
+    },
+    {
+     "nome": "PocketGamer.biz – first game creator to receive the Order of Culture (26 Oct)",
+     "url": "https://www.pocketgamer.biz/mario-creator-shigeru-miyamoto-named-first-games-industry-recipient-of-order-of-culture-award/"
+    },
+    {
+     "nome": "Nippon.com / Jiji – Miyamoto and seven others receive the Order of Culture (headline only)",
+     "url": "https://www.nippon.com/en/news/yjj2026102300273/"
+    },
+    {
+     "nome": "Encyclopedia.com – Miyamoto, Shigeru",
+     "url": "https://encyclopedia.com/arts/culture-magazines/miyamoto-shigeru"
+    },
+    {
+     "nome": "Computer Hope – Shigeru Miyamoto",
+     "url": "https://computerhope.com/people/shigeru_miyamoto.htm"
+    },
+    {
+     "nome": "Britannica – Miyamoto Shigeru",
+     "url": "https://britannica.com/biography/Miyamoto-Shigeru"
+    },
+    {
+     "nome": "Princess of Asturias Foundation – 2012 jury minutes",
+     "url": "https://fpa.es/en/princess-of-asturias-awards/laureates/2012-shigeru-miyamoto/?texto=acta"
+    }
+   ],
+   "nota": "The date and place of birth are confirmed by Encyclopedia.com and Computer Hope. The award of the Order of Culture is confirmed by GamesRadar+ and PocketGamer.biz (both based on Japanese press reports); the presentation was scheduled for 3 November, but it was not possible to confirm in an open source that the ceremony went ahead as planned, nor to open the Nippon.com/Jiji report. The quote translates the statement reproduced by GamesRadar+. The childhood, the caves, «Radarscope», “Jumpman”, the 40 million copies, the banjo, the bicycle and the sunny-day rule come from Encyclopedia.com (a biography from before 2005, not updated); the technical explanation of the cap and moustache is the version told by Miyamoto himself, reproduced in that source. The 1986 date for «The Legend of Zelda» (Japanese release; 1987 in the West), the dates of «Pikmin» and «Wii Fit» and the idea of the open world (Britannica) are, in part, general context not verified in the sources for this piece. The «Ocarina of Time» remaster on 5 November comes from GamesRadar+. The image's Commons page could not be opened directly (the file appears in Commons search results); the date and author of the photograph are not confirmed.",
+   "imagem": {
+    "commons": "Shigeru Miyamoto 20150610.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of the Japanese video game designer Shigeru Miyamoto",
+    "legenda": "Shigeru Miyamoto, creator of Mario and The Legend of Zelda (archive image)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that Times New Roman, the most widely used typeface in the world, was born because a typographer thought The Times newspaper was badly printed — and that the paper itself dropped it in 1972?",
+   "texto": [
+    "Times New Roman, the typeface that for years was the default in Microsoft Word and still fills school assignments, theses and official documents today, was born from a newspaper's commission: the London daily The Times first used it on 3 October 1932, and it was the first typeface designed by a newspaper for its own use.",
+    "It all began with a criticism. The typographer Stanley Morison, an adviser to the Monotype company, told The Times that the paper was behind the times in modern typography, and the management challenged him to do better. With the draughtsman Victor Lardent, Morison started from older typefaces, such as Plantin, inspired by the types of the 16th-century French engraver Robert Granjon, and refined them for newsprint: he increased the height of the lower-case letters, set the letters closer together to fit more text on each line and save paper and ink, and strengthened the contrast between thick and thin strokes. The proofs were tested by eyesight specialists and read for hours in natural and artificial light; the name distinguished it from the paper's previous typeface, “Times Old Roman”.",
+    "The newspaper had exclusive use of it for a year. After that, Times spread around the world — under two names: Monotype called it Times New Roman and Linotype Times Roman, and since Microsoft licensed the first company's catalogue and Apple the second's, the name still differs between PC and Mac. Ironically, The Times swapped it in 1972 for Walter Tracy's Times Europa, and Microsoft dethroned it in Word in 2007 with Calibri, which in turn gave way to Aptos in 2023.",
+    "The typeface is still a talking point. In 2023, the US State Department replaced Times New Roman with Calibri, as it was considered easier to read for people with visual impairments; in December 2025, Secretary of State Marco Rubio ordered a return to Times New Roman, in 14-point size, as being “more formal and professional”, describing the previous change as a “wasteful” diversity measure. Accessibility researchers point out that serifs — the small strokes at the ends of letters — can make reading harder for people with dyslexia or low vision. Ninety-four years on, a design made to save newsprint is still a matter of political debate."
+   ],
+   "fontes": [
+    {
+     "nome": "New York Public Library – Where Did Times New Roman Come From?",
+     "url": "https://www.nypl.org/blog/2014/12/09/times-new-roman"
+    },
+    {
+     "nome": "Grapheine – Typorama: Times",
+     "url": "https://grapheine.com/en/magazine/typorama-05-times-font/"
+    },
+    {
+     "nome": "Webdesigner Depot – Microsoft replaces Calibri after 16 years (14 Jul 2023)",
+     "url": "https://www.webdesignerdepot.com/2023/07/microsoft-replaces-its-default-font-after-16-years-of-calibri/"
+    },
+    {
+     "nome": "KPBS / NPR – State Department reinstates Times New Roman (11 Dec 2025)",
+     "url": "https://www.kpbs.org/news/politics/2025/12/11/the-state-department-reinstates-an-old-font-in-a-typeface-about-face"
+    },
+    {
+     "nome": "RNZ – Rubio orders diplomats to return to Times New Roman (headline only)",
+     "url": "https://www.rnz.co.nz/news/world/581498/marco-rubio-orders-diplomats-to-return-to-using-times-new-roman-ousting-calibri"
+    }
+   ],
+   "nota": "The debut on 3 October 1932 is confirmed by the NYPL and Grapheine; Morison's criticism, Plantin/Granjon, the legibility tests, the year of exclusivity and the Monotype/Linotype names come from the NYPL; the switch to Times Europa in 1972 and the name “Times Old Roman” come from Grapheine (which dates the commission to 1929). The replacement in Word by Calibri in 2007 and by Aptos in 2023 comes from Webdesigner Depot. The State Department change (2023, Blinken) and Rubio's reversal (14-point size, quotes and the accessibility criticism by Kristen Shinohara, of the Rochester Institute of Technology) come from KPBS/NPR, which cites AP and Reuters; only the headline of the RNZ piece was seen. The expression “the most widely used typeface in the world” is a common journalistic phrase, not a measured figure. Morison's role as a Monotype adviser is general context. The image's Commons page could not be opened directly (the file appears in Commons search results).",
+   "imagem": {
+    "commons": "Times New Roman-sample.svg",
+    "tipo": "ilustrativa",
+    "alt": "Sample of the Times New Roman typeface",
+    "legenda": "Sample of the Times New Roman typeface (illustrative image)",
+    "ajuste": "conter"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Caminhos do Cinema Português: the Coimbra festival that shows only Portuguese-made cinema is in its 32nd edition — with 126 films until Saturday",
+   "ficha": {
+    "Origins": "1988, in Coimbra; organised by the association Caminhos do Cinema Português – Associação de Artes Cinematográficas de Coimbra",
+    "Field": "Portuguese cinema (features and shorts, fiction, documentary, animation, film-school work), training and regular screenings",
+    "Projects": "Annual festival; Casa do Cinema de Coimbra (with the Fila K Cineclube and the Centro de Estudos Cinematográficos of the Associação Académica, the students' union); Master Sessions",
+    "Next": "32nd edition from 14 to 21 November 2026, mainly at the Teatro Académico de Gil Vicente; awards and closing on 21 November, with a concert by Surma"
+   },
+   "texto": [
+    "The 32nd edition of Caminhos do Cinema Português (Paths of Portuguese Cinema), the only festival in the country devoted exclusively to Portuguese cinema, is under way in Coimbra until Saturday 21 November. There are 126 films, in competitive and non-competitive sections, shown mainly at the Teatro Académico de Gil Vicente (TAGV) and also at the Casa do Cinema de Coimbra, the Auditório Salgado Zenha and the Convento São Francisco, with extensions in Mealhada, Góis and at the Cine-Teatro Turim in Lisbon. Tickets cost €3 to €4 per day, and there are passes for the whole festival from €25.",
+    "The festival has existed since 1988 and was born in Coimbra's student community, linked to the Centro de Estudos Cinematográficos (Film Studies Centre) of the Associação Académica, the students' union; today it is organised by its own association, run by Tiago Santos. The idea is simple and rare: to show, in one go, what is being made in Portuguese cinema — from feature films by established directors to students' first shorts — away from the big centres. This year, around 17% of the almost 700 submissions received were selected, and the most recurring themes, according to the director, are the right to housing, women's rights, and interpersonal relationships and the body.",
+    "The programme combines premieres and previews. The Seleção Caminhos (Caminhos Selection) includes «O Jacaré» (The Alligator), by Basil da Cunha, «18 Buracos para o Paraíso» (18 Holes to Paradise), by João Nuno Pinto, and «O Nosso Último Filme sobre Lisboa» (Our Last Film about Lisbon), by the Left Hand Rotation collective; there are previews of «O Velho Salazar» (Old Salazar), by João Botelho, «Mulheres de Abril» (Women of April), by Raquel Freire, and «Povo e Poder» (People and Power), by Ico Costa, about the 2024 presidential election in Mozambique. The Outros Olhares (Other Perspectives) section brings documentaries about artists — João Aguardela, Valter Hugo Mãe, Carminho — and about the Teatro Nacional D. Maria II, and there is a competition for films from film schools, including foreign ones. From 15 to 21 November, the Master Sessions bring cinema together with theatre and investigative journalism, with sessions on animation and acting.",
+    "The relevance of Caminhos goes beyond festival week. In a country where many Portuguese films spend only a few days in commercial cinemas, it is a showcase and a meeting point for directors, actors, students and audiences, and one of the few major film festivals outside Lisbon and Porto. Since 2021, the association has run, with two local partners, the Casa do Cinema de Coimbra, which reopened the historic Galerias Avenida cinema, closed for around 12 years, to give the city alternative programming throughout the year."
+   ],
+   "fontes": [
+    {
+     "nome": "RTP / Lusa – Caminhos do Cinema Português with previews by João Botelho and Raquel Freire (4 Nov)",
+     "url": "https://www.rtp.pt/noticias/mundo/caminhos-do-cinema-portugues-em-coimbra-com-antestreias-de-joao-botelho-e-raquel-freire_n1776843"
+    },
+    {
+     "nome": "Caminhos do Cinema Português – official website (Master Sessions, 11 Nov; tickets)",
+     "url": "https://www.caminhos.info/home/"
+    },
+    {
+     "nome": "Magazine.HD – submissions for the 32nd edition (18 Jun)",
+     "url": "https://www.magazine-hd.com/apps/wp/?p=772492"
+    },
+    {
+     "nome": "Notícias ao Minuto / Lusa – Casa do Cinema de Coimbra is born (10 May 2021)",
+     "url": "https://www.noticiasaominuto.com/cultura/1750328/casa-do-cinema-de-coimbra-nasce-para-criar-espaco-de-exibicao-alternativo"
+    },
+    {
+     "nome": "Wikipedia – Caminhos do Cinema Português",
+     "url": "https://en.wikipedia.org/wiki/Caminhos_do_Cinema_Portugu%C3%AAs"
+    }
+   ],
+   "nota": "The dates (14 to 21 Nov), the 126 films, the titles, the venues, the extensions, the selection of 17% of around 700 submissions, the themes and the closing with Surma come from RTP/Lusa (4 Nov); the official website confirms the 32nd edition, the Master Sessions (15 to 21 Nov) and the prices, but an old header shows other dates (“9 to 28 November”) and a different numbering, so the festival dates rest mainly on Lusa. The year 1988 comes from the official website and Magazine.HD; the original link to the Centro de Estudos Cinematográficos of the Associação Académica comes from Wikipedia (which presents it as the organiser), and the name of the current association comes from the official website. The Casa do Cinema de Coimbra is based on Lusa's 2021 report; it was not verified whether it still follows the same model today. Specific screening times were not confirmed. The image's Commons page could not be opened directly (the file appears in Commons search results).",
+   "imagem": {
+    "commons": "Teatro Académico Gil Vicente.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Façade of the Teatro Académico de Gil Vicente in Coimbra",
+    "legenda": "The Teatro Académico de Gil Vicente in Coimbra, the main venue of Caminhos do Cinema Português (illustrative image; it does not show the festival)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 16 November from the listings and event pages of Casa da Música, Agenda Porto (Porto City Council), the calendar and box office of Batalha Centro de Cinema, the Serralves listings and the Porto/Post/Doc website, with Time Out Porto and RFM for the Bryan Adams concerts. It was not possible to open the websites of Teatro Municipal do Porto, the Coliseu, Cinema Trindade, the TNSJ and Porto/Post/Doc (daily programme) this morning: the screenings of «You Can See Everything» repeat the details confirmed on the Teatro Municipal website on 14 November, and the details for the Trindade, the Coliseu and the TeCA come from Agenda Porto. The Casa da Música listings show no cancellation notices for these days (the only cancellation listed is Alan Stivell's, on 20 November). The Porto/Post/Doc festival opens on Thursday 19 November at the Batalha (until 28 November), but the programme by screening could not be consulted. Where it says «To be confirmed», the information was not in the source: check the link before you go.",
+ "agenda": [
+  {
+   "dia": "2026-11-16",
+   "eventos": [
+    {
+     "nome": "You Can See Everything, by Nathan Fielder and Lance Oppenheim",
+     "descricao": "Filmed in secret over four years, starting 34 days before she was taken into custody, the film follows Elizabeth Holmes, the Theranos founder convicted of fraud, and her partner, Billy Evans, in a register somewhere between documentary and fiction.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14 (ages 14+), 2h54, subtitled. A Medeia Filmes screening; repeated on Tuesday and Wednesday at the same time. Details confirmed on the Teatro Municipal website on 14 November; the website could not be reopened today."
+    },
+    {
+     "nome": "Luísa Sobral – Cartas de Desamor",
+     "descricao": "The singer and songwriter presents her eighth album, in which her songwriting draws closer to the rhythms and percussion of Portuguese traditional music; the single «Felicidade» (Happiness) sets the tone.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 to €35",
+     "url": "https://casadamusica.com/event/luisa-sobral/?selected_session=52943",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Rows A–L €35, M–U €30, UU–YY €25; 25% discount for Friends (members). The page does not say whether it is sold out."
+    },
+    {
+     "nome": "Jacob Sacks + Demian Cabaud + Marcos Cavaleiro",
+     "descricao": "The first on-stage meeting between the US pianist and the double bassist and drummer from the Porto scene, in a concert that mixes chosen tunes and improvisation.",
+     "horario": "21:30",
+     "tipo": "Jazz",
+     "local": "Espaço Porta-Jazz, Praça da República, 156, Porto",
+     "preco": "€5 (suggested donation; €3 for members)",
+     "url": "https://www.agenda-porto.pt/en/evento/jacob-sacks-demian-cabaud-marcos-cavaleiro/",
+     "ligacao": "Agenda Porto",
+     "nota": "Part of Porta-Jazz's Jazz Presente series. Details from Agenda Porto; more information at portajazz.com."
+    },
+    {
+     "nome": "O Espírito da Colmeia (The Spirit of the Beehive), by Víctor Erice + Noites de Cabíria podcast live",
+     "descricao": "A screening of the 1973 Spanish classic — a girl obsessed with the «Frankenstein» she sees at a travelling cinema show in post-war Castile — followed by a live recording of the film podcast Noites de Cabíria about the film and the director's work.",
+     "horario": "21:30",
+     "tipo": "Cinema / Talk",
+     "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.agenda-porto.pt/en/evento/podcast-noites-de-cabiria-ao-vivo/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+), 1h37. Time and format according to Agenda Porto (the podcast's second live session, with Daniel Marques Pinto, Francisco Noronha and Pedro Ludgero). The price is not in the source and the Trindade website could not be opened today."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-17",
+   "eventos": [
+    {
+     "nome": "Leituras no Mosteiro (Readings at the Monastery): Lígia Soares",
+     "descricao": "The choreographer, performer and playwright reads plays she has written, in a series devoted to contemporary Portuguese playwriting; her play «Cinderela» (Cinderella) won the Eurodram prize in 2018.",
+     "horario": "19:00",
+     "tipo": "Reading / Free activity",
+     "local": "TNSJ – Mosteiro de São Bento da Vitória (Centro de Documentação), Rua de São Bento da Vitória, 45, Porto",
+     "preco": "Free entry",
+     "url": "https://www.tnsj.pt/pt/espetaculos/7274/leituras-no-mosteiro/",
+     "ligacao": "Teatro Nacional São João",
+     "nota": "Date, time and free admission according to Agenda Porto; the TNSJ page could not be opened today. Whether places are limited is to be confirmed."
+    },
+    {
+     "nome": "Vânia Leal (Geração Casa)",
+     "descricao": "The fado singer from Barcelos traces the history of fado, from its origins to the present day, in a traditional concert paying tribute to Amália Rodrigues, Beatriz da Conceição and Cristina Branco.",
+     "horario": "19:30",
+     "tipo": "Fado",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€12",
+     "url": "https://casadamusica.com/event/vania-leal-2026-11-17/?selected_session=57745",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Discounts for Friends (25%) and, in rows L–YY, for under-30s, students and senior citizens."
+    },
+    {
+     "nome": "You Can See Everything, by Nathan Fielder and Lance Oppenheim",
+     "descricao": "Second screening of the secretly filmed portrait of Elizabeth Holmes and Billy Evans, who proclaim her innocence in their own way at home.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14 (ages 14+), 2h54, subtitled. Details confirmed on the Teatro Municipal website on 14 November; the website could not be reopened today."
+    },
+    {
+     "nome": "Bryan Adams – Roll With the Punches",
+     "descricao": "The Canadian singer brings the tour for his latest album to Porto, in the first of two back-to-back concerts in the city.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Super Bock Arena – Pavilhão Rosa Mota, Rua de D. Manuel II, 3, Porto",
+     "preco": "Sold out",
+     "url": "https://www.timeout.pt/porto/pt/noticias/depois-de-esgotar-as-primeiras-datas-bryan-adams-anuncia-mais-concertos-no-porto-e-em-lisboa-031026",
+     "ligacao": "Time Out Porto",
+     "nota": "Time («always at 21.00») according to Time Out Porto; RFM, the official radio station, says the four concerts in Portugal have sold out. Not confirmed on the promoter's or the box office page."
+    },
+    {
+     "nome": "Opening of «Where the Flowers Bloom», by Laura Palma",
+     "descricao": "The exhibition by the winner of the novobanco Revelação 2026 prize opens: film photographs, almost never staged, of friends in everyday moments, shown against a blue velvet curtain.",
+     "horario": "22:00",
+     "tipo": "Exhibition / Free activity",
+     "local": "Museu de Serralves (Galeria Contemporânea), Rua D. João de Castro, 210, Porto",
+     "preco": "Free entry",
+     "url": "https://www.serralves.pt/en/ciclo-serralves/1811-laura-palma-where-the-flowers-bloom/",
+     "ligacao": "Serralves",
+     "nota": "Opening time («Opening 22:00») and free admission according to the Serralves page. Curated by Ricardo Nicolau. On show until 16 May 2027."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-18",
+   "eventos": [
+    {
+     "nome": "O Pão (Bread), by Manoel de Oliveira, and other films",
+     "descricao": "A programme of five films about bread as a symbol of transformation, from Manoel de Oliveira's 1963 documentary to ethnographic films and recent works by Adriana Assunção, Mariana Caló and Francisco Queimadela, Manuel Costa e Silva and Anna Ferrer.",
+     "horario": "19:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "€5",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/o-pao/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/12 (ages 12+), English subtitles. Time according to the Batalha calendar; the price is that of a regular screening in the box office price list (50% discount for students, over-65s and Porto.card holders). Running time to be confirmed. At 15:15 there is a double bill, «Milk + Red Road», by Andrea Arnold (M/16)."
+    },
+    {
+     "nome": "Há Fado no Mercado (There's Fado at the Market), with Marcelo Soledad",
+     "descricao": "The fado singer performs in the restaurants of the Mercado do Bolhão, as part of the market's regular live music programme.",
+     "horario": "20:00–22:00",
+     "tipo": "Fado / Free activity",
+     "local": "Mercado do Bolhão, Rua Formosa, 322, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/evento/ha-fado-no-mercado-1811/",
+     "ligacao": "Agenda Porto",
+     "nota": "According to Agenda Porto: 20:00 at the Peixe no Mercado restaurant and 21:00 at Nelson dos Leitões. Free; food and drink at the restaurants are paid for separately."
+    },
+    {
+     "nome": "Svaneborg Kardyb + Vega Trails (Misty Fest)",
+     "descricao": "A double jazz bill: the Danish duo Svaneborg Kardyb presents the more electronic «Superkilen», and bassist Milo Fitzpatrick brings the chamber jazz of «Sierra Tracks», inspired by the Guadarrama mountains.",
+     "horario": "21:00",
+     "tipo": "Jazz",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€20",
+     "url": "https://casadamusica.com/event/svaneborg-kardyb-vega-trails/?selected_session=60550",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). 25% discount for Friends. No indication that it is sold out."
+    },
+    {
+     "nome": "Bryan Adams – Roll With the Punches",
+     "descricao": "The Canadian singer's second consecutive concert in Porto, with the tour for his latest album.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Super Bock Arena – Pavilhão Rosa Mota, Rua de D. Manuel II, 3, Porto",
+     "preco": "Sold out",
+     "url": "https://rfm.pt/atualidade/22352/bryan-adams-de-regresso-a-casa-com-a-rfm-datas-extra-18-e-21-de-novembro",
+     "ligacao": "RFM",
+     "nota": "RFM, the tour's official radio station, says the four concerts in Portugal have sold out (tickets for this extra date cost €59.06 to €509.79, according to Time Out Porto, which gives 21:00). Not confirmed at the box office."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-19",
+   "eventos": [
+    {
+     "nome": "O Conceito Inútil (The Useless Concept), by the Do Lado de Fora company",
+     "descricao": "Premiere by the country's first theatre company made up of homeless people, with artistic direction by Rui Spranger: memories of houses and neighbourhoods to reflect on what it means to have a home.",
+     "horario": "19:00",
+     "tipo": "Theatre",
+     "local": "TeCA – Teatro Carlos Alberto, Rua das Oliveiras, 43, Porto",
+     "preco": "€12",
+     "url": "https://www.tnsj.pt/pt/espetaculos/7268/o-conceito-inutil/",
+     "ligacao": "Teatro Nacional São João",
+     "nota": "M/12 (ages 12+), with Portuguese Sign Language interpretation. Until Sunday 22 November (Friday 21:00, Saturday 19:00, Sunday 16:00). Time and price according to Agenda Porto; the TNSJ page could not be opened today."
+    },
+    {
+     "nome": "Claiana",
+     "descricao": "Cape Verdean Aguinaldo Conceição, from São Nicolau, sings in a language he invented and mixes influences from Kassav' zouk to Michael Jackson, in a concert made for dancing.",
+     "horario": "21:30",
+     "tipo": "Music / Free activity",
+     "local": "Casa da Música (Café), Av. da Boavista, 604-610, Porto",
+     "preco": "Free entry",
+     "url": "https://casadamusica.com/event/claiana/?selected_session=60070",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Free admission, subject to the venue's capacity."
+    },
+    {
+     "nome": "Bruno Pernadas performs «Steamboat Bill Jr.», by Buster Keaton",
+     "descricao": "Film concert: the guitarist and composer and a quintet play an original live soundtrack for Keaton's silent comedy, with the famous house front that falls around Keaton.",
+     "horario": "21:30",
+     "tipo": "Cinema / Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€30",
+     "url": "https://casadamusica.com/event/bruno-pernadas-interpreta-steamboat-bill-jr-de-buster-keaton/?selected_session=58777",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). 50% discount for under-30s and university students, 20% for over-65s, 25% for Friends. Running time to be confirmed."
+    },
+    {
+     "nome": "May B, by Maguy Marin",
+     "descricao": "Ten dancers from the Compagnie Maguy Marin perform the 1981 piece inspired by the world of Samuel Beckett, a landmark of dance theatre, with music by Schubert, Gilles de Binche and Gavin Bryars.",
+     "horario": "21:30",
+     "tipo": "Dance",
+     "local": "Museu de Serralves (Auditório), Rua D. João de Castro, 210, Porto",
+     "preco": "€12",
+     "url": "https://serralves.byblueticket.pt/pt/event/16867/may-b-de-maguy-marin",
+     "ligacao": "Serralves (Blueticket)",
+     "nota": "1h30. 50% discount for Friends of Serralves, under-18s and over-65s. Part of the Foco Maguy Marin (Maguy Marin Focus) series. Age rating to be confirmed."
+    },
+    {
+     "nome": "Rubel – BELEZA. Rubel e Violão",
+     "descricao": "The Brazilian singer-songwriter returns to Portugal for an intimate concert, just voice and guitar, with songs from his whole career and from his latest album, «Beleza» (Beauty).",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "€20 to €45",
+     "url": "https://www.coliseu.pt/evento/20261119-rubel-beleza-rubel-violao",
+     "ligacao": "Coliseu Porto Ageas",
+     "nota": "M/6 (ages 6+). Time and prices according to Agenda Porto; the Coliseu website could not be opened today. Availability to be confirmed."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "China has confirmed that Xi Jinping will host Trump and Putin on Thursday in Shenzhen, in the first ever meeting between the three; Washington wants to talk about nuclear weapons and Iran, not Ukraine.",
+   "noticia": 9
+  },
+  {
+   "texto": "Iran has again attacked Bahrain with drones and says it sank tankers with mines in Hormuz, a claim yet to be confirmed; the US has gathered three aircraft carriers in the region, according to unofficial sources.",
+   "noticia": 10
+  },
+  {
+   "texto": "ULA's Vulcan rocket failed on its return to flight on Sunday: an anomaly around ten minutes after lift-off caused the loss of 40 Amazon Leo internet satellites. The cause is unknown.",
+   "noticia": 17
+  },
+  {
+   "texto": "The Budget enters its week of committee-stage votes, from Wednesday; Ventura says Chega will let through proposals to cut housing and fuel costs, including those of the PS (Socialist Party).",
+   "noticia": 14
+  },
+  {
+   "texto": "Maileva, part of the La Poste group, has confirmed the theft of the names and addresses of 22 million people in a cyberattack in September; the CNIL, France's data protection authority, has been informed and there is a judicial investigation.",
+   "noticia": 1
+  },
+  {
+   "texto": "Portugal lost 1-4 to Denmark in Braga; a draw in Cardiff on Tuesday is enough to secure first place in the group.",
+   "noticia": 15
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Tuesday 17 Nov",
+   "texto": "Wales–Portugal in Cardiff (19:45 Lisbon time) and, in the evening, Nvidia's quarterly results, its first since Jensen Huang's departure.",
+   "noticia": 15
+  },
+  {
+   "quando": "Wednesday 18 Nov",
+   "texto": "Committee-stage voting on the 2027 State Budget begins, continuing on 19, 20 and 23 November; the final overall vote is scheduled for the 24th.",
+   "noticia": 14
+  },
+  {
+   "quando": "Thursday 19 Nov",
+   "texto": "Xi–Trump–Putin summit in Shenzhen, on the sidelines of APEC (time not yet disclosed), and Anthropic's expected Nasdaq debut, barring a postponement.",
+   "noticia": 9
+  },
+  {
+   "quando": "Not before 23 Nov",
+   "texto": "Ariane 6 with 36 Amazon Leo satellites, from Kourou, after the loss of the Vulcan launch.",
+   "noticia": 17
+  }
+ ],
+ "linkedin_abertura": "Xi, Trump and Putin will sit at the same table for the first time: Beijing has confirmed the three-way summit for Thursday in Shenzhen, with nuclear weapons and Iran on the agenda."
+}

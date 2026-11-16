@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-president-donald-trump-greets-chinese-president-xi-jinping-b.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Donald_Trump_greets_Chinese_President_Xi_Jinping_before_a_bilateral_meeting_at_the_Gimhae_International_Airport_terminal_%2854890669668%29.jpg?width=1000",
+  "commons": "President Donald Trump greets Chinese President Xi Jinping before a bilateral meeting at the Gimhae International Airport terminal (54890669668).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-bo-te-murale-jaune-de-la-poste.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bo%C3%AEte_murale_jaune_de_La_Poste.jpg?width=1000",
+  "commons": "Boîte murale jaune de La Poste.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-uss-theodore-roosevelt-cvn-71-underway-the-pacific-ocean-on-.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/USS_Theodore_Roosevelt_%28CVN-71%29_underway_the_Pacific_Ocean_on_30_April_2017.JPG?width=1000",
+  "commons": "USS Theodore Roosevelt (CVN-71) underway the Pacific Ocean on 30 April 2017.JPG",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-restauradores-square-lisbon-13991523924.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Restauradores_Square_Lisbon_%2813991523924%29.jpg?width=1000",
+  "commons": "Restauradores Square Lisbon (13991523924).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-peregrine-launch.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peregrine_launch.jpg?width=1000",
+  "commons": "Peregrine launch.jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-nathan-fielder.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nathan_Fielder.jpg?width=1000",
+  "commons": "Nathan Fielder.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-shigeru-miyamoto-20150610.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shigeru_Miyamoto_20150610.jpg?width=1000",
+  "commons": "Shigeru Miyamoto 20150610.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-times-new-roman-sample.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Times_New_Roman-sample.svg?width=1000",
+  "commons": "Times New Roman-sample.svg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-teatro-acad-mico-gil-vicente.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Teatro_Acad%C3%A9mico_Gil_Vicente.jpg?width=1000",
+  "commons": "Teatro Académico Gil Vicente.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
