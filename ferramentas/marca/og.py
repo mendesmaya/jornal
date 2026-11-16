@@ -258,16 +258,26 @@ def svg_variante(var, seed=7):
         p2, _ = palavra_svg("PERSPETIVA", (W - w2) / 2, 520, e2, random.Random(seed + 5), e2 * 0.12, 0.16)
         el += p2
         sub = '<text x="600" y="584" text-anchor="middle" font-family="Inter" font-weight="700" font-size="19" letter-spacing="6" fill="#161514">JORNAL DIÁRIO · PORTUGAL</text>'
+    if var == "E":  # desde 2026-11-16: o layout da C com as letras do título (Pagella Bold com tinta)
+        el = marca(250, 330, 74, rng)
+        x0, x1 = 505, 1140
+        _, w100 = tipo_paths("PERSPETIVA", 100, 8)
+        tam = (x1 - x0) / w100 * 100
+        cap = letras()["altura_maiusculas"] / letras()["upm"] * tam
+        b1 = 330 - 0.18 * cap
+        b2 = b1 + cap * 1.42
+        for txt, base in (("O DIA EM", b1), ("PERSPETIVA", b2)):
+            c, _ = tipo_paths(txt, tam, 8 * tam / 100)
+            el.append(f'<g transform="translate({x0} {base:.1f})" fill="{INK}" filter="url(#tinta-letras)">{c}</g>')
+        sub = f'<text x="{x0 + 4}" y="{b2 + cap * 0.95:.0f}" font-family="Inter" font-weight="700" font-size="20" letter-spacing="5" fill="#161514">JORNAL DIÁRIO · PORTUGAL</text>'
+        filtro += ('<filter id="tinta-letras" x="-2%" y="-10%" width="104%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/>'
+                   f'<feDisplacementMap in="SourceGraphic" scale="{4.5 * tam / 100:.1f}"/></filter>')
     corpo = "".join(el)
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}"><defs>{filtro}</defs>'
             f'<rect width="{W}" height="{H}" fill="{PAPEL}"/><g filter="url(#tinta)">{corpo}{sub}</g>'
             f'<rect width="{W}" height="{H}" filter="url(#grao)"/></svg>')
 
 
-if __name__ == "__main__":
-    out = Path(sys.argv[1])
-    for v in ("A", "B", "C", "D"):
-        (out / f"og-{v}.svg").write_text(svg_variante(v))
 
 
 _LETRAS = None
@@ -377,3 +387,9 @@ def sol_svg(seed=7):
     corpo = "".join(el).replace(f'stroke="{INK}"', 'stroke="currentColor"').replace(f'fill="{INK}"', 'fill="currentColor"')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="10 60 480 230" class="sol" aria-hidden="true">'
             f'<g filter="url(#tinta-titulo)">{corpo}</g></svg>')
+
+
+if __name__ == "__main__":
+    out = Path(sys.argv[1])
+    for v in ("A", "B", "C", "D", "E"):
+        (out / f"og-{v}.svg").write_text(svg_variante(v))
