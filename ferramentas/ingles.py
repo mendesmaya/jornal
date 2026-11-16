@@ -6,7 +6,7 @@ A página em inglês fica em AAAA-MM-DD/en/index.html e usa as imagens de AAAA-M
 """
 import re
 
-# Menu (letras desenhadas à mão: og.py não tem F, H, K, W nem Y — escolher palavras sem essas letras)
+# Menu (desde 2026-11-16 as letras do menu vêm de letras_titulo.json e têm todo o alfabeto; antes não havia F, H, K, W nem Y)
 NAV = [
     ('<a href="../">Arquivo</a>', '<a href="../">Past issues</a>'),
     ('<span class="longo">Em 2 minutos</span><span class="curto">Resumo</span>', '<span class="longo">In 2 minutes</span><span class="curto">Digest</span>'),

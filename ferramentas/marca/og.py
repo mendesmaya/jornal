@@ -270,7 +270,52 @@ if __name__ == "__main__":
         (out / f"og-{v}.svg").write_text(svg_variante(v))
 
 
+_LETRAS = None
+
+
+def letras():
+    """Contornos das letras do título e do menu (TeX Gyre Pagella Bold; ver extrair_letras.py)."""
+    global _LETRAS
+    if _LETRAS is None:
+        import json
+        _LETRAS = json.loads((Path(__file__).with_name("letras_titulo.json")).read_text())
+    return _LETRAS
+
+
+def tipo_paths(texto, tam=100, track=8):
+    """Texto composto com as letras guardadas: devolve (paths SVG com fill currentColor, largura).
+    Base da linha em y=0; as maiúsculas sobem até -altura_maiusculas*tam/upm."""
+    L = letras()
+    s = tam / L["upm"]
+    x, out, ant = 0.0, [], None
+    for ch in texto:
+        g = L["glifos"].get(ch) or L["glifos"].get(ch.upper())
+        if g is None:
+            continue
+        if ant:
+            x += L["kern"].get(ant + ch, 0) * s
+        if g["d"]:
+            out.append(f'<path transform="translate({x:.1f} 0) scale({s:g})" d="{g["d"]}"/>')
+        x += g["w"] * s + track
+        ant = ch
+    return "".join(out), x - track
+
+
 def titulo_svg(seed=7):
+    """Título do jornal: serifa clássica (Pagella Bold) em maiúsculas com efeito de tinta, em currentColor
+    para funcionar no modo escuro. O filtro tinta-titulo (também usado pelo sol e pelo menu) é definido aqui."""
+    corpo, w = tipo_paths("O DIA EM PERSPETIVA", 100, 8)
+    cap = letras()["altura_maiusculas"] / letras()["upm"] * 100
+    m = 8
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{-m} {-cap - m:.0f} {w + 2 * m:.0f} {cap + 2 * m:.0f}" role="img" aria-label="O Dia em Perspetiva">'
+            f'<defs><filter id="tinta-titulo" x="-2%" y="-10%" width="104%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/>'
+            f'<feDisplacementMap in="SourceGraphic" scale="3.2"/></filter>'
+            f'<filter id="tinta-letras" x="-2%" y="-10%" width="104%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3"/>'
+            f'<feDisplacementMap in="SourceGraphic" scale="4.5"/></filter></defs>'
+            f'<g fill="currentColor" filter="url(#tinta-letras)">{corpo}</g></svg>')
+
+
+def titulo_maos_svg(seed=7):
     """Título do jornal só com as letras (sem fundo), em currentColor para funcionar no modo escuro."""
     esc = 100
     p, w = palavra_svg("O DIA EM PERSPETIVA", 0, esc, esc, random.Random(seed + 2), esc * 0.12, 0.16)
@@ -306,6 +351,15 @@ def icone_svg(seed=11):
 
 
 def rotulo_svg(texto, seed=21, traco=0.15):
+    """Etiqueta do menu com as mesmas letras do título (Pagella Bold, cor do texto, tinta leve).
+    A caixa tem sempre a mesma altura e a base das letras fica a ~77% (o sublinhado do CSS conta com isso)."""
+    corpo, w = tipo_paths(texto, 100, 2)
+    m = 4
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{-m} -110 {w + 2 * m:.0f} 142" class="rotulo" aria-hidden="true">'
+            f'<g fill="currentColor" filter="url(#tinta-titulo)">{corpo}</g></svg>')
+
+
+def rotulo_maos_svg(texto, seed=21, traco=0.15):
     """Etiqueta do menu desenhada à mão: altura fixa (maiúsculas + descendentes), cor do texto."""
     esc = 100
     p, w = palavra_svg(texto, 0, esc, esc, random.Random(seed + len(texto)), esc * traco, 0.16)
