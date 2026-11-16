@@ -37,7 +37,10 @@ nav a:not(:last-child)::after{padding:0 min(.7em,.7cqi)}
 nav a{text-decoration:none;color:var(--ink)}
 nav a{white-space:nowrap}
 nav .curto{display:none}
-nav a:hover{text-decoration:underline}
+nav a:hover{text-decoration:none}
+/* sublinhado só por baixo da palavra (o • fica de fora): risco no fundo do SVG, à altura da base das letras */
+nav a:hover svg.rotulo{background:linear-gradient(currentColor,currentColor) 0 84%/100% 2px no-repeat}
+nav a:hover>span:not(.sr){text-decoration:underline}
 .game-note{font:.8rem/1.5 Arial,sans-serif;color:var(--muted);margin:12px 0}
 
 /* secções */
