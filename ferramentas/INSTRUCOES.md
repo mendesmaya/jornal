@@ -41,6 +41,14 @@ Cada notícia (campo no JSON):
 
 Privilegiar fontes primárias, organismos oficiais e meios credíveis (Lusa, RTP, Público, Observador, Expresso, Renascença, AP, Reuters, AFP, BBC, Euronews, organismos oficiais; em ciber/IA/tec: avisos oficiais, SecurityWeek, The Hacker News, BleepingComputer, The Record, Ars Technica, The Verge). Não inventar notícias, citações, fontes, imagens, datas ou ligações. Assinalar o que não foi possível confirmar. Sínteses originais: não copiar frases das fontes.
 
+## Tom e estilo (desde a edição de 2026-11-17, por decisão da dona do jornal)
+Escrita leve e fácil de ler, mais próxima de uma conversa do que de um comunicado — **sem tratar o leitor por tu** nas notícias (os jogos e o «Sabias que…» mantêm o tom que já têm). O rigor não muda: fontes, estados (declaração ≠ facto, «terá», «segundo», «previsto»), presunção de inocência e verificação ficam exatamente iguais.
+- Frases curtas e diretas; uma ideia por frase. Começar pelo que aconteceu, não pela entidade que o anunciou («Está confirmado: Xi, Trump e Putin vão sentar-se à mesma mesa…» em vez de «O Ministério dos Negócios Estrangeiros da China confirmou que…»); a atribuição vem logo a seguir.
+- Fugir ao burocratês e ao jargão («proceder a», «no âmbito de», «tendo em vista», «viabilizar» sem explicação); preferir verbos simples. Siglas e termos técnicos explicados em palavras comuns na primeira vez.
+- Pode haver ligações à conversa («Ou seja: …», «Porque é que isto importa?», «O que se sabe — e o que falta saber»), com moderação e sem perder a sobriedade.
+- Sem «clickbait», sem exageros, sem adjetivos de opinião, sem piadas sobre vítimas ou temas graves; o tom adapta-se ao assunto (mortes, guerras e catástrofes continuam a ser tratados com sobriedade).
+- Vale para todos os textos: notícias, `estado` (curto e claro), «Em 2 minutos», «O que acompanhar», cultura, agenda e `linkedin_abertura`. A versão em inglês segue o mesmo tom leve.
+
 ## Pessoas, suspeitas e correções
 - **Presunção de inocência**: suspeitos, detidos e arguidos são sempre referidos como tal («suspeito de», «indiciado por»), nunca como culpados. **Não nomear pessoas que não sejam figuras públicas** quando são suspeitas, arguidas, vítimas ou doentes; usar a função ou descrição («seis funcionários de uma empresa de assistência em escala»). Figuras públicas podem ser nomeadas quando o caso diz respeito às suas funções.
 - **Aviso de IA**: o rodapé de todas as páginas mostra automaticamente o aviso de que o jornal é feito com IA (AI Act, art. 50.º). Não o remover (por decisão da dona do jornal, fica só no rodapé).
