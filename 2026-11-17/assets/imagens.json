@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-southern-bridge-kiev.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Southern_Bridge%2C_Kiev.jpg?width=1000",
+  "commons": "Southern Bridge, Kiev.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-paying-with-a-credit-card-28886645201.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Paying_with_a_Credit_Card_%2828886645201%29.jpg?width=1000",
+  "commons": "Paying with a Credit Card (28886645201).jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-280-tis-c-lid-letn-milion-chvilek-pro-demokracii.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/280_tis%C3%ADc_lid%C3%AD%2C_Letn%C3%A1%2C_Milion_chvilek_pro_demokracii.jpg?width=1000",
+  "commons": "280 tisíc lidí, Letná, Milion chvilek pro demokracii.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-assembleia-da-rep-blica-portugal-pal-cio-de-s-o-bento-lisboa.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Assembleia_da_Rep%C3%BAblica_%28Portugal%29_Pal%C3%A1cio_de_S%C3%A3o_Bento%2C_Lisboa.JPG?width=1000",
+  "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-voyager-spacecraft-during-vibration-testing-gpn-2003-000008.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Voyager_Spacecraft_During_Vibration_Testing_-_GPN-2003-000008.jpg?width=1000",
+  "commons": "Voyager Spacecraft During Vibration Testing - GPN-2003-000008.jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-wild-boar-sus-scrofa.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wild_boar_%28Sus_scrofa%29.jpg?width=1000",
+  "commons": "Wild boar (Sus scrofa).jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-isamu-noguchi.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isamu_Noguchi.jpg?width=1000",
+  "commons": "Isamu Noguchi.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-tour-eiffel-juillet-1888.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tour_Eiffel%2C_Juillet_1888.jpg?width=1000",
+  "commons": "Tour Eiffel, Juillet 1888.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-rua-bairro-alto.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rua_Bairro_Alto.jpg?width=1000",
+  "commons": "Rua Bairro Alto.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
