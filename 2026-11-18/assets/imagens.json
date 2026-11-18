@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-kerch-crimean-bridge-p5030811-2350.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerch._Crimean_Bridge_P5030811_2350.jpg?width=1000",
+  "commons": "Kerch. Crimean Bridge P5030811 2350.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-equinor-building-b-rum-norway-2021-02-23.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Equinor_Building_-_B%C3%A6rum%2C_Norway_2021-02-23.jpg?width=1000",
+  "commons": "Equinor Building - Bærum, Norway 2021-02-23.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-shenzhen-skyline-from-futian-district5.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shenzhen_Skyline_from_Futian_District5.jpg?width=1000",
+  "commons": "Shenzhen Skyline from Futian District5.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-lisboa-assembleia-da-rep-blica.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_-_Assembleia_da_Rep%C3%BAblica.jpg?width=1000",
+  "commons": "Lisboa - Assembleia da República.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-blue-marble-2002.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Marble_2002.png?width=1000",
+  "commons": "Blue Marble 2002.png",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-travis-knight-30000495292.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Travis_Knight_%2830000495292%29.jpg?width=1000",
+  "commons": "Travis Knight (30000495292).jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-man-ray-by-carl-van-vechten-1934.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Man_Ray_by_Carl_Van_Vechten%2C_1934.jpg?width=1000",
+  "commons": "Man Ray by Carl Van Vechten, 1934.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-mona-lisa-by-leonardo-da-vinci-from-c2rmf-natural-color.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg?width=1000",
+  "commons": "Mona Lisa, by Leonardo da Vinci, from C2RMF natural color.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-ccvf-guimar-es-2.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CCVF_Guimar%C3%A3es_%282%29.jpg?width=1000",
+  "commons": "CCVF Guimarães (2).jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

@@ -1,0 +1,1060 @@
+{
+ "data": "2026-11-18",
+ "numero": "026",
+ "resumo": "Ukraine cuts the road on the Crimean Bridge; Xi and Putin meet in Shenzhen ahead of the summit with Trump; Nvidia doubles its revenue without Huang; and voting on the Budget begins today.",
+ "tema_palavras": "words from this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Equinor, the Norwegian oil and gas giant, is being hit by a cyberattack; the company says production has not been affected",
+   "estado": "Attack confirmed by Equinor (17 Nov) and ongoing · perpetrators unknown · company says there are no signs of data theft",
+   "data": "2026-11-17",
+   "texto": [
+    "Equinor, Norway's largest oil and gas producer, is dealing with a cyberattack. The company announced it on Tuesday 17 November, at 17:55 Lisbon time: the attack, still ongoing, targets «some» of its IT systems. Equinor says production and operations have not been affected, that there are no signs that data has been stolen and that it has already informed the authorities.",
+    "What is known beyond the statement comes mainly from the Reuters news agency. An employee told it that the company's internal email had stopped working, and the Norwegian news agency NTB reported problems with internal apps and systems. Equinor has not confirmed these details and a spokesperson declined to give more information. Norway's National Security Authority (NSM, the body responsible for protecting critical infrastructure) said it was aware of the incident and was providing support where needed.",
+    "Why does this matter? Equinor is controlled by the Norwegian state and is described as Europe's largest supplier of natural gas, so any failure in its systems worries the countries that depend on that gas. So far there are no signs of supply cuts. On 27 October, the NSM had raised the country's digital risk level to «high», the second highest on a five-point scale, and warned that successful attacks against Norwegian organisations had tripled in six months.",
+    "What we still don't know: who is behind the attack, how the attackers got in, which systems were hit and when the situation will be resolved. The company says it will give more information when it has it. The conclusion that no data was stolen is, for now, a preliminary assessment, not the result of a completed investigation."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ongoing attack, absence of data theft and of impact on production, and notification of the authorities confirmed in Equinor's statement (17 Nov, 18:55 CET) and reported by NaturalGasIntel, Oilprice.com and iTWire. The internal email failure comes from an anonymous source quoted by Reuters and has not been confirmed by Equinor; the problems with internal apps come from NTB, quoted by Reuters. The NSM's response and the raising of the risk level (27 Oct) according to Reuters, quoted by iTWire and Oilprice.com. The description as «Europe's largest supplier of natural gas» is from Oilprice.com and NaturalGasIntel. It was not possible to consult Reuters directly. Perpetrators and attack vector unknown."
+   },
+   "fontes": [
+    {
+     "nome": "Equinor – «Equinor detected cyber-attack» (17 Nov)",
+     "url": "https://www.equinor.com/news/20261711-equinor-detected-cyber-attack"
+    },
+    {
+     "nome": "Oilprice.com (17 Nov)",
+     "url": "https://oilprice.com/Company-News/Equinor-Hit-by-Cyberattack-but-Oil-and-Gas-Production-Remains-Unaffected.html"
+    },
+    {
+     "nome": "iTWire (18 Nov)",
+     "url": "https://itwire.com/business-it-news/security/equinor-says-production-unaffected-as-cyberattack-disrupts-it"
+    },
+    {
+     "nome": "NaturalGasIntel (17 Nov)",
+     "url": "https://naturalgasintel.com/news/europes-largest-natural-gas-supplier-battles-cyberattack/"
+    },
+    {
+     "nome": "Gulf News (17 Nov)",
+     "url": "https://gulfnews.com/world/europe/norways-equinor-detects-cyberattack-on-it-systems-operations-unaffected-1.500751236"
+    }
+   ],
+   "imagem": {
+    "commons": "Equinor Building - Bærum, Norway 2021-02-23.jpg",
+    "tipo": "arquivo",
+    "alt": "Equinor office building in Bærum, on the outskirts of Oslo, Norway",
+    "legenda": "Equinor building in Bærum, near Oslo, in February 2021 (archive image; it does not show the attack)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "NSA's secret network goes down in a week of outages in the US; Government insists there was no cyberattack",
+   "estado": "Outage confirmed by the NSA («routine maintenance») · Government and senator say there are no signs of an attack · investigation continues",
+   "data": "2026-11-17",
+   "texto": [
+    "The internal, classified network of the US National Security Agency (NSA), used by staff to exchange secret information, was down on Tuesday 17 November. The outage was first reported by CNN and confirmed to the AP by a defence official. The NSA put it down to «routine maintenance» and said mission-essential capabilities had kept working. It is the latest in a series of breakdowns in the US that have left many people wondering whether the country was under attack.",
+    "The list is long: on Friday the 14th, a systems overload grounded flights across the country for more than four hours; on Monday, a technical problem at the bank JPMorgan Chase delayed transactions; United Airlines had delays because of an internal failure; and, on Tuesday, Apple acknowledged total outages of Apple Music, the App Store and AppleCare after an internal update. There was also a global Microsoft 365 outage, which the company blamed on a technical error.",
+    "The Government's response was unanimous. «This is not a cyberattack, nor a coordinated effort by a state», the director of national intelligence, Jay Clayton, told CNBC. The Secretary of State, Marco Rubio, said there was «zero evidence» of involvement by hackers, criminals or another country, although he described the outages as «unsettling». Clayton's explanation: government and companies are updating and patching systems at the same time, and switching old systems off and on again can cause breakdowns.",
+    "Democratic senator Mark Warner, the number two on the Senate Intelligence Committee, offered a clue about the rush: artificial intelligence (AI) is allowing attackers and defenders to find security flaws at an unprecedented speed, which forces everything to be fixed more quickly. For Warner, the evidence points to legitimate security work, but the investigation is not over yet. For now, there is no sign that the cases are linked to one another."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "NSA network outage, the agency's statement, the list of other outages and the statements by Rubio, Clayton and Warner confirmed by the AP (via SecurityWeek, 17 Nov) and ABC News (17 Nov). Clayton's quote is from the CNBC interview, quoted by ABC News. The length of the NSA outage was not disclosed. The network is identified as NSANet by the AP. The explanations of the causes are statements by officials, not the conclusions of a completed investigation."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek / AP (17 Nov)",
+     "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/"
+    },
+    {
+     "nome": "ABC News (17 Nov)",
+     "url": "https://abcnews.com/US/national-intelligence-director-signs-cyberattack-amid-tech-outage/story?id=138229967"
+    },
+    {
+     "nome": "CNN – exclusive (17 Nov) (quoted)",
+     "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Uber warns almost 150,000 drivers: driving licence data was stolen in an attack on an AI supplier",
+   "estado": "Breach confirmed by Uber · total of 149,346 according to a notification in Oregon, quoted by the press · no claim of responsibility",
+   "data": "2026-11-16",
+   "texto": [
+    "Uber is warning drivers in the US that their personal and driving licence data has been stolen. The attack was not on Uber but on a supplier: Fireworks AI, a company that sells access to artificial intelligence (AI) models. According to the notification filed with the Oregon attorney general, quoted by the specialist press on 16 November, 149,346 people are affected. The data includes names, addresses, dates of birth and driving licence numbers.",
+    "How did it happen? On 9 October, Fireworks told Uber that hackers had stolen internal credentials (that is, login details) and that these had been used to reach Uber data. In October, Fireworks disclosed two incidents: in one, an employee's credentials were used; in the other, the attackers got in through a flaw at a cloud service provider. They took billing data and, from some customers, datasets and parts of AI models. Uber cut its data connections to Fireworks and opened an investigation.",
+    "Why does this matter? It shows how a single supplier can expose data from several companies. Notion, a note-taking and teamwork app, also confirmed that conversations with its AI assistant, from less than 1% of workspaces, were exposed. Nobody has claimed the attack. Fireworks attributes it to a group that sells stolen access to AI models. It remains to be explained why an AI supplier was holding driving licence data. Drivers have been notified in several states, including California, Illinois and Massachusetts."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Attack on Fireworks AI, warning to Uber on 9 Oct, type of data and notifications in several states confirmed by The Next Web (15 Nov), The Paypers (16 Nov) and Cybernews, based on notifications seen by TechCrunch. The total of 149,346 comes from the notification to the Oregon attorney general, according to eGamers (16 Nov) and the BleepingComputer headline («nearly 150,000»); the original notification and the BleepingComputer article were not opened. Notion data and attribution to a group reselling access to AI models according to The Next Web. Uber itself has not disclosed a total."
+   },
+   "fontes": [
+    {
+     "nome": "The Next Web (15 Nov)",
+     "url": "https://thenextweb.com/news/uber-drivers-licence-data-stolen-in-fireworks-ai-hack"
+    },
+    {
+     "nome": "eGamers (16 Nov)",
+     "url": "https://egamers.io/?p=129439"
+    },
+    {
+     "nome": "The Paypers (16 Nov)",
+     "url": "https://thepaypers.com/fraud-and-fincrime/news/uber-confirms-driver-data-theft-in-fireworks-ai-vendor-breach"
+    },
+    {
+     "nome": "Cybernews",
+     "url": "https://cybernews.com/security/uber-confirms-data-breach/"
+    },
+    {
+     "nome": "BleepingComputer (quoted)",
+     "url": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Reuters investigation: Chinese labs train models on answers from American AI, such as OpenAI's — and Beijing encourages it",
+   "estado": "Reuters journalistic investigation (300 documents) · the practice is not illegal · US speaks of possible theft of intellectual property",
+   "data": "2026-11-17",
+   "texto": [
+    "Chinese universities and companies are using answers from American artificial intelligence (AI) models, such as OpenAI's, to train their own systems. That is the conclusion of an investigation by the Reuters news agency, published this Tuesday, which analysed more than 300 Chinese documents: scientific papers, patents, company reports, job adverts and official documents. According to the agency, the technique, called «distillation», has gone from academic experiment to common practice in the industry.",
+    "How does it work? A large, expensive model, the «teacher», answers questions or solves tasks; those answers are then used to train a smaller model, the «student». One of the examples cited: in November 2024, researchers at Shanghai Jiao Tong University picked around 5,000 answers from OpenAI's o1 model to continue training a Qwen model, from Alibaba. Researchers at Alibaba and Meituan also described, in papers from 2025 and 2026, using GPT-4 and GPT-4o. Distillation is not illegal and is used all over the world, but OpenAI and Anthropic forbid in their terms the use of their answers to build competing models. Alibaba, Meituan and the university did not respond to Reuters.",
+    "Beijing does not order the copying of American models, but it encourages the technique: a package of measures from January, signed by eight state bodies, supports the training and distillation of models for industry, the agency reports. On the American side, an official told Reuters that industrial-scale distillation is the main reason Chinese models have narrowed the gap; two sources linked to Chinese companies dispute this and also point to engineering, data and model design. The issue comes to the table in a tense week: on Monday Washington tightened China's remote access to advanced chips, and Donald Trump and Xi Jinping are meeting in Shenzhen. In July, US Treasury Secretary Scott Bessent warned that sanctions and adding companies to the American trade blacklist are «on the table» if distillation turns into theft of intellectual property."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "All the information comes from the exclusive Reuters investigation (Eduardo Baptista and Laurie Chen, Shenzhen), consulted in the version republished by Investing.com; the International Business Times (via Yahoo) repeats the same data citing Reuters, with no reporting of its own. The assessment that distillation explains China's progress is a statement by an anonymous American official, disputed by other sources. OpenAI and Anthropic did not comment for the article; Reuters only refers to the terms of use. The original Chinese documents were not consulted."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters (via Investing.com) – «China taps US AI models to train homegrown rivals as chip curbs bite»",
+     "url": "https://www.investing.com/news/economy-news/exclusivechina-taps-us-ai-models-to-train-homegrown-rivals-as-chip-curbs-bite-5031568"
+    },
+    {
+     "nome": "International Business Times (via Yahoo News) – summary of the Reuters investigation",
+     "url": "https://www.yahoo.com/news/world/articles/china-turns-american-ai-train-175533385.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Alibaba group Headquarters.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Alibaba group headquarters building in Hangzhou, China",
+    "legenda": "Alibaba headquarters in Hangzhou (illustrative image; it does not show the event)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Microsoft launches seven cheaper in-house AI models for coding, generating images and finding security flaws",
+   "estado": "Announced at the Ignite conference (17 Nov) · performance and price comparisons are Microsoft's own · cyber model only in restricted preview",
+   "data": "2026-11-17",
+   "texto": [
+    "Microsoft unveiled on Tuesday 17 November a new family of home-grown artificial intelligence (AI) models, under the MAI brand. The announcement was made at Ignite, the company's annual conference for business customers, which runs in San Francisco until 20 November. The strategy is clear: to compete with OpenAI and Anthropic mainly on price, according to Reuters.",
+    "The highlight is MAI-Code-2, a coding model. Microsoft says it comes close to the quality of OpenAI's and Anthropic's top models for a fraction of the cost; the figures are the company's own. It is already available in GitHub Copilot, Microsoft's coding assistant, as is a lighter version, Flash. There are also two image models (MAI-Image-2.7 and its Flash version), in preview, plus a real-time voice model and a transcription model, according to the TestingCatalog website.",
+    "Why does this matter? One of the models, MAI-Cyber-2-Flash, was built to find, confirm and fix security flaws in code. For now it is only available, in testing, inside a Microsoft security tool (codenamed MDASH) and to a limited group of customers. Mustafa Suleyman, who heads Microsoft's AI division, told Reuters that the case of the OpenAI agents that attacked the Hugging Face platform led him to pay as much attention to safeguards as to performance, and that alignment (making sure AI behaves as intended) is his priority."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date, place, MAI-Code-2, the cybersecurity model with limited access and Mustafa Suleyman's statements come from Reuters (via The Korea Times). Names, availability and the restricted access of MAI-Cyber-2-Flash through MDASH were confirmed in Microsoft's official «Book of News» (Ignite, 17 to 20 November). The list of voice and transcription models comes from TestingCatalog, which admits it cannot clearly identify all seven models; the «seven» count comes from headlines on several websites and was not confirmed in an official list. All quality and price comparisons with OpenAI and Anthropic are Microsoft's and have not been independently verified."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters (via The Korea Times) – Microsoft unveils AI models for coding and cybersecurity",
+     "url": "https://www.koreatimes.co.kr/world/20261118/microsoft-unveils-ai-models-for-coding-cybersecurity-as-it-takes-on-anthropic-openai"
+    },
+    {
+     "nome": "Microsoft – Ignite 2026 Book of News",
+     "url": "https://news.microsoft.com/events/ignite/2026/book-of-news/"
+    },
+    {
+     "nome": "TestingCatalog – Microsoft launches seven MAI models at Ignite 2026",
+     "url": "https://www.testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026/"
+    }
+   ],
+   "imagem": {
+    "commons": "Mustafa Suleyman photo.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of Mustafa Suleyman, head of artificial intelligence at Microsoft",
+    "legenda": "Mustafa Suleyman, chief executive of Microsoft AI (archive image; not from Ignite)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Isomorphic Labs, Demis Hassabis's AI drug-design company, raises 5 billion dollars: a biotech record",
+   "estado": "Funding round announced by the company (17 Nov) · no medicines in human trials yet",
+   "data": "2026-11-17",
+   "texto": [
+    "Isomorphic Labs, a London company that uses artificial intelligence (AI) to design medicines, announced on Tuesday 17 November that it had raised 5 billion dollars (around €4.3 billion) from investors. According to the trade magazine BioSpace, it is the largest private funding round ever in the biotechnology sector, ahead of Altos Labs' 3 billion in 2022. The round is led by the funds Sequoia Capital and Greenoaks, with participation from Alphabet, which owns Google and the company.",
+    "Isomorphic was founded in 2021 by Demis Hassabis, co-founder of Google DeepMind and winner of the 2024 Nobel Prize in Chemistry for his work on predicting the shape of proteins. The idea is to use AI to find candidate drug molecules much faster than with traditional methods. The company says the money will be used to grow its drug-design engine, IsoDDE, and the list of candidates it is developing. It has partnerships with pharmaceutical companies such as Novartis, Eli Lilly and Johnson & Johnson.",
+    "What we still don't know: Isomorphic has not yet revealed any medicine in human trials. It says it has preclinical (laboratory) results in oncology and immunology programmes and is preparing to enter clinical trials, but with no date, BioSpace reports. Since March 2025 it has raised at least 7.7 billion dollars. The valuation given to the company in this round was not disclosed."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Amount, date, investors and use of the money confirmed in the Isomorphic Labs statement and by BioSpace. The sector record, the total raised (at least 7.7 billion), the partnerships, the absence of disclosed clinical programmes and the fact that the valuation was not revealed come from BioSpace. Hassabis's Nobel (2024) is well-known context, not verified in this research. The conversion into euros is approximate and ours. The Bloomberg report on the round was found but not opened."
+   },
+   "fontes": [
+    {
+     "nome": "Isomorphic Labs – Series C round announcement",
+     "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round"
+    },
+    {
+     "nome": "BioSpace – Isomorphic Labs breaks biotech funding record",
+     "url": "https://www.biospace.com/drug-development/isomorphic-labs-breaks-biotech-vc-fundraising-record-with-5b-series-c"
+    }
+   ],
+   "imagem": {
+    "commons": "Demis Hassabis, 2024 Nobel Prize Laureate in Chemistry 6.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of Demis Hassabis, founder of Isomorphic Labs and winner of the 2024 Nobel Prize in Chemistry",
+    "legenda": "Demis Hassabis in 2024, the year he received the Nobel Prize in Chemistry (archive image; it does not show the announcement)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Nvidia more than doubles its revenue in its first quarter without Jensen Huang — and the board rules out the founder's return",
+   "estado": "Official results of 17 Nov · Huang will not return, according to the board · search for a new CEO under way",
+   "data": "2026-11-17",
+   "texto": [
+    "Nvidia, the largest maker of chips for artificial intelligence (AI), took in 115.8 billion dollars between August and October, more than double (+103%) the figure a year earlier. The numbers were released on Tuesday 17 November, in the late afternoon in the US (around 21:30 Lisbon time). They are the first results since co-founder Jensen Huang stepped down as chief executive on 12 November. They were presented by Colette Kress, the chief financial officer and now interim chief executive. Profit reached 65.3 billion dollars, up 105%.",
+    "The results beat what analysts had expected: around 109 billion in revenue, according to estimates quoted by CBS (FactSet) and ABC (LSEG). Almost all of it comes from data centres, which brought in 107.6 billion. For the next quarter, which has one week more than usual, the company forecasts 130 billion dollars, not counting sales of computing chips to China. «Our momentum is real», said Kress, who described the launch of Vera Rubin, the company's new generation of processors, as «explosive». The shares, which had lost around a third of their value since their peak on 6 October, rose between 3% and 5% in after-hours trading.",
+    "And Huang? In recent days, employees, investors and even President Donald Trump have called for the return of the founder, who said he was available. But the chairman of the board said on the call with analysts that he does not intend to reappoint him, Fast Company reported; ABC and CBS also write, citing sources, that the board rejects that possibility. The company is looking for a permanent chief executive, both internally and externally. Huang left after admitting to an extramarital relationship with a woman who, according to reports in the US press, US intelligence services suspect of links to Chinese espionage; Beijing denies this. An independent board committee is investigating the case and says it has no reason to believe that company or national security secrets have been compromised. On the same Tuesday, Nvidia set up a committee to monitor compliance with US rules on chip exports."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Revenue, profit, data centres, the 130 billion forecast (excluding China) and Kress's quote confirmed by Nvidia's official statement and by CBS. Analysts' estimates: CBS (FactSet, ~109 billion) and ABC (LSEG, 109.1 billion). After-hours rise: ~3% according to CBS, 4.8% according to StockTitan (figures at different times). The board chairman's statement on Huang is attributed to Fast Company (which spells the chairman's name inconsistently, so we do not use it); ABC and CBS cite anonymous sources to the same effect. Huang's availability and Trump's remarks according to ABC. Internal investigation and the statement about secrets not being compromised according to ABC. Export control committee according to CBS and StockTitan. It was not possible to confirm the espionage suspicions directly; they are attributed to press reports and have been denied by China. The person involved is not named (not a public figure)."
+   },
+   "fontes": [
+    {
+     "nome": "Nvidia – results statement for the third quarter of fiscal year 2027 (17 Nov)",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+    },
+    {
+     "nome": "CBS News (17 Nov)",
+     "url": "https://www.cbsnews.com/news/nvidia-earnings-jensen-huang-colette-kress/"
+    },
+    {
+     "nome": "ABC News (17 Nov)",
+     "url": "https://abcnews.com/Business/nvidia-set-issue-earnings-report-days-after-jensen/story?id=138174647"
+    },
+    {
+     "nome": "Fast Company (17 Nov)",
+     "url": "https://www.fastcompany.com/91644237/nvidia-q3-earnings-first-without-jensen-huang"
+    },
+    {
+     "nome": "StockTitan – markets on 17 Nov",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026"
+    }
+   ],
+   "imagem": {
+    "commons": "Nvidia HQ.jpg",
+    "tipo": "arquivo",
+    "alt": "Nvidia headquarters building in Santa Clara, California",
+    "legenda": "Nvidia headquarters in Santa Clara, California (archive image; it does not show the results presentation)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Brussels accuses Temu of failing to stop the sale of illegal and dangerous products; fine could reach 6% of worldwide turnover",
+   "estado": "Preliminary findings of the European Commission (17 Nov) · Temu disagrees and will respond · no fine decided",
+   "data": "2026-11-17",
+   "texto": [
+    "Temu, the Chinese e-commerce platform, is not doing enough to prevent the sale of illegal and unsafe products in the European Union. That is the preliminary finding of the European Commission, released on Tuesday 17 November under the Digital Services Act (DSA), the European rules that require large platforms to control the risks of what is sold and posted on them. If the finding is confirmed, Temu could be fined up to 6% of its annual worldwide turnover and ordered to fix the problem.",
+    "Brussels points to three failings. First, checks: Temu only asks for test reports for a small share of products, often does not even check them and does not prioritise physical inspections in categories it itself considers high-risk, such as toys, electronics and cosmetics. Second, moderation: it looks more at the information in listings than at product safety, and the number of human moderators has not kept pace with the growth in listings. Third, sanctions: it penalises shops rather than sellers, who can carry on selling through other shops, even after several serious breaches. «Shopping online should not mean running the risk of buying illegal and unsafe products», said the Commission's Executive Vice-President Henna Virkkunen.",
+    "Temu said it disagrees with the findings, insisted that it invests heavily in compliance and said it will respond, confident of an amicable solution, according to the Eunews website. It is not the company's first problem with Brussels: in May, it was fined €200 million for poorly assessing the platform's risks. The investigation opened in October 2024 also covers other issues, such as the app's potentially addictive design and its recommendation systems, which are not part of these findings."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Findings, the three failings, the maximum fine of 6%, Virkkunen's quote and the previous fine of 200 million (May 2026) confirmed by the European Commission's statement and by Eunews. Temu's reaction is quoted by Eunews (Temu's press office in Italy). These are preliminary findings: Temu can still defend itself and no fine or deadline for the final decision has been set."
+   },
+   "fontes": [
+    {
+     "nome": "European Commission – statement (17 Nov), via the Representation in Luxembourg",
+     "url": "https://luxembourg.representation.ec.europa.eu/actualites-et-evenements/actualites/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal-products-2026-11-17_en"
+    },
+    {
+     "nome": "Eunews (17 Nov)",
+     "url": "https://www.eunews.it/en/2026/11/17/eu-commission-finds-temus-checks-on-illegal-products-ineffective/"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Ukraine cuts the road on the Crimean Bridge, two days before the Shenzhen summit between Xi, Trump and Putin",
+   "estado": "Attack confirmed by Kyiv and Moscow · damage described by Kyiv; Russia admits «damage» and has cut road traffic",
+   "data": "2026-11-17",
+   "texto": [
+    "The bridge linking Russia to the Ukrainian peninsula of Crimea, occupied by Moscow, has lost its road link. Ukraine attacked it with drones and missiles overnight from Monday to Tuesday 17 November, and the Ukrainian General Staff says an arch and a span of the road have collapsed. The railway section is still standing, with one arch damaged. Ukrainian President Volodymyr Zelensky called it an «unprecedented» operation. The attack comes two days before Vladimir Putin sits down with Xi Jinping and Donald Trump in Shenzhen, China.",
+    "On the Russian side, the authorities admit the attack but give no details of the damage. Russia's Investigative Committee spoke of «damage» and opened a terrorism case. The Moscow-appointed governor of Crimea, Sergei Aksyonov, announced that car traffic had been suspended and that trains were running again on Tuesday afternoon. Kremlin spokesman Dmitry Peskov insisted that the bridge «will be rebuilt and will be better than it was» and did not rule out a link between the attack and the three-way summit.",
+    "According to Zelensky, it was the final phase of a seven-stage campaign: first, air defences, radars and electronic warfare equipment were destroyed; then long-range drones hit the road, Neptune missiles hit the railway and Flamingo cruise missiles delivered the final blow. The Ukrainian company that makes the Flamingo, Fire Point, claims that around 275 metres of road were destroyed. The AP news agency was unable to verify the videos showing part of the deck in the water. The bridge is seen as a symbol of the illegal annexation of Crimea in 2014 and is used to supply Russian troops.",
+    "On the same night, the war continued in both directions. Russia said it had faced 1,441 Ukrainian drones, 800 of them aimed at Moscow, according to the capital's mayor. Ukraine says Russia launched 306 drones and several missiles: at least two people died in Kyiv, where ballistic missiles reportedly targeted bridges over the Dnipro river, and there were more deaths in Chernihiv, Zaporizhzhia and Vinnytsia. In Crimea, Aksyonov said two people were killed in a drone attack in Kerch."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Attack, damage according to the Ukrainian General Staff, statements by Zelensky, Peskov and Aksyonov and deaths in Kyiv confirmed by the AP (via PBS NewsHour) and ABC News. Terrorism case, number of drones, Fire Point's claim (around 900 feet, our conversion to ~275 m), deaths in Kerch, Chernihiv and Vinnytsia and the attack on Kyiv's bridges according to ABC News. The AP says it was unable to verify the videos of the collapsed deck; the real extent of the damage has not been independently confirmed. Casualty figures changed throughout the day (the AP reports two dead and 18 injured in Zaporizhzhia; ABC, one dead and 31 injured)."
+   },
+   "fontes": [
+    {
+     "nome": "AP via PBS NewsHour – «The symbol of the occupation» (17 Nov)",
+     "url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea"
+    },
+    {
+     "nome": "ABC News – attack on the Crimean Bridge (17 Nov)",
+     "url": "https://abcnews.com/International/ukraine-attacks-crimean-bridge-2nd-consecutive-night-officials/story?id=138201512"
+    }
+   ],
+   "imagem": {
+    "commons": "Kerch. Crimean Bridge P5030811 2350.jpg",
+    "tipo": "arquivo",
+    "alt": "The Crimean Bridge over the Kerch Strait, seen from the shore",
+    "legenda": "The Crimean Bridge, near Kerch, before the attack (archive image; it does not show the damage of 17 November)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Xi and Putin already in talks in Shenzhen; Trump arrives for the three-way summit and floats meetings with Putin and Kim",
+   "estado": "Xi-Putin meeting confirmed by Chinese and Russian news agencies · three-way summit scheduled for Thursday 19",
+   "data": "2026-11-18",
+   "texto": [
+    "Xi Jinping and Vladimir Putin began talks this Wednesday, 18 November, in Shenzhen, in southern China, according to Chinese and Russian news agencies. It is the eve of the first summit between the leaders of China, Russia and the United States, set for Thursday on the sidelines of the APEC (Asia-Pacific Economic Cooperation) forum. Putin landed in Shenzhen on Tuesday night. It is the fifth meeting between the two leaders this year, one of them by video.",
+    "What will be on the table? Beijing speaks only of «in-depth exchanges» on world peace and «strategic stability» between major powers. Washington says the war with Iran and nuclear disarmament are also on the agenda, after the last nuclear treaty between the US and Russia expired in February. China argues that the two countries should cut their own arsenals first, as they are far bigger than China's. On Ukraine, the US first said it would not be discussed; then Trump said it would. According to Kremlin adviser Yuri Ushakov, Thursday's meeting starts with the economy and moves on to international politics over a working breakfast.",
+    "Trump was in the Philippines for the summit of ASEAN, the Association of Southeast Asian Nations, where he met the leaders of Australia, Japan and India. He said he wants one-to-one talks with Putin and with North Korean leader Kim Jong-un in Shenzhen, and that Kim «would like» to meet in China. Beijing says it has no information about such a meeting, and Secretary of State Marco Rubio did not confirm it. In Kyiv and in European capitals, the fear is that the three will decide Ukraine's future without the Ukrainians and without Europe."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Start of the Xi-Putin talks, the agendas stated by Beijing and Washington, and the statements by Trump and Rubio confirmed by AFP (via Euronews and the Kyiv Post) and by RTÉ (with agencies). Putin's arrival on Tuesday and Ushakov's plan for Thursday according to the Kyiv Post (17 Nov). The exact time of the three-way summit and Trump's arrival in Shenzhen were not confirmed; a meeting with Kim Jong-un is only a possibility mentioned by Trump."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews – Xi and Putin hold talks on the eve of the summit (18 Nov)",
+     "url": "https://www.euronews.com/2026/11/18/chinas-xi-jinping-and-putin-hold-talks-in-shenzhen-on-eve-of-three-way-summit-with-trump"
+    },
+    {
+     "nome": "RTÉ – Xi and Putin to meet ahead of historic Trump trilateral (18 Nov)",
+     "url": "https://www.rte.ie/news/2026/1118/1599626-asia-trilateral-summit/"
+    },
+    {
+     "nome": "Kyiv Post (AFP) – Xi, Putin Meet Ahead of Historic Trump Trilateral Summit",
+     "url": "https://www.kyivpost.com/post/90443"
+    },
+    {
+     "nome": "Kyiv Post – Putin arrives in Shenzhen (17 Nov)",
+     "url": "https://www.kyivpost.com/post/90410"
+    }
+   ],
+   "imagem": {
+    "commons": "Shenzhen Skyline from Futian District5.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Skyscrapers in Shenzhen's Futian district",
+    "legenda": "Shenzhen seen from the Futian district (archive image; does not show the summit)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "US strikes Iran's Qeshm island; Iran responds with drones against bases in Kuwait and Bahrain",
+   "estado": "Attacks confirmed by the US and Iranian militaries and by Gulf countries · no casualties reported · Qatari and Omani mediation continues",
+   "data": "2026-11-18",
+   "texto": [
+    "The war between the US and Iran has heated up again in the Gulf. On Tuesday, 17 November, American aircraft struck a Revolutionary Guard missile launch site on the Iranian island of Qeshm, in the Strait of Hormuz. According to a US military official quoted by Reuters, it was a response to Iranian attacks on American personnel and equipment. Iran says the island suffered no serious damage and that it captured a US drone. So far no casualties have been reported.",
+    "The response came overnight. The Iranian army says it attacked US drone and missile facilities at the Ali Al Salem base in Kuwait — the first attack on the country since September. Bahrain, home to the US Navy's Fifth Fleet, intercepted Iranian attacks for the third time in a week. The Revolutionary Guard had earlier said it hit a radar used by the US at the Sheikh Isa air base. In Saudi Arabia, the coalition fighting Yemen's Houthis, who are allied with Iran, says it destroyed a cruise missile aimed at Riyadh.",
+    "Meanwhile, diplomacy is trying to move forward. Qatari and Iranian officials met to bring their proposals closer, and Iran's foreign minister, Abbas Araghchi, was in Oman presenting a plan to end the war. Who controls traffic through Hormuz remains the main sticking point. Trump said he takes «very seriously» a CNN report about an alleged Iranian plan to use a «dirty bomb» in Washington; Araghchi called it propaganda and Rubio said he did not see an imminent threat. The war began on 28 February, with US and Israeli strikes on Iran, and is expected to be discussed at Thursday's summit in Shenzhen."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Strike on Qeshm, attacks on Bahrain and statements by Trump and Araghchi confirmed by Reuters (via RTÉ) and AFP (via Business Recorder). Attack on the Ali Al Salem base (Kuwait), Houthi missile against Riyadh, the Qatar–Iran meeting and Araghchi's visit to Oman only according to Reuters (via RTÉ). AFP also reports the arrival of a third US aircraft carrier in the region. Each side's claims about damage have not been independently verified."
+   },
+   "fontes": [
+    {
+     "nome": "RTÉ (Reuters) – Iran attacks US bases in Gulf countries (18 Nov)",
+     "url": "https://www.rte.ie/news/middle-east/2026/1118/1599631-iran-us/"
+    },
+    {
+     "nome": "Business Recorder (AFP) – Iran says US struck Qeshm island (18 Nov)",
+     "url": "https://www.brecorder.com/news/40449467/iran-says-us-struck-qeshm-island-after-guards-target-bahrain?v=WnaUVwk46t9b5fCErDHNPAf-"
+    },
+    {
+     "nome": "CBS News – live updates on the Iran war (17 Nov)",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Serbia: the students who won the election take their seats in Parliament, two years after the Novi Sad tragedy",
+   "estado": "Fact: MPs sworn in on 17 Nov · Speaker yet to be elected · 90 days to form a government",
+   "data": "2026-11-17",
+   "texto": [
+    "Serbia's new Parliament met for the first time this Tuesday, 17 November, in Belgrade, and the MPs of the Student List were sworn in. The movement born of the student protests won the election of 25 October with 140 of the 250 seats, a big enough majority to govern alone. The coalition of former president Aleksandar Vučić ended up with around 104 seats. The vote ended 14 years in power for his party, the SNS (Serbian Progressive Party).",
+    "It all began with a tragedy. On 1 November 2024, the canopy of Novi Sad railway station collapsed, killing 16 people. The accident was blamed on corruption and sparked almost two years of protests, the biggest since the fall of Slobodan Milošević in 2000. Outside, supporters cheered the new MPs and booed those from the SNS. Vučić, who left the presidency before the end of his term, now sits in Parliament as leader of the opposition.",
+    "What next? The first step is to elect the Speaker of Parliament, who also becomes the country's acting president. The movement, which has no formal leader, has not yet said whom it will put forward for that post or for prime minister. From this session there are 90 days to form a government; if that fails, there will be new elections. A presidential election must also be held by the end of the year."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Swearing-in, results, the Novi Sad tragedy (16 dead) and the 90-day deadline confirmed by Al Jazeera, RFE/RL and RTÉ (with AFP). The SNS's seat count varies between sources (104 in Al Jazeera, 103 in RTÉ). The date Vučić left the presidency differs between sources (June in RFE/RL, September in RTÉ), so it is not given. The supporters' reaction outside and the end of 14 years in power according to RTÉ. At the time of going to press, it had not been confirmed whether the Speaker had already been elected."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera – Election-winning student movement enters Serbia's new parliament (17 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/17/election-winning-student-movement-enters-serbias-new-parliament"
+    },
+    {
+     "nome": "RFE/RL – Serbia's Student List Sworn In As Lawmakers (17 Nov)",
+     "url": "https://www.rferl.org/a/serbia-parliament-student-list-opposition-vucic/33899684.html"
+    },
+    {
+     "nome": "RTÉ – Students enter parliament after historic Serbian election (17 Nov)",
+     "url": "https://www.rte.ie/news/world/2026/1117/1599549-serbia-election/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "2027 Budget enters its decisive phase today: 2,864 amendments, a day after Brussels forecast a deficit",
+   "estado": "Detailed votes start today and run until 23 Nov · final overall vote scheduled for 24 Nov · Brussels forecasts, not results",
+   "data": "2026-11-18",
+   "texto": [
+    "Today, Wednesday 18 November, the longest and least predictable stage of the 2027 State Budget begins: the detailed debate and vote, that is, article by article and amendment by amendment. Proceedings start at 10:00 in the plenary of the Assembleia da República, Portugal's parliament, and voting begins at 15:00 in the parliamentary Budget and Finance Committee. The parties tabled 2,864 amendments, a record (last year there were 2,176), according to Lusa, the Portuguese news agency. The final overall vote is scheduled for Tuesday 24 November.",
+    "Who proposed the most? Chega leads with 712 amendments, followed by the PCP (653), Livre (504), the Left Bloc (368) and the PS (200). The PSD and CDS-PP, the parties in government, tabled 84 between them. As they do not have a majority, they need the PS or Chega to let their proposals through. And the reverse can also happen: Observador identified several measures on which the PS and Chega agree and which could be passed against the Government's wishes — so-called «negative coalitions». They include halting the rise in university tuition fees, extending the toll exemption on the A6 motorway to Moura and Barrancos, increasing allowances for the security forces and funding for firefighters and parishes, and raising the IMT (the tax paid when buying a home) for non-residents.",
+    "The backdrop got tighter the day before. In its autumn forecasts, published on 17 November, the European Commission expects Portugal to return to a deficit in 2027 (0.1% of GDP) and in 2028 (0.3%), whereas the Government is counting on a small surplus of 0.1% in 2027. Brussels also forecasts weaker growth (1.9% in 2027, against 2.1% in the Budget) and points to cuts in income tax (IRS) and corporate tax (IRC), higher interest rates and the end of money from the PRR, the Recovery and Resilience Plan, as the reasons. The Finance Minister, Joaquim Miranda Sarmento, had already warned that the room for manoeuvre is «limited» and that it is difficult to accommodate proposals that would unbalance the public accounts."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Timetable (18–23 Nov, final overall vote on 24 Nov), times and number of amendments per party according to Lusa (published by RTP and Jornal de Negócios). The possible areas of agreement between the PS and Chega are Observador's analysis of the amendments tabled; none had yet been voted on at the time of going to press (around 8:30). Brussels forecasts according to ECO (17 Nov); the Renascença/Lusa report on the same subject could not be opened, but its headline confirms a deficit in 2027 and 2028. The Government's reaction to the Commission's forecasts was not confirmed; Sarmento's quote is earlier and comes from Lusa."
+   },
+   "fontes": [
+    {
+     "nome": "RTP / Lusa – «2027 Budget: detailed debate and vote begin with a record number of amendments»",
+     "url": "https://www.rtp.pt/noticias/economia/oe2027-debate-e-votacao-na-especialidade-comecam-com-recorde-de-propostas-de-alteracao_n1779899"
+    },
+    {
+     "nome": "Jornal de Negócios – start of the detailed stage (18 Nov)",
+     "url": "https://www.jornaldenegocios.pt/economia/financas-publicas/orcamento-do-estado/detalhe/arrancam-o-debate-e-votacao-do-oe-2027-na-especialidade-feitas-2-800-propostas-de-alteracao"
+    },
+    {
+     "nome": "Observador – «Doors open (some through negative coalitions) to changes to the Budget»",
+     "url": "https://observador.pt/especiais/portas-abertas-algumas-atraves-de-coligacoes-negativas-para-alteracoes-ao-orcamento-propostas-pelo-psd-ps-e-chega-com-desafio-ao-governo/"
+    },
+    {
+     "nome": "ECO – European Commission autumn forecasts (17 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/17/bruxelas-mais-pessimista-ve-portugal-a-crescer-19-em-2027-e-a-regressar-aos-defices/"
+    }
+   ],
+   "imagem": {
+    "commons": "Lisboa - Assembleia da República.jpg",
+    "tipo": "arquivo",
+    "alt": "Façade of the São Bento Palace, home of the Assembleia da República, in Lisbon",
+    "legenda": "The São Bento Palace in Lisbon, home of the Assembleia da República (archive image; does not show today's debate)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Portugal beat Wales 3-2 in Cardiff and top their Nations League group; quarter-final draw is on Friday",
+   "estado": "Final result · Portugal through to the quarter-finals as group winners · draw on Friday 20 Nov, in Switzerland",
+   "data": "2026-11-17",
+   "texto": [
+    "Portugal beat Wales 3-2 on Tuesday night in Cardiff, in the last match of the Nations League group stage. With the win, Jorge Jesus's side finish top of the group with 15 points and go through to the quarter-finals. The winning goal came from Carlos Forbs, who came on in the second half and scored in the 70th minute.",
+    "It was not an easy night. Bruno Fernandes opened the scoring in the 11th minute, but David Brooks equalised soon afterwards and Sorba Thomas put the Welsh ahead before half-time. Pedro Neto equalised in the 43rd minute. After the 3-2, Pedro Neto was sent off for a second yellow card and Portugal played the last few minutes with ten men. In the group's other match, Norway beat Denmark 3-2 and also went through; Denmark finished third and are out.",
+    "What next? The quarter-final draw is on Friday 20 November at UEFA's headquarters in Nyon, Switzerland. As group winners, Portugal will face Spain, Belgium or the Netherlands. The first leg is away, between 25 and 27 March 2027, and the second leg at home, between 28 and 30 March."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Result, scorers and Pedro Neto's sending-off confirmed by Lusa (via Executive Digest) and Rádio Metropolitana Porto; the minute of Wales's 2-1 goal is given as 40' in one source and 41' in another, so the text says «before half-time». Date and time of the draw (20 Nov, 11:00 Lisbon time) and quarter-final dates according to Sports Mole and Lusa. That Norway also went through is information from Lusa; it was not confirmed in UEFA's regulations. Renascença's article on the match could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "Executive Digest / Lusa – «Nations League: Portugal win in Cardiff and take Group A4»",
+     "url": "https://executivedigest.sapo.pt/liga-nacoes-portugal-vence-em-cardiff-e-conquista-grupo-a4/"
+    },
+    {
+     "nome": "Rádio Metropolitana Porto – match report",
+     "url": "https://www.radiometropolitanaporto.pt/portugal-vence-pais-de-gales-em-cardiff-e-garante-lideranca-do-grupo-na-liga-das-nacoes/"
+    },
+    {
+     "nome": "Observador – Wales–Portugal liveblog",
+     "url": "https://observador.pt/liveblogs/pais-de-gales-portugal-trincao-joao-neves-e-antonio-silva-no-onze/"
+    },
+    {
+     "nome": "Sports Mole – date of the quarter-final draw",
+     "url": "https://www.sportsmole.co.uk/football/england/uefa-nations-league/news/when-is-the-nations-league-quarter-final-draw_609036.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Cardiff City Stadium Pitch.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Pitch and stands of the Cardiff City Stadium, in Wales",
+    "legenda": "The Cardiff City Stadium, in Cardiff (archive image; does not show Tuesday's match)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Dangerous seas from this afternoon: waves of up to 10 metres on the northern and central coast, and Lisbon also moves to orange warning",
+   "estado": "IPMA warnings in force · orange warning from 18 Nov, 18:00, until the end of Thursday · forecasts, subject to update",
+   "data": "2026-11-18",
+   "texto": [
+    "The sea will become dangerous from 18:00 today, Wednesday, in six coastal districts: Viana do Castelo, Braga, Porto, Aveiro, Coimbra and Leiria. IPMA, Portugal's weather and sea service, is keeping an orange warning (the second most serious) in place until midnight between Thursday and Friday, with north-westerly waves of five to six metres and some that could reach 10 metres. After that, the warning drops to yellow until midday on Friday.",
+    "The new development is Lisbon. The district also moves to orange warning on Thursday, between 6:00 and midday, according to Lusa. Setúbal, Beja and Faro have been on yellow warning since midday today, until 9:00 on Friday. Today there is also a yellow warning for persistent, at times heavy, rain in several districts in the North, Centre and Lisbon and Tagus Valley.",
+    "What to do? The usual advice: do not go onto piers, sea walls, cliffs or exposed beaches, do not fish in risky areas and do not walk near the breaking waves. According to Tempo.pt, quoted by Executive Digest, the worst should be on Thursday between Caminha and Peniche, and temperatures will fall from Thursday in the inland North and Centre."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Districts, times and wave heights according to the IPMA warnings quoted by Lusa (Observador and DNOTICIAS.PT, 18 Nov). Executive Digest/Tempo.pt gives the end of the orange warning as 6:00 on Friday, not midnight; Lusa's time was used. The safety advice comes from Executive Digest; the Civil Protection statement was not consulted. IPMA may change the warnings during the day. The 17 Nov edition had already anticipated the orange warning; what is new is the warning for Lisbon and the forecast of waves of up to 10 metres."
+   },
+   "fontes": [
+    {
+     "nome": "Observador / Lusa – «Orange warning in seven districts due to rough seas»",
+     "url": "https://observador.pt/2026/11/18/aviso-laranja-em-sete-distritos-devido-a-agitacao-maritima/"
+    },
+    {
+     "nome": "DNOTICIAS.PT / Lusa – «Orange and yellow warnings for the whole of the Portuguese mainland coast»",
+     "url": "https://www.dnoticias.pt/2026/11/18/513330-avisos-laranja-e-amarelo-para-toda-a-costa-continental-portuguesa/"
+    },
+    {
+     "nome": "Executive Digest – «Polar jet stream crosses Portugal this Wednesday»",
+     "url": "https://executivedigest.sapo.pt/jato-polar-atravessa-portugal-esta-quarta-feira-seis-distritos-sob-aviso-laranja-e-ondas-ate-10-metros/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "300,000 more people vaccinated against flu than a year ago: the campaign has passed two million",
+   "estado": "Official DGS data up to 15 Nov · vaccination campaign under way",
+   "data": "2026-11-17",
+   "texto": [
+    "More than two million people in Portugal have already had the flu jab in this autumn and winter campaign. Between 30 September and 15 November, 2,028,800 people were vaccinated, according to the latest weekly report from the DGS, Portugal's Directorate-General of Health, quoted by Lusa. That is around 303,000 more than at the same point last year, an increase of 17.6%, reported the Diário de Notícias.",
+    "For covid-19, the trend is the opposite. The seasonal booster has reached 884,041 people, around 115,000 fewer than a year ago, according to the DN, with the biggest falls among the over-85s and those aged 60 to 69. Counting both vaccines, almost three million doses have been given. The 70 to 79 age group has the most vaccinations: nearly 641,000 against flu and 320,000 against covid. Among the under-fives, almost 92,000 children between six months and four years old have had the flu vaccine.",
+    "Why does this matter? Flu usually puts the most pressure on hospitals between December and February, and the vaccine reduces the risk of serious illness, especially in older people. The DGS and pharmacies assure the DN that the campaign is running normally and that there is no shortage of vaccines — last year, at this point, the high-dose vaccine for the over-85s was in short supply."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Totals and figures by age according to the DGS, quoted by Lusa (Observador, 17 Nov). Comparison with 2025 (+303,000, +17.6% for flu; around −115,000 for covid) according to the DN, which cites «official data»; the percentage fall for covid given by the DN (8.6%) does not match the absolute figures and has been left out. That there are no shortages is a statement by the DGS and pharmacies to the DN; a Público report of 9 Nov about a shortage of prescription vaccines in pharmacies was not opened and has not been verified. The sentence on the flu peak and the vaccine's effect is general context and does not come from these sources."
+   },
+   "fontes": [
+    {
+     "nome": "Observador / Lusa – «Almost 3 million people given Covid-19 and flu boosters»",
+     "url": "https://observador.pt/2026/11/17/quase-3-milhoes-de-pessoas-vacinadas-com-reforco-contra-covid-19-e-gripe/"
+    },
+    {
+     "nome": "Diário de Notícias – «303,000 more vaccinated against flu so far»",
+     "url": "https://www.dn.pt/sociedade/mais-303-mil-vacinados-contra-a-gripe-at-agora-aumento-de-176-face-a-2025"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "NASA's Terra satellite stops collecting data on 1 December, after 27 years watching the Earth",
+   "estado": "NASA announcement (17 Nov) · science ends on 1 Dec, decommissioning by January 2027",
+   "data": "2026-11-17",
+   "texto": [
+    "NASA's Terra satellite will stop collecting scientific data on 1 December, the US space agency announced this Tuesday, 17 November. Launched in December 1999, it was designed to last six years and has worked for more than four times as long. After 1 December, the team will use up the remaining fuel to lower its orbit and switch off all its systems in January 2027.",
+    "Why is it ending now? Its systems are ageing and its orbit is drifting, NASA explains. The satellite had already been saving power: MOPITT, the instrument that measured carbon monoxide pollution, was switched off in April 2025, and parts of two other instruments no longer work. Since 2020 Terra has stopped correcting its orbit, to save fuel for a controlled descent.",
+    "Terra was the first major satellite in NASA's Earth Observing System. Its five instruments, including MODIS, a camera that photographs the whole planet almost every day, tracked fires, smoke and dust, changes in land use, ice and the make-up of the atmosphere. The 27 years of data remain free and public. NASA advises those who use the data in real time to switch to VIIRS, a similar instrument flying on other US satellites. Its sister satellites are also nearing the end: Aqua is expected to end its science in September 2027 and Aura in August 2028."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "End date (1 Dec), decommissioning in January 2027, reasons and list of instruments according to NASA's announcement of 17 Nov; the 1 Dec date also appears in the notice on the Earthdata portal (NASA). Launch (18 Dec 1999), MOPITT switched off on 9 Apr 2025, end of orbit corrections in 2020 and expected dates for Aqua and Aura according to the article «Terra: The End of An Era» (NASA Earth Observer, Dec 2025). Karmactive (18 Nov) repeats the information but relies on NASA itself, so it does not count as an independent source."
+   },
+   "fontes": [
+    {
+     "nome": "NASA Science – «NASA's Terra Mission to End» (17 Nov)",
+     "url": "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/"
+    },
+    {
+     "nome": "NASA Earthdata – transition from MODIS to VIIRS",
+     "url": "https://www.earthdata.nasa.gov/data/alerts-outages/transition-from-modis-viirs"
+    },
+    {
+     "nome": "NASA Earth Observer – «Terra: The End of An Era»",
+     "url": "https://science.nasa.gov/science-research/earth-science/terra-the-end-of-an-era"
+    },
+    {
+     "nome": "Karmactive (18 Nov)",
+     "url": "https://www.karmactive.com/nasa-terra-mission-end/"
+    }
+   ],
+   "imagem": {
+    "commons": "Blue Marble 2002.png",
+    "tipo": "arquivo",
+    "alt": "Planet Earth seen from space, with the Americas, blue oceans and white clouds",
+    "legenda": "«Blue Marble», a composite image of the Earth released by NASA in 2002 using data from MODIS, one of the Terra satellite's instruments (archive image; does not show the satellite)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "The Roman telescope, NASA's new planet «hunter», shows its first images on 7 December",
+   "estado": "Date announced by NASA (17 Nov) · images not yet released",
+   "data": "2026-11-17",
+   "texto": [
+    "There is now a date for the first images from the Nancy Grace Roman space telescope: 7 December, at 20:30 Lisbon time. NASA announced this Tuesday, 17 November, that it will show them in a live broadcast from the annual meeting of the American Geophysical Union (AGU), in San Francisco. The images will be available at the same time on the agency's website.",
+    "Roman was launched on 30 August on a SpaceX Falcon Heavy rocket from the Kennedy Space Center in Florida. It travelled for about three months to a point of gravitational balance 1.5 million kilometres from Earth (known as L2). Since then, its systems have been switched on, fine-tuned and calibrated. It cost $4.3 billion and its main camera has 300 megapixels, according to the science outreach site Starlust.",
+    "Why does this matter? Roman sees large areas of the sky at once, in infrared. Its main goals are to study dark matter and dark energy, which cannot be seen but make up most of the Universe, and to find planets outside the Solar System. It also carries a coronagraph, an instrument that blocks out starlight so as to photograph the planets around stars directly. Until then, NASA is inviting the public to «adopt» a pixel from one of the first images."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date and time (7 Dec, 15:30 EST = 20:30 Lisbon time), launch on 30 Aug, three-month journey to the L2 point, commissioning and science goals according to NASA's press release of 17 Nov; date and time confirmed by Starlust, which adds the cost ($4.3 billion) and the 300-megapixel camera. Starlust relies partly on NASA. The distance of 1.5 million km corresponds to the «million miles» quoted by NASA. The images have not yet been seen: this is the announcement of a date."
+   },
+   "fontes": [
+    {
+     "nome": "NASA – «NASA Invites Media, Public to View Roman Telescope's First Images» (17 Nov)",
+     "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/"
+    },
+    {
+     "nome": "Starlust",
+     "url": "https://starlust.org/nasa-to-unveil-first-images-by-nancy-grace-roman-telescope-on-december-7-heres-how-to-tune-in-live/"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Floresta Mágica» (Wildwood): Laika spent 16 years making its most ambitious stop-motion film — and critics are won over by the images more than by the story",
+   "ficha": {
+    "Original title": "Wildwood (2026, United States)",
+    "Director": "Travis Knight (president of Laika; directed «Kubo and the Two Strings»)",
+    "Voices (original version)": "Peyton Elizabeth Lee, Jacob Tremblay, Carey Mulligan, Mahershala Ali, Angela Bassett, Awkwafina, Tom Waits, Richard E. Grant",
+    "Release in Portugal": "29 October 2026 (animation/fantasy; M/6, ages 6+; 132 minutes; distributed by NOS Audiovisuais), in Portuguese-dubbed and original versions, according to filmSPOT",
+    "Rating": "Favourable reviews: 9/10 from SlashFilm, B+ from the AV Club, great enthusiasm from In Review Online; reservations about a familiar story and a predictable battle climax"
+   },
+   "texto": [
+    "«Floresta Mágica» («Wildwood»), the new feature from the American studio Laika, the makers of «Coraline», is still showing in Portuguese cinemas. It opened on 29 October and today, 18 November, there are screenings in cinemas from Braga to Faro — at the UCI Arrábida, in Gaia, there are three, two of them dubbed into Portuguese. Directed by Travis Knight, it is a fantasy adventure made in stop-motion, that is, with real puppets and sets photographed frame by frame.",
+    "The story, based on the 2011 novel by Colin Meloy and Carson Ellis, follows a girl who enters a hidden forest to rescue her little brother. Inside there is a secret kingdom, magical creatures, unexpected allies and dangerous enemies. Best not to say more. Knight says he pitched the adaptation to Meloy shortly after «Coraline» (2009) and that the project took 16 years, because the studio had to invent tools for a film on this scale — «by far the most ambitious» they have ever made, in his words.",
+    "The strengths are plain to see. The reviews consulted praise the handcrafted work almost unanimously: detailed miniatures, feathers and leaves animated one by one, Caleb Deschanel's cinematography and chase and battle scenes with real physical weight. In Review Online calls it «the overwhelming visual experience of 2026». The AV Club highlights the voices and the seriousness with which the film treats themes such as nature conservation and displaced people; SlashFilm appreciates the calm pace and the way it avoids the noisy gags of much commercial animation.",
+    "The weaknesses also appear in the same reviews. The plot follows the classic hero's journey template and feels familiar; SlashFilm finds the resort to a big final battle uninventive; and some note that the mythology mixes in influences from other well-known sagas. Another warning: in the US the film was rated PG-13 and has scenes of violence and blood, even though in Portugal it is rated M/6. In short, according to the assessment that emerges from the reviews consulted: a familiar story, told with rare visual mastery, that justifies the big screen — but perhaps not one for younger or more sensitive viewers."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – details and cinemas for «Floresta Mágica»",
+     "url": "https://filmspot.pt/filme/wildwood-791523/"
+    },
+    {
+     "nome": "filmSPOT – screenings at UCI Cinemas Arrábida 20 (18 Nov)",
+     "url": "https://filmspot.pt/cinema/uci-cinemas-arrabida-20-gaia-63/884/"
+    },
+    {
+     "nome": "filmSPOT – October 2026 releases",
+     "url": "https://filmspot.pt/estreias/202610/"
+    },
+    {
+     "nome": "SlashFilm – review of «Wildwood» (Witney Seibold, 19 Oct)",
+     "url": "https://www.slashfilm.com/2288959/wildwood-movie-review/"
+    },
+    {
+     "nome": "AV Club – review of «Wildwood» (Monica Castillo, 21 Oct)",
+     "url": "https://www.avclub.com/wildwood-review-laika-stop-motion-epic-peyton-elizabeth-lee-jacob-tremblay"
+    },
+    {
+     "nome": "In Review Online – review of «Wildwood» (Abe Beame, 23 Oct)",
+     "url": "https://inreviewonline.com/2026/10/23/wildwood-review/"
+    },
+    {
+     "nome": "Cartoon Brew – Travis Knight presents «Wildwood» at Annecy",
+     "url": "https://www.cartoonbrew.com/feature-film/wildwood-travis-knight-annecy-263630.html"
+    }
+   ],
+   "nota": "Release date (29 Oct), M/6 rating, running time, distributor and list of cinemas come from filmSPOT; the three screenings on 18 Nov at the UCI Arrábida (14:55 and 18:00 dubbed into Portuguese, 21:25 in the original version) were confirmed on that cinema's filmSPOT page, consulted today; showtimes at other cinemas were not checked. Meloy and Ellis's 2011 book, Caleb Deschanel's cinematography and the PG-13 rating come from SlashFilm; the 16-year project and Knight's quote come from Cartoon Brew. The assessment summarises the reviews from SlashFilm, the AV Club and In Review Online; no Portuguese reviews were consulted. The RogerEbert.com review could not be opened. The image's Commons page could not be opened directly; the identification of the photograph (Travis Knight in 2016) comes from a copy of Wikipedia that uses it, and its author and licence were not confirmed.",
+   "imagem": {
+    "commons": "Travis Knight (30000495292).jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of the director and animator Travis Knight",
+    "legenda": "Travis Knight, director of «Floresta Mágica» (Wildwood), in 2016 (archive image; does not show the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Man Ray died 50 years ago: the painter who preferred photography «without a camera», put tacks on a flat iron and took the most expensive photograph ever",
+   "ficha": {
+    "Born and died": "27 August 1890, in Philadelphia (USA); 18 November 1976, in Paris",
+    "Real name": "Emmanuel Radnitzky",
+    "Field": "Photography, painting, objects and sculpture, experimental film (Dada and Surrealism)",
+    "Key works": "«Cadeau» («Gift», 1921), rayographs from «Les Champs délicieux» (1922), «Le Retour à la raison» (1923), «Le Violon d'Ingres» (1924), «L'Étoile de mer» (1928–29), «À l'heure de l'Observatoire, les amoureux» (1932–34)",
+    "Why now": "Anniversary: 50 years since his death; retrospective «Man Ray: Everything» at the Magnani-Rocca Foundation (Mamiano di Traversetolo, Parma, Italy), until 13 December 2026"
+   },
+   "texto": [
+    "Today, 18 November, marks 50 years since the death in Paris of Man Ray, the American artist who helped invent modern photography and passed through Dada and Surrealism without ever settling on a single art form. He was 86. To mark the date, the Magnani-Rocca Foundation, near Parma in Italy, is showing the retrospective «Man Ray: Everything» until 13 December, with more than 250 photographs, paintings, objects, books and films.",
+    "His name was Emmanuel Radnitzky and he was born in 1890 in Philadelphia, the son of Jewish immigrants from the Russian Empire: his father was a tailor and his mother a seamstress. He grew up in New York. In 1912, the family changed its surname to Ray because of antisemitism, and «Manny» became «Man». He started out as a painter. In 1915 he met Marcel Duchamp and the two livened up Dada in New York — a movement that mocked the rules of art. In July 1921 he moved to Paris, settled in Montparnasse and became the portraitist of artists and writers, as well as a fashion photographer for magazines such as Vogue and Harper's Bazaar.",
+    "Man Ray's style is made of experiments. He rediscovered the photogram by chance — images made without a camera, by placing objects on photographic paper and exposing it to light — and humorously called them «rayographs». With the photographer Lee Miller, he explored solarisation, which reverses some of the tones and creates luminous outlines. He turned everyday objects into art: «Cadeau» is a flat iron with a row of tacks glued to its base. And he made experimental films, such as «Le Retour à la raison» (1923), shot partly without a camera, using the rayograph technique.",
+    "A few curiosities. His most famous photograph, «Le Violon d'Ingres» (1924), shows the bare back of Kiki de Montparnasse, his partner in the 1920s, with the two «f-holes» of a violin painted over it. In 2022 it sold at Christie's in New York for $12.4 million, a record for a photograph at auction. When the Nazis occupied Paris in 1940, he fled to Los Angeles, where he devoted himself mainly to painting and married the dancer Juliet Browner, in a double wedding with Max Ernst and Dorothea Tanning. He went back to Paris and stayed there until the end. His grave in Montparnasse reads: «Unconcerned, but not indifferent»."
+   ],
+   "fontes": [
+    {
+     "nome": "Britannica – Man Ray",
+     "url": "https://www.britannica.com/biography/Man-Ray"
+    },
+    {
+     "nome": "Wikipedia – Man Ray",
+     "url": "https://en.wikipedia.org/wiki/Man_Ray"
+    },
+    {
+     "nome": "Finestre sull'Arte – «Man Ray: Everything» retrospective at the Magnani-Rocca Foundation",
+     "url": "https://www.finestresullarte.info/en/exhibitions/man-ray-an-extensive-italian-retrospective-at-the-magnani-rocca-foundation"
+    }
+   ],
+   "nota": "Dates and places of birth and death, parents (tailor and seamstress), Duchamp in 1915, the move to Paris in 1921, «Les Champs délicieux» (1922), solarisation with Lee Miller, fashion magazines, «Cadeau», films and the escape to Los Angeles in 1940 come from Britannica. The change of surname in 1912 and the origin of the name, July 1921 and Montparnasse, Kiki, the accidental discovery of rayographs, «Le Retour à la raison» as a film made without a camera, the 2022 sale ($12.4 million, a record), Juliet Browner and the double wedding, his age at death and the epitaph come from Wikipedia. The sources disagree on his return to Paris (Britannica: 1946; Wikipedia: Hollywood period until 1951), so the text does not give the year; Britannica says he was already using the pseudonym in 1911. The exhibition (title, venue, dates from 12 Sep to 13 Dec, more than 250 works, link to the 50th anniversary of his death) comes from Finestre sull'Arte; the foundation's own page was not opened. The image's Commons page could not be opened (the file appears in Commons search results); authorship by Carl Van Vechten and the 1934 date come only from the file name.",
+   "imagem": {
+    "commons": "Man Ray by Carl Van Vechten, 1934.jpg",
+    "tipo": "arquivo",
+    "alt": "Black-and-white portrait of Man Ray",
+    "legenda": "Man Ray photographed by Carl Van Vechten in 1934 (archive image)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that the «Mona Lisa» only became the most famous painting in the world after it was stolen from the Louvre in 1911?",
+   "texto": [
+    "Did you know that, until 1911, Leonardo da Vinci's «Mona Lisa» was not the star of the Louvre in Paris? Critics already admired it, but the general public walked past without much fuss. The 1907 Baedeker guidebook gave it just two sentences — fewer than the Venus de Milo. Everything changed one Monday in August, when the painting vanished from the wall.",
+    "The thief was Vincenzo Peruggia, an Italian who had worked at the Louvre for the company that put protective glass on the paintings. On the night of 20 August 1911, he hid in a storeroom. The next morning, with the museum closed and wearing the white smock of the staff, he took the painting out of its frame on a service staircase and walked out with it. Nobody noticed it was missing for more than a day: the guards thought it was being photographed. It was only on Tuesday that a painter who had come to copy the work raised the alarm.",
+    "The news went round the world. The Louvre closed for about a week and, when it reopened, thousands of people queued to see… the empty wall, with four iron hooks. Among the visitors was the writer Franz Kafka. The police even arrested the poet Guillaume Apollinaire, and Pablo Picasso was questioned, because of another theft of statuettes from the museum; both were cleared. Meanwhile, the face of the Gioconda was spreading across postcards, advertisements, cabaret songs and caricatures.",
+    "The painting spent more than two years hidden in a trunk in Paris. In December 1913, Peruggia tried to sell it to a Florence antiques dealer, Alfredo Geri, who alerted the director of the Uffizi Gallery; he was arrested on 11 December. He said he wanted to return the work to Italy — but the painting had been legally bought by King Francis I of France. He spent a few months in prison. The «Mona Lisa» was shown in Florence, Rome and Milan and returned to the Louvre at the beginning of 1914: more than 100,000 people went to see it in the first two days. Today, it receives around eight million visitors a year."
+   ],
+   "fontes": [
+    {
+     "nome": "History.com – The heist that made the Mona Lisa famous",
+     "url": "https://www.history.com/articles/the-heist-that-made-the-mona-lisa-famous"
+    },
+    {
+     "nome": "Smithsonian Magazine – The Theft That Made the Mona Lisa a Masterpiece",
+     "url": "https://www.smithsonianmag.com/arts-culture/the-theft-that-made-the-mona-lisa-a-masterpiece-16406234/"
+    },
+    {
+     "nome": "Finestre sull'Arte – The theft of the Mona Lisa by Vincenzo Peruggia",
+     "url": "https://www.finestresullarte.info/en/works-and-artists/the-theft-of-the-mona-lisa-when-vincenzo-peruggia-stole-leonardo-s-famous-painting"
+    }
+   ],
+   "nota": "The limited fame before 1911, the Baedeker guide, the four hooks, Kafka, the glazing company, the Italian cities where the painting was shown and the more than 100,000 visitors in two days come from Smithsonian. The storeroom, the white smock, the service staircase, the alarm on Tuesday, the reopening after about a week, Apollinaire and Picasso, the trunk, Geri and the Uffizi director, the arrest on 11 Dec 1913, Francis I, the return in January 1914 and the eight million visitors come from History.com (Smithsonian also gives eight million). The idea that the guards thought the painting was being photographed comes from Finestre sull'Arte. The sources differ on details: Finestre sull'Arte places the theft between 21 and 22 August and speaks of a suitcase under the bed; on the sentence, History.com says one year and 15 days, with about seven months served, Smithsonian eight months and Finestre sull'Arte a year and a half — so the text says only «a few months». The order of the Italian cities was not confirmed.",
+   "imagem": {
+    "commons": "Mona Lisa, by Leonardo da Vinci, from C2RMF natural color.jpg",
+    "tipo": "obra",
+    "alt": "The Mona Lisa by Leonardo da Vinci: portrait of a woman with folded hands, with a landscape in the background",
+    "legenda": "«Mona Lisa» (c. 1503–1519), by Leonardo da Vinci, Louvre Museum (public domain work)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Guimarães Jazz reaches its 35th edition: ten days of concerts, jam sessions until two in the morning and workshops for young musicians",
+   "ficha": {
+    "Origins": "Early 1990s, in Guimarães; organised by A Oficina, at the Centro Cultural Vila Flor (CCVF)",
+    "Field": "Jazz: concerts, jam sessions, training workshops, publishing and an exhibition",
+    "Partners": "ESMAE (School of Music and Performing Arts, Porto), Porta-Jazz, Sonoscopia and the Jazz Studies Centre of the University of Aveiro",
+    "Now": "From 12 to 21 November 2026; workshops until 20 Nov; Kurt Rosenwinkel Quintet (19 Nov), Peter Evans Quartet (20 Nov) and the North Macedonian National Jazz Orchestra with Kurt Elling (21 Nov); tickets €20, €15 with discount"
+   },
+   "texto": [
+    "Guimarães is halfway through one of the oldest jazz festivals in the country. Guimarães Jazz is in its 35th edition and runs from 12 to 21 November, mainly at the Centro Cultural Vila Flor (CCVF). This week there are workshops for young musicians; from Thursday 19 the concerts return, with the American guitarist Kurt Rosenwinkel. The finale, on Saturday 21, brings together the singer Kurt Elling and the newly created North Macedonian National Jazz Orchestra.",
+    "The festival was born in the early 1990s and is organised by A Oficina, the Guimarães municipality's cultural cooperative. The programmer, Ivo Martins, explained to Renascença last year that the idea is to show different formats and line-ups, to give a broad view of jazz. This year the 35th-anniversary celebrations include a book, «Guimarães Jazz: 35 anos» («Guimarães Jazz: 35 years»), and an exhibition in the CCVF foyer, «Body and Soul», about jazz and those who promoted it in Portugal.",
+    "What sets Guimarães Jazz apart is not just the international names. For two weeks, a resident group — this year the quintet of the musician Lex Korten — stays in the city, leads the ESMAE jazz orchestra, gives workshops to students who want to make a career of it and hosts late-night jam sessions, first at the Convívio association and, from 19 to 21, at the CCVF Café-Concerto, from midnight to two in the morning. The festival also opens its doors to Portuguese projects: this year there was the João Tavares trio, from the Jazz Studies Centre of the University of Aveiro, and «Filigrana», by Miguel Meirinhos and Joana BC, with the Porto collective Porta-Jazz.",
+    "In other words: it is both a stage and a school. There are still several dates: Peter Evans Quartet with «Being & Becoming» on Friday 20; and on Saturday 21, as well as the closing concert, the Reijseger/Fraanje/Sylla trio, in partnership with Sonoscopia, and Lex Korten's quintet itself. Concerts in the Grande Auditório cost €20 (€15 with discount) and there are passes for two to four sessions with discounts of 10% to 30%."
+   ],
+   "fontes": [
+    {
+     "nome": "CCVF – Guimarães Jazz 2026 (full programme)",
+     "url": "https://www.ccvf.pt/en/detail-eventos/20261112-guimaraes-jazz-2026-geral/"
+    },
+    {
+     "nome": "CCVF – Kurt Rosenwinkel Quintet (19 Nov)",
+     "url": "https://www.ccvf.pt/en/detail-eventos/20261119-guimaraes-jazz-kurt-rosenwinkel-quinteto/"
+    },
+    {
+     "nome": "CCVF – North Macedonian National Jazz Orchestra with Kurt Elling (21 Nov)",
+     "url": "https://www.ccvf.pt/en/detail-eventos/20261121-guimaraes-jazz-macedonian-national-jazz-orchestra-feat-kurt-elling/"
+    },
+    {
+     "nome": "CCVF – Jazz workshops with the Lex Korten Quintet",
+     "url": "https://www.ccvf.pt/en/detail-eventos/20261112-guimaraes-jazz-oficinas-de-jazz-lex-korten-quinteto/"
+    },
+    {
+     "nome": "Renascença – Immanuel Wilkins opens Guimarães Jazz (34th edition, 6 Nov 2025)",
+     "url": "https://rr.pt/noticia/vida/2025/11/06/norte-americano-immanuel-wilkins-abre-guimaraes-jazz-com-blues-blood/446735/"
+    }
+   ],
+   "nota": "Programme, dates, venues, partners, two-week residency, jam sessions, workshops, book and exhibition come from the CCVF pages; prices (€20/€15) confirmed on the pages for the Rosenwinkel and Elling concerts, and the passes on the Elling page (it was not confirmed whether they apply to all concerts). The 35th edition is consistent with the 34th in 2025 mentioned by Renascença; the CCVF says the early 1990s without giving an exact year, so the founding year is not given. That A Oficina is the municipality's cultural cooperative is general context, not confirmed in the sources opened. Ivo Martins's remarks are from 2025 (Renascença). The CCVF page dates the book launch to 16 October, which may be a typo; the text gives no date. Prices for the Pequeno Auditório concerts and ticket availability were not checked. The image's Commons page could not be opened; the file appears in Commons search results.",
+   "imagem": {
+    "commons": "CCVF Guimarães (2).jpg",
+    "tipo": "ilustrativa",
+    "alt": "The Centro Cultural Vila Flor building, in Guimarães",
+    "legenda": "Centro Cultural Vila Flor, in Guimarães, the main venue of Guimarães Jazz (illustrative image; does not show the festival)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 18 November from the listings and event pages of Casa da Música (including the Misty Fest page), the Teatro Municipal do Porto programme and PDF listings, the Batalha Centro de Cinema calendar, Agenda Porto (Porto City Council: Porto/Post/Doc, Coliseu and Rivoli programmes) and Time Out Porto. It was not possible to open the websites of the Coliseu, the TNSJ, Serralves and Porto/Post/Doc today, nor the Batalha box-office page; where the note says so, details confirmed in previous editions are repeated. Alan Stivell's concert at Casa da Música on 20 November has been cancelled (the venue asks for refunds to be requested by 20 November at the point of purchase and suggests a new concert in Porto in autumn 2027). Porto/Post/Doc opens on Thursday 19 at the Batalha and runs until 28 November, also at Passos Manuel and the Planetarium. It could not be confirmed today whether Há Fado no Mercado (at the Bolhão market) is on again this Wednesday, so it has been left out. Where it says «To be confirmed», the detail was not in the source: check the link before you go.",
+ "agenda": [
+  {
+   "dia": "2026-11-18",
+   "eventos": [
+    {
+     "nome": "O Pão (Bread), by Manoel de Oliveira, and other films",
+     "descricao": "A session about bread as food and symbol, with Manoel de Oliveira's film (1963) and shorts by Adriana Assunção, Manuel Costa e Silva, Mariana Caló and Francisco Queimadela, and Anna Ferrer.",
+     "horario": "19:15",
+     "tipo": "Cinema",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "€5",
+     "url": "https://www.batalhacentrodecinema.pt/en/program/o-pao/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "M/12 (ages 12+), English subtitles. Time confirmed today in the Batalha calendar; the price is not on the film's page and comes from the box office as consulted on 16 November."
+    },
+    {
+     "nome": "You Can See Everything, by Nathan Fielder and Lance Oppenheim",
+     "descricao": "Last screening in Porto of the documentary filmed in secret about Elizabeth Holmes, the Theranos founder convicted of fraud, in the weeks before she went to prison.",
+     "horario": "20:45",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/you-can-see-everything-nathan-fielder-e-lance-oppenheim/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/14 (ages 14+), 2h54. Screening, time and price confirmed today on the Teatro Municipal page."
+    },
+    {
+     "nome": "Svaneborg Kardyb + Vega Trails (Misty Fest)",
+     "descricao": "A double bill from Misty Fest, Casa da Música's autumn festival: Svaneborg Kardyb and Vega Trails in the same session.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "Sold out (tickets €20)",
+     "url": "https://casadamusica.com/event/svaneborg-kardyb-vega-trails/?selected_session=60550",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, room and price confirmed today in the Casa da Música listings, which show the session as sold out."
+    },
+    {
+     "nome": "Bryan Adams – Roll With the Punches",
+     "descricao": "The Canadian singer's second back-to-back concert in Porto, a date added after the first one sold out.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Super Bock Arena – Pavilhão Rosa Mota, Rua de D. Manuel II, 3, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.timeout.pt/porto/pt/noticias/depois-de-esgotar-as-primeiras-datas-bryan-adams-anuncia-mais-concertos-no-porto-e-em-lisboa-031026",
+     "ligacao": "Time Out Porto",
+     "nota": "Date and time confirmed today by Time Out Porto (the month's listings and the announcement article). When it went on sale, this date cost between €59.06 and €509.79 (Blueticket); Time Out and RFM listed it as sold out on 16 November. Not confirmed at the box office."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-19",
+   "eventos": [
+    {
+     "nome": "boca-rota",
+     "descricao": "A Porto project that brings together poetry, music and experimentation: true stories and others that might have been, to the sound of guitars, double bass and percussion.",
+     "horario": "19:30",
+     "tipo": "Music / Poetry",
+     "local": "Teatro Campo Alegre (Café-Teatro), Rua das Estrelas, Porto",
+     "preco": "€7",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/boca-rota-108/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12 (ages 12+), 1h. Created by Sofia Bodas de Carvalho and José Costa. Date, time and price confirmed today on the Teatro Municipal website."
+    },
+    {
+     "nome": "Porto/Post/Doc opening: «A Cidade e os Mapas» (The City and the Maps)",
+     "descricao": "The documentary film festival kicks off with the first feature by Alexandra Guimarães and Gonçalo L. Almeida: a delivery rider from Bangladesh and an architect who reads old maps cross a changing Porto without ever meeting.",
+     "horario": "21:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "€5",
+     "url": "https://www.agenda-porto.pt/evento/ppd-a-cidade-e-os-mapas/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+). Opening session, time and price (with Porto Card discounts) confirmed today on Agenda Porto. The festival website could not be opened today."
+    },
+    {
+     "nome": "Bruno Pernadas plays «Steamboat Bill Jr.», by Buster Keaton",
+     "descricao": "Film concert: Bruno Pernadas and a quintet play an original score live during the screening of Buster Keaton's silent comedy.",
+     "horario": "21:30",
+     "tipo": "Film concert",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€30",
+     "url": "https://casadamusica.com/event/bruno-pernadas-interpreta-steamboat-bill-jr-de-buster-keaton/?selected_session=61030",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time and price confirmed today on the Casa da Música website, which now gives Sala 2 (the 17 Nov edition said Sala Suggia). There are discounts for young people, seniors and students."
+    },
+    {
+     "nome": "Claiana",
+     "descricao": "The Cape Verdean musician Aguinaldo Conceição, from São Nicolau, sings in a language he invented himself, with influences ranging from Kassav' to Michael Jackson, in a concert to dance to.",
+     "horario": "21:30",
+     "tipo": "Music / Free activity",
+     "local": "Casa da Música (Café), Av. da Boavista, 604-610, Porto",
+     "preco": "Free entry",
+     "url": "https://casadamusica.com/event/claiana/?selected_session=60070",
+     "ligacao": "Casa da Música",
+     "nota": "Free entry, date and time confirmed today on the Casa da Música page; subject to the café's capacity."
+    },
+    {
+     "nome": "Rubel – BELEZA. Rubel e Violão (Rubel and Guitar)",
+     "descricao": "The Brazilian singer-songwriter performs solo, with voice and acoustic guitar, on the tour for his album «BELEZA».",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "€20 to €45",
+     "url": "https://www.agenda-porto.pt/en/evento/coliseu-rubel/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, time and prices confirmed today on Agenda Porto; date also on Time Out Porto. The Coliseu website could not be opened today."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-20",
+   "eventos": [
+    {
+     "nome": "Porto/Post/Doc: Num Aperto de Mãos Amigas + Douro, Faina Fluvial + O Pintor e a Cidade (In a Friendly Handshake + Labour on the Douro River + The Painter and the City)",
+     "descricao": "Three films that travel through Porto and the Douro, from work on the river to painting and friendship, with works by Manoel de Oliveira, one of them co-signed with Jean Rouch.",
+     "horario": "17:00",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "€5",
+     "url": "https://www.agenda-porto.pt/evento/ppd-num-aperto-de-maos-amigas/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+), about 1h30 (expected to end at 18:32). Time and price (with Porto Card discounts) confirmed today on Agenda Porto, in the festival's «Entre Imagens» (Between Images) section."
+    },
+    {
+     "nome": "Presentation of Casa da Música's 2027 Season",
+     "descricao": "The artistic director, François Bou, presents the 2027 season, which takes the 200th anniversary of Beethoven's death as its starting point and revisits the legacy of the Enlightenment.",
+     "horario": "18:30",
+     "tipo": "Music / Free activity",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "Free entry",
+     "url": "https://casadamusica.com/event/apresentacao-da-temporada-2027/?selected_session=61066",
+     "ligacao": "Casa da Música",
+     "nota": "Free entry confirmed today on the Casa da Música website. The listings and the session give 18:30, but the text on the page says 18:00: worth checking. The page does not say whether tickets need to be collected."
+    },
+    {
+     "nome": "The Brotherhood, by Carolina Bianchi Y Cara de Cavalo",
+     "descricao": "The second chapter of the «Cadela Força» trilogy: a show about pacts of male brotherhood and how their codes have perpetuated sexual violence, including in the history of art.",
+     "horario": "21:00",
+     "tipo": "Theatre",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "€12",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/carolina-bianchi-y-cara-de-cavalo-the-brotherhood-trilogia-cadela-for-a-cap-tulo-ii/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/18 (ages 18+), 3h40 with an interval, in Portuguese with English subtitles; deals with rape and sexual violence and has strobe lighting and loud sound. Repeated on Saturday 21 at 17:00. Details confirmed today on the Teatro Municipal website and on Agenda Porto."
+    },
+    {
+     "nome": "Niklas Paschburg (Misty Fest)",
+     "descricao": "The German composer and pianist blends neoclassical piano, synthesisers and electronics in an intimate concert.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€25",
+     "url": "https://casadamusica.com/event/niklas-paschburg/?selected_session=60551",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, room and price confirmed today in the Casa da Música listings and on the Misty Fest page. On the same day, Alan Stivell's concert has been cancelled."
+    },
+    {
+     "nome": "Lena d'Água (Concertos de Outono / Autumn Concerts)",
+     "descricao": "The singer, one of the voices of Portuguese pop since the 1980s, opens the weekend of autumn concerts at the Fórum da Maia, on the outskirts of Porto.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Fórum da Maia, Rua Eng. Duarte Pacheco, 131, Maia",
+     "preco": "€10 (€18 for two people)",
+     "url": "https://www.timeout.pt/porto/pt/musica/concertos-de-outono-2026",
+     "ligacao": "Time Out Porto",
+     "nota": "It is in Maia, outside the municipality of Porto. Date, time, address and prices confirmed today on Time Out Porto; tickets from BOL and the Fórum da Maia box office. Not confirmed on the promoter's website."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-21",
+   "eventos": [
+    {
+     "nome": "Porto/Post/Doc: A Dupla Vida de Véronique (The Double Life of Véronique), by Krzysztof Kieślowski",
+     "descricao": "A 1991 classic in which Irène Jacob plays two women, a Polish soprano and a French music teacher, linked by music and by an inexplicable loss.",
+     "horario": "15:00",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "€5",
+     "url": "https://www.agenda-porto.pt/evento/ppd-a-dupla-vida-de-veronique/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+). Session in the «No País dos Outros» (In Other People's Country) strand; time and price confirmed today on Agenda Porto."
+    },
+    {
+     "nome": "The Brotherhood, by Carolina Bianchi Y Cara de Cavalo",
+     "descricao": "Second and last performance in Porto of the second chapter of the «Cadela Força» trilogy, about male pacts and sexual violence.",
+     "horario": "17:00",
+     "tipo": "Theatre",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "€12",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/carolina-bianchi-y-cara-de-cavalo-the-brotherhood-trilogia-cadela-for-a-cap-tulo-ii/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/18 (ages 18+), 3h40 with an interval, English subtitles; deals with rape and sexual violence. Details confirmed today on the Teatro Municipal website; the page does not say whether it is sold out."
+    },
+    {
+     "nome": "Sinfonia Órgão (Organ Symphony) – Porto Symphony Orchestra Casa da Música",
+     "descricao": "Stefan Blunier conducts Chausson's «Soir de fête», Liszt's «Les Préludes» and Saint-Saëns's Symphony No. 3, «Organ», with Jonathan Ayerst on the organ.",
+     "horario": "18:00",
+     "tipo": "Classical music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€26 to €30",
+     "url": "https://casadamusica.com/event/sinfonia-orgao/?selected_session=44140",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, programme and prices confirmed today on the Casa da Música website; there are discounts for young people, seniors and students in part of the hall."
+    },
+    {
+     "nome": "Porto/Post/Doc: Curadores da Rua (Street Curators), by Luís Pedro Costa and António Toga",
+     "descricao": "A special session with a documentary about three decades of street art in Porto: graffiti, works painted over and the dispute over who decides what stays on the city's walls.",
+     "horario": "18:45",
+     "tipo": "Cinema / Festival",
+     "local": "Passos Manuel, Rua de Passos Manuel, 137, Porto",
+     "preco": "€5",
+     "url": "https://www.agenda-porto.pt/evento/ppd-curadores-da-rua/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+), ends at around 20:40. Time, venue and price (with Porto Card discounts) confirmed today on Agenda Porto."
+    },
+    {
+     "nome": "Mafalda Veiga (Concertos de Outono / Autumn Concerts)",
+     "descricao": "The singer-songwriter closes the weekend of autumn concerts at the Fórum da Maia, on the outskirts of Porto.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Fórum da Maia, Rua Eng. Duarte Pacheco, 131, Maia",
+     "preco": "€10 (€18 for two people)",
+     "url": "https://www.timeout.pt/porto/pt/musica/concertos-de-outono-2026",
+     "ligacao": "Time Out Porto",
+     "nota": "It is in Maia, outside the municipality of Porto. Date, time, address and prices confirmed today on Time Out Porto; tickets from BOL and the Fórum da Maia box office. On the same day, Time Out lists David Fonseca at the Super Bock Arena and Vizinhos at the Coliseu, with no time or price."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Ukraine attacked the Crimean Bridge again and says it brought down part of the road; Moscow admits damage, has suspended car traffic and opened a terrorism case.",
+   "noticia": 9
+  },
+  {
+   "texto": "Xi Jinping and Vladimir Putin meet today in Shenzhen, on the eve of the first three-way summit with Donald Trump, scheduled for Thursday.",
+   "noticia": 10
+  },
+  {
+   "texto": "Nvidia took in 115.8 billion dollars in one quarter, more than double a year ago, in its first results without Jensen Huang as chief executive.",
+   "noticia": 7
+  },
+  {
+   "texto": "Voting begins today on the 2,864 proposed amendments to the 2027 Budget, a record; the final overall vote is scheduled for 24 November.",
+   "noticia": 13
+  },
+  {
+   "texto": "Portugal beat Wales 3-2 in Cardiff and finished first in their Nations League group; the quarter-final draw is on Friday.",
+   "noticia": 14
+  },
+  {
+   "texto": "Norwegian oil company Equinor is being hit by a cyberattack; the company says production has not been affected and that it sees no signs of data theft.",
+   "noticia": 1
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Wednesday 18 Nov",
+   "texto": "Detailed votes on the Budget from 15:00 (until 23 Nov). From 18:00, an orange warning from IPMA, Portugal's weather service, for the sea between Viana do Castelo and Leiria.",
+   "noticia": 13
+  },
+  {
+   "quando": "Thursday 19 Nov",
+   "texto": "First summit between Xi, Trump and Putin, in Shenzhen, on the sidelines of APEC (time not disclosed). In Porto, the Porto/Post/Doc festival opens at the Batalha.",
+   "noticia": 10
+  },
+  {
+   "quando": "Friday 20 Nov",
+   "texto": "Nations League quarter-final draw (11:00 Lisbon time): Portugal could face Spain, Belgium or the Netherlands. Scheduled end of COP31, in Antalya.",
+   "noticia": 14
+  },
+  {
+   "quando": "Saturday 21 Nov",
+   "texto": "The European and Japanese BepiColombo probe is due to enter orbit around Mercury, after an eight-year journey (time not disclosed)."
+  }
+ ],
+ "linkedin_abertura": "Ukraine says it has brought down part of the road on the Crimean Bridge; Moscow admits damage and has cut traffic, two days before the summit between Xi, Trump and Putin."
+}
