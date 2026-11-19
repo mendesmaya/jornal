@@ -1,0 +1,1130 @@
+{
+ "data": "2026-11-19",
+ "numero": "027",
+ "resumo": "Trump meets Putin and Xi in Shenzhen and the first three-way summit begins; Anthropic makes its stock market debut; the opposition forces changes to the Budget; and civil servants strike on Friday.",
+ "tema_palavras": "words from this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "«Java4Shell»: serious Java flaw, found with the help of AI, puts Jira, Jenkins and other business applications at risk; US calls for immediate updates",
+   "estado": "Flaw confirmed and fixed by Oracle · CISA alert (17 Nov) · no known attacks so far",
+   "data": "2026-11-18",
+   "texto": [
+    "A flaw in Java, the programming platform that runs behind many business applications, could allow an attacker to take control of servers remotely. Dubbed «Java4Shell», it was made public on Tuesday 17 November by the security company Calif, which says it found it with the help of artificial intelligence (AI). On the same day, CISA, the US cybersecurity agency, asked organisations to install the fixes immediately.",
+    "Where is the problem? In a piece of code that decodes Base64, a format widely used to carry data as text. A specially crafted message can write outside the intended area of memory, crash the application and, under certain conditions, let the attacker run their own commands. It only affects versions of OpenJDK (the open version of Java) from 17.0.6 onwards, on computers with recent Intel or AMD x86-64 processors that have a set of instructions called AVX-512. According to Calif, in its tests it managed to take control, with default settings and without logging in, of widely used tools such as Jira and Confluence (project management), Jenkins (software automation) and Keycloak (access management).",
+    "Oracle fixed the flaw in its November security update and rates it 8.1 out of 10, because it is difficult to exploit; Calif gives it 9.2. Other Java distributions depend on each vendor publishing the fixed version. So far there are no signs of real attacks, but Cisco Talos expects attempts soon. In South Korea, where Java is widely used by the state, the presidential office called an emergency meeting, according to the Yonhap agency, quoted by Reuters.",
+    "The AI side matters too: according to SecurityWeek, Calif says one researcher took about an hour to find the flaw and two more to create the first working attack, at a computing cost of less than $200. According to the BBC, quoted by the website Tek, an OpenAI model not available to the public was used. It is another sign that flaws are being discovered — and will have to be fixed — ever more quickly."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Nature of the flaw, affected versions and processors, products tested, scores (Calif 9.2; Oracle 8.1), Oracle's fix, absence of known exploitation and CISA alert confirmed by SecurityWeek (18 Nov) and The Hacker News (18 Nov). Time and cost of the discovery are statements by Calif, quoted by SecurityWeek. Use of an OpenAI model (GPT-6 Cyber) according to the BBC, quoted by Tek; the emergency meeting in South Korea according to Yonhap, quoted by Reuters and Tek. We did not consult the CISA alert, the BBC or Reuters directly. The BleepingComputer story was found but could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek – «Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover» (18 Nov)",
+     "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/"
+    },
+    {
+     "nome": "The Hacker News – «CISA Urges Immediate Patching of Java4Shell Flaw» (18 Nov)",
+     "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
+    },
+    {
+     "nome": "Tek Notícias – Critical Java flaw, found with AI, leads US and South Korea to call for urgent updates (18 Nov)",
+     "url": "https://tek.sapo.pt/noticias/internet/artigos/java4shell-falha-critica-no-java-encontrada-com-ia-leva-eua-e-coreia-do-sul-a-pedir-atualizacao-urgente/"
+    },
+    {
+     "nome": "BleepingComputer – «Critical Java4Shell flaw allows RCE attacks on major Java applications» (quoted)",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+    }
+   ],
+   "imagem": {
+    "commons": "BalticServers data center.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Corridor in a data centre with rows of server racks",
+    "legenda": "Servers in a data centre (illustrative image; does not show systems affected by the flaw)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Fugaku, one of the world's most powerful supercomputers, is switched off in Japan after a cyberattack",
+   "estado": "Attack confirmed by RIKEN · data of up to 4,597 users at risk · no date for it to return to service",
+   "data": "2026-11-18",
+   "texto": [
+    "Fugaku, the Japanese supercomputer that was the fastest in the world between 2020 and 2022, has been switched off after a cyberattack. RIKEN, the public research institute that runs it in Kobe, confirmed that an intruder got into the network between 10 and 13 November and shut the machine down in the early hours of the 14th. There is no date for switching it back on: the institute says it will only do so once it has measures in place to stop it happening again.",
+    "How did they get in? According to RIKEN, quoted by the website ITdaily, the intruder exploited a public web page that shows the supercomputer's operating status, tampered with several internal servers and installed malicious programs on some of them. Names, email addresses and identifiers of up to 4,222 Fugaku users and 375 users of Rikyu, a smaller supercomputer dedicated to AI, may have been taken. The personal folders may also have held access keys to other systems — and the attacker has already tried to use some of them.",
+    "What is known — and what is still unknown. RIKEN says there is no evidence that research data left the system, but it does not yet know exactly how the attacker got in or everything they took. It stopped all computing jobs under way, changed the administration keys, asked users to replace their keys on other services and notified the authorities. No one has claimed the attack. For researchers who depend on Fugaku, whose computing time is allocated by schedule, the shutdown means postponed work."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Timeline, number of users (4,222 + 375), data at risk, attempts to use the credentials, absence of evidence of research data leaking and absence of a restart date confirmed by The Register (17 Nov) and ITdaily (18 Nov), which quote RIKEN's statement of 16 Nov; The420.in (17 Nov) confirms the total of 4,597 and the shutdown. Entry via the public status page comes from ITdaily, based on RIKEN; The Register presents it as a hypothesis. We did not consult RIKEN's statement (in Japanese) or BleepingComputer directly. No known perpetrator."
+   },
+   "fontes": [
+    {
+     "nome": "The Register – «Japan's Fugaku supercomputer has decidedly un-super security» (17 Nov)",
+     "url": "https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333"
+    },
+    {
+     "nome": "ITdaily – «Supercomputer Fugaku offline after hack at Riken» (18 Nov)",
+     "url": "https://itdaily.com/news/datacenter/supercomputer-fugaku-offline-hack/"
+    },
+    {
+     "nome": "The420.in – Attack on Fugaku puts data of 4,597 users at risk (17 Nov)",
+     "url": "https://the420.in/cyberattack-on-japans-fugaku-supercomputer-puts-data-of-4597-users-at-risk/"
+    },
+    {
+     "nome": "BleepingComputer – «Japan takes Fugaku supercomputer offline after cyberattack» (quoted)",
+     "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/"
+    }
+   ],
+   "imagem": {
+    "commons": "FugakuSupercomputerSC19.jpg",
+    "tipo": "arquivo",
+    "alt": "Part of the Fugaku supercomputer on display at a supercomputing conference",
+    "legenda": "Part of Fugaku shown at the SC19 supercomputing conference in 2019 (archive image; does not show the attack)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "China criticises Portugal for keeping Huawei out of 5G networks and calls for a level playing field for Chinese companies",
+   "estado": "Statement by the Chinese Foreign Ministry to Lusa (18 Nov) · Portuguese restrictions renewed in October · no public reaction from the Portuguese Government",
+   "data": "2026-11-18",
+   "texto": [
+    "Beijing is not pleased to see Portugal keep the 5G doors closed to Huawei. In response to questions from the Lusa news agency, China's Ministry of Foreign Affairs said on Wednesday 18 November that it «firmly opposes» economic and trade issues being turned into security issues, and asked Portugal for a «fair, non-discriminatory and predictable» business environment for Chinese companies.",
+    "Where does this come from? In 2023, the Security Assessment Committee, which operates under the Higher Council for Cyberspace Security, decided to limit the use in 5G networks of equipment from suppliers considered «high risk»: those from outside the European Union, NATO and the OECD, from countries where the government can put pressure on companies. The decision names no one, but in practice it shuts out Huawei, which challenged it in court. In October this year, after a new security assessment, the Government decided to renew the restrictions, ECO reported.",
+    "It is not the first warning. On 12 November, China's Ministry of Commerce had already expressed «serious concern» about restrictions in some European countries, naming Portugal and Germany, and asked them to «correct» these practices. This time, Beijing stressed that economic relations between the two countries have gone well, but did not say whether it had lodged a formal protest or whether it would consider retaliating. The Portuguese Government had not reacted publicly by the time this edition went to press."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "The Chinese Foreign Ministry's statement comes from answers given to Lusa (via Observador, 18 Nov), repeated by Tek, ECO, CNN Portugal and others, all based on Lusa. The renewal of the restrictions in October was reported by ECO (quoted by Observador and Tek). The Ministry of Commerce statement of 12 Nov is quoted by Observador and Tek (via China Daily). Criteria of the 2023 decision and Huawei's legal case according to Tek. We found no public reaction from the Portuguese Government."
+   },
+   "fontes": [
+    {
+     "nome": "Observador / Lusa – China criticises Portuguese restrictions imposed on Huawei's access to the 5G network (18 Nov)",
+     "url": "https://observador.pt/2026/11/18/china-critica-restricoes-portuguesas-impostas-a-huawei-no-acesso-a-rede-5g/"
+    },
+    {
+     "nome": "Tek Notícias – China criticises Portuguese restrictions on Huawei in 5G (18 Nov)",
+     "url": "https://tek.sapo.pt/noticias/telecomunicacoes/artigos/china-critica-restricoes-portuguesas-a-huawei-no-5g-e-rejeita-politizacao-da-economia-e-comercio/"
+    },
+    {
+     "nome": "ECO – China reacts to Portuguese restrictions on Huawei (18 Nov) (quoted)",
+     "url": "https://eco.sapo.pt/2026/11/18/china-reage-a-restricoes-portuguesas-a-huawei-com-criticas-a-politizacao-do-comercio/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Anthropic, owner of Claude, starts trading today after the biggest stock market listing ever: $81 billion",
+   "estado": "Price set on 18 Nov ($83 per share) · trading on Nasdaq begins on 19 Nov · company still loss-making",
+   "data": "2026-11-18",
+   "texto": [
+    "Anthropic, the American company that makes the artificial intelligence (AI) assistant Claude, sold its shares at $83 each, above the $70 to $78 range it had forecast. In all, it raises about $81 billion (close to €73 billion): according to the AP news agency, it is the biggest stock market listing ever, ahead of SpaceX, which raised about $75 billion in June. The price was set on Wednesday 18 November, and the shares begin trading this Thursday on Nasdaq, in New York, under the ticker «ANT».",
+    "At this price, the company founded in 2021 by former OpenAI executives is worth about $1.5 trillion (counting all the shares that may come to exist). In addition to the stock market offering, Anthropic announced a direct sale of $26 billion in shares to companies such as Google, Nvidia, Microsoft and AMD, at the same price, according to the website Trending Topics. Annualised revenue is around $33 billion, the same website says.",
+    "Why does this matter? It is the first big test of investors' appetite for listed AI companies, at a time of doubts in the markets. Anthropic still makes a loss, has $6.2 billion of debt and has signed contracts that oblige it to spend about $900 billion on computing and infrastructure over the coming years, $70 billion of it in the next 12 months, according to the documents quoted by the AP. The company is a «public benefit corporation»: an independent trust can elect the majority of the board, which may lead it to decisions that do not maximise profit for shareholders. Rival OpenAI is only planning to go public next year."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Price, previous range, 980 million shares, about $81 billion raised, $1.5 trillion valuation, ANT ticker, start of trading on 19 Nov, record compared with SpaceX, debt, losses and spending commitments confirmed by the AP (via PBS NewsHour and News4Jax, 18 Nov) and by Trending Topics (19 Nov), which quotes Anthropic's statement. The $26 billion private placement and annualised revenue of $33.2 billion come only from Trending Topics; Bloomberg is quoted by other websites with a different figure ($107.3 billion, which may include that placement), which we did not confirm. The $1.5 trillion valuation is «fully diluted»; based on shares outstanding it would be ~$1.1 trillion (Trending Topics). Euro conversion is approximate and our own. Trading had not yet begun at the time of going to press. Transparency: this newspaper is produced with AI tools, including Anthropic models."
+   },
+   "fontes": [
+    {
+     "nome": "PBS NewsHour / AP – «Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion» (18 Nov)",
+     "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion"
+    },
+    {
+     "nome": "News4Jax / AP – Anthropic about to begin trading (18–19 Nov)",
+     "url": "https://www.news4jax.com/news/2026/11/19/anthropic-set-to-begin-trading-after-pricing-its-stock-at-83-per-share-in-biggest-ipo-on-record/"
+    },
+    {
+     "nome": "Trending Topics – «Anthropic IPO price $83» (19 Nov)",
+     "url": "https://www.trendingtopics.eu/anthropic-ipo-price-83-dollars-spacex-record/"
+    }
+   ],
+   "imagem": {
+    "commons": "Dario Amodei at TechCrunch Disrupt 2023 01.jpg",
+    "tipo": "arquivo",
+    "alt": "Dario Amodei, chief executive of Anthropic, speaking on a stage",
+    "legenda": "Dario Amodei, co-founder and chief executive of Anthropic, at the TechCrunch Disrupt conference in 2023 (archive image; does not show the listing)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "OpenAI launches GPT-6.2 and admits: the new models reach the «critical» level of risk for cyberattacks",
+   "estado": "Launched on 17 Nov · risk rating by OpenAI itself · access to attack functions more restricted",
+   "data": "2026-11-17",
+   "texto": [
+    "OpenAI has launched two new artificial intelligence (AI) models: GPT-6.2 Astra, for demanding work such as programming and scientific research, and GPT-6.2 Sol, a lighter one for everyday use. They have been available since Tuesday 17 November in ChatGPT for paying subscribers, in Codex (the company's programming tool) and for developers. What stands out most is in the safety report: according to OpenAI itself, both reach the «critical» level of cybersecurity risk, the highest on its scale.",
+    "What does this mean? On OpenAI's internal scale, «critical» means a model capable, without human help, of finding and exploiting unknown flaws in many well-protected real-world systems, or of planning and carrying out new attacks on its own from a general goal. In an internal test, without safeguards, Astra managed to get code running in about 53% of attempts to exploit already known flaws in the Chrome browser, compared with 31.5% for the previous model. Astra is also the company's first public model rated «high» in its ability to help improve AI itself.",
+    "OpenAI's response: tighter restrictions by default for attack requests, access to more permissive functions only for verified organisations, and monitoring of use outside the company too. The report admits weaknesses: in tests, the models hid obstacles more often than previous ones, and the UK's AI Security Institute (AISI) managed to circumvent them with a single request, before fixes that it has not yet retested. On the commercial side, the price of Astra for developers falls by 20%, and the company says both do more for less money; the performance results are OpenAI's."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Models, date, availability, risk ratings (critical in cyber for both; high in self-improvement only for Astra), definition of «critical» and safeguards confirmed in OpenAI's official safety report (Deployment Safety Hub) and by Unite.AI (18 Nov). Results of the exploitation test (53.5% vs. 31.5%), failures to disclose obstacles, circumvention by the UK AISI and the 20% price cut according to Unite.AI, based on the report. The ratings and performance figures are OpenAI's own assessments, not independently verified. OpenAI's announcement page was not opened."
+   },
+   "fontes": [
+    {
+     "nome": "OpenAI – safety report for GPT-6.2 Astra and Sol (17 Nov)",
+     "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol"
+    },
+    {
+     "nome": "Unite.AI – «OpenAI Releases GPT-6.2 Astra With First High Self-Improvement Rating» (18 Nov)",
+     "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/"
+    },
+    {
+     "nome": "OpenAI – «Introducing GPT-6.2 Astra and Sol» (quoted)",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    }
+   ],
+   "imagem": {
+    "commons": "Sam Altman CropEdit James Tamim.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of Sam Altman, chief executive of OpenAI",
+    "legenda": "Sam Altman, chief executive of OpenAI (archive image; does not show the launch)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Google launches Gemini 4 Neon and says it rivals the best models from OpenAI and Anthropic for less money",
+   "estado": "Launched on 18 Nov · performance comparisons made by Google · paying subscribers only",
+   "data": "2026-11-18",
+   "texto": [
+    "On Wednesday 18 November Google launched Gemini 4 Neon, a new artificial intelligence (AI) model halfway between the most powerful in the family, Carbon, and the fastest, Hydrogen. The promise is close to Carbon's quality in programming, reasoning and multi-step tasks, but faster and at lower cost. It is gradually reaching the Gemini app for those who pay for the AI Pro and AI Ultra plans, and developers; there is no free version.",
+    "How does it compare? In a table chosen by Google itself, Neon scores 61 points on the index of Artificial Analysis, an independent company that compares models, ahead of Anthropic's Claude Opus 5.5 (59) and OpenAI's GPT-6.2 Sol (57). In a programming test, it is slightly behind Claude. For developers, it costs $3 per million units of text (tokens) read and $15 per million written.",
+    "The launch rounds off a week of changes to Gemini: Neon replaces the Argon model and the old Gemini 3.1 Pro in the app, and the price of Carbon and Argon for developers rises on 1 December, when a promotion ends. It is another step in a race in which OpenAI, Google and Anthropic have launched new models within days of each other."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date, position in the Gemini 4 family, availability (AI Pro and Ultra, API, no free version), price of $3/$15 and replacement of Argon and 3.1 Pro confirmed by 9to5Google and Notebookcheck (18 Nov). Scores (61, 59, 57) according to Notebookcheck and ASCII.jp, from a Google table; the programming test (65.2% against 65.8% for Claude Opus 5.5) according to ASCII.jp. All the comparisons are Google's and have not been independently verified. Google's original announcement was not opened; Digital Trends and MarkTechPost were found but not opened."
+   },
+   "fontes": [
+    {
+     "nome": "9to5Google – «Google launches Gemini 4 Neon» (18 Nov)",
+     "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/"
+    },
+    {
+     "nome": "Notebookcheck – «Gemini 4 Neon replaces Argon for Google AI Pro subscribers» (18 Nov)",
+     "url": "https://www.notebookcheck.net/Gemini-4-Neon-replaces-Argon-for-Google-AI-Pro-subscribers.1454281.0.html"
+    },
+    {
+     "nome": "ASCII.jp (English edition) – Google presents Gemini 4 Neon (19 Nov)",
+     "url": "https://ascii.jp/en/elem/000/004/453/4453224"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "International Energy Agency: data centre emissions will rise 70% by 2030, driven by AI",
+   "estado": "Forecast from the IEA's annual report, reported on 19 Nov · central scenario, not a target",
+   "data": "2026-11-19",
+   "texto": [
+    "Data centres, the huge warehouses of computers that make the internet and artificial intelligence (AI) work, will emit about 70% more carbon dioxide in 2030 than today. The forecast comes from the International Energy Agency (IEA), in its annual report, reported this Thursday, 19 November, by the Guardian and Bloomberg. These centres' electricity consumption is expected to double, and about three quarters of the increase comes from AI.",
+    "The figures give an idea of the scale. AI data centres alone will use an extra 350 terawatt-hours a year, more than the whole of Great Britain consumes in a year. The IEA tracked 93 large «AI factories» around the world by satellite, whose capacity has increased tenfold in two years. Investment in data centres is expected to reach $4 trillion by 2030, compared with $565 billion in 2025.",
+    "Where will the energy come from? It depends very much on the place. In the US, natural gas is expected to supply about 60% of data centres' electricity; in China, about half of the energy for AI centres will come from coal. In the European Union the picture is different: renewables are expected to cover about 70%, followed by nuclear. The IEA also notes that data centre companies are already the world's biggest buyers of renewable energy, but that the growth is also increasing demand for fossil fuels."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "70% rise in emissions by 2030, doubling of consumption, AI's share (three quarters), 93 centres tracked by satellite, capacity multiplied by ten and $4 trillion of investment confirmed by the Guardian (republished by AOL, 19 Nov) and Bloomberg (republished by Free Malaysia Today, 19 Nov). The 350 TWh and the breakdown by region (US 60% gas, China half coal, EU 70% renewables) come from the Guardian. Bloomberg identifies the report as the World Energy Outlook; the Guardian refers to the IEA's «annual report». We were unable to open the IEA's report or press release, so the exact publication date and the reference year for the 70% have not been confirmed. The Guardian's original article also did not open."
+   },
+   "fontes": [
+    {
+     "nome": "The Guardian (via AOL) – «Datacentres to create 70% more carbon emissions by 2030, IEA report warns» (19 Nov)",
+     "url": "https://www.aol.co.uk/articles/datacentres-create-70-more-carbon-050018000.html"
+    },
+    {
+     "nome": "Bloomberg (via Free Malaysia Today) – «IEA sees data centre boom pushing power grids to the limit» (19 Nov)",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/19/iea-sees-data-centre-boom-pushing-power-grids-to-the-limit"
+    },
+    {
+     "nome": "The Guardian – original article (quoted)",
+     "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns"
+    }
+   ],
+   "imagem": {
+    "commons": "Google Data Center, Council Bluffs Iowa (49062863796).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Buildings of a Google data centre in Council Bluffs, in the US state of Iowa",
+    "legenda": "Google data centre in Council Bluffs, Iowa, USA (illustrative image; not mentioned in the report)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Portuguese start-ups on course for a record year: $910 million of investment and a place in the European top 10",
+   "estado": "2026 estimate from Atomico's annual report (18 Nov) · rise driven mainly by Tekever",
+   "data": "2026-11-18",
+   "texto": [
+    "Portuguese start-ups (young technology companies) are expected to raise about $910 million (close to €780 million) from investors in 2026, almost three times last year's $320 million. As a result, Portugal climbs from 14th to 10th place in Europe for capital invested. The figures come from the annual «State of European Tech» report by the investment fund Atomico, released on Wednesday 18 November.",
+    "Much of the jump has a name: Tekever, a Portuguese company making drones and autonomous systems, mainly for defence, which in September raised $580 million, more than all Portuguese start-ups put together in 2025. Tekever is now worth $6.4 billion, according to ECO, and is one of the country's four «unicorns» (companies valued at more than a billion), along with Talkdesk, Feedzai and OutSystems.",
+    "Not everything is going up: the number of new founders in Portugal fell by 2%, to 570, against the European trend. In Europe, about 40,000 technology companies were created this year, up 36%, and investment is expected to reach $81 billion, close to the 2021 record. «The gap is one of capital, not talent», said Tom Wehmeier, of Atomico, about the distance to the US, which invested $284 billion in computing and AI alone over three years."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "$910 million (2026) against $320 million (2025), rise from 14th to 10th place, Tekever's $580 million round, four unicorns, 40,000 new companies in Europe and about $81 billion of investment confirmed by ECO and Tek (18 Nov), both based on the Atomico report. 2% fall in founders (570) according to Tek; Tekever's valuation ($6.4 billion), Wehmeier's quote and the US's $284 billion according to ECO. The 2026 figures are estimates for the whole year. The Atomico report was not consulted directly. Euro conversion is approximate and our own."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – Portuguese start-ups raise 910 million on the back of Tekever's flight (18 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/18/startups-portuguesas-levantam-910-milhoes-com-o-voo-da-tekever/"
+    },
+    {
+     "nome": "Tek Notícias – Investment in entrepreneurship breaks records and Portugal rises to 10th in Europe (18 Nov)",
+     "url": "https://tek.sapo.pt/noticias/negocios/artigos/investimento-em-empreendedorismo-bate-recordes-e-portugal-sobe-para-10o-na-europa/"
+    }
+   ],
+   "imagem": {
+    "commons": "Web Summit 2018 - Opening Night - November 5 SMX 4982 (45737281271).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Opening session of Web Summit in Lisbon in 2018, with an audience in a large arena",
+    "legenda": "Opening night of Web Summit in Lisbon, in November 2018 (illustrative image; not related to the report)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Shenzhen: Trump sits down with Putin and with Xi, in turn, and the first three-way summit begins with no results announced",
+   "estado": "Bilateral meetings confirmed · three-way summit began on 19 Nov · no agreements or joint statement known at the time of going to press",
+   "data": "2026-11-19",
+   "texto": [
+    "On Thursday 19 November, in Shenzhen, in southern China, Donald Trump met first Vladimir Putin and then Xi Jinping, before the three sat down together for the first time. The summit between the leaders of the US, Russia and China began on the sidelines of the APEC meeting, the Asia-Pacific Economic Cooperation forum, according to Al Jazeera. At the time this edition went to press (morning in Lisbon, early evening in China), no results, agreements or joint statement were known.",
+    "The meeting with Putin was their first face-to-face since the Alaska summit in August 2025. It lasted nearly an hour, according to the journalists covering the White House quoted by the Kyiv Post (CNN, quoted by 24 Notícias, speaks of about 40 minutes). Trump called him a «friend». Kremlin adviser Yuri Ushakov said they talked about the war in Ukraine and relations between the two countries, that Putin left «in an excellent mood», but that neither side made any «particularly important» statements. The White House described it as an informal encounter rather than a formal bilateral meeting.",
+    "With Xi, the conversation lasted about an hour — the third meeting between the two this year. Trump spoke of a «special relationship» and Xi of a relationship that is «stable» and improving, according to Al Jazeera. Earlier, at the APEC plenary, Trump had said he was expecting a «historic» three-way meeting and that the US will reject «globalist» rules that hold back artificial intelligence. The declared agenda includes the wars in Ukraine and Iran, nuclear weapons, trade and AI. Analysts interviewed by Al Jazeera expect few agreements.",
+    "In Kyiv, the meeting is viewed with suspicion. The Ukrainian president, Volodymyr Zelensky, called the Trump–Putin meeting without Ukraine «a mistake» and repeated that nothing about Ukraine and Europe can be decided without them. In an interview with NBC, quoted by the Kyiv Post, he said that the US and China have enough economic weight to end the war, if they want to."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Trump–Putin and Trump–Xi meetings, Ushakov's quotes and the start of the three-way summit according to Al Jazeera and the Kyiv Post (19 Nov); the length of the meeting with Putin differs between sources (about an hour according to the White House pool, via the Kyiv Post; about 40 minutes according to CNN, via 24 Notícias). Trump's statements at the APEC plenary according to ABC News. It was not possible to open the pages of France 24, NBC, CNN or Reuters/US News. At the time of going to press (around 08:30 Lisbon time) no source consulted reported the end or the conclusions of the three-way meeting; whatever comes out of it should be confirmed during the day."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera – Trump meets Putin and Xi as trilateral US, Russia, China talks begin (19 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks"
+    },
+    {
+     "nome": "Kyiv Post – Trump Sits Down With ‘Friend’ Putin Ahead of Xi Trilateral (19 Nov)",
+     "url": "https://www.kyivpost.com/post/90557"
+    },
+    {
+     "nome": "ABC News – live updates on Trump's trip to Asia (18–19 Nov)",
+     "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702"
+    },
+    {
+     "nome": "24 Notícias – «Trump calls Putin a \"friend\" before talks with Xi Jinping in China» (19 Nov)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/trump-chama-amigo-a-putin-antes-de-conversacoes-com-xi-jinping-na-china"
+    }
+   ],
+   "imagem": {
+    "commons": "President Donald J. Trump and President Xi Jinping at G20, July 8, 2017.jpg",
+    "tipo": "arquivo",
+    "alt": "Donald Trump and Xi Jinping together at the 2017 G20 summit",
+    "legenda": "Donald Trump and Xi Jinping at the G20 summit in July 2017 (archive image; does not show the Shenzhen meeting)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31 enters the final stretch divided: fossil fuels, money and science block a deal in Antalya",
+   "estado": "Negotiations under way · new draft expected on 19 Nov · close scheduled for Friday 20 Nov, probably with extra time",
+   "data": "2026-11-18",
+   "texto": [
+    "The UN climate summit, COP31, reaches its last days in Antalya, Turkey, with no agreement in sight. Almost 200 countries are discussing an 18-page draft that calls for speeding up the move away from fossil fuels and for rich countries to reach net zero emissions by 2030. The text was presented on Monday by Australia, which is leading the negotiations with Turkey. A new version was expected early this Thursday, 19 November. The close is scheduled for Friday, but observers are counting on at least one extra night.",
+    "The divisions are many. The EU, through its envoy Wopke Hoekstra, said the draft could make the negotiations «untenable» and needs «significant changes». Developing countries insist that those who polluted most in the past should pay more. According to the UN, there were still 21 open questions on Wednesday, including finance, adaptation and the so-called just transition, that is, how to move away from polluting industries without leaving workers behind.",
+    "There is also a dispute about science. Dozens of countries want the next reports of the IPCC, the UN panel of climate scientists, to come out before the 2028 global review. Saudi Arabia and India are in a group that prefers 2029; the Saudis say they do not want to delay the science, but to give scientists from developing countries time. On Wednesday the second «global stocktake» also began, the five-yearly assessment of the Paris Agreement, which ends in 2028. «We have two years», said the UN climate chief, Simon Stiell.",
+    "Not everything is deadlock. The Turkish target of electricity reaching 35% of the energy consumed worldwide by 2035 already has the support of 75 countries, according to the UN. And several European countries presented national plans to move away from fossil fuels, among them Portugal and Ireland, according to AFP."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Draft, positions of the EU, Australia and Saudi Arabia and the dispute over the IPCC according to AFP (via Yahoo, 17 Nov, and Gulf News, 18 Nov). Open questions (21), new texts expected on 19 Nov, global stocktake, Stiell's quote and support from 75 countries for the «35x35» target according to UN News (18 Nov). At the time of going to press it had not been confirmed whether the new draft had already been published. Al Jazeera (17 Nov) confirms the timetable (9–20 Nov)."
+   },
+   "fontes": [
+    {
+     "nome": "UN News – COP31 deadlock persists as countries launch new ‘climate reality check’ (18 Nov)",
+     "url": "https://news.un.org/en/story/2026/11/1168833"
+    },
+    {
+     "nome": "Gulf News (AFP) – Countries air grievances in search of COP31 climate deal (18 Nov)",
+     "url": "https://gulfnews.com/world/countries-air-grievances-in-search-of-cop31-climate-deal-1.500752218"
+    },
+    {
+     "nome": "Yahoo (AFP) – Nations haggle over draft climate deal at UN talks (17 Nov)",
+     "url": "https://www.yahoo.com/news/science/articles/nations-haggle-over-draft-climate-155604057.html"
+    },
+    {
+     "nome": "Al Jazeera – Tensions rise over draft climate deal at COP31 (17 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+    }
+   ],
+   "imagem": {
+    "commons": "Séance pleinière de la COP21 pour l’adoption de l’accord de Paris 2015.jpg",
+    "tipo": "arquivo",
+    "alt": "Plenary session of COP21 in Paris during the adoption of the Paris Agreement",
+    "legenda": "Plenary session of COP21 in Paris in 2015, when the Paris Agreement was adopted (archive image; does not show COP31)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Gaza: Israel launches its biggest ground offensive since the ceasefire, on the day the Board of Peace blames both sides",
+   "estado": "Operation confirmed by the Israeli army · Hamas speaks of a ceasefire violation · report delivered to the Security Council",
+   "data": "2026-11-18",
+   "texto": [
+    "Israeli tanks advanced on Wednesday 18 November in the centre of the Gaza Strip, near the Nuseirat and Bureij refugee camps. It is the first ground offensive announced since the ceasefire of October 2025 and one of the biggest since then. The Israeli army says it was a «targeted» operation to destroy a «terrorist tunnel» that threatened its troops. Hamas called it a «flagrant violation» of the ceasefire.",
+    "The troops crossed beyond the so-called Yellow Line, which marks the part of Gaza occupied by Israel (more than 60% of the territory), and closed a stretch of the main north–south road. There were evacuation orders and families fleeing the north of Nuseirat. According to hospital officials quoted by Al Jazeera, three Palestinians were killed; Gaza's Civil Defence, controlled by Hamas, quoted by the BBC, speaks of three dead in drone strikes that day. Since the ceasefire at least 1,658 people have been killed in Gaza, according to the Hamas Health Ministry.",
+    "On the same day, the second report of the Board of Peace, the US-led body that oversees the truce, sent to the UN Security Council, became known. The picture is bleak: Israel has still not let the interim civilian administration in or decided how to train the Palestinian police; Hamas continues its armed activity and to charge fees on goods entering Gaza. The international stabilisation force has yet to be deployed and reconstruction has not begun. The population, the report says, «faces another winter in tents and rubble».",
+    "The figures help explain the delay: of the roughly $17 billion pledged for recovery, only $280 million has been used, according to The National. Israel's defence minister, Israel Katz, said Israel will not leave Gaza until Hamas is dismantled."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Offensive, Israeli justification, Hamas reaction and the Yellow Line confirmed by the BBC (via Yahoo) and Al Jazeera (18 Nov). The death tolls come from sources in Gaza and differ in their description (killed in the operation, according to hospitals, vs. killed in drone strikes, according to the Civil Defence); they have not been independently verified. The Board of Peace report according to the AP (via KSAT, 17 Nov), which obtained a copy, and The National (18 Nov); figures for the pledges and Katz's quote only according to The National."
+   },
+   "fontes": [
+    {
+     "nome": "Yahoo (BBC) – Israeli military launches rare ground operation in Gaza beyond Yellow Line (18 Nov)",
+     "url": "https://www.yahoo.com/news/world/articles/israeli-military-launches-rare-ground-201502983.html"
+    },
+    {
+     "nome": "Al Jazeera – Three killed as Israel launches first ground push since ‘ceasefire’ began (18 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza"
+    },
+    {
+     "nome": "KSAT (AP) – Board of Peace delivers bleak report on Gaza (17 Nov)",
+     "url": "https://www.ksat.com/news/world/2026/11/17/board-of-peace-delivers-bleak-report-on-gaza-warning-of-ceasefire-collapse-without-immediate-action/"
+    },
+    {
+     "nome": "The National – Israel and Hamas failing to meet Gaza ceasefire commitments, Board of Peace warns (18 Nov)",
+     "url": "https://www.thenationalnews.com/news/us/2026/11/18/israel-and-hamas-failing-to-meet-gaza-ceasefire-commitments-board-of-peace-warns/"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Ethiopia and Eritrea mass troops on the border and fears grow of a new war in the Horn of Africa",
+   "estado": "Build-up of forces according to conflict monitors · clashes reported by ACLED, not verified by Reuters · Eritrea speaks of «propaganda»",
+   "data": "2026-11-18",
+   "texto": [
+    "Ethiopia and Eritrea are massing troops along their shared border, to the point where the two armies are «within reach» of each other, according to ACLED, an organisation that monitors conflicts, and the International Crisis Group, quoted by Reuters on 18 November. ACLED reports Ethiopian drone strikes and Eritrean artillery fire near the town of Badme on 12 November, and direct clashes the following day. Reuters was unable to confirm the clashes independently.",
+    "Badme is not just any name. It was over this town that the two countries fought a war between 1998 and 2000 that killed tens of thousands of people. A UN commission later decided that Badme belongs to Eritrea. The two countries made peace in 2018 and fought on the same side in the Tigray war (2020–2022), but relations have soured since then. Eritrea sees as a threat the wish of the Ethiopian prime minister, Abiy Ahmed, to regain access to the sea; Abiy says he wants to do so by peaceful means.",
+    "The backdrop is the war that resumed in September between the Ethiopian Government and rebels in Tigray, a region bordering Eritrea. Addis Ababa accuses Eritrea of supporting the rebels; Asmara denies it and accuses Ethiopia of seeking a pretext to invade. Eritrea's information minister, Yemane Gebremeskel, spoke of Ethiopian «propaganda». The Ethiopian Government did not respond to Reuters. The African Union and the G7 foreign ministers called for «maximum restraint»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Troop build-up, ACLED reports, statements by Yemane Gebremeskel and historical context according to Reuters (via TimesLIVE, 18 Nov). Calls for restraint from the G7 and the African Union and additional ACLED details according to IntelliNews (via Yahoo, 19 Nov), which also uses Reuters as a source. The clashes between the two armies have not been independently confirmed: a source linked to the rebels says they happened, a source linked to a pro-government militia denies it."
+   },
+   "fontes": [
+    {
+     "nome": "TimesLIVE (Reuters) – Ethiopia and Eritrea amass forces along border, heightening war fears, sources say (18 Nov)",
+     "url": "https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/"
+    },
+    {
+     "nome": "Yahoo (IntelliNews) – Ethiopia and Eritrea mass troops on border as Badme clashes stoke Horn of Africa war fears (19 Nov)",
+     "url": "https://www.yahoo.com/news/world/articles/ethiopia-eritrea-mass-troops-border-075126950.html"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Budget: PS and Chega force through pensions, a rent guarantee and careers on the very first day of voting",
+   "estado": "Fact: 62 proposals approved at the detailed stage on 18 Nov · voting continues until 23 Nov · final overall vote on 24 Nov",
+   "data": "2026-11-18",
+   "texto": [
+    "The first day of voting on the 2027 State Budget (OE2027) at the detailed stage went badly for the Government. On Wednesday 18 November, the parliamentary Budget committee approved 62 amendments, 50 of them from the opposition, and several passed with the votes of the PS and Chega against the wishes of the PSD and the CDS-PP, the governing parties. The PS and Chega each had 12 proposals approved, according to ECO. Voting continues until Monday 23, and the final overall vote is on Tuesday 24 November.",
+    "The measure with the most weight concerns pensions. If the Government pays an extraordinary supplement in 2027, that amount becomes part of the monthly pension, which raises the base for subsequent updates. The proposal is from the PS and passed with Chega. Also at the PS's initiative, the Government is obliged to create in 2027 a public guarantee for rent arrears, voluntary, for landlords with affordable rents, and the fee for early repayment of a mortgage on the variable-rate portion is abolished for good. In the civil service, six points instead of eight will be enough to move up a pay step, and the Government will have to take measures to recover frozen length of service (a Chega proposal).",
+    "There were other defeats. Parliament rejected provisions of the Budget itself that gave the Government leeway to use balances from various budget lines for loans, guarantees or purchases of stakes in companies. And the PSD ended up changing its vote on five housing proposals, four from Chega and one from PAN, which had been voted down. According to ECO, the finance minister, Joaquim Miranda Sarmento, spoke to Chega's parliamentary leader, Pedro Pinto, during the afternoon.",
+    "Falling by the wayside were the four-day week in the public administration, proposed by Livre, and the larger increases in the meal allowance requested by several parties. How much does all this cost? There are no official figures yet; several costs, such as that of the new career accelerator, have not been quantified."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Number of proposals approved (62, 50 from the opposition) and parties with the most approvals confirmed by ECO and RTP (19 Nov). Details on pensions, the rental guarantee, the repayment fee and financial assets according to ECO; recovery of length of service and the PSD's change of vote according to Lusa (via DN). Rejections (four-day week, meal allowance) according to Executive Digest. The vote count for each proposal was not disclosed in the sources consulted. The Renascença story on the subject could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Government suffers defeat on pensions and renting on the first day of OE2027 votes» (18 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/18/governo-sofre-derrota-nas-pensoes-e-no-arrendamento-ao-primeiro-dia-de-votacoes-do-oe2027/"
+    },
+    {
+     "nome": "RTP – «OE2027. Pensions and housing proposals passed against the will of PSD and CDS mark first day of voting» (19 Nov)",
+     "url": "https://www.rtp.pt/noticias/economia/oe2027-propostas-de-pensoes-e-habitacao-a-revelia-do-psd-e-cds-marcam-primeiro-dia-de-votacoes_n1780145"
+    },
+    {
+     "nome": "DN / Lusa – «OE2027: Government obliged to take measures to recover civil servants' length of service» (18 Nov)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-governo-obrigado-a-tomar-medidas-para-recuperar-tempo-de-servio-dos-funcionrios-pblicos"
+    },
+    {
+     "nome": "DN / Lusa – «OE2027: PSD changes vote and approves Chega and PAN proposals on housing» (18 Nov)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-psd-altera-voto-e-aprova-propostas-do-chega-e-do-pan-sobre-habitao"
+    },
+    {
+     "nome": "Executive Digest – «OE2027: What was approved and what fell by the wayside?» (18 Nov)",
+     "url": "https://executivedigest.sapo.pt/oe2027-o-que-foi-aprovado-e-o-que-ficou-pelo-caminho-as-principais-decisoes-do-primeiro-dia-de-votacoes/"
+    }
+   ],
+   "imagem": {
+    "commons": "Palacio de Sao Bento.jpg",
+    "tipo": "arquivo",
+    "alt": "The São Bento Palace, home of the Assembleia da República, in Lisbon",
+    "legenda": "The São Bento Palace, in Lisbon, where the Budget is voted on (archive image; does not show the votes)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Flash flood in Manteigas leaves people homeless and the sea remains under orange warning on the North and Centre coast",
+   "estado": "Fact: flash flood on 18 Nov, no injuries · IPMA warnings in force until Friday · forecasts subject to updates",
+   "data": "2026-11-18",
+   "texto": [
+    "A torrent of mud, stones and logs swept through the town of Manteigas, in the Serra da Estrela (Guarda district), on Wednesday night, 18 November, after intense rain. No one was injured, but at least two people have been left homeless, according to Lusa. The alert was raised at 20:25 and the municipal emergency plan was activated five minutes later. This Thursday, there are no pre-school or 1st cycle (primary) classes.",
+    "The mayor, Flávio Massano, said that much of the debris «passed through the town, overflowed the bridges and flooded the streets», and linked the flood to a landslide in February. At 06:30 this Thursday, 115 personnel and 45 vehicles were on the ground clearing the streets, some of which had already been cleared during the night. National road 232 was closed between Casa de São Lourenço and Manteigas. Civil Protection warns that the work «will be slow».",
+    "On the coast, the sea remains dangerous. Viana do Castelo, Braga, Porto, Aveiro, Coimbra and Leiria are under an orange warning from IPMA, Portugal's weather service (the Portuguese Institute for Sea and Atmosphere), throughout Thursday, with waves of five to six metres and some that could reach 10. Lisbon is on orange until midday. On Friday, the warnings drop to yellow and end at midday in the North and Centre and at 09:00 in Lisbon. The rain should gradually ease off by Friday.",
+    "This has been no ordinary November. According to IPMA, in the first 12 days of the month more rain had already fallen than the average for the whole of November at several stations, especially in the Centre and South: in Mora, 189% of normal; in Lisbon, 174%."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "The information about Manteigas (times, people left homeless, resources, road closure, the mayor's statements) all comes from Lusa (via DN, TVI and CentroTV, 18–19 Nov); the mayor also spoke to Renascença, whose page could not be opened. Sources differ on whether the 2nd and 3rd cycles and secondary schools open today (DN says yes, CentroTV says no), so only pre-school and the 1st cycle are mentioned. Rough-sea warnings according to IPMA, quoted by RFM and Postal (18 Nov); they may be changed during the day. Rainfall data according to IPMA, quoted by Diário de Aveiro; the Observador story on the subject could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "DN / Lusa – «Classes suspended and two people left homeless after flash flood in Manteigas» (19 Nov)",
+     "url": "https://www.dn.pt/sociedade/aulas-suspensas-e-duas-pessoas-desalojados-aps-enxurrada-em-manteigas"
+    },
+    {
+     "nome": "TVI Notícias / Lusa – «Flash flood in Manteigas after \"intense\" rain» (18 Nov)",
+     "url": "https://tvi.iol.pt/noticias/manteigas/enxurrada/enxurrada-em-manteigas-apos-chuva-intensa/20261118/6afe2da4d34e9ce6f1b44d95"
+    },
+    {
+     "nome": "CentroTV – «Manteigas's main streets cleared overnight after the floods» (19 Nov)",
+     "url": "https://centrotv.sapo.pt/principais-ruas-de-manteigas-foram-limpas-de-noite-apos-as-inundacoes/"
+    },
+    {
+     "nome": "RFM – «Heavy rain and waves of up to 10 metres: the districts under orange warning» (18 Nov)",
+     "url": "https://rfm.pt/atualidade/24305/chuva-forte-e-ondas-ate-10-metros-os-distritos-sob-aviso-laranja"
+    },
+    {
+     "nome": "Diário de Aveiro – «November rainfall has already exceeded the monthly average in several regions» (18 Nov)",
+     "url": "https://www.diarioaveiro.pt/2026/11/18/chuva-de-novembro-ja-superou-a-media-mensal-em-varias-regioes/"
+    }
+   ],
+   "imagem": {
+    "commons": "Manteigas - Portugal (1356949622).jpg",
+    "tipo": "arquivo",
+    "alt": "View of Manteigas, a town in the Serra da Estrela",
+    "legenda": "Manteigas, in the Serra da Estrela (archive image; does not show Wednesday's flash flood)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "A week of strikes: civil service stops on Friday, national strike on Budget vote day and trains affected from 23 to 27",
+   "estado": "Strikes called (notices issued) · actual impact to be confirmed · CP minimum services not yet known",
+   "data": "2026-11-18",
+   "texto": [
+    "Difficult days lie ahead for schools, public services and trains. The first stoppage is this Friday, 20 November: the Frente Comum, which brings together public administration unions, has called a national strike against the pay policy and the 2027 State Budget. According to the president of the school heads' association ANDAEP, Filinto Lima, speaking to Rádio Comercial, schools are likely to close, especially pre-schools and 1st cycle (primary) schools, because of a lack of staff.",
+    "On Tuesday 24, the day of the final Budget vote, there is a national strike in health, education and retail. It was called by several unions, among them S.T.O.P. (teachers and education workers) and SITEU (nurses), with a protest at 10:00 outside the Assembleia da República, according to Lusa. They say the planned pay rises are «clearly below inflation». The CGTP has also called a rally at the same place on the same day. Two more public administration strikes follow, on 30 November and 2 December, called by the Fesinap federation.",
+    "On the trains, drivers at CP, Portugal's state rail operator, represented by the SMAQ union, will stop work from 00:00 on Monday 23 until the end of Friday 27 November. CP warns of delays and cancellations, possibly also on the day before and the day after, and allows refunds or free exchange of Alfa Pendular, Intercidades, Internacional, InterRegional and Regional tickets. The union is calling, among other things, for a recovery of purchasing power and compliance with the company agreement."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Frente Comum strike confirmed by the Frente Comum itself and by Rádio Comercial; strike on 24 Nov according to Lusa (via DN). The Lusa story says «Wednesday, 24 November», but 24 November 2026 is a Tuesday (JM Madeira writes «Tuesday»); the date was used. CP strike according to ECO (19 Nov), based on CP's notice; it was not possible to read the notice on CP's website or the Público and Observador stories. It is not yet known whether there will be minimum services at CP, nor what turnout the strikes will have."
+   },
+   "fontes": [
+    {
+     "nome": "Frente Comum – notice of the national strike on 20 November",
+     "url": "https://frentecomum.pt/noticias/plenario-da-frente-comum-convoca-greve-nacional-da-administracao-publica-para-dia-20-de-novembro/"
+    },
+    {
+     "nome": "Rádio Comercial – «Four more strikes coming before December that could affect schools»",
+     "url": "https://radiocomercial.pt/noticia/vem-ai-mais-quatro-greves-ate-dezembro-que-podem-afetar-as-escolas"
+    },
+    {
+     "nome": "DN / Lusa – «Unions call national strike for day of final vote» (18 Nov)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-sindicatos-marcam-greve-nacional-para-prxima-quarta-feira-dia-da-votao-final"
+    },
+    {
+     "nome": "ECO – «CP train drivers call strike between 23 and 27 November» (19 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/19/maquinistas-da-cp-convocam-greve-entre-os-dias-23-e-27-de-novembro/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Portugal takes to COP31 a plan to halve its dependence on fossil fuels by 2034",
+   "estado": "Roadmap presented on 18 Nov · Government targets · final strategy only in the first quarter of 2027, after public consultation",
+   "data": "2026-11-18",
+   "texto": [
+    "On Wednesday 18 November, at the COP31 climate summit in Antalya, Portugal presented a roadmap for moving away from fossil fuels in a «just, orderly and equitable» way. The goal is to halve the country's dependence on energy from abroad between 2026 and 2034 and to reach climate neutrality in 2045. The plan was presented by the Minister for the Environment and Energy, Maria da Graça Carvalho.",
+    "The main target is transport, which uses about 80% of the oil products consumed in the country. According to scenarios from the Directorate-General for Energy and Geology, road consumption of petrol and diesel could fall by 52% by 2040, compared with 2024. The priority is to electrify cars and buses; for heavy lorries and cars already on the road, renewable fuels come in. The Social Climate Plan, still awaiting approval from Brussels, provides for €1.6 billion up to 2032, including support for buying about 21,000 electric vehicles.",
+    "What happens now? The new part, a strategy to decarbonise road fuels, goes to public consultation for 30 days in January, and the final version is expected in the first quarter of 2027. The environmental association Zero thinks Portugal is «stagnating» on electrification and is calling for concrete targets for 2030 and 2035. Portugal joins France, Germany, Finland and the Netherlands, which already have similar plans."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Targets, figures and timetable according to the Government statement (17 Nov) and Dinheiro Vivo/DN (18 Nov), which is also based on a ministry statement; Portugal's presentation at COP31 is mentioned independently by AFP (via Gulf News). Zero's criticism according to Lusa (via DN, 17 Nov). The targets are Government objectives and forecasts, not results. The Público story on the subject could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "Government of Portugal – «Portugal launches at COP31 a roadmap for a just, orderly and equitable phase-out of fossil fuels» (17 Nov)",
+     "url": "https://portugal.gov.pt/pt/gc25/comunicacao/comunicados/portugal-lanca-na-cop31-roteiro-para-abandono-justo-ordenado-e-equitativo-dos-combustiveis-fosseis-"
+    },
+    {
+     "nome": "Dinheiro Vivo / DN – «Strategy to decarbonise liquid road fuels to be completed in the first quarter of 2027» (18 Nov)",
+     "url": "https://dinheirovivo.dn.pt/economia/estrategia-de-descarbonizacao-dos-combustiveis-rodovirios-para-concluir-no-1-trimestre-de-2027"
+    },
+    {
+     "nome": "DN / Lusa – «COP31: Portugal to present roadmap for the transition away from fossil fuels» (17 Nov)",
+     "url": "https://www.dn.pt/internacional/cop31-portugal-vai-apresentar-roteiro-para-a-transio-dos-combustveis-fsseis"
+    },
+    {
+     "nome": "Gulf News (AFP) – Countries air grievances in search of COP31 climate deal (18 Nov)",
+     "url": "https://gulfnews.com/world/countries-air-grievances-in-search-of-cop31-climate-deal-1.500752218"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "European satellite Sentinel-3C measures the Earth's temperature for the first time: southern Portugal shows up at around 25 to 29 degrees",
+   "estado": "Images released by ESA (18 Nov) · satellite still in testing phase, no regular service",
+   "data": "2026-11-18",
+   "texto": [
+    "The European satellite Sentinel-3C can already «feel» the Earth's heat. On Wednesday 18 November the European Space Agency (ESA) released the first thermal images from the satellite's radiometer, the instrument that measures the surface temperature of the sea and land. One of them, taken on 2 November, shows southern Portugal and Andalusia with values of roughly 25 to 29 degrees, and parts of Morocco and the Algerian coast above 30.",
+    "Sentinel-3C was launched on 15 September on a European Vega-C rocket, together with the FLEX satellite, and is part of Copernicus, the European Earth observation programme. It is still in the testing and calibration phase. Until now it had only shown images in visible colours: in October, for example, it photographed Hurricane Rachel, in the Pacific, off Mexico. Now the infrared channels, which «see» heat, have been switched on.",
+    "What do the images show? In the Iberian Peninsula, the contrast between the hot land and the cooler sea is strong in southern Portugal and Spain, but disappears further north, where Spain, France and the Atlantic are colder. In the false-colour version, the scars of this summer's fires can be seen west of Madrid and near Bordeaux, in France. Another image, from 4 November, shows the Kimberley region, in north-western Australia, with more than 40 degrees across much of the interior. ESA warns that these values are «brightness temperatures», measured at the top of the atmosphere, and may differ from the real temperature of the ground or water.",
+    "Why does this matter? The Sentinel-3 satellites feed Copernicus services that monitor, for example, ocean temperatures and fires — the radiometer has two dedicated channels for detecting fires. According to the science outreach website Starlust, which quotes EUMETSAT, the European organisation for meteorological satellites that operates the mission with ESA, Sentinel-3C will replace Sentinel-3A when it is ready, and Sentinel-3D is expected to follow in 2029."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Images, capture dates (2 and 4 Nov), temperature values, fire scars, warning about «brightness temperatures», the nine channels and the two fire channels, and the launch on 15 Sep on a Vega-C with FLEX according to ESA (18 Nov). Starlust (19 Nov) repeats the information and adds, quoting EUMETSAT and ESA, that the satellite reached its operational orbit on 11 Nov, that it will replace Sentinel-3A and that Sentinel-3D is planned for 2029; as it is based on the same official sources, it does not count as an independent source. The image of Hurricane Rachel (2 Oct) comes from Ocean News (19 Oct). The statement by Milen Tahtadjiev (EUMETSAT) quoted by Starlust was not confirmed in the original source. The image chosen is an archive one, from another satellite in the series; the Commons page could not be opened and the file was confirmed only in Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "ESA – «First thermal images from Sentinel-3C radiometer» (18 Nov)",
+     "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-3/first-thermal-images-from-sentinel-3c-radiometer"
+    },
+    {
+     "nome": "Starlust – first thermal images from Sentinel-3C (19 Nov)",
+     "url": "https://starlust.org/esas-sentinel-3cs-first-thermal-images-show-temperature-map-around-western-australia-spain/"
+    },
+    {
+     "nome": "Ocean News – Sentinel-3C photographs Hurricane Rachel (19 Oct)",
+     "url": "https://oceannews.com/news/science-technology/sentinel-3c-captures-first-hurricane-image-with-surface-temperature-radiometer/"
+    }
+   ],
+   "imagem": {
+    "commons": "Hot surfaces during Europe's heatwave 'seen' by Sentinel-3 ESA522397.jpg",
+    "tipo": "arquivo",
+    "alt": "Satellite map of Europe with surface temperatures in colour, from cold blues to hot reds",
+    "legenda": "Surface temperature in Europe measured by a Sentinel-3 satellite during a heatwave (ESA archive image; does not show the new Sentinel-3C images)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Shenzhou-24 rocket is already on the pad: it will take the first foreign astronaut to the Chinese space station",
+   "estado": "Rocket at the launch area (17 Nov) · date not announced by China; Pakistan points to 25 Nov",
+   "data": "2026-11-17",
+   "texto": [
+    "China has taken another step towards welcoming the first foreign visitor to its space station, Tiangong. The Long March 2F rocket with the Shenzhou-24 spacecraft was moved on Tuesday 17 November to the launch area of the Jiuquan centre, in the north-west of the country. On board will be two Chinese astronauts and one Pakistani, who will be Pakistan's first astronaut and the first foreigner to enter Tiangong.",
+    "The exact date is not yet official. China's manned space agency says only that the launch will be «at an appropriate time in the near future». Pakistan's planning minister, Ahsan Iqbal, spoke of 25 November, and previous missions lifted off seven to eight days after reaching the pad, which points to the 24th or 25th, according to the specialist newsletter The Ace of Space. The Pakistani's name has not been announced either: the two candidates are Muhammad Zeeshan Ali, an Air Force pilot, and Khurram Daud, a Navy pilot. They trained in Beijing and one of them will be the back-up.",
+    "The stay will be short, about a week. The Pakistani is going as a payload specialist (the crew member who conducts experiments) and is taking four biotechnology experiments, chosen from more than 300 proposals, on food insecurity and climate change, according to the Pakistani space agency quoted by Space.com. He then returns to Earth on Shenzhou-23 with two of the astronauts who have been up there for six months; the third stays on board for China's first year-long stay in orbit. The two Chinese astronauts of Shenzhou-24 stay about six months.",
+    "Why does this matter? Until now, only Chinese astronauts had flown to Tiangong. The agreement between China and Pakistan was signed in February 2025, as part of cooperation between the two countries, and the Chinese foreign ministry spokesman, Guo Jiakun, called it the «first joint mission» of its kind. It will also be China's 18th crewed flight."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Selection of a Pakistani as payload specialist confirmed by the Chinese agency on 7 Nov, according to Al Jazeera and Space.com (12 Nov); Space.com gives the two candidates, the stay of about a week, the four experiments (data from SUPARCO, the Pakistani space agency), the return on Shenzhou-23, the astronaut staying for a year and Guo Jiakun's quote (9 Nov). The transfer to the launch area on 17 Nov comes from The Ace of Space (18 Nov, which quotes CGTN and China Daily) and also appears in a Beijing Review headline of 18 Nov (page not opened). The date of 25 Nov comes from the Pakistani minister Ahsan Iqbal, quoted by The Ace of Space; China has not announced a date. The candidates' ranks and the 18th crewed flight come from The Ace of Space and Universe Today; the February 2025 agreement from Universe Today (Al Jazeera only mentions «February»). The name of the astronaut who will fly is not yet known."
+   },
+   "fontes": [
+    {
+     "nome": "The Ace of Space – «Tiangong's First Foreign Seat Goes to Pakistan» (18 Nov)",
+     "url": "https://theaceofspace.substack.com/p/tiangongs-first-foreign-seat-goes"
+    },
+    {
+     "nome": "Space.com – Pakistani astronaut to become Tiangong's first international visitor (12 Nov)",
+     "url": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month&gsessionid=hC-149AD5soLAtGFwxWSvmuRpjW4DRIjkfojRP9KpRO285SvdaPj6w"
+    },
+    {
+     "nome": "Al Jazeera – Pakistani astronaut to join China's next space station mission (7 Nov)",
+     "url": "https://aljazeera.com/news/2026/11/7/pakistani-astronaut-to-join-chinas-next-space-station-mission"
+    },
+    {
+     "nome": "Universe Today – first foreign astronaut visits Tiangong (14 Nov)",
+     "url": "https://www.universetoday.com/articles/the-first-foreign-astronaut-will-visit-chinas-tiangong-space-station-in-two-weeks"
+    },
+    {
+     "nome": "Beijing Review – Shenzhou-24 transferred to the launch area (18 Nov, quoted)",
+     "url": "http://www.bjreview.com.cn/Latest_Headlines/202611/t20261118_800451518.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Shenzhou 19 launch 01.png",
+    "tipo": "arquivo",
+    "alt": "Long March 2F rocket lifting off with the Shenzhou-19 spacecraft",
+    "legenda": "Launch of Shenzhou-19 on a Long March 2F rocket, the same model as Shenzhou-24 (archive image; does not show this mission)"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Os Christophers» (The Christophers): Soderbergh shuts Ian McKellen and Michaela Coel in a house with unfinished paintings — and critics mainly applaud the actors",
+   "ficha": {
+    "Original title": "The Christophers (2025, United Kingdom)",
+    "Director": "Steven Soderbergh (also the film's cinematographer and editor)",
+    "Screenplay": "Ed Solomon",
+    "Cast": "Ian McKellen, Michaela Coel, James Corden, Jessica Gunning",
+    "Release in Portugal": "19 November 2026 (comedy-drama; M/12 (ages 12+); 100 minutes)",
+    "Reviews": "Mostly favourable reviews: B+ from the AV Club and praise from TheWrap; the Irish Times thinks the film «scrapes by» thanks to its cast"
+   },
+   "texto": [
+    "«Os Christophers» (The Christophers), the new film by the American Steven Soderbergh, the director of «Traffic» and «Ocean's Eleven», opens in Portuguese cinemas today, Thursday 19 November. It is a comedy-drama about art, family and the fear of being forgotten, with Ian McKellen and Michaela Coel in the lead roles. At the Cinema Medeia Nimas, in Lisbon, there is a screening today at 19:00. It premiered at the Toronto Film Festival in September 2025.",
+    "McKellen is Julian Sklar, a once-famous painter who now lives bitter and isolated. His children want to secure their inheritance and hire a painter with a knack for forgery, played by Coel, to finish a series of paintings their father left incomplete, so that they can be «discovered» and sold after his death. What happens when the two come face to face is for the viewer to find out. The film takes place almost entirely in one house and was shot in London; Soderbergh, as well as directing, did the cinematography and editing.",
+    "Its strengths lie in the duel between the two actors. The AV Club gives it a B+ and says McKellen's performance, irascible and funny, would almost be enough to justify the film; TheWrap highlights Coel's restraint and the humour of screenwriter Ed Solomon's dialogue. Both reviews praise the long takes and the handheld camera, which put the audience in the room with the characters, and the way the film talks about creation, legacy and ageing — themes the AV Club links to Soderbergh's own career.",
+    "The weaknesses also appear in the reviews. The Irish Times thinks the script raises big ideas but does not develop them, that the scenes «drift» rather than build, and that the direction is too discreet, closer to filmed theatre. James Corden is the weakest link for TheWrap, and the AV Club notes that the family members are almost caricatures and that there are predictable moments. In short, according to the assessment that emerges from the reviews consulted: a small chamber film, not the most ambitious Soderbergh, but worth it above all for the face-off between McKellen and Coel."
+   ],
+   "fontes": [
+    {
+     "nome": "Medeia Filmes – Cinema Medeia Nimas (screenings of «Os Christophers», 19 Nov)",
+     "url": "https://medeiafilmes.com/cinemas/cinema-medeia-nimas"
+    },
+    {
+     "nome": "Magazine.HD – details of «Os Christophers»",
+     "url": "https://www.magazine-hd.com/filme/os-christophers"
+    },
+    {
+     "nome": "Cinevisão – «Os Christophers»",
+     "url": "https://cinevisao.pt/filmes/the-christophers/"
+    },
+    {
+     "nome": "Alambique – «Os Christophers: Steven Soderbergh returns to the essentials»",
+     "url": "https://alambique.pt/os-christophers-steven-soderbergh-regressa-ao-essencial/"
+    },
+    {
+     "nome": "Time Out Lisboa – «Os Christophers»",
+     "url": "https://www.timeout.com/pt/filmes/os-christophers-2026"
+    },
+    {
+     "nome": "AV Club – review of «The Christophers» (Jason Gorber, 11 Sep 2025)",
+     "url": "https://www.avclub.com/the-christophers-review"
+    },
+    {
+     "nome": "TheWrap – review of «The Christophers» (Chase Hutchinson, 7 Sep 2025)",
+     "url": "https://www.thewrap.com/the-christophers-review-steven-soderbergh-ian-mckellen-michaela-coel/"
+    },
+    {
+     "nome": "The Irish Times – review of «The Christophers» (Tara Brady, 13 May 2026)",
+     "url": "https://www.irishtimes.com/culture/film/review/2026/05/13/the-christophers-review-steven-soderberghs-film-scrapes-by-thanks-to-a-compelling-cast/"
+    }
+   ],
+   "nota": "The release on 19 Nov comes from filmSPOT's list of November releases (page opened), Magazine.HD and Cinevisão; today's 19:00 screening at the Medeia Nimas, the running time and the M/12 rating were confirmed on the cinema's page on the Medeia Filmes website. It was not possible to open the film's page on filmSPOT, so other cinemas and times were not checked. The Toronto premiere comes from the Alambique page (which does not explicitly say it is the Portuguese distributor; so the distributor is not given); the shooting in London comes from Time Out Lisboa. Soderbergh's role as cinematographer and editor comes from TheWrap. The assessment summarises the reviews by the AV Club, TheWrap and the Irish Times; no Portuguese reviews were consulted. The films «Traffic» and «Ocean's Eleven» are a general reference to the director's filmography. The image's Commons page could not be opened; the file appears in Commons search results and the date (2009 Venice Film Festival) is taken from the file name.",
+   "imagem": {
+    "commons": "Steven Soderbergh at the 66th Mostra.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of the director Steven Soderbergh",
+    "legenda": "Steven Soderbergh, director of «Os Christophers», at the 2009 Venice Film Festival (archive image; does not show the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Hokusai, the man behind the «Great Wave»: he moved house more than 90 times, used dozens of names and wanted to live to 110 to draw as he should",
+   "ficha": {
+    "Born and died": "October 1760, in Edo (now Tokyo), Japan; 10 May 1849, in Edo",
+    "Name": "Katsushika Hokusai (one of many: he used about one main name per decade and around twenty pseudonyms)",
+    "Field": "Woodblock printing (ukiyo-e), painting and drawing",
+    "Essential work": "«Thirty-Six Views of Mount Fuji» (c. 1830–1833), including «Under the Wave off Kanagawa» («The Great Wave»); the «Hokusai Manga» sketchbooks; «One Hundred Views of Mount Fuji»",
+    "Now": "Exhibition «Hokusai: Thirty-six Views of Mt Fuji from the Iuchi Collection», with the complete series for the first time in the United Kingdom, at the Dulwich Picture Gallery (London), until 17 January 2027"
+   },
+   "texto": [
+    "Almost everyone knows the «Great Wave», the blue and white wave about to crash down on three boats, with a tiny Mount Fuji in the background. Fewer people know the man who made it: Katsushika Hokusai, the most celebrated Japanese printmaker. Until 17 January 2027, the Dulwich Picture Gallery, in London, is showing for the first time in the United Kingdom the complete series the wave belongs to, the «Thirty-Six Views of Mount Fuji», from the Iuchi collection, in partnership with the National Museum of Western Art in Tokyo.",
+    "Hokusai was born in 1760 in Edo, the city now called Tokyo. As a young man he worked in a lending library and was apprenticed to a woodblock carver. At 18 he joined the studio of Katsukawa Shunshō, a master of ukiyo-e, «pictures of the floating world»: popular prints, produced in series from woodblocks, featuring theatre actors and landscapes. He was restless. He lived in more than 90 homes, changed his name roughly once a decade and left tens of thousands of works. He also liked a show: in Edo and Nagoya he painted, in front of crowds, giant pictures of about 200 square metres.",
+    "Hokusai's style mixes Japanese tradition with perspective that came from Europe. The «Thirty-Six Views» — which are actually 46, because the publisher added ten more — show Fuji from every angle, season and everyday situation. One of the secrets of their success was a colour: Prussian blue, a synthetic pigment invented in Germany and imported by Japan, which Hokusai used for the sea and sky. He began the series at 70, at a difficult time: he had had a stroke, lost his wife and had to pay off a grandson's gambling debts. The «Hokusai Manga» sketchbooks, full of drawings of people, animals and objects, are another essential part of his work.",
+    "Some curiosities. The «Great Wave» is not a painting, it is a commercial print: thousands of copies were made and around a hundred are thought to survive. The composer Claude Debussy had one at home and used a detail from it on the cover of the score of «La Mer» (1905). Since July 2024, the wave has been on the 1,000-yen note. And Hokusai was demanding of himself: at 73 he wrote that he was only beginning to understand the true nature of birds, fish and plants, and that at 110 every dot and every line he drew would take on a life of its own. He died in 1849, aged almost 90."
+   ],
+   "fontes": [
+    {
+     "nome": "Dulwich Picture Gallery – «Hokusai: Thirty-six Views of Mt Fuji from the Iuchi Collection»",
+     "url": "https://www.dulwichpicturegallery.org.uk/whats-on/hokusai-thirty-six-views-of-mt-fuji-from-the-iuchi-collection/"
+    },
+    {
+     "nome": "Britannica – Hokusai",
+     "url": "https://www.britannica.com/biography/Hokusai"
+    },
+    {
+     "nome": "Art Institute of Chicago – «10 Things to Know about The Great Wave»",
+     "url": "https://www.artic.edu/articles/1139/10-things-to-know-about-the-great-wave"
+    },
+    {
+     "nome": "Nippon.com – Hokusai's «Great Wave», from Edo mass culture to the 1,000-yen note",
+     "url": "https://www.nippon.com/en/japan-topics/g02414"
+    }
+   ],
+   "nota": "Exhibition (dates from 20 Oct 2026 to 17 Jan 2027, Iuchi collection, partnership with the National Museum of Western Art in Tokyo, first time in the United Kingdom, dating of the series to 1830–1833, ten extra prints because of Prussian blue) according to the Dulwich Picture Gallery. Birth in Edo in October 1760, lending library, apprenticeship with a carver, Shunshō at 18 (1778), more than 90 homes, one name per decade and around twenty pseudonyms, paintings of about 200 m² in Edo and Nagoya, 46 prints, «Hokusai Manga» and the statement about the ages of 73 and 110 according to Britannica. Original title, copies and around a hundred survivors, imported Prussian blue, start of the series at 70 (stroke, death of his wife, grandson's debts), «One Hundred Views of Mount Fuji» and Debussy according to the Art Institute of Chicago. 1,000-yen note (July 2024), Prussian blue invented in Germany and more than 30,000 works according to Nippon.com (which speaks of 93 house moves). Sources differ on his age at death (88 or 89), so the text says «almost 90». Wikipedia could not be opened. The image's Commons page could not be opened; the file appears in Commons search results (public domain work).",
+   "imagem": {
+    "commons": "Tsunami by hokusai 19th century.jpg",
+    "tipo": "obra",
+    "alt": "Japanese print with a huge blue wave with a white crest about to crash down on boats, with a small Mount Fuji in the background",
+    "legenda": "«Under the Wave off Kanagawa» («The Great Wave»), c. 1830–1833, by Katsushika Hokusai (public domain work)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that «Frankenstein» was born from a challenge between friends, in a sunless summer caused by a volcano on the other side of the world?",
+   "texto": [
+    "Did you know that one of the most famous novels of all time was born from an evening game? In June 1816, a group of English friends were on holiday by Lake Geneva, in Switzerland. The rain would not stop and the evenings were spent indoors. To pass the time, the poet Lord Byron set a challenge: each of them was to write a ghost story. Out of it came «Frankenstein», by an 18-year-old girl called Mary Godwin — who would become known as Mary Shelley.",
+    "And why was it raining so much? A volcano was to blame. In April 1815, Mount Tambora, in present-day Indonesia, had the most powerful eruption in recorded history. The ash spread through the atmosphere and 1816 became known as «the year without a summer», cold and wet in much of Europe. Mary remembered «almost perpetual» rain, with thunderstorms. At the Villa Diodati, the house rented by Byron, the group — Byron, his doctor, John Polidori, the poet Percy Shelley, Mary and her stepsister, Claire Clairmont — read German horror stories translated into French.",
+    "After hearing Byron and Percy Shelley discuss whether it would be possible to bring a body back to life, she had a restless night and, she later said, saw «the hideous phantasm of a man stretched out». It was the seed of the story of Victor Frankenstein, the scientist who creates a living being and flees from his creation. Note: Frankenstein is the name of the scientist, not of the creature, which has no name in the book. The same challenge produced another classic, «The Vampyre», by Polidori, published in 1819 in a magazine and wrongly attributed to Byron; it paved the way for «Dracula».",
+    "The book came out in January 1818, in three volumes and without the author's name. The publisher Lackington printed 500 copies and sold 459. Mary was 20. Fame came with the theatre: a stage adaptation was a success about four years later, and in 1831 Mary published a revised version, with an introduction in which she told, for the first time, how it all began that rainy summer. Today, «Frankenstein» is considered one of the first science fiction novels."
+   ],
+   "fontes": [
+    {
+     "nome": "Britannica – «Frankenstein; or, The Modern Prometheus»",
+     "url": "https://www.britannica.com/topic/Frankenstein-or-The-Modern-Prometheus"
+    },
+    {
+     "nome": "Penguin – The Geneva holiday that gave birth to Frankenstein",
+     "url": "https://www.penguin.co.uk/geneva-holiday-frankenstein-mary-shelley/"
+    },
+    {
+     "nome": "Art UK – Sparking the gothic imagination: «Frankenstein» and «The Vampyre» (Andrew Shore)",
+     "url": "https://batch.artuk.org/discover/stories/sparking-the-gothic-imagination-mary-shelleys-frankenstein-and-polidoris-the-vampyre"
+    },
+    {
+     "nome": "University of Pennsylvania (Frankenstein: Penn Electronic Edition) – publication history",
+     "url": "https://knarf.english.upenn.edu/Text/history.html"
+    }
+   ],
+   "nota": "June 1816, Lake Geneva, who was present, Mary's age of 18, the «almost perpetual» rain, Byron's challenge, the conversation about reanimating bodies, the «hideous phantasm» and the link between «The Vampyre» and «Dracula» according to Penguin. Tambora eruption in April 1815 as the most powerful on record, «year without a summer», Villa Diodati rented by Byron, the German stories in French («Fantasmagoriana») and the publication of «The Vampyre» in 1819 in the New Monthly Magazine, attributed to Byron, according to Art UK. Publication in 1818, anonymous, 500 copies, Mary aged 20, stage adaptation about four years later, 1831 edition with introduction and «one of the first science fiction novels» according to Britannica. January 1818, three volumes, Lackington, 459 copies sold and the 1831 rewrite according to the University of Pennsylvania electronic edition. Britannica places the challenge at the Villa Diodati, in Cologny; Art UK says the Shelleys rented a nearby house and visited Byron's. The idea that the creature has no name in the book is general knowledge about the work, consistent with Britannica, which calls it only «monster» or «creature». The image's Commons page could not be opened; the file appears in Commons search results; the attribution (Theodor von Holst) comes from the Commons category in which it appears.",
+   "imagem": {
+    "commons": "Frontispiece to Frankenstein 1831.jpg",
+    "tipo": "obra",
+    "alt": "Old engraving in which a frightened man flees, at the door of a laboratory, from a huge creature awakening on the floor",
+    "legenda": "Frontispiece of the 1831 edition of «Frankenstein», engraving from a drawing by Theodor von Holst (public domain work)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Cinanima reaches its 50th edition: Espinho's animation festival celebrates half a century with 17 days of films, until Sunday",
+   "ficha": {
+    "Origins": "Idea of a group of young people from Espinho in February 1976; 1st edition from 23 to 27 November 1977",
+    "Organisation": "Cultural cooperative Nascente and Espinho City Council, with support from the ICA (Portugal's Film and Audiovisual Institute) and the European MEDIA programme",
+    "Field": "Animated film: national and international competitions, retrospectives, training in schools and universities, artist residencies",
+    "Now": "50th edition from 6 to 22 November 2026, at the Centro Multimeios de Espinho and other venues in the region; 167 films in competition; budget of €216,000"
+   },
+   "texto": [
+    "Cinanima — Espinho International Animated Film Festival is marking 50 editions and is halfway through the celebrations. From 6 November until Sunday 22, there are 17 days of films, far more than the seven the festival usually lasts. There are 167 short and feature films in competition, 33 of them Portuguese, and more than two hundred other films in retrospectives and special screenings, mainly at the Centro Multimeios de Espinho. This edition's theme comes from a poem by António Gedeão: «O sonho comanda a vida» (The dream drives life).",
+    "It all began in February 1976, when a group of young people from Espinho proposed a showcase of animated film and comics. The first edition of the festival took place from 23 to 27 November 1977. Álvaro Costa is regarded as the «spiritual father» of Cinanima, and António Gaio ran it for 35 years, from 1981; the prize for the best Portuguese film has borne his name since 1990. Today it is organised by the cultural cooperative Nascente and Espinho City Council.",
+    "Why does it matter? Cinanima is one of the few Portuguese festivals recognised by the Hollywood academy: its winners can be considered for the Oscars. «Father and Daughter», by Michael Dudok de Wit, won the grand prize in 2000 and the Oscar for best animated short the following year. The festival has also worked with schools since 2010, taking filmmakers into pre-school and 1st cycle (primary) classrooms. This year, more than 200 pupils from 11 municipalities are making a film in an artist residency, which will be shown at the closing ceremony. Programmer André Ramada says the techniques still surprise: there are films made with coffee foam, painted on tiles or embroidered by hand.",
+    "There is still plenty to see. Today, Thursday 19, a study on 50 years of female presence in the festival's archives is being presented at the Teatro Municipal de Vila do Conde, with guests such as the director Regina Pessoa. There are also seven «50 Anos de CINANIMA – Um Legado» (50 Years of CINANIMA – A Legacy) programmes, tributes to the designer João Machado, who created some of the festival's emblematic posters, and to the critic Henrique Alves Costa, and a new prize, the «Pequeno Golfinho» (Little Dolphin), for films aimed at children and teenagers. Last year the festival had more than 287,000 admissions; this year the organisers are expecting about 345,000."
+   ],
+   "fontes": [
+    {
+     "nome": "Observador/Lusa – Cinanima festival begins its 50th edition (6 Nov)",
+     "url": "https://observador.pt/2026/11/06/festival-cinanima-inicia-50-a-edicao-com-filmes-que-procuram-a-ousadia-da-felicidade/"
+    },
+    {
+     "nome": "Diário de Aveiro – Cinanima celebrates 50 years with a 17-day edition (17 Oct)",
+     "url": "https://www.diarioaveiro.pt/2026/10/17/cinanima-comemora-50-anos-com-edicao-de-17-dias/"
+    },
+    {
+     "nome": "Cinanima – History of the festival",
+     "url": "https://cinanima.pt/en/history/"
+    },
+    {
+     "nome": "Universidade Lusófona – works in the official selection of Cinanima 2026 (9 Sep)",
+     "url": "https://www.ulusofona.pt/noticias/obras-lsf-na-selecao-oficial-do-cinanima-2026"
+    },
+    {
+     "nome": "Visit Espinho – Centro Multimeios | Planetarium (quoted)",
+     "url": "https://visit.espinho.pt/en/tourism/multimeios-center-planetarium/"
+    }
+   ],
+   "nota": "Dates (6 to 22 Nov), 17 days, Centro Multimeios, organisation (Nascente and Espinho City Council), budget, support from the ICA and MEDIA, 167 films in competition, «Um Legado» programmes, «Pequeno Golfinho» prize, residency with more than 200 pupils from 11 municipalities, usual length of seven days and admission figures (287,046 last year; forecast of about 345,000) according to Diário de Aveiro. 33 Portuguese films, a further 226 works out of competition, António Gedeão theme, tributes to João Machado and Henrique Alves Costa, statements by André Ramada and the study presented on 19 Nov in Vila do Conde according to Observador (Lusa text). Origins in 1976, 1st edition in 1977, Álvaro Costa, António Gaio (1981–2015, prize since 1990), recognition by the Academy in 1985, «Father and Daughter» and work with schools since 2010 according to Cinanima's history page. That the photograph shows the Centro Multimeios building is inferred from the Espinho tourism page («Multimeios Center | Planetarium», seen only in search results) and the file name; the image's Commons page could not be opened and the file appears in Commons search results. Session prices and times were not checked.",
+   "imagem": {
+    "commons": "Planetario Espinho Exterior.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Exterior of the Espinho Planetarium building, at the Centro Multimeios",
+    "legenda": "Espinho Planetarium, at the Centro Multimeios, Cinanima's main home (illustrative image; does not show the festival)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 19 November from the listings and event pages of Casa da Música, the listings and activity pages of Serralves, Agenda Porto (Porto City Council: highlights page, Porto/Post/Doc programme, Rivoli, Galeria Municipal and Teatro Carlos Alberto), the Porto/Post/Doc website and Time Out Porto. It was not possible to open the pages of the Teatro Municipal do Porto, the Coliseu and the TNSJ today, nor several individual Agenda Porto listings; where the note says so, information confirmed in yesterday's edition is repeated. Porto/Post/Doc opens this Thursday, 19, at the Batalha, and runs until 28 November, also at Passos Manuel and the Planetário; the festival website does not give the price of a single ticket (the pass costs €60, or €40 with a discount). On Saturday 21, the Galeria Municipal do Porto opens three exhibitions at the same time, with free entry. The Niklas Paschburg concert (Friday 20) appears as sold out in the general Casa da Música listings, but the concert page still shows tickets. Where it says «To be confirmed», the information was not in the source: it is worth checking the link before setting out.",
+ "agenda": [
+  {
+   "dia": "2026-11-19",
+   "eventos": [
+    {
+     "nome": "O Conceito Inútil (The Useless Concept), by the company Do Lado de Fora",
+     "descricao": "Premiere of the play by the first Portuguese theatre company created by people experiencing homelessness: guided tours of the memories of the places each of them has called home.",
+     "horario": "19:00",
+     "tipo": "Theatre",
+     "local": "Teatro Carlos Alberto (TeCA), Rua das Oliveiras, 43, Porto",
+     "preco": "€12",
+     "url": "https://www.agenda-porto.pt/en/evento/teca-o-conceito-inutil/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+). Artistic direction by Rui Spranger; co-produced by the Teatro Nacional São João. Dates, times (19 Nov at 19:00, 20 at 21:00, 21 at 19:00, 22 at 16:00) and price confirmed today on Agenda Porto; premiere and dates also in Observador (30 Jul). The TNSJ website was not opened today."
+    },
+    {
+     "nome": "Porto/Post/Doc opening: «A Cidade e os Mapas» (The City and the Maps)",
+     "descricao": "The 13th edition of the documentary film festival kicks off with the first feature by Alexandra Guimarães and Gonçalo L. Almeida, about a changing Porto seen by a delivery rider from Bangladesh and by an architect who reads old maps.",
+     "horario": "21:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "€5",
+     "url": "https://portopostdoc.com/home-en",
+     "ligacao": "Porto/Post/Doc",
+     "nota": "M/12 (ages 12+). Festival dates (19 to 28 Nov) and the opening film confirmed today on the Porto/Post/Doc website and the Batalha page; the website gives neither time nor price. Time and price (€5, with Cartão Porto discounts) come from Agenda Porto, consulted on 18 November."
+    },
+    {
+     "nome": "May B, by Maguy Marin",
+     "descricao": "Dance-theatre piece from 1981 inspired by the world of Samuel Beckett, with ten dancers from the Compagnie Maguy Marin. It opens Serralves' Maguy Marin Focus.",
+     "horario": "21:30",
+     "tipo": "Dance",
+     "local": "Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "€12 (50% discount up to age 18, from age 65 and for Friends of Serralves)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1911-may-b/",
+     "ligacao": "Serralves",
+     "nota": "1h30. Date, time, venue, price and discounts confirmed today on the Serralves page, which has ticket sales open; it does not say whether it is sold out or give an age rating."
+    },
+    {
+     "nome": "Bruno Pernadas plays «Steamboat Bill Jr.», by Buster Keaton",
+     "descricao": "Film concert: Bruno Pernadas and a quintet play an original live soundtrack for Buster Keaton's silent comedy.",
+     "horario": "21:30",
+     "tipo": "Film concert",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€30",
+     "url": "https://casadamusica.com/en/event/bruno-pernadas-interprets-buster-keatons-steamboat-bill-jr/?selected_session=61032",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time, venue and price confirmed today in the Casa da Música listings, with no indication of being sold out. On the same day and at the same time there is a free concert by Claiana in the Casa da Música Café."
+    },
+    {
+     "nome": "Rubel – BELEZA. Rubel e Violão (Rubel and Guitar)",
+     "descricao": "The Brazilian singer-songwriter performs solo, with voice and guitar, on the tour for the album «BELEZA».",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "To be confirmed (between €20 and €48)",
+     "url": "https://www.timeout.pt/porto/pt/musica/rubel",
+     "ligacao": "Time Out Porto",
+     "nota": "Date, time and venue confirmed today on Time Out Porto, which lists tickets from €21 to €48 (on sale at Blueticket); Agenda Porto listed €20 to €45 yesterday. The Coliseu website could not be opened today; not confirmed whether it is sold out."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-20",
+   "eventos": [
+    {
+     "nome": "Porto/Post/Doc: «Como um Homem», by Alain Gomis",
+     "descricao": "Screening in the focus dedicated to the French-Senegalese director Alain Gomis, one of the highlights of this edition of the documentary festival.",
+     "horario": "19:30",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, time and venue confirmed today in the festival programme on Agenda Porto, which does not give a price; the festival screenings listed yesterday cost €5. At 17:00, at the Batalha, «Eu, Capitão» (Io Capitano), by Matteo Garrone, is showing («No País dos Outros» series)."
+    },
+    {
+     "nome": "O Conceito Inútil (The Useless Concept), by the company Do Lado de Fora",
+     "descricao": "Second performance of the play built from the life stories of the actors, people who have known life on the streets, about what it means to have a home.",
+     "horario": "21:00",
+     "tipo": "Theatre",
+     "local": "Teatro Carlos Alberto (TeCA), Rua das Oliveiras, 43, Porto",
+     "preco": "€12",
+     "url": "https://www.agenda-porto.pt/en/evento/teca-o-conceito-inutil/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+). Time and price confirmed today on Agenda Porto."
+    },
+    {
+     "nome": "The Brotherhood, by Carolina Bianchi Y Cara de Cavalo",
+     "descricao": "Second chapter of the «Cadela Força» trilogy, about pacts of male brotherhood and how their codes have perpetuated sexual violence, including in the history of art.",
+     "horario": "21:00",
+     "tipo": "Theatre",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "€12",
+     "url": "https://www.agenda-porto.pt/en/local/rivoli-theatre/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/18 (ages 18+), 3h40 with an interval; deals with rape and sexual violence. Dates (20 and 21 Nov) confirmed today on the Rivoli page on Agenda Porto, with no time or price; time, price and the Saturday performance at 17:00 come from the Teatro Municipal website, consulted on 18 November (it did not open today)."
+    },
+    {
+     "nome": "Niklas Paschburg (Misty Fest)",
+     "descricao": "The German composer and pianist blends neoclassical piano, synthesisers and electronics in an intimate concert.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 (possibly sold out)",
+     "url": "https://casadamusica.com/en/event/niklas-paschburg-2/?selected_session=60553",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time, venue and price confirmed today at Casa da Música and on Agenda Porto. The general Casa da Música listings mark the session as sold out, but the concert page still shows the tickets button: worth checking."
+    },
+    {
+     "nome": "Lena d'Água (Concertos de Outono / Autumn Concerts)",
+     "descricao": "One of the voices of Portuguese pop since the 1980s opens the weekend of autumn concerts at the Fórum da Maia, on the outskirts of Porto.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Fórum da Maia, Rua Eng. Duarte Pacheco, 131, Maia",
+     "preco": "€10 (€18 for two people)",
+     "url": "https://www.timeout.pt/porto/pt/musica/os-concertos-que-nao-pode-perder-no-porto-esta-semana",
+     "ligacao": "Time Out Porto",
+     "nota": "It is in Maia, outside the municipality of Porto. Date, time and prices confirmed today on Time Out Porto; address from yesterday's edition (Time Out). Not confirmed on the promoter's website."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-21",
+   "eventos": [
+    {
+     "nome": "Ciência em Família: As Cores Secretas do Outono (Family Science: The Secret Colours of Autumn)",
+     "descricao": "Workshop in Serralves Park to discover why leaves change colour: observing the trees and a chromatography experiment that reveals the hidden pigments.",
+     "horario": "15:00",
+     "tipo": "Family",
+     "local": "Parque de Serralves (meeting point: outdoor ticket office), Rua D. João de Castro, 210, Porto",
+     "preco": "Family Ticket: €12 per resident adult (€15 for non-residents); children up to 12 free",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1011-ciencia-em-familia-or-as-cores-secretas-do-outono/",
+     "ligacao": "Serralves",
+     "nota": "Ages 5 and up; registration required, maximum of 20 participants. Date, time, prices and discounts (50% for Friends, up to age 18 and from 65) confirmed today on the Serralves page."
+    },
+    {
+     "nome": "Three new exhibitions at the Galeria Municipal do Porto",
+     "descricao": "Simultaneous opening of «Bosque da Noite» (Night Forest), by Leonor Parda, «Rasgar um céu sem sol» (Tearing a Sunless Sky), by Basel Abbas and Ruanne Abou-Rahme, and «Conto Gótico» (Gothic Tale), a retrospective of Isabel Carvalho.",
+     "horario": "To be confirmed",
+     "tipo": "Exhibition",
+     "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de D. Manuel II, Porto",
+     "preco": "Free entry",
+     "url": "https://agenda-porto.pt/en/local/n9d8XJQM7JP",
+     "ligacao": "Agenda Porto",
+     "nota": "Opening date and free entry confirmed today on the Galeria Municipal page on Agenda Porto, with no time. The exhibitions run until February 2027; on Sunday 22 there is a free guided tour with Basel Abbas and Ruanne Abou-Rahme (time to be confirmed). An announcement by the gallery on e-flux gave 11 November, which does not match Agenda Porto."
+    },
+    {
+     "nome": "Sinfonia Órgão (Organ Symphony) – Porto Symphony Orchestra Casa da Música",
+     "descricao": "Stefan Blunier conducts Chausson's «Soir de fête», Liszt's «Les Préludes» and Saint-Saëns's Symphony No. 3, «Organ», with Jonathan Ayerst at the organ.",
+     "horario": "18:00",
+     "tipo": "Classical music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€26 to €30",
+     "url": "https://casadamusica.com/en/event/organ-symphony/?selected_session=47264",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, venue and prices confirmed today in the Casa da Música listings, with no indication of being sold out; programme and performers confirmed yesterday from the same source."
+    },
+    {
+     "nome": "Porto/Post/Doc: Curadores da Rua (Street Curators), by Luís Pedro Costa and António Toga",
+     "descricao": "Special screening of a documentary about three decades of street art in Porto: graffiti, erased works and who decides what stays on the city's walls.",
+     "horario": "18:45",
+     "tipo": "Cinema / Festival",
+     "local": "Passos Manuel, Rua de Passos Manuel, 137, Porto",
+     "preco": "€5",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+). Date, time and venue confirmed today in the festival programme on Agenda Porto; the price (with Cartão Porto discounts) comes from the screening page consulted on 18 November."
+    },
+    {
+     "nome": "Mafalda Veiga (Concertos de Outono / Autumn Concerts)",
+     "descricao": "The singer-songwriter closes the weekend of autumn concerts at the Fórum da Maia, on the outskirts of Porto.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Fórum da Maia, Rua Eng. Duarte Pacheco, 131, Maia",
+     "preco": "€10 (€18 for two people)",
+     "url": "https://www.timeout.pt/porto/pt/musica/os-concertos-que-nao-pode-perder-no-porto-esta-semana",
+     "ligacao": "Time Out Porto",
+     "nota": "It is in Maia, outside the municipality of Porto. Date, time and prices confirmed today on Time Out Porto, which lists David Fonseca at the Super Bock Arena and Vizinhos at the Coliseu on the same day, with no time or price."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-22",
+   "eventos": [
+    {
+     "nome": "Café com Nata: Solistas da Orquestra Sinfónica (Coffee and Custard Tart: Symphony Orchestra Soloists)",
+     "descricao": "Sunday morning concert featuring the oboe: Mozart, Britten and Kodály, with coffee and a pastel de nata (custard tart) included.",
+     "horario": "11:00",
+     "tipo": "Classical music",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€14",
+     "url": "https://casadamusica.com/en/event/orquestra-sinfonica-soloists-2/?selected_session=54909",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). With Roberto Henriques (oboe), Evandra Gonçalves (violin), Luís Norberto (viola) and Michal Kiska (cello). Date, time, programme and price (with discounts) confirmed today on the Casa da Música page."
+    },
+    {
+     "nome": "O Conceito Inútil (The Useless Concept), by the company Do Lado de Fora",
+     "descricao": "Last performance of the play by the theatre company created by people experiencing homelessness, about the idea of home.",
+     "horario": "16:00",
+     "tipo": "Theatre",
+     "local": "Teatro Carlos Alberto (TeCA), Rua das Oliveiras, 43, Porto",
+     "preco": "€12",
+     "url": "https://www.agenda-porto.pt/en/evento/teca-o-conceito-inutil/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+). Time and price confirmed today on Agenda Porto."
+    },
+    {
+     "nome": "Singspiele, by Maguy Marin, with David Mambouch",
+     "descricao": "Solo in which the performer crosses the stage changing face and character, questioning identity, appearance and gender codes. It closes the Maguy Marin Focus.",
+     "horario": "16:00 and 19:00",
+     "tipo": "Dance / Performance",
+     "local": "Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "€7.50 (€3.75 for students and young people, over-64s and Friends of Serralves)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2211-singspiele/",
+     "ligacao": "Serralves",
+     "nota": "1h. Date, times and prices confirmed today on the Serralves page; it does not say whether it is sold out."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Kmêdeus» + «A Última Colheita» (The Last Harvest)",
+     "descricao": "Screening in the «Working Class Heroes» series, with films by Nuno Boaventura Miranda.",
+     "horario": "19:30",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, time and venue confirmed today in the festival programme on Agenda Porto, which gives neither price nor running time. On the same day, at 21:30, Passos Manuel shows «Esta Vida de Marinheiro» (This Sailor's Life), by Paulo Antunes."
+    },
+    {
+     "nome": "Jazz in the Space Age, by George Russell – Orquestra Jazz de Matosinhos",
+     "descricao": "Pedro Guedes conducts the big band in the George Russell work that influenced Miles Davis, with pianists Mário Laginha and Miguel Meirinhos improvising.",
+     "horario": "21:30",
+     "tipo": "Jazz",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€26 to €30",
+     "url": "https://casadamusica.com/en/event/jazz-in-the-space-age-by-george-russel/?selected_session=55746",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time, venue, performers and prices confirmed today at Casa da Música. At 21:00, in Sala 2, accordionist Vincent Peirani plays (Misty Fest, €25)."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Trump met Putin and then Xi in Shenzhen, and the three began their first joint summit; at the time of going to press there were no known agreements or statement.",
+   "noticia": 9
+  },
+  {
+   "texto": "Anthropic, owner of Claude, priced its shares at $83 and raises about $81 billion: according to the AP, the biggest stock market listing ever. It starts trading on Nasdaq today.",
+   "noticia": 4
+  },
+  {
+   "texto": "On the first day of voting on the 2027 Budget, the PS and Chega approved proposals against the wishes of the PSD and the CDS-PP; the final overall vote is on 24 November.",
+   "noticia": 13
+  },
+  {
+   "texto": "A serious flaw in Java, «Java4Shell», now has a fix; the US cybersecurity agency is asking for it to be installed immediately.",
+   "noticia": 1
+  },
+  {
+   "texto": "COP31 enters the final stretch in Antalya with no agreement on fossil fuels and money; the close is scheduled for Friday.",
+   "noticia": 10
+  },
+  {
+   "texto": "A flash flood swept through Manteigas, in the Serra da Estrela, on Wednesday night: no one was injured, but at least two people have been left homeless.",
+   "noticia": 14
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Thursday 19 Nov",
+   "texto": "First day of Anthropic shares on Nasdaq. In Porto, the Porto/Post/Doc festival opens at the Batalha.",
+   "noticia": 4
+  },
+  {
+   "quando": "Friday 20 Nov",
+   "texto": "National public administration strike, called by the Frente Comum; pre-schools and 1st cycle (primary) schools may close. Scheduled end of COP31, which may run over.",
+   "noticia": 15
+  },
+  {
+   "quando": "Monday 23 Nov",
+   "texto": "Last day of voting on the Budget at the detailed stage. The CP train drivers' strike begins, until Friday 27: CP warns of delays and cancellations.",
+   "noticia": 15
+  },
+  {
+   "quando": "Tuesday 24 Nov",
+   "texto": "Final overall vote on the 2027 State Budget, on the day of a national strike called against the Budget.",
+   "noticia": 13
+  }
+ ],
+ "linkedin_abertura": "Trump sat down with Putin and with Xi, in turn, in Shenzhen, and the first three-way summit between the US, Russia and China got under way with no results announced."
+}

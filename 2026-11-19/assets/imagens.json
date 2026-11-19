@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-president-donald-j-trump-and-president-xi-jinping-at-g20-jul.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Donald_J._Trump_and_President_Xi_Jinping_at_G20%2C_July_8%2C_2017.jpg?width=1000",
+  "commons": "President Donald J. Trump and President Xi Jinping at G20, July 8, 2017.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-balticservers-data-center.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BalticServers_data_center.jpg?width=1000",
+  "commons": "BalticServers data center.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-s-ance-pleini-re-de-la-cop21-pour-l-adoption-de-l-accord-de-.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%A9ance_pleini%C3%A8re_de_la_COP21_pour_l%E2%80%99adoption_de_l%E2%80%99accord_de_Paris_2015.jpg?width=1000",
+  "commons": "Séance pleinière de la COP21 pour l’adoption de l’accord de Paris 2015.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-palacio-de-sao-bento.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio_de_Sao_Bento.jpg?width=1000",
+  "commons": "Palacio de Sao Bento.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-hot-surfaces-during-europe-s-heatwave-seen-by-sentinel-3-esa.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot_surfaces_during_Europe%27s_heatwave_%27seen%27_by_Sentinel-3_ESA522397.jpg?width=1000",
+  "commons": "Hot surfaces during Europe's heatwave 'seen' by Sentinel-3 ESA522397.jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-steven-soderbergh-at-the-66th-mostra.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Steven_Soderbergh_at_the_66th_Mostra.jpg?width=1000",
+  "commons": "Steven Soderbergh at the 66th Mostra.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-tsunami-by-hokusai-19th-century.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsunami_by_hokusai_19th_century.jpg?width=1000",
+  "commons": "Tsunami by hokusai 19th century.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-frontispiece-to-frankenstein-1831.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frontispiece_to_Frankenstein_1831.jpg?width=1000",
+  "commons": "Frontispiece to Frankenstein 1831.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-planetario-espinho-exterior.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Planetario_Espinho_Exterior.JPG?width=1000",
+  "commons": "Planetario Espinho Exterior.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

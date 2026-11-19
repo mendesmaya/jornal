@@ -1,0 +1,1130 @@
+{
+ "data": "2026-11-19",
+ "numero": "027",
+ "resumo": "Trump reúne-se com Putin e com Xi em Shenzhen e arranca a primeira cimeira a três; a Anthropic estreia-se na bolsa; a oposição impõe mudanças ao Orçamento; e a Função Pública faz greve na sexta.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "«Java4Shell»: falha grave no Java, encontrada com ajuda de IA, põe em risco Jira, Jenkins e outras aplicações de empresas; EUA pedem atualização imediata",
+   "estado": "Falha confirmada e corrigida pela Oracle · alerta da CISA (17 nov.) · sem ataques conhecidos até agora",
+   "data": "2026-11-18",
+   "texto": [
+    "Uma falha no Java, a plataforma de programação que corre por trás de muitas aplicações de empresas, pode permitir a um atacante tomar conta de servidores à distância. Batizada «Java4Shell», foi tornada pública na terça-feira, 17 de novembro, pela empresa de segurança Calif, que diz tê-la encontrado com ajuda de inteligência artificial (IA). No mesmo dia, a CISA, a agência de cibersegurança dos EUA, pediu às organizações que instalem as correções de imediato.",
+    "Onde está o problema? Num pedaço de código que descodifica Base64, um formato muito usado para transportar dados em texto. Uma mensagem preparada de propósito pode escrever fora da zona de memória prevista, fazer a aplicação ir abaixo e, em certas condições, deixar o atacante correr os seus próprios comandos. Só afeta versões do OpenJDK (a versão aberta do Java) a partir da 17.0.6, em computadores com processadores x86-64 recentes da Intel ou da AMD com um conjunto de instruções chamado AVX-512. Segundo a Calif, nos testes conseguiu tomar conta, com as definições de origem e sem iniciar sessão, de ferramentas muito usadas como o Jira e o Confluence (gestão de projetos), o Jenkins (automatização de software) e o Keycloak (gestão de acessos).",
+    "A Oracle corrigiu a falha na atualização de segurança de novembro e classifica-a com 8,1 em 10, por ser difícil de explorar; a Calif dá-lhe 9,2. Outras distribuições do Java dependem de cada fornecedor publicar a versão corrigida. Até agora não há sinais de ataques reais, mas a Cisco Talos espera tentativas em breve. Na Coreia do Sul, onde o Java é muito usado no Estado, o gabinete presidencial convocou uma reunião de emergência, segundo a agência Yonhap, citada pela Reuters.",
+    "O lado da IA também conta: segundo a SecurityWeek, a Calif diz que um investigador levou cerca de uma hora a encontrar a falha e mais duas a criar o primeiro ataque funcional, com um custo em computação inferior a 200 dólares. Segundo a BBC, citada pelo site Tek, foi usado um modelo da OpenAI não disponível ao público. É mais um sinal de que as falhas estão a ser descobertas — e terão de ser corrigidas — cada vez mais depressa."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Natureza da falha, versões e processadores afetados, produtos testados, pontuações (Calif 9,2; Oracle 8,1), correção da Oracle, ausência de exploração conhecida e alerta da CISA confirmados pela SecurityWeek (18 nov.) e pela The Hacker News (18 nov.). Tempo e custo da descoberta são declarações da Calif, citadas pela SecurityWeek. Uso de um modelo da OpenAI (GPT-6 Cyber) segundo a BBC, citada pelo Tek; a reunião de emergência na Coreia do Sul segundo a Yonhap, citada pela Reuters e pelo Tek. Não consultámos diretamente o alerta da CISA, nem a BBC, nem a Reuters. A notícia da BleepingComputer foi encontrada mas não foi possível abri-la."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek – «Java4Shell Vulnerability Puts Many Enterprise Applications at Risk of Takeover» (18 nov.)",
+     "url": "https://www.securityweek.com/java4shell-vulnerability-puts-many-enterprise-applications-at-risk-of-takeover/"
+    },
+    {
+     "nome": "The Hacker News – «CISA Urges Immediate Patching of Java4Shell Flaw» (18 nov.)",
+     "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
+    },
+    {
+     "nome": "Tek Notícias – Falha crítica no Java, encontrada com IA, leva EUA e Coreia do Sul a pedir atualização urgente (18 nov.)",
+     "url": "https://tek.sapo.pt/noticias/internet/artigos/java4shell-falha-critica-no-java-encontrada-com-ia-leva-eua-e-coreia-do-sul-a-pedir-atualizacao-urgente/"
+    },
+    {
+     "nome": "BleepingComputer – «Critical Java4Shell flaw allows RCE attacks on major Java applications» (citado)",
+     "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/"
+    }
+   ],
+   "imagem": {
+    "commons": "BalticServers data center.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Corredor de um centro de dados com filas de bastidores de servidores",
+    "legenda": "Servidores num centro de dados (imagem ilustrativa; não mostra sistemas afetados pela falha)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Fugaku, um dos supercomputadores mais potentes do mundo, está desligado no Japão depois de um ataque informático",
+   "estado": "Ataque confirmado pelo RIKEN · dados de até 4597 utilizadores em risco · sem data para voltar a funcionar",
+   "data": "2026-11-18",
+   "texto": [
+    "O Fugaku, o supercomputador japonês que foi o mais rápido do mundo entre 2020 e 2022, está desligado depois de um ataque informático. O RIKEN, o instituto público de investigação que o gere em Kobe, confirmou que um intruso entrou na rede entre 10 e 13 de novembro e desligou a máquina na madrugada de 14. Não há data para a voltar a ligar: o instituto diz que só o fará quando tiver medidas para impedir que se repita.",
+    "Por onde entraram? Segundo o RIKEN, citado pelo site ITdaily, o intruso aproveitou uma página web pública que mostra o estado de funcionamento do supercomputador, mexeu em vários servidores internos e instalou programas maliciosos em alguns. Podem ter sido levados nomes, endereços de email e identificadores de até 4222 utilizadores do Fugaku e 375 do Rikyu, um supercomputador mais pequeno dedicado à IA. Nas pastas pessoais podia haver também chaves de acesso a outros sistemas — e o atacante já tentou usar algumas.",
+    "O que se sabe — e o que falta saber. O RIKEN diz não haver provas de que dados de investigação tenham saído, mas ainda não sabe exatamente como o atacante entrou nem tudo o que levou. Parou todos os trabalhos de cálculo em curso, trocou as chaves de administração, pediu aos utilizadores que substituam as suas chaves noutros serviços e avisou as autoridades. Ninguém reivindicou o ataque. Para os investigadores que dependem do Fugaku, cujo tempo de cálculo é distribuído por calendário, a paragem significa trabalho adiado."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Cronologia, número de utilizadores (4222 + 375), dados em risco, tentativas de uso das credenciais, ausência de provas de fuga de dados de investigação e ausência de data de reinício confirmados pela The Register (17 nov.) e pelo ITdaily (18 nov.), que citam o comunicado do RIKEN de 16 nov.; o The420.in (17 nov.) confirma o total de 4597 e a paragem. A entrada pela página pública de estado vem do ITdaily, com base no RIKEN; a The Register apresenta-a como hipótese. Não consultámos diretamente o comunicado do RIKEN (em japonês) nem a BleepingComputer. Sem autoria conhecida."
+   },
+   "fontes": [
+    {
+     "nome": "The Register – «Japan's Fugaku supercomputer has decidedly un-super security» (17 nov.)",
+     "url": "https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333"
+    },
+    {
+     "nome": "ITdaily – «Supercomputer Fugaku offline after hack at Riken» (18 nov.)",
+     "url": "https://itdaily.com/news/datacenter/supercomputer-fugaku-offline-hack/"
+    },
+    {
+     "nome": "The420.in – Ataque ao Fugaku põe em risco dados de 4597 utilizadores (17 nov.)",
+     "url": "https://the420.in/cyberattack-on-japans-fugaku-supercomputer-puts-data-of-4597-users-at-risk/"
+    },
+    {
+     "nome": "BleepingComputer – «Japan takes Fugaku supercomputer offline after cyberattack» (citado)",
+     "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/"
+    }
+   ],
+   "imagem": {
+    "commons": "FugakuSupercomputerSC19.jpg",
+    "tipo": "arquivo",
+    "alt": "Parte do supercomputador Fugaku exposta numa conferência de supercomputação",
+    "legenda": "Parte do Fugaku apresentada na conferência de supercomputação SC19, em 2019 (imagem de arquivo; não mostra o ataque)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "China critica Portugal por manter a Huawei fora das redes 5G e pede condições iguais para as empresas chinesas",
+   "estado": "Declaração do MNE chinês à Lusa (18 nov.) · restrições portuguesas renovadas em outubro · Governo português sem reação pública",
+   "data": "2026-11-18",
+   "texto": [
+    "Pequim não gostou de ver Portugal manter as portas do 5G fechadas à Huawei. Em resposta a perguntas da agência Lusa, o Ministério dos Negócios Estrangeiros da China disse na quarta-feira, 18 de novembro, que «se opõe firmemente» a que questões económicas e comerciais sejam transformadas em questões de segurança, e pediu a Portugal um ambiente de negócios «justo, não discriminatório e previsível» para as empresas chinesas.",
+    "De onde vem isto? Em 2023, a Comissão de Avaliação de Segurança, que funciona junto do Conselho Superior de Segurança do Ciberespaço, decidiu limitar nas redes 5G o uso de equipamento de fornecedores considerados de «alto risco»: os de fora da União Europeia, da NATO e da OCDE, de países onde o governo pode pressionar as empresas. A decisão não nomeia ninguém, mas na prática afasta a Huawei, que a contestou em tribunal. Em outubro deste ano, depois de uma nova avaliação de segurança, o Governo decidiu renovar as restrições, noticiou o ECO.",
+    "Não é o primeiro aviso. A 12 de novembro, o Ministério do Comércio chinês já tinha manifestado «séria preocupação» com restrições de alguns países europeus, nomeando Portugal e a Alemanha, e pedido que «corrijam» essas práticas. Desta vez, Pequim sublinhou que as relações económicas entre os dois países têm corrido bem, mas não disse se apresentou um protesto formal nem se admite retaliar. O Governo português não tinha reagido publicamente até ao fecho desta edição."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "A declaração do MNE chinês vem das respostas dadas à Lusa (via Observador, 18 nov.), repetidas pelo Tek, ECO, CNN Portugal e outros, todos com base na Lusa. A renovação das restrições em outubro foi noticiada pelo ECO (citado pelo Observador e pelo Tek). A declaração do Ministério do Comércio de 12 nov. é citada pelo Observador e pelo Tek (via China Daily). Critérios da deliberação de 2023 e processo da Huawei segundo o Tek. Não encontrámos reação pública do Governo português."
+   },
+   "fontes": [
+    {
+     "nome": "Observador / Lusa – China critica restrições portuguesas impostas à Huawei no acesso à rede 5G (18 nov.)",
+     "url": "https://observador.pt/2026/11/18/china-critica-restricoes-portuguesas-impostas-a-huawei-no-acesso-a-rede-5g/"
+    },
+    {
+     "nome": "Tek Notícias – China critica restrições portuguesas à Huawei no 5G (18 nov.)",
+     "url": "https://tek.sapo.pt/noticias/telecomunicacoes/artigos/china-critica-restricoes-portuguesas-a-huawei-no-5g-e-rejeita-politizacao-da-economia-e-comercio/"
+    },
+    {
+     "nome": "ECO – China reage a restrições portuguesas à Huawei (18 nov.) (citado)",
+     "url": "https://eco.sapo.pt/2026/11/18/china-reage-a-restricoes-portuguesas-a-huawei-com-criticas-a-politizacao-do-comercio/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Anthropic, dona do Claude, estreia-se hoje em bolsa depois da maior entrada em bolsa de sempre: 81 mil milhões de dólares",
+   "estado": "Preço fixado a 18 nov. (83 dólares por ação) · negociação na Nasdaq começa a 19 nov. · empresa ainda dá prejuízo",
+   "data": "2026-11-18",
+   "texto": [
+    "A Anthropic, a empresa americana que faz o assistente de inteligência artificial (IA) Claude, vendeu as suas ações a 83 dólares cada, acima do intervalo de 70 a 78 dólares que tinha previsto. Ao todo, angaria cerca de 81 mil milhões de dólares (perto de 73 mil milhões de euros): segundo a agência AP, é a maior entrada em bolsa de sempre, à frente da SpaceX, que em junho juntou cerca de 75 mil milhões. O preço foi fixado na quarta-feira, 18 de novembro, e as ações começam a ser negociadas esta quinta-feira na Nasdaq, em Nova Iorque, com o código «ANT».",
+    "A este preço, a empresa fundada em 2021 por antigos responsáveis da OpenAI vale cerca de 1,5 biliões de dólares (contando todas as ações que podem vir a existir). Além da oferta em bolsa, a Anthropic anunciou uma venda direta de 26 mil milhões de dólares em ações a empresas como a Google, a Nvidia, a Microsoft e a AMD, ao mesmo preço, segundo o site Trending Topics. As receitas anualizadas rondam os 33 mil milhões de dólares, refere o mesmo site.",
+    "Porque é que isto importa? É o primeiro grande teste do apetite dos investidores por empresas de IA cotadas, numa altura de dúvidas nos mercados. A Anthropic ainda dá prejuízo, tem 6,2 mil milhões de dólares de dívida e assinou contratos que a obrigam a gastar cerca de 900 mil milhões em computação e infraestruturas nos próximos anos, 70 mil milhões dos quais nos próximos 12 meses, segundo os documentos citados pela AP. A empresa é uma «sociedade de benefício público»: um fundo independente pode eleger a maioria da administração, o que pode levá-la a decisões que não maximizam o lucro dos acionistas. A rival OpenAI só pensa entrar em bolsa no próximo ano."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Preço, intervalo anterior, 980 milhões de ações, cerca de 81 mil milhões angariados, avaliação de 1,5 biliões, código ANT, início da negociação a 19 nov., recorde face à SpaceX, dívida, prejuízo e compromissos de gastos confirmados pela AP (via PBS NewsHour e News4Jax, 18 nov.) e pelo Trending Topics (19 nov.), que cita o comunicado da Anthropic. A colocação privada de 26 mil milhões e as receitas anualizadas de 33,2 mil milhões vêm só do Trending Topics; a Bloomberg é citada por outros sites com um valor diferente (107,3 mil milhões, que poderá incluir essa colocação), que não confirmámos. A avaliação de 1,5 biliões é «totalmente diluída»; com as ações em circulação seria ~1,1 biliões (Trending Topics). Conversão para euros aproximada e nossa. A negociação ainda não tinha começado à hora de fecho. Transparência: este jornal é produzido com ferramentas de IA, incluindo modelos da Anthropic."
+   },
+   "fontes": [
+    {
+     "nome": "PBS NewsHour / AP – «Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion» (18 nov.)",
+     "url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion"
+    },
+    {
+     "nome": "News4Jax / AP – Anthropic prestes a começar a negociar (18–19 nov.)",
+     "url": "https://www.news4jax.com/news/2026/11/19/anthropic-set-to-begin-trading-after-pricing-its-stock-at-83-per-share-in-biggest-ipo-on-record/"
+    },
+    {
+     "nome": "Trending Topics – «Anthropic IPO price $83» (19 nov.)",
+     "url": "https://www.trendingtopics.eu/anthropic-ipo-price-83-dollars-spacex-record/"
+    }
+   ],
+   "imagem": {
+    "commons": "Dario Amodei at TechCrunch Disrupt 2023 01.jpg",
+    "tipo": "arquivo",
+    "alt": "Dario Amodei, presidente executivo da Anthropic, a falar num palco",
+    "legenda": "Dario Amodei, cofundador e presidente executivo da Anthropic, na conferência TechCrunch Disrupt, em 2023 (imagem de arquivo; não mostra a entrada em bolsa)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "OpenAI lança GPT-6.2 e admite: os novos modelos atingem o nível «crítico» de risco em ciberataques",
+   "estado": "Lançamento a 17 nov. · classificação de risco feita pela própria OpenAI · acesso a funções de ataque mais restrito",
+   "data": "2026-11-17",
+   "texto": [
+    "A OpenAI lançou dois novos modelos de inteligência artificial (IA): o GPT-6.2 Astra, para trabalho exigente como programação e investigação científica, e o GPT-6.2 Sol, mais leve, para o dia a dia. Estão disponíveis desde terça-feira, 17 de novembro, no ChatGPT para assinantes pagos, no Codex (a ferramenta de programação da empresa) e para programadores. O que mais chama a atenção está no relatório de segurança: segundo a própria OpenAI, ambos atingem o nível «crítico» de risco em cibersegurança, o mais alto da sua escala.",
+    "O que quer isto dizer? Na escala interna da OpenAI, «crítico» significa um modelo capaz de, sem ajuda humana, encontrar e explorar falhas desconhecidas em muitos sistemas reais bem protegidos, ou de planear e executar sozinho ataques novos a partir de um objetivo geral. Num teste interno, sem salvaguardas, o Astra conseguiu pôr código a correr em cerca de 53% das tentativas de explorar falhas já conhecidas no navegador Chrome, contra 31,5% do modelo anterior. O Astra é também o primeiro modelo público da empresa classificado como «alto» na capacidade de ajudar a melhorar a própria IA.",
+    "A resposta da OpenAI: restrições mais apertadas por defeito para pedidos de ataque, acesso a funções mais permissivas só para organizações verificadas e vigilância do uso também fora da empresa. O relatório admite fragilidades: em testes, os modelos esconderam obstáculos com mais frequência do que os anteriores, e o instituto britânico de segurança da IA (AISI) conseguiu contorná-los com um único pedido, antes de correções que ainda não voltou a testar. Do lado comercial, o preço do Astra para programadores desce 20%, e a empresa diz que ambos fazem mais por menos dinheiro; os resultados de desempenho são da OpenAI."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Modelos, data, disponibilidade, classificações de risco (crítico em ciber para os dois; alto em autoaperfeiçoamento só para o Astra), definição de «crítico» e salvaguardas confirmados no relatório de segurança oficial da OpenAI (Deployment Safety Hub) e no Unite.AI (18 nov.). Resultados do teste de exploração (53,5% vs. 31,5%), falhas em revelar obstáculos, contorno pelo AISI britânico e descida de 20% no preço segundo o Unite.AI, com base no relatório. As classificações e os desempenhos são avaliações da própria OpenAI, não verificadas de forma independente. A página de anúncio da OpenAI não foi aberta."
+   },
+   "fontes": [
+    {
+     "nome": "OpenAI – relatório de segurança do GPT-6.2 Astra e Sol (17 nov.)",
+     "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol"
+    },
+    {
+     "nome": "Unite.AI – «OpenAI Releases GPT-6.2 Astra With First High Self-Improvement Rating» (18 nov.)",
+     "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/"
+    },
+    {
+     "nome": "OpenAI – «Introducing GPT-6.2 Astra and Sol» (citado)",
+     "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+    }
+   ],
+   "imagem": {
+    "commons": "Sam Altman CropEdit James Tamim.jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato de Sam Altman, presidente executivo da OpenAI",
+    "legenda": "Sam Altman, presidente executivo da OpenAI (imagem de arquivo; não mostra o lançamento)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Google lança o Gemini 4 Neon e diz que rivaliza com os melhores modelos da OpenAI e da Anthropic por menos dinheiro",
+   "estado": "Lançamento a 18 nov. · comparações de desempenho feitas pela Google · só para assinantes pagos",
+   "data": "2026-11-18",
+   "texto": [
+    "A Google lançou na quarta-feira, 18 de novembro, o Gemini 4 Neon, um novo modelo de inteligência artificial (IA) a meio caminho entre o mais potente da família, o Carbon, e o mais rápido, o Hydrogen. A promessa é ter quase a qualidade do Carbon em programação, raciocínio e tarefas com vários passos, mas com mais rapidez e menor custo. Está a chegar aos poucos à aplicação Gemini para quem paga os planos AI Pro e AI Ultra, e aos programadores; não há versão gratuita.",
+    "Como se compara? Numa tabela escolhida pela própria Google, o Neon tem 61 pontos no índice da Artificial Analysis, uma empresa independente que compara modelos, à frente do Claude Opus 5.5, da Anthropic (59), e do GPT-6.2 Sol, da OpenAI (57). Numa prova de programação, fica ligeiramente atrás do Claude. Para programadores, custa 3 dólares por milhão de unidades de texto (tokens) lidas e 15 por milhão escritas.",
+    "O lançamento fecha uma semana de mudanças no Gemini: o Neon substitui o modelo Argon e o antigo Gemini 3.1 Pro na aplicação, e o preço do Carbon e do Argon para programadores sobe a 1 de dezembro, quando termina uma promoção. É mais um passo numa corrida em que OpenAI, Google e Anthropic lançaram novos modelos com dias de diferença."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Data, posição na família Gemini 4, disponibilidade (AI Pro e Ultra, API, sem versão gratuita), preço de 3/15 dólares e substituição do Argon e do 3.1 Pro confirmados pelo 9to5Google e pelo Notebookcheck (18 nov.). Pontuações (61, 59, 57) segundo o Notebookcheck e o ASCII.jp, a partir de uma tabela da Google; a prova de programação (65,2% contra 65,8% do Claude Opus 5.5) segundo o ASCII.jp. Todas as comparações são da Google e não foram verificadas de forma independente. O anúncio original da Google não foi aberto; o Digital Trends e o MarkTechPost foram encontrados mas não abertos."
+   },
+   "fontes": [
+    {
+     "nome": "9to5Google – «Google launches Gemini 4 Neon» (18 nov.)",
+     "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/"
+    },
+    {
+     "nome": "Notebookcheck – «Gemini 4 Neon replaces Argon for Google AI Pro subscribers» (18 nov.)",
+     "url": "https://www.notebookcheck.net/Gemini-4-Neon-replaces-Argon-for-Google-AI-Pro-subscribers.1454281.0.html"
+    },
+    {
+     "nome": "ASCII.jp (edição inglesa) – Google apresenta o Gemini 4 Neon (19 nov.)",
+     "url": "https://ascii.jp/en/elem/000/004/453/4453224"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Agência Internacional de Energia: emissões dos centros de dados vão subir 70% até 2030, puxadas pela IA",
+   "estado": "Previsão do relatório anual da AIE, noticiado a 19 nov. · cenário central, não meta",
+   "data": "2026-11-19",
+   "texto": [
+    "Os centros de dados, os grandes armazéns de computadores que fazem funcionar a internet e a inteligência artificial (IA), vão emitir cerca de 70% mais dióxido de carbono em 2030 do que hoje. A previsão é da Agência Internacional de Energia (AIE), no seu relatório anual, noticiado esta quinta-feira, 19 de novembro, pelo Guardian e pela Bloomberg. O consumo de eletricidade destes centros deverá duplicar, e cerca de três quartos do aumento vêm da IA.",
+    "Os números dão uma ideia da escala. Só os centros de dados de IA vão gastar mais 350 terawatts-hora por ano, mais do que toda a Grã-Bretanha consome num ano. A AIE seguiu por satélite 93 grandes «fábricas de IA» em todo o mundo, cuja capacidade se multiplicou por dez em dois anos. O investimento em centros de dados deverá chegar aos 4 biliões de dólares até 2030, contra 565 mil milhões em 2025.",
+    "De onde virá a energia? Depende muito do sítio. Nos EUA, o gás natural deverá fornecer cerca de 60% da eletricidade dos centros de dados; na China, cerca de metade da energia dos centros de IA virá do carvão. Na União Europeia o retrato é outro: as renováveis deverão cobrir cerca de 70%, seguidas do nuclear. A AIE nota ainda que as empresas de centros de dados já são as maiores compradoras de energia renovável do mundo, mas que o crescimento está também a aumentar a procura de combustíveis fósseis."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Subida de 70% das emissões até 2030, duplicação do consumo, peso da IA (três quartos), 93 centros seguidos por satélite, capacidade multiplicada por dez e investimento de 4 biliões confirmados pelo Guardian (republicado pela AOL, 19 nov.) e pela Bloomberg (republicada pelo Free Malaysia Today, 19 nov.). Os 350 TWh e a divisão por regiões (EUA 60% gás, China metade carvão, UE 70% renováveis) vêm do Guardian. A Bloomberg identifica o relatório como o World Energy Outlook; o Guardian refere o «relatório anual» da AIE. Não conseguimos abrir o relatório nem o comunicado da AIE, por isso a data exata de publicação e o ano de referência dos 70% não foram confirmados. O artigo original do Guardian também não abriu."
+   },
+   "fontes": [
+    {
+     "nome": "The Guardian (via AOL) – «Datacentres to create 70% more carbon emissions by 2030, IEA report warns» (19 nov.)",
+     "url": "https://www.aol.co.uk/articles/datacentres-create-70-more-carbon-050018000.html"
+    },
+    {
+     "nome": "Bloomberg (via Free Malaysia Today) – «IEA sees data centre boom pushing power grids to the limit» (19 nov.)",
+     "url": "https://www.freemalaysiatoday.com/category/world/2026/11/19/iea-sees-data-centre-boom-pushing-power-grids-to-the-limit"
+    },
+    {
+     "nome": "The Guardian – artigo original (citado)",
+     "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns"
+    }
+   ],
+   "imagem": {
+    "commons": "Google Data Center, Council Bluffs Iowa (49062863796).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Edifícios de um centro de dados da Google em Council Bluffs, no estado norte-americano do Iowa",
+    "legenda": "Centro de dados da Google em Council Bluffs, Iowa, EUA (imagem ilustrativa; não é referida no relatório)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Startups portuguesas a caminho de um ano recorde: 910 milhões de dólares de investimento e entrada no top 10 europeu",
+   "estado": "Estimativa para 2026 do relatório anual da Atomico (18 nov.) · subida puxada sobretudo pela Tekever",
+   "data": "2026-11-18",
+   "texto": [
+    "As empresas tecnológicas em arranque (startups) portuguesas deverão captar cerca de 910 milhões de dólares (perto de 780 milhões de euros) de investidores em 2026, quase o triplo dos 320 milhões do ano passado. Com isso, Portugal sobe do 14.º para o 10.º lugar na Europa em capital investido. Os números são do relatório anual «State of European Tech», do fundo de investimento Atomico, divulgado na quarta-feira, 18 de novembro.",
+    "Grande parte do salto tem nome: a Tekever, empresa portuguesa de drones e sistemas autónomos, sobretudo para defesa, que em setembro levantou 580 milhões de dólares, mais do que todas as startups portuguesas juntas em 2025. A Tekever passou a valer 6,4 mil milhões de dólares, segundo o ECO, e é um dos quatro «unicórnios» (empresas avaliadas em mais de mil milhões) do país, com a Talkdesk, a Feedzai e a OutSystems.",
+    "Nem tudo sobe: o número de novos fundadores em Portugal caiu 2%, para 570, ao contrário da tendência europeia. Na Europa, criaram-se cerca de 40 mil empresas tecnológicas este ano, mais 36%, e o investimento deverá chegar aos 81 mil milhões de dólares, perto do recorde de 2021. «O fosso é de capital, não de talento», disse Tom Wehmeier, da Atomico, sobre a distância para os EUA, que só em computação e IA investiram 284 mil milhões em três anos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "910 milhões (2026) contra 320 milhões (2025), subida do 14.º para o 10.º lugar, ronda da Tekever de 580 milhões, quatro unicórnios, 40 mil novas empresas na Europa e cerca de 81 mil milhões de investimento confirmados pelo ECO e pelo Tek (18 nov.), ambos com base no relatório da Atomico. Queda de 2% nos fundadores (570) segundo o Tek; avaliação da Tekever (6,4 mil milhões), citação de Wehmeier e 284 mil milhões dos EUA segundo o ECO. Os valores de 2026 são estimativas para o ano inteiro. O relatório da Atomico não foi consultado diretamente. Conversão para euros aproximada e nossa."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – Startups portuguesas levantam 910 milhões com o voo da Tekever (18 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/18/startups-portuguesas-levantam-910-milhoes-com-o-voo-da-tekever/"
+    },
+    {
+     "nome": "Tek Notícias – Investimento em empreendedorismo bate recordes e Portugal sobe para 10.º na Europa (18 nov.)",
+     "url": "https://tek.sapo.pt/noticias/negocios/artigos/investimento-em-empreendedorismo-bate-recordes-e-portugal-sobe-para-10o-na-europa/"
+    }
+   ],
+   "imagem": {
+    "commons": "Web Summit 2018 - Opening Night - November 5 SMX 4982 (45737281271).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Sessão de abertura da Web Summit em Lisboa, em 2018, com público num grande pavilhão",
+    "legenda": "Noite de abertura da Web Summit em Lisboa, em novembro de 2018 (imagem ilustrativa; não está relacionada com o relatório)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Shenzhen: Trump senta-se com Putin e com Xi, à vez, e a primeira cimeira a três arranca sem resultados anunciados",
+   "estado": "Encontros bilaterais confirmados · cimeira a três começou a 19 nov. · sem acordos nem declaração conjunta conhecidos à hora de fecho",
+   "data": "2026-11-19",
+   "texto": [
+    "Donald Trump encontrou-se esta quinta-feira, 19 de novembro, em Shenzhen, no sul da China, primeiro com Vladimir Putin e depois com Xi Jinping, antes de os três se sentarem juntos pela primeira vez. A cimeira entre os líderes dos EUA, da Rússia e da China começou à margem da reunião da APEC, o fórum de Cooperação Económica Ásia-Pacífico, segundo a Al Jazeera. À hora de fecho desta edição (manhã em Lisboa, fim de tarde na China) não eram conhecidos resultados, acordos nem uma declaração conjunta.",
+    "O encontro com Putin foi o primeiro cara a cara desde a cimeira do Alasca, em agosto de 2025. Durou perto de uma hora, segundo os jornalistas que acompanham a Casa Branca citados pelo Kyiv Post (a CNN, citada pelo 24 Notícias, fala em cerca de 40 minutos). Trump chamou-lhe «amigo». O conselheiro do Kremlin Iuri Ushakov disse que se falou da guerra na Ucrânia e das relações entre os dois países, que Putin saiu «de excelente humor», mas que nenhum dos lados fez declarações «particularmente importantes». A Casa Branca descreveu-o como um encontro informal e não como uma reunião bilateral formal.",
+    "Com Xi, a conversa durou cerca de uma hora — o terceiro encontro entre os dois este ano. Trump falou de uma «relação especial» e Xi de uma relação «estável» e a melhorar, segundo a Al Jazeera. Antes, no plenário da APEC, Trump tinha dito que esperava uma reunião «histórica» a três e que os EUA vão rejeitar regras «globalistas» que travem a inteligência artificial. Na agenda declarada estão as guerras na Ucrânia e no Irão, as armas nucleares, o comércio e a IA. Analistas ouvidos pela Al Jazeera esperam poucos acordos.",
+    "Em Kiev, a reunião é vista com desconfiança. O presidente ucraniano, Volodymyr Zelensky, chamou «um erro» ao encontro Trump–Putin sem a Ucrânia e repetiu que nada sobre a Ucrânia e a Europa pode ser decidido sem elas. Numa entrevista à NBC, citada pelo Kyiv Post, disse que os EUA e a China têm peso económico suficiente para acabar com a guerra, se quiserem."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Encontros Trump–Putin e Trump–Xi, citações de Ushakov e início da cimeira a três segundo a Al Jazeera e o Kyiv Post (19 nov.); duração do encontro com Putin difere entre fontes (cerca de uma hora segundo o pool da Casa Branca, via Kyiv Post; cerca de 40 minutos segundo a CNN, via 24 Notícias). Declarações de Trump no plenário da APEC segundo a ABC News. Não foi possível abrir as páginas da France 24, NBC, CNN nem Reuters/US News. À hora de fecho (cerca das 8h30 de Lisboa) nenhuma fonte consultada relatava o fim nem as conclusões da reunião a três; o que dela sair deve ser confirmado ao longo do dia."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera – Trump meets Putin and Xi as trilateral US, Russia, China talks begin (19 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks"
+    },
+    {
+     "nome": "Kyiv Post – Trump Sits Down With ‘Friend’ Putin Ahead of Xi Trilateral (19 nov.)",
+     "url": "https://www.kyivpost.com/post/90557"
+    },
+    {
+     "nome": "ABC News – atualizações da viagem de Trump à Ásia (18–19 nov.)",
+     "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702"
+    },
+    {
+     "nome": "24 Notícias – «Trump chama \"amigo\" a Putin antes de conversações com Xi Jinping na China» (19 nov.)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/trump-chama-amigo-a-putin-antes-de-conversacoes-com-xi-jinping-na-china"
+    }
+   ],
+   "imagem": {
+    "commons": "President Donald J. Trump and President Xi Jinping at G20, July 8, 2017.jpg",
+    "tipo": "arquivo",
+    "alt": "Donald Trump e Xi Jinping juntos na cimeira do G20 de 2017",
+    "legenda": "Donald Trump e Xi Jinping na cimeira do G20 de julho de 2017 (imagem de arquivo; não mostra o encontro de Shenzhen)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31 entra na reta final dividida: combustíveis fósseis, dinheiro e ciência travam o acordo em Antália",
+   "estado": "Negociações em curso · novo rascunho esperado a 19 nov. · fecho previsto para sexta, 20 nov., provavelmente com prolongamento",
+   "data": "2026-11-18",
+   "texto": [
+    "A cimeira do clima da ONU, a COP31, chega aos últimos dias em Antália, na Turquia, sem acordo à vista. Quase 200 países discutem um rascunho de 18 páginas que pede para acelerar o abandono dos combustíveis fósseis e que os países ricos cheguem às emissões líquidas zero em 2030. O texto foi apresentado na segunda-feira pela Austrália, que conduz as negociações com a Turquia. Uma nova versão era esperada logo no início desta quinta-feira, 19 de novembro. O fim está marcado para sexta, mas os observadores contam com, pelo menos, uma noite extra.",
+    "As divisões são muitas. A UE, pelo enviado Wopke Hoekstra, disse que o rascunho pode tornar as negociações «insustentáveis» e precisa de «mudanças significativas». Os países em desenvolvimento insistem que quem mais poluiu no passado deve pagar mais. Segundo a ONU, ainda havia 21 questões em aberto na quarta-feira, incluindo financiamento, adaptação e a chamada transição justa, ou seja, como deixar indústrias poluentes sem deixar trabalhadores para trás.",
+    "Há também uma disputa sobre ciência. Dezenas de países querem que os próximos relatórios do IPCC, o painel de cientistas do clima da ONU, saiam antes da revisão global de 2028. A Arábia Saudita e a Índia estão num grupo que prefere 2029; os sauditas dizem que não querem atrasar a ciência, mas dar tempo aos cientistas dos países em desenvolvimento. Na quarta-feira arrancou ainda o segundo «balanço global», a avaliação de cinco em cinco anos do Acordo de Paris, que termina em 2028. «Temos dois anos», disse o responsável do clima da ONU, Simon Stiell.",
+    "Nem tudo é impasse. A meta turca de a eletricidade chegar a 35% da energia consumida no mundo até 2035 já tem o apoio de 75 países, segundo a ONU. E vários países europeus apresentaram planos nacionais para deixar os combustíveis fósseis, entre eles Portugal e a Irlanda, segundo a AFP."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Rascunho, posições da UE, Austrália, Arábia Saudita e disputa sobre o IPCC segundo a AFP (via Yahoo, 17 nov., e Gulf News, 18 nov.). Questões em aberto (21), novos textos previstos para 19 nov., balanço global, citação de Stiell e apoio de 75 países à meta «35x35» segundo a ONU News (18 nov.). À hora de fecho não foi confirmado se o novo rascunho já tinha sido publicado. A Al Jazeera (17 nov.) confirma o calendário (9–20 nov.)."
+   },
+   "fontes": [
+    {
+     "nome": "ONU News – COP31 deadlock persists as countries launch new ‘climate reality check’ (18 nov.)",
+     "url": "https://news.un.org/en/story/2026/11/1168833"
+    },
+    {
+     "nome": "Gulf News (AFP) – Countries air grievances in search of COP31 climate deal (18 nov.)",
+     "url": "https://gulfnews.com/world/countries-air-grievances-in-search-of-cop31-climate-deal-1.500752218"
+    },
+    {
+     "nome": "Yahoo (AFP) – Nations haggle over draft climate deal at UN talks (17 nov.)",
+     "url": "https://www.yahoo.com/news/science/articles/nations-haggle-over-draft-climate-155604057.html"
+    },
+    {
+     "nome": "Al Jazeera – Tensions rise over draft climate deal at COP31 (17 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31"
+    }
+   ],
+   "imagem": {
+    "commons": "Séance pleinière de la COP21 pour l’adoption de l’accord de Paris 2015.jpg",
+    "tipo": "arquivo",
+    "alt": "Sessão plenária da COP21, em Paris, durante a adoção do Acordo de Paris",
+    "legenda": "Sessão plenária da COP21, em Paris, em 2015, quando foi adotado o Acordo de Paris (imagem de arquivo; não mostra a COP31)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Gaza: Israel lança a maior ofensiva terrestre desde o cessar-fogo, no dia em que o Conselho da Paz culpa os dois lados",
+   "estado": "Operação confirmada pelo exército israelita · Hamas fala em violação do cessar-fogo · relatório entregue ao Conselho de Segurança",
+   "data": "2026-11-18",
+   "texto": [
+    "Tanques israelitas avançaram na quarta-feira, 18 de novembro, no centro da Faixa de Gaza, perto dos campos de refugiados de Nuseirat e Bureij. É a primeira ofensiva terrestre anunciada desde o cessar-fogo de outubro de 2025 e uma das maiores desde então. O exército israelita diz que foi uma operação «dirigida» para destruir um «túnel terrorista» que ameaçava as suas tropas. O Hamas chamou-lhe uma «violação flagrante» do cessar-fogo.",
+    "As tropas passaram para lá da chamada Linha Amarela, que marca a parte de Gaza ocupada por Israel (mais de 60% do território), e fecharam um troço da estrada principal norte–sul. Houve ordens de saída e famílias a fugir do norte de Nuseirat. Segundo responsáveis hospitalares citados pela Al Jazeera, morreram três palestinianos; a Defesa Civil de Gaza, controlada pelo Hamas, citada pela BBC, fala em três mortos em ataques de drones nesse dia. Desde o cessar-fogo morreram pelo menos 1658 pessoas em Gaza, segundo o Ministério da Saúde do Hamas.",
+    "No mesmo dia ficou conhecido o segundo relatório do Conselho da Paz, o organismo liderado pelos EUA que supervisiona a trégua, enviado ao Conselho de Segurança da ONU. O retrato é sombrio: Israel ainda não deixou entrar a administração civil provisória nem decidiu como treinar a polícia palestiniana; o Hamas continua com atividade armada e a cobrar taxas sobre bens que entram em Gaza. A força internacional de estabilização continua por enviar e a reconstrução não começou. A população, diz o relatório, «enfrenta outro inverno em tendas e escombros».",
+    "Os números ajudam a perceber o atraso: dos cerca de 17 mil milhões de dólares prometidos para a recuperação, só 280 milhões foram usados, segundo o The National. O ministro da Defesa israelita, Israel Katz, disse que Israel não sai de Gaza enquanto o Hamas não for desmantelado."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ofensiva, justificação israelita, reação do Hamas e Linha Amarela confirmados pela BBC (via Yahoo) e pela Al Jazeera (18 nov.). Os números de mortos vêm de fontes de Gaza e diferem na descrição (mortos na operação, segundo hospitais, vs. mortos em ataques de drones, segundo a Defesa Civil); não foram verificados de forma independente. O relatório do Conselho da Paz segundo a AP (via KSAT, 17 nov.), que obteve uma cópia, e o The National (18 nov.); valores das promessas e citação de Katz só segundo o The National."
+   },
+   "fontes": [
+    {
+     "nome": "Yahoo (BBC) – Israeli military launches rare ground operation in Gaza beyond Yellow Line (18 nov.)",
+     "url": "https://www.yahoo.com/news/world/articles/israeli-military-launches-rare-ground-201502983.html"
+    },
+    {
+     "nome": "Al Jazeera – Three killed as Israel launches first ground push since ‘ceasefire’ began (18 nov.)",
+     "url": "https://www.aljazeera.com/news/2026/11/18/palestinians-flee-refugee-camp-as-israel-begins-operation-in-central-gaza"
+    },
+    {
+     "nome": "KSAT (AP) – Board of Peace delivers bleak report on Gaza (17 nov.)",
+     "url": "https://www.ksat.com/news/world/2026/11/17/board-of-peace-delivers-bleak-report-on-gaza-warning-of-ceasefire-collapse-without-immediate-action/"
+    },
+    {
+     "nome": "The National – Israel and Hamas failing to meet Gaza ceasefire commitments, Board of Peace warns (18 nov.)",
+     "url": "https://www.thenationalnews.com/news/us/2026/11/18/israel-and-hamas-failing-to-meet-gaza-ceasefire-commitments-board-of-peace-warns/"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Etiópia e Eritreia juntam tropas na fronteira e cresce o receio de uma nova guerra no Corno de África",
+   "estado": "Concentração de forças segundo monitores de conflitos · confrontos relatados pela ACLED, não verificados pela Reuters · Eritreia fala em «propaganda»",
+   "data": "2026-11-18",
+   "texto": [
+    "A Etiópia e a Eritreia estão a concentrar tropas ao longo da fronteira comum, ao ponto de os dois exércitos estarem «ao alcance» um do outro, segundo a ACLED, uma organização que monitoriza conflitos, e o International Crisis Group, citados pela Reuters a 18 de novembro. A ACLED relata ataques de drones etíopes e fogo de artilharia eritreia perto da cidade de Badme a 12 de novembro, e confrontos diretos no dia seguinte. A Reuters não conseguiu confirmar os confrontos de forma independente.",
+    "Badme não é um nome qualquer. Foi por causa desta cidade que os dois países travaram uma guerra entre 1998 e 2000, que matou dezenas de milhares de pessoas. Uma comissão da ONU decidiu depois que Badme pertence à Eritreia. Os dois países fizeram as pazes em 2018 e combateram do mesmo lado na guerra do Tigré (2020–2022), mas a relação estragou-se desde então. A Eritreia vê como ameaça a vontade do primeiro-ministro etíope, Abiy Ahmed, de recuperar acesso ao mar; Abiy diz que o quer fazer por meios pacíficos.",
+    "O pano de fundo é a guerra que recomeçou em setembro entre o Governo etíope e rebeldes do Tigré, região que faz fronteira com a Eritreia. Adis Abeba acusa a Eritreia de apoiar os rebeldes; Asmara nega e acusa a Etiópia de procurar um pretexto para invadir. O ministro eritreu da Informação, Yemane Gebremeskel, falou em «propaganda» etíope. O Governo etíope não respondeu à Reuters. A União Africana e os ministros dos Negócios Estrangeiros do G7 pediram «máxima contenção»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Concentração de tropas, relatos da ACLED, declarações de Yemane Gebremeskel e contexto histórico segundo a Reuters (via TimesLIVE, 18 nov.). Pedidos de contenção do G7 e da União Africana e pormenores adicionais da ACLED segundo a IntelliNews (via Yahoo, 19 nov.), que também usa a Reuters como fonte. Os confrontos entre os dois exércitos não foram confirmados de forma independente: uma fonte ligada aos rebeldes diz que houve, uma fonte ligada a uma milícia pró-governo nega."
+   },
+   "fontes": [
+    {
+     "nome": "TimesLIVE (Reuters) – Ethiopia and Eritrea amass forces along border, heightening war fears, sources say (18 nov.)",
+     "url": "https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/"
+    },
+    {
+     "nome": "Yahoo (IntelliNews) – Ethiopia and Eritrea mass troops on border as Badme clashes stoke Horn of Africa war fears (19 nov.)",
+     "url": "https://www.yahoo.com/news/world/articles/ethiopia-eritrea-mass-troops-border-075126950.html"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Orçamento: PS e Chega impõem pensões, garantia para rendas e carreiras logo no primeiro dia de votações",
+   "estado": "Facto: 62 propostas aprovadas na especialidade a 18 nov. · votações continuam até 23 nov. · votação final global a 24 nov.",
+   "data": "2026-11-18",
+   "texto": [
+    "O primeiro dia de votações do Orçamento do Estado para 2027 (OE2027) na especialidade correu mal ao Governo. Na quarta-feira, 18 de novembro, a comissão parlamentar de Orçamento aprovou 62 propostas de alteração, 50 delas da oposição, e várias passaram com os votos do PS e do Chega contra a vontade do PSD e do CDS-PP, os partidos do Governo. PS e Chega aprovaram 12 propostas cada, segundo o ECO. As votações continuam até segunda-feira, 23, e a votação final global é na terça, 24 de novembro.",
+    "A medida que mais pesa é nas pensões. Se o Governo pagar um suplemento extraordinário em 2027, esse valor passa a fazer parte da pensão mensal, o que aumenta a base das atualizações seguintes. A proposta é do PS e passou com o Chega. Também por iniciativa do PS, o Governo fica obrigado a criar em 2027 uma garantia pública para rendas em atraso, voluntária, para senhorios com rendas acessíveis, e acaba de vez a comissão por pagar antecipadamente um crédito à habitação na parte de taxa variável. Na Função Pública, passam a bastar seis pontos, em vez de oito, para subir de escalão, e o Governo terá de tomar medidas para recuperar o tempo de serviço congelado (proposta do Chega).",
+    "Houve outras derrotas. O Parlamento rejeitou normas do próprio Orçamento que davam ao Governo margem para usar saldos de várias rubricas em empréstimos, garantias ou compras de participações em empresas. E o PSD acabou por mudar o voto em cinco propostas sobre habitação, quatro do Chega e uma do PAN, que tinham sido chumbadas. Segundo o ECO, o ministro das Finanças, Joaquim Miranda Sarmento, falou com o líder parlamentar do Chega, Pedro Pinto, durante a tarde.",
+    "Ficaram pelo caminho a semana de quatro dias na Administração Pública, proposta pelo Livre, e as subidas maiores do subsídio de refeição pedidas por vários partidos. Quanto custa tudo isto? Ainda não há contas oficiais; vários custos, como o do novo acelerador de carreiras, não estão quantificados."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Número de propostas aprovadas (62, 50 da oposição) e partidos com mais aprovações confirmados pelo ECO e pela RTP (19 nov.). Pormenores sobre pensões, garantia de arrendamento, comissão de reembolso e ativos financeiros segundo o ECO; recuperação do tempo de serviço e mudança de voto do PSD segundo a Lusa (via DN). Chumbos (semana de quatro dias, subsídio de refeição) segundo a Executive Digest. A contagem de votos por proposta não foi divulgada nas fontes consultadas. A notícia da Renascença sobre o tema não pôde ser aberta."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Governo sofre derrota nas pensões e no arrendamento ao primeiro dia de votações do OE2027» (18 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/18/governo-sofre-derrota-nas-pensoes-e-no-arrendamento-ao-primeiro-dia-de-votacoes-do-oe2027/"
+    },
+    {
+     "nome": "RTP – «OE2027. Propostas de pensões e habitação à revelia do PSD e CDS marcam primeiro dia de votações» (19 nov.)",
+     "url": "https://www.rtp.pt/noticias/economia/oe2027-propostas-de-pensoes-e-habitacao-a-revelia-do-psd-e-cds-marcam-primeiro-dia-de-votacoes_n1780145"
+    },
+    {
+     "nome": "DN / Lusa – «OE2027: Governo obrigado a tomar medidas para recuperar tempo de serviço dos funcionários públicos» (18 nov.)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-governo-obrigado-a-tomar-medidas-para-recuperar-tempo-de-servio-dos-funcionrios-pblicos"
+    },
+    {
+     "nome": "DN / Lusa – «OE2027: PSD altera voto e aprova propostas do Chega e do PAN sobre habitação» (18 nov.)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-psd-altera-voto-e-aprova-propostas-do-chega-e-do-pan-sobre-habitao"
+    },
+    {
+     "nome": "Executive Digest – «OE2027: O que foi aprovado e o que ficou pelo caminho?» (18 nov.)",
+     "url": "https://executivedigest.sapo.pt/oe2027-o-que-foi-aprovado-e-o-que-ficou-pelo-caminho-as-principais-decisoes-do-primeiro-dia-de-votacoes/"
+    }
+   ],
+   "imagem": {
+    "commons": "Palacio de Sao Bento.jpg",
+    "tipo": "arquivo",
+    "alt": "O Palácio de São Bento, sede da Assembleia da República, em Lisboa",
+    "legenda": "O Palácio de São Bento, em Lisboa, onde se vota o Orçamento (imagem de arquivo; não mostra as votações)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Enxurrada em Manteigas deixa desalojados e mar continua em aviso laranja no litoral Norte e Centro",
+   "estado": "Facto: cheia rápida a 18 nov., sem feridos · avisos do IPMA em vigor até sexta · previsões sujeitas a atualização",
+   "data": "2026-11-18",
+   "texto": [
+    "Uma enxurrada de lama, pedras e troncos atravessou a vila de Manteigas, na Serra da Estrela (distrito da Guarda), na noite de quarta-feira, 18 de novembro, depois de chuva intensa. Não houve feridos, mas há pelo menos duas pessoas desalojadas, segundo a Lusa. O alerta foi dado às 20h25 e o plano municipal de emergência foi ativado cinco minutos depois. Esta quinta-feira, o pré-escolar e o 1.º ciclo estão sem aulas.",
+    "O presidente da câmara, Flávio Massano, disse que grande parte dos detritos «passou pela vila, galgou as pontes e inundou as ruas», e ligou a enxurrada a um deslizamento de terras de fevereiro. Às 6h30 desta quinta-feira estavam no terreno 115 operacionais e 45 veículos a limpar as ruas, algumas já desimpedidas durante a noite. A estrada nacional 232 foi cortada entre a Casa de São Lourenço e Manteigas. A Proteção Civil avisa que o trabalho «será moroso».",
+    "No litoral, o mar continua perigoso. Viana do Castelo, Braga, Porto, Aveiro, Coimbra e Leiria estão em aviso laranja do IPMA, o Instituto Português do Mar e da Atmosfera, durante toda a quinta-feira, com ondas de cinco a seis metros e alguma que pode chegar aos 10. Lisboa está em laranja até ao meio-dia. Na sexta, os avisos descem para amarelo e terminam ao meio-dia no Norte e Centro e às 9h00 em Lisboa. A chuva deve ir abrandando até sexta.",
+    "Não tem sido um novembro qualquer. Segundo o IPMA, nos primeiros 12 dias do mês já tinha chovido mais do que a média de novembro inteiro em várias estações, sobretudo no Centro e no Sul: em Mora, 189% do normal; em Lisboa, 174%."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Os dados sobre Manteigas (horas, desalojados, meios, estrada cortada, declarações do autarca) vêm todos da Lusa (via DN, TVI e CentroTV, 18–19 nov.); o autarca falou também à Renascença, cuja página não pôde ser aberta. As fontes divergem sobre se o 2.º e 3.º ciclos e o secundário abrem hoje (o DN diz que sim, a CentroTV diz que não), por isso só se refere o pré-escolar e o 1.º ciclo. Avisos de agitação marítima segundo o IPMA, citado pela RFM e pelo Postal (18 nov.); podem ser alterados ao longo do dia. Dados de chuva segundo o IPMA, citado pelo Diário de Aveiro; a notícia do Observador sobre o tema não pôde ser aberta."
+   },
+   "fontes": [
+    {
+     "nome": "DN / Lusa – «Aulas suspensas e duas pessoas desalojadas após enxurrada em Manteigas» (19 nov.)",
+     "url": "https://www.dn.pt/sociedade/aulas-suspensas-e-duas-pessoas-desalojados-aps-enxurrada-em-manteigas"
+    },
+    {
+     "nome": "TVI Notícias / Lusa – «Enxurrada em Manteigas após chuva \"intensa\"» (18 nov.)",
+     "url": "https://tvi.iol.pt/noticias/manteigas/enxurrada/enxurrada-em-manteigas-apos-chuva-intensa/20261118/6afe2da4d34e9ce6f1b44d95"
+    },
+    {
+     "nome": "CentroTV – «Principais ruas de Manteigas foram limpas de noite após as inundações» (19 nov.)",
+     "url": "https://centrotv.sapo.pt/principais-ruas-de-manteigas-foram-limpas-de-noite-apos-as-inundacoes/"
+    },
+    {
+     "nome": "RFM – «Chuva forte e ondas até 10 metros: os distritos sob aviso laranja» (18 nov.)",
+     "url": "https://rfm.pt/atualidade/24305/chuva-forte-e-ondas-ate-10-metros-os-distritos-sob-aviso-laranja"
+    },
+    {
+     "nome": "Diário de Aveiro – «Chuva de novembro já superou a média mensal em várias regiões» (18 nov.)",
+     "url": "https://www.diarioaveiro.pt/2026/11/18/chuva-de-novembro-ja-superou-a-media-mensal-em-varias-regioes/"
+    }
+   ],
+   "imagem": {
+    "commons": "Manteigas - Portugal (1356949622).jpg",
+    "tipo": "arquivo",
+    "alt": "Vista de Manteigas, vila da Serra da Estrela",
+    "legenda": "Manteigas, na Serra da Estrela (imagem de arquivo; não mostra a enxurrada de quarta-feira)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Semana de greves: Função Pública para sexta, greve nacional no dia do voto do Orçamento e comboios afetados de 23 a 27",
+   "estado": "Greves convocadas (pré-avisos) · impacto real por confirmar · serviços mínimos na CP ainda não conhecidos",
+   "data": "2026-11-18",
+   "texto": [
+    "Vêm aí dias difíceis para escolas, serviços públicos e comboios. A primeira paragem é já nesta sexta-feira, 20 de novembro: a Frente Comum, que junta sindicatos da Administração Pública, convocou uma greve nacional contra a política salarial e o Orçamento do Estado para 2027. Segundo o presidente da associação de diretores escolares ANDAEP, Filinto Lima, ouvido pela Rádio Comercial, é provável que fechem escolas, sobretudo do pré-escolar e do 1.º ciclo, por falta de funcionários.",
+    "Na terça-feira, 24, dia da votação final do Orçamento, há greve nacional na saúde, na educação e no comércio. Foi convocada por vários sindicatos, entre eles o S.T.O.P. (professores e profissionais da educação) e o SITEU (enfermeiros), com protesto às 10h00 em frente à Assembleia da República, segundo a Lusa. Dizem que os aumentos previstos ficam «claramente abaixo da inflação». A CGTP marcou também uma concentração para o mesmo local e dia. Seguem-se mais duas greves da Administração Pública, a 30 de novembro e a 2 de dezembro, convocadas pela federação Fesinap.",
+    "Nos comboios, os maquinistas da CP, representados pelo sindicato SMAQ, param entre as 00h00 de segunda, 23, e o fim de sexta, 27 de novembro. A CP avisa para atrasos e supressões, possíveis também no dia antes e no dia depois, e permite reembolso ou troca gratuita de bilhetes de Alfa Pendular, Intercidades, Internacional, InterRegional e Regional. O sindicato pede, entre outras coisas, recuperação do poder de compra e cumprimento do acordo de empresa."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Greve da Frente Comum confirmada pela própria Frente Comum e pela Rádio Comercial; greve de 24 nov. segundo a Lusa (via DN). A notícia da Lusa diz «quarta-feira, 24 de novembro», mas 24 de novembro de 2026 é terça-feira (o JM Madeira escreve «terça-feira»); usou-se a data. Greve da CP segundo o ECO (19 nov.), com base no aviso da CP; não foi possível ler o aviso no site da CP nem as notícias do Público e do Observador. Ainda não se sabe se haverá serviços mínimos na CP nem a adesão às greves."
+   },
+   "fontes": [
+    {
+     "nome": "Frente Comum – convocatória da greve nacional de 20 de novembro",
+     "url": "https://frentecomum.pt/noticias/plenario-da-frente-comum-convoca-greve-nacional-da-administracao-publica-para-dia-20-de-novembro/"
+    },
+    {
+     "nome": "Rádio Comercial – «Vêm aí mais quatro greves até dezembro que podem afetar as escolas»",
+     "url": "https://radiocomercial.pt/noticia/vem-ai-mais-quatro-greves-ate-dezembro-que-podem-afetar-as-escolas"
+    },
+    {
+     "nome": "DN / Lusa – «Sindicatos marcam greve nacional para dia da votação final» (18 nov.)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-sindicatos-marcam-greve-nacional-para-prxima-quarta-feira-dia-da-votao-final"
+    },
+    {
+     "nome": "ECO – «Maquinistas da CP convocam greve entre os dias 23 e 27 de novembro» (19 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/19/maquinistas-da-cp-convocam-greve-entre-os-dias-23-e-27-de-novembro/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Portugal leva à COP31 um plano para cortar para metade a dependência dos combustíveis fósseis até 2034",
+   "estado": "Roteiro apresentado a 18 nov. · metas do Governo · estratégia final só no 1.º trimestre de 2027, após consulta pública",
+   "data": "2026-11-18",
+   "texto": [
+    "Portugal apresentou na quarta-feira, 18 de novembro, na cimeira do clima COP31, em Antália, um roteiro para deixar os combustíveis fósseis de forma «justa, ordenada e equitativa». A meta é reduzir para metade a dependência energética do exterior entre 2026 e 2034 e chegar à neutralidade climática em 2045. O plano foi apresentado pela ministra do Ambiente e Energia, Maria da Graça Carvalho.",
+    "O alvo principal são os transportes, que gastam cerca de 80% dos produtos petrolíferos consumidos no país. Segundo cenários da Direção-Geral de Energia e Geologia, o consumo de gasolina e gasóleo na estrada pode cair 52% até 2040, face a 2024. A prioridade é eletrificar carros e autocarros; nos camiões pesados e nos carros que já circulam entram combustíveis renováveis. O Plano Social para o Clima, ainda à espera de aprovação de Bruxelas, prevê 1,6 mil milhões de euros até 2032, incluindo apoio à compra de cerca de 21 mil veículos elétricos.",
+    "E agora? A parte nova, uma estratégia para descarbonizar os combustíveis da estrada, vai a consulta pública durante 30 dias em janeiro, e a versão final está prevista para o primeiro trimestre de 2027. A associação ambientalista Zero acha que Portugal está «estagnado» na eletrificação e pede metas concretas para 2030 e 2035. Portugal junta-se a França, Alemanha, Finlândia e Países Baixos, que já têm planos semelhantes."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Metas, números e calendário segundo o comunicado do Governo (17 nov.) e o Dinheiro Vivo/DN (18 nov.), que também se baseia num comunicado do ministério; a apresentação de Portugal na COP31 é referida de forma independente pela AFP (via Gulf News). Críticas da Zero segundo a Lusa (via DN, 17 nov.). As metas são objetivos e previsões do Governo, não resultados. A notícia do Público sobre o tema não pôde ser aberta."
+   },
+   "fontes": [
+    {
+     "nome": "Governo de Portugal – «Portugal lança na COP31 roteiro para abandono justo, ordenado e equitativo dos combustíveis fósseis» (17 nov.)",
+     "url": "https://portugal.gov.pt/pt/gc25/comunicacao/comunicados/portugal-lanca-na-cop31-roteiro-para-abandono-justo-ordenado-e-equitativo-dos-combustiveis-fosseis-"
+    },
+    {
+     "nome": "Dinheiro Vivo / DN – «Estratégia de descarbonização dos combustíveis líquidos rodoviários é para concluir no 1.º trimestre de 2027» (18 nov.)",
+     "url": "https://dinheirovivo.dn.pt/economia/estrategia-de-descarbonizacao-dos-combustiveis-rodovirios-para-concluir-no-1-trimestre-de-2027"
+    },
+    {
+     "nome": "DN / Lusa – «COP31: Portugal vai apresentar roteiro para a transição dos combustíveis fósseis» (17 nov.)",
+     "url": "https://www.dn.pt/internacional/cop31-portugal-vai-apresentar-roteiro-para-a-transio-dos-combustveis-fsseis"
+    },
+    {
+     "nome": "Gulf News (AFP) – Countries air grievances in search of COP31 climate deal (18 nov.)",
+     "url": "https://gulfnews.com/world/countries-air-grievances-in-search-of-cop31-climate-deal-1.500752218"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Satélite europeu Sentinel-3C mede pela primeira vez a temperatura da Terra: sul de Portugal surge a rondar os 25 a 29 graus",
+   "estado": "Imagens divulgadas pela ESA (18 nov.) · satélite ainda em fase de testes, sem serviço regular",
+   "data": "2026-11-18",
+   "texto": [
+    "O satélite europeu Sentinel-3C já «sente» o calor da Terra. A Agência Espacial Europeia (ESA) divulgou esta quarta-feira, 18 de novembro, as primeiras imagens térmicas do radiómetro do satélite, o instrumento que mede a temperatura da superfície do mar e da terra. Uma delas, tirada a 2 de novembro, mostra o sul de Portugal e a Andaluzia com valores entre os 25 e os 29 graus, aproximadamente, e partes de Marrocos e da costa da Argélia acima dos 30.",
+    "O Sentinel-3C foi lançado a 15 de setembro num foguetão europeu Vega-C, juntamente com o satélite FLEX, e faz parte do Copernicus, o programa europeu de observação da Terra. Ainda está na fase de testes e afinação. Até agora só tinha mostrado imagens nas cores visíveis: em outubro, por exemplo, fotografou o furacão Rachel, no Pacífico, ao largo do México. Agora foram ligados os canais de infravermelho, que «veem» o calor.",
+    "O que mostram as imagens? Na Península Ibérica, o contraste entre a terra quente e o mar mais fresco é forte no sul de Portugal e de Espanha, mas desaparece mais a norte, onde a Espanha, a França e o Atlântico estão mais frios. Na versão em cores falsas, veem-se as cicatrizes dos incêndios deste verão a oeste de Madrid e perto de Bordéus, em França. Outra imagem, de 4 de novembro, mostra a região de Kimberley, no noroeste da Austrália, com mais de 40 graus em grande parte do interior. A ESA avisa que estes valores são «temperaturas de brilho», medidas no topo da atmosfera, e podem diferir da temperatura real do solo ou da água.",
+    "Porque é que isto importa? Os satélites Sentinel-3 alimentam serviços do Copernicus que acompanham, por exemplo, a temperatura dos oceanos e os incêndios — o radiómetro tem dois canais próprios para detetar fogos. Segundo o site de divulgação Starlust, que cita a EUMETSAT, a organização europeia de satélites meteorológicos que opera a missão com a ESA, o Sentinel-3C vai substituir o Sentinel-3A quando estiver pronto, e o Sentinel-3D deverá seguir-se em 2029."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Imagens, datas de captação (2 e 4 nov.), valores de temperatura, cicatrizes de incêndios, aviso sobre «temperaturas de brilho», os nove canais e os dois canais de incêndios, e o lançamento a 15 set. num Vega-C com o FLEX segundo a ESA (18 nov.). A Starlust (19 nov.) repete a informação e acrescenta, citando a EUMETSAT e a ESA, que o satélite chegou à órbita operacional a 11 nov., que vai substituir o Sentinel-3A e que o Sentinel-3D está previsto para 2029; como se baseia nas mesmas fontes oficiais, não conta como fonte independente. A imagem do furacão Rachel (2 out.) vem da Ocean News (19 out.). A declaração de Milen Tahtadjiev (EUMETSAT) citada pela Starlust não foi confirmada na fonte original. A imagem escolhida é de arquivo, de outro satélite da série; a página do Commons não pôde ser aberta e o ficheiro foi confirmado só nos resultados de pesquisa do Commons."
+   },
+   "fontes": [
+    {
+     "nome": "ESA – «First thermal images from Sentinel-3C radiometer» (18 nov.)",
+     "url": "https://www.esa.int/articles/about-us/directorates/earth-observation-programmes/copernicus/sentinel-3/first-thermal-images-from-sentinel-3c-radiometer"
+    },
+    {
+     "nome": "Starlust – primeiras imagens térmicas do Sentinel-3C (19 nov.)",
+     "url": "https://starlust.org/esas-sentinel-3cs-first-thermal-images-show-temperature-map-around-western-australia-spain/"
+    },
+    {
+     "nome": "Ocean News – Sentinel-3C fotografa o furacão Rachel (19 out.)",
+     "url": "https://oceannews.com/news/science-technology/sentinel-3c-captures-first-hurricane-image-with-surface-temperature-radiometer/"
+    }
+   ],
+   "imagem": {
+    "commons": "Hot surfaces during Europe's heatwave 'seen' by Sentinel-3 ESA522397.jpg",
+    "tipo": "arquivo",
+    "alt": "Mapa de satélite da Europa com as temperaturas da superfície em cores, dos azuis frios aos vermelhos quentes",
+    "legenda": "Temperatura da superfície na Europa medida por um satélite Sentinel-3 durante uma onda de calor (imagem de arquivo da ESA; não mostra as novas imagens do Sentinel-3C)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Foguetão da Shenzhou-24 já está na rampa: vai levar o primeiro astronauta estrangeiro à estação espacial chinesa",
+   "estado": "Foguetão na zona de lançamento (17 nov.) · data não anunciada pela China; Paquistão aponta 25 nov.",
+   "data": "2026-11-17",
+   "texto": [
+    "A China deu mais um passo para receber o primeiro visitante estrangeiro na sua estação espacial, a Tiangong. O foguetão Longa Marcha 2F com a nave Shenzhou-24 foi levado esta terça-feira, 17 de novembro, para a zona de lançamento do centro de Jiuquan, no noroeste do país. A bordo vão dois astronautas chineses e um paquistanês, que será o primeiro astronauta do Paquistão e o primeiro estrangeiro a entrar na Tiangong.",
+    "A data exata ainda não é oficial. A agência espacial tripulada da China diz apenas que o lançamento será «num momento apropriado, num futuro próximo». O ministro do Planeamento do Paquistão, Ahsan Iqbal, falou em 25 de novembro, e as missões anteriores descolaram sete a oito dias depois de chegarem à rampa, o que aponta para 24 ou 25, segundo o boletim especializado The Ace of Space. O nome do paquistanês também não foi anunciado: os dois candidatos são Muhammad Zeeshan Ali, piloto da Força Aérea, e Khurram Daud, piloto da Marinha. Treinaram em Pequim e um deles fica como suplente.",
+    "A estadia será curta, de cerca de uma semana. O paquistanês vai como especialista de carga útil (o tripulante que conduz experiências) e leva quatro experiências de biotecnologia, escolhidas entre mais de 300 propostas, sobre insegurança alimentar e alterações climáticas, segundo a agência espacial paquistanesa citada pelo Space.com. Depois regressa à Terra na Shenzhou-23 com dois dos astronautas que lá estão há seis meses; o terceiro fica a bordo para a primeira estadia de um ano da China em órbita. Os dois chineses da Shenzhou-24 ficam cerca de seis meses.",
+    "Porque é que isto importa? Até agora, só astronautas chineses tinham voado para a Tiangong. O acordo entre a China e o Paquistão foi assinado em fevereiro de 2025, no quadro da cooperação entre os dois países, e o porta-voz da diplomacia chinesa, Guo Jiakun, chamou-lhe a «primeira missão conjunta» do género. Será também o 18.º voo tripulado da China."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Seleção de um paquistanês como especialista de carga útil confirmada pela agência chinesa a 7 nov., segundo a Al Jazeera e o Space.com (12 nov.); o Space.com dá os dois candidatos, a estadia de cerca de uma semana, as quatro experiências (dados da SUPARCO, a agência espacial paquistanesa), o regresso na Shenzhou-23, o astronauta que fica um ano e a citação de Guo Jiakun (9 nov.). A transferência para a zona de lançamento a 17 nov. vem do The Ace of Space (18 nov., que cita a CGTN e o China Daily) e surge também num título da Beijing Review de 18 nov. (página não aberta). A data de 25 nov. é do ministro paquistanês Ahsan Iqbal, citado pelo The Ace of Space; a China não anunciou data. As patentes dos candidatos e o 18.º voo tripulado vêm do The Ace of Space e da Universe Today; o acordo de fevereiro de 2025 da Universe Today (a Al Jazeera refere apenas «fevereiro»). O nome do astronauta que voa ainda não é conhecido."
+   },
+   "fontes": [
+    {
+     "nome": "The Ace of Space – «Tiangong's First Foreign Seat Goes to Pakistan» (18 nov.)",
+     "url": "https://theaceofspace.substack.com/p/tiangongs-first-foreign-seat-goes"
+    },
+    {
+     "nome": "Space.com – astronauta paquistanês vai ser o primeiro visitante internacional da Tiangong (12 nov.)",
+     "url": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month&gsessionid=hC-149AD5soLAtGFwxWSvmuRpjW4DRIjkfojRP9KpRO285SvdaPj6w"
+    },
+    {
+     "nome": "Al Jazeera – Pakistani astronaut to join China's next space station mission (7 nov.)",
+     "url": "https://aljazeera.com/news/2026/11/7/pakistani-astronaut-to-join-chinas-next-space-station-mission"
+    },
+    {
+     "nome": "Universe Today – primeiro astronauta estrangeiro visita a Tiangong (14 nov.)",
+     "url": "https://www.universetoday.com/articles/the-first-foreign-astronaut-will-visit-chinas-tiangong-space-station-in-two-weeks"
+    },
+    {
+     "nome": "Beijing Review – Shenzhou-24 transferida para a zona de lançamento (18 nov., citado)",
+     "url": "http://www.bjreview.com.cn/Latest_Headlines/202611/t20261118_800451518.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Shenzhou 19 launch 01.png",
+    "tipo": "arquivo",
+    "alt": "Foguetão Longa Marcha 2F a descolar com a nave Shenzhou-19",
+    "legenda": "Lançamento da Shenzhou-19 num foguetão Longa Marcha 2F, o mesmo modelo da Shenzhou-24 (imagem de arquivo; não mostra esta missão)"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Os Christophers»: Soderbergh fecha Ian McKellen e Michaela Coel numa casa com quadros por acabar — e a crítica aplaude sobretudo os atores",
+   "ficha": {
+    "Título original": "The Christophers (2025, Reino Unido)",
+    "Realização": "Steven Soderbergh (também diretor de fotografia e montador do filme)",
+    "Argumento": "Ed Solomon",
+    "Elenco": "Ian McKellen, Michaela Coel, James Corden, Jessica Gunning",
+    "Estreia em Portugal": "19 de novembro de 2026 (comédia dramática; M/12; 100 minutos)",
+    "Avaliação": "Críticas maioritariamente favoráveis: B+ no AV Club e elogios na TheWrap; o Irish Times acha que o filme «se safa» graças ao elenco"
+   },
+   "texto": [
+    "Chega hoje, quinta-feira, 19 de novembro, às salas portuguesas «Os Christophers», o novo filme do norte-americano Steven Soderbergh, o realizador de «Traffic» e «Ocean's Eleven». É uma comédia dramática sobre arte, família e o medo de ser esquecido, com Ian McKellen e Michaela Coel nos papéis principais. No Cinema Medeia Nimas, em Lisboa, há sessão hoje às 19h00. Estreou no Festival de Toronto, em setembro de 2025.",
+    "McKellen é Julian Sklar, um pintor que já foi famoso e vive hoje amargo e isolado. Os filhos querem garantir a herança e contratam uma pintora com jeito para falsificações, interpretada por Coel, para terminar uma série de quadros que o pai deixou por acabar, para poderem ser «descobertos» e vendidos depois da morte dele. O que acontece quando os dois ficam frente a frente fica para o espectador descobrir. O filme passa-se quase todo numa casa e foi rodado em Londres; Soderbergh, além de realizar, fez a fotografia e a montagem.",
+    "Os pontos fortes estão no duelo dos dois atores. O AV Club dá-lhe B+ e diz que o desempenho de McKellen, irascível e engraçado, quase bastaria para justificar o filme; a TheWrap destaca a contenção de Coel e o humor dos diálogos do argumentista Ed Solomon. As duas críticas elogiam os planos longos e a câmara ao ombro, que põem o público dentro da sala com as personagens, e a forma como o filme fala de criação, legado e envelhecimento — temas que o AV Club liga à própria carreira de Soderbergh.",
+    "Os pontos fracos também aparecem nas críticas. O Irish Times acha que o argumento levanta grandes ideias mas não as desenvolve, que as cenas «andam à deriva» em vez de crescer e que a realização é demasiado discreta, mais próxima de teatro filmado. James Corden é o elo mais fraco para a TheWrap, e o AV Club nota que os familiares são quase caricaturas e que há momentos previsíveis. Em resumo, segundo a apreciação que resulta das críticas consultadas: um filme pequeno, de câmara, que não é o Soderbergh mais ambicioso, mas que vale sobretudo pelo frente a frente entre McKellen e Coel."
+   ],
+   "fontes": [
+    {
+     "nome": "Medeia Filmes – Cinema Medeia Nimas (sessões de «Os Christophers», 19 nov.)",
+     "url": "https://medeiafilmes.com/cinemas/cinema-medeia-nimas"
+    },
+    {
+     "nome": "Magazine.HD – ficha de «Os Christophers»",
+     "url": "https://www.magazine-hd.com/filme/os-christophers"
+    },
+    {
+     "nome": "Cinevisão – «Os Christophers»",
+     "url": "https://cinevisao.pt/filmes/the-christophers/"
+    },
+    {
+     "nome": "Alambique – «Os Christophers: Steven Soderbergh regressa ao essencial»",
+     "url": "https://alambique.pt/os-christophers-steven-soderbergh-regressa-ao-essencial/"
+    },
+    {
+     "nome": "Time Out Lisboa – «Os Christophers»",
+     "url": "https://www.timeout.com/pt/filmes/os-christophers-2026"
+    },
+    {
+     "nome": "AV Club – crítica de «The Christophers» (Jason Gorber, 11 set. 2025)",
+     "url": "https://www.avclub.com/the-christophers-review"
+    },
+    {
+     "nome": "TheWrap – crítica de «The Christophers» (Chase Hutchinson, 7 set. 2025)",
+     "url": "https://www.thewrap.com/the-christophers-review-steven-soderbergh-ian-mckellen-michaela-coel/"
+    },
+    {
+     "nome": "The Irish Times – crítica de «The Christophers» (Tara Brady, 13 mai. 2026)",
+     "url": "https://www.irishtimes.com/culture/film/review/2026/05/13/the-christophers-review-steven-soderberghs-film-scrapes-by-thanks-to-a-compelling-cast/"
+    }
+   ],
+   "nota": "A estreia a 19 nov. vem da lista de estreias de novembro do filmSPOT (página aberta), da Magazine.HD e da Cinevisão; a sessão de hoje às 19h00 no Medeia Nimas, a duração e a classificação M/12 foram confirmadas na página do cinema na Medeia Filmes. Não foi possível abrir a ficha do filme no filmSPOT, por isso não foram verificados outros cinemas nem horários. A estreia em Toronto vem da página da Alambique (que não diz explicitamente ser a distribuidora portuguesa; por isso a distribuidora não é indicada); a rodagem em Londres vem da Time Out Lisboa. O papel de Soderbergh como diretor de fotografia e montador vem da TheWrap. A apreciação resume as críticas do AV Club, TheWrap e Irish Times; não foram consultadas críticas portuguesas. Os filmes «Traffic» e «Ocean's Eleven» são referência geral à filmografia do realizador. A página da imagem no Commons não pôde ser aberta; o ficheiro surge nos resultados de pesquisa do Commons e a data (Festival de Veneza de 2009) resulta do nome do ficheiro.",
+   "imagem": {
+    "commons": "Steven Soderbergh at the 66th Mostra.jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato do realizador Steven Soderbergh",
+    "legenda": "Steven Soderbergh, realizador de «Os Christophers», no Festival de Veneza de 2009 (imagem de arquivo; não mostra o filme)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Hokusai, o homem da «Grande Onda»: mudou de casa mais de 90 vezes, usou dezenas de nomes e queria viver até aos 110 para desenhar como devia",
+   "ficha": {
+    "Nascimento e morte": "Outubro de 1760, em Edo (atual Tóquio), Japão; 10 de maio de 1849, em Edo",
+    "Nome": "Katsushika Hokusai (um de muitos: usou cerca de um nome principal por década e duas dezenas de pseudónimos)",
+    "Área": "Gravura em madeira (ukiyo-e), pintura e desenho",
+    "Obra essencial": "«Trinta e Seis Vistas do Monte Fuji» (c. 1830–1833), incluindo «Sob a Onda ao Largo de Kanagawa» («A Grande Onda»); os cadernos «Hokusai Manga»; «Cem Vistas do Monte Fuji»",
+    "Atualidade": "Exposição «Hokusai: Thirty-six Views of Mt Fuji from the Iuchi Collection», com a série completa pela primeira vez no Reino Unido, na Dulwich Picture Gallery (Londres), até 17 de janeiro de 2027"
+   },
+   "texto": [
+    "Quase toda a gente conhece a «Grande Onda», a vaga azul e branca prestes a cair sobre três barcos, com o monte Fuji pequenino ao fundo. Menos gente conhece o homem que a fez: Katsushika Hokusai, o mais célebre gravador japonês. Até 17 de janeiro de 2027, a Dulwich Picture Gallery, em Londres, mostra pela primeira vez no Reino Unido a série completa a que a onda pertence, as «Trinta e Seis Vistas do Monte Fuji», vinda da coleção Iuchi, em parceria com o Museu Nacional de Arte Ocidental de Tóquio.",
+    "Hokusai nasceu em 1760 em Edo, a cidade que hoje se chama Tóquio. Em jovem trabalhou numa livraria de empréstimo e foi aprendiz de um gravador de blocos de madeira. Aos 18 anos entrou no ateliê de Katsukawa Shunshō, um mestre do ukiyo-e, as «imagens do mundo flutuante»: gravuras populares, impressas em série a partir de blocos de madeira, com atores de teatro e paisagens. Era inquieto. Viveu em mais de 90 casas, trocava de nome mais ou menos uma vez por década e deixou dezenas de milhares de obras. Também gostava de espetáculo: em Edo e Nagoya pintou, diante da multidão, imagens gigantes com cerca de 200 metros quadrados.",
+    "O estilo de Hokusai mistura a tradição japonesa com a perspetiva vinda da Europa. As «Trinta e Seis Vistas» — que na verdade são 46, porque o editor juntou mais dez — mostram o Fuji de todos os ângulos, estações e situações do dia a dia. Um dos segredos do sucesso foi uma cor: o azul da Prússia, um pigmento sintético inventado na Alemanha e importado pelo Japão, que Hokusai usou para o mar e o céu. Começou a série aos 70 anos, numa fase difícil: tinha tido um AVC, perdido a mulher e tinha de pagar as dívidas de jogo de um neto. Os cadernos «Hokusai Manga», cheios de desenhos de pessoas, animais e objetos, são outra parte essencial da obra.",
+    "Algumas curiosidades. A «Grande Onda» não é um quadro, é uma gravura comercial: foram feitas milhares de cópias e julga-se que sobrevivem cerca de cem. O compositor Claude Debussy tinha uma em casa e usou um pormenor dela na capa da partitura de «La Mer» (1905). Desde julho de 2024, a onda está na nota de mil ienes. E Hokusai era exigente consigo próprio: aos 73 anos escreveu que só começava a perceber a verdadeira natureza das aves, dos peixes e das plantas, e que aos 110 cada ponto e cada linha que traçasse ganhariam vida própria. Morreu em 1849, com quase 90 anos."
+   ],
+   "fontes": [
+    {
+     "nome": "Dulwich Picture Gallery – «Hokusai: Thirty-six Views of Mt Fuji from the Iuchi Collection»",
+     "url": "https://www.dulwichpicturegallery.org.uk/whats-on/hokusai-thirty-six-views-of-mt-fuji-from-the-iuchi-collection/"
+    },
+    {
+     "nome": "Britannica – Hokusai",
+     "url": "https://www.britannica.com/biography/Hokusai"
+    },
+    {
+     "nome": "Art Institute of Chicago – «10 Things to Know about The Great Wave»",
+     "url": "https://www.artic.edu/articles/1139/10-things-to-know-about-the-great-wave"
+    },
+    {
+     "nome": "Nippon.com – A «Grande Onda» de Hokusai, da cultura de massas de Edo à nota de mil ienes",
+     "url": "https://www.nippon.com/en/japan-topics/g02414"
+    }
+   ],
+   "nota": "Exposição (datas de 20 out. 2026 a 17 jan. 2027, coleção Iuchi, parceria com o Museu Nacional de Arte Ocidental de Tóquio, primeira vez no Reino Unido, datação da série em 1830–1833, mais dez gravuras por causa do azul da Prússia) segundo a Dulwich Picture Gallery. Nascimento em Edo em outubro de 1760, livraria de empréstimo, aprendizagem com um gravador, Shunshō aos 18 anos (1778), mais de 90 casas, um nome por década e duas dezenas de pseudónimos, pinturas de cerca de 200 m² em Edo e Nagoya, 46 gravuras, «Hokusai Manga» e a declaração sobre os 73 e os 110 anos segundo a Britannica. Título original, cópias e cerca de cem sobreviventes, azul da Prússia importado, início da série aos 70 anos (AVC, morte da mulher, dívidas do neto), «Cem Vistas do Monte Fuji» e Debussy segundo o Art Institute of Chicago. Nota de mil ienes (julho de 2024), azul da Prússia inventado na Alemanha e mais de 30 mil obras segundo a Nippon.com (que fala em 93 mudanças de casa). As fontes divergem sobre a idade à morte (88 ou 89 anos), por isso o texto diz «quase 90». A Wikipédia não pôde ser aberta. A página da imagem no Commons não pôde ser aberta; o ficheiro surge nos resultados de pesquisa do Commons (obra em domínio público).",
+   "imagem": {
+    "commons": "Tsunami by hokusai 19th century.jpg",
+    "tipo": "obra",
+    "alt": "Gravura japonesa com uma enorme onda azul de crista branca prestes a cair sobre barcos, com o monte Fuji pequeno ao fundo",
+    "legenda": "«Sob a Onda ao Largo de Kanagawa» («A Grande Onda»), c. 1830–1833, de Katsushika Hokusai (obra em domínio público)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que «Frankenstein» nasceu de um desafio entre amigos, num verão sem sol provocado por um vulcão do outro lado do mundo?",
+   "texto": [
+    "Sabias que um dos romances mais famosos de sempre nasceu de um jogo de serão? Em junho de 1816, um grupo de amigos ingleses estava de férias junto ao lago de Genebra, na Suíça. A chuva não parava e as noites eram passadas em casa. Para matar o tempo, o poeta Lord Byron lançou um desafio: cada um havia de escrever uma história de fantasmas. Daí saiu «Frankenstein», de uma rapariga de 18 anos chamada Mary Godwin — que ficaria conhecida como Mary Shelley.",
+    "E porque chovia tanto? A culpa foi de um vulcão. Em abril de 1815, o monte Tambora, na atual Indonésia, teve a erupção mais forte da história registada. As cinzas espalharam-se pela atmosfera e 1816 ficou conhecido como «o ano sem verão», frio e húmido em boa parte da Europa. Mary lembrava-se de uma chuva «quase permanente», com trovoadas. Na Villa Diodati, a casa alugada por Byron, o grupo — Byron, o médico dele, John Polidori, o poeta Percy Shelley, Mary e Claire Clairmont, filha da madrasta de Mary — lia contos de terror alemães traduzidos para francês.",
+    "Depois de ouvir Byron e Percy Shelley a discutir se seria possível devolver a vida a um corpo, passou uma noite agitada e, contou mais tarde, viu «o fantasma hediondo de um homem estendido». Foi a semente da história de Victor Frankenstein, o cientista que cria um ser vivo e foge da sua criação. Repare-se: Frankenstein é o nome do cientista, não da criatura, que no livro não tem nome. Do mesmo desafio nasceu outro clássico, «O Vampiro», de Polidori, publicado em 1819 numa revista e atribuído por engano a Byron; abriu caminho a «Drácula».",
+    "O livro saiu em janeiro de 1818, em três volumes e sem o nome da autora. A editora Lackington imprimiu 500 exemplares e vendeu 459. Mary tinha 20 anos. A fama veio com o teatro: uma adaptação para palco fez sucesso cerca de quatro anos depois, e em 1831 Mary publicou uma versão revista, com uma introdução onde contou, pela primeira vez, como tudo começou naquele verão chuvoso. Hoje, «Frankenstein» é considerado um dos primeiros romances de ficção científica."
+   ],
+   "fontes": [
+    {
+     "nome": "Britannica – «Frankenstein; or, The Modern Prometheus»",
+     "url": "https://www.britannica.com/topic/Frankenstein-or-The-Modern-Prometheus"
+    },
+    {
+     "nome": "Penguin – The Geneva holiday that gave birth to Frankenstein",
+     "url": "https://www.penguin.co.uk/geneva-holiday-frankenstein-mary-shelley/"
+    },
+    {
+     "nome": "Art UK – Sparking the gothic imagination: «Frankenstein» e «The Vampyre» (Andrew Shore)",
+     "url": "https://batch.artuk.org/discover/stories/sparking-the-gothic-imagination-mary-shelleys-frankenstein-and-polidoris-the-vampyre"
+    },
+    {
+     "nome": "Universidade da Pensilvânia (Frankenstein: Penn Electronic Edition) – história da publicação",
+     "url": "https://knarf.english.upenn.edu/Text/history.html"
+    }
+   ],
+   "nota": "Junho de 1816, lago de Genebra, quem estava presente, os 18 anos de Mary, a chuva «quase permanente», o desafio de Byron, a conversa sobre reanimar corpos, o «fantasma hediondo» e a ligação de «The Vampyre» a «Drácula» segundo a Penguin. Erupção do Tambora em abril de 1815 como a mais forte registada, «ano sem verão», Villa Diodati alugada por Byron, os contos alemães em francês («Fantasmagoriana») e a publicação de «The Vampyre» em 1819 na New Monthly Magazine, atribuída a Byron, segundo a Art UK. Publicação em 1818, anónima, 500 exemplares, 20 anos de Mary, adaptação teatral cerca de quatro anos depois, edição de 1831 com introdução e «um dos primeiros romances de ficção científica» segundo a Britannica. Janeiro de 1818, três volumes, Lackington, 459 exemplares vendidos e reescrita em 1831 segundo a edição eletrónica da Universidade da Pensilvânia. A Britannica situa o desafio na Villa Diodati, em Cologny; a Art UK diz que os Shelley alugaram uma casa próxima e visitavam a de Byron. A ideia de que a criatura não tem nome no livro é conhecimento geral sobre a obra, coerente com a Britannica, que lhe chama apenas «monstro» ou «criatura». A página da imagem no Commons não pôde ser aberta; o ficheiro surge nos resultados de pesquisa do Commons; a autoria (Theodor von Holst) resulta da categoria do Commons em que aparece.",
+   "imagem": {
+    "commons": "Frontispiece to Frankenstein 1831.jpg",
+    "tipo": "obra",
+    "alt": "Gravura antiga em que um homem assustado foge, à porta de um laboratório, de uma criatura enorme que desperta no chão",
+    "legenda": "Frontispício da edição de 1831 de «Frankenstein», gravura a partir de um desenho de Theodor von Holst (obra em domínio público)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Cinanima chega à 50.ª edição: o festival de animação de Espinho celebra meio século com 17 dias de filmes, até domingo",
+   "ficha": {
+    "Origem": "Ideia de um grupo de jovens de Espinho em fevereiro de 1976; 1.ª edição de 23 a 27 de novembro de 1977",
+    "Organização": "Cooperativa cultural Nascente e Câmara Municipal de Espinho, com apoio do ICA (Instituto do Cinema e Audiovisual) e do programa europeu MEDIA",
+    "Área": "Cinema de animação: competições nacional e internacional, retrospetivas, formação em escolas e universidades, residências artísticas",
+    "Agora": "50.ª edição de 6 a 22 de novembro de 2026, no Centro Multimeios de Espinho e noutros espaços da região; 167 filmes em competição; orçamento de 216 mil euros"
+   },
+   "texto": [
+    "O Cinanima — Festival Internacional de Cinema de Animação de Espinho faz 50 edições e está a meio da festa. Desde 6 de novembro e até domingo, 22, há 17 dias de filmes, bem mais do que os sete que o festival costuma durar. São 167 curtas e longas-metragens em competição, 33 delas portuguesas, e mais de duas centenas de outros filmes em retrospetivas e sessões especiais, sobretudo no Centro Multimeios de Espinho. O tema desta edição vem de um poema de António Gedeão: «O sonho comanda a vida».",
+    "Tudo começou em fevereiro de 1976, quando um grupo de jovens de Espinho propôs uma mostra de cinema de animação e banda desenhada. A primeira edição do festival realizou-se de 23 a 27 de novembro de 1977. Álvaro Costa é apontado como o «pai espiritual» do Cinanima, e António Gaio dirigiu-o durante 35 anos, a partir de 1981; o prémio para o melhor filme português tem o nome dele desde 1990. Hoje é organizado pela cooperativa cultural Nascente e pela Câmara de Espinho.",
+    "Porque é que é importante? O Cinanima é um dos poucos festivais portugueses reconhecidos pela academia de Hollywood: os vencedores podem ser considerados para os Óscares. «Father and Daughter», de Michael Dudok de Wit, ganhou o grande prémio em 2000 e o Óscar de melhor curta de animação no ano seguinte. O festival também trabalha com escolas desde 2010 e leva cineastas às salas do pré-escolar e do primeiro ciclo. Este ano, mais de 200 alunos de 11 concelhos fazem um filme numa residência artística que será mostrado no encerramento. O programador André Ramada diz que as técnicas ainda surpreendem: há filmes feitos com espuma de café, pintados em azulejos ou bordados à mão.",
+    "Ainda há muito para ver. Hoje, quinta-feira, 19, é apresentado no Teatro Municipal de Vila do Conde um estudo sobre 50 anos de presença feminina nos arquivos do festival, com convidadas como a realizadora Regina Pessoa. Há ainda sete programas «50 Anos de CINANIMA – Um Legado», homenagens ao designer João Machado, autor de cartazes emblemáticos do festival, e ao crítico Henrique Alves Costa, e um novo prémio, o «Pequeno Golfinho», para filmes destinados a crianças e adolescentes. No ano passado o festival teve mais de 287 mil entradas; este ano a organização conta com cerca de 345 mil."
+   ],
+   "fontes": [
+    {
+     "nome": "Observador/Lusa – Festival Cinanima inicia 50.ª edição (6 nov.)",
+     "url": "https://observador.pt/2026/11/06/festival-cinanima-inicia-50-a-edicao-com-filmes-que-procuram-a-ousadia-da-felicidade/"
+    },
+    {
+     "nome": "Diário de Aveiro – Cinanima comemora 50 anos com edição de 17 dias (17 out.)",
+     "url": "https://www.diarioaveiro.pt/2026/10/17/cinanima-comemora-50-anos-com-edicao-de-17-dias/"
+    },
+    {
+     "nome": "Cinanima – História do festival",
+     "url": "https://cinanima.pt/en/history/"
+    },
+    {
+     "nome": "Universidade Lusófona – obras na seleção oficial do Cinanima 2026 (9 set.)",
+     "url": "https://www.ulusofona.pt/noticias/obras-lsf-na-selecao-oficial-do-cinanima-2026"
+    },
+    {
+     "nome": "Visit Espinho – Centro Multimeios | Planetário (citado)",
+     "url": "https://visit.espinho.pt/en/tourism/multimeios-center-planetarium/"
+    }
+   ],
+   "nota": "Datas (6 a 22 nov.), 17 dias, Centro Multimeios, organização (Nascente e Câmara de Espinho), orçamento, apoios do ICA e do MEDIA, 167 filmes a concurso, programas «Um Legado», prémio «Pequeno Golfinho», residência com mais de 200 alunos de 11 concelhos a duração média de sete dias e números de entradas (287 046 no ano passado; previsão de cerca de 345 mil) segundo o Diário de Aveiro. 33 filmes portugueses, mais 226 obras fora de competição, tema de António Gedeão, homenagens a João Machado e Henrique Alves Costa, declarações de André Ramada e estudo apresentado a 19 nov. em Vila do Conde segundo o Observador (texto da Lusa). Origem em 1976, 1.ª edição em 1977, Álvaro Costa, António Gaio (1981–2015, prémio desde 1990), reconhecimento pela Academia em 1985, «Father and Daughter» e trabalho com escolas desde 2010 segundo a página de história do Cinanima. Que a fotografia mostra o edifício do Centro Multimeios resulta da página do turismo de Espinho («Multimeios Center | Planetarium», vista só nos resultados de pesquisa) e do nome do ficheiro; a página da imagem no Commons não pôde ser aberta e o ficheiro surge nos resultados de pesquisa do Commons. Não foram verificados preços nem horários das sessões.",
+   "imagem": {
+    "commons": "Planetario Espinho Exterior.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Exterior do edifício do Planetário de Espinho, no Centro Multimeios",
+    "legenda": "Planetário de Espinho, no Centro Multimeios, principal casa do Cinanima (imagem ilustrativa; não mostra o festival)"
+   }
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos na manhã de 19 de novembro na agenda e nas páginas de evento da Casa da Música, na agenda e nas páginas de atividade de Serralves, na Agenda Porto (Câmara do Porto: página de destaques, programa do Porto/Post/Doc, Rivoli, Galeria Municipal e Teatro Carlos Alberto), no site do Porto/Post/Doc e na Time Out Porto. Não foi possível abrir hoje as páginas do Teatro Municipal do Porto, do Coliseu e do TNSJ, nem várias fichas individuais da Agenda Porto; onde a nota o diz, repetem-se dados confirmados na edição de ontem. O Porto/Post/Doc abre esta quinta-feira, 19, no Batalha, e decorre até 28 de novembro, também no Passos Manuel e no Planetário; o site do festival não indica o preço do bilhete avulso (o passe custa 60 €, ou 40 € com desconto). No sábado, 21, a Galeria Municipal do Porto inaugura três exposições ao mesmo tempo, com entrada livre. O concerto de Niklas Paschburg (sexta, 20) aparece como esgotado na agenda geral da Casa da Música, mas a página do concerto ainda mostra bilhetes. Onde se lê «Por confirmar», o dado não estava na fonte: convém confirmar na ligação antes de sair.",
+ "agenda": [
+  {
+   "dia": "2026-11-19",
+   "eventos": [
+    {
+     "nome": "O Conceito Inútil, pela companhia Do Lado de Fora",
+     "descricao": "Estreia da peça da primeira companhia de teatro portuguesa criada por pessoas em situação de sem-abrigo: visitas guiadas às memórias dos lugares a que cada um chamou casa.",
+     "horario": "19:00",
+     "tipo": "Teatro",
+     "local": "Teatro Carlos Alberto (TeCA), Rua das Oliveiras, 43, Porto",
+     "preco": "12 €",
+     "url": "https://www.agenda-porto.pt/en/evento/teca-o-conceito-inutil/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12. Direção artística de Rui Spranger; coprodução do Teatro Nacional São João. Datas, horas (19 nov. às 19:00, 20 às 21:00, 21 às 19:00, 22 às 16:00) e preço confirmados hoje na Agenda Porto; estreia e datas também no Observador (30 jul.). O site do TNSJ não foi aberto hoje."
+    },
+    {
+     "nome": "Abertura do Porto/Post/Doc: «A Cidade e os Mapas»",
+     "descricao": "Arranca a 13.ª edição do festival de cinema documental com a primeira longa de Alexandra Guimarães e Gonçalo L. Almeida, sobre um Porto em mudança visto por um estafeta do Bangladesh e por um arquiteto que lê mapas antigos.",
+     "horario": "21:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "5 €",
+     "url": "https://portopostdoc.com/home-en",
+     "ligacao": "Porto/Post/Doc",
+     "nota": "M/12. Datas do festival (19 a 28 nov.) e o filme da sessão de abertura confirmados hoje no site do Porto/Post/Doc e na página do Batalha; o site não indica hora nem preço. Hora e preço (5 €, com descontos do Cartão Porto) vêm da Agenda Porto, consultada a 18 de novembro."
+    },
+    {
+     "nome": "May B, de Maguy Marin",
+     "descricao": "Peça de dança-teatro de 1981 inspirada no universo de Samuel Beckett, com dez bailarinos da Compagnie Maguy Marin. Abre o Foco Maguy Marin de Serralves.",
+     "horario": "21:30",
+     "tipo": "Dança",
+     "local": "Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "12 € (50% de desconto até aos 18 anos, a partir dos 65 e para Amigos de Serralves)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1911-may-b/",
+     "ligacao": "Serralves",
+     "nota": "1h30. Data, hora, sala, preço e descontos confirmados hoje na página de Serralves, que tem venda de bilhetes ativa; não indica se há lotação esgotada nem classificação etária."
+    },
+    {
+     "nome": "Bruno Pernadas interpreta «Steamboat Bill Jr.», de Buster Keaton",
+     "descricao": "Cine-concerto: Bruno Pernadas e um quinteto tocam ao vivo uma banda sonora original para a comédia muda de Buster Keaton.",
+     "horario": "21:30",
+     "tipo": "Cine-concerto",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "30 €",
+     "url": "https://casadamusica.com/en/event/bruno-pernadas-interprets-buster-keatons-steamboat-bill-jr/?selected_session=61032",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala e preço confirmados hoje na agenda da Casa da Música, sem indicação de esgotado. No mesmo dia e à mesma hora há concerto gratuito de Claiana no Café da Casa da Música."
+    },
+    {
+     "nome": "Rubel – BELEZA. Rubel e Violão",
+     "descricao": "O cantor e compositor brasileiro apresenta-se a solo, com voz e violão, na digressão do disco «BELEZA».",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "Por confirmar (entre 20 € e 48 €)",
+     "url": "https://www.timeout.pt/porto/pt/musica/rubel",
+     "ligacao": "Time Out Porto",
+     "nota": "Data, hora e local confirmados hoje na Time Out Porto, que indica bilhetes de 21 € a 48 € (venda na Blueticket); a Agenda Porto indicava ontem 20 € a 45 €. O site do Coliseu não pôde ser aberto hoje; não confirmado se há esgotados."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-20",
+   "eventos": [
+    {
+     "nome": "Porto/Post/Doc: «Como um Homem», de Alain Gomis",
+     "descricao": "Sessão do foco dedicado ao realizador franco-senegalês Alain Gomis, um dos destaques desta edição do festival de documentário.",
+     "horario": "19:30",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Data, hora e sala confirmadas hoje no programa do festival na Agenda Porto, que não indica preço; as sessões do festival listadas ontem custavam 5 €. Às 17:00, no Batalha, passa «Eu, Capitão», de Matteo Garrone (ciclo «No País dos Outros»)."
+    },
+    {
+     "nome": "O Conceito Inútil, pela companhia Do Lado de Fora",
+     "descricao": "Segunda récita da peça construída a partir das histórias de vida dos atores, pessoas que conheceram a rua, sobre o que significa ter casa.",
+     "horario": "21:00",
+     "tipo": "Teatro",
+     "local": "Teatro Carlos Alberto (TeCA), Rua das Oliveiras, 43, Porto",
+     "preco": "12 €",
+     "url": "https://www.agenda-porto.pt/en/evento/teca-o-conceito-inutil/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12. Hora e preço confirmados hoje na Agenda Porto."
+    },
+    {
+     "nome": "The Brotherhood, de Carolina Bianchi Y Cara de Cavalo",
+     "descricao": "Segundo capítulo da trilogia «Cadela Força», sobre os pactos de fraternidade masculina e a forma como os seus códigos perpetuaram a violência sexual, incluindo na história da arte.",
+     "horario": "21:00",
+     "tipo": "Teatro",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "12 €",
+     "url": "https://www.agenda-porto.pt/en/local/rivoli-theatre/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/18, 3h40 com intervalo; aborda violação e violência sexual. Datas (20 e 21 nov.) confirmadas hoje na página do Rivoli na Agenda Porto, sem hora nem preço; hora, preço e a récita de sábado às 17:00 vêm do site do Teatro Municipal, consultado a 18 de novembro (não abriu hoje)."
+    },
+    {
+     "nome": "Niklas Paschburg (Misty Fest)",
+     "descricao": "O compositor e pianista alemão mistura piano neoclássico, sintetizadores e eletrónica num concerto intimista.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "25 € (possivelmente esgotado)",
+     "url": "https://casadamusica.com/en/event/niklas-paschburg-2/?selected_session=60553",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala e preço confirmados hoje na Casa da Música e na Agenda Porto. A agenda geral da Casa da Música marca a sessão como esgotada, mas a página do concerto ainda mostra o botão de bilhetes: convém confirmar."
+    },
+    {
+     "nome": "Lena d'Água (Concertos de Outono)",
+     "descricao": "Uma das vozes da pop portuguesa desde os anos 80 abre o fim de semana de concertos de outono do Fórum da Maia, nos arredores do Porto.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Fórum da Maia, Rua Eng. Duarte Pacheco, 131, Maia",
+     "preco": "10 € (18 € para duas pessoas)",
+     "url": "https://www.timeout.pt/porto/pt/musica/os-concertos-que-nao-pode-perder-no-porto-esta-semana",
+     "ligacao": "Time Out Porto",
+     "nota": "Fica na Maia, fora do concelho do Porto. Data, hora e preços confirmados hoje na Time Out Porto; morada da edição de ontem (Time Out). Não confirmado no site do promotor."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-21",
+   "eventos": [
+    {
+     "nome": "Ciência em Família: As Cores Secretas do Outono",
+     "descricao": "Oficina no Parque de Serralves para descobrir porque mudam as folhas de cor: observação das árvores e uma experiência de cromatografia que revela os pigmentos escondidos.",
+     "horario": "15:00",
+     "tipo": "Família",
+     "local": "Parque de Serralves (ponto de encontro: bilheteira exterior), Rua D. João de Castro, 210, Porto",
+     "preco": "Bilhete Família: 12 € por adulto residente (15 € não residentes); crianças até 12 anos grátis",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1011-ciencia-em-familia-or-as-cores-secretas-do-outono/",
+     "ligacao": "Serralves",
+     "nota": "A partir dos 5 anos; inscrição obrigatória, máximo de 20 participantes. Data, hora, preços e descontos (50% para Amigos, até aos 18 e a partir dos 65) confirmados hoje na página de Serralves."
+    },
+    {
+     "nome": "Três exposições novas na Galeria Municipal do Porto",
+     "descricao": "Inauguração simultânea de «Bosque da Noite», de Leonor Parda, «Rasgar um céu sem sol», de Basel Abbas e Ruanne Abou-Rahme, e «Conto Gótico», retrospetiva de Isabel Carvalho.",
+     "horario": "Por confirmar",
+     "tipo": "Exposição",
+     "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de D. Manuel II, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://agenda-porto.pt/en/local/n9d8XJQM7JP",
+     "ligacao": "Agenda Porto",
+     "nota": "Data da inauguração e entrada livre confirmadas hoje na página da Galeria Municipal na Agenda Porto, sem hora. As exposições ficam até fevereiro de 2027; no domingo, 22, há visita guiada gratuita com Basel Abbas e Ruanne Abou-Rahme (hora por confirmar). Um anúncio da galeria no e-flux indicava 11 de novembro, o que não bate com a Agenda Porto."
+    },
+    {
+     "nome": "Sinfonia Órgão – Orquestra Sinfónica do Porto Casa da Música",
+     "descricao": "Stefan Blunier dirige «Soir de fête», de Chausson, «Les Préludes», de Liszt, e a Sinfonia n.º 3, «Órgão», de Saint-Saëns, com Jonathan Ayerst ao órgão.",
+     "horario": "18:00",
+     "tipo": "Música clássica",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "26 € a 30 €",
+     "url": "https://casadamusica.com/en/event/organ-symphony/?selected_session=47264",
+     "ligacao": "Casa da Música",
+     "nota": "Data, hora, sala e preços confirmados hoje na agenda da Casa da Música, sem indicação de esgotado; programa e intérpretes confirmados ontem na mesma fonte."
+    },
+    {
+     "nome": "Porto/Post/Doc: Curadores da Rua, de Luís Pedro Costa e António Toga",
+     "descricao": "Sessão especial com um documentário sobre três décadas de arte urbana no Porto: graffiti, obras apagadas e quem decide o que fica nas paredes da cidade.",
+     "horario": "18:45",
+     "tipo": "Cinema / Festival",
+     "local": "Passos Manuel, Rua de Passos Manuel, 137, Porto",
+     "preco": "5 €",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12. Data, hora e sala confirmadas hoje no programa do festival na Agenda Porto; o preço (com descontos do Cartão Porto) vem da ficha da sessão consultada a 18 de novembro."
+    },
+    {
+     "nome": "Mafalda Veiga (Concertos de Outono)",
+     "descricao": "A cantautora fecha o fim de semana de concertos de outono do Fórum da Maia, nos arredores do Porto.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Fórum da Maia, Rua Eng. Duarte Pacheco, 131, Maia",
+     "preco": "10 € (18 € para duas pessoas)",
+     "url": "https://www.timeout.pt/porto/pt/musica/os-concertos-que-nao-pode-perder-no-porto-esta-semana",
+     "ligacao": "Time Out Porto",
+     "nota": "Fica na Maia, fora do concelho do Porto. Data, hora e preços confirmados hoje na Time Out Porto, que lista no mesmo dia David Fonseca na Super Bock Arena e Vizinhos no Coliseu, sem hora nem preço."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-22",
+   "eventos": [
+    {
+     "nome": "Café com Nata: Solistas da Orquestra Sinfónica",
+     "descricao": "Concerto de domingo de manhã com o oboé em destaque: Mozart, Britten e Kodály, com café e pastel de nata incluídos.",
+     "horario": "11:00",
+     "tipo": "Música clássica",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "14 €",
+     "url": "https://casadamusica.com/en/event/orquestra-sinfonica-soloists-2/?selected_session=54909",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Com Roberto Henriques (oboé), Evandra Gonçalves (violino), Luís Norberto (viola) e Michal Kiska (violoncelo). Data, hora, programa e preço (com descontos) confirmados hoje na página da Casa da Música."
+    },
+    {
+     "nome": "O Conceito Inútil, pela companhia Do Lado de Fora",
+     "descricao": "Última récita da peça da companhia de teatro criada por pessoas em situação de sem-abrigo, sobre a ideia de casa.",
+     "horario": "16:00",
+     "tipo": "Teatro",
+     "local": "Teatro Carlos Alberto (TeCA), Rua das Oliveiras, 43, Porto",
+     "preco": "12 €",
+     "url": "https://www.agenda-porto.pt/en/evento/teca-o-conceito-inutil/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12. Hora e preço confirmados hoje na Agenda Porto."
+    },
+    {
+     "nome": "Singspiele, de Maguy Marin, com David Mambouch",
+     "descricao": "Solo em que o intérprete atravessa o palco a mudar de rosto e de personagem, a questionar identidade, aparência e os códigos de género. Fecha o Foco Maguy Marin.",
+     "horario": "16:00 e 19:00",
+     "tipo": "Dança / Performance",
+     "local": "Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "7,50 € (3,75 € para estudantes e jovens, maiores de 64 e Amigos de Serralves)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2211-singspiele/",
+     "ligacao": "Serralves",
+     "nota": "1h. Data, horas e preços confirmados hoje na página de Serralves; não indica se há lotação esgotada."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Kmêdeus» + «A Última Colheita»",
+     "descricao": "Sessão do ciclo «Working Class Heroes», com filmes de Nuno Boaventura Miranda.",
+     "horario": "19:30",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Data, hora e sala confirmadas hoje no programa do festival na Agenda Porto, que não indica preço nem duração. No mesmo dia, às 21:30, o Passos Manuel exibe «Esta Vida de Marinheiro», de Paulo Antunes."
+    },
+    {
+     "nome": "Jazz in the Space Age, de George Russell – Orquestra Jazz de Matosinhos",
+     "descricao": "Pedro Guedes dirige a big band na obra de George Russell que influenciou Miles Davis, com os pianistas Mário Laginha e Miguel Meirinhos a improvisar.",
+     "horario": "21:30",
+     "tipo": "Jazz",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "26 € a 30 €",
+     "url": "https://casadamusica.com/en/event/jazz-in-the-space-age-by-george-russel/?selected_session=55746",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala, intérpretes e preços confirmados hoje na Casa da Música. Às 21:00, na Sala 2, toca o acordeonista Vincent Peirani (Misty Fest, 25 €)."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Trump esteve com Putin e depois com Xi em Shenzhen, e os três começaram a primeira cimeira conjunta; à hora de fecho não havia acordos nem declaração conhecidos.",
+   "noticia": 9
+  },
+  {
+   "texto": "A Anthropic, dona do Claude, fixou as ações a 83 dólares e angaria cerca de 81 mil milhões: segundo a AP, a maior entrada em bolsa de sempre. Hoje começa a negociar na Nasdaq.",
+   "noticia": 4
+  },
+  {
+   "texto": "No primeiro dia de votações do Orçamento para 2027, PS e Chega aprovaram propostas contra a vontade do PSD e do CDS-PP; a votação final global é a 24 de novembro.",
+   "noticia": 13
+  },
+  {
+   "texto": "Uma falha grave no Java, a «Java4Shell», já tem correção; a agência de cibersegurança dos EUA pede que seja instalada de imediato.",
+   "noticia": 1
+  },
+  {
+   "texto": "A COP31 entra na reta final em Antália sem acordo sobre combustíveis fósseis e dinheiro; o fecho está previsto para sexta-feira.",
+   "noticia": 10
+  },
+  {
+   "texto": "Uma enxurrada atravessou Manteigas, na Serra da Estrela, na noite de quarta-feira: não houve feridos, mas há pelo menos duas pessoas desalojadas.",
+   "noticia": 14
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Quinta, 19 nov.",
+   "texto": "Primeiro dia das ações da Anthropic na Nasdaq. No Porto, abre o festival Porto/Post/Doc, no Batalha.",
+   "noticia": 4
+  },
+  {
+   "quando": "Sexta, 20 nov.",
+   "texto": "Greve nacional da Administração Pública, convocada pela Frente Comum; escolas do pré-escolar e do 1.º ciclo podem fechar. Fim previsto da COP31, que pode prolongar-se.",
+   "noticia": 15
+  },
+  {
+   "quando": "Segunda, 23 nov.",
+   "texto": "Último dia de votações do Orçamento na especialidade. Começa a greve dos maquinistas da CP, até sexta, 27: a CP avisa para atrasos e supressões.",
+   "noticia": 15
+  },
+  {
+   "quando": "Terça, 24 nov.",
+   "texto": "Votação final global do Orçamento do Estado para 2027, no dia de uma greve nacional convocada contra o Orçamento.",
+   "noticia": 13
+  }
+ ],
+ "linkedin_abertura": "Trump sentou-se com Putin e com Xi, à vez, em Shenzhen, e a primeira cimeira a três entre EUA, Rússia e China arrancou sem resultados anunciados."
+}
