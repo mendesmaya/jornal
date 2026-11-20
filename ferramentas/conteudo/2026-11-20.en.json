@@ -1,0 +1,1042 @@
+{
+ "data": "2026-11-20",
+ "numero": "028",
+ "resumo": "Xi, Trump and Putin close the Shenzhen summit with a declaration that does not mention Ukraine; the UN court rules for the first time that a state committed genocide; Portugal's public sector is on strike; and BepiColombo reaches Mercury on Saturday.",
+ "tema_palavras": "words from this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "European Commission confirms cyberattack on staff systems using an AI tool; it is not yet known whether data was stolen",
+   "estado": "Attack confirmed by the Commission · theft of personal data unconfirmed · attacker unknown",
+   "data": "2026-11-19",
+   "texto": [
+    "The European Commission has been hit by a cyberattack that knocked out, for several days, the systems staff use to check their pay, request leave and log their hours. The Commission confirmed it on Thursday 19 November, after the story was reported by Politico. According to spokesperson Thomas Regnier, the attackers used ARTEX, a publicly available artificial intelligence (AI) tool designed to look for weaknesses in computer systems.",
+    "What was affected? Mainly Sysper, the human resources platform, and the system for reimbursing medical expenses under the staff health insurance scheme. Several applications were switched off as a precaution and most are working again; salaries were paid as normal. According to Euronews, Regnier said the attack was detected on 22 October; Politico, quoted by Tek, reports disruption lasting more than ten days. CERT-EU, the cybersecurity team of the EU institutions, and the European Data Protection Supervisor have been informed.",
+    "What we know — and what we don't. An EU official told Politico that the Commission believes it has stopped most of the attack, but does not yet know how far the damage goes. These systems hold staff names, home addresses, contact details and pay grades. Speaking to Euronews, Regnier said there was no evidence of a data breach affecting staff «as a whole» and that there had been no ransom demand; he would not say who was behind it or whether the attack is still going on.",
+    "It is not the first case this year: in January the system that manages the Commission's mobile phones was attacked and, in March, about 92 GB of data was stolen from the cloud service hosting the Europa.eu websites. As for ARTEX, it is an open-source program that uses AI agents to test the security of systems; according to Tek, the FBI warned on 13 November that several groups have been using it in attacks since August."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Confirmation of the attack, affected systems (Sysper, health insurance/reimbursements), use of the ARTEX tool according to spokesperson Thomas Regnier and the earlier incidents in January and March confirmed by Euronews (19 Nov) and Tek (19 Nov), which quotes Politico; The Next Web (19 Nov) confirms Politico's report. The detection date (22 Oct), the absence of a ransom demand and the remark about staff «as a whole» come from Euronews. The «more than ten days» duration and the EU official's remark come from Politico (quoted). The FBI warning about ARTEX comes from Tek. We did not consult Politico or an official Commission statement directly. It is not known whether data was stolen or who carried out the attack."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews – «EU Commission hit by large-scale cyberattack with data leakage unknown» (19 Nov)",
+     "url": "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown"
+    },
+    {
+     "nome": "Tek Notícias – Cyberattack on the European Commission hits pay and leave systems and may have exposed personal data (19 Nov)",
+     "url": "https://tek.sapo.pt/noticias/internet/artigos/ciberataque-a-comissao-europeia-afeta-sistemas-de-salarios-e-licencas-e-pode-ter-exposto-dados-pessoais/"
+    },
+    {
+     "nome": "The Next Web – «European Commission hit by cyberattack on staff systems, Politico reports» (19 Nov)",
+     "url": "https://thenextweb.com/news/european-commission-cyberattack-politico"
+    },
+    {
+     "nome": "Politico Europe – Brussels Playbook (quoted)",
+     "url": "https://www.politico.eu/newsletter/brussels-playbook/cyberattack-hits-the-commission/"
+    }
+   ],
+   "imagem": {
+    "commons": "Berlaymont building european commission.jpg",
+    "tipo": "arquivo",
+    "alt": "Façade of the Berlaymont building, headquarters of the European Commission in Brussels",
+    "legenda": "The Berlaymont building, headquarters of the European Commission, in Brussels (archive image; does not show the attack)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Hackers publish customer data linked to Visa, Mastercard and JPMorgan after attacking the companies' suppliers",
+   "estado": "Incidents confirmed by all three companies · card numbers and payments unaffected, they say",
+   "data": "2026-11-19",
+   "texto": [
+    "A cyber-extortion group called n0n has published customer data linked to Visa, Mastercard and JPMorgan Chase, the largest bank in the US. On Thursday 19 November, the three companies confirmed incidents at outside suppliers, but insist that their own networks were not attacked, that payments are still working and that card numbers were not exposed.",
+    "What was leaked? Mostly marketing data. JPMorgan says the attackers reached information held by suppliers, which may include customer names and email addresses; it will contact those affected and offer free credit monitoring. According to an analysis by Reuters, quoted by Business Standard, the bank's files contain more than 16,000 customer email addresses and about 124 belonging to employees, some with phone numbers and postcodes. According to Newsweek, they appear to belong to customers of Reserve, an invitation-only card for very wealthy clients.",
+    "Visa links the case to a supplier in the Asia-Pacific region — the published data mainly concerns customers in Hong Kong, Japan, Australia and other countries in the region. Mastercard speaks of «a limited amount» of email addresses of members of a benefits programme. The group had claimed the attacks on 16 November; the companies have not said which suppliers were attacked, or how.",
+    "Why does it matter? Even without card numbers, names and email addresses linked to a bank or a benefits programme make fake messages that try to steal passwords or codes (phishing) more convincing. The advice repeated by experts: be wary of unexpected notices and always check through the bank's app or the number on the back of the card, never through links in the message."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Statements by the three companies (incidents at suppliers, no impact on payments or card numbers), the claim by the n0n group on 16 Nov and the figures from Reuters' analysis (more than 16,000 JPMorgan customer email addresses, about 124 employee ones) confirmed by Business Standard (20 Nov, based on Reuters) and Cyber Security News (20 Nov). The link to the Reserve card comes from Newsweek (and from American Banker, quoted by Cyber Security News). We did not consult Reuters directly. The figures are journalists' counts of the published files, not confirmed totals of affected customers; Visa and Mastercard gave no figures."
+   },
+   "fontes": [
+    {
+     "nome": "Business Standard – «Visa, Mastercard, JPMorgan customer data exposed in ransomware attack» (20 Nov, based on Reuters)",
+     "url": "https://www.business-standard.com/world-news/visa-mastercard-jpmorgan-customer-data-leak-ransomware-attack-us-outage-126112000197_1.html"
+    },
+    {
+     "nome": "Cyber Security News – «Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks» (20 Nov)",
+     "url": "https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/"
+    },
+    {
+     "nome": "Newsweek – «Hackers Leak Data on Thousands of JPMorgan Chase's Richest Customers»",
+     "url": "https://www.newsweek.com/hackers-leak-data-jpmorgan-thousands-richest-customers-12740448"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Germany raises its cybersecurity alert to «tense to critical»: with AI, attacks are faster and cheaper",
+   "estado": "Official assessment in the BSI's annual report (19 Nov) · does not refer to a specific attack",
+   "data": "2026-11-19",
+   "texto": [
+    "Germany now considers the cyber threat to be «tense to critical», one step above last year's «tense». The assessment comes from the BSI, Germany's federal IT security agency, in its annual report presented in Berlin on Thursday 19 November with the interior minister, Alexander Dobrindt. The main reason: artificial intelligence (AI) is making attacks «ever faster, cheaper and more targeted».",
+    "The figures help explain it. The time between a flaw being made public and the first known attack exploiting it fell from 53 days to 25 and, in the second quarter of 2026, to eight; Dobrindt said there are already cases of just a few hours. The BSI reports around 75,400 infected devices a day in Germany to internet providers, 89% more than before — 88% are Android, and some cheap uncertified devices come with malicious software already installed at the factory.",
+    "The BSI's president, Claudia Plattner, called for an end to «complacency» and said AI has already found flaws that went unnoticed for around 20 years. She named Russia, China, Iran and North Korea as the origin of many attacks, although it is not always clear whether the states direct them or merely tolerate them. Small and medium-sized businesses are the most vulnerable target, because there are so many of them and they are often less well protected.",
+    "There are positive signs too: according to Reuters, the report acknowledges progress in IT security regulation and says operators of critical infrastructure, subject to stricter rules, are generally better protected — though still with «room for improvement». The report also recalls the attacks in October and November on refrigeration systems in supermarkets in Germany and other European countries."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "New «tense to critical» level, date and presentation, the role of AI and the line about attacks being «faster, cheaper and more targeted» confirmed by Reuters (republished by Insurance Journal, 19 Nov) and t-online (19 Nov). Exploitation times (53, 25 and 8 days), infected devices, statements by Plattner and Dobrindt and the countries named come from t-online; progress on regulation and the line about critical infrastructure come from Reuters. Reuters gives figures for a BSI index (124 to 238 points) and t-online reports a 50% rise in a new index; as we could not reconcile the two, we did not use them. We did not consult the BSI report or the Interior Ministry's press release directly (it would not open)."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters, via Insurance Journal – «German Authorities Lift Threat Level to IT Security to 'Tense to Critical'» (19 Nov)",
+     "url": "https://www.insurancejournal.com/news/international/2026/11/19/893146.htm"
+    },
+    {
+     "nome": "t-online – New cybersecurity report: AI fuels hacker attacks, BSI warns (19 Nov)",
+     "url": "https://www.t-online.de/nachrichten/deutschland/innenpolitik/id_101535426/neuer-bericht-zur-cybersicherheit-ki-befeuert-hackerangriffe-bsi-warnt.html"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Anthropic opens more than 30% up on its stock market debut, but ends the first day with a 17% gain",
+   "estado": "Result of the first day of trading (19 Nov) · company still loss-making · US markets closed lower",
+   "data": "2026-11-19",
+   "texto": [
+    "The debut went well, but with ups and downs. Shares in Anthropic, the company that makes the artificial intelligence (AI) assistant Claude, began trading on Thursday 19 November on the Nasdaq in New York. The first trade was at $111.50, more than 30% above the $83 offer price. At the close they were worth $97.17: a gain of about 17% on the first day, according to the AP news agency.",
+    "During the session, the shares reached almost $115 and fell to close to $93, according to market data cited by the StockTitan website. At the open, the company was briefly worth about $2 trillion, compared with $1.5 trillion at the offer price. Demand was strong: according to remarks cited by AP, there were about six times more orders for shares than shares on sale.",
+    "The enthusiasm did not spread to the rest of the market. The main US indices closed down close to 2%, and shares in AI-linked companies such as Nvidia and AMD gave up their morning gains. Why does this matter? Anthropic raised about $81 billion, the largest stock market listing ever, but it is still loss-making and has committed to spending about $900 billion on computing and infrastructure. For analyst Dan Ives, quoted by AP, it is «a big win» for the tech sector after tense weeks around Nvidia."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "First trade at $111.50, close at $97.17 (+17%), $83 offer price, $1.5 trillion valuation at the offer and ~$2.01 trillion at the open, demand six times higher (remark by Thackray, quoted by AP without our having confirmed his role), $81 billion raised, losses and $900 billion commitments confirmed by AP (republished by BNN Bloomberg, 19 Nov). Opening at 11:48 (New York time), high of $114.99 and low of $92.72 and falls of about 2% in the indices (measured by funds that track them) according to StockTitan, which cites CNBC; the high and low were not confirmed by a second source. Bloomberg and other sites put the amount raised at $107.3 billion (a figure that may include a direct sale to companies), not confirmed. The CNBC, CNN and NBC pages could not be opened. Transparency: this newspaper is produced with AI tools, including Anthropic models."
+   },
+   "fontes": [
+    {
+     "nome": "AP (via BNN Bloomberg) – «Anthropic closes first day of trading at US$97.17» (19 Nov)",
+     "url": "https://bnnbloomberg.ca/business/company-news/2026/11/19/anthropic-set-to-begin-trading-as-a-us15-trillion-company-in-the-biggest-ipo-on-record"
+    },
+    {
+     "nome": "StockTitan – «Stock Market Today, November 19, 2026» (19 Nov)",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-19-2026"
+    },
+    {
+     "nome": "Forbes – live coverage of Anthropic's debut (19 Nov)",
+     "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-nasdaq-futures-jump-as-record-stock-debut-could-open-25-higher/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "European Central Bank compares AI giants' borrowing to the dotcom and subprime bubbles",
+   "estado": "Warning in the ECB's financial stability review (18 Nov) · risk assessment, not a forecast of a crisis",
+   "data": "2026-11-18",
+   "texto": [
+    "The European Central Bank (ECB) is worried about how the race for artificial intelligence (AI) is being paid for. In the financial stability review published on Wednesday 18 November, it warns that the big US tech companies are increasingly financing data centres with debt. That shift, the bank writes, recalls the bubble in internet companies (the «dotcoms», around 2000) and the one in high-risk mortgage lending (the «subprime» bubble that led to the 2008 crisis).",
+    "The numbers help explain why. According to the ECB, companies such as Alphabet, Amazon, Meta, Microsoft, Nvidia, Oracle and Anthropic had, by mid-2026, more than $4 trillion in commitments that do not show up as debt in their accounts: long-term contracts with those who build data centres and buy chips. The bank also points to «circular financing» (chipmakers financing their own customers), which makes real demand hard to measure, and to the short life of AI chips: one to three years, while the debt that pays for them lasts much longer.",
+    "And Europe? The ECB says euro area banks are not significantly exposed, but that European investment funds and households hold more and more shares and debt in these companies and could suffer losses. If the cycle goes wrong in the US, it warns, the euro area economy would shrink too. The bank notes that, so far, tech companies' profits have kept up with expectations, and that the dotcom bubble caused only a mild recession because it was paid for mainly with shares rather than debt."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date, sentence on «historical parallels» with the dotcom and subprime bubbles, off-balance-sheet commitments above $4 trillion (second quarter of 2026), circular financing, one-to-three-year useful life of AI equipment and risks to the euro area confirmed in the ECB's own review (box on the debt financing of AI) and by Fortune (18 Nov). List of companies analysed and remark by ECB vice-president Boris Vujčić on banks' limited exposure according to Fortune. The review does not forecast a crisis; it describes risks."
+   },
+   "fontes": [
+    {
+     "nome": "ECB – «The debt financing of AI and its implications for financial stability», financial stability review (18 Nov)",
+     "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/focus/2026/html/ecb.fsrbox202611_03~4fd1449eaa.en.html"
+    },
+    {
+     "nome": "Fortune – «European Central Bank sees 'historical parallels with the dotcom and subprime bubbles'» (18 Nov)",
+     "url": "https://fortune.com/2026/11/18/ecb-financial-stability-review-ai-debt-subprime-2008-off-balance-sheet/"
+    },
+    {
+     "nome": "ECB – Financial Stability Review, November 2026 (quoted)",
+     "url": "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/pdf/ecb.fsr202611~e03b919d36.en.pdf"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Microsoft reportedly close to selling access to OpenAI models to TikTok owner ByteDance; US Congress demands explanations",
+   "estado": "Talks reported by The Information (18 Nov) · no deal confirmed · congressional committee asks Microsoft for a briefing",
+   "data": "2026-11-18",
+   "texto": [
+    "Microsoft is reportedly in advanced talks to sell more AI services to ByteDance, the Chinese company that owns TikTok: about $500 million extra on its Azure cloud, mainly to use OpenAI's models. The news was reported on Wednesday 18 November by the website The Information, cited by other outlets. On the same day, the US House of Representatives committee on China asked Microsoft for a meeting to explain the deal.",
+    "Why is this controversial? OpenAI bars most Chinese companies from using its models, but Microsoft, which has the right to sell them through Azure, does not apply the same restrictions. According to The Information, OpenAI was unhappy about the talks and had already complained about Chinese companies copying its work by training rival models on its AI's answers. The report does not say ByteDance has done so.",
+    "«Microsoft should not sell AI tools to ByteDance,» said the committee's chairman, Republican John Moolenaar, who accuses US tech companies of «playing both sides» of the AI race between the US and China. Neither Microsoft nor ByteDance commented publicly in the sources consulted. The case comes in the week the US began requiring a licence for advanced chips in data centres in countries such as Singapore and Malaysia, to stop remote access by Chinese companies."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Talks worth about $500 million on Azure, mainly for OpenAI models, and OpenAI's displeasure according to The Information (cited by TNW, which says it has not confirmed the report; the original article is paywalled and was not opened). Request for a bipartisan briefing from Microsoft and Moolenaar's remarks confirmed in the committee's official press release and by Reuters (via Yahoo), both dated 18 Nov. No confirmed deal and no public reaction from Microsoft, ByteDance or OpenAI in the sources consulted. No deadline for the meeting given."
+   },
+   "fontes": [
+    {
+     "nome": "US House Select Committee on the Chinese Communist Party – «Moolenaar: Microsoft Should Not Sell AI to ByteDance» (18 Nov)",
+     "url": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-microsoft-should-not-sell-ai-to-bytedance"
+    },
+    {
+     "nome": "Reuters (via Yahoo) – «US House panel seeks Microsoft briefing on reported AI deal talks with China's ByteDance» (18 Nov)",
+     "url": "https://www.yahoo.com/news/politics/articles/us-house-panel-seeks-microsoft-202603284.html"
+    },
+    {
+     "nome": "TNW – «ByteDance nears $500m Azure deal for OpenAI models, The Information reports» (18 Nov)",
+     "url": "https://thenextweb.com/news/bytedance-microsoft-azure-500m-openai-models"
+    },
+    {
+     "nome": "The Information – «Microsoft Nears $500 Million Deal to Sell AI to ByteDance, Irking OpenAI» (quoted)",
+     "url": "https://www.theinformation.com/articles/microsoft-nears-500-million-deal-sell-ai-bytedance-irking-openai"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "GTA VI arrives on consoles with record numbers — and with PlayStation network failures at launch",
+   "estado": "Released on 19 Nov · sales are analysts' estimates · Sony has not explained the failures",
+   "data": "2026-11-19",
+   "texto": [
+    "Thirteen years after GTA V, Rockstar released Grand Theft Auto VI on Thursday 19 November, for PlayStation 5 and Xbox Series X|S; no computer version has been announced. It is one of the most anticipated launches ever in video games: according to estimates by the analytics company Sensor Tower, quoted by Tek, more than 17 million copies were sold in pre-orders, worth about $1.65 billion.",
+    "The records did not stop there. According to Streams Charts, quoted by Tek, about 7.9 million people watched live streams of the launch at the same time, a high for a video game. Critics applauded too: according to Latin Times, its average score on Metacritic is 99 out of 100, equal to the record of The Legend of Zelda: Ocarina of Time, from 1998. The game is set in Leonida, a fictional state inspired by Florida, with two protagonists, Jason and Lucia.",
+    "Not everything went smoothly. The PlayStation's online network (PSN) had sign-in failures on the eve of the launch and on launch day; Sony acknowledged the problems on the service's status page, but did not explain the cause or link them to the game. There are reports of bugs, such as freezes and crashes early in the story, and the download can reach 212 GB. According to Tek, internet providers in the UK, Australia and New Zealand recorded record traffic peaks."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Release date, platforms, Sensor Tower's estimate (about 17 million copies) and PSN failures acknowledged by Sony without explaining the cause confirmed by Tek (19 Nov), Latin Times and IBTimes UK. The $1.65 billion figure, the streaming audience (Streams Charts) and the traffic peaks come from Tek; the Metacritic score of 99 and the bug reports come from Latin Times. The sales figures are third-party estimates, not official Take-Two/Rockstar data. We did not consult Sony or Rockstar directly."
+   },
+   "fontes": [
+    {
+     "nome": "Tek Notícias – GTA VI gets off to a start with historic numbers and reports of PlayStation Network problems (19 Nov)",
+     "url": "https://tek.sapo.pt/multimedia/artigos/gta-vi-em-estreia-com-numeros-historicos-e-relatos-de-problemas-na-playstation-network/"
+    },
+    {
+     "nome": "Latin Times – «GTA 6 Lands With a 99 on Metacritic, But Launch Day Failures Are Already Making Headlines»",
+     "url": "https://www.latintimes.com/gta-6-metacritic-record-launch-bugs-psn-outage-601565"
+    },
+    {
+     "nome": "IBTimes UK – «GTA VI Launch Chaos? PlayStation Network Outage Reports Surge After 13-Year Wait for Release»",
+     "url": "https://www.ibtimes.co.uk/gta-vi-launch-psn-login-connection-problems-1833330"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "British tribunal forces the government to admit it demanded access to Apple's encrypted data",
+   "estado": "Tribunal ruling (19 Nov) · the order's legality will only be tried in 2027",
+   "data": "2026-11-19",
+   "texto": [
+    "The British government can no longer refuse to talk about it. The Investigatory Powers Tribunal, the court that oversees surveillance and the intelligence services in the UK, ruled on Thursday 19 November that the Home Office cannot keep to its position of «neither confirm nor deny» that it sent Apple a secret order to provide access to customers' encrypted data.",
+    "Why does it matter? These orders, known as «technical capability notices», can force a company to create a way for the authorities to reach protected data. Apple refuses to open such a «back door» in its encryption and, because of this dispute, stopped offering Advanced Data Protection in the UK, the option that encrypts copies stored in iCloud end to end.",
+    "According to City A.M., the tribunal found the government's national security assessment flawed, because the order's existence was already widely known — and had even been confirmed to newspapers through leaks the tribunal describes as «authorised». The technical details of the order remain secret.",
+    "What next? Apple's complaint, and a parallel one by the privacy campaign groups Privacy International and Liberty, goes to a full hearing in the first half of 2027, largely open to the public. In other words: the case gains transparency, but the main question — whether the order is lawful — is still to be decided."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date and substance of the ruling (rejection of the «neither confirm nor deny» position) confirmed by City A.M. (19 Nov) and by the page of Blackstone Chambers, a barristers' chambers involved in the case, which identifies the ruling as [2026] UKIPTrib 9. The criticism of the national security assessment, the «authorised» leaks, the withdrawal of Advanced Data Protection and the hearing expected in the first half of 2027 come from City A.M. We did not read the full judgment. Apple and the Home Office had not commented, according to City A.M."
+   },
+   "fontes": [
+    {
+     "nome": "City A.M. – «UK government loses bid to keep Apple surveillance order secret» (19 Nov)",
+     "url": "https://www.cityam.com/uk-government-loses-bid-to-keep-apple-surveillance-order-secret/"
+    },
+    {
+     "nome": "Blackstone Chambers – «Apple Inc v Secretary of State for the Home Department» (19 Nov)",
+     "url": "https://www.blackstonechambers.com/news/apple-inc-v-secretary-of-state-for-the-home-department/"
+    }
+   ],
+   "imagem": {
+    "commons": "Home Office, 2 Marsham Street, London.jpg",
+    "tipo": "arquivo",
+    "alt": "The British Home Office building at 2 Marsham Street, London",
+    "legenda": "Headquarters of the Home Office, the British interior ministry, in London (archive image)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Shenzhen: Xi, Trump and Putin close their summit with a «peace declaration» that says nothing about Ukraine or Iran",
+   "estado": "Fact: summit ended on 19 Nov with a joint declaration · no concrete agreements on the wars · no new meetings announced",
+   "data": "2026-11-19",
+   "texto": [
+    "The first three-way summit between the leaders of the US, China and Russia ended on Thursday 19 November in Shenzhen, in southern China, with a «trilateral peace declaration». Xi Jinping, Donald Trump and Vladimir Putin met for about an hour and a half. The text covers UN reform, more oil production and dialogue on nuclear risks — but does not mention the war in Ukraine or the one in Iran, according to Euronews and AP.",
+    "What does the declaration say? Besides those three points, the three countries defend the immunity of state officials and criticise the International Criminal Court and other courts which, they say, «abuse their jurisdiction», according to AP and Euronews. The text was released by Chinese state media and by Russian officials. There were no joint statements to journalists at the end: the three posed for the family photo without shaking hands, and Trump went straight to the airport.",
+    "The tone was upbeat. Trump said the three are «making history» and are uniquely placed to talk about nuclear weapons. Xi spoke of a «positive, constructive and fruitful» summit and argued that nuclear weapons should be banned and destroyed. Putin called it an «important chapter» in diplomacy and said the outcome exceeded expectations. Kremlin spokesman Dmitry Peskov admitted that Ukraine was not «the central topic».",
+    "In Europe, the reaction was one of suspicion. French Foreign Minister Jean-Noël Barrot said the three leaders «disagree on everything» and so «cannot agree on anything», according to Euronews. There are fears that the great powers will decide on Ukraine without Kyiv or the Europeans. Hours after the summit ended, Russia launched a massive missile and drone attack on Ukraine (see next story)."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Length (about 1h20 according to Euronews; about 90 minutes according to the Washington Post, via Newser), points of the declaration, and quotes from Xi, Putin, Trump, Peskov and Barrot according to Euronews (19 Nov); points of the declaration confirmed by the BBC and AP, and criticism of the International Criminal Court according to AP, both quoted by Newser. It was not possible to open the full text of the declaration (published by Reuters) or the CBC and South China Morning Post pages."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews – Trilateral summit ends with 'peace declaration' but no mention of Ukraine and Iran (19 Nov)",
+     "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia"
+    },
+    {
+     "nome": "Newser – Rare Trump-Xi-Putin Summit Ends With Joint Declaration (19 Nov, based on AP, BBC, Reuters and the Washington Post)",
+     "url": "https://www.newser.com/story/400290/rare-trump-xi-putin-summit-ends-with-joint-declaration.html"
+    }
+   ],
+   "imagem": {
+    "commons": "P20250815DT-0817-2 President Donald Trump meets with Russian President Vladimir Putin at Joint Base Elmendorf Richardson in Anchorage, Alaska.jpg",
+    "tipo": "arquivo",
+    "alt": "Donald Trump and Vladimir Putin at Joint Base Elmendorf-Richardson, in Anchorage, Alaska",
+    "legenda": "Donald Trump and Vladimir Putin at the Alaska summit on 15 August 2025 (official White House photograph; archive image, does not show the Shenzhen summit)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Russia attacks Ukraine overnight: three Kyiv bridges damaged and at least five dead",
+   "estado": "Attack confirmed by Ukrainian authorities · provisional toll · Poland investigating possible entry of objects into its airspace",
+   "data": "2026-11-20",
+   "texto": [
+    "In the early hours of Friday 20 November, Russia launched an attack lasting several hours on Ukraine with ballistic missiles, cruise missiles and drones. In Kyiv, three bridges over the Dnipro river were damaged and three people were killed, all employees of the city's water company; about 15 were injured. In Lviv, in the west, the mayor reports two dead. The figures are provisional, according to the Kyiv Independent and the Kyiv Post.",
+    "The bridges hit were the Podilsko-Voskresenskyi, the Darnytskyi and the Southern Bridge. Traffic between the capital's two banks was severely disrupted, and the mayor, Vitali Klitschko, asked people to avoid driving and businesses to let staff work from home. Several Kyiv districts lost electricity, heating or water. There were also injuries in Kharkiv — including at a hospital hit by a drone — and in the Dnipropetrovsk region, and power cuts in Lviv, Kryvyi Rih and Ivano-Frankivsk.",
+    "The attack comes a day after Putin promised a «far more painful» response to the Ukrainian strike that damaged the Crimean Bridge on 17 November, according to the Kyiv Independent. And just hours after the Russian leader left the Shenzhen summit with Trump and Xi. The missiles were fired by Tu-160 strategic bombers that took off from a base in Russia's Far East.",
+    "In neighbouring Poland, the armed forces said at around 06:30 local time that «unidentified aerial objects» may have entered the country's airspace, after reports of an explosion near the village of Chmielek, in the east. The military is analysing radar data and has not yet confirmed what happened, according to the Kyiv Post. Rzeszów airport suspended operations and military aircraft were scrambled."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Deaths and injuries in Kyiv, damaged bridges, power cuts and Klitschko's appeals according to the Kyiv Independent and the Kyiv Post (20 Nov), confirmed by RBC-Ukraine; deaths in Lviv according to the mayor, Andrii Sadovyi, via the Kyiv Post and RBC-Ukraine. Putin's promise of retaliation and the Tu-160 bombers according to the Kyiv Independent. Situation in Poland according to the Kyiv Post, which quotes the Polish Operational Command; the cause of the explosion had not been confirmed. It was not possible to obtain the Ukrainian Air Force's count of missiles and drones or to open the France 24 page. Provisional toll at the time of going to press."
+   },
+   "fontes": [
+    {
+     "nome": "Kyiv Independent – 3 Kyiv bridges struck in massive Russian aerial assault on Ukraine, at least 5 dead (20 Nov)",
+     "url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/"
+    },
+    {
+     "nome": "Kyiv Post – Russian Missiles Kill 3, Injure 15 in Kyiv, Disrupts Power Supply (20 Nov)",
+     "url": "https://www.kyivpost.com/post/90668"
+    },
+    {
+     "nome": "Kyiv Post – Poland Probes Possible Russian Airspace Breach as Ukrainian Regions Come Under Attack (20 Nov)",
+     "url": "https://www.kyivpost.com/post/90676"
+    },
+    {
+     "nome": "RBC-Ukraine – Deaths in Kyiv and Lviv, damaged bridges, and blackouts (20 Nov)",
+     "url": "https://newsukraine.rbc.ua/news/russia-launches-massive-missile-attack-on-1795155394.html"
+    }
+   ],
+   "imagem": {
+    "commons": "31 July 2025 photos in Kyiv, Ukraine of emergency restoration work at the sites affected by yesterday’s attack on July 30, 2025 - 1.jpg",
+    "tipo": "arquivo",
+    "alt": "Emergency crews working at a site hit by an attack in Kyiv",
+    "legenda": "Emergency repair work in Kyiv after a Russian attack in July 2025 (archive image; does not show last night's attack)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "UN court finds for the first time that a state committed genocide: Myanmar, against the Rohingya",
+   "estado": "Fact: ICJ judgment on 19 Nov, backed by 9 of the 15 judges · final, no appeal · compensation still to be set",
+   "data": "2026-11-19",
+   "texto": [
+    "The International Court of Justice (ICJ), the UN's main court, in The Hague, ruled on Thursday 19 November that Myanmar (formerly Burma) committed genocide against the Muslim Rohingya minority. It is the first time the court has declared that a state committed genocide. The decision was backed by nine of the 15 judges and cannot be appealed, according to Al Jazeera and Observador.",
+    "The case was brought to the court by the Gambia in 2019. It concerns the 2017 military offensive in Rakhine State, which killed thousands of Rohingya and forced more than 700,000 to flee to neighbouring Bangladesh. The judges found killings, sexual violence — also used to prevent births within the group — and the systematic destruction of villages to be proven. The court's president, Yuji Iwasawa, said the court was «fully convinced» that acts covered by the Genocide Convention had taken place.",
+    "What changes? Myanmar must stop the violence, investigate and try those responsible, allow the safe and voluntary return of refugees, and rebuild or return what was destroyed. Compensation will be decided later, and the country must submit a report to the court within two years. The problem is that the ICJ has no way of enforcing compliance: that would fall to the UN Security Council, where China and Russia can shield Myanmar, Observador notes.",
+    "For the Rohingya, it is a long-awaited symbolic victory. About 1.2 million live in refugee camps in Cox's Bazar, in Bangladesh. The Gambia's lead counsel spoke of a «landmark victory». Six judges dissented, arguing that the majority used a less demanding standard of proof than usual. The decision may carry weight in other genocide cases at the ICJ, such as the one South Africa is bringing against Israel."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Decision, vote (9–6), final nature, findings, measures ordered and two-year deadline according to Al Jazeera (19 Nov) and the American Society of International Law (ASIL); Iwasawa's quote and the limits on enforcement according to Observador (19 Nov); the Gambia's counsel's quote and refugee figures according to Al Jazeera; dissenting opinions according to ASIL. None of the sources consulted carried an official reaction from Myanmar's regime after the decision; it has always denied the accusations."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera – What the ICJ genocide ruling means for the Rohingya (19 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya"
+    },
+    {
+     "nome": "Observador – «International Court of Justice rules that Myanmar committed genocide against the Rohingya» (19 Nov)",
+     "url": "https://observador.pt/2026/11/19/tribunal-internacional-de-justica-determina-que-myanmar-cometeu-genocidio-contra-os-rohingya/"
+    },
+    {
+     "nome": "ASIL – ICJ Rules Myanmar Committed Genocide Against Rohingya (19 Nov)",
+     "url": "https://asil.org/ilib/icj-rules-myanmar-committed-genocide-against-rohingya/"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31: fossil fuels disappear from the new draft deal, on the summit's last scheduled day",
+   "estado": "Draft of 19 Nov, not the final text · close scheduled for 20 Nov, probably with overtime",
+   "data": "2026-11-19",
+   "texto": [
+    "The new draft of the deal at the UN climate summit, COP31, in Antalya, Türkiye, no longer talks about moving away from coal, oil and gas. The text was published on the afternoon of Thursday 19 November, the eve of the conference's last scheduled day. Both references to fossil fuels in the first draft, from Monday, were removed, according to Reuters and UN News.",
+    "What remains? The text admits that warming will exceed the 1.5°C limit and asks for that overshoot to be as small and short as possible, with «deep, rapid and sustained» emissions cuts. It keeps the call for electricity to reach 35% of the energy used worldwide by 2035 (it is around 23% today), but less firmly. And the figure of $120 billion to help developing countries adapt has been dropped, according to Reuters.",
+    "Environmental groups reacted badly. Mohamed Adow, of Power Shift Africa, said the text had «gone backwards» and that, if it stays like this, it will be a «ghost COP». Greenpeace criticised the room given to carbon removal technologies, which, it says, may serve as an excuse to keep producing fossil fuels.",
+    "Australian minister Chris Bowen, who leads the negotiations with Türkiye, promised to keep consulting overnight and said he will not leave Antalya without a consensus. The close is scheduled for this Friday, 20 November, but in recent years these summits have ended more than a day after the deadline. Finance, adaptation and the so-called just transition are still unresolved."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Content of the new draft, the dropped $120 billion figure, the «35 by 35» goal and the reactions of Power Shift Africa and Greenpeace according to Reuters (via the Express Tribune, 19 Nov); time the draft was published, acknowledgement that 1.5°C will be exceeded, Bowen's quote and outstanding issues according to UN News (19 Nov). At the time of going to press it was not possible to confirm whether a more recent text existed or the exact closing time."
+   },
+   "fontes": [
+    {
+     "nome": "Express Tribune (Reuters) – COP31 negotiators publish revised deal draft with no mention of fossil fuels (19 Nov)",
+     "url": "https://tribune.com.pk/story/2641209/cop31-negotiators-publish-revised-deal-draft-with-no-mention-of-fossil-fuels"
+    },
+    {
+     "nome": "UN News – COP31: Ambition goes missing as fossil fuel language drops from draft deal (19 Nov)",
+     "url": "https://news.un.org/en/story/2026/11/1168839"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Civil service on strike: rubbish uncollected since the night and schools that may not open, four days before the Budget vote",
+   "estado": "Strike under way since 00:00 on 20 Nov · first effects according to the unions · turnout not yet known",
+   "data": "2026-11-20",
+   "texto": [
+    "Schools, health centres, town halls and Tax and Social Security counters may be closed or running at half speed this Friday, 20 November. Public administration workers are on a national strike called by the Frente Comum, which brings together unions linked to the CGTP, the largest trade union confederation. The first effects were felt during the night: according to STAL, the local authority workers' union, rubbish collection stopped in Évora, Loures, Palmela and Seixal, and was \"almost totally\" halted in Almada, Amadora, Moita, Setúbal and Vila Franca de Xira.",
+    "What do the unions want? Rises of at least 15%, with a minimum of €150, a base salary of €1,150 in the civil service from January, and a meal allowance of €13. The deal the Government has planned for 2027 falls well short: a 2.3% rise, at least €60.52, and a meal allowance of €6.30. The Frente Comum's coordinator, Sebastião Santana, says the aim is \"to fight against a budget that destroys the public administration\", four days before the final vote on the 2027 State Budget.",
+    "Doctors (FNAM) and nurses (SEP) have also joined, with minimum services for emergencies, chemotherapy, radiotherapy, dialysis and transplants. Anyone with non-urgent appointments or tests should check whether they are going ahead. Municipal and school buses may fail, but in Lisbon the Metro, Carris and Transtejo are not covered. In the Azores, SATA warned that inter-island flights may be affected.",
+    "The week of protests does not end here. On Saturday 21, the CGTP holds a national demonstration in Lisbon. On Tuesday 24, the day of the final Budget vote, there is a rally outside the Assembleia da República, Portugal's parliament. And from 23 to 27, CP train drivers walk out."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Strike call, demands and Sebastião Santana's statement according to Lusa (via Observador, DNoticias and Notícias ao Minuto, 20 Nov). Effects on rubbish collection according to STAL, quoted by Lusa in Observador's live blog. Government proposal, doctors' and nurses' participation, minimum services and transport according to ECO (19 Nov); Azores flights according to RTP Açores (19 Nov), based on a SATA statement. Demonstration on 21 Nov according to ECO and RTP/Lusa (31 Oct), with no confirmed time. At closing time (around 09:00) there were no turnout figures or counts of closed schools. The Público and TSF pages could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "Observador – live blog «Strike began by affecting rubbish collection in several municipalities early in the night» (20 Nov)",
+     "url": "https://observador.pt/liveblogs/funcao-publica-em-greve-esta-sexta-feira-por-melhores-salarios-e-condicoes-de-trabalho/"
+    },
+    {
+     "nome": "DNoticias / Lusa – «Civil service on strike today for better pay and working conditions» (20 Nov)",
+     "url": "https://www.dnoticias.pt/2026/11/20/513646-funcao-publica-hoje-em-greve-por-melhores-salarios-e-condicoes-de-trabalho/"
+    },
+    {
+     "nome": "Notícias ao Minuto / Lusa – «Civil service strike day: from hospitals to schools, what is the impact?» (20 Nov)",
+     "url": "https://www.noticiasaominuto.com/economia/3086834/dia-de-greve-da-funcao-publica-dos-hospitais-as-escolas-qual-o-impacto"
+    },
+    {
+     "nome": "ECO – «Schools, hospitals or transport. What could be affected by the \"big strike\" in the civil service» (19 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/19/escolas-hospitais-ou-transportes-o-que-podera-ser-afetado-com-a-grande-greve-da-funcao-publica/"
+    },
+    {
+     "nome": "RTP Açores – «Civil service strike may affect inter-island flights in the Azores on Friday» (19 Nov)",
+     "url": "https://acores.rtp.pt/local/greve-da-funcao-publica-pode-afetar-voos-interilhas-nos-acores-na-sexta-feira"
+    },
+    {
+     "nome": "RTP / Lusa – «November set to be a month of struggle with several strikes and demonstrations scheduled» (31 Oct)",
+     "url": "https://www.rtp.pt/noticias/pais/novembro-promete-ser-mes-de-luta-com-varias-greves-e-manifestacoes-agendadas_n1775808"
+    }
+   ],
+   "imagem": {
+    "commons": "Manif. Greve Geral, Portugal Dezembro, 11 2025.jpg",
+    "tipo": "arquivo",
+    "alt": "Demonstrators at a protest during the general strike of 11 December 2025 in Portugal",
+    "legenda": "Protest during the general strike of 11 December 2025 (archive image; does not show this Friday's strike)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Budget: PS and Chega pass zero VAT on a basket of food and Montenegro warns \"if you want to govern, come to an understanding\"",
+   "estado": "Fact: zero VAT approved at the detailed stage on 20 Nov (early hours) · voting until 23 Nov · final overall vote on 24 Nov",
+   "data": "2026-11-20",
+   "texto": [
+    "The second day of voting on the 2027 State Budget ended in the early hours, at 01:34 this Friday, 20 November, with another defeat for the Government. The PS (Socialist) proposal to exempt a basket of essential foods from VAT passed with the votes of Chega, against the PSD, the CDS-PP and the IL; the PCP abstained. The exemption applies from 1 January to 31 March 2027 and can be renewed for another three months after an assessment. The products have not yet been defined: it is up to the Government to choose them.",
+    "Who pays? To offset it, the tax break the Government created for landlords charging \"moderate\" rents of up to €2,300 is scrapped. Those contracts go back to the standard 25% income tax rate. PSD MP Alberto Fonseca says this will push rents up. According to ECO, Chega's parliamentary leader, Pedro Pinto, said the PSD could take this measure to a new vote in the plenary. A PS proposal to cut the fuel tax (ISP) in the first quarter, however, was voted down.",
+    "Other measures that passed include a three-year capital gains tax exemption on selling second homes that become a permanent home or go to affordable renting, tax withholding that adjusts to the income of self-employed workers, and an income tax deduction for part of the VAT on cinema tickets. By ECO's count, 105 measures were approved that day, 75 of them from the opposition.",
+    "Tempers rose. On Thursday, at a closed-door meeting with PSD and CDS-PP MPs, the prime minister, Luís Montenegro, criticised the opposition's lack of coherence: \"If you want to govern, come to an understanding.\" He also spoke of the risk of an \"institutional blockage\", according to accounts from those present given to Lusa. The minister of the Presidency, António Leitão Amaro, accused the PS and Chega of forming a \"negative and deficit coalition\". Voting continues until Monday 23; the final overall vote is on Tuesday 24."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Zero VAT, votes, exemption dates and the offset on rents confirmed by Lusa (via RTP and Correio da Manhã, 20 Nov) and by ECO (20 Nov). Renewal for another three months, rejection of the ISP cut, capital gains, cinema, the count of 105 measures (75 from the opposition) and Pedro Pinto's statement according to ECO; Lusa speaks of \"32 proposals passed\", using a different count, so the figure is attributed to ECO. Montenegro's quotes come from accounts by those present given to Lusa (via DN, 19 Nov), at a closed-door meeting. Leitão Amaro spoke after the Council of Ministers (DN/Lusa). The cost of zero VAT has not been disclosed. The Público story could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «OE2027. Victorious PS on the second day of voting dents the Government's moderate rents» (20 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/20/ps-consagra-se-vencedor-do-segundo-de-dias-de-votacoes-do-oe2027/"
+    },
+    {
+     "nome": "RTP / Lusa – «VAT exemption for food basket proposed by PS approved with Chega's support» (20 Nov)",
+     "url": "https://www.rtp.pt/noticias/economia/isencao-de-iva-do-cabaz-alimentar-proposta-pelo-ps-aprovada-com-apoio-do-chega_n1780380"
+    },
+    {
+     "nome": "Correio da Manhã / Lusa – «Overnight votes end with PS and Chega together on zero VAT and the end of moderate rents» (20 Nov)",
+     "url": "https://www.cmjornal.pt/economia/detalhe/votacoes-de-madrugada-terminam-com-ps-e-chega-juntos-no-iva-zero-e-no-fim-das-rendas-moderadas"
+    },
+    {
+     "nome": "DN / Lusa – «OE2027. Montenegro fears \"institutional blockage\" and warns opposition: \"If you want to govern, come to an understanding\"» (19 Nov)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-montenegro-teme-bloqueio-institucional-e-avisa-oposio-se-querem-governar-entendam-se"
+    },
+    {
+     "nome": "DN / Lusa – «Leitão Amaro speaks of a \"negative and deficit coalition\" between PS and Chega» (19 Nov)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/leito-amaro-fala-em-coligao-negativa-e-de-dfice-entre-ps-e-chega"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Ombudsman's office finds PSP police used batons \"widely\" against protesters in Rossio; PSP rejects it",
+   "estado": "Findings of an Ombudsman's report (19 Nov) · PSP disputes them · IGAI and Public Prosecutor inquiries under way",
+   "data": "2026-11-19",
+   "texto": [
+    "When the PSP, Portugal's public security police, dismantled the housing protest camp in Rossio, in Lisbon, in the early hours of 1 November, officers used their batons \"widely\", including on people who were not resisting or were already moving away. That is the conclusion of the National Preventive Mechanism of the Provedoria de Justiça, the Ombudsman's office, which monitored the operation and released its report on Thursday 19 November.",
+    "Most of the blows hit lower-risk areas, but there were strikes to the head, chest and spine, areas the PSP's own rules regard as most dangerous. The report also points to dispersal warnings that could barely be heard, difficulties in helping an injured protester in Martim Moniz, and the lack of photographs of the injuries of two detained people. It makes 12 recommendations to the PSP, including tighter rules on baton use and visible identification of each officer.",
+    "The PSP does not accept the findings: it says there was no \"widespread or indiscriminate\" use of the baton, that glass bottles and pyrotechnics were thrown at officers, and that the warnings were given by megaphone. It promises to take the recommendations into account. The Ministry of Internal Administration, headed by Luís Neves, will analyse the report and says any breach of the rules \"should have the consequences provided for in law\". The General Inspectorate of Internal Administration (IGAI) and the Public Prosecutor's Office already have inquiries open."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Findings and recommendations of the report according to Observador (19 Nov) and Lusa (via Notícias ao Minuto, 20 Nov). Responses from the PSP and the Ministry of Internal Administration according to Lusa. The Ombudsman's original report was not consulted directly. The number of injured and detained in the operation is not given precisely in the sources (\"dozens\")."
+   },
+   "fontes": [
+    {
+     "nome": "Observador – «PSP used batons \"widely\" in Rossio and hit \"risk areas\" on protesters who were not resisting, says Ombudsman's office» (19 Nov)",
+     "url": "https://observador.pt/2026/11/19/psp-usou-bastoes-de-forma-generalizada-no-rossio-e-atingiu-zonas-de-risco-em-manifestantes-que-nao-resistiam-diz-provedoria-de-justica/"
+    },
+    {
+     "nome": "Notícias ao Minuto / Lusa – «PSP rebuts Ombudsman, MAI \"will analyse\". And the camp? \"Accountability\"» (20 Nov)",
+     "url": "https://www.noticiasaominuto.com/pais/3087287/psp-refuta-provedoria-mai-analisara-e-acampada-responsabilizacao"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Lisbon's funiculars: year-old reports point to cable faults in four of them; Moedas denies hiding anything",
+   "estado": "Audit reports (Oct–Nov 2025) released on 18 Nov · Moedas denies concealment · final reports expected by March 2027",
+   "data": "2026-11-19",
+   "texto": [
+    "The cables of four of Lisbon's historic funiculars and lifts — Glória, Lavra, Bica and Santa Justa — did not meet the standards required for this type of equipment. That is what technical audits carried out a year ago say, after the derailment of the Glória funicular, which killed 16 people on 3 September 2025. The reports were only handed to opposition councillors on Wednesday 18 November, following an investigation by TVI/CNN Portugal.",
+    "The audits were carried out by CATIM, a technical centre for the metalworking industry, at the request of Carris, the city's transport company, and date from October and November 2025. On Lavra, the conclusion is that it was not safe to operate. Bica needs \"significant and urgent\" work. At Santa Justa, the cable also fails to meet the standard, but the system has 12 cables and redundant safety mechanisms. Graça, the only one that has reopened (since April), complies overall, with flaws in its evacuation plan.",
+    "The opposition accuses the mayor, Carlos Moedas, of lying and hiding the documents; Left Bloc councillor Ricardo Moreira says Moedas is in no position to continue if the findings are confirmed. Moedas denies it: he says he did not know about the reports, which are \"technical\" and \"interim\", and that they show he made \"the right decision at the right time\" by closing the funiculars. What is still unknown? Who is responsible for the accident: the Public Prosecutor's Office and GPIAAF, the body that investigates rail accidents, only expect to conclude by the end of March 2027."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Content of the reports confirmed by Lusa (via DN, 18 Nov), TVI/CNN Portugal (18 Nov) and Observador (19 Nov). Moedas's statements according to Observador. The Left Bloc councillor's statement according to TVI; Renascença reports that the Left Bloc in Lisbon is demanding his resignation, but that page was not opened. The sources do not say clearly whether Bica and Santa Justa remain closed; DN says Glória, Lavra, Santa Justa and Bica have been shut since the accident."
+   },
+   "fontes": [
+    {
+     "nome": "DN / Lusa – «External audit reports confirm non-conformities in the cables of historic funiculars» (18 Nov)",
+     "url": "https://www.dn.pt/sociedade/relatrios-de-auditoria-externa-confirmam-desconformidades-nos-cabos-em-funiculares-histricos"
+    },
+    {
+     "nome": "TVI Notícias – «Glória tragedy could have happened at three more historic Lisbon lifts» (18 Nov)",
+     "url": "https://tvi.iol.pt/noticias/carris/elevadores/tragedia-da-gloria-podia-ter-ocorrido-em-mais-tres-elevadores-historicos-de-lisboa-moedas-revela-relatorios-secretos-apos-investigacao-da-tvi/20261118/6afdde85d34e5a653d7349a1"
+    },
+    {
+     "nome": "Observador – «Carlos Moedas denies having \"hidden\" \"interim\" and \"technical\" reports» (19 Nov)",
+     "url": "https://observador.pt/2026/11/19/carlos-moedas-nega-ter-escondido-relatorios-intermedios-e-tecnicos-documentos-mostram-que-tomei-a-decisao-certa-no-momento-certo/"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "BepiColombo reaches Mercury: European-Japanese probe fires its engines on Saturday to enter orbit around the planet",
+   "estado": "Orbit entry planned for Saturday 21 Nov, according to ESA · exact time not released",
+   "data": "2026-11-20",
+   "texto": [
+    "After eight years of travel, BepiColombo is at Mercury's doorstep. The mission of the European Space Agency (ESA) and the Japanese agency JAXA is due to enter orbit around the planet closest to the Sun on Saturday 21 November, when controllers fire the spacecraft's engines. If all goes to plan, it will be only the second mission ever to orbit Mercury, after NASA's MESSENGER. ESA has not released the time of the manoeuvre.",
+    "How do you «park» next to Mercury? With a lot of braking. Close to the Sun, a spacecraft picks up speed and tends to overshoot the planet, so BepiColombo spent years slowing down with flybys of Earth, Venus and Mercury itself. According to ESA, the probe will be gently «caught» by the planet's gravity, in an orbit over the poles. For Tech Times, which cites Space.com, Saturday is not the end but the beginning: it kicks off a series of about 16 manoeuvres over roughly six months. ESA has not confirmed that number.",
+    "The next steps have already been set by ESA: on 9 and 10 December the two probes separate — the European MPO, which will map the surface and study the interior, and the Japanese Mio, which will measure the magnetic field and the thin layer of sodium gas around the planet. Science begins in April 2027 and should last about three years, until the fuel runs out. The mission cost €1.6 billion, according to the Guardian. «We're very excited, it's been a long wait», Emma Bunce, of the University of Leicester, who leads one of the instruments, told the paper.",
+    "There is a bit of Portugal on board too: according to DN, at the time of the 2018 launch, the company Efacec built and tested electronic equipment for an energetic-particle detector on the European probe, and Portuguese astrophysicist Joana S. Oliveira is part of the science team."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date of 21 Nov, separation on 9–10 Dec and start of science in April 2027 confirmed by ESA (updates page; no November entries as of 19 Nov) and by the Guardian (20 Nov), which adds the cost, the roughly three-year duration and the statements by Emma Bunce and Geraint Jones. The «gentle» capture into a polar orbit comes from ESA's mission design pages, cited by Tech Times (19 Nov); the series of 16 manoeuvres is from Space.com, cited by Tech Times, and has not been confirmed by ESA. None of the sources consulted gives the time of the manoeuvre. The Portuguese involvement comes from a 2018 DN article. The image is an archive one; the Commons page could not be opened and the file was confirmed only in Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "The Guardian (via AOL) – «Spacecraft reaches Mercury on second-ever mission to enter its orbit» (20 Nov)",
+     "url": "https://www.aol.co.uk/articles/spacecraft-reaches-mercury-second-ever-000115000.html"
+    },
+    {
+     "nome": "ESA – updates on the arrival at Mercury",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+    },
+    {
+     "nome": "Tech Times – Saturday's capture starts 16 manoeuvres (19 Nov)",
+     "url": "https://www.techtimes.com/articles/331151/20261119/mercury-orbit-saturday-bepicolombo-capture-starts-16-maneuvers-not-one-final-burn.htm"
+    },
+    {
+     "nome": "DN – Portuguese science and technology on BepiColombo (18 Oct 2018)",
+     "url": "https://www.dn.pt/vida-e-futuro/interior/primeira-missao-europeia-a-mercurio-e-lancada-no-sabado-com-ciencia-e-tecnologia-portuguesas-10020454.html"
+    }
+   ],
+   "imagem": {
+    "commons": "BepiColombo surveys Mercury’s rich geology ESA24324352.jpeg",
+    "tipo": "arquivo",
+    "alt": "Cratered surface of Mercury, photographed up close by the BepiColombo probe",
+    "legenda": "Mercury seen by BepiColombo during one of its earlier flybys (ESA archive image; does not show the orbit entry)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Engines fail and Japan's Hayabusa2 probe gives up on landing on an asteroid: it will fly past another one in 2028 instead",
+   "estado": "New plan announced by JAXA (16–17 Nov) · asteroid flyby planned for April 2028",
+   "data": "2026-11-17",
+   "texto": [
+    "Japan's Hayabusa2 probe will no longer land on an asteroid in 2031. Japan's space agency, JAXA, announced this week that its ion engines (low-thrust electric engines used for long journeys) are too worn out for the planned trip to the small asteroid 1998 KY26. Instead, the probe will speed past another asteroid, 2015 BM510, in April 2028. The new plan was presented on 16 November to a Japanese government committee and explained to journalists on the 17th.",
+    "What went wrong? Hayabusa2 has four ion engines and has been flying for almost 12 years, well beyond what was planned. Three of them wore out earlier than expected and the last one working properly broke down in August, according to the Japanese websites sorae and innovaTopia. The team has kept the probe going by mixing parts from different engines, but does not know how long that will last. Reaching 1998 KY26 would have required more than 10,000 hours of engine time; JAXA concluded it was not realistic.",
+    "The new target is small and odd. 2015 BM510 is thought to measure between 17 and 74 metres and spins once every 49 minutes or so. It is a D-type asteroid, considered primitive and possibly rich in organic matter. The probe will pass a few hundred metres away, at about 6 km per second, and should only «see» it some 10 hours beforehand. JAXA admits it will be an extremely difficult flyby.",
+    "Hayabusa2 already has quite a track record: in 2020 it brought samples of the asteroid Ryugu back to Earth and, in July this year, it passed about 400 metres from the asteroid Torifune."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Announcement on 16 Nov to a subcommittee of the Japanese Cabinet Office, according to innovaTopia (17 Nov) and BigGo Finance (16 Nov); press briefing on 17 Nov, according to sorae (18 Nov). Failure of the last engine in August, three degraded engines and cross-operation of parts in innovaTopia and sorae. April 2028 date, more than 10,000 engine hours, ~6 km/s, detection ~10 h beforehand and ~49-minute rotation in sorae; innovaTopia refers to «fiscal year 2028» and a rotation of about 48 minutes, with a margin of error. Size of 17–74 m and D-type in all three sources. The Space.com article (19 Nov) could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "sorae – JAXA changes the destination of Hayabusa2's extended mission (18 Nov)",
+     "url": "https://sorae.info/astronomy/20261118-hayabusa2.html"
+    },
+    {
+     "nome": "innovaTopia – Hayabusa2 swaps 1998 KY26 for 2015 BM510 (17 Nov)",
+     "url": "https://innovatopia.jp/spacetechnology/spacetechnology-news/120074/"
+    },
+    {
+     "nome": "BigGo Finance – Hayabusa2 changes asteroid over engine failure (16 Nov)",
+     "url": "https://finance.biggo.com/news/209ea3d1-190b-4cd7-90fb-0f20dd29b273"
+    }
+   ],
+   "imagem": {
+    "commons": "Full-scale model of Hayabusa 2, JAXA 01.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Full-size model of the Hayabusa2 probe, with its solar panels deployed",
+    "legenda": "Full-size model of the Hayabusa2 probe (illustrative image; does not show the probe in space)"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«The Hunger Games: Amanhecer na Ceifa» (Sunrise on the Reaping): the return to Panem splits critics between «the best in the saga for years» and «more of the same»",
+   "ficha": {
+    "Original title": "The Hunger Games: Sunrise on the Reaping (2026, United States)",
+    "Director": "Francis Lawrence (who also directed four of the saga's five previous films)",
+    "Screenplay": "Billy Ray, based on the book by Suzanne Collins",
+    "Cast": "Joseph Zada, Mckenna Grace, Jesse Plemons, Elle Fanning, Kieran Culkin, Glenn Close, Ralph Fiennes",
+    "Release in Portugal": "19 November 2026 (adventure and science fiction; rated M/12; 158 minutes; distributed by Pris Audiovisuais)",
+    "Reviews": "Divided reviews: praise from TheWrap, B- from the AV Club, 2.5 out of 5 from the South China Morning Post and a negative review from the Daily Beast"
+   },
+   "texto": [
+    "Since yesterday, Thursday 19 November, «The Hunger Games: Amanhecer na Ceifa» (Sunrise on the Reaping), the sixth film in the «Hunger Games» saga, has been showing in Portuguese cinemas. It is a prequel, adapted from Suzanne Collins's book, that goes back 24 years in time to tell the story of the youth of Haymitch Abernathy, Katniss's mentor in the first films. It is directed by Francis Lawrence. At NorteShopping, in Matosinhos, there are screenings from 12:30, at least until Wednesday 25.",
+    "Haymitch, played by the Australian Joseph Zada, is a boy from the poor District 12. His birthday falls on the day of the «reaping», the draw that picks the young people forced to fight to the death in a show broadcast across the country. But this is a special edition, the 50th, and each district must send twice as many contestants. The rest is for cinemagoers to find out. Around him are familiar faces in younger versions: Jesse Plemons as Plutarch Heavensbee, Elle Fanning as Effie Trinket and Kieran Culkin as the host Caesar Flickerman, with Ralph Fiennes as President Snow.",
+    "The strengths, for those who liked it. William Bibbiani, of TheWrap, thinks it is the best film in the saga since «Catching Fire» (2013): it balances spectacle with a critique of violence turned into entertainment, has a look inspired by 1970s television and a Zada who recalls Woody Harrelson without imitating him. Jesse Hassenger, of the AV Club, praises Lawrence's direction, the visual energy and the fact that the film does not give in to fan service. Even the harshest critic, Nick Schager, of the Daily Beast, singles out Plemons and Culkin's sardonic Caesar.",
+    "The weaknesses are also clear. The AV Club gives it a B- and speaks of a «fill-in» chapter, with too many introductions and brief cameos, weak digital effects and 158 minutes that you feel. James Mottram, in the South China Morning Post, gives it 2.5 out of 5 and finds it «by the numbers», with neither tension nor emotion. The Daily Beast is the most severe: uneven pacing, flat characters and battles without suspense. In short, according to the assessment drawn from the reviews consulted: a well-produced film that will please followers of the saga, but does not convince everyone that there was still much left to tell."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – The films of the week: new releases in cinemas (19 November 2026)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-19-de-novembro-2026-15107/"
+    },
+    {
+     "nome": "filmSPOT – Cinemas NOS NorteShopping, showtimes (20 to 25 Nov.)",
+     "url": "https://filmspot.pt/cinema/cinemas-nos-norteshopping-matosinhos-35/"
+    },
+    {
+     "nome": "filmSPOT – «The Hunger Games: Amanhecer na Ceifa» previews a bloody return to Panem",
+     "url": "https://filmspot.pt/artigo/the-hunger-games-amanhecer-na-ceifa-antecipa-regresso-sangrento-a-panem-14916/"
+    },
+    {
+     "nome": "Magazine.HD – 8 films open this week in our cinemas (19 November)",
+     "url": "https://www.magazine-hd.com/apps/wp/estreiam-8-filmes-esta-semana-nossas-salas-estes-sao-3-melhores-19-novembro/"
+    },
+    {
+     "nome": "TheWrap – review of «The Hunger Games: Sunrise on the Reaping» (William Bibbiani, 17 Nov.)",
+     "url": "https://www.thewrap.com/creative-content/movies/the-hunger-games-sunrise-on-the-reaping-review/"
+    },
+    {
+     "nome": "AV Club – review of «The Hunger Games: Sunrise on the Reaping» (Jesse Hassenger, 17 Nov.)",
+     "url": "https://www.avclub.com/the-hunger-games-sunrise-on-the-reaping-prequel-review"
+    },
+    {
+     "nome": "South China Morning Post – review of «The Hunger Games: Sunrise on the Reaping» (James Mottram)",
+     "url": "https://www.scmp.com/lifestyle/entertainment/article/3374535/hunger-games-sunrise-reaping-review-recast-prequel-lacks-emotional-edge"
+    },
+    {
+     "nome": "The Daily Beast – review of «The Hunger Games: Sunrise on the Reaping» (Nick Schager, 17 Nov.)",
+     "url": "https://www.thedailybeast.com/obsessed/the-hunger-games-sunrise-on-the-reaping-its-finally-time-to-kill-off-this-blockbuster-franchise"
+    }
+   ],
+   "nota": "Release on 19 Nov., director, cast, genre, running time (158 min), M/12 rating and distributor (Pris Audiovisuais) according to filmSPOT's list of new releases; release also confirmed by Magazine.HD. Screenings at Cinemas NOS NorteShopping (the first at 12:30, from Friday 20 to Wednesday 25 Nov.) seen on filmSPOT's showtimes page; other cinemas were not checked. Screenwriter (Billy Ray), 50th edition of the Games, twice the number of contestants and action set 24 years before the first films according to filmSPOT. Character roles and Haymitch's birthday on reaping day according to TheWrap. The assessment summarises the reviews from TheWrap, AV Club, South China Morning Post and Daily Beast; no Portuguese reviews were consulted. That Francis Lawrence directed four of the five previous films and that «Catching Fire» dates from 2013 is general knowledge about the saga, not confirmed in the sources opened today. The image's Commons page could not be opened; the file appears in Commons search results, and the date and place of the photograph were not confirmed.",
+   "imagem": {
+    "commons": "Francis Lawrence by Gage Skidmore.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of the director Francis Lawrence",
+    "legenda": "Francis Lawrence, director of «The Hunger Games: Sunrise on the Reaping», in a photograph by Gage Skidmore (archive image; does not show the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Alice Neel, the «collector of souls»: she painted neighbours, activists and Andy Warhol — and comes to Portugal for the first time, at Serralves",
+   "ficha": {
+    "Born and died": "28 January 1900, in Merion Square, Pennsylvania (United States); 13 October 1984, in New York",
+    "Field": "Painting (portraiture and the human figure)",
+    "Essential work": "«Carlos Enríquez» (1926), «Pat Whalen» (1935), «Puerto Rican Boys on 108th Street» (1955), «Andy Warhol» (1970), «Kate Millett» (1970, Time magazine cover), «Self-Portrait» (1980)",
+    "Now": "Exhibition «Beautifully Imperfect», with around 90 works, at the Serralves Museum of Contemporary Art (Porto), until 17 January 2027 — the artist's first in Portugal"
+   },
+   "texto": [
+    "Anyone visiting Serralves, in Porto, before 17 January has a rare opportunity: to see up close around 90 works by Alice Neel, one of the great American portraitists of the 20th century. The exhibition «Beautifully Imperfect», curated by Inês Grosso, is the painter's first in Portugal and, according to the museum, the largest ever held in Europe. It brings paintings lent by, among others, the National Portrait Gallery, in Washington, and the Whitney Museum, in New York.",
+    "Alice Neel was born in 1900, in Pennsylvania. When she told her mother she wanted to be an artist, she was told she was «only a girl». She did not give up: she studied at an art school for women in Philadelphia and married the Cuban painter Carlos Enríquez, with whom she lived in Havana. Her personal life was hard: she lost a baby daughter and her second daughter was taken far away by her husband. During the Great Depression she painted with the support of a public employment programme for artists and, from 1938, lived for more than 20 years in Spanish Harlem, New York's Latino neighbourhood, where she portrayed neighbours, friends and her sons.",
+    "Her style is unmistakable: strong outlines, often blue, direct colours and an unfiltered gaze. She painted people as she saw them — tired, pregnant, ageing, nervous. She called herself a «collector of souls». She did so at a time when American art was in thrall to abstract painting, and so recognition came late: her first major retrospective, at the Whitney, was in 1974, when she was already 74. At Serralves, the visit opens with her 1980 «Self-Portrait», in which she paints herself naked, aged 80, brush in hand.",
+    "A few curiosities. In 1970 she painted Andy Warhol seated, bare-chested, with the scars from the shooting he had survived two years earlier. That same year she made the portrait of the feminist writer Kate Millett for the cover of Time magazine, from a photograph, because Millett refused to sit. In the 1940s she bought back some of her own paintings, which had been sold by weight, at four cents a pound (about half a kilo). She appeared in the Beat Generation film «Pull My Daisy» (1959) and, in 1984, was a guest on Johnny Carson's talk show. She died that year, in New York, aged 84."
+   ],
+   "fontes": [
+    {
+     "nome": "Serralves Foundation – «Alice Neel: Beautifully Imperfect»",
+     "url": "https://www.serralves.pt/en/ciclo-serralves/2607-alice-neel/"
+    },
+    {
+     "nome": "Diário de Notícias – Identity, intimacy and social struggle: Serralves shows the work of Alice Neel",
+     "url": "https://www.dn.pt/cultura/identidade-intimidade-e-luta-social-serralves-mostra-obra-de-alice-neel"
+    },
+    {
+     "nome": "The Art Story – Alice Neel",
+     "url": "https://theartstory.org/amp/artist/neel-alice/"
+    },
+    {
+     "nome": "Alice Neel (official estate website) – About",
+     "url": "https://www.aliceneel.com/about"
+    }
+   ],
+   "nota": "Exhibition dates (16 Jul. 2026 to 17 Jan. 2027), curator, first exhibition in Portugal, works from 1926 to 1983, more than 20 years in Spanish Harlem, Time cover and Warhol portrait in 1970, Whitney retrospective in 1974 and the phrase «collector of souls» according to the Serralves page. Around 90 works, «largest exhibition in Europe», loans from the National Portrait Gallery and the Whitney, 1980 self-portrait at the start and death aged 84 in New York according to the Diário de Notícias. Dates and places of birth and death, school in Philadelphia, marriage to Carlos Enríquez and Havana, death of her daughter Santillana, departure of her daughter Isabetta, support from the public art programme (WPA) from 1933, move to Spanish Harlem in 1938, list of works, scars in the Warhol portrait, Millett refusing to sit, her mother's remark, buying back paintings sold at four cents a pound (1944), «Pull My Daisy» and Johnny Carson according to The Art Story; birth in Merion Square on 28 Jan. 1900 confirmed on the official estate website. That the attack on Warhol was in 1968 and that the self-portrait shows her brush in hand is general knowledge about the works, not confirmed in the sources opened today. The blue outlines are a common description of her style, not quoted from a specific source. Britannica could not be opened. The image's Commons page could not be opened; the file appears in Commons search results, and the date (1976) and authorship (Lynn Gilbert) come from the file name. No reproductions of paintings were used because Neel's works are still under copyright.",
+   "imagem": {
+    "commons": "Alice Neel portrait by ©Lynn Gilbert 1976.jpg",
+    "tipo": "arquivo",
+    "alt": "Photographic portrait of the painter Alice Neel in later life",
+    "legenda": "Alice Neel photographed by Lynn Gilbert in 1976 (archive image; does not show the Serralves exhibition)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that the best-selling café chair of all time had only six wooden parts and travelled flat-packed, 36 at a time, in a one-cubic-metre crate?",
+   "texto": [
+    "Did you know that you have very probably sat on a chair designed in 1859? It is called No. 14, is known as the «café chair» or «bistro chair» and was created by the German cabinetmaker Michael Thonet, in Vienna. It is made of bent beech wood, with a round cane seat and an arched back. By 1930 more than 50 million had been made. It is still manufactured today.",
+    "The secret is in the wood. In the 1830s, Thonet began bending wood instead of carving it. In 1855 he worked out how to do it with solid wood: he softened beech rods with steam and bent them in moulds, with a metal strip fixed to the outside so the wood would not crack. It was cheaper than gluing together several thin sheets, and his patents gave him a near-monopoly on the technique for years. The main factory was in Moravia, in today's Czech Republic, close to beech forests and the railway.",
+    "Then came the idea that changed the furniture trade. The No. 14 chair has just six wooden parts — two front legs, one piece forming the back legs and backrest, an inner arch, the seat and a foot ring — held together with ten screws and two nuts. So it could travel in pieces: one crate of one cubic metre held 36 chairs, which were assembled by shops or distributors at their destination. Transport became much cheaper, and the chair reached cafés all over the world. According to the Victoria and Albert Museum, in London, it was among the first pieces of furniture to be mass-produced and shipped knocked-down — a grandmother of the shelves we now buy in flat boxes.",
+    "It set an example. According to the Design Museum, in London, the architect Le Corbusier is said to have remarked that nothing more elegant and more practical had ever been created. In 1869 the patent expired and No. 14 became one of the most copied chairs in the world. In Vienna, cafés such as the Frauenhuber and the Tirolerhof still use it. And the current version, named 214, celebrated its 160th birthday in 2019."
+   ],
+   "fontes": [
+    {
+     "nome": "Victoria and Albert Museum – Thonet and the invention of bentwood furniture",
+     "url": "https://www.vam.ac.uk/articles/thonet-and-the-invention-of-bentwood-furniture"
+    },
+    {
+     "nome": "Victoria and Albert Museum – collection: chair model no. 14 (W.10-2012)",
+     "url": "https://collections.vam.ac.uk/item/O1249163"
+    },
+    {
+     "nome": "German Design Council – Design Icons: Thonet chair No. 14",
+     "url": "https://www.german-design-council.de/en/design-perspectives/article-detail/design-icons-thonet-chair-no-14"
+    },
+    {
+     "nome": "Design Museum (London) – Thonet Chair No. 14",
+     "url": "https://designmuseum.org/discover-design/all-design-objects/thonet-chair-no-14"
+    },
+    {
+     "nome": "Vienna Tourist Board – Thonet and the Viennese coffeehouse",
+     "url": "https://api.wien.info/en/dine-drink/coffeehouses/thonet-coffeehouse-361342"
+    }
+   ],
+   "nota": "Date of 1859 according to the Design Museum and the German Design Council's caption (the latter's text gives 1860; the V&A also mentions 1859). Thonet's biography, bending from the 1830s, steam and metal-strip technique in 1855, patents, factory in Moravia and more than 50 million chairs by 1930 according to the V&A article. Beech wood with cane seat, parts in boxes assembled by shops or distributors, 36 chairs per one-metre crate and «among the first pieces mass-produced and shipped knocked-down» according to the V&A collection record. Six parts (with the description of each), ten screws, 36 chairs in a cubic metre, patent expiry in 1869 and the 214 version according to the German Design Council. Two nuts, the link to cafés and the remark attributed to Le Corbusier according to the Design Museum (the text presents it as «is said to have», as the original source was not seen). Viennese cafés still using it and the 160th birthday in 2019 according to the Vienna Tourist Board. The comparison with furniture sold in flat boxes is the newspaper's own. The image's Commons page could not be opened; the file appears in Commons search results and the description (made c. 1920, Germanisches Nationalmuseum, Nuremberg) comes from the file name.",
+   "imagem": {
+    "commons": "Chair No. 14, Thonet, design 1859, manufactured c. 1920, bentwood beech, walnut stain, woven cane seat - Germanisches Nationalmuseum - Nuremberg, Germany - DSC03037.jpg",
+    "tipo": "obra",
+    "alt": "Dark bentwood chair with an arched back and a round cane seat",
+    "legenda": "Thonet No. 14 chair (designed in 1859, this example made around 1920), at the Germanisches Nationalmuseum, in Nuremberg"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Lisbon Photobook Fair: for 16 editions an informal group has brought photographers and small publishers together around the photobook",
+   "ficha": {
+    "Origins": "Created by an informal group (in 2015 it called itself «Os Novos Suspeitos», The New Suspects); supported by the Arquivo Municipal de Lisboa – Fotográfico (Lisbon's municipal photographic archive) since the 6th edition, in 2015",
+    "Participants": "Photographers, self-publishing authors, independent publishers and booksellers and antiquarian booksellers specialising in photography",
+    "Field": "Photography and publishing: photobooks (books in which the photographs tell the story) and «photozines»",
+    "Now": "16th edition from 27 to 29 November 2026, at the Arquivo Municipal de Lisboa – Fotográfico (Rua da Palma, 246); free entry"
+   },
+   "texto": [
+    "A week from now, from Friday 27 to Sunday 29 November, the Arquivo Municipal de Lisboa – Fotográfico, Lisbon's municipal photographic archive on Rua da Palma, will fill up with photography books. It is the 16th Lisbon Photobook Fair (Feira do Livro de Fotografia de Lisboa), also called the Feira do Fotolivro, a yearly gathering of photographers, small publishers and specialist booksellers. Entry is free. It opens on Friday from 17:00 to 20:00 and at the weekend from 11:00 to 20:00.",
+    "First, what is a photobook? It is a book in which the photographs are not illustrations: they are what tells the story, through their order, their size and the dialogue between pages. Many are made in small print runs, by the authors themselves. The fair was born to give this world a space. Behind it is an informal group of people linked to photography — in 2015 it called itself «Os Novos Suspeitos» (The New Suspects) — which that year, at the 6th edition, gained the support of Lisbon City Council's photographic archive. The fair describes itself as an experimental space to show, sell and discuss photobooks, and to build new audiences.",
+    "How does it work? There is a market of new and rare books, with publishers and antiquarian booksellers; an exhibition of «dummies», the prototypes of books that do not yet exist, which visitors can leaf through and comment on; a space for self-publishing authors; and presentations of projects, finished or in progress. This year, Time Out Lisboa mentions, among others, Ghost Editions, XYZ Books, STET, Pierre von Kleist and the Alexandria bookshop. Past editions have had talks, workshops and even a guest country: Lithuania in 2014 and Brazil in 2015.",
+    "Why does it matter? Portugal has few bookshops devoted to photography, and many photobooks never reach ordinary bookshops. For more than a decade the fair has been a yearly meeting point for those who make and those who seek out these books, and a place where young photographers show work not yet published. It also leaves its mark on the archive itself: in 2015, most of the books from the Brazilian exhibition stayed afterwards in the Arquivo's library, where they can be consulted free of charge."
+   ],
+   "fontes": [
+    {
+     "nome": "Time Out Lisboa – Lisbon Photobook Fair (27 to 29 Nov. 2026)",
+     "url": "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/feira-do-livro-de-fotografia-de-lisboa"
+    },
+    {
+     "nome": "Time Out Lisboa – Two years on, the Photobook Fair is back (25 Nov. 2022)",
+     "url": "https://www.timeout.pt/lisboa/pt/noticias/dois-anos-depois-a-feira-do-livro-de-fotografia-esta-de-volta-112522"
+    },
+    {
+     "nome": "e-cultura – 15th Lisbon Photobook Fair (2025)",
+     "url": "https://www.e-cultura.pt/evento/51416"
+    },
+    {
+     "nome": "Artecapital – 6th Lisbon Photobook Fair (2015)",
+     "url": "https://www.artecapital.art/preview-114-artecapital-6a%EF%BF%BD-feira-do-livro-de-fotografia-de-lisboa-arquivo-municipal-de-lisboa-fotogra-fico-27-a-29-nov"
+    }
+   ],
+   "nota": "2026 dates and opening hours, venue, free entry, publishers mentioned, structure of the fair and «16 editions» according to Time Out Lisboa (2026 page); no official page from the organisers for 2026 was found, so this year's information comes from a single source. Informal group, support from the photographic archive since 2015, 12th edition in 2022 and two-year pause during the pandemic according to Time Out Lisboa (2022). The name «Os Novos Suspeitos», 6th edition in 2015, self-description as an experimental space, talks and workshop, Lithuania (2014) and Brazil (2015) as guest countries and books left in the Arquivo's library according to Artecapital. Four-area structure and Lisbon City Council support at the 15th edition (28 to 30 Nov. 2025) according to e-cultura. The year of the 1st edition was not confirmed. The explanation of what a photobook is and the remark about the few specialist bookshops are the newspaper's own. The image's Commons page could not be opened; the file appears in Commons search results and what it shows comes from the file name.",
+   "imagem": {
+    "commons": "Photobooks by Jason Eskenazi.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Photography books by the photographer Jason Eskenazi",
+    "legenda": "Photobooks by the American photographer Jason Eskenazi (illustrative image; does not show the Lisbon fair)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 20 November from the listings and event pages of Casa da Música, the listings and activity pages of Serralves, Agenda Porto (Porto City Council: highlights, Rivoli, Galeria Municipal, Biblioteca Almeida Garrett and Coliseu), the Porto/Post/Doc website, the Batalha website and Time Out Porto. It was not possible to open the Porto/Post/Doc daily programme and box office, the Teatro Carlos Alberto page on Agenda Porto, or the websites of the Teatro Municipal do Porto, the TNSJ, the Coliseu and the Hard Club today; for that reason, events from yesterday that could not be confirmed again (such as «O Conceito Inútil», at the TeCA) are not repeated. The Alan Stivell concert (Friday 20, Casa da Música) has been cancelled: refunds are requested from the point of sale until today. According to Casa da Música, Niklas Paschburg (Friday 20), Rodrigo Leão (Monday 23, at 21:00) and the Remix Ensemble Soloists at the Palácio da Bolsa (Monday 23) are sold out. Porto/Post/Doc continues until 28 November; the festival website does not show the price of a single ticket. Where it says «To be confirmed», the information was not in the source: it is worth checking the link before setting out.",
+ "agenda": [
+  {
+   "dia": "2026-11-20",
+   "eventos": [
+    {
+     "nome": "Casa da Música 2027 Season Presentation",
+     "descricao": "The artistic director, François Bou, presents the 2027 season, which starts from the 200th anniversary of Beethoven's death and combines classical repertoire, new commissions, opera, jazz and cine-concerts.",
+     "horario": "18:30",
+     "tipo": "Music / Talk",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "Free entry",
+     "url": "https://casadamusica.com/event/apresentacao-da-temporada-2027/?selected_session=61066",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, venue and free entry confirmed today at Casa da Música. The page gives 18:30 in the session details but 18:00 in the text: it is worth arriving early. It has a tickets link, so a free ticket may be needed."
+    },
+    {
+     "nome": "Komplett Kafka, by Nicolas Mahler",
+     "descricao": "An exhibition of drawings by the Austrian illustrator Nicolas Mahler opens, made for the centenary of Franz Kafka's death: minimal lines, humour and quotations from the writer.",
+     "horario": "14:00–21:00",
+     "tipo": "Exhibition",
+     "local": "Biblioteca Municipal Almeida Garrett, Jardins do Palácio de Cristal, Rua de D. Manuel II, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/evento/mostra-komplett-kafka-nicolas-mahler-1794906102075/",
+     "ligacao": "Agenda Porto",
+     "nota": "Presented by the Goethe-Institut. Date, today's opening hours and free entry confirmed on Agenda Porto, which does not say how long the exhibition runs."
+    },
+    {
+     "nome": "The Brotherhood, by Carolina Bianchi Y Cara de Cavalo",
+     "descricao": "Second chapter of the «Cadela Força» trilogy, about pacts of male brotherhood and how their codes have perpetuated sexual violence, including in the history of art.",
+     "horario": "21:00",
+     "tipo": "Theatre",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "€12",
+     "url": "https://www.agenda-porto.pt/en/evento/tmp-the-brotherhood/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/18 (ages 18+); deals with rape and sexual violence. Dates, times (Friday at 21:00, Saturday at 17:00) and price confirmed today on Agenda Porto; the running time (3h40 with an interval) comes from the Teatro Municipal website, consulted on 18 November (it did not open today). Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Lena d'Água (Concertos de Outono / Autumn Concerts)",
+     "descricao": "One of the voices of Portuguese pop since the 1980s opens the weekend of autumn concerts at the Fórum da Maia, on the outskirts of Porto.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Fórum da Maia, Rua Eng. Duarte Pacheco, 131, Maia",
+     "preco": "€10 (€18 for two people)",
+     "url": "https://www.timeout.pt/porto/pt/musica/os-concertos-que-nao-pode-perder-no-porto-esta-semana",
+     "ligacao": "Time Out Porto",
+     "nota": "It is in Maia, outside the municipality of Porto. Date, time and prices confirmed again today on Time Out Porto; not confirmed on the promoter's website. Event repeated from yesterday's edition."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-21",
+   "eventos": [
+    {
+     "nome": "Contos e Recontos (Tales and Retellings): «Eu Não Fui!» (It Wasn't Me!), by Christian Voltz",
+     "descricao": "Story time for little ones, with objects to touch and explore: a farmer, a huge spider and a mysterious «catrapum» (crash-bang) in search of a culprit.",
+     "horario": "11:00",
+     "tipo": "Family",
+     "local": "Biblioteca Municipal Almeida Garrett, Jardins do Palácio de Cristal, Rua de D. Manuel II, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/evento/contos-e-recontos-eu-nao-fui-de-christian-voltz/",
+     "ligacao": "Agenda Porto",
+     "nota": "For children aged 3 to 6, accompanied by family. Date, time and free entry confirmed today on Agenda Porto, which does not say whether registration is needed."
+    },
+    {
+     "nome": "Ciência em Família: As Cores Secretas do Outono (Family Science: The Secret Colours of Autumn)",
+     "descricao": "Workshop in Serralves Park to discover why leaves change colour, observing the trees and doing an experiment that reveals the hidden pigments.",
+     "horario": "15:00",
+     "tipo": "Family",
+     "local": "Parque de Serralves (meeting point: outdoor ticket office), Rua D. João de Castro, 210, Porto",
+     "preco": "Family Ticket: €12 per resident adult (€15 for non-residents); children up to 12 free",
+     "url": "https://www.serralves.pt/en/atividades-serralves/1011-ciencia-em-familia-or-as-cores-secretas-do-outono/",
+     "ligacao": "Serralves",
+     "nota": "Ages 5 and up; registration required, maximum of 20 participants. Date, time, prices and discounts (50% for Friends, up to age 18 and from 65) confirmed again today on the Serralves page. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Three new exhibitions at the Galeria Municipal do Porto",
+     "descricao": "Simultaneous opening of «Bosque da Noite» (Night Forest), by Leonor Parda, «Rasgar um céu sem sol» (Tearing a Sunless Sky), by Basel Abbas and Ruanne Abou-Rahme, and «Conto Gótico» (Gothic Tale), a retrospective of Isabel Carvalho.",
+     "horario": "To be confirmed",
+     "tipo": "Exhibition",
+     "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de D. Manuel II, Porto",
+     "preco": "Free entry",
+     "url": "https://agenda-porto.pt/en/local/n9d8XJQM7JP",
+     "ligacao": "Agenda Porto",
+     "nota": "Date and free entry confirmed again today on Agenda Porto, with no time. «Bosque da Noite» runs until 14 February 2027 and «Rasgar um céu sem sol» until 21 February. On Sunday 22 there is a free guided tour with Basel Abbas and Ruanne Abou-Rahme (time to be confirmed). Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Sinfonia Órgão (Organ Symphony) – Porto Symphony Orchestra Casa da Música",
+     "descricao": "Stefan Blunier conducts Chausson's «Soir de fête», Liszt's «Les Préludes» and Saint-Saëns's Symphony No. 3, «Organ», with Jonathan Ayerst at the organ.",
+     "horario": "18:00",
+     "tipo": "Classical music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€26 to €30",
+     "url": "https://casadamusica.com/event/sinfonia-orgao/?selected_session=44140",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, venue and prices confirmed again today in the Casa da Música listings, with no indication of being sold out; programme and performers confirmed on 18 and 19 November from the same source."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Todo es cárcel» (Letters from an Inner Exile), by Eloy Enciso",
+     "descricao": "International Competition film: a Berlin-based artist travels across Spain in search of the erased history of Francoist concentration camps, intertwined with that of a couple separated in 1939.",
+     "horario": "21:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto (Sala 1)",
+     "preco": "To be confirmed",
+     "url": "https://portopostdoc.com/home-en/festival/2026/view?id=1955",
+     "ligacao": "Porto/Post/Doc",
+     "nota": "M/12 (ages 12+), 109 minutes. Date, time and screening room confirmed today on the festival website, which does not give a price. Second screening on Sunday 22, at 16:00, in the same room."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-22",
+   "eventos": [
+    {
+     "nome": "Conversas com Ciência (Conversations with Science): Microplastics",
+     "descricao": "The researcher Luís R. Vieira, from the University of Porto's Interdisciplinary Centre of Marine and Environmental Research (CIIMAR), explains what microplastics are, how they spread, what effects they may have and what can be done to reduce them.",
+     "horario": "11:00",
+     "tipo": "Talk / Science",
+     "local": "Serralves (Biblioteca), Rua D. João de Castro, 210, Porto",
+     "preco": "Free entry",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2211-conversas-com-ciencia/",
+     "ligacao": "Serralves",
+     "nota": "Registration required, through a form on the page. Date, time, venue and free access confirmed today on the Serralves page."
+    },
+    {
+     "nome": "Café com Nata: Solistas da Orquestra Sinfónica (Symphony Orchestra Soloists)",
+     "descricao": "Sunday morning concert with the oboe in the spotlight: Mozart, Britten and Kodály, with coffee and a pastel de nata (custard tart) included.",
+     "horario": "11:00",
+     "tipo": "Classical music",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€14",
+     "url": "https://casadamusica.com/event/solistas-da-orquestra-sinfonica/?selected_session=54911",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time, venue and price confirmed again today in the Casa da Música listings, with no indication of being sold out; programme and performers confirmed yesterday from the same source. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Singspiele, by Maguy Marin, with David Mambouch",
+     "descricao": "Solo in which the performer crosses the stage changing faces and characters, questioning identity, appearance and gender codes. It closes the Maguy Marin Focus.",
+     "horario": "16:00 and 19:00",
+     "tipo": "Dance / Performance",
+     "local": "Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "€7.50 (€3.75 for students and young people, over-64s and Friends of Serralves)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2211-singspiele/",
+     "ligacao": "Serralves",
+     "nota": "1h. Date, times, venue and prices confirmed again today on the Serralves page, with ticket sales open; it does not say how many seats remain. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Jazz in the Space Age, by George Russell – Orquestra Jazz de Matosinhos",
+     "descricao": "Pedro Guedes conducts the big band in George Russell's work that influenced Miles Davis, with pianists Mário Laginha and Miguel Meirinhos improvising.",
+     "horario": "21:30",
+     "tipo": "Jazz",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€26 to €30",
+     "url": "https://casadamusica.com/event/jazz-in-the-space-age-de-george-russel/?selected_session=55741",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time, venue and prices confirmed again today in the Casa da Música listings, with no indication of being sold out; performers confirmed yesterday from the same source. At 21:00, in Sala 2, accordionist Vincent Peirani plays (Misty Fest, €25). Event repeated from yesterday's edition."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-23",
+   "eventos": [
+    {
+     "nome": "Alice Neel: Beautifully Imperfect",
+     "descricao": "Retrospective of the American painter Alice Neel (1900–1984), known for her portraits of neighbours, friends and figures of 20th-century New York.",
+     "horario": "To be confirmed",
+     "tipo": "Exhibition",
+     "local": "Museu de Serralves (Ala Álvaro Siza), Rua D. João de Castro, 210, Porto",
+     "preco": "General ticket €24 (€20 for residents, at the ticket office); Late Afternoon ticket, Monday to Thursday from 17:00, €15 (€12 residents); free up to age 12",
+     "url": "https://www.serralves.pt/en/ciclo-serralves/2607-alice-neel/",
+     "ligacao": "Serralves",
+     "nota": "Runs until 17 January 2027. Dates and venue confirmed today on the exhibition page; prices and discounts (50% for ages 12 to 17, students and over-65s) on the «Visitar Serralves» page, which did not show the winter opening hours. The Monday-to-Thursday late afternoon ticket indicates that the museum opens on Mondays."
+    },
+    {
+     "nome": "Sobre um filme, sobre um poema III (About a film, about a poem III)",
+     "descricao": "Exhibition curated by Regina Guimarães that sets ten poets, including Gisela Casimiro and Margarida Vale de Gato, in dialogue with ten films directed by women.",
+     "horario": "To be confirmed",
+     "tipo": "Exhibition",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto (Foyers 1 e 2)",
+     "preco": "Free entry",
+     "url": "https://www.batalhacentrodecinema.pt/en/programmes/sobre-um-filme-sobre-um-poema-iii/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "Runs until 7 February 2027. Dates, venue and free entry confirmed today on the Batalha website, which does not give opening hours or say whether it opens on Mondays: worth checking."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Masao Adachi Tira uma Foto Tipo Passe» (Masao Adachi Takes a Passport Photo), by Kamal Aljafari",
+     "descricao": "International competition short: the former Japanese revolutionary filmmaker Masao Adachi goes to a small Tokyo studio to have his passport photo taken, and the session turns into an encounter between two elderly people and their memories.",
+     "horario": "17:30",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto (Sala 2)",
+     "preco": "To be confirmed",
+     "url": "https://portopostdoc.com/home-en/festival/2026/view?id=1964",
+     "ligacao": "Porto/Post/Doc",
+     "nota": "M/12 (ages 12+), 28 minutes. Date, time and screening room confirmed today on the festival website, which does not give the price or the other films in the session. Second screening on 25 November, at 19:30, at Passos Manuel."
+    },
+    {
+     "nome": "Rodrigo Leão – «Alma Mater», 26 years on (Misty Fest)",
+     "descricao": "Rodrigo Leão revisits the album «Alma Mater» with an instrumental ensemble, choir and guests; accordionist Gabriel Gomes opens the evening with his first solo album.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 to €40 (sold out)",
+     "url": "https://casadamusica.com/event/rodrigo-leao-3/?selected_session=51205",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time, venue, prices and sold-out status confirmed today at Casa da Música. There are two more sessions on Tuesday 24: at 21:00 (sold out) and at 18:30 (no sold-out indication; the page only announces Gabriel Gomes's opening set for the 21:00 sessions)."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "The Shenzhen summit ended with a «trilateral peace declaration» from Xi, Trump and Putin that does not mention the war in Ukraine or the one in Iran.",
+   "noticia": 9
+  },
+  {
+   "texto": "Hours later, Russia attacked Ukraine overnight: three bridges in Kyiv damaged and at least five dead, according to provisional figures.",
+   "noticia": 10
+  },
+  {
+   "texto": "The International Court of Justice ruled that Myanmar committed genocide against the Rohingya: the first time it has found a state responsible for genocide.",
+   "noticia": 11
+  },
+  {
+   "texto": "Portugal's public sector is on a national strike today: according to the unions, rubbish collection stopped overnight in several municipalities and some schools may not open.",
+   "noticia": 13
+  },
+  {
+   "texto": "In the 2027 Budget, the PS and Chega approved zero VAT on a basket of foods from January to March, against the PSD, CDS-PP and IL.",
+   "noticia": 14
+  },
+  {
+   "texto": "COP31 reaches its scheduled last day with a draft deal that no longer mentions moving away from fossil fuels.",
+   "noticia": 12
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Friday 20 Nov",
+   "texto": "National public-sector strike in Portugal. Scheduled last day of COP31 in Antalya, which may run over.",
+   "noticia": 13
+  },
+  {
+   "quando": "Saturday 21 Nov",
+   "texto": "BepiColombo is due to enter orbit around Mercury; ESA has not announced the time of the manoeuvre. In Lisbon, a CGTP union demonstration.",
+   "noticia": 17
+  },
+  {
+   "quando": "Monday 23 Nov",
+   "texto": "Last committee-stage votes on the Budget. CP train drivers begin a strike that runs until Friday 27.",
+   "noticia": 14
+  },
+  {
+   "quando": "Tuesday 24 Nov",
+   "texto": "Final overall vote on the 2027 State Budget, with a protest called outside Parliament.",
+   "noticia": 14
+  }
+ ],
+ "linkedin_abertura": "The first three-way summit between the US, China and Russia ended in Shenzhen with a «peace declaration» that does not mention Ukraine — and hours later Russia attacked Kyiv again."
+}

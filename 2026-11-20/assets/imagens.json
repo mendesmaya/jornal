@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-p20250815dt-0817-2-president-donald-trump-meets-with-russian.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/P20250815DT-0817-2_President_Donald_Trump_meets_with_Russian_President_Vladimir_Putin_at_Joint_Base_Elmendorf_Richardson_in_Anchorage%2C_Alaska.jpg?width=1000",
+  "commons": "P20250815DT-0817-2 President Donald Trump meets with Russian President Vladimir Putin at Joint Base Elmendorf Richardson in Anchorage, Alaska.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-berlaymont-building-european-commission.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Berlaymont_building_european_commission.jpg?width=1000",
+  "commons": "Berlaymont building european commission.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-31-july-2025-photos-in-kyiv-ukraine-of-emergency-restoration.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/31_July_2025_photos_in_Kyiv%2C_Ukraine_of_emergency_restoration_work_at_the_sites_affected_by_yesterday%E2%80%99s_attack_on_July_30%2C_2025_-_1.jpg?width=1000",
+  "commons": "31 July 2025 photos in Kyiv, Ukraine of emergency restoration work at the sites affected by yesterday’s attack on July 30, 2025 - 1.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-manif-greve-geral-portugal-dezembro-11-2025.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Manif._Greve_Geral%2C_Portugal_Dezembro%2C_11_2025.jpg?width=1000",
+  "commons": "Manif. Greve Geral, Portugal Dezembro, 11 2025.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-bepicolombo-surveys-mercury-s-rich-geology-esa24324352.jpeg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BepiColombo_surveys_Mercury%E2%80%99s_rich_geology_ESA24324352.jpeg?width=1000",
+  "commons": "BepiColombo surveys Mercury’s rich geology ESA24324352.jpeg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-francis-lawrence-by-gage-skidmore.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Francis_Lawrence_by_Gage_Skidmore.jpg?width=1000",
+  "commons": "Francis Lawrence by Gage Skidmore.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-alice-neel-portrait-by-lynn-gilbert-1976.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alice_Neel_portrait_by_%C2%A9Lynn_Gilbert_1976.jpg?width=1000",
+  "commons": "Alice Neel portrait by ©Lynn Gilbert 1976.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-chair-no-14-thonet-design-1859-manufactured-c-1920-bentwood-.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chair_No._14%2C_Thonet%2C_design_1859%2C_manufactured_c._1920%2C_bentwood_beech%2C_walnut_stain%2C_woven_cane_seat_-_Germanisches_Nationalmuseum_-_Nuremberg%2C_Germany_-_DSC03037.jpg?width=1000",
+  "commons": "Chair No. 14, Thonet, design 1859, manufactured c. 1920, bentwood beech, walnut stain, woven cane seat - Germanisches Nationalmuseum - Nuremberg, Germany - DSC03037.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-photobooks-by-jason-eskenazi.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Photobooks_by_Jason_Eskenazi.jpg?width=1000",
+  "commons": "Photobooks by Jason Eskenazi.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
