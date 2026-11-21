@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-russian-kh-101-missile-shot-in-vinnytsia-oblast-2023-01-26-0.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Russian_Kh-101_missile_shot_in_Vinnytsia_Oblast%2C_2023-01-26_%2805%29.jpg?width=1000",
+  "commons": "Russian Kh-101 missile shot in Vinnytsia Oblast, 2023-01-26 (05).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-j-edgar-hoover-fbi-building-washington-dc-2014-a.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/J-Edgar-Hoover-FBI-Building-Washington-DC-2014-A.jpg?width=1000",
+  "commons": "J-Edgar-Hoover-FBI-Building-Washington-DC-2014-A.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-chris-bowen-cop31-president-of-negotiation-dan-j-rgensen-eur.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris_Bowen%2C_COP31_President_of_Negotiation_%26_Dan_J%C3%B8rgensen%2C_European_Commissioner.jpg?width=1000",
+  "commons": "Chris Bowen, COP31 President of Negotiation & Dan Jørgensen, European Commissioner.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-coimbra-mondego-4054792985.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Coimbra_%26_Mondego_%284054792985%29.jpg?width=1000",
+  "commons": "Coimbra & Mondego (4054792985).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-bepicolombo-meets-mercury-esa23493072.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BepiColombo_meets_Mercury_ESA23493072.png?width=1000",
+  "commons": "BepiColombo meets Mercury ESA23493072.png",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-maika-monroe-june-2016.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maika_Monroe_June_2016.jpg?width=1000",
+  "commons": "Maika Monroe June 2016.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-henry-purcell-by-john-closterman.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Purcell_by_John_Closterman.jpg?width=1000",
+  "commons": "Henry Purcell by John Closterman.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-ghost-light-on-stage.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ghost_Light_on_Stage.JPG?width=1000",
+  "commons": "Ghost Light on Stage.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-16-porta-de-alfofa-junto-ao-chapit.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/16_Porta_de_Alfofa_-_Junto_ao_Chapit%C3%B4.jpg?width=1000",
+  "commons": "16 Porta de Alfofa - Junto ao Chapitô.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

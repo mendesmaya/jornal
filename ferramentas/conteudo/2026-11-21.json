@@ -1,0 +1,1024 @@
+{
+ "data": "2026-11-21",
+ "numero": "029",
+ "resumo": "Mísseis russos caem na Polónia e Trump diz que foi «por engano»; a COP31 passa do prazo sem acordo; Coimbra, Guarda e Viseu estão em aviso vermelho de chuva; e a BepiColombo começa hoje a travar para ficar em órbita de Mercúrio.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "FBI investiga suspeita de intrusão na base de dados nacional de crimes, usada pelas polícias americanas para mandados e antecedentes",
+   "estado": "Investigação noticiada pela CNN e pela Reuters · FBI não comentou · autoria e dados afetados desconhecidos",
+   "data": "2026-11-20",
+   "texto": [
+    "O FBI, a polícia federal dos EUA, está a investigar uma suspeita de intrusão no NCIC (Centro Nacional de Informação Criminal), a base de dados que liga as polícias federais, estaduais e locais do país. A notícia foi dada pela CNN na sexta-feira, 20 de novembro, com base em duas pessoas informadas sobre a investigação, e retomada pela Reuters. O FBI não respondeu aos pedidos de comentário.",
+    "Porque é que isto importa? O NCIC é usado todos os dias por agentes no terreno: ali ficam mandados de detenção, registos criminais e verificações de antecedentes. Um antigo responsável do FBI disse à CNN que um ataque destes pode pôr em causa a exatidão da informação em que os polícias confiam.",
+    "O que se sabe — e o que falta saber. Não se sabe quem está por trás, que dados foram vistos ou alterados, nem há quanto tempo. Seria a segunda intrusão num sistema do FBI em poucos meses: em setembro, um grupo de extorsão conhecido como ShinyHunters chegou a dados de funcionários atuais e antigos através de um site de recrutamento da agência.",
+    "O caso surge numa semana de várias falhas em sistemas do Estado americano. Segundo a AFP, citada pela Arab News, ainda não é claro se tem ligação ao ataque noticiado no mesmo dia ao Departamento de Agricultura (ver notícia seguinte)."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A investigação foi noticiada pela CNN (citado; não conseguimos abrir a página) e confirmada pela Reuters (via Yahoo News, 20 nov.) e por um despacho com créditos da Reuters/AFP publicado pela Arab News, ambos a citar a CNN. A frase do antigo responsável do FBI vem da CNN, citada pela Arab News. Não há declaração oficial do FBI. Autoria, dados afetados e duração da intrusão por confirmar."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via Yahoo News – «FBI's criminal information database hacked, CNN reports» (20 nov.)",
+     "url": "https://www.yahoo.com/news/us/articles/fbis-criminal-information-database-hacked-031545804.html"
+    },
+    {
+     "nome": "Arab News – «FBI's criminal information database hacked, CNN reports» (20 nov.)",
+     "url": "https://arabnews.com/world/fbis-criminal-information-database-hacked-cnn-reports-3013268"
+    },
+    {
+     "nome": "CNN – FBI hacked again (citado)",
+     "url": "https://cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database"
+    }
+   ],
+   "imagem": {
+    "commons": "J-Edgar-Hoover-FBI-Building-Washington-DC-2014-A.jpg",
+    "tipo": "arquivo",
+    "alt": "Fachada do edifício J. Edgar Hoover, sede do FBI em Washington",
+    "legenda": "O edifício J. Edgar Hoover, sede do FBI, em Washington (imagem de arquivo de 2014; não mostra o incidente)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Departamento de Agricultura dos EUA desliga sistemas durante dias depois de um incidente de segurança; afetados os pagamentos a agricultores",
+   "estado": "Incidente admitido em email interno · roubo de dados e autoria por confirmar",
+   "data": "2026-11-19",
+   "texto": [
+    "Vários sistemas do Departamento de Agricultura dos EUA (USDA) estiveram em baixo durante dias, depois de o centro de cibersegurança do departamento ter detetado um «incidente de segurança». Entre as aplicações afetadas estão as ferramentas usadas nos pagamentos entre o Estado e os agricultores e os portais onde estes acompanham empréstimos e apoios. A notícia foi dada a 19 de novembro pelo site Nextgov, com base num email interno e em três fontes anónimas.",
+    "O que aconteceu, ao certo? Segundo o email citado pelo Nextgov, o departamento teve de mudar as palavras-passe das bases de dados em todos os ambientes, o que provocou as falhas. Um boletim técnico de quinta-feira avisava que as aplicações podiam continuar com interrupções durante a semana. Alguns funcionários também tiveram problemas com a VPN, a ligação segura à rede interna.",
+    "No dia seguinte, a NBC News noticiou, citando antigos responsáveis do departamento, que o sistema de pagamentos aos agricultores foi alvo de um ataque e que pode servir de porta de entrada para dados mais sensíveis. Não se sabe quem foi nem se foram roubados dados. Segundo a AFP, citada pela Arab News, também não é claro se há ligação ao caso do FBI."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "O incidente, a mudança de palavras-passe e as falhas vêm do Nextgov (19 nov.), com base num email interno, num boletim técnico e em três fontes anónimas; a Arab News (20 nov.) confirma, citando a NBC News, que o sistema de pagamentos foi alvo de um ataque. Não conseguimos abrir a página da NBC. O USDA e a agência americana de cibersegurança (CISA) não responderam ao Nextgov. Autoria e eventual roubo de dados por confirmar."
+   },
+   "fontes": [
+    {
+     "nome": "Nextgov/FCW – «USDA grapples with security breach as IT staff take multiple systems offline» (19 nov.)",
+     "url": "https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/"
+    },
+    {
+     "nome": "Arab News – «FBI's criminal information database hacked, CNN reports» (20 nov.)",
+     "url": "https://arabnews.com/world/fbis-criminal-information-database-hacked-cnn-reports-3013268"
+    },
+    {
+     "nome": "NBC News – Agriculture Department breached by hackers (citado)",
+     "url": "https://www.nbcnews.com/politics/national-security/agriculture-department-breached-hackers-sources-say-rcna610497"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Ucrânia e FBI desmantelam rede de ransomware que fingia ser apoio informático e terá extorquido mais de 40 milhões de dólares",
+   "estado": "Quatro detidos, suspeitos · operação anunciada pelas autoridades ucranianas · sem condenações",
+   "data": "2026-11-18",
+   "texto": [
+    "As autoridades ucranianas, em conjunto com o FBI, detiveram quatro pessoas suspeitas de serem membros-chave de um grupo de ransomware — programas que bloqueiam os sistemas das empresas para exigir resgate. O anúncio foi feito na quarta-feira, 18 de novembro, pela Procuradoria-Geral da Ucrânia, depois de uma investigação de dois anos. Pelo menos 28 empresas, várias delas americanas, terão pago mais de 40,5 milhões de dólares.",
+    "Como atuavam? Segundo o BleepingComputer, os suspeitos faziam-se passar por técnicos de apoio informático, com chamadas falsas e mensagens de voz geradas por inteligência artificial (IA). Convenciam funcionários a dar as credenciais de acesso ou a instalar programas de controlo remoto. Também usavam páginas falsas que imitavam os acessos à rede das empresas.",
+    "A operação incluiu 66 buscas em Kiev e em mais 11 regiões; foram apreendidos computadores, telemóveis, cerca de 370 mil dólares e 20 mil euros em dinheiro. O grupo teria pelo menos 27 membros, da Ucrânia, Rússia e Cazaquistão, ligados a uma rede de mais de 60 pessoas em oito países. Os investigadores associam-no a antigos membros do grupo Conti, encerrado em 2022.",
+    "Os quatro detidos são suspeitos de pertencer a uma organização criminosa e de interferência ilegal em sistemas informáticos. Arriscam até 15 anos de prisão, se forem condenados."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Detenções, número de empresas, valor de 40,5 milhões de dólares, buscas, apreensões, dimensão da rede e ligação a antigos membros do Conti confirmados pelo BleepingComputer (18 nov.) e pelo The Record (19 nov.), que citam a Procuradoria-Geral da Ucrânia. O método (falso apoio informático, voz gerada por IA) e as acusações vêm do BleepingComputer. Não consultámos diretamente o comunicado ucraniano."
+   },
+   "fontes": [
+    {
+     "nome": "BleepingComputer – «Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms» (18 nov.)",
+     "url": "https://bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms"
+    },
+    {
+     "nome": "The Record – «Ukraine exposes ransomware network extorting US oil, healthcare firms» (19 nov.)",
+     "url": "https://therecord.media/ukraine-ransomware-arrests-cyber"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Matemático da Anthropic diz ter provado a hipótese de Riemann com a ajuda do Claude; prova em código já passou as primeiras verificações",
+   "estado": "Afirmação do autor · prova em Lean compila, segundo matemáticos independentes · validação pela comunidade por fazer",
+   "data": "2026-11-20",
+   "texto": [
+    "Levent Alpöge, matemático que trabalha na Anthropic, afirma ter provado a hipótese de Riemann, um dos problemas mais famosos da matemática, em aberto desde 1859 e um dos sete «Problemas do Milénio». Publicou o trabalho na sexta-feira, 20 de novembro, e diz que foi feito com a ajuda do Claude, o modelo de inteligência artificial (IA) da empresa. Para já, é uma afirmação: a comunidade matemática ainda não a validou.",
+    "A prova não vem num artigo tradicional. Está escrita em Lean, uma linguagem que permite a um computador confirmar, passo a passo, que um raciocínio matemático não tem erros — segundo a CASRAI, são mais de 175 mil ficheiros. Alpöge diz que desenhou a arquitetura geral ao longo de meses e que o Claude fez grande parte do trabalho técnico, sobretudo na reta final. Admitiu sentir-se culpado por publicar sem uma explicação legível por humanos e prometeu escrevê-la.",
+    "O que já foi verificado? Andrew Sutherland, do MIT, e outros participantes num fórum de Lean dizem ter confirmado que a prova compila e só usa os axiomas habituais. Kevin Buzzard, do Imperial College de Londres, aponta o passo seguinte: confirmar que o enunciado em código corresponde mesmo ao problema clássico. Ou seja: a máquina diz que está certo, mas falta perceber o que foi provado e porquê.",
+    "No mesmo dia, um investigador de Stanford, Alessandro Masullo, divulgou outra proposta de prova, feita «toda por humanos, sem IA», segundo o presidente da Sociedade Americana de Matemática, Ravi Vakil; ainda não foi verificada. Para receber o prémio de um milhão de dólares do Instituto Clay, uma prova tem de ser publicada numa revista com revisão por pares e resistir a pelo menos dois anos de escrutínio."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A afirmação de Alpöge, o papel do Claude, a verificação inicial por Andrew Sutherland e a proposta de Alessandro Masullo vêm do TechCrunch (20 nov.); a AI Weekly (21 nov.) confirma a verificação de Sutherland e o passo pendente descrito por Kevin Buzzard. O número de ficheiros e as regras do Instituto Clay vêm da CASRAI (21 nov.). A Scientific American (citado) também noticiou o caso; não conseguimos abrir a página. A prova não está validada pela comunidade matemática. A Anthropic, empresa onde o autor trabalha, é parte interessada."
+   },
+   "fontes": [
+    {
+     "nome": "TechCrunch – «AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too» (20 nov.)",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    },
+    {
+     "nome": "AI Weekly – «Alpöge's Claude-assisted Riemann proof clears Lean checks» (21 nov.)",
+     "url": "https://aiweekly.co/alerts/alpges-claude-assisted-riemann-proof-clears-lean-checks"
+    },
+    {
+     "nome": "CASRAI – «Anthropic Mathematician Releases 175,000-File Lean Archive Claiming Riemann Hypothesis Proof» (21 nov.)",
+     "url": "https://casrai.org/news/anthropic-levent-alpoge-claude-lean-riemann-hypothesis-claim-2026"
+    },
+    {
+     "nome": "Scientific American – «Anthropic mathematician claims to prove Riemann hypothesis» (citado)",
+     "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Trump e Xi concordaram que as decisões militares com IA devem ter sempre um humano envolvido, diz o secretário do Tesouro americano",
+   "estado": "Declaração de Scott Bessent · sem texto de acordo publicado · sem confirmação chinesa nas fontes consultadas",
+   "data": "2026-11-20",
+   "texto": [
+    "Donald Trump e Xi Jinping concordaram que deve haver sempre uma pessoa envolvida nas decisões militares que usem inteligência artificial (IA). Quem o disse foi o secretário do Tesouro americano, Scott Bessent, numa entrevista à CNBC na sexta-feira, 20 de novembro, depois do encontro entre os dois presidentes em Shenzhen, na China, à margem da cimeira da APEC (Cooperação Económica Ásia-Pacífico).",
+    "Segundo a Reuters, Bessent disse que nenhuma grande operação militar deve ser lançada sem um ser humano envolvido, e apresentou o entendimento como um dos principais resultados da viagem de Trump à Ásia. Acrescentou que a corrida à IA entre os dois países não muda isso, mas que os laboratórios americanos têm de manter a liderança.",
+    "O que falta saber? Nas fontes consultadas não há um texto assinado nem uma confirmação de Pequim sobre este ponto. Segundo a Anadolu, Bessent falou também de uma discussão sobre conter o crescimento das armas nucleares; Trump, Xi e Vladimir Putin, que também esteve em Shenzhen, declararam que «uma guerra nuclear não pode ser ganha e nunca deve ser travada»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A declaração de Bessent à CNBC e o local e data do encontro vêm da Reuters (via Yahoo News, 20 nov.) e da agência Anadolu (via A News, 20 nov.). A frase sobre operações militares e a referência aos laboratórios americanos vêm da Reuters; a discussão nuclear e a declaração dos três líderes vêm da Anadolu. Não encontrámos confirmação chinesa nem texto formal do entendimento."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via Yahoo News – «Trump, Xi agreed that military AI decisions should involve humans, Bessent says» (20 nov.)",
+     "url": "https://www.yahoo.com/news/articles/trump-xi-agreed-military-ai-164829465.html"
+    },
+    {
+     "nome": "A News (Anadolu) – «Trump, Xi agreed humans must stay in charge of AI military decisions, Bessent says» (20 nov.)",
+     "url": "https://www.anews.com.tr/world/2026/11/20/trump-xi-agreed-humans-must-stay-in-charge-of-ai-military-decisions-bessent-says"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Signal passa a bloquear capturas de ecrã por defeito para impedir que assistentes de IA leiam as conversas",
+   "estado": "Medida anunciada e em vigor · Signal admite que a proteção é incompleta",
+   "data": "2026-11-20",
+   "texto": [
+    "O Signal, a aplicação de mensagens encriptadas, passou a bloquear por defeito as capturas de ecrã no iPhone e o acesso de assistentes de inteligência artificial (IA) ao ecrã no Android. O anúncio foi feito na sexta-feira, 20 de novembro. A empresa diz que os agentes de IA instalados nos telemóveis são uma «ameaça existencial» à privacidade das conversas.",
+    "Porquê? Assistentes como a Siri ou o Gemini leem o que está no ecrã para responder a perguntas, e esse conteúdo pode acabar em servidores remotos — mesmo quando as mensagens são encriptadas. Segundo o Engadget, que cita a Reuters, o agente Muse, da Meta, chegou a ler mensagens do Signal através de permissões dadas durante a configuração. A Meta diz que os agentes precisam de ver o ecrã para funcionar e só acedem a outras aplicações com autorização do utilizador.",
+    "O próprio Signal admite os limites. No Mac, diz não conseguir oferecer esta proteção de forma fiável. Se a outra pessoa da conversa desligar o bloqueio, um assistente pode ler as mensagens no telemóvel dela. E quem quiser pode desativar a proteção num aviso que aparece no ecrã. A empresa pede à Apple, à Google e à Microsoft uma forma, ao nível do sistema, de as aplicações recusarem o acesso da IA."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A medida, as plataformas, a expressão «ameaça existencial» e os limites admitidos pelo Signal confirmados pelo Engadget (20 nov.) e pelo Cybernews (20 nov.). O caso do Muse vem da Reuters, citada pelas duas; não conseguimos abrir a página da Reuters. A posição da Meta vem do Cybernews."
+   },
+   "fontes": [
+    {
+     "nome": "Engadget – «Signal now blocks screenshots by default to stymie AI agents» (20 nov.)",
+     "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/"
+    },
+    {
+     "nome": "Cybernews – «Signal blocks screenshots to stop AI agents reading chats» (20 nov.)",
+     "url": "https://cybernews.com/privacy/signal-restricts-screenshots/"
+    },
+    {
+     "nome": "Reuters – Signal restricts screenshots to block AI agents (citado)",
+     "url": "https://www.reuters.com/legal/litigation/signal-restricts-screenshots-block-ai-agents-reading-messages-2026-11-20/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Nvidia cai 14% num dia e tem a pior semana desde 2008, depois de notícias de que o regulador da bolsa investiga as suas contas",
+   "estado": "Queda das ações confirmada · investigação noticiada pela Reuters, sem confirmação oficial · sem acusação",
+   "data": "2026-11-20",
+   "texto": [
+    "As ações da Nvidia, a maior fabricante de chips para inteligência artificial (IA), caíram cerca de 14% na sexta-feira, 20 de novembro, e perderam 23% na semana — a pior semana desde outubro de 2008. A queda acelerou depois de a Reuters noticiar, citando duas fontes, que a SEC, o regulador da bolsa americana, está a analisar as práticas contabilísticas da empresa.",
+    "O que se sabe da investigação? Pouco. Segundo a Reuters, citada pelo Yahoo Finance, não é claro quando começou nem que questões contabilísticas estão em causa; o Wall Street Journal já tinha noticiado nessa semana que a SEC investigava a Nvidia, sem dizer porquê. Uma investigação não prova irregularidades e muitas terminam sem qualquer ação. Nas fontes consultadas não há resposta da empresa.",
+    "A pressão vem de trás. Jensen Huang, fundador, saiu da liderança na semana passada, e a empresa diz estar a investigar se houve comprometimento de segredos ou da segurança nacional, depois de notícias sobre as suas relações pessoais. A queda arrastou o setor: segundo dados do Yahoo Finance, o índice tecnológico Nasdaq caiu mais de 5% na sexta-feira, num dia de receios sobre o abrandamento do investimento em IA."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "As quedas de cerca de 14% no dia e 23% na semana, e o facto de ser a pior semana desde 2008, confirmados pelo Yahoo Finance/Stocktwits (20 nov.) e pelo The Motley Fool (21 nov.), que citam a Reuters sobre a investigação da SEC. Não conseguimos abrir a página da Reuters. A queda do Nasdaq vem dos dados de mercado mostrados pelo Yahoo Finance. Não há confirmação oficial da SEC nem resposta da Nvidia nas fontes consultadas."
+   },
+   "fontes": [
+    {
+     "nome": "Yahoo Finance (Stocktwits) – «NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices» (20 nov.)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-clocks-worst-week-233812270.html"
+    },
+    {
+     "nome": "The Motley Fool – «After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation» (21 nov.)",
+     "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+    },
+    {
+     "nome": "Reuters – SEC's Nvidia probe is examining potential accounting issues (citado)",
+     "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "GTA VI: Rockstar diz ter vendido 3,79 mil milhões de dólares no primeiro dia, um recorde no entretenimento",
+   "estado": "Números da própria empresa, sem verificação independente · estimativas externas mais baixas",
+   "data": "2026-11-20",
+   "texto": [
+    "O GTA VI terá feito 3,79 mil milhões de dólares em vendas no primeiro dia, segundo a Rockstar Games, que o produz. A editora diz que é um recorde em qualquer forma de entretenimento — filmes incluídos. Os números foram divulgados na sexta-feira, 20 de novembro, num comunicado entregue também ao regulador da bolsa americana pela dona da Rockstar, a Take-Two.",
+    "Segundo o comunicado, foram vendidas 32,5 milhões de cópias antes do lançamento, e o jogo tem uma nota de 99 no agregador de críticas Metacritic. Os valores são estimativas da empresa, para todo o mundo, até ao fim de 19 de novembro, dia do lançamento.",
+    "Há outros números a circular. A empresa de análise Sensor Tower estimava, no dia do lançamento, cerca de 1,84 mil milhões de dólares em vendas até esse dia, incluindo meses de pré-reservas — mais do dobro dos 815,7 milhões que o GTA V fez nas primeiras 24 horas, em 2013. O jogo saiu para PlayStation 5 e Xbox Series X|S."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Os 3,79 mil milhões de dólares, os 32,5 milhões de cópias e a nota do Metacritic vêm apenas do comunicado da Rockstar Games anexado a um formulário 8-K da Take-Two na SEC (20 nov.); são estimativas da empresa, sem verificação independente. A estimativa da Sensor Tower, o recorde do GTA V e as plataformas vêm da Fox 5 DC (19 nov.). A Variety (citado) também noticiou o valor; não conseguimos abrir a página."
+   },
+   "fontes": [
+    {
+     "nome": "Take-Two Interactive – Formulário 8-K, anexo 99.1 (comunicado da Rockstar Games, 20 nov.)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026075217/exhibit9918k.htm"
+    },
+    {
+     "nome": "Fox 5 DC – «GTA VI pulls in estimated $1.84 billion by release day» (19 nov.)",
+     "url": "https://www.fox5dc.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record"
+    },
+    {
+     "nome": "Variety – GTA 6 sales $3.79 billion (citado)",
+     "url": "https://variety.com/2026/gaming/news/gta-6-sales-3-79-billion-1236954198/"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Mísseis russos caem na Polónia durante ataque à Ucrânia: Tusk fala em «provocação intencional», Trump diz que foi «por engano»",
+   "estado": "Queda confirmada por Varsóvia e pela NATO · sem feridos · intenção russa em disputa · Kremlin sem comentário",
+   "data": "2026-11-20",
+   "texto": [
+    "Dois mísseis e um drone a jato russos entraram no espaço aéreo da Polónia na madrugada de sexta-feira, 20 de novembro, durante mais um ataque maciço da Rússia contra a Ucrânia. Caíram em três localidades do sudeste do país — Molodycz, Rudnik nad Sanem e Nowy Lipowiec —, a menos de 50 quilómetros da fronteira ucraniana. Não houve feridos, segundo as autoridades polacas, citadas pela AFP e pelo Diário de Notícias.",
+    "Um dos objetos foi identificado como um míssil de cruzeiro Kh-101 e caiu em Nowy Lipowiec, por volta das 6h30 locais; uma moradora contou à AFP que a casa «toda tremeu». O aeroporto de Rzeszów suspendeu os voos durante algum tempo e a NATO pôs caças no ar. O primeiro-ministro polaco, Donald Tusk, diz ter a certeza de que as armas vieram da Rússia e fala de uma «provocação intencional»: a zona fica perto de onde milhares de soldados europeus fazem exercícios militares, em Nowa Dęba.",
+    "Donald Trump vê as coisas de outra maneira. Numa entrevista por telefone à Fox News, um dia depois de se sentar com Putin na cimeira de Shenzhen, disse que o líder russo tem deixado cair drones e «um par de pequenos mísseis» na Polónia «por engano». Tusk respondeu que nem sempre concorda com a leitura de Washington, que acha demasiado moderada, mas prometeu dar aos EUA acesso aos destroços. O secretário-geral da NATO, Mark Rutte, condenou «graves violações» do espaço aéreo polaco e chamou-lhes «claramente perigosas».",
+    "O que vem a seguir? Tusk pediu a Rutte recomendações para reforçar a defesa do flanco leste da Aliança, e Rutte é esperado em Varsóvia este sábado, segundo a AFP. Na Ucrânia, o ataque da mesma noite matou pelo menos oito pessoas, segundo a AFP (o Kyiv Post fala em nove mortos e 28 feridos) e deixou muitas casas sem luz. Até à publicação da AFP, o Kremlin não tinha comentado."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Localidades, número de objetos, ausência de feridos, declarações de Tusk e de Rutte e voos suspensos em Rzeszów confirmados pela AFP (via Yahoo News, 20 nov.) e pelo Diário de Notícias (20 nov.). Identificação do Kh-101, hora da queda, testemunho da moradora, visita de Rutte a Varsóvia e ausência de comentário do Kremlin segundo a AFP. Declaração de Trump à Fox News segundo o DN e a AFP; não consultámos a entrevista original. Balanço de mortos na Ucrânia diverge: pelo menos oito (AFP) ou nove mortos e 28 feridos (Kyiv Post, autoridades ucranianas). Não consultámos diretamente as Forças Armadas polacas."
+   },
+   "fontes": [
+    {
+     "nome": "AFP via Yahoo News – «Warsaw says Russian missiles hit Poland, denounces 'intentional provocation'» (20 nov.)",
+     "url": "https://www.yahoo.com/news/world/articles/warsaw-says-russian-missiles-hit-143506907.html"
+    },
+    {
+     "nome": "Diário de Notícias – «Trump diz que mísseis russos caíram na Polónia \"por engano\" e contraria Varsóvia» (20 nov.)",
+     "url": "https://www.dn.pt/internacional/trump-diz-que-msseis-russos-caram-na-polnia-por-engano-e-contraria-varsvia"
+    },
+    {
+     "nome": "Kyiv Post – «Zelensky Calls Putin a 'Killer'…» (20 nov.)",
+     "url": "https://www.kyivpost.com/post/90773"
+    }
+   ],
+   "imagem": {
+    "commons": "Russian Kh-101 missile shot in Vinnytsia Oblast, 2023-01-26 (05).jpg",
+    "tipo": "arquivo",
+    "alt": "Destroços de um míssil de cruzeiro russo Kh-101 abatido, caídos num campo na Ucrânia",
+    "legenda": "Restos de um míssil russo Kh-101 abatido na região de Vinnytsia, na Ucrânia, em janeiro de 2023 (imagem de arquivo; não mostra a queda na Polónia)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31 passa do prazo sem acordo: UE ameaça bloquear um texto que esquece os combustíveis fósseis",
+   "estado": "Facto: cimeira prolongada além de 20 nov. · negociações retomadas sábado · terceiro rascunho esperado · sem acordo",
+   "data": "2026-11-20",
+   "texto": [
+    "A cimeira do clima da ONU, a COP31, em Antália, na Turquia, devia ter acabado na sexta-feira, 20 de novembro. Não acabou. Quase 200 países chegaram à sessão de encerramento sem acordo político, e a sessão só aprovou assuntos técnicos. As negociações recomeçam este sábado às 9h00 de Antália (6h00 em Lisboa), segundo a Lusa, e é esperado um terceiro rascunho do texto, segundo a AFP.",
+    "O nó continua a ser o mesmo: o último rascunho deixou cair todas as referências ao abandono do carvão, do petróleo e do gás. A União Europeia diz que assim a cimeira do clima arrisca tornar-se uma «cimeira fóssil». A ministra portuguesa do Ambiente e Energia, Maria da Graça Carvalho, disse à Lusa que a UE bloqueia o acordo se o texto final não voltar a falar de «roteiros» para sair dos combustíveis fósseis — aceitando que cada país siga ao seu ritmo —, se a captura de carbono servir para substituir cortes de emissões e se não voltarem as referências aos direitos humanos e das mulheres, que foram retiradas.",
+    "Há mais frentes abertas. Os países em desenvolvimento acusam os ricos de não cumprirem o que prometeram em dinheiro para o clima; a ministra do Ambiente do Gana disse que África «não veio cá mendigar». O ministro do Ambiente do Panamá, Juan Carlos Navarro, acusou uma «máfia do petróleo» de travar o acordo, e o país ameaçou abandonar as negociações. Uma carta de cerca de uma dúzia de países, da França ao Panamá e às Ilhas Salomão, exige «uma transição clara» para longe dos combustíveis fósseis.",
+    "O presidente da COP31, o ministro turco Murat Kurum, foi interrompido por um manifestante a gritar «Estão a matar o futuro!». O australiano Chris Bowen, que conduz as negociações, promete continuar «o tempo que for preciso». Como resumiu o secretário brasileiro para o clima, Aloisio Lopes Pereira de Melo, «nesta altura, ninguém está contente»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Prolongamento, ausência de acordo e retirada das referências aos combustíveis fósseis confirmados pela Lusa (via Notícias ao Minuto, 20 nov.) e pela AFP (via Business Recorder, 21 nov.). Hora da retoma e exigências da UE segundo Maria da Graça Carvalho, citada pela Lusa. Citações de Kurum, Bowen, Navarro, Gana, Brasil, posição da UE («cimeira fóssil»), carta dos países e terceiro rascunho esperado segundo a AFP. À hora de fecho não havia acordo nem novo texto publicado; não foi possível confirmar a hora prevista do fim."
+   },
+   "fontes": [
+    {
+     "nome": "Notícias ao Minuto / Lusa – «COP31: Impasse mantém-se na sessão de encerramento e negociações vão prosseguir» (20 nov.)",
+     "url": "https://www.noticiasaominuto.com/mundo/3087789/cop31-impasse-mantem-se-na-sessao-de-encerramento-e-negociacoes-vao-prosseguir-atualizada"
+    },
+    {
+     "nome": "Business Recorder / AFP – «Nations row over fossil fuels as COP31 goes into overtime» (21 nov.)",
+     "url": "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime"
+    }
+   ],
+   "imagem": {
+    "commons": "Chris Bowen, COP31 President of Negotiation & Dan Jørgensen, European Commissioner.jpg",
+    "tipo": "arquivo",
+    "alt": "Chris Bowen, que conduz as negociações da COP31, ao lado do comissário europeu Dan Jørgensen",
+    "legenda": "Chris Bowen, que conduz as negociações da COP31, e o comissário europeu Dan Jørgensen (imagem de arquivo; não mostra as negociações deste sábado)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Ucrânia: EUA terão posto em cima da mesa a NATO em troca do Donbass, ou congelar a frente com garantias; Moscovo recusa",
+   "estado": "Notícia do Wall Street Journal com fontes anónimas · propostas em discussão, não acordadas · Rússia rejeita",
+   "data": "2026-11-20",
+   "texto": [
+    "Os enviados de Donald Trump terão discutido dois caminhos para acabar com a guerra na Ucrânia, segundo o Wall Street Journal, num artigo publicado na sexta-feira, 20 de novembro. No primeiro, a Ucrânia entregava à Rússia a parte do Donbass, no leste, que ainda controla e, em troca, entrava de pleno direito na NATO. No segundo, a guerra parava nas linhas atuais da frente e Kiev ficava fora da Aliança, mas com garantias de segurança dos EUA e, possivelmente, de países europeus, num tratado internacional.",
+    "Segundo o jornal, as ideias foram discutidas pelo enviado especial Steve Witkoff e por Jared Kushner, genro de Trump, com ucranianos e europeus — em Abu Dhabi, a 10 e 11 de novembro, e em Dublin, a 12. Um responsável americano, sem nome, disse ao jornal que há várias propostas em análise e que qualquer acordo tem de ser aceite pela Ucrânia e pela Rússia. Uma nota importante: para a Ucrânia entrar na NATO é preciso o «sim» de todos os 32 membros, e não só dos EUA.",
+    "Moscovo já fechou a porta. O vice-ministro dos Negócios Estrangeiros russo, Serguei Riabkov, disse que a Rússia rejeita até uma «quase adesão» da Ucrânia ou uma «solução criativa», segundo o Kyiv Post. E, segundo o Wall Street Journal, os negociadores russos exigiram em Abu Dhabi que Kiev desista de vez da NATO. O presidente ucraniano, Volodymyr Zelensky, tem repetido que não quer ceder território, mas admitiu levar uma proposta a debate público — ou a referendo — se as garantias forem confirmadas.",
+    "O tom entre Kiev e Washington também azedou. Numa entrevista à CNN, Zelensky reagiu a Trump ter chamado «amigo» a Putin na cimeira de Shenzhen: «Para nós, ele é um inimigo» e «um assassino». Disse que, ouvindo isso, Putin não sente pressão suficiente para parar."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Os dois cenários vêm de uma única fonte original, o Wall Street Journal (20 nov.), com fontes anónimas; não consultámos o artigo do WSJ, apenas os relatos do Observador, da Gazeta do Povo e do Kyiv Post, que o citam. Datas e locais das reuniões (Abu Dhabi, 10–11 nov.; Dublin, 12 nov.) e declaração de Riabkov segundo o Kyiv Post. Disponibilidade de Zelensky para referendo segundo a Gazeta do Povo. Citações de Zelensky à CNN segundo o Kyiv Post (20 nov.). A Casa Branca não comentou oficialmente nas fontes consultadas."
+   },
+   "fontes": [
+    {
+     "nome": "Observador – «EUA admitem dois cenários para Ucrânia…» (20 nov.)",
+     "url": "https://observador.pt/2026/11/20/eua-admitem-dois-cenarios-para-ucrania-nato-em-troca-da-cedencia-do-donbass-ou-congelar-linhas-da-frente-com-garantias-de-seguranca/"
+    },
+    {
+     "nome": "Kyiv Post – «US Envoys Discussed NATO Membership for Ukraine if Kyiv Leaves Donbas, Report Says» (20 nov.)",
+     "url": "https://www.kyivpost.com/post/90709"
+    },
+    {
+     "nome": "Gazeta do Povo – «EUA discutem entrada da Ucrânia na Otan em troca de cessão de territórios à Rússia, diz jornal» (20 nov.)",
+     "url": "https://www.gazetadopovo.com.br/mundo/eua-discutem-entrada-da-ucrania-na-otan-em-troca-de-cessao-de-territorios-a-russia-diz-jornal/"
+    },
+    {
+     "nome": "Kyiv Post – «Zelensky Calls Putin a 'Killer', Warns Trump's Friendship Emboldens Russia» (20 nov.)",
+     "url": "https://www.kyivpost.com/post/90773"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Dinamarca acusa a Rússia de planear matar um rapper ucraniano perto de Copenhaga e expulsa o adido militar russo",
+   "estado": "Acusação dos serviços secretos dinamarqueses · dois suspeitos negam · expulsão decidida · suspensão de vistos em estudo",
+   "data": "2026-11-20",
+   "texto": [
+    "A Dinamarca vai expulsar o adido de Defesa da Rússia em Copenhaga. O motivo: os serviços secretos dinamarqueses (PET) suspeitam que a Rússia planeou matar um rapper ucraniano durante um concerto nos arredores da capital. O caso foi tornado público na sexta-feira, 20 de novembro, pelo ministro dos Negócios Estrangeiros, Lars Løkke Rasmussen, que convocou o embaixador russo e lhe deu sete dias para retirar o diplomata.",
+    "Segundo a AFP, a polícia intercetou três pessoas num carro perto do local, pouco antes do concerto, com armas de fogo e facas; o concerto foi cancelado. Dois homens dinamarqueses são suspeitos de tentativa de homicídio e de ajudar um serviço de informações estrangeiro — e negam as acusações. A polícia suspeita que um gangue dinamarquês, proibido desde 2021, ajudou a preparar o ataque. A televisão pública DR identificou o alvo como Kyivstoner, rapper com nacionalidade ucraniana e americana.",
+    "«Os serviços de informações russos tentaram fazer uma execução na Dinamarca», disse o diretor do PET, Rasmus Kieffer-Kristensen. A primeira-ministra, Mette Frederiksen, fala de uma Rússia «encurralada» e mais disposta a correr riscos. E Rasmussen deixou um recado a Moscovo: «Expusemos-vos». A Dinamarca admite suspender os vistos Schengen a cidadãos russos e quer que a UE corte todos os vistos que não sejam essenciais.",
+    "Do lado russo, a porta-voz da diplomacia, Maria Zakharova, prometeu uma «resposta adequada», e a embaixada em Copenhaga chamou «vingativa» à expulsão, dizendo que a Dinamarca não apresentou provas, segundo a AFP. O presidente do Conselho Europeu, António Costa, condenou o plano e prometeu apoio a Copenhaga."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Expulsão do adido, prazo de sete dias, identificação do rapper pela DR, citações de Rasmussen e possível suspensão de vistos confirmadas por dois relatos (AFP, via The Standard e Vanguard, 20 nov.; e TRT World, 20 nov.), mas a TRT pode estar a basear-se no mesmo despacho de agência; tratamos como uma fonte principal (AFP). Interceção do carro, armas, gangue, citações do PET, de Frederiksen, Zakharova, da embaixada e de Costa segundo a AFP. Os suspeitos negarem as acusações segundo a TRT World. A data do concerto não é clara: a TRT indica 25 de setembro, a AFP não a refere; não a confirmámos. Os suspeitos não são nomeados."
+   },
+   "fontes": [
+    {
+     "nome": "The Standard (Hong Kong) / AFP – «Denmark expels Russian diplomat over attempt to kill Ukrainian rapper» (20 nov.)",
+     "url": "https://www.thestandard.com.hk/world/article/349191/Denmark-expels-Russian-diplomat-over-attempt-to-kill-Ukrainian-rapper"
+    },
+    {
+     "nome": "TRT World – «Denmark accuses Russia of plot to kill Ukrainian rapper, expels diplomat» (20 nov.)",
+     "url": "https://www.trtworld.com/article/85678729a815"
+    },
+    {
+     "nome": "Vanguard / AFP – «Denmark expels Russian diplomat over attempt to kill Ukrainian rapper» (20 nov.)",
+     "url": "https://www.vanguardngr.com/2026/11/denmark-expels-russian-diplomat-over-attempt-to-kill-ukrainian-rapper/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Aviso vermelho para Coimbra, Guarda e Viseu: sábado de chuva forte e persistente, com risco de cheias no Norte e Centro",
+   "estado": "Previsão e avisos do IPMA para 21 nov. · alerta da Proteção Civil · cheias possíveis segundo a APA",
+   "data": "2026-11-21",
+   "texto": [
+    "Este sábado, 21 de novembro, é dia de chuva forte e persistente, sobretudo no Norte e no Centro. O Instituto Português do Mar e da Atmosfera (IPMA) pôs os distritos de Coimbra, Guarda e Viseu em aviso vermelho — o nível mais alto — entre as 9h00 e as 18h00. Há aviso laranja em mais oito distritos e amarelo em outros cinco, incluindo Lisboa, segundo a Lusa.",
+    "Em laranja estão Aveiro, Castelo Branco, Leiria e Santarém (das 6h00 às 18h00) e Porto, Braga, Viana do Castelo e Vila Real (a partir das 6h00, voltando a amarelo ao fim da tarde). Lisboa, Setúbal, Portalegre e Évora têm aviso amarelo entre o meio-dia e as 18h00, e Bragança das 6h00 às 18h00. O vento sopra de sul, com rajadas até 85 km/h no litoral e nas serras, e pode nevar nos pontos mais altos da Serra da Estrela.",
+    "E os rios? A Agência Portuguesa do Ambiente (APA) prevê que os caudais subam no Norte e no Centro no sábado e no domingo, com possíveis cheias nos rios Coura (bacia do Minho) e Vez (bacia do Lima); o rio Águeda está em pré-alerta. O distrito da Guarda inclui Manteigas, onde uma enxurrada já deixou desalojados esta semana.",
+    "A Proteção Civil pede que se evitem viagens desnecessárias durante a chuva mais forte, que não se atravessem zonas inundadas nem se estacione em zonas que costumam alagar, garagens subterrâneas ou perto de árvores, e que se limpem sarjetas e se prendam objetos soltos. Convém ter lanternas e telemóveis carregados à mão."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Avisos por distrito e horários, vento, neve e previsões da APA confirmados pela Lusa (via Executive Digest, 20 nov.) e pelo Notícias ao Minuto (21 nov., com base no IPMA e na ANEPC). Recomendações da Proteção Civil segundo a Lusa (Executive Digest). Não consultámos diretamente o site do IPMA; os avisos podem ser revistos ao longo do dia. À hora de fecho não encontrámos balanço de ocorrências da madrugada. A enxurrada de Manteigas foi noticiada na edição de 19 nov."
+   },
+   "fontes": [
+    {
+     "nome": "Executive Digest / Lusa – «IPMA coloca Coimbra, Guarda e Viseu sob aviso vermelho de chuva no sábado» (20 nov.)",
+     "url": "https://executivedigest.sapo.pt/ipma-coloca-coimbra-guarda-e-viseu-sob-aviso-vermelho-de-chuva-no-sabado/"
+    },
+    {
+     "nome": "Notícias ao Minuto – «Coimbra, Guarda e Viseu sob aviso vermelho devido a \"chuva persistente\"» (21 nov.)",
+     "url": "https://www.noticiasaominuto.com/pais/3087839/coimbra-guarda-e-viseu-sob-aviso-vermelho-devido-a-chuva-persistente"
+    }
+   ],
+   "imagem": {
+    "commons": "Coimbra & Mondego (4054792985).jpg",
+    "tipo": "arquivo",
+    "alt": "Vista da cidade de Coimbra, na encosta, com o rio Mondego em primeiro plano",
+    "legenda": "Coimbra e o rio Mondego (imagem de arquivo; não mostra o mau tempo deste sábado)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Orçamento: PS e Chega congelam as propinas contra a vontade do Governo, e a votação final passa para a tarde de terça-feira",
+   "estado": "Facto: congelamento aprovado na especialidade a 20 nov. · mudança de calendário proposta, por formalizar · votação final a 24 nov.",
+   "data": "2026-11-20",
+   "texto": [
+    "As propinas do ensino superior público não vão subir no ano letivo de 2027/2028. A proposta do Chega foi aprovada na sexta-feira, 20 de novembro, com os votos do PS, no terceiro dia de votações do Orçamento do Estado para 2027 na especialidade (a fase em que se vota artigo a artigo). O Governo queria um aumento. Licenciaturas, mestrados, doutoramentos e cursos técnicos superiores (CTeSP) ficam com o valor máximo deste ano.",
+    "Foi um dia mais curto do que o previsto. Por volta das 17h00, o líder parlamentar do Chega, Pedro Pinto, pediu o adiamento de todos os artigos que faltavam, porque o partido começava nesse dia a sua convenção, no Entroncamento. Menos de metade do guião foi votado e todos os outros partidos criticaram. Ainda assim, passaram 42 alterações, 34 delas da oposição — entre elas, o adiantamento de 30% das bolsas de estudo em 2027/2028 e a possibilidade de os emigrantes atualizarem o registo no Serviço Nacional de Saúde nos consulados ou pela internet.",
+    "O calendário vai mudar. A proposta da comissão de Orçamento é começar mais cedo na segunda-feira, 23, com votações que podem ir pela madrugada dentro, e passar a votação final global de terça-feira, 24, da manhã para a tarde. O Governo aceita, disse o deputado do PSD Hugo Carneiro, mas a mudança ainda tem de ser formalizada pelo presidente da Assembleia, José Pedro Aguiar-Branco.",
+    "O clima político continua tenso. O ministro das Finanças, Joaquim Miranda Sarmento, acusou PS e Chega de formarem um «bloco fatal» e um «proto-governo», «totalmente empenhados em que o país tenha défice» em 2027."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Congelamento das propinas, votos de Chega e PS, adiamento pedido pelo Chega, número de alterações aprovadas e propostas de calendário confirmados pela Lusa (via Executive Digest, 20 nov.) e pelo ECO (20 nov.). Aceitação do Governo segundo Hugo Carneiro, citado pelo ECO. Declarações de Miranda Sarmento segundo a Lusa. A contagem detalhada de votos por partido não foi indicada nas fontes. A nova hora da votação final ainda não estava fixada."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Uma convenção, ajustes no calendário e propinas: como foi o terceiro dia de votações do Orçamento» (20 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/20/uma-convencao-ajustes-no-calendario-e-propinas-como-foi-o-terceiro-dia-de-votacoes-do-orcamento/"
+    },
+    {
+     "nome": "Executive Digest / Lusa – «SÍNTESE: OE2027: 3.º dia de votações mais curto devido ao Chega e marcado por congelamento de propinas» (20 nov.)",
+     "url": "https://executivedigest.sapo.pt/sintese-oe2027-3-o-dia-de-votacoes-mais-curto-devido-ao-chega-e-marcado-por-congelamento-de-propinas/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Moody's sobe a nota da dívida portuguesa para A2: confia que a dívida vai continuar a descer",
+   "estado": "Facto: subida de A3 para A2, perspetiva estável, anunciada a 20 nov. · previsões são da agência",
+   "data": "2026-11-20",
+   "texto": [
+    "A agência Moody's subiu na sexta-feira à noite, 20 de novembro, a nota (o «rating») que dá à dívida de Portugal: passou de A3 para A2, com perspetiva estável. É a primeira mudança desde novembro de 2023. Na prática, uma nota mais alta diz aos investidores que emprestar ao país é mais seguro, o que tende a baratear os juros que o Estado paga, segundo a Lusa e o ECO.",
+    "Porquê agora? A Moody's diz ter «maior confiança» de que Portugal vai manter políticas que reduzem o peso da dívida, com um crescimento económico robusto — apesar de um cenário político «mais fragmentado». A agência destaca as reformas do Plano de Recuperação e Resiliência (PRR) e as mudanças na política de imigração. Segundo o ECO, prevê que a dívida desça de 89,2% do Produto Interno Bruto (PIB) em 2025 para 84,3% no fim de 2027, e para menos de 80% em 2029.",
+    "Há riscos, avisa a agência: os custos de financiamento podem subir e a falta de casas pode travar o crescimento. O ministro das Finanças, Joaquim Miranda Sarmento, falou de «mais uma grande vitória de Portugal» e aproveitou para pedir a quem aprova medidas fora do plano do Governo — PS e Chega, no Orçamento — que explique como as vai pagar. O primeiro-ministro, Luís Montenegro, disse que chegar a este nível de confiança é «muito difícil, mas mesmo muito difícil»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Subida de A3 para A2, perspetiva estável e razões apresentadas pela Moody's confirmadas pela Lusa (via Notícias ao Minuto, 20 nov., que cita o comunicado da agência) e pelo ECO (20 nov.). Previsões da dívida e «primeira mudança desde novembro de 2023» segundo o ECO. Reações de Miranda Sarmento e Montenegro segundo o ECO. Não consultámos diretamente o comunicado da Moody's. As fontes divergem na data da última avaliação da DBRS, por isso não a referimos."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Moody's sobe rating de Portugal para A2 com perspetiva estável» (20 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/20/moodys-sobe-rating-de-portugal-para-a2-com-perspetiva-estavel/"
+    },
+    {
+     "nome": "Notícias ao Minuto / Lusa – «Moody's sobe rating de Portugal para \"A2\" com perspetiva estável» (20 nov.)",
+     "url": "https://www.noticiasaominuto.com/pais/3087814/moodys-sobe-rating-de-portugal-para-a2-com-perspetiva-estavel"
+    },
+    {
+     "nome": "ECO – «Ministro das Finanças celebra subida do rating pela Moody's» (20 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/20/ministro-das-financas-celebra-subida-do-rating-pela-moodys-mais-uma-grande-vitoria-de-portugal/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Depois da greve da Função Pública, a CGTP sai à rua em Lisboa; maquinistas da CP param a 24 e 25",
+   "estado": "Manifestação marcada para as 14h30 · adesão à greve segundo os sindicatos · CP com serviços mínimos",
+   "data": "2026-11-21",
+   "texto": [
+    "A CGTP faz esta tarde, sábado, 21 de novembro, uma manifestação nacional em Lisboa. A concentração está marcada para as 14h30 no Saldanha e o desfile segue até aos Restauradores. Sob o lema «Um novo rumo para Portugal», a central sindical pede salários e pensões mais altos, controlo dos preços dos bens essenciais e mais investimento na saúde, na habitação, na educação e na Segurança Social, segundo a Lusa. Os reformados juntam-se a meio, na Avenida da Liberdade.",
+    "O protesto chega um dia depois da greve nacional da Administração Pública. Segundo o coordenador da Frente Comum, Sebastião Santana, a adesão rondou os 90% nas escolas; vários hospitais funcionaram só com serviços mínimos, houve consultas desmarcadas e fecharam serviços de Finanças, Segurança Social e Lojas do Cidadão. Santana disse à Lusa que foi uma das melhores greves dos últimos anos. Estes números são dos sindicatos; o Governo não divulgou dados nas fontes consultadas.",
+    "E não fica por aqui. Na terça-feira, 24, dia da votação final do Orçamento do Estado para 2027, a CGTP convocou uma concentração em frente à Assembleia da República. Nos comboios, o sindicato dos maquinistas (SMAQ) marcou uma paralisação geral de 24 a 25 de novembro, dentro de um pré-aviso que vai de 23 a 27, por isso pode haver perturbações também nos dias à volta. Segundo o Observador, foram fixados serviços mínimos entre 25% e 30% dos comboios."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Hora, percurso, lema e reivindicações da manifestação confirmados pela Lusa (via Notícias ao Minuto, 21 nov.), pela Lusa/Executive Digest (que refere a concentração dos reformados) e pela FENPROF. Adesão à greve de 20 nov. segundo a Frente Comum (Sebastião Santana), citada pela Lusa (Executive Digest, 20 nov.); não há números oficiais nas fontes consultadas. Períodos da greve da CP segundo o pré-aviso do SMAQ (18 nov.); serviços mínimos de 25% a 30% segundo o título do Observador (20 nov.), cuja página não foi aberta (citado). Concentração de 24 nov. segundo a Lusa."
+   },
+   "fontes": [
+    {
+     "nome": "Notícias ao Minuto / Lusa – «Trabalhadores manifestam-se em Lisboa por melhores salários e pensões» (21 nov.)",
+     "url": "https://www.noticiasaominuto.com/pais/3087918/trabalhadores-manifestam-se-em-lisboa-por-melhores-salarios-e-pensoes"
+    },
+    {
+     "nome": "Executive Digest / Lusa – «Depois da greve, a manifestação…» (21 nov.)",
+     "url": "https://executivedigest.sapo.pt/depois-da-greve-a-manifestacao-trabalhadores-saem-este-sabado-a-rua-em-lisboa-por-melhores-salarios-e-pensoes/"
+    },
+    {
+     "nome": "Executive Digest / Lusa – «Greve da função pública ronda os 90% nas escolas e afeta hospitais e serviços, indica Frente Comum» (20 nov.)",
+     "url": "https://executivedigest.sapo.pt/greve-da-funcao-publica-ronda-os-90-nas-escolas-e-afeta-hospitais-e-servicos-frente-comum/"
+    },
+    {
+     "nome": "FENPROF – Greve Nacional da Administração Pública (20/11) e Manifestação Nacional (21/11)",
+     "url": "https://www.fenprof.pt/professores-educadores-e-investigadores-em-luta-greve-nacional-da-administracao-publica-20-11-e-manifestacao-nacional-21-11-14h30-lisboa"
+    },
+    {
+     "nome": "SMAQ – «SMAQ convoca greve na CP entre 23 e 27 de novembro» (18 nov.)",
+     "url": "https://smaq.pt/2026/11/18/smaq-convoca-greve-na-cp-entre-23-e-27-de-novembro/"
+    },
+    {
+     "nome": "Observador – «Greve dos maquinistas da CP para 24 e 25 de novembro vai ter serviços mínimos entre 25% e 30% da oferta» (20 nov., citado)",
+     "url": "https://observador.pt/2026/11/20/greve-dos-maquinistas-da-cp-para-24-e-25-de-novembro-vai-ter-servicos-minimos-entre-25-e-30-da-oferta/"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Dia D para a BepiColombo: sonda europeia e japonesa começa hoje a travar para ficar em órbita de Mercúrio",
+   "estado": "Primeira manobra prevista para hoje, segundo a ESA · hora não divulgada · resultado ainda por confirmar",
+   "data": "2026-11-21",
+   "texto": [
+    "Chegou o dia marcado. A BepiColombo, missão da Agência Espacial Europeia (ESA) e da agência japonesa JAXA, tem prevista para este sábado, 21 de novembro, a primeira manobra para entrar em órbita de Mercúrio, o planeta mais próximo do Sol. Segundo a agência turca Anadolu, que cita a ESA, quatro propulsores da sonda europeia vão ser ligados para a abrandar quando passar perto do polo sul do planeta. Até ao fecho desta edição, nem a ESA nem a JAXA tinham anunciado o resultado, e a hora da manobra não foi divulgada.",
+    "O que muda em relação a ontem? A ESA já tinha explicado, num artigo de julho sobre os ensaios da equipa de controlo, que a entrada em órbita não é um único travão. É «uma sequência de 16 manobras» que se prolonga até março de 2027. Ou seja: hoje começa a «aterragem em órbita», não acaba. «A fase de chegada não é um só acontecimento, mas seis meses cheios de atividades únicas e operações críticas», disse no texto Nacho Clerigo, responsável pelas operações da missão na ESA.",
+    "Primeiro, as duas sondas ficam juntas numa órbita alongada. A 9 e 10 de dezembro, segundo a ESA e a Anadolu, separam-se: a europeia MPO (sigla inglesa de Orbitador Planetário de Mercúrio) vai estudar a superfície e o interior; a japonesa Mio vai estudar o campo magnético e o espaço à volta do planeta. A ciência deverá começar em abril de 2027.",
+    "Se tudo correr como previsto, a BepiColombo será apenas a segunda missão a ficar em órbita de Mercúrio, depois da MESSENGER, da NASA (2011–2015). A viagem começou em outubro de 2018 e incluiu nove passagens por planetas para ir perdendo velocidade."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Data de hoje confirmada pela ESA (artigo de 10 jul. 2026 sobre as simulações: início da inserção a 21 nov., 16 manobras até março de 2027, separação a 9 dez.) e pela Anadolu (20 nov.: quatro propulsores da MPO perto do polo sul, separação a 9–10 dez., ciência em abril de 2027, MESSENGER, nove passagens). O TS2 (17 nov.), com base em documentos da ESA, confirma as 16 manobras. Nenhuma fonte consultada dá a hora; não foi encontrada confirmação do resultado até cerca das 09:00 de Lisboa. A página de atualizações da ESA e uma publicação da ESA no X não puderam ser abertas. A página da imagem no Commons não pôde ser aberta; o ficheiro foi confirmado só nos resultados de pesquisa do Commons."
+   },
+   "fontes": [
+    {
+     "nome": "ESA – «Training while flying: Inside BepiColombo's arrival simulations» (10 jul. 2026)",
+     "url": "https://www.esa.int/Enabling_Support/Operations/Training_while_flying_Inside_BepiColombo_s_arrival_simulations"
+    },
+    {
+     "nome": "Anadolu Agency – BepiColombo prestes a entrar em órbita de Mercúrio (20 nov.)",
+     "url": "https://www.aa.com.tr/en/life/bepicolombo-set-to-enter-mercury-orbit-after-8-year-journey/4132192"
+    },
+    {
+     "nome": "TS2 – BepiColombo aponta à captura por Mercúrio a 21 de novembro (17 nov.)",
+     "url": "https://ts2.tech/en/bepicolombo-targets-november-21-mercury-capture-ahead-of-two-orbiter-science-mission/"
+    }
+   ],
+   "imagem": {
+    "commons": "BepiColombo meets Mercury ESA23493072.png",
+    "tipo": "ilustrativa",
+    "alt": "A sonda BepiColombo junto ao planeta Mercúrio, numa imagem da ESA",
+    "legenda": "BepiColombo e Mercúrio numa imagem da ESA (ilustrativa; não mostra a manobra de hoje)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Shenzhou-24 pronta a partir: China termina último ensaio geral antes de levar o primeiro astronauta estrangeiro à sua estação",
+   "estado": "Último ensaio concluído, segundo a Xinhua (21 nov.) · lançamento previsto para 25 nov., data ainda não oficializada pela China",
+   "data": "2026-11-21",
+   "texto": [
+    "Falta pouco para a China levar pela primeira vez um astronauta estrangeiro à sua estação espacial, a Tiangong. A missão Shenzhou-24 concluiu o último ensaio geral com todas as equipas e a base de lançamento de Jiuquan, no noroeste do país, fez os preparativos finais, segundo a agência oficial chinesa Xinhua, citada pela Chinanews. A nave e o foguetão Long March 2F estão na rampa desde 17 de novembro. A agência espacial tripulada da China (CMSA) ainda não anunciou o dia nem a hora do lançamento.",
+    "Quando parte, então? O ministro do Planeamento do Paquistão, Ahsan Iqbal, disse em outubro que o lançamento estava previsto para 25 de novembro, segundo o Daily Pakistan. O site especializado China in Space aponta para não antes de 25 de novembro, às 08:19 de Pequim (00:19 em Lisboa). As autoridades chinesas não confirmaram estas datas.",
+    "O passageiro especial será um de dois candidatos paquistaneses, os pilotos militares Muhammad Zeeshan Ali e Khurram Daud, que treinam na China desde abril. Ainda não se sabe qual dos dois voa: os nomes da tripulação costumam ser anunciados na véspera. Segundo o Space.com e o Daily Pakistan, o paquistanês deverá ficar cerca de uma semana na estação, a fazer experiências, e regressar na nave Shenzhou-23. Os dois astronautas chineses deverão ficar os habituais seis meses."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Conclusão do último ensaio geral: só a Xinhua (via Chinanews, 21 nov.), sem data do ensaio nem da partida. Rampa a 17 nov. e estada de cerca de uma semana com regresso na Shenzhou-23: Space.com (19 nov.) e China in Space (18 nov.). Data de 25 nov.: declaração do ministro paquistanês citada pelo Daily Pakistan (18 nov.); hora de 08:19 (Pequim) só no China in Space, não oficial. Nomes dos candidatos no China in Space e no Daily Pakistan (que grafa «Khurram Dawood»). Não foi encontrado registo de lançamento até cerca das 09:00 de Lisboa."
+   },
+   "fontes": [
+    {
+     "nome": "Chinanews/Xinhua – Shenzhou-24 conclui o último ensaio geral (21 nov.)",
+     "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735773.shtml"
+    },
+    {
+     "nome": "Space.com – China leva para a rampa o foguetão do 1.º astronauta internacional da Tiangong (19 nov.)",
+     "url": "https://www.space.com/space-exploration/human-spaceflight/china-rolls-out-rocket-for-launch-of-1st-international-astronaut-to-tiangong-space-station-video"
+    },
+    {
+     "nome": "China in Space – China prepara lançamento de astronauta paquistanês na Shenzhou-24 (18 nov.)",
+     "url": "https://www.china-in-space.com/p/china-prepares-to-launch-pakistani"
+    },
+    {
+     "nome": "Daily Pakistan – primeiro astronauta paquistanês parte a 25 de novembro (18 nov.)",
+     "url": "https://en.dailypakistan.com.pk/18-Nov-2026/pakistans-first-astronaut-set-to-enter-into-space-on-november-25"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Psicopata Vitoriana»: Maika Monroe é uma preceptora assassina num terror com humor negro que divide a crítica",
+   "ficha": {
+    "Título original": "Victorian Psycho (2026, Reino Unido e Irlanda)",
+    "Realização": "Zachary Wigon (realizou antes «Sanctuary»)",
+    "Argumento": "Virginia Feito, a partir do seu próprio romance com o mesmo nome",
+    "Elenco": "Maika Monroe, Ruth Wilson, Jason Isaacs, Thomasin McKenzie, Jacobi Jupe, Evie Templeton",
+    "Estreia em Portugal": "19 de novembro de 2026 (terror e comédia; M/16; 102 minutos; distribuição Cinemundo)",
+    "Avaliação": "Críticas divididas: entusiasmo na The Film Stage, reservas na TheWrap, 6 em 10 na /Film, 1,5 em 4 na Tribune News Service e D+ no AV Club"
+   },
+   "texto": [
+    "Chegou às salas portuguesas na quinta-feira, 19 de novembro, «Psicopata Vitoriana», um filme de terror com muito humor negro. Realiza o norte-americano Zachary Wigon e a protagonista é Maika Monroe, no papel de uma preceptora com segredos. O filme estreou-se no Festival de Cannes, em maio. Em Portugal está, por exemplo, no Cinema Fernando Lopes e no Cinemas NOS Amoreiras, em Lisboa, e no Mar Shopping e no Parque Nascente, na zona do Porto.",
+    "A história passa-se em 1858. Winifred Notty chega a uma mansão isolada no norte de Inglaterra para tomar conta dos dois filhos da rica família Pounds, interpretada por Ruth Wilson e Jason Isaacs. Pouco depois, começam a desaparecer criados, e os patrões desconfiam da recém-chegada. É ela quem conta a história, numa narração sarcástica dita diretamente ao espectador. O argumento é de Virginia Feito, que adaptou o seu próprio romance. O resto fica para quem for ao cinema.",
+    "Os pontos fortes, para quem gostou. Há uma coisa em que quase todos os críticos concordam: Maika Monroe. Savina Petkova, da The Film Stage, elogia o sorriso inquietante e a voz sarcástica da atriz, o humor negro «difícil de resistir» e a forma como o filme fala das limitações impostas às mulheres da época sem as explicar demais. Também gosta da câmara agitada e dos ângulos tortos, que imitam a cabeça da protagonista. Chase Hutchinson, da TheWrap, viu o filme em Cannes e compara o trabalho de Monroe ao de Mia Goth em «Pearl».",
+    "Os pontos fracos também são claros. Chris Evangelista, da /Film, dá-lhe 6 em 10: o tom hesita entre o terror e a comédia, a narração é usada em excesso e a crítica social fica à superfície. Katie Walsh, da Tribune News Service, dá 1,5 em 4 e acha que o estilo pesa demais, com tantos movimentos de câmara que cansam, e que a violência não tem motivação clara. Jacob Oller, do AV Club, é o mais duro (D+): as mortes são previsíveis e o filme não tem o ritmo de que uma comédia de terror precisa. Em resumo, segundo a apreciação que resulta das críticas consultadas: uma interpretação central forte, num filme vistoso que nem todos acham assustador ou engraçado."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – Estreias de cinema em Portugal em novembro de 2026",
+     "url": "https://filmspot.pt/estreias/202611/"
+    },
+    {
+     "nome": "filmSPOT – Os filmes da semana: estreias nas salas de cinema (19 de novembro de 2026)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-19-de-novembro-2026-15107/"
+    },
+    {
+     "nome": "filmSPOT – «Psicopata Vitoriana / Victorian Psycho» (2026)",
+     "url": "https://filmspot.pt/filme/victorian-psycho-1379486/"
+    },
+    {
+     "nome": "Cinecartaz (Público) – «Psicopata Vitoriana»",
+     "url": "https://cinecartaz.publico.pt/filme/psicopata-vitoriana-416110"
+    },
+    {
+     "nome": "The Film Stage – crítica de «Victorian Psycho» (Savina Petkova, 12 nov.)",
+     "url": "https://thefilmstage.com/cannes-review-victorian-psycho-is-gothic-horror-with-confidence-and-verve/"
+    },
+    {
+     "nome": "TheWrap – crítica de «Victorian Psycho» em Cannes (Chase Hutchinson, 21 mai.)",
+     "url": "https://www.thewrap.com/creative-content/movies/victorian-psycho-review-maika-monroe-cannes/"
+    },
+    {
+     "nome": "/Film – crítica de «Victorian Psycho» (Chris Evangelista, 12 nov.)",
+     "url": "https://www.slashfilm.com/2313694/victorian-psycho-review-maika-monroe-horror-movie/"
+    },
+    {
+     "nome": "News Tribune / Tribune News Service – crítica de «Victorian Psycho» (Katie Walsh, 15 nov.)",
+     "url": "https://www.newstribune.com/news/2026/nov/15/review-fancy-trappings-cant-hide-emptiness-of/"
+    },
+    {
+     "nome": "AV Club – crítica de «Victorian Psycho» (Jacob Oller, 9 nov.)",
+     "url": "https://www.avclub.com/victorian-psycho-review-maika-monroe-slasher-zachary-wigon"
+    }
+   ],
+   "nota": "Estreia a 19 nov., realizador, elenco principal, duração (102 min), classificação M/16 e distribuidora (Cinemundo) segundo o filmSPOT (lista de estreias de novembro, artigo da semana e ficha do filme); países (Reino Unido e Irlanda), género comédia/terror, ano de 1858 e sinopse confirmados no Cinecartaz. Cinemas citados (Fernando Lopes, NOS Amoreiras, NOS Mar Shopping, NOS Parque Nascente) listados no filmSPOT e no Cinecartaz; o Cinecartaz mostra horários sem indicar o dia, por isso não se confirmaram sessões para hoje, sábado, 21 nov. — convém ver os horários antes de sair. Estreia em Cannes em 2026 segundo a TheWrap e a The Film Stage (nenhuma indica a secção do festival). Mansão no Yorkshire, no norte de Inglaterra, segundo a The Film Stage. Virginia Feito como argumentista e autora do romance segundo o AV Club, a /Film e a TheWrap; «Sanctuary» como filme anterior de Wigon segundo a /Film e a TheWrap. Notas: D+ (AV Club), 6/10 (/Film), 1,5/4 (Tribune News Service, publicada no News Tribune); a TheWrap e a The Film Stage não dão nota. A expressão «difícil de resistir» é tradução livre do jornal de uma ideia da The Film Stage. Não foram encontradas críticas portuguesas. A página da imagem no Commons não pôde ser aberta; o ficheiro surge nos resultados de pesquisa do Commons e a data (junho de 2016) resulta do nome do ficheiro.",
+   "imagem": {
+    "commons": "Maika Monroe June 2016.jpg",
+    "tipo": "arquivo",
+    "alt": "Retrato da atriz Maika Monroe",
+    "legenda": "Maika Monroe, protagonista de «Psicopata Vitoriana», numa fotografia de 2016 (imagem de arquivo; não mostra o filme)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Henry Purcell, o «Orfeu britânico»: morreu há 331 anos, aos 30 e poucos, e deixou a ópera inglesa que ainda hoje se canta",
+   "ficha": {
+    "Nascimento e morte": "1659, em Londres (o dia não é certo; há quem aponte 10 de setembro); 21 de novembro de 1695, em Londres",
+    "Área": "Música (compositor e organista do barroco inglês)",
+    "Obra essencial": "«Dido e Eneias» (1689), «Dioclesian» (1690), «King Arthur» (1691, com John Dryden), «The Fairy-Queen» (1692, a partir de «Sonho de uma Noite de Verão»), odes para a rainha Maria II, música para o funeral da rainha (1695), mais de 100 canções",
+    "Atualidade": "Faz hoje, 21 de novembro, 331 anos que morreu; em 2025, investigadores britânicos encontraram em arquivos municipais música sua até então desconhecida"
+   },
+   "texto": [
+    "Faz hoje 331 anos, a 21 de novembro de 1695, morreu em Londres Henry Purcell, considerado o maior compositor inglês do barroco. Tinha 36 ou 37 anos. Em menos de 20 anos de carreira escreveu música para reis, para igrejas e para o teatro, e deixou «Dido e Eneias», a ópera inglesa mais antiga que continua a subir regularmente aos palcos. Chamaram-lhe o «Orpheus Britannicus», o Orfeu britânico.",
+    "Purcell nasceu em 1659, numa família de músicos ligada à corte. O pai cantava na Capela Real e foi mestre dos meninos do coro da Abadia de Westminster, mas morreu quando Henry tinha cinco anos. O rapaz entrou também para o coro da Capela Real. Em 1673, ainda adolescente, já trabalhava como ajudante do guardião dos instrumentos do rei, e na Abadia afinava o órgão e copiava partituras. Em 1679, com cerca de 20 anos, substituiu o seu professor, John Blow, como organista de Westminster, lugar que manteve até morrer. Escreveu ou arranjou música para as coroações de Jaime II (1685) e de Guilherme III e Maria II (1689).",
+    "O estilo junta duas coisas. De um lado, a tradição da música inglesa mais antiga, com várias vozes entrelaçadas. Do outro, as novidades dos compositores italianos do tempo. O resultado é uma música muito expressiva, que segue o sentido das palavras. «Dido e Eneias» (1689), com libreto de Nahum Tate, foi escrita para uma escola de raparigas em Chelsea, e não para um teatro profissional. Não tem diálogos falados e acaba com o famoso «Lamento de Dido» («When I am laid in earth»), construído sobre uma linha de baixo que se repete e desce aos poucos. Seguiram-se obras grandes para o teatro, como «King Arthur» (1691), com o poeta John Dryden, e «The Fairy-Queen» (1692), inspirada em «Sonho de uma Noite de Verão», de Shakespeare.",
+    "Algumas curiosidades. No funeral, a 26 de novembro de 1695, tocaram-se as marchas fúnebres que ele próprio tinha escrito meses antes para o funeral da rainha Maria. Foi enterrado na Abadia de Westminster, junto ao lugar onde então estava o órgão, e a viúva não pagou a cerimónia. Deixou por acabar «The Indian Queen», terminada pelo irmão, Daniel. E a história ainda não acabou: em 2025, investigadores da Royal Holloway, Universidade de Londres, encontraram uma canção desconhecida no meio de mandados judiciais num arquivo do Worcestershire e, num arquivo do Norfolk, um caderno de música para tecla com três peças escritas pela mão de Purcell — o primeiro autógrafo seu descoberto em mais de 30 anos."
+   ],
+   "fontes": [
+    {
+     "nome": "Encyclopaedia Britannica – Henry Purcell",
+     "url": "https://www.britannica.com/biography/Henry-Purcell"
+    },
+    {
+     "nome": "Abadia de Westminster – Henry Purcell & family",
+     "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/henry-purcell-family"
+    },
+    {
+     "nome": "English National Opera – Henry Purcell",
+     "url": "https://www.eno.org/?p=251851"
+    },
+    {
+     "nome": "Classic FM – Henry Purcell",
+     "url": "https://classicfm.com/composers/purcell"
+    },
+    {
+     "nome": "Royal Holloway, Universidade de Londres – investigadores encontram mais música de Henry Purcell (10 out. 2025)",
+     "url": "https://www.royalholloway.ac.uk/research-and-education/subjects/music/news/almost-unheard-of-royal-holloway-researchers-find-more-music-by-english-composer-henry-purcell"
+    }
+   ],
+   "nota": "Morte a 21 nov. 1695 em Londres segundo a Britannica, a Abadia de Westminster, a ENO e a Classic FM. Nascimento: a Britannica indica «c. 1659»; a ENO dá 10 de setembro de 1659 — por isso a ficha diz que o dia não é certo. Idade: a Abadia diz 37 anos; com nascimento em setembro de 1659 seriam 36, daí «36 ou 37». Pai na Capela Real, formação como corista, ajudante de John Hingston em 1673, trabalho no órgão de Westminster (1674–78), organista da Abadia em 1679 sucedendo a John Blow, obras e datas (Dido 1689 com Nahum Tate para uma escola de raparigas em Chelsea; Dioclesian 1690; King Arthur 1691; Fairy-Queen 1692), mais de 100 canções, estilo inglês com influência italiana e «The Indian Queen» terminada pelo irmão Daniel segundo a Britannica. «Orpheus Britannicus», morte do pai quando tinha cinco anos, base de Sonho de uma Noite de Verão e John Dryden em King Arthur segundo a Classic FM. «Ópera inglesa mais antiga ainda representada regularmente», ausência de diálogo falado e baixo cromático do Lamento segundo a ENO (a ENO data a estreia de Dido «por volta de 1688»; a Britannica, 1689). Pai mestre do coro da Abadia, coroações de 1685 e 1689, funeral a 26 nov. 1695 com a música para a rainha Maria, sepultura junto ao órgão e cerimónia sem custos para a viúva segundo a Abadia de Westminster. Descobertas de 2025 segundo a Royal Holloway. Que John Blow foi professor de Purcell e que a linha do baixo do Lamento «desce aos poucos» é conhecimento geral, não confirmado nas fontes abertas hoje. Não foi encontrada nenhuma exposição ou concerto atual em Portugal ligado à data. A página da imagem no Commons não pôde ser aberta; o ficheiro surge nos resultados de pesquisa do Commons e a autoria (John Closterman) resulta do nome do ficheiro; o retrato é do século XVII, em domínio público.",
+   "imagem": {
+    "commons": "Henry Purcell by John Closterman.jpg",
+    "tipo": "obra",
+    "alt": "Retrato pintado de Henry Purcell, jovem, de cabeleira comprida e lenço branco ao pescoço",
+    "legenda": "Henry Purcell num retrato atribuído ao pintor John Closterman (século XVII)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que, quando um teatro fecha à noite, fica sempre uma lâmpada acesa sozinha no meio do palco — e que há quem diga que é para os fantasmas?",
+   "texto": [
+    "Sabias que em muitos teatros, quando o último técnico sai, fica uma lâmpada acesa no palco vazio? Chama-se «ghost light», a «luz dos fantasmas». É normalmente uma lâmpada simples, sem abajur, presa no alto de um suporte com rodas. Fica ligada a noite toda e é a única luz da sala. Usa-se em teatros de bairro e nas grandes salas da Broadway, em Nova Iorque.",
+    "A razão mais provável é prática. Uma sala de espetáculos não tem janelas e, com tudo apagado, fica escura como breu. Ora, à frente de muitos palcos há o fosso da orquestra, que pode ter uns três metros de profundidade. Há também cenários, cabos e alçapões. A lâmpada evita que quem entra de manhã, ou a meio da noite, tropece ou caia do palco. E gasta muito menos do que deixar acesas as luzes da sala. Conta-se que tudo começou quando um ladrão caiu de um palco às escuras, partiu uma perna e processou o teatro — mas é uma lenda que ninguém conseguiu provar.",
+    "Depois, há a superstição. A gente do teatro tem fama de supersticiosa, e muitos acreditam que as salas estão cheias de fantasmas de antigos atores. A luz serviria para os afastar, para os acalmar ou simplesmente para lhes fazer companhia. Outra explicação vem da história: segundo o investigador James Fisher, o costume terá nascido no tempo da iluminação a gás, no século XIX, quando se deixava uma chama baixa acesa para aliviar a pressão nas válvulas. O Oxford English Dictionary regista a expressão «ghost light» desde 1849.",
+    "E há mais. Assobiar nos bastidores dá azar. A explicação é curiosa: no século XVII, antes da eletricidade, os pontos — os antepassados dos atuais diretores de cena — usavam apitos e sinos para dar as deixas aos maquinistas. Muitos destes eram homens do mar, habituados a cordas, nós e roldanas, e comunicavam à maneira dos navios, com assobios. Um assobio fora de hora podia fazer cair um cenário. Em 2020, quando a pandemia fechou os teatros durante meses, a lâmpada solitária no palco tornou-se um símbolo: a promessa de que as luzes voltariam a acender-se."
+   ],
+   "fontes": [
+    {
+     "nome": "Atlas Obscura – The Story Behind the Ritual that Still Haunts Broadway",
+     "url": "https://atlasobscura.com/articles/the-story-behind-the-ritual-that-still-haunts-broadway"
+    },
+    {
+     "nome": "Backstage – Haunted or Helpful? 3 Reasons Why Theaters Keep a Ghost Light",
+     "url": "https://www.backstage.com/magazine/article/why-theaters-keep-a-ghost-light-78277/"
+    },
+    {
+     "nome": "Shakespeare Theatre Company (Washington) – Feeling Superstitious: Ghost Lights and Whistling Backstage",
+     "url": "https://www.shakespearetheatre.org/watch-listen/feeling-superstitious-ghost-lights-and-whistling-backstage/"
+    }
+   ],
+   "nota": "Descrição da lâmpada, fosso da orquestra com cerca de dez pés (uns três metros), fantasmas de antigos atores, explicação de James Fisher sobre a iluminação a gás e lenda do ladrão segundo a Atlas Obscura. Data de 1849 no Oxford English Dictionary, segurança como razão mais provável, menor consumo de energia, lenda do ladrão tratada como duvidosa, uso da Broadway aos teatros pequenos e símbolo na pandemia segundo a Backstage (que cita o «Historical Dictionary of the American Theater», de James Fisher). Origem do tabu do assobio no século XVII, apitos e sinos dos pontos, maquinistas vindos do trabalho no mar e símbolo de esperança na pandemia segundo a Shakespeare Theatre Company. A referência a cenários, cabos e alçapões junta a menção da Shakespeare Theatre Company a buracos e peças de cenário. A ligação da iluminação a gás ao século XIX e o ano de 2020 para o fecho dos teatros são conhecimento geral. Nenhuma das fontes indica autor ou data. A página da imagem no Commons não pôde ser aberta; o ficheiro surge nos resultados de pesquisa do Commons e o que mostra resulta do nome do ficheiro.",
+   "imagem": {
+    "commons": "Ghost Light on Stage.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Lâmpada acesa num suporte, sozinha num palco às escuras",
+    "legenda": "Uma «ghost light» acesa num palco vazio (imagem ilustrativa)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Chapitô: há mais de 40 anos que uma antiga cadeia junto ao Castelo de São Jorge ensina circo e usa a arte para dar outra oportunidade a jovens",
+   "ficha": {
+    "Origem": "Nasce do trabalho de animação com circo feito em Lisboa depois do 25 de Abril de 1974; a associação que o sustenta, a Colectividade Cultural e Recreativa de Santa Catarina, foi constituída em 1981; fundadora: Teresa Ricou, a primeira mulher palhaço portuguesa",
+    "Onde": "Costa do Castelo, em Lisboa, num edifício que foi prisão de mulheres (ali desde 1986, por protocolo com o Ministério da Justiça)",
+    "Área": "Circo, teatro físico e comédia, formação artística, ação social",
+    "Participantes": "Alunos da Escola Profissional de Artes e Ofícios do Espetáculo (EPAOE), a Companhia do Chapitô (criada em 1996), jovens dos centros educativos, grupos seniores, artistas e público"
+   },
+   "texto": [
+    "Quem sobe a colina do Castelo de São Jorge, em Lisboa, passa quase de certeza pelo Chapitô, na Costa do Castelo. Por fora é um edifício antigo, que já foi uma prisão de mulheres. Por dentro há uma escola de circo, uma companhia de teatro, salas de espetáculo, um restaurante com vista sobre a cidade e um centro comunitário. Há mais de 40 anos que o projeto junta arte, ensino e ação social.",
+    "Tudo começou com uma mulher e uma carrinha. Teresa Ricou, conhecida como Tété e apontada como a primeira mulher palhaço em Portugal, andou pela Europa e por África antes de se fixar em Lisboa. Nos anos que se seguiram ao 25 de Abril de 1974, ela e outros animadores levaram o circo às ruas e aos bairros. Em 1981 foi constituída a associação que dá suporte ao projeto, a Colectividade Cultural e Recreativa de Santa Catarina. A primeira escola de circo funcionou no Bairro Alto, onde, com a Santa Casa da Misericórdia, se trabalhou durante quatro anos com jovens e idosos. Em 1986 o Chapitô mudou-se para a Costa do Castelo, por acordo com o Ministério da Justiça.",
+    "A proposta tem várias pernas. Uma é a formação: a Escola Profissional de Artes e Ofícios do Espetáculo dá cursos de Artes do Circo e de Ofícios Circenses, e há cursos ao fim da tarde para quem quer aprender sem ser profissional. Outra é a criação: a Companhia do Chapitô, fundada em 1996, faz espetáculos de comédia muito físicos, criados em grupo a partir da improvisação, muitas vezes a partir de clássicos — já fez «Macbeth», «A Tempestade» ou um «Édipo» em versão cómica, com encenação do britânico John Mowat. A terceira é a ação social, com um centro comunitário, atividades para crianças e um grupo sénior, a Trupe Sénior.",
+    "Porque é que é importante? Desde os primeiros anos, o Chapitô trabalha com jovens que estão sob a tutela dos tribunais, nos centros educativos da Bela Vista e Navarro de Paiva, em Lisboa. Usar o circo para a reinserção social foi, segundo a própria instituição, uma experiência pioneira, e a colaboração já dura há mais de quatro décadas. Em 2017, Teresa Ricou contava que passavam por ali cerca de 400 jovens por dia. Muitos dos artistas de circo portugueses fizeram ali a sua formação: o primeiro curso, em 1987–88, formou a primeira geração de profissionais da área no país, segundo o Chapitô."
+   ],
+   "fontes": [
+    {
+     "nome": "Chapitô – A História",
+     "url": "https://chapito.org/o-chapito/a-historia/"
+    },
+    {
+     "nome": "Chapitô – página principal",
+     "url": "https://chapito.org/"
+    },
+    {
+     "nome": "Visit Lisboa – Teresa Ricou",
+     "url": "https://www.visitlisboa.com/en/p/my-city/teresa-ricou"
+    },
+    {
+     "nome": "Notícias ao Minuto – entrevista a Teresa Ricou (17 mar. 2017)",
+     "url": "https://www.noticiasaominuto.com/vozes-ao-minuto/744023/teresa-ricou"
+    },
+    {
+     "nome": "Sceneweb – Companhia do Chapitô",
+     "url": "https://sceneweb.no/en/organisation/4108/Companhia_do%20Chapit%C3%B4"
+    },
+    {
+     "nome": "Teatro Viriato – «Édipo», Companhia do Chapitô",
+     "url": "https://www.teatroviriato.com/en/what-s-on/spectacle/edipo"
+    }
+   ],
+   "nota": "Origem no trabalho de animação depois do 25 de Abril, constituição da Colectividade Cultural e Recreativa de Santa Catarina em 1981, escola de circo no Bairro Alto e trabalho de quatro anos com a Santa Casa, mudança para a Costa do Castelo em 1986 por protocolo com o Ministério da Justiça, primeiro curso de 1987–88, trabalho com jovens sob tutela nos centros educativos da Bela Vista e Navarro de Paiva, «experiência pioneira» e relação com mais de quatro décadas segundo a página «A História» do Chapitô (que não nomeia a fundadora). Cursos de Artes do Circo e Ofícios Circenses na EPAOE, cursos de fim de tarde, centro comunitário, ATL, Trupe Sénior e restaurante segundo a página principal do Chapitô (atualizada a 29 set. 2026; não mostra programação de novembro). Viagens por África e Europa, carrinha, edifício da antiga prisão de mulheres na colina do Castelo segundo o Visit Lisboa. Teresa Ricou como fundadora, «primeira mulher palhaço portuguesa», alcunha (grafada «Teté» no artigo; «Tété» é a grafia corrente) e cerca de 400 jovens por dia segundo o Notícias ao Minuto (2017; o número pode ter mudado). Companhia fundada em 1996, criação coletiva a partir da improvisação, comédia e «Macbeth» (2013) e «A Tempestade» (2010) segundo o Sceneweb; «Édipo» com encenação de John Mowat segundo o Teatro Viriato. Que «muitos artistas de circo portugueses» se formaram no Chapitô é uma generalização a partir da própria instituição, não verificada de forma independente. A nacionalidade britânica de John Mowat é conhecimento geral, não confirmada nas fontes abertas hoje. A Infopédia não pôde ser aberta. A página da imagem no Commons não pôde ser aberta; o ficheiro surge nos resultados de pesquisa do Commons e o que mostra resulta do nome do ficheiro.",
+   "imagem": {
+    "commons": "16 Porta de Alfofa - Junto ao Chapitô.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Arco de pedra da antiga Porta de Alfofa, numa rua da colina do Castelo, em Lisboa",
+    "legenda": "A Porta de Alfofa, na colina do Castelo de São Jorge, ao lado do Chapitô (imagem ilustrativa; não mostra as atividades do Chapitô)"
+   }
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos na manhã de 21 de novembro na agenda e nas páginas de evento da Casa da Música, na agenda e nas páginas de atividade de Serralves (incluindo «Visitar Serralves»), na Agenda Porto (Câmara do Porto: destaques, Rivoli, Galeria Municipal e o ciclo do Porto/Post/Doc), no site do Batalha, na página inicial do Porto/Post/Doc e na Time Out Porto. Não foi possível abrir hoje o programa diário e a bilheteira do Porto/Post/Doc, a maior parte das páginas de sessão do festival na Agenda Porto, nem os sites do Teatro Municipal do Porto, do TNSJ, do Coliseu e do Hard Club; por isso, os preços das sessões do festival ficam, quase sempre, por confirmar (o Batalha indica 4 € a 5 € para sessões de festivais) e não se repete a curta «Masao Adachi Tira uma Foto Tipo Passe», cuja sala e hora aparecem hoje de forma diferente da de ontem. Estão esgotados, segundo a Casa da Música, Rodrigo Leão (segunda, 23, e terça, 24, às 21:00) e os Solistas do Remix Ensemble no Palácio da Bolsa (segunda, 23); a sessão de Rodrigo Leão de terça às 18:30 ainda não aparece como esgotada. Nenhuma das fontes consultadas indica cancelamentos para estes dias. Onde se lê «Por confirmar», o dado não estava na fonte: convém confirmar na ligação antes de sair.",
+ "agenda": [
+  {
+   "dia": "2026-11-21",
+   "eventos": [
+    {
+     "nome": "Ciência em Família: As Cores Secretas do Outono",
+     "descricao": "Oficina no Parque de Serralves para descobrir porque é que as folhas mudam de cor no outono, a olhar para as árvores e a fazer experiências em família.",
+     "horario": "15:00",
+     "tipo": "Família",
+     "local": "Parque de Serralves (ponto de encontro: bilheteira exterior), Rua D. João de Castro, 210, Porto",
+     "preco": "Bilhete Família: 12 € por adulto residente (15 € não residentes); crianças até 12 anos grátis",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2111-ciencia-em-familia-or-as-cores-secretas-do-outono/",
+     "ligacao": "Serralves",
+     "nota": "A partir dos 5 anos; máximo de 20 participantes. Data, hora, ponto de encontro, preços e descontos (50% para Amigos de Serralves, até aos 18 e a partir dos 65) confirmados de novo hoje na página de Serralves, que hoje não descreve a forma de inscrição: convém reservar antes. Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "Maguy Marin: Repertório(s)",
+     "descricao": "Conversa sobre o percurso da coreógrafa francesa Maguy Marin, que participa por videoconferência, com a coreógrafa brasileira Lia Rodrigues e moderação de Maria José Fazenda.",
+     "horario": "16:00",
+     "tipo": "Dança / Conversa",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2111-maguy-marin-repertorios/",
+     "ligacao": "Serralves",
+     "nota": "Integra o Foco Maguy Marin, de Serralves. Em francês, com tradução simultânea para português. Data, hora, local e acesso gratuito confirmados hoje na página de Serralves, que não diz se é preciso levantar bilhete; o site do TNSJ não foi consultado."
+    },
+    {
+     "nome": "The Brotherhood, de Carolina Bianchi Y Cara de Cavalo",
+     "descricao": "Segundo capítulo da trilogia «Cadela Força», sobre os pactos de fraternidade masculina e a forma como os seus códigos perpetuaram a violência sexual, incluindo na história da arte.",
+     "horario": "17:00",
+     "tipo": "Teatro",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "12 €",
+     "url": "https://www.agenda-porto.pt/en/evento/tmp-the-brotherhood/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/18; aborda violação e violência sexual. Data, hora (última sessão) e preço confirmados de novo hoje na Agenda Porto, sem indicação de esgotado; a duração (3h40 com intervalo) vem do site do Teatro Municipal, consultado a 18 de novembro (não abriu hoje). Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "Sinfonia Órgão – Orquestra Sinfónica do Porto Casa da Música",
+     "descricao": "Stefan Blunier dirige «Soir de fête», de Chausson, «Les Préludes», de Liszt, e a Sinfonia n.º 3, «Órgão», de Saint-Saëns, com Jonathan Ayerst ao órgão.",
+     "horario": "18:00",
+     "tipo": "Música clássica",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "26 € a 30 €",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Data, hora, sala e preços confirmados de novo hoje na agenda da Casa da Música, sem indicação de esgotado; programa e intérpretes confirmados a 18 e 19 de novembro na mesma fonte. Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Tudo é Prisão», de Eloy Enciso",
+     "descricao": "Filme da Competição Internacional: uma artista espanhola que vive em Berlim percorre Espanha à procura dos lugares dos campos de concentração franquistas, e a pesquisa acaba por se misturar com a herança e a memória da família.",
+     "horario": "21:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "5 €",
+     "url": "https://www.agenda-porto.pt/en/evento/ppd-tudo-e-prisao/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12. Data, hora, local e preço confirmados hoje na Agenda Porto, que não indica a sala (ontem, o site do festival indicava a Sala 1 e 109 minutos). Segunda sessão no domingo, 22, às 16:00, no mesmo cinema. Evento repetido da edição de ontem (onde aparecia com o título original, «Todo es cárcel»)."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-22",
+   "eventos": [
+    {
+     "nome": "Café com Nata: Solistas da Orquestra Sinfónica",
+     "descricao": "Concerto de domingo de manhã com o oboé em destaque: Mozart, Britten e Kodály, com café e pastel de nata incluídos.",
+     "horario": "11:00",
+     "tipo": "Música clássica",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "14 €",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Data, hora, sala e preço confirmados de novo hoje na agenda da Casa da Música, sem indicação de esgotado; programa e intérpretes confirmados a 19 de novembro na mesma fonte. Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "Singspiele, de Maguy Marin, com David Mambouch",
+     "descricao": "Solo em que o intérprete atravessa o palco a mudar de rosto e de personagem, a questionar identidade, aparência e os códigos de género. Fecha o Foco Maguy Marin.",
+     "horario": "16:00 e 19:00",
+     "tipo": "Dança / Performance",
+     "local": "Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "7,50 € (3,75 € para estudantes e jovens, maiores de 64 e Amigos de Serralves)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2211-singspiele/",
+     "ligacao": "Serralves",
+     "nota": "1h. Data, horas, sala e preços confirmados de novo hoje na página de Serralves, com ligação para compra de bilhetes; não indica quantos lugares restam. Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "«A Cara Que Mereces», de Miguel Gomes",
+     "descricao": "A primeira longa-metragem de Miguel Gomes, de 2004, volta ao ecrã na retrospetiva que Serralves dedica ao realizador de «Tabu» e «Grand Tour».",
+     "horario": "17:00",
+     "tipo": "Cinema",
+     "local": "Casa do Cinema Manoel de Oliveira, Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2211-a-cara-que-mereces/",
+     "ligacao": "Serralves",
+     "nota": "108 minutos. Data, hora e local confirmados hoje na página de Serralves, que só mostra os preços reduzidos (3 € para estudantes e jovens; 1,50 € para maiores de 64 e Amigos de Serralves), sem o preço normal nem a classificação etária."
+    },
+    {
+     "nome": "Vincent Peirani – «Time Reflections» (Misty Fest)",
+     "descricao": "O acordeonista francês apresenta a quarta parte do projeto «Living Being», feita durante a pandemia, com batidas atuais, ecos de danças tradicionais e toques barrocos; Émile Parisien toca saxofone soprano.",
+     "horario": "21:00",
+     "tipo": "Jazz",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "25 €",
+     "url": "https://casadamusica.com/en/event/vincent-peirani-2/?selected_session=49430",
+     "ligacao": "Casa da Música",
+     "nota": "M/6; desconto de 25% para Amigos da Casa da Música. Data, hora, sala, preço e músicos confirmados hoje na página do concerto, sem indicação de esgotado. Às 21:30, na Sala Suggia, a Orquestra Jazz de Matosinhos toca «Jazz in the Space Age», de George Russell (26 € a 30 €, sem indicação de esgotado)."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-23",
+   "eventos": [
+    {
+     "nome": "Alice Neel: Beautifully Imperfect",
+     "descricao": "Retrospetiva da pintora norte-americana Alice Neel (1900–1984), conhecida pelos retratos de vizinhos, amigos e figuras da Nova Iorque do século XX.",
+     "horario": "Por confirmar",
+     "tipo": "Exposição",
+     "local": "Museu de Serralves (Ala Álvaro Siza), Rua D. João de Castro, 210, Porto",
+     "preco": "Bilhete geral 24 € (20 € para residentes, na bilheteira); bilhete Fim de Tarde, de segunda a quinta a partir das 17:00, 15 € (12 € residentes); grátis até aos 12 anos",
+     "url": "https://www.serralves.pt/en/ciclo-serralves/2607-alice-neel/",
+     "ligacao": "Serralves",
+     "nota": "Fica até 17 de janeiro de 2027. Datas e local confirmados de novo hoje na página da exposição; preços e descontos (50% dos 12 aos 17 anos, estudantes e maiores de 65) na página «Visitar Serralves», que continua sem mostrar o horário de inverno. O bilhete Fim de Tarde (de segunda a quinta, a partir das 17:00, última entrada às 18:00) indica que o museu abre à segunda-feira. Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Yalda, a Noite do Perdão», de Massoud Bakhshi",
+     "descricao": "Sessão especial com o filme iraniano sobre uma jovem condenada à morte que vai a um programa de televisão em direto pedir perdão à filha do homem de cuja morte é acusada.",
+     "horario": "19:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Integra as Sessões Especiais do festival. Data, hora e local confirmados hoje na página do ciclo na Agenda Porto; não foi possível abrir a página da sessão nem o programa do festival, por isso faltam o preço (o Batalha indica 4 € a 5 € para sessões de festivais), a sala e a classificação etária. A sinopse não vem da fonte consultada."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Paisagens de Resistência», de Marta Popivoda",
+     "descricao": "Documentário sobre Sonja, antiga resistente antifascista jugoslava e sobrevivente de Auschwitz, que recorda a luta e os lugares por onde passou.",
+     "horario": "21:30",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Integra a secção Working Class Heroes. Data, hora e local confirmados hoje na página do ciclo na Agenda Porto; não foi possível abrir a página da sessão nem o programa do festival, por isso faltam o preço (o Batalha indica 4 € a 5 € para sessões de festivais), a sala e a classificação etária. A sinopse não vem da fonte consultada."
+    },
+    {
+     "nome": "Rodrigo Leão – «Alma Mater», 26 anos (Misty Fest)",
+     "descricao": "Rodrigo Leão revisita o disco «Alma Mater» com ensemble instrumental, coro e convidados; abre a noite o acordeonista Gabriel Gomes, com o primeiro disco a solo, «Uma História Assim».",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "25 € a 40 € (esgotado)",
+     "url": "https://casadamusica.com/en/event/rodrigo-leao-4/?selected_session=60241",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala, preços e lotação esgotada confirmados de novo hoje na Casa da Música. Ver também a sessão de terça, 24, às 18:30, ainda sem indicação de esgotado. Evento repetido da edição de ontem."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-24",
+   "eventos": [
+    {
+     "nome": "Sobre um filme, sobre um poema III",
+     "descricao": "Exposição comissariada por Regina Guimarães que põe dez poetas a dialogar com dez filmes realizados por mulheres.",
+     "horario": "11:00–20:00",
+     "tipo": "Exposição",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto (Foyers 1 e 2)",
+     "preco": "Entrada gratuita",
+     "url": "https://www.batalhacentrodecinema.pt/en/programmes/sobre-um-filme-sobre-um-poema-iii/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "Fica até 7 de fevereiro de 2027. Datas, local e entrada livre confirmados hoje no site do Batalha; o horário é o de terça-feira do edifício, indicado na página «Horários e acessos» do mesmo site."
+    },
+    {
+     "nome": "Porto/Post/Doc: conversa «Documentário e Inteligência Artificial», com Jorge Caballero",
+     "descricao": "O realizador Jorge Caballero conversa sobre o que muda no cinema documental com a chegada da inteligência artificial.",
+     "horario": "15:30",
+     "tipo": "Conversa / Cinema",
+     "local": "Teatro Rivoli, Praça D. João I, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.agenda-porto.pt/en/local/rivoli-theatre/",
+     "ligacao": "Agenda Porto",
+     "nota": "Data e entrada livre confirmadas hoje na página do Rivoli na Agenda Porto; a hora vem da página do ciclo do festival na mesma fonte. Não foi possível abrir a página do evento, por isso falta saber a sala, a língua e se é preciso levantar bilhete."
+    },
+    {
+     "nome": "Rodrigo Leão – «Alma Mater», 26 anos (Misty Fest)",
+     "descricao": "Sessão de fim de tarde do concerto em que Rodrigo Leão revisita o disco «Alma Mater» com ensemble instrumental, coro e convidados.",
+     "horario": "18:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "25 € a 40 €",
+     "url": "https://casadamusica.com/en/event/rodrigo-leao-4/?selected_session=60241",
+     "ligacao": "Casa da Música",
+     "nota": "M/6; desconto de 25% para Amigos. Data, hora, sala e preços (40 € filas A–D, 35 € E–K, 30 € L–YY, 25 € camarote e coro) confirmados hoje na Casa da Música, sem indicação de esgotado. A sessão das 21:00 do mesmo dia está esgotada; a página só anuncia a primeira parte de Gabriel Gomes nas sessões das 21:00."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Cartas da Guerra», de Ivo M. Ferreira",
+     "descricao": "Filme a preto e branco feito a partir das cartas que António Lobo Antunes escreveu à mulher quando era médico militar na guerra colonial em Angola.",
+     "horario": "19:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Integra a secção Working Class Heroes. Data, hora e local confirmados hoje na página do ciclo na Agenda Porto; não foi possível abrir a página da sessão nem o programa do festival, por isso faltam o preço (o Batalha indica 4 € a 5 € para sessões de festivais), a sala e a classificação etária. A sinopse não vem da fonte consultada."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Dois mísseis e um drone russos caíram no sudeste da Polónia durante um ataque à Ucrânia, sem feridos; Tusk fala em «provocação intencional» e Trump diz que foi «por engano».",
+   "noticia": 9
+  },
+  {
+   "texto": "O IPMA pôs Coimbra, Guarda e Viseu em aviso vermelho de chuva entre as 9h e as 18h deste sábado, com risco de cheias em rios do Norte e do Centro.",
+   "noticia": 13
+  },
+  {
+   "texto": "A COP31 passou do prazo sem acordo: o rascunho deixou de falar em combustíveis fósseis e a UE ameaça bloqueá-lo; as negociações recomeçam este sábado.",
+   "noticia": 10
+  },
+  {
+   "texto": "No Orçamento para 2027, PS e Chega congelaram as propinas contra a vontade do Governo; a votação final deve passar para a tarde de terça-feira, 24.",
+   "noticia": 14
+  },
+  {
+   "texto": "A Moody's subiu a nota da dívida portuguesa de A3 para A2, com perspetiva estável, por confiar que a dívida vai continuar a descer.",
+   "noticia": 15
+  },
+  {
+   "texto": "A BepiColombo, da ESA e da JAXA, começa hoje a primeira de 16 manobras para ficar em órbita de Mercúrio; a hora não foi divulgada e o resultado ainda não está confirmado.",
+   "noticia": 17
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Sábado, 21 nov.",
+   "texto": "Aviso vermelho de chuva em Coimbra, Guarda e Viseu (9h–18h). Em Lisboa, manifestação da CGTP às 14h30, do Saldanha aos Restauradores. Na COP31, espera-se um terceiro rascunho.",
+   "noticia": 13
+  },
+  {
+   "quando": "Segunda, 23 nov.",
+   "texto": "Últimas votações do Orçamento na especialidade, que devem começar mais cedo e podem entrar pela madrugada. Começa o pré-aviso de greve dos maquinistas da CP.",
+   "noticia": 14
+  },
+  {
+   "quando": "Terça, 24 nov.",
+   "texto": "Votação final global do Orçamento para 2027, prevista para a tarde, com concentração da CGTP em frente ao Parlamento. Maquinistas da CP em paralisação geral a 24 e 25.",
+   "noticia": 16
+  },
+  {
+   "quando": "Quarta, 25 nov.",
+   "texto": "Lançamento da Shenzhou-24, com o primeiro astronauta estrangeiro rumo à estação chinesa, previsto para esta data sem confirmação oficial da China.",
+   "noticia": 18
+  }
+ ],
+ "linkedin_abertura": "Dois mísseis e um drone russos caíram na Polónia durante um ataque à Ucrânia: Varsóvia fala em «provocação intencional»; Trump diz que foi «por engano»."
+}

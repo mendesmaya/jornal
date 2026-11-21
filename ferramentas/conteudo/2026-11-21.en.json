@@ -1,0 +1,1024 @@
+{
+ "data": "2026-11-21",
+ "numero": "029",
+ "resumo": "Russian missiles fall in Poland and Trump says it was «by mistake»; COP31 runs past its deadline without a deal; Coimbra, Guarda and Viseu are under a red rain warning; and BepiColombo starts braking today to enter orbit around Mercury.",
+ "tema_palavras": "words from this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "FBI investigates suspected intrusion into the national crime database used by US police for warrants and background checks",
+   "estado": "Investigation reported by CNN and Reuters · FBI has not commented · attacker and data affected unknown",
+   "data": "2026-11-20",
+   "texto": [
+    "The FBI, the US federal police, is investigating a suspected intrusion into the NCIC (National Crime Information Center), the database that connects federal, state and local police forces across the country. The story was reported by CNN on Friday 20 November, based on two people briefed on the investigation, and picked up by Reuters. The FBI did not respond to requests for comment.",
+    "Why does this matter? The NCIC is used every day by officers on the ground: it holds arrest warrants, criminal records and background checks. A former FBI official told CNN that an attack like this could call into question the accuracy of the information police rely on.",
+    "What we know — and what we don't. It is not known who is behind it, what data was viewed or altered, or for how long. It would be the second intrusion into an FBI system in a few months: in September, an extortion group known as ShinyHunters got hold of data on current and former staff through one of the agency's recruitment websites.",
+    "The case comes in a week of several failures in US government systems. According to AFP, quoted by Arab News, it is still unclear whether it is linked to the attack reported the same day on the Department of Agriculture (see next story)."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The investigation was reported by CNN (cited; we could not open the page) and confirmed by Reuters (via Yahoo News, 20 Nov) and by a Reuters/AFP-credited dispatch published by Arab News, both quoting CNN. The former FBI official's remark comes from CNN, quoted by Arab News. There is no official statement from the FBI. Attacker, data affected and duration of the intrusion to be confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via Yahoo News – «FBI's criminal information database hacked, CNN reports» (20 Nov)",
+     "url": "https://www.yahoo.com/news/us/articles/fbis-criminal-information-database-hacked-031545804.html"
+    },
+    {
+     "nome": "Arab News – «FBI's criminal information database hacked, CNN reports» (20 Nov)",
+     "url": "https://arabnews.com/world/fbis-criminal-information-database-hacked-cnn-reports-3013268"
+    },
+    {
+     "nome": "CNN – FBI hacked again (cited)",
+     "url": "https://cnn.com/2026/11/20/politics/fbi-hacked-again-target-crime-database"
+    }
+   ],
+   "imagem": {
+    "commons": "J-Edgar-Hoover-FBI-Building-Washington-DC-2014-A.jpg",
+    "tipo": "arquivo",
+    "alt": "Façade of the J. Edgar Hoover Building, FBI headquarters in Washington",
+    "legenda": "The J. Edgar Hoover Building, FBI headquarters, in Washington (archive image from 2014; does not show the incident)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "US Department of Agriculture takes systems offline for days after a security incident; payments to farmers affected",
+   "estado": "Incident acknowledged in internal email · data theft and attacker to be confirmed",
+   "data": "2026-11-19",
+   "texto": [
+    "Several systems at the US Department of Agriculture (USDA) were down for days after the department's cybersecurity centre detected a «security incident». The affected applications include the tools used for payments between the government and farmers and the portals where farmers track loans and support. The story was reported on 19 November by the Nextgov website, based on an internal email and three anonymous sources.",
+    "What exactly happened? According to the email quoted by Nextgov, the department had to change database passwords across all environments, which caused the outages. A technical bulletin on Thursday warned that applications could keep suffering interruptions during the week. Some staff also had problems with the VPN, the secure connection to the internal network.",
+    "The next day, NBC News reported, citing former department officials, that the farmer payments system had been targeted in an attack and could serve as a gateway to more sensitive data. It is not known who was responsible or whether any data was stolen. According to AFP, quoted by Arab News, it is also unclear whether there is a link to the FBI case."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The incident, the password changes and the outages come from Nextgov (19 Nov), based on an internal email, a technical bulletin and three anonymous sources; Arab News (20 Nov) confirms, citing NBC News, that the payments system was targeted in an attack. We could not open the NBC page. The USDA and the US cybersecurity agency (CISA) did not respond to Nextgov. Attacker and possible data theft to be confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "Nextgov/FCW – «USDA grapples with security breach as IT staff take multiple systems offline» (19 Nov)",
+     "url": "https://www.nextgov.com/cybersecurity/2026/11/usda-grapples-security-breach-it-staff-take-multiple-systems-offline/417350/"
+    },
+    {
+     "nome": "Arab News – «FBI's criminal information database hacked, CNN reports» (20 Nov)",
+     "url": "https://arabnews.com/world/fbis-criminal-information-database-hacked-cnn-reports-3013268"
+    },
+    {
+     "nome": "NBC News – Agriculture Department breached by hackers (cited)",
+     "url": "https://www.nbcnews.com/politics/national-security/agriculture-department-breached-hackers-sources-say-rcna610497"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Ukraine and FBI dismantle ransomware network that posed as IT support and allegedly extorted more than $40 million",
+   "estado": "Four arrested, suspects · operation announced by Ukrainian authorities · no convictions",
+   "data": "2026-11-18",
+   "texto": [
+    "Ukrainian authorities, working with the FBI, have arrested four people suspected of being key members of a ransomware group — programs that lock companies' systems to demand a ransom. The announcement was made on Wednesday 18 November by Ukraine's Prosecutor General's Office, after a two-year investigation. At least 28 companies, several of them American, reportedly paid more than $40.5 million.",
+    "How did they operate? According to BleepingComputer, the suspects posed as IT support technicians, using fake calls and voice messages generated by artificial intelligence (AI). They persuaded employees to hand over their login credentials or install remote-control software. They also used fake pages that imitated companies' network logins.",
+    "The operation included 66 searches in Kyiv and 11 other regions; computers, mobile phones and about $370,000 and €20,000 in cash were seized. The group allegedly had at least 27 members, from Ukraine, Russia and Kazakhstan, linked to a network of more than 60 people in eight countries. Investigators link it to former members of the Conti group, which shut down in 2022.",
+    "The four detainees are suspected of belonging to a criminal organisation and of unlawful interference with computer systems. They face up to 15 years in prison if convicted."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Arrests, number of companies, the $40.5 million figure, searches, seizures, size of the network and link to former Conti members confirmed by BleepingComputer (18 Nov) and The Record (19 Nov), which quote Ukraine's Prosecutor General's Office. The method (fake IT support, AI-generated voice) and the charges come from BleepingComputer. We did not consult the Ukrainian statement directly."
+   },
+   "fontes": [
+    {
+     "nome": "BleepingComputer – «Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms» (18 Nov)",
+     "url": "https://bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms"
+    },
+    {
+     "nome": "The Record – «Ukraine exposes ransomware network extorting US oil, healthcare firms» (19 Nov)",
+     "url": "https://therecord.media/ukraine-ransomware-arrests-cyber"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Anthropic mathematician says he has proved the Riemann hypothesis with Claude's help; the proof in code has passed its first checks",
+   "estado": "Author's claim · Lean proof compiles, according to independent mathematicians · validation by the community still to come",
+   "data": "2026-11-20",
+   "texto": [
+    "Levent Alpöge, a mathematician who works at Anthropic, claims to have proved the Riemann hypothesis, one of the most famous problems in mathematics, open since 1859 and one of the seven «Millennium Problems». He published the work on Friday 20 November and says it was done with the help of Claude, the company's artificial intelligence (AI) model. For now, it is a claim: the mathematical community has not yet validated it.",
+    "The proof does not come as a traditional paper. It is written in Lean, a language that lets a computer confirm, step by step, that a mathematical argument contains no errors — according to CASRAI, it runs to more than 175,000 files. Alpöge says he designed the overall architecture over months and that Claude did much of the technical work, especially in the final stretch. He admitted feeling guilty about publishing without a human-readable explanation and promised to write one.",
+    "What has already been checked? Andrew Sutherland, of MIT, and other participants in a Lean forum say they have confirmed that the proof compiles and uses only the usual axioms. Kevin Buzzard, of Imperial College London, points to the next step: confirming that the statement in code really matches the classic problem. In other words: the machine says it is correct, but it remains to be understood what was proved and why.",
+    "On the same day, a Stanford researcher, Alessandro Masullo, released another proposed proof, done «entirely by humans, without AI», according to the president of the American Mathematical Society, Ravi Vakil; it has not yet been checked. To receive the Clay Institute's $1 million prize, a proof must be published in a peer-reviewed journal and withstand at least two years of scrutiny."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Alpöge's claim, Claude's role, the initial check by Andrew Sutherland and Alessandro Masullo's proposal come from TechCrunch (20 Nov); AI Weekly (21 Nov) confirms Sutherland's check and the pending step described by Kevin Buzzard. The number of files and the Clay Institute's rules come from CASRAI (21 Nov). Scientific American (cited) also reported the case; we could not open the page. The proof has not been validated by the mathematical community. Anthropic, the company where the author works, is an interested party."
+   },
+   "fontes": [
+    {
+     "nome": "TechCrunch – «AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too» (20 Nov)",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    },
+    {
+     "nome": "AI Weekly – «Alpöge's Claude-assisted Riemann proof clears Lean checks» (21 Nov)",
+     "url": "https://aiweekly.co/alerts/alpges-claude-assisted-riemann-proof-clears-lean-checks"
+    },
+    {
+     "nome": "CASRAI – «Anthropic Mathematician Releases 175,000-File Lean Archive Claiming Riemann Hypothesis Proof» (21 Nov)",
+     "url": "https://casrai.org/news/anthropic-levent-alpoge-claude-lean-riemann-hypothesis-claim-2026"
+    },
+    {
+     "nome": "Scientific American – «Anthropic mathematician claims to prove Riemann hypothesis» (cited)",
+     "url": "https://www.scientificamerican.com/article/anthropic-mathematician-claims-to-prove-riemann-hypothesis-most-famous-problem-in-all-of-math/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Trump and Xi agreed that military decisions using AI must always involve a human, says the US Treasury Secretary",
+   "estado": "Statement by Scott Bessent · no agreement text published · no Chinese confirmation in the sources consulted",
+   "data": "2026-11-20",
+   "texto": [
+    "Donald Trump and Xi Jinping agreed that there must always be a person involved in military decisions that use artificial intelligence (AI). That is according to the US Treasury Secretary, Scott Bessent, in an interview with CNBC on Friday 20 November, after the meeting between the two presidents in Shenzhen, China, on the sidelines of the APEC (Asia-Pacific Economic Cooperation) summit.",
+    "According to Reuters, Bessent said that no major military operation should be launched without a human being involved, and presented the understanding as one of the main outcomes of Trump's trip to Asia. He added that the AI race between the two countries does not change that, but that American labs must keep the lead.",
+    "What we don't know yet. In the sources consulted there is no signed text and no confirmation from Beijing on this point. According to Anadolu, Bessent also spoke of a discussion about curbing the growth of nuclear weapons; Trump, Xi and Vladimir Putin, who was also in Shenzhen, declared that «a nuclear war cannot be won and must never be fought»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Bessent's statement to CNBC and the place and date of the meeting come from Reuters (via Yahoo News, 20 Nov) and the Anadolu agency (via A News, 20 Nov). The remark about military operations and the reference to American labs come from Reuters; the nuclear discussion and the three leaders' declaration come from Anadolu. We found no Chinese confirmation or formal text of the understanding."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via Yahoo News – «Trump, Xi agreed that military AI decisions should involve humans, Bessent says» (20 Nov)",
+     "url": "https://www.yahoo.com/news/articles/trump-xi-agreed-military-ai-164829465.html"
+    },
+    {
+     "nome": "A News (Anadolu) – «Trump, Xi agreed humans must stay in charge of AI military decisions, Bessent says» (20 Nov)",
+     "url": "https://www.anews.com.tr/world/2026/11/20/trump-xi-agreed-humans-must-stay-in-charge-of-ai-military-decisions-bessent-says"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Signal now blocks screenshots by default to stop AI assistants reading conversations",
+   "estado": "Measure announced and in force · Signal admits the protection is incomplete",
+   "data": "2026-11-20",
+   "texto": [
+    "Signal, the encrypted messaging app, now blocks screenshots on the iPhone by default, as well as AI assistants' access to the screen on Android. The announcement was made on Friday 20 November. The company says AI agents installed on phones are an «existential threat» to the privacy of conversations.",
+    "Why? Assistants such as Siri or Gemini read what is on the screen in order to answer questions, and that content can end up on remote servers — even when the messages are encrypted. According to Engadget, which quotes Reuters, Meta's Muse agent was able to read Signal messages through permissions granted during setup. Meta says agents need to see the screen in order to work and only access other apps with the user's permission.",
+    "Signal itself admits the limits. On the Mac, it says it cannot offer this protection reliably. If the other person in the conversation turns off the block, an assistant can read the messages on their phone. And anyone who wants to can disable the protection in a prompt that appears on screen. The company is asking Apple, Google and Microsoft for a system-level way for apps to refuse AI access."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The measure, the platforms, the phrase «existential threat» and the limits admitted by Signal confirmed by Engadget (20 Nov) and Cybernews (20 Nov). The Muse case comes from Reuters, quoted by both; we could not open the Reuters page. Meta's position comes from Cybernews."
+   },
+   "fontes": [
+    {
+     "nome": "Engadget – «Signal now blocks screenshots by default to stymie AI agents» (20 Nov)",
+     "url": "https://www.engadget.com/2323574/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/"
+    },
+    {
+     "nome": "Cybernews – «Signal blocks screenshots to stop AI agents reading chats» (20 Nov)",
+     "url": "https://cybernews.com/privacy/signal-restricts-screenshots/"
+    },
+    {
+     "nome": "Reuters – Signal restricts screenshots to block AI agents (cited)",
+     "url": "https://www.reuters.com/legal/litigation/signal-restricts-screenshots-block-ai-agents-reading-messages-2026-11-20/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Nvidia falls 14% in a day and has its worst week since 2008, after reports that the US stock market regulator is investigating its accounts",
+   "estado": "Share fall confirmed · investigation reported by Reuters, no official confirmation · no charges",
+   "data": "2026-11-20",
+   "texto": [
+    "Shares in Nvidia, the largest maker of chips for artificial intelligence (AI), fell about 14% on Friday 20 November and lost 23% over the week — the worst week since October 2008. The fall accelerated after Reuters reported, citing two sources, that the SEC, the US stock market regulator, is examining the company's accounting practices.",
+    "What is known about the investigation? Not much. According to Reuters, quoted by Yahoo Finance, it is unclear when it began or which accounting issues are involved; the Wall Street Journal had already reported that week that the SEC was investigating Nvidia, without saying why. An investigation does not prove wrongdoing and many end without any action. In the sources consulted there is no response from the company.",
+    "The pressure has been building. Jensen Huang, the founder, stepped down from the leadership last week, and the company says it is investigating whether secrets or national security were compromised, following reports about his personal relationships. The fall dragged down the sector: according to Yahoo Finance data, the tech-heavy Nasdaq index fell more than 5% on Friday, on a day of fears about a slowdown in AI investment."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The falls of about 14% on the day and 23% over the week, and the fact that it was the worst week since 2008, confirmed by Yahoo Finance/Stocktwits (20 Nov) and The Motley Fool (21 Nov), which quote Reuters on the SEC investigation. We could not open the Reuters page. The Nasdaq fall comes from market data shown by Yahoo Finance. There is no official confirmation from the SEC and no response from Nvidia in the sources consulted."
+   },
+   "fontes": [
+    {
+     "nome": "Yahoo Finance (Stocktwits) – «NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices» (20 Nov)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-clocks-worst-week-233812270.html"
+    },
+    {
+     "nome": "The Motley Fool – «After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation» (21 Nov)",
+     "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+    },
+    {
+     "nome": "Reuters – SEC's Nvidia probe is examining potential accounting issues (cited)",
+     "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "GTA VI: Rockstar says it sold $3.79 billion on the first day, a record in entertainment",
+   "estado": "The company's own figures, not independently verified · outside estimates are lower",
+   "data": "2026-11-20",
+   "texto": [
+    "GTA VI reportedly made $3.79 billion in sales on its first day, according to Rockstar Games, which makes it. The publisher says it is a record for any form of entertainment — films included. The figures were released on Friday 20 November, in a statement that Rockstar's owner, Take-Two, also filed with the US stock market regulator.",
+    "According to the statement, 32.5 million copies were sold before launch, and the game has a score of 99 on the review aggregator Metacritic. The figures are company estimates, worldwide, up to the end of 19 November, the day of the launch.",
+    "Other figures are circulating. The analytics firm Sensor Tower estimated, on launch day, about $1.84 billion in sales up to that day, including months of pre-orders — more than double the $815.7 million that GTA V made in its first 24 hours, in 2013. The game came out for PlayStation 5 and Xbox Series X|S."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "The $3.79 billion, the 32.5 million copies and the Metacritic score come only from the Rockstar Games statement attached to a Take-Two Form 8-K at the SEC (20 Nov); they are company estimates, not independently verified. The Sensor Tower estimate, the GTA V record and the platforms come from Fox 5 DC (19 Nov). Variety (cited) also reported the figure; we could not open the page."
+   },
+   "fontes": [
+    {
+     "nome": "Take-Two Interactive – Form 8-K, exhibit 99.1 (Rockstar Games statement, 20 Nov)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026075217/exhibit9918k.htm"
+    },
+    {
+     "nome": "Fox 5 DC – «GTA VI pulls in estimated $1.84 billion by release day» (19 Nov)",
+     "url": "https://www.fox5dc.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record"
+    },
+    {
+     "nome": "Variety – GTA 6 sales $3.79 billion (cited)",
+     "url": "https://variety.com/2026/gaming/news/gta-6-sales-3-79-billion-1236954198/"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Russian missiles fall in Poland during attack on Ukraine: Tusk speaks of «intentional provocation», Trump says it was «by mistake»",
+   "estado": "Fall confirmed by Warsaw and NATO · no injuries · Russian intent disputed · no comment from the Kremlin",
+   "data": "2026-11-20",
+   "texto": [
+    "Two Russian missiles and a jet-powered drone entered Polish airspace in the early hours of Friday 20 November, during another massive Russian attack on Ukraine. They came down in three villages in the south-east of the country — Molodycz, Rudnik nad Sanem and Nowy Lipowiec —, less than 50 kilometres from the Ukrainian border. No one was injured, according to the Polish authorities, quoted by AFP and the Diário de Notícias.",
+    "One of the objects was identified as a Kh-101 cruise missile and fell in Nowy Lipowiec at around 06:30 local time; a resident told AFP that the house «shook all over». Rzeszów airport suspended flights for a while and NATO scrambled fighter jets. The Polish prime minister, Donald Tusk, says he is certain the weapons came from Russia and speaks of an «intentional provocation»: the area is close to where thousands of European soldiers are holding military exercises, at Nowa Dęba.",
+    "Donald Trump sees things differently. In a telephone interview with Fox News, a day after sitting down with Putin at the Shenzhen summit, he said the Russian leader has been dropping drones and «a couple of small missiles» on Poland «by mistake». Tusk replied that he does not always agree with Washington's reading, which he finds too moderate, but promised to give the US access to the debris. NATO's secretary-general, Mark Rutte, condemned «serious violations» of Polish airspace and called them «clearly dangerous».",
+    "What comes next? Tusk asked Rutte for recommendations to strengthen the defence of the Alliance's eastern flank, and Rutte is expected in Warsaw this Saturday, according to AFP. In Ukraine, the same night's attack killed at least eight people, according to AFP (the Kyiv Post reports nine dead and 28 injured), and left many homes without power. By the time AFP published, the Kremlin had not commented."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Villages, number of objects, absence of injuries, statements by Tusk and Rutte and suspended flights at Rzeszów confirmed by AFP (via Yahoo News, 20 Nov) and the Diário de Notícias (20 Nov). Identification of the Kh-101, time of the fall, the resident's account, Rutte's visit to Warsaw and absence of comment from the Kremlin according to AFP. Trump's statement to Fox News according to the DN and AFP; we did not consult the original interview. The death toll in Ukraine differs: at least eight (AFP) or nine dead and 28 injured (Kyiv Post, Ukrainian authorities). We did not consult the Polish Armed Forces directly."
+   },
+   "fontes": [
+    {
+     "nome": "AFP via Yahoo News – «Warsaw says Russian missiles hit Poland, denounces 'intentional provocation'» (20 Nov)",
+     "url": "https://www.yahoo.com/news/world/articles/warsaw-says-russian-missiles-hit-143506907.html"
+    },
+    {
+     "nome": "Diário de Notícias – «Trump diz que mísseis russos caíram na Polónia \"por engano\" e contraria Varsóvia» (20 Nov)",
+     "url": "https://www.dn.pt/internacional/trump-diz-que-msseis-russos-caram-na-polnia-por-engano-e-contraria-varsvia"
+    },
+    {
+     "nome": "Kyiv Post – «Zelensky Calls Putin a 'Killer'…» (20 Nov)",
+     "url": "https://www.kyivpost.com/post/90773"
+    }
+   ],
+   "imagem": {
+    "commons": "Russian Kh-101 missile shot in Vinnytsia Oblast, 2023-01-26 (05).jpg",
+    "tipo": "arquivo",
+    "alt": "Wreckage of a downed Russian Kh-101 cruise missile lying in a field in Ukraine",
+    "legenda": "Remains of a Russian Kh-101 missile shot down in the Vinnytsia region of Ukraine in January 2023 (archive image; does not show the fall in Poland)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31 runs past its deadline without a deal: EU threatens to block a text that leaves out fossil fuels",
+   "estado": "Fact: summit extended beyond 20 Nov · negotiations resume Saturday · third draft expected · no deal",
+   "data": "2026-11-20",
+   "texto": [
+    "The UN climate summit, COP31, in Antalya, Turkey, was due to end on Friday 20 November. It did not. Almost 200 countries reached the closing session without a political agreement, and the session approved only technical matters. Negotiations resume this Saturday at 09:00 Antalya time (06:00 in Lisbon), according to Lusa, the Portuguese news agency, and a third draft of the text is expected, according to AFP.",
+    "The sticking point is still the same: the latest draft dropped all references to moving away from coal, oil and gas. The European Union says that, as it stands, the climate summit risks becoming a «fossil summit». Portugal's Minister for the Environment and Energy, Maria da Graça Carvalho, told Lusa that the EU will block the agreement if the final text does not again mention «roadmaps» for moving away from fossil fuels — accepting that each country goes at its own pace —, if carbon capture is used to replace emission cuts, and if the references to human rights and women's rights, which were removed, are not restored.",
+    "There are more open fronts. Developing countries accuse rich ones of not delivering the climate finance they promised; Ghana's environment minister said Africa «did not come here to beg». Panama's environment minister, Juan Carlos Navarro, accused an «oil mafia» of holding up the deal, and the country threatened to walk out of the negotiations. A letter from about a dozen countries, from France to Panama and the Solomon Islands, demands «a clear transition» away from fossil fuels.",
+    "The COP31 president, Turkish minister Murat Kurum, was interrupted by a protester shouting «You are killing the future!». Australia's Chris Bowen, who is leading the negotiations, promises to carry on «as long as it takes». As Brazil's climate secretary, Aloisio Lopes Pereira de Melo, put it, «at this point, nobody is happy»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Extension, absence of agreement and removal of references to fossil fuels confirmed by Lusa (via Notícias ao Minuto, 20 Nov) and AFP (via Business Recorder, 21 Nov). Time of resumption and EU demands according to Maria da Graça Carvalho, quoted by Lusa. Quotes from Kurum, Bowen, Navarro, Ghana, Brazil, the EU position («fossil summit»), the countries' letter and the expected third draft according to AFP. At closing time there was no agreement and no new text published; it was not possible to confirm the expected end time."
+   },
+   "fontes": [
+    {
+     "nome": "Notícias ao Minuto / Lusa – «COP31: Impasse mantém-se na sessão de encerramento e negociações vão prosseguir» (20 Nov)",
+     "url": "https://www.noticiasaominuto.com/mundo/3087789/cop31-impasse-mantem-se-na-sessao-de-encerramento-e-negociacoes-vao-prosseguir-atualizada"
+    },
+    {
+     "nome": "Business Recorder / AFP – «Nations row over fossil fuels as COP31 goes into overtime» (21 Nov)",
+     "url": "https://www.brecorder.com/news/40450071/nations-row-over-fossil-fuels-as-cop31-goes-into-overtime"
+    }
+   ],
+   "imagem": {
+    "commons": "Chris Bowen, COP31 President of Negotiation & Dan Jørgensen, European Commissioner.jpg",
+    "tipo": "arquivo",
+    "alt": "Chris Bowen, who is leading the COP31 negotiations, next to European Commissioner Dan Jørgensen",
+    "legenda": "Chris Bowen, who is leading the COP31 negotiations, and European Commissioner Dan Jørgensen (archive image; does not show this Saturday's negotiations)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Ukraine: US reportedly put NATO on the table in exchange for the Donbas, or freezing the front line with guarantees; Moscow refuses",
+   "estado": "Wall Street Journal report with anonymous sources · proposals under discussion, not agreed · Russia rejects",
+   "data": "2026-11-20",
+   "texto": [
+    "Donald Trump's envoys have reportedly discussed two paths to ending the war in Ukraine, according to the Wall Street Journal, in an article published on Friday 20 November. In the first, Ukraine would hand Russia the part of the Donbas, in the east, that it still controls and, in return, would join NATO as a full member. In the second, the war would stop at the current front lines and Kyiv would stay outside the Alliance, but with security guarantees from the US and possibly from European countries, in an international treaty.",
+    "According to the newspaper, the ideas were discussed by special envoy Steve Witkoff and by Jared Kushner, Trump's son-in-law, with Ukrainians and Europeans — in Abu Dhabi on 10 and 11 November and in Dublin on the 12th. An unnamed US official told the newspaper that several proposals are under consideration and that any agreement must be accepted by both Ukraine and Russia. An important note: for Ukraine to join NATO, a «yes» is needed from all 32 members, not just the US.",
+    "Moscow has already shut the door. Russia's deputy foreign minister, Sergei Ryabkov, said Russia rejects even a «quasi-membership» for Ukraine or a «creative solution», according to the Kyiv Post. And, according to the Wall Street Journal, Russian negotiators demanded in Abu Dhabi that Kyiv give up on NATO for good. Ukraine's president, Volodymyr Zelensky, has repeatedly said he does not want to cede territory, but has said he would be open to putting a proposal to public debate — or to a referendum — if the guarantees are confirmed.",
+    "The tone between Kyiv and Washington has also soured. In an interview with CNN, Zelensky reacted to Trump calling Putin a «friend» at the Shenzhen summit: «For us, he is an enemy» and «a killer». He said that, hearing this, Putin does not feel enough pressure to stop."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "The two scenarios come from a single original source, the Wall Street Journal (20 Nov), with anonymous sources; we did not consult the WSJ article, only the reports by Observador, Gazeta do Povo and the Kyiv Post, which quote it. Dates and places of the meetings (Abu Dhabi, 10–11 Nov; Dublin, 12 Nov) and Ryabkov's statement according to the Kyiv Post. Zelensky's openness to a referendum according to Gazeta do Povo. Zelensky's quotes to CNN according to the Kyiv Post (20 Nov). The White House did not comment officially in the sources consulted."
+   },
+   "fontes": [
+    {
+     "nome": "Observador – «EUA admitem dois cenários para Ucrânia…» (20 Nov)",
+     "url": "https://observador.pt/2026/11/20/eua-admitem-dois-cenarios-para-ucrania-nato-em-troca-da-cedencia-do-donbass-ou-congelar-linhas-da-frente-com-garantias-de-seguranca/"
+    },
+    {
+     "nome": "Kyiv Post – «US Envoys Discussed NATO Membership for Ukraine if Kyiv Leaves Donbas, Report Says» (20 Nov)",
+     "url": "https://www.kyivpost.com/post/90709"
+    },
+    {
+     "nome": "Gazeta do Povo – «EUA discutem entrada da Ucrânia na Otan em troca de cessão de territórios à Rússia, diz jornal» (20 Nov)",
+     "url": "https://www.gazetadopovo.com.br/mundo/eua-discutem-entrada-da-ucrania-na-otan-em-troca-de-cessao-de-territorios-a-russia-diz-jornal/"
+    },
+    {
+     "nome": "Kyiv Post – «Zelensky Calls Putin a 'Killer', Warns Trump's Friendship Emboldens Russia» (20 Nov)",
+     "url": "https://www.kyivpost.com/post/90773"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Denmark accuses Russia of planning to kill a Ukrainian rapper near Copenhagen and expels the Russian military attaché",
+   "estado": "Accusation by Danish intelligence · two suspects deny · expulsion decided · visa suspension under consideration",
+   "data": "2026-11-20",
+   "texto": [
+    "Denmark is to expel Russia's defence attaché in Copenhagen. The reason: the Danish security and intelligence service (PET) suspects that Russia planned to kill a Ukrainian rapper during a concert on the outskirts of the capital. The case was made public on Friday 20 November by the foreign minister, Lars Løkke Rasmussen, who summoned the Russian ambassador and gave him seven days to withdraw the diplomat.",
+    "According to AFP, police intercepted three people in a car near the venue, shortly before the concert, with firearms and knives; the concert was cancelled. Two Danish men are suspected of attempted murder and of assisting a foreign intelligence service — and deny the charges. Police suspect that a Danish gang, banned since 2021, helped prepare the attack. The public broadcaster DR identified the target as Kyivstoner, a rapper with Ukrainian and American nationality.",
+    "«The Russian intelligence services tried to carry out an execution in Denmark», said the head of PET, Rasmus Kieffer-Kristensen. The prime minister, Mette Frederiksen, speaks of a «cornered» Russia that is more willing to take risks. And Rasmussen had a message for Moscow: «We have exposed you». Denmark is considering suspending Schengen visas for Russian citizens and wants the EU to cut all non-essential visas.",
+    "On the Russian side, the foreign ministry spokeswoman, Maria Zakharova, promised an «appropriate response», and the embassy in Copenhagen called the expulsion «vindictive», saying Denmark had presented no evidence, according to AFP. The President of the European Council, António Costa, condemned the plot and promised support for Copenhagen."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Expulsion of the attaché, the seven-day deadline, identification of the rapper by DR, Rasmussen's quotes and possible visa suspension confirmed by two reports (AFP, via The Standard and Vanguard, 20 Nov; and TRT World, 20 Nov), but TRT may be relying on the same agency dispatch; we treat it as one main source (AFP). Interception of the car, weapons, gang, quotes from PET, Frederiksen, Zakharova, the embassy and Costa according to AFP. The suspects denying the charges according to TRT World. The date of the concert is unclear: TRT gives 25 September, AFP does not mention it; we have not confirmed it. The suspects are not named."
+   },
+   "fontes": [
+    {
+     "nome": "The Standard (Hong Kong) / AFP – «Denmark expels Russian diplomat over attempt to kill Ukrainian rapper» (20 Nov)",
+     "url": "https://www.thestandard.com.hk/world/article/349191/Denmark-expels-Russian-diplomat-over-attempt-to-kill-Ukrainian-rapper"
+    },
+    {
+     "nome": "TRT World – «Denmark accuses Russia of plot to kill Ukrainian rapper, expels diplomat» (20 Nov)",
+     "url": "https://www.trtworld.com/article/85678729a815"
+    },
+    {
+     "nome": "Vanguard / AFP – «Denmark expels Russian diplomat over attempt to kill Ukrainian rapper» (20 Nov)",
+     "url": "https://www.vanguardngr.com/2026/11/denmark-expels-russian-diplomat-over-attempt-to-kill-ukrainian-rapper/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Red warning for Coimbra, Guarda and Viseu: a Saturday of heavy, persistent rain, with a risk of flooding in the North and Centre",
+   "estado": "IPMA forecast and warnings for 21 Nov · Civil Protection alert · flooding possible according to the APA",
+   "data": "2026-11-21",
+   "texto": [
+    "This Saturday, 21 November, brings heavy and persistent rain, especially in the North and Centre of Portugal. The Instituto Português do Mar e da Atmosfera (IPMA), Portugal's weather service, has placed the districts of Coimbra, Guarda and Viseu under a red warning — the highest level — between 09:00 and 18:00. There is an orange warning in eight more districts and a yellow one in another five, including Lisbon, according to Lusa, the Portuguese news agency.",
+    "Under orange are Aveiro, Castelo Branco, Leiria and Santarém (from 06:00 to 18:00) and Porto, Braga, Viana do Castelo and Vila Real (from 06:00, dropping back to yellow in the late afternoon). Lisbon, Setúbal, Portalegre and Évora have a yellow warning between midday and 18:00, and Bragança from 06:00 to 18:00. The wind is from the south, with gusts of up to 85 km/h on the coast and in the mountains, and there may be snow on the highest points of the Serra da Estrela.",
+    "And the rivers? The Agência Portuguesa do Ambiente (APA), Portugal's environment agency, expects river levels to rise in the North and Centre on Saturday and Sunday, with possible flooding on the Coura (Minho basin) and Vez (Lima basin) rivers; the Águeda river is on pre-alert. The Guarda district includes Manteigas, where a flash flood already left people homeless this week.",
+    "Civil Protection is asking people to avoid unnecessary journeys during the heaviest rain, not to cross flooded areas or park in places that tend to flood, underground car parks or near trees, and to clear drains and secure loose objects. It is a good idea to keep torches and charged mobile phones to hand."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Warnings by district and times, wind, snow and APA forecasts confirmed by Lusa (via Executive Digest, 20 Nov) and Notícias ao Minuto (21 Nov, based on IPMA and ANEPC, the national civil protection authority). Civil Protection recommendations according to Lusa (Executive Digest). We did not consult the IPMA website directly; warnings may be revised during the day. At closing time we found no tally of overnight incidents. The Manteigas flash flood was reported in the 19 Nov edition."
+   },
+   "fontes": [
+    {
+     "nome": "Executive Digest / Lusa – «IPMA coloca Coimbra, Guarda e Viseu sob aviso vermelho de chuva no sábado» (20 Nov)",
+     "url": "https://executivedigest.sapo.pt/ipma-coloca-coimbra-guarda-e-viseu-sob-aviso-vermelho-de-chuva-no-sabado/"
+    },
+    {
+     "nome": "Notícias ao Minuto – «Coimbra, Guarda e Viseu sob aviso vermelho devido a \"chuva persistente\"» (21 Nov)",
+     "url": "https://www.noticiasaominuto.com/pais/3087839/coimbra-guarda-e-viseu-sob-aviso-vermelho-devido-a-chuva-persistente"
+    }
+   ],
+   "imagem": {
+    "commons": "Coimbra & Mondego (4054792985).jpg",
+    "tipo": "arquivo",
+    "alt": "View of the city of Coimbra on the hillside, with the Mondego river in the foreground",
+    "legenda": "Coimbra and the Mondego river (archive image; does not show this Saturday's bad weather)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Budget: PS and Chega freeze university tuition fees against the Government's wishes, and the final vote moves to Tuesday afternoon",
+   "estado": "Fact: freeze approved at committee stage on 20 Nov · schedule change proposed, yet to be formalised · final vote on 24 Nov",
+   "data": "2026-11-20",
+   "texto": [
+    "Tuition fees at public universities and polytechnics will not rise in the 2027/2028 academic year. The proposal from Chega, the radical-right party, was approved on Friday 20 November with the votes of the PS, the Socialist Party, on the third day of committee-stage voting on the 2027 State Budget (the stage at which it is voted article by article). The Government wanted an increase. Undergraduate, master's and doctoral degrees and higher technical courses (CTeSP) keep this year's maximum fee.",
+    "It was a shorter day than planned. At around 17:00, Chega's parliamentary leader, Pedro Pinto, asked for all the remaining articles to be postponed, because the party was starting its convention that day, in Entroncamento. Less than half of the voting list was gone through and all the other parties criticised the move. Even so, 42 amendments were passed, 34 of them from the opposition — among them, paying 30% of student grants in advance in 2027/2028 and allowing emigrants to update their registration with the National Health Service at consulates or online.",
+    "The schedule is going to change. The Budget committee's proposal is to start earlier on Monday 23, with votes that may run into the early hours, and to move Tuesday 24's final overall vote from the morning to the afternoon. The Government accepts this, said PSD MP Hugo Carneiro, but the change still has to be formalised by the Speaker of the Assembly, José Pedro Aguiar-Branco.",
+    "The political climate remains tense. The finance minister, Joaquim Miranda Sarmento, accused PS and Chega of forming a «fatal bloc» and a «proto-government», «totally committed to the country running a deficit» in 2027."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Freeze on tuition fees, votes of Chega and PS, postponement requested by Chega, number of amendments approved and schedule proposals confirmed by Lusa (via Executive Digest, 20 Nov) and ECO (20 Nov). The Government's acceptance according to Hugo Carneiro, quoted by ECO. Miranda Sarmento's statements according to Lusa. The detailed vote count by party was not given in the sources. The new time of the final vote had not yet been set."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Uma convenção, ajustes no calendário e propinas: como foi o terceiro dia de votações do Orçamento» (20 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/20/uma-convencao-ajustes-no-calendario-e-propinas-como-foi-o-terceiro-dia-de-votacoes-do-orcamento/"
+    },
+    {
+     "nome": "Executive Digest / Lusa – «SÍNTESE: OE2027: 3.º dia de votações mais curto devido ao Chega e marcado por congelamento de propinas» (20 Nov)",
+     "url": "https://executivedigest.sapo.pt/sintese-oe2027-3-o-dia-de-votacoes-mais-curto-devido-ao-chega-e-marcado-por-congelamento-de-propinas/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Moody's upgrades Portugal's debt rating to A2: it is confident debt will keep falling",
+   "estado": "Fact: upgrade from A3 to A2, stable outlook, announced on 20 Nov · forecasts are the agency's",
+   "data": "2026-11-20",
+   "texto": [
+    "The agency Moody's on Friday night, 20 November, raised the rating it gives Portugal's debt: it went from A3 to A2, with a stable outlook. It is the first change since November 2023. In practice, a higher rating tells investors that lending to the country is safer, which tends to lower the interest the State pays, according to Lusa and ECO.",
+    "Why now? Moody's says it has «greater confidence» that Portugal will maintain policies that reduce the debt burden, with robust economic growth — despite a «more fragmented» political landscape. The agency highlights the reforms in the Recovery and Resilience Plan (PRR, Portugal's EU-funded recovery plan) and the changes to immigration policy. According to ECO, it expects debt to fall from 89.2% of Gross Domestic Product (GDP) in 2025 to 84.3% at the end of 2027, and to below 80% in 2029.",
+    "There are risks, the agency warns: financing costs could rise and the housing shortage could hold back growth. The finance minister, Joaquim Miranda Sarmento, spoke of «another great victory for Portugal» and took the opportunity to ask those who approve measures outside the Government's plan — PS and Chega, in the Budget — to explain how they will pay for them. The prime minister, Luís Montenegro, said that reaching this level of confidence is «very difficult, really very difficult»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Upgrade from A3 to A2, stable outlook and the reasons given by Moody's confirmed by Lusa (via Notícias ao Minuto, 20 Nov, which quotes the agency's statement) and ECO (20 Nov). Debt forecasts and «first change since November 2023» according to ECO. Reactions from Miranda Sarmento and Montenegro according to ECO. We did not consult the Moody's statement directly. The sources differ on the date of the last DBRS assessment, so we do not mention it."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Moody's sobe rating de Portugal para A2 com perspetiva estável» (20 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/20/moodys-sobe-rating-de-portugal-para-a2-com-perspetiva-estavel/"
+    },
+    {
+     "nome": "Notícias ao Minuto / Lusa – «Moody's sobe rating de Portugal para \"A2\" com perspetiva estável» (20 Nov)",
+     "url": "https://www.noticiasaominuto.com/pais/3087814/moodys-sobe-rating-de-portugal-para-a2-com-perspetiva-estavel"
+    },
+    {
+     "nome": "ECO – «Ministro das Finanças celebra subida do rating pela Moody's» (20 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/20/ministro-das-financas-celebra-subida-do-rating-pela-moodys-mais-uma-grande-vitoria-de-portugal/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "After the public-sector strike, the CGTP takes to the streets in Lisbon; CP train drivers stop on the 24th and 25th",
+   "estado": "Demonstration scheduled for 14:30 · strike turnout according to the unions · CP with minimum services",
+   "data": "2026-11-21",
+   "texto": [
+    "The CGTP, Portugal's largest trade union confederation, is holding a national demonstration in Lisbon this afternoon, Saturday 21 November. The gathering is set for 14:30 Lisbon time at Saldanha and the march goes on to Restauradores. Under the slogan «A new direction for Portugal», the confederation is calling for higher wages and pensions, price controls on essential goods and more investment in health, housing, education and Social Security, according to Lusa. Pensioners join halfway, on Avenida da Liberdade.",
+    "The protest comes a day after the national public administration strike. According to the coordinator of the Frente Comum (a public-sector union front), Sebastião Santana, turnout was around 90% in schools; several hospitals ran only minimum services, appointments were cancelled, and tax offices, Social Security offices and Lojas do Cidadão (citizen service centres) closed. Santana told Lusa it was one of the best strikes in recent years. These figures are the unions'; the Government did not release data in the sources consulted.",
+    "And it does not end there. On Tuesday 24, the day of the final vote on the 2027 State Budget, the CGTP has called a gathering in front of the Assembleia da República, Portugal's parliament. On the trains, the train drivers' union (SMAQ) has called a general stoppage on 24 and 25 November, within a strike notice running from 23 to 27, so there may also be disruption on the surrounding days. According to Observador, minimum services of between 25% and 30% of trains have been set."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Time, route, slogan and demands of the demonstration confirmed by Lusa (via Notícias ao Minuto, 21 Nov), by Lusa/Executive Digest (which mentions the pensioners' gathering) and by FENPROF, the teachers' union federation. Turnout for the 20 Nov strike according to the Frente Comum (Sebastião Santana), quoted by Lusa (Executive Digest, 20 Nov); there are no official figures in the sources consulted. Periods of the CP strike according to the SMAQ strike notice (18 Nov); minimum services of 25% to 30% according to the headline of Observador (20 Nov), whose page was not opened (cited). The 24 Nov gathering according to Lusa."
+   },
+   "fontes": [
+    {
+     "nome": "Notícias ao Minuto / Lusa – «Trabalhadores manifestam-se em Lisboa por melhores salários e pensões» (21 Nov)",
+     "url": "https://www.noticiasaominuto.com/pais/3087918/trabalhadores-manifestam-se-em-lisboa-por-melhores-salarios-e-pensoes"
+    },
+    {
+     "nome": "Executive Digest / Lusa – «Depois da greve, a manifestação…» (21 Nov)",
+     "url": "https://executivedigest.sapo.pt/depois-da-greve-a-manifestacao-trabalhadores-saem-este-sabado-a-rua-em-lisboa-por-melhores-salarios-e-pensoes/"
+    },
+    {
+     "nome": "Executive Digest / Lusa – «Greve da função pública ronda os 90% nas escolas e afeta hospitais e serviços, indica Frente Comum» (20 Nov)",
+     "url": "https://executivedigest.sapo.pt/greve-da-funcao-publica-ronda-os-90-nas-escolas-e-afeta-hospitais-e-servicos-frente-comum/"
+    },
+    {
+     "nome": "FENPROF – National Public Administration Strike (20/11) and National Demonstration (21/11)",
+     "url": "https://www.fenprof.pt/professores-educadores-e-investigadores-em-luta-greve-nacional-da-administracao-publica-20-11-e-manifestacao-nacional-21-11-14h30-lisboa"
+    },
+    {
+     "nome": "SMAQ – «SMAQ convoca greve na CP entre 23 e 27 de novembro» (18 Nov)",
+     "url": "https://smaq.pt/2026/11/18/smaq-convoca-greve-na-cp-entre-23-e-27-de-novembro/"
+    },
+    {
+     "nome": "Observador – «Greve dos maquinistas da CP para 24 e 25 de novembro vai ter serviços mínimos entre 25% e 30% da oferta» (20 Nov, cited)",
+     "url": "https://observador.pt/2026/11/20/greve-dos-maquinistas-da-cp-para-24-e-25-de-novembro-vai-ter-servicos-minimos-entre-25-e-30-da-oferta/"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "D-Day for BepiColombo: the European-Japanese probe starts braking today to enter orbit around Mercury",
+   "estado": "First manoeuvre scheduled for today, according to ESA · time not released · outcome still to be confirmed",
+   "data": "2026-11-21",
+   "texto": [
+    "The day has arrived. BepiColombo, a mission of the European Space Agency (ESA) and the Japanese agency JAXA, is scheduled to carry out this Saturday, 21 November, its first manoeuvre to enter orbit around Mercury, the planet closest to the Sun. According to the Turkish agency Anadolu, which quotes ESA, four thrusters on the European probe will be fired to slow it down as it passes close to the planet's south pole. By the time this edition closed, neither ESA nor JAXA had announced the outcome, and the time of the manoeuvre had not been released.",
+    "What has changed since yesterday? ESA had already explained, in a July article about the control team's rehearsals, that entering orbit is not a single braking burn. It is «a sequence of 16 manoeuvres» that runs until March 2027. In other words: today the «landing in orbit» begins, it does not end. «The arrival phase is not a single event, but six months full of unique activities and critical operations», said Nacho Clerigo, head of mission operations at ESA, in the article.",
+    "First, the two spacecraft stay together in an elongated orbit. On 9 and 10 December, according to ESA and Anadolu, they separate: the European MPO (Mercury Planetary Orbiter) will study the surface and interior; the Japanese Mio will study the magnetic field and the space around the planet. Science is expected to begin in April 2027.",
+    "If all goes to plan, BepiColombo will be only the second mission to enter orbit around Mercury, after NASA's MESSENGER (2011–2015). The journey began in October 2018 and included nine planetary flybys to gradually shed speed."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Today's date confirmed by ESA (article of 10 Jul 2026 about the simulations: start of insertion on 21 Nov, 16 manoeuvres until March 2027, separation on 9 Dec) and by Anadolu (20 Nov: four MPO thrusters near the south pole, separation on 9–10 Dec, science in April 2027, MESSENGER, nine flybys). TS2 (17 Nov), based on ESA documents, confirms the 16 manoeuvres. None of the sources consulted gives the time; no confirmation of the outcome was found by around 09:00 Lisbon time. ESA's updates page and an ESA post on X could not be opened. The image's Commons page could not be opened; the file was confirmed only in Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "ESA – «Training while flying: Inside BepiColombo's arrival simulations» (10 Jul 2026)",
+     "url": "https://www.esa.int/Enabling_Support/Operations/Training_while_flying_Inside_BepiColombo_s_arrival_simulations"
+    },
+    {
+     "nome": "Anadolu Agency – BepiColombo set to enter Mercury orbit (20 Nov)",
+     "url": "https://www.aa.com.tr/en/life/bepicolombo-set-to-enter-mercury-orbit-after-8-year-journey/4132192"
+    },
+    {
+     "nome": "TS2 – BepiColombo targets Mercury capture on 21 November (17 Nov)",
+     "url": "https://ts2.tech/en/bepicolombo-targets-november-21-mercury-capture-ahead-of-two-orbiter-science-mission/"
+    }
+   ],
+   "imagem": {
+    "commons": "BepiColombo meets Mercury ESA23493072.png",
+    "tipo": "ilustrativa",
+    "alt": "The BepiColombo probe next to the planet Mercury, in an ESA image",
+    "legenda": "BepiColombo and Mercury in an ESA image (illustrative; does not show today's manoeuvre)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Shenzhou-24 ready to go: China completes final dress rehearsal before taking the first foreign astronaut to its station",
+   "estado": "Final rehearsal completed, according to Xinhua (21 Nov) · launch expected on 25 Nov, date not yet made official by China",
+   "data": "2026-11-21",
+   "texto": [
+    "China is close to taking a foreign astronaut to its space station, Tiangong, for the first time. The Shenzhou-24 mission has completed its final full dress rehearsal with all teams, and the Jiuquan launch centre, in the north-west of the country, has made its final preparations, according to the official Chinese agency Xinhua, quoted by Chinanews. The spacecraft and its Long March 2F rocket have been on the launch pad since 17 November. China's crewed space agency (CMSA) has not yet announced the day or time of the launch.",
+    "So when does it leave? Pakistan's planning minister, Ahsan Iqbal, said in October that the launch was scheduled for 25 November, according to the Daily Pakistan. The specialist website China in Space points to no earlier than 25 November at 08:19 Beijing time (00:19 in Lisbon). The Chinese authorities have not confirmed these dates.",
+    "The special passenger will be one of two Pakistani candidates, the military pilots Muhammad Zeeshan Ali and Khurram Daud, who have been training in China since April. It is not yet known which of the two will fly: crew names are usually announced the day before. According to Space.com and the Daily Pakistan, the Pakistani astronaut is expected to spend about a week on the station, carrying out experiments, and return on the Shenzhou-23 spacecraft. The two Chinese astronauts are expected to stay for the usual six months."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Completion of the final dress rehearsal: only Xinhua (via Chinanews, 21 Nov), with no date for the rehearsal or the departure. On the pad on 17 Nov and a stay of about a week with return on Shenzhou-23: Space.com (19 Nov) and China in Space (18 Nov). Date of 25 Nov: statement by the Pakistani minister quoted by the Daily Pakistan (18 Nov); time of 08:19 (Beijing) only from China in Space, not official. Names of the candidates from China in Space and the Daily Pakistan (which spells it «Khurram Dawood»). No record of a launch was found by around 09:00 Lisbon time."
+   },
+   "fontes": [
+    {
+     "nome": "Chinanews/Xinhua – Shenzhou-24 completes final dress rehearsal (21 Nov)",
+     "url": "https://www.chinanews.com.cn/gn/2026/11-21/10735773.shtml"
+    },
+    {
+     "nome": "Space.com – China rolls out rocket for launch of Tiangong's 1st international astronaut (19 Nov)",
+     "url": "https://www.space.com/space-exploration/human-spaceflight/china-rolls-out-rocket-for-launch-of-1st-international-astronaut-to-tiangong-space-station-video"
+    },
+    {
+     "nome": "China in Space – China prepares to launch Pakistani astronaut on Shenzhou-24 (18 Nov)",
+     "url": "https://www.china-in-space.com/p/china-prepares-to-launch-pakistani"
+    },
+    {
+     "nome": "Daily Pakistan – first Pakistani astronaut to leave on 25 November (18 Nov)",
+     "url": "https://en.dailypakistan.com.pk/18-Nov-2026/pakistans-first-astronaut-set-to-enter-into-space-on-november-25"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Psicopata Vitoriana» (Victorian Psycho): Maika Monroe is a murderous governess in a darkly comic horror film that divides critics",
+   "ficha": {
+    "Original title": "Victorian Psycho (2026, United Kingdom and Ireland)",
+    "Director": "Zachary Wigon (who previously directed «Sanctuary»)",
+    "Screenplay": "Virginia Feito, based on her own novel of the same name",
+    "Cast": "Maika Monroe, Ruth Wilson, Jason Isaacs, Thomasin McKenzie, Jacobi Jupe, Evie Templeton",
+    "Release in Portugal": "19 November 2026 (horror and comedy; rated M/16; 102 minutes; distributed by Cinemundo)",
+    "Reviews": "Divided reviews: enthusiasm from The Film Stage, reservations from TheWrap, 6 out of 10 from /Film, 1.5 out of 4 from Tribune News Service and D+ from the AV Club"
+   },
+   "texto": [
+    "«Psicopata Vitoriana» (Victorian Psycho), a horror film with plenty of black humour, reached Portuguese cinemas on Thursday 19 November. It is directed by the American Zachary Wigon and stars Maika Monroe as a governess with secrets. The film premiered at the Cannes Film Festival in May. In Portugal it is showing, for example, at the Cinema Fernando Lopes and Cinemas NOS Amoreiras, in Lisbon, and at Mar Shopping and Parque Nascente, in the Porto area.",
+    "The story is set in 1858. Winifred Notty arrives at an isolated mansion in the north of England to look after the two children of the wealthy Pounds family, played by Ruth Wilson and Jason Isaacs. Soon afterwards, servants begin to disappear, and the masters of the house grow suspicious of the newcomer. She is the one telling the story, in a sarcastic narration addressed directly to the viewer. The screenplay is by Virginia Feito, who adapted her own novel. The rest is for those who go to the cinema.",
+    "The strengths, for those who liked it. There is one thing almost all critics agree on: Maika Monroe. Savina Petkova, of The Film Stage, praises the actress's unsettling smile and sarcastic voice, the «hard to resist» black humour and the way the film addresses the limits imposed on women of the period without over-explaining them. She also likes the restless camera and the skewed angles, which mimic the protagonist's state of mind. Chase Hutchinson, of TheWrap, saw the film at Cannes and compares Monroe's work to Mia Goth's in «Pearl».",
+    "The weaknesses are also clear. Chris Evangelista, of /Film, gives it 6 out of 10: the tone wavers between horror and comedy, the narration is overused and the social critique stays on the surface. Katie Walsh, of Tribune News Service, gives it 1.5 out of 4 and finds the style too heavy, with so many camera movements that they become tiring, and the violence lacking clear motivation. Jacob Oller, of the AV Club, is the harshest (D+): the killings are predictable and the film lacks the pace a horror comedy needs. In short, according to the assessment that emerges from the reviews consulted: a strong central performance, in a showy film that not everyone finds scary or funny."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – Film releases in Portugal in November 2026",
+     "url": "https://filmspot.pt/estreias/202611/"
+    },
+    {
+     "nome": "filmSPOT – Films of the week: cinema releases (19 November 2026)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-19-de-novembro-2026-15107/"
+    },
+    {
+     "nome": "filmSPOT – «Psicopata Vitoriana / Victorian Psycho» (2026)",
+     "url": "https://filmspot.pt/filme/victorian-psycho-1379486/"
+    },
+    {
+     "nome": "Cinecartaz (Público) – «Psicopata Vitoriana»",
+     "url": "https://cinecartaz.publico.pt/filme/psicopata-vitoriana-416110"
+    },
+    {
+     "nome": "The Film Stage – review of «Victorian Psycho» (Savina Petkova, 12 Nov)",
+     "url": "https://thefilmstage.com/cannes-review-victorian-psycho-is-gothic-horror-with-confidence-and-verve/"
+    },
+    {
+     "nome": "TheWrap – Cannes review of «Victorian Psycho» (Chase Hutchinson, 21 May)",
+     "url": "https://www.thewrap.com/creative-content/movies/victorian-psycho-review-maika-monroe-cannes/"
+    },
+    {
+     "nome": "/Film – review of «Victorian Psycho» (Chris Evangelista, 12 Nov)",
+     "url": "https://www.slashfilm.com/2313694/victorian-psycho-review-maika-monroe-horror-movie/"
+    },
+    {
+     "nome": "News Tribune / Tribune News Service – review of «Victorian Psycho» (Katie Walsh, 15 Nov)",
+     "url": "https://www.newstribune.com/news/2026/nov/15/review-fancy-trappings-cant-hide-emptiness-of/"
+    },
+    {
+     "nome": "AV Club – review of «Victorian Psycho» (Jacob Oller, 9 Nov)",
+     "url": "https://www.avclub.com/victorian-psycho-review-maika-monroe-slasher-zachary-wigon"
+    }
+   ],
+   "nota": "Release on 19 Nov, director, main cast, running time (102 min), M/16 rating and distributor (Cinemundo) according to filmSPOT (November release list, article of the week and film page); countries (United Kingdom and Ireland), comedy/horror genre, the year 1858 and synopsis confirmed on Cinecartaz. The cinemas mentioned (Fernando Lopes, NOS Amoreiras, NOS Mar Shopping, NOS Parque Nascente) are listed on filmSPOT and Cinecartaz; Cinecartaz shows times without the day, so screenings for today, Saturday 21 Nov, were not confirmed — it is worth checking the times before setting out. Premiere at Cannes in 2026 according to TheWrap and The Film Stage (neither gives the festival section). Mansion in Yorkshire, in the north of England, according to The Film Stage. Virginia Feito as screenwriter and author of the novel according to the AV Club, /Film and TheWrap; «Sanctuary» as Wigon's previous film according to /Film and TheWrap. Scores: D+ (AV Club), 6/10 (/Film), 1.5/4 (Tribune News Service, published in the News Tribune); TheWrap and The Film Stage give no score. The phrase «hard to resist» is the newspaper's free rendering of an idea from The Film Stage. No Portuguese reviews were found. The image's Commons page could not be opened; the file appears in Commons search results and the date (June 2016) comes from the file name.",
+   "imagem": {
+    "commons": "Maika Monroe June 2016.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of the actress Maika Monroe",
+    "legenda": "Maika Monroe, star of «Psicopata Vitoriana» (Victorian Psycho), in a 2016 photograph (archive image; does not show the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Henry Purcell, the «British Orpheus»: he died 331 years ago, in his mid-thirties, and left the English opera still sung today",
+   "ficha": {
+    "Born and died": "1659, in London (the day is not certain; some give 10 September); 21 November 1695, in London",
+    "Field": "Music (composer and organist of the English Baroque)",
+    "Essential work": "«Dido and Aeneas» (1689), «Dioclesian» (1690), «King Arthur» (1691, with John Dryden), «The Fairy-Queen» (1692, based on «A Midsummer Night's Dream»), odes for Queen Mary II, music for the queen's funeral (1695), more than 100 songs",
+    "Now": "Today, 21 November, marks 331 years since his death; in 2025, British researchers found previously unknown music by him in county archives"
+   },
+   "texto": [
+    "Today marks 331 years since Henry Purcell, considered the greatest English composer of the Baroque, died in London on 21 November 1695. He was 36 or 37. In a career of less than 20 years he wrote music for kings, for churches and for the theatre, and left «Dido and Aeneas», the oldest English opera still regularly performed. He was called «Orpheus Britannicus», the British Orpheus.",
+    "Purcell was born in 1659 into a family of musicians with ties to the court. His father sang in the Chapel Royal and was master of the choristers at Westminster Abbey, but died when Henry was five. The boy also joined the choir of the Chapel Royal. In 1673, still a teenager, he was already working as assistant to the keeper of the king's instruments, and at the Abbey he tuned the organ and copied scores. In 1679, at about 20, he succeeded his teacher, John Blow, as organist of Westminster, a post he held until his death. He wrote or arranged music for the coronations of James II (1685) and of William III and Mary II (1689).",
+    "His style brings two things together. On one side, the tradition of older English music, with several interwoven voices. On the other, the innovations of the Italian composers of the time. The result is highly expressive music that follows the meaning of the words. «Dido and Aeneas» (1689), with a libretto by Nahum Tate, was written for a girls' school in Chelsea, not for a professional theatre. It has no spoken dialogue and ends with the famous «Dido's Lament» («When I am laid in earth»), built on a repeating bass line that descends little by little. Large works for the theatre followed, such as «King Arthur» (1691), with the poet John Dryden, and «The Fairy-Queen» (1692), inspired by Shakespeare's «A Midsummer Night's Dream».",
+    "Some curiosities. At his funeral, on 26 November 1695, the funeral marches he himself had written months earlier for Queen Mary's funeral were played. He was buried in Westminster Abbey, next to where the organ then stood, and his widow did not pay for the ceremony. He left «The Indian Queen» unfinished; it was completed by his brother, Daniel. And the story is not over: in 2025, researchers from Royal Holloway, University of London, found an unknown song among court warrants in a Worcestershire archive and, in a Norfolk archive, a keyboard music book with three pieces in Purcell's own hand — the first autograph of his discovered in more than 30 years."
+   ],
+   "fontes": [
+    {
+     "nome": "Encyclopaedia Britannica – Henry Purcell",
+     "url": "https://www.britannica.com/biography/Henry-Purcell"
+    },
+    {
+     "nome": "Westminster Abbey – Henry Purcell & family",
+     "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/henry-purcell-family"
+    },
+    {
+     "nome": "English National Opera – Henry Purcell",
+     "url": "https://www.eno.org/?p=251851"
+    },
+    {
+     "nome": "Classic FM – Henry Purcell",
+     "url": "https://classicfm.com/composers/purcell"
+    },
+    {
+     "nome": "Royal Holloway, University of London – researchers find more music by Henry Purcell (10 Oct 2025)",
+     "url": "https://www.royalholloway.ac.uk/research-and-education/subjects/music/news/almost-unheard-of-royal-holloway-researchers-find-more-music-by-english-composer-henry-purcell"
+    }
+   ],
+   "nota": "Death on 21 Nov 1695 in London according to Britannica, Westminster Abbey, the ENO and Classic FM. Birth: Britannica gives «c. 1659»; the ENO gives 10 September 1659 — which is why the fact box says the day is not certain. Age: the Abbey says 37; with a birth in September 1659 he would have been 36, hence «36 or 37». Father in the Chapel Royal, training as a chorister, assistant to John Hingston in 1673, work on the Westminster organ (1674–78), organist of the Abbey in 1679 succeeding John Blow, works and dates (Dido 1689 with Nahum Tate for a girls' school in Chelsea; Dioclesian 1690; King Arthur 1691; Fairy-Queen 1692), more than 100 songs, English style with Italian influence and «The Indian Queen» completed by his brother Daniel according to Britannica. «Orpheus Britannicus», his father's death when he was five, the basis in A Midsummer Night's Dream and John Dryden on King Arthur according to Classic FM. «Oldest English opera still regularly performed», absence of spoken dialogue and the chromatic bass of the Lament according to the ENO (the ENO dates the premiere of Dido to «around 1688»; Britannica, 1689). Father as master of the Abbey choristers, the 1685 and 1689 coronations, funeral on 26 Nov 1695 with the music for Queen Mary, burial next to the organ and a ceremony at no cost to the widow according to Westminster Abbey. The 2025 discoveries according to Royal Holloway. That John Blow was Purcell's teacher and that the bass line of the Lament «descends little by little» is general knowledge, not confirmed in the sources opened today. No current exhibition or concert in Portugal linked to the date was found. The image's Commons page could not be opened; the file appears in Commons search results and the attribution (John Closterman) comes from the file name; the portrait is from the 17th century, in the public domain.",
+   "imagem": {
+    "commons": "Henry Purcell by John Closterman.jpg",
+    "tipo": "obra",
+    "alt": "Painted portrait of a young Henry Purcell, with a long wig and a white cravat",
+    "legenda": "Henry Purcell in a portrait attributed to the painter John Closterman (17th century)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that, when a theatre closes for the night, a single lamp is always left burning in the middle of the stage — and that some say it is for the ghosts?",
+   "texto": [
+    "Did you know that in many theatres, when the last technician leaves, a lamp is left on on the empty stage? It is called the «ghost light». It is usually a simple bare bulb, with no shade, fixed to the top of a stand on wheels. It stays on all night and is the only light in the auditorium. It is used in small local theatres and in the big Broadway houses in New York.",
+    "The most likely reason is practical. A theatre has no windows and, with everything switched off, it is pitch dark. And in front of many stages there is the orchestra pit, which can be about three metres deep. There are also sets, cables and trapdoors. The lamp stops whoever comes in the next morning, or in the middle of the night, from tripping or falling off the stage. And it uses much less power than leaving the house lights on. The story goes that it all began when a burglar fell off a dark stage, broke a leg and sued the theatre — but it is a legend nobody has been able to prove.",
+    "Then there is superstition. Theatre people have a reputation for being superstitious, and many believe theatres are full of the ghosts of former actors. The light would serve to keep them away, to calm them or simply to keep them company. Another explanation comes from history: according to the researcher James Fisher, the custom is said to have begun in the days of gas lighting, in the 19th century, when a low flame was left burning to relieve pressure on the valves. The Oxford English Dictionary records the expression «ghost light» from 1849.",
+    "And there is more. Whistling backstage is bad luck. The explanation is curious: in the 17th century, before electricity, prompters — the forerunners of today's stage managers — used whistles and bells to give cues to the stagehands. Many of these were sailors, used to ropes, knots and pulleys, and communicated the way they did on ships, by whistling. A whistle at the wrong moment could bring down a piece of scenery. In 2020, when the pandemic closed theatres for months, the lone lamp on stage became a symbol: the promise that the lights would come back on."
+   ],
+   "fontes": [
+    {
+     "nome": "Atlas Obscura – The Story Behind the Ritual that Still Haunts Broadway",
+     "url": "https://atlasobscura.com/articles/the-story-behind-the-ritual-that-still-haunts-broadway"
+    },
+    {
+     "nome": "Backstage – Haunted or Helpful? 3 Reasons Why Theaters Keep a Ghost Light",
+     "url": "https://www.backstage.com/magazine/article/why-theaters-keep-a-ghost-light-78277/"
+    },
+    {
+     "nome": "Shakespeare Theatre Company (Washington) – Feeling Superstitious: Ghost Lights and Whistling Backstage",
+     "url": "https://www.shakespearetheatre.org/watch-listen/feeling-superstitious-ghost-lights-and-whistling-backstage/"
+    }
+   ],
+   "nota": "Description of the lamp, orchestra pit of about ten feet (about three metres), ghosts of former actors, James Fisher's explanation about gas lighting and the burglar legend according to Atlas Obscura. The 1849 date in the Oxford English Dictionary, safety as the most likely reason, lower energy use, the burglar legend treated as doubtful, use from Broadway to small theatres and the pandemic symbol according to Backstage (which quotes James Fisher's «Historical Dictionary of the American Theater»). Origin of the whistling taboo in the 17th century, prompters' whistles and bells, stagehands coming from work at sea and the symbol of hope during the pandemic according to the Shakespeare Theatre Company. The reference to sets, cables and trapdoors combines the Shakespeare Theatre Company's mention of holes and pieces of scenery. The link between gas lighting and the 19th century and the year 2020 for theatre closures are general knowledge. None of the sources gives an author or date. The image's Commons page could not be opened; the file appears in Commons search results and what it shows comes from the file name.",
+   "imagem": {
+    "commons": "Ghost Light on Stage.JPG",
+    "tipo": "ilustrativa",
+    "alt": "A lit lamp on a stand, alone on a dark stage",
+    "legenda": "A «ghost light» burning on an empty stage (illustrative image)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Chapitô: for more than 40 years, a former prison next to São Jorge Castle has been teaching circus and using art to give young people a second chance",
+   "ficha": {
+    "Origins": "Grew out of circus-based community work in Lisbon after the 25 April 1974 revolution; the association behind it, the Colectividade Cultural e Recreativa de Santa Catarina, was set up in 1981; founder: Teresa Ricou, Portugal's first female clown",
+    "Where": "Costa do Castelo, Lisbon, in a building that was once a women's prison (there since 1986, under an agreement with the Ministry of Justice)",
+    "Field": "Circus, physical theatre and comedy, arts training, social work",
+    "Participants": "Students of the Escola Profissional de Artes e Ofícios do Espetáculo (EPAOE, a vocational school for the performing arts), the Companhia do Chapitô (founded in 1996), young people from youth detention centres, senior groups, artists and audiences"
+   },
+   "texto": [
+    "Anyone climbing the hill to São Jorge Castle, in Lisbon, almost certainly passes the Chapitô, on Costa do Castelo. From the outside it is an old building that was once a women's prison. Inside there is a circus school, a theatre company, performance spaces, a restaurant with a view over the city and a community centre. For more than 40 years the project has brought together art, education and social work.",
+    "It all began with a woman and a van. Teresa Ricou, known as Tété and described as Portugal's first female clown, travelled around Europe and Africa before settling in Lisbon. In the years after the 25 April 1974 revolution, she and other community performers took circus to the streets and neighbourhoods. In 1981 the association that supports the project, the Colectividade Cultural e Recreativa de Santa Catarina, was set up. The first circus school operated in the Bairro Alto, where, with the Santa Casa da Misericórdia (a Lisbon charitable institution), it worked for four years with young and elderly people. In 1986 the Chapitô moved to Costa do Castelo, under an agreement with the Ministry of Justice.",
+    "The project stands on several legs. One is training: the Escola Profissional de Artes e Ofícios do Espetáculo offers courses in Circus Arts and Circus Crafts, and there are early-evening courses for those who want to learn without becoming professionals. Another is creation: the Companhia do Chapitô, founded in 1996, makes highly physical comedy shows, devised as a group through improvisation, often based on classics — it has done «Macbeth», «The Tempest» and a comic version of «Oedipus», directed by the Briton John Mowat. The third is social work, with a community centre, activities for children and a seniors' group, the Trupe Sénior.",
+    "Why does it matter? Since its early years, the Chapitô has worked with young people in the care of the courts, at the Bela Vista and Navarro de Paiva youth detention centres in Lisbon. Using circus for social reintegration was, according to the institution itself, a pioneering experiment, and the collaboration has now lasted more than four decades. In 2017, Teresa Ricou said that about 400 young people passed through every day. Many Portuguese circus artists trained there: the first course, in 1987–88, trained the country's first generation of professionals in the field, according to the Chapitô."
+   ],
+   "fontes": [
+    {
+     "nome": "Chapitô – History",
+     "url": "https://chapito.org/o-chapito/a-historia/"
+    },
+    {
+     "nome": "Chapitô – home page",
+     "url": "https://chapito.org/"
+    },
+    {
+     "nome": "Visit Lisboa – Teresa Ricou",
+     "url": "https://www.visitlisboa.com/en/p/my-city/teresa-ricou"
+    },
+    {
+     "nome": "Notícias ao Minuto – interview with Teresa Ricou (17 Mar 2017)",
+     "url": "https://www.noticiasaominuto.com/vozes-ao-minuto/744023/teresa-ricou"
+    },
+    {
+     "nome": "Sceneweb – Companhia do Chapitô",
+     "url": "https://sceneweb.no/en/organisation/4108/Companhia_do%20Chapit%C3%B4"
+    },
+    {
+     "nome": "Teatro Viriato – «Édipo» (Oedipus), Companhia do Chapitô",
+     "url": "https://www.teatroviriato.com/en/what-s-on/spectacle/edipo"
+    }
+   ],
+   "nota": "Origins in community work after 25 April, the founding of the Colectividade Cultural e Recreativa de Santa Catarina in 1981, the circus school in the Bairro Alto and four years' work with the Santa Casa, the move to Costa do Castelo in 1986 under an agreement with the Ministry of Justice, the first course of 1987–88, work with young people in care at the Bela Vista and Navarro de Paiva youth detention centres, «pioneering experiment» and a relationship of more than four decades according to the Chapitô's «A História» (History) page (which does not name the founder). Courses in Circus Arts and Circus Crafts at the EPAOE, early-evening courses, community centre, after-school club, Trupe Sénior and restaurant according to the Chapitô home page (updated 29 Sep 2026; it shows no November programme). Travels in Africa and Europe, the van, and the former women's prison building on the Castle hill according to Visit Lisboa. Teresa Ricou as founder, «Portugal's first female clown», her nickname (spelt «Teté» in the article; «Tété» is the usual spelling) and about 400 young people a day according to Notícias ao Minuto (2017; the number may have changed). Company founded in 1996, collective creation through improvisation, comedy, and «Macbeth» (2013) and «The Tempest» (2010) according to Sceneweb; «Oedipus» directed by John Mowat according to the Teatro Viriato. That «many Portuguese circus artists» trained at the Chapitô is a generalisation based on the institution itself, not independently verified. John Mowat's British nationality is general knowledge, not confirmed in the sources opened today. Infopédia could not be opened. The image's Commons page could not be opened; the file appears in Commons search results and what it shows comes from the file name.",
+   "imagem": {
+    "commons": "16 Porta de Alfofa - Junto ao Chapitô.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Stone arch of the old Porta de Alfofa gate, on a street on the Castle hill in Lisbon",
+    "legenda": "The Porta de Alfofa, on the hill of São Jorge Castle, next to the Chapitô (illustrative image; does not show the Chapitô's activities)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 21 November from the listings and event pages of Casa da Música, the listings and activity pages of Serralves (including «Visitar Serralves»), Agenda Porto (Porto City Council: highlights, Rivoli, Galeria Municipal and the Porto/Post/Doc programme), the Batalha website, the Porto/Post/Doc home page and Time Out Porto. It was not possible to open the Porto/Post/Doc daily programme and box office, most of the festival's screening pages on Agenda Porto, or the websites of the Teatro Municipal do Porto, the TNSJ, the Coliseu and the Hard Club today; for that reason, prices for festival screenings are almost always to be confirmed (the Batalha gives €4 to €5 for festival screenings), and the short film «Masao Adachi Tira uma Foto Tipo Passe» (Masao Adachi Takes a Passport Photo) is not repeated, as its screen and time appear differently today from yesterday. According to Casa da Música, Rodrigo Leão (Monday 23 and Tuesday 24, at 21:00) and the Remix Ensemble Soloists at the Palácio da Bolsa (Monday 23) are sold out; Rodrigo Leão's Tuesday performance at 18:30 does not yet appear as sold out. None of the sources consulted mentions cancellations for these days. Where it says «To be confirmed», the information was not in the source: it is worth checking the link before setting out.",
+ "agenda": [
+  {
+   "dia": "2026-11-21",
+   "eventos": [
+    {
+     "nome": "Ciência em Família: As Cores Secretas do Outono (Family Science: The Secret Colours of Autumn)",
+     "descricao": "A workshop in the Serralves Park to find out why leaves change colour in autumn, looking at the trees and doing experiments as a family.",
+     "horario": "15:00",
+     "tipo": "Family",
+     "local": "Parque de Serralves (meeting point: outdoor ticket office), Rua D. João de Castro, 210, Porto",
+     "preco": "Family ticket: €12 per resident adult (€15 non-residents); children up to 12 free",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2111-ciencia-em-familia-or-as-cores-secretas-do-outono/",
+     "ligacao": "Serralves",
+     "nota": "Ages 5 and up; maximum of 20 participants. Date, time, meeting point, prices and discounts (50% for Friends of Serralves, under-18s and over-65s) confirmed again today on the Serralves page, which today does not describe how to sign up: it is worth booking ahead. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Maguy Marin: Repertório(s) (Repertoire(s))",
+     "descricao": "A talk on the career of the French choreographer Maguy Marin, who takes part by video link, with the Brazilian choreographer Lia Rodrigues, moderated by Maria José Fazenda.",
+     "horario": "16:00",
+     "tipo": "Dance / Talk",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "Free entry",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2111-maguy-marin-repertorios/",
+     "ligacao": "Serralves",
+     "nota": "Part of Serralves' Maguy Marin Focus. In French, with simultaneous interpretation into Portuguese. Date, time, venue and free admission confirmed today on the Serralves page, which does not say whether a ticket must be collected; the TNSJ website was not consulted."
+    },
+    {
+     "nome": "The Brotherhood, by Carolina Bianchi Y Cara de Cavalo",
+     "descricao": "Second chapter of the «Cadela Força» trilogy, about pacts of male brotherhood and how their codes have perpetuated sexual violence, including in the history of art.",
+     "horario": "17:00",
+     "tipo": "Theatre",
+     "local": "Teatro Rivoli (Grande Auditório), Praça D. João I, Porto",
+     "preco": "€12",
+     "url": "https://www.agenda-porto.pt/en/evento/tmp-the-brotherhood/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/18 (ages 18+); deals with rape and sexual violence. Date, time (final performance) and price confirmed again today on Agenda Porto, with no sold-out notice; the running time (3h40 with an interval) comes from the Teatro Municipal website, consulted on 18 November (it did not open today). Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Sinfonia Órgão (Organ Symphony) – Orquestra Sinfónica do Porto Casa da Música",
+     "descricao": "Stefan Blunier conducts Chausson's «Soir de fête», Liszt's «Les Préludes» and Saint-Saëns' Symphony No. 3, «Organ», with Jonathan Ayerst at the organ.",
+     "horario": "18:00",
+     "tipo": "Classical music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€26 to €30",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, hall and prices confirmed again today in the Casa da Música listings, with no sold-out notice; programme and performers confirmed on 18 and 19 November from the same source. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Tudo é Prisão» (Everything Is Prison), by Eloy Enciso",
+     "descricao": "A film in the International Competition: a Spanish artist living in Berlin travels around Spain in search of the sites of Franco-era concentration camps, and the research ends up intertwined with her family's legacy and memory.",
+     "horario": "21:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "€5",
+     "url": "https://www.agenda-porto.pt/en/evento/ppd-tudo-e-prisao/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/12 (ages 12+). Date, time, venue and price confirmed today on Agenda Porto, which does not give the screen (yesterday, the festival website gave Screen 1 and 109 minutes). Second screening on Sunday 22, at 16:00, at the same cinema. Event repeated from yesterday's edition (where it appeared under its original title, «Todo es cárcel»)."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-22",
+   "eventos": [
+    {
+     "nome": "Café com Nata: Solistas da Orquestra Sinfónica (Orchestra Soloists)",
+     "descricao": "A Sunday-morning concert with the oboe in the spotlight: Mozart, Britten and Kodály, with coffee and a pastel de nata (custard tart) included.",
+     "horario": "11:00",
+     "tipo": "Classical music",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€14",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, hall and price confirmed again today in the Casa da Música listings, with no sold-out notice; programme and performers confirmed on 19 November from the same source. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Singspiele, by Maguy Marin, with David Mambouch",
+     "descricao": "A solo in which the performer crosses the stage changing face and character, questioning identity, appearance and gender codes. It closes the Maguy Marin Focus.",
+     "horario": "16:00 and 19:00",
+     "tipo": "Dance / Performance",
+     "local": "Serralves (Auditório do Museu), Rua D. João de Castro, 210, Porto",
+     "preco": "€7.50 (€3.75 for students and young people, over-64s and Friends of Serralves)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2211-singspiele/",
+     "ligacao": "Serralves",
+     "nota": "1h. Date, times, venue and prices confirmed again today on the Serralves page, with a link to buy tickets; it does not say how many seats remain. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "«A Cara Que Mereces» (The Face You Deserve), by Miguel Gomes",
+     "descricao": "Miguel Gomes's first feature film, from 2004, returns to the screen in the retrospective Serralves is devoting to the director of «Tabu» and «Grand Tour».",
+     "horario": "17:00",
+     "tipo": "Cinema",
+     "local": "Casa do Cinema Manoel de Oliveira, Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2211-a-cara-que-mereces/",
+     "ligacao": "Serralves",
+     "nota": "108 minutes. Date, time and venue confirmed today on the Serralves page, which shows only the reduced prices (€3 for students and young people; €1.50 for over-64s and Friends of Serralves), without the full price or the age rating."
+    },
+    {
+     "nome": "Vincent Peirani – «Time Reflections» (Misty Fest)",
+     "descricao": "The French accordionist presents the fourth part of his «Living Being» project, made during the pandemic, with contemporary beats, echoes of traditional dances and Baroque touches; Émile Parisien plays soprano saxophone.",
+     "horario": "21:00",
+     "tipo": "Jazz",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€25",
+     "url": "https://casadamusica.com/en/event/vincent-peirani-2/?selected_session=49430",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+); 25% discount for Friends of Casa da Música. Date, time, hall, price and musicians confirmed today on the concert page, with no sold-out notice. At 21:30, in the Sala Suggia, the Orquestra Jazz de Matosinhos plays George Russell's «Jazz in the Space Age» (€26 to €30, with no sold-out notice)."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-23",
+   "eventos": [
+    {
+     "nome": "Alice Neel: Beautifully Imperfect",
+     "descricao": "A retrospective of the American painter Alice Neel (1900–1984), known for her portraits of neighbours, friends and figures of 20th-century New York.",
+     "horario": "To be confirmed",
+     "tipo": "Exhibition",
+     "local": "Museu de Serralves (Ala Álvaro Siza), Rua D. João de Castro, 210, Porto",
+     "preco": "General ticket €24 (€20 for residents, at the ticket office); Late Afternoon ticket, Monday to Thursday from 17:00, €15 (€12 residents); free up to age 12",
+     "url": "https://www.serralves.pt/en/ciclo-serralves/2607-alice-neel/",
+     "ligacao": "Serralves",
+     "nota": "Runs until 17 January 2027. Dates and venue confirmed again today on the exhibition page; prices and discounts (50% for ages 12 to 17, students and over-65s) on the «Visitar Serralves» page, which still does not show the winter opening hours. The Late Afternoon ticket (Monday to Thursday, from 17:00, last entry at 18:00) indicates that the museum opens on Mondays. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Yalda, a Noite do Perdão» (Yalda, a Night for Forgiveness), by Massoud Bakhshi",
+     "descricao": "A special screening of the Iranian film about a young woman sentenced to death who goes on a live television show to ask forgiveness from the daughter of the man whose death she is accused of.",
+     "horario": "19:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Part of the festival's Special Screenings. Date, time and venue confirmed today on the programme page on Agenda Porto; it was not possible to open the screening page or the festival programme, so the price (the Batalha gives €4 to €5 for festival screenings), the screen and the age rating are missing. The synopsis does not come from the source consulted."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Paisagens de Resistência» (Landscapes of Resistance), by Marta Popivoda",
+     "descricao": "A documentary about Sonja, a former Yugoslav anti-fascist resistance fighter and Auschwitz survivor, who recalls the struggle and the places she passed through.",
+     "horario": "21:30",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Part of the Working Class Heroes section. Date, time and venue confirmed today on the programme page on Agenda Porto; it was not possible to open the screening page or the festival programme, so the price (the Batalha gives €4 to €5 for festival screenings), the screen and the age rating are missing. The synopsis does not come from the source consulted."
+    },
+    {
+     "nome": "Rodrigo Leão – «Alma Mater», 26 years on (Misty Fest)",
+     "descricao": "Rodrigo Leão revisits his album «Alma Mater» with an instrumental ensemble, choir and guests; the accordionist Gabriel Gomes opens the night with his first solo album, «Uma História Assim».",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 to €40 (sold out)",
+     "url": "https://casadamusica.com/en/event/rodrigo-leao-4/?selected_session=60241",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time, hall, prices and sold-out status confirmed again today at Casa da Música. See also the Tuesday 24 performance at 18:30, not yet shown as sold out. Event repeated from yesterday's edition."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-24",
+   "eventos": [
+    {
+     "nome": "Sobre um filme, sobre um poema III (On a Film, on a Poem III)",
+     "descricao": "An exhibition curated by Regina Guimarães that sets ten poets in dialogue with ten films directed by women.",
+     "horario": "11:00–20:00",
+     "tipo": "Exhibition",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto (Foyers 1 and 2)",
+     "preco": "Free entry",
+     "url": "https://www.batalhacentrodecinema.pt/en/programmes/sobre-um-filme-sobre-um-poema-iii/",
+     "ligacao": "Batalha Centro de Cinema",
+     "nota": "Runs until 7 February 2027. Dates, venue and free entry confirmed today on the Batalha website; the opening hours are the building's Tuesday hours, given on the «Opening hours and access» page of the same website."
+    },
+    {
+     "nome": "Porto/Post/Doc: talk «Documentário e Inteligência Artificial» (Documentary and Artificial Intelligence), with Jorge Caballero",
+     "descricao": "The director Jorge Caballero talks about what changes in documentary film-making with the arrival of artificial intelligence.",
+     "horario": "15:30",
+     "tipo": "Talk / Cinema",
+     "local": "Teatro Rivoli, Praça D. João I, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/local/rivoli-theatre/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date and free entry confirmed today on the Rivoli page on Agenda Porto; the time comes from the festival's programme page on the same source. It was not possible to open the event page, so the room, the language and whether a ticket must be collected are not known."
+    },
+    {
+     "nome": "Rodrigo Leão – «Alma Mater», 26 years on (Misty Fest)",
+     "descricao": "Early-evening performance of the concert in which Rodrigo Leão revisits his album «Alma Mater» with an instrumental ensemble, choir and guests.",
+     "horario": "18:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 to €40",
+     "url": "https://casadamusica.com/en/event/rodrigo-leao-4/?selected_session=60241",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+); 25% discount for Friends. Date, time, hall and prices (€40 rows A–D, €35 E–K, €30 L–YY, €25 boxes and choir seats) confirmed today at Casa da Música, with no sold-out notice. The 21:00 performance on the same day is sold out; the page only announces Gabriel Gomes's opening set for the 21:00 performances."
+    },
+    {
+     "nome": "Porto/Post/Doc: «Cartas da Guerra» (Letters from War), by Ivo M. Ferreira",
+     "descricao": "A black-and-white film based on the letters António Lobo Antunes wrote to his wife when he was an army doctor in the colonial war in Angola.",
+     "horario": "19:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.agenda-porto.pt/en/ciclo/portopostdoc-film-andamp-media-festival-1791825225608/",
+     "ligacao": "Agenda Porto",
+     "nota": "Part of the Working Class Heroes section. Date, time and venue confirmed today on the programme page on Agenda Porto; it was not possible to open the screening page or the festival programme, so the price (the Batalha gives €4 to €5 for festival screenings), the screen and the age rating are missing. The synopsis does not come from the source consulted."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Two Russian missiles and a drone came down in south-eastern Poland during an attack on Ukraine, with no injuries; Tusk speaks of «intentional provocation» and Trump says it was «by mistake».",
+   "noticia": 9
+  },
+  {
+   "texto": "IPMA, Portugal's weather service, has put Coimbra, Guarda and Viseu under a red rain warning from 09:00 to 18:00 this Saturday, with a risk of flooding on rivers in the North and Centre.",
+   "noticia": 13
+  },
+  {
+   "texto": "COP31 has run past its deadline without a deal: the draft no longer mentions fossil fuels and the EU threatens to block it; negotiations resume this Saturday.",
+   "noticia": 10
+  },
+  {
+   "texto": "In Portugal's 2027 Budget, PS and Chega froze university tuition fees against the Government's wishes; the final vote is expected to move to the afternoon of Tuesday 24.",
+   "noticia": 14
+  },
+  {
+   "texto": "Moody's has upgraded Portugal's debt rating from A3 to A2, with a stable outlook, confident that debt will keep falling.",
+   "noticia": 15
+  },
+  {
+   "texto": "BepiColombo, from ESA and JAXA, begins today the first of 16 manoeuvres to enter orbit around Mercury; the time has not been released and the outcome is not yet confirmed.",
+   "noticia": 17
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Saturday 21 Nov",
+   "texto": "Red rain warning in Coimbra, Guarda and Viseu (09:00–18:00). In Lisbon, CGTP demonstration at 14:30, from Saldanha to Restauradores. At COP31, a third draft is expected.",
+   "noticia": 13
+  },
+  {
+   "quando": "Monday 23 Nov",
+   "texto": "Last committee-stage Budget votes, expected to start earlier and possibly run into the early hours. The CP train drivers' strike notice period begins.",
+   "noticia": 14
+  },
+  {
+   "quando": "Tuesday 24 Nov",
+   "texto": "Final overall vote on the 2027 Budget, expected in the afternoon, with a CGTP gathering in front of Parliament. CP train drivers on general stoppage on the 24th and 25th.",
+   "noticia": 16
+  },
+  {
+   "quando": "Wednesday 25 Nov",
+   "texto": "Launch of Shenzhou-24, with the first foreign astronaut heading for the Chinese station, expected on this date without official confirmation from China.",
+   "noticia": 18
+  }
+ ],
+ "linkedin_abertura": "Two Russian missiles and a drone came down in Poland during an attack on Ukraine: Warsaw speaks of «intentional provocation»; Trump says it was «by mistake»."
+}
