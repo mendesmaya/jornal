@@ -1,0 +1,825 @@
+{
+  "data": "2026-11-22",
+  "numero": "030",
+  "tipo": "semanal",
+  "resumo": "The week Xi, Trump and Putin sat at the same table in Shenzhen, Russian missiles fell in Poland, the Socialists and Chega rewrote Portugal's 2027 budget and BepiColombo went into orbit around Mercury.",
+  "em_2_minutos": [
+    {
+      "texto": "The first three-way summit between the US, China and Russia ended with a four-point «peace declaration», with no deadlines or concrete commitments and not a word about Ukraine.",
+      "destaque": 1
+    },
+    {
+      "texto": "Two Russian missiles and a drone fell in Poland; in Warsaw, Rutte promised NATO will defend «every inch» of Polish territory, and allies meet on Monday.",
+      "destaque": 2
+    },
+    {
+      "texto": "The Socialists (PS) and Chega passed pension rises, zero VAT on a food basket and frozen tuition fees against the Government; the finance minister warns of a deficit, and the final vote is Tuesday at 3pm.",
+      "destaque": 3
+    },
+    {
+      "texto": "COP31 went into a second day of overtime with a final text that, according to AP, does not mention fossil fuels; approval was scheduled for Sunday morning.",
+      "destaque": 4
+    },
+    {
+      "texto": "Nvidia had its worst week on the stock market since 2008, amid reports that the US regulator is investigating its accounts; Anthropic debuted on Nasdaq and ended the week 7% above its offer price.",
+      "destaque": 5
+    },
+    {
+      "texto": "After an eight-year journey, the European–Japanese probe BepiColombo went into orbit around Mercury on Saturday, after a 37-minute braking burn.",
+      "destaque": 10
+    }
+  ],
+  "destaques": [
+    {
+      "titulo": "Shenzhen: Xi, Trump and Putin meet for the first time and leave with a «peace declaration» that leaves out Ukraine",
+      "seccao": "mundo",
+      "data": "2026-11-19",
+      "estado": "Fact: summit and joint declaration · text has no deadlines or mechanisms · no new meeting announced",
+      "texto": [
+        "It was the picture of the week. On Thursday 19 November, Xi Jinping, Donald Trump and Vladimir Putin met in Shenzhen, in southern China, on the sidelines of the APEC summit (the Asia-Pacific economic cooperation forum). It was the first three-way summit between the leaders of China, the US and Russia. The meeting lasted about an hour and a half and ended with a «trilateral peace declaration» covering UN reform, more oil production and dialogue on nuclear risks — but it does not mention the war in Ukraine or the one in Iran.",
+        "So what does the text actually say? It has four points, with no timetable, no mechanism to make anyone comply and no arms-reduction commitments, according to the South China Morning Post. The three countries defend the immunity of leaders and say international courts, such as the International Criminal Court, «must not abuse their jurisdiction». Putin himself admitted the declaration sets no ambitious goals and that no one will be forced to follow it. Xi spoke of a «fruitful» meeting; Trump rated it «12 out of 10».",
+        "In Europe and in Kyiv, the reading was different. French Foreign Minister Jean-Noël Barrot said the three leaders «disagree on everything». Ukrainian President Volodymyr Zelensky responded to Trump calling Putin a «friend»: «For us, he is an enemy.» Hours after leaving Shenzhen, Russia launched one of the week's biggest attacks on Ukraine (see next story)."
+      ],
+      "desenvolvimento": "On Saturday 21 November, Trump posted photos from the summit on Truth Social, including a handshake with Putin captioned «My Friend», drawing criticism from senators of both parties, according to DPA. No new tariffs were announced at the bilateral meeting with Xi; the two countries agreed to draw up an action plan for «strategic stability», according to China Briefing. No new three-way meeting has been scheduled.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Summit and content of the declaration confirmed by Euronews, AP (via Newser) and the South China Morning Post. Putin's remark about goals and Trump's «12 out of 10» were found in only one source (HNGN). Saturday's post confirmed by Ukrainska Pravda and DPA; senators' reactions by DPA only. The outcome of the US–China bilateral meeting comes from a single source (China Briefing)."
+      },
+      "fontes": [
+        {
+          "nome": "Euronews (19 Nov)",
+          "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia"
+        },
+        {
+          "nome": "AP via Newser (19 Nov)",
+          "url": "https://www.newser.com/story/400290/rare-trump-xi-putin-summit-ends-with-joint-declaration.html"
+        },
+        {
+          "nome": "South China Morning Post (20 Nov)",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375130/xi-trump-and-putin-peace-declaration-suggests-summit-more-photo-op"
+        },
+        {
+          "nome": "HNGN (21 Nov)",
+          "url": "https://www.hngn.com/articles/273910/20261121/trump-says-putin-wants-peace-missiles-hit-kyiv-poland.htm"
+        },
+        {
+          "nome": "DPA via Korea Times (22 Nov)",
+          "url": "https://www.koreatimes.co.kr/world/20261122/trump-again-calls-putin-friend-despite-criticism-in-us"
+        },
+        {
+          "nome": "Ukrainska Pravda via Yahoo (21 Nov)",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-posts-photo-putin-captioned-232600585.html"
+        },
+        {
+          "nome": "China Briefing (20 Nov)",
+          "url": "https://www.china-briefing.com/news/apec-2026-in-shenzhen-what-the-leaders-meeting-and-trump-xi-talks-mean-for-business/"
+        }
+      ],
+      "edicao": "2026-11-20",
+      "noticia": 9,
+      "imagem": {
+        "commons": "Shenzhen Skyline from Futian District5.jpg",
+        "tipo": "ilustrativa",
+        "alt": "Skyscrapers in Shenzhen's Futian district",
+        "legenda": "Shenzhen seen from the Futian district (illustrative image; does not show the summit)"
+      }
+    },
+    {
+      "titulo": "War in Ukraine escalates: Crimea bridge cut, Kyiv bridges hit and Russian missiles fall in Poland",
+      "seccao": "mundo",
+      "data": "2026-11-20",
+      "estado": "Facts (attacks, impact in Poland) · Russian intent disputed · Poland has not requested Article 4 consultations",
+      "texto": [
+        "The week began with a Ukrainian strike and ended with NATO on alert. On the night of 16 to 17 November, Ukraine attacked the bridge linking Russia to occupied Crimea with drones and missiles and cut the road link; Moscow admitted «damage». Russia responded with strikes on Kyiv that hit bridges over the Dnipro on 17 November and again on 20 November. The 20 November attack — more than 400 drones and more than 110 missiles — killed at least eight people, according to Ukrainian authorities quoted by AP.",
+        "In the same early hours, two Russian missiles and a jet-powered drone came down in three villages in south-eastern Poland, less than 50 kilometres from the border. No one was hurt. One of the missiles, a Kh-101, was recovered in Nowy Lipowiec. Polish Prime Minister Donald Tusk speaks of an «intentional provocation»; Trump said Putin dropped them «by mistake». The Kremlin has not commented.",
+        "On Saturday 21, NATO Secretary General Mark Rutte went to Warsaw and promised the Alliance will defend «every inch» of Polish territory. NATO's top military commander in Europe will assess the gaps and adjust defences if needed. Poland has not invoked Article 4 of the treaty (which triggers formal consultations among allies), according to Al Jazeera; the case will be discussed by the North Atlantic Council on Monday."
+      ],
+      "desenvolvimento": "On the negotiations front, the Wall Street Journal reported on 20 November, citing anonymous sources, that US envoys discussed offering Ukraine NATO membership in exchange for the Donbas, or freezing the front line with security guarantees; Moscow rejected both. There is no date for a new round. The violence continued over the weekend: on Sunday 22, a Russian drone destroyed several floors of an apartment block in Dymer, near Kyiv, and people may be trapped under the rubble, according to the Kyiv Post and Ukrinform. Russia says rail traffic on the Crimea bridge has been restored; there is no date for the road.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "The missiles' impact and the statements by Tusk and Trump confirmed by AP (via PBS) and AFP (via CP24); Rutte's visit and quote by Reuters (via ThePrint) and AFP; Article 4 by Al Jazeera only. The 20 November death toll is provisional (some counts give nine). The Dymer attack confirmed by the Kyiv Post and Ukrinform. Restoration of rail traffic only from TASS (Russian state news agency). The Wall Street Journal article was not opened directly; it was cited by Observador."
+      },
+      "fontes": [
+        {
+          "nome": "AP via PBS (20 Nov)",
+          "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
+        },
+        {
+          "nome": "AFP via CP24 (21 Nov)",
+          "url": "https://www.cp24.com/news/world/2026/11/21/nato-chief-pledges-to-defend-poland-after-russian-missile-incursion/"
+        },
+        {
+          "nome": "Reuters via ThePrint (22 Nov)",
+          "url": "https://theprint.in/world/nato-to-defend-every-inch-of-polish-territory-says-secretary-general-mark-rutte-in-warsaw/3105600"
+        },
+        {
+          "nome": "Al Jazeera (21 Nov)",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+        },
+        {
+          "nome": "PBS – Crimea bridge (17 Nov)",
+          "url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea"
+        },
+        {
+          "nome": "Observador – US scenarios (20 Nov)",
+          "url": "https://observador.pt/2026/11/20/eua-admitem-dois-cenarios-para-ucrania-nato-em-troca-da-cedencia-do-donbass-ou-congelar-linhas-da-frente-com-garantias-de-seguranca/"
+        },
+        {
+          "nome": "Kyiv Post – Dymer (22 Nov)",
+          "url": "https://www.kyivpost.com/post/90829"
+        },
+        {
+          "nome": "Ukrinform (22 Nov)",
+          "url": "https://www.ukrinform.net/rubric-ato/4187306-drone-attack-damages-apartment-block-in-kyiv-region-people-may-be-trapped-under-rubble.html"
+        },
+        {
+          "nome": "TASS (21 Nov)",
+          "url": "https://tass.com/society/2222879"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 9,
+      "imagem": {
+        "commons": "Russian Kh-101 missile shot in Vinnytsia Oblast, 2023-01-26 (05).jpg",
+        "tipo": "arquivo",
+        "alt": "Wreckage of a downed Russian Kh-101 cruise missile on the ground",
+        "legenda": "Wreckage of a Kh-101 missile shot down in Ukraine's Vinnytsia region in 2023 (file image; does not show the missiles that fell in Poland)"
+      }
+    },
+    {
+      "titulo": "2027 budget: Socialists and Chega force through pensions, zero VAT and frozen tuition fees, and the Government warns the deficit is back",
+      "seccao": "portugal",
+      "data": "2026-11-21",
+      "estado": "Facts (detailed votes) · deficit estimates are the Government's · final vote on 24 Nov at 3pm",
+      "texto": [
+        "Budget week went badly for Portugal's Government. From 18 November, in the stage where amendments are voted one by one, the Socialist Party (PS) and the far-right Chega teamed up several times against the governing PSD and CDS-PP: they passed permanent pension rises, a public guarantee for rents, measures to restore civil servants' years of service, zero VAT on a basket of foods from January to March 2027 and a freeze on tuition fees at public universities.",
+        "What does it cost? Finance Minister Joaquim Miranda Sarmento says «with the PS measures, the deficit returns»: he estimates between 0.3% and 0.7% of GDP in 2027, against a small surplus in the Government's proposal. On Saturday he conceded the «most likely scenario» is that the Government manages, «with a lot of effort», to keep the accounts balanced. Prime Minister Luís Montenegro accused PS and Chega of «irresponsibility»; PS leader José Luís Carneiro insists the party's proposals are «sustainable»."
+      ],
+      "desenvolvimento": "On 21 November, the final overall vote was moved from 10am to 3pm on Tuesday 24, because of Chega's party convention this weekend; on Monday the plenary starts at 9am. The PS has said it will abstain, which should ensure the budget passes; at the convention, André Ventura refused to «guarantee» the budget and called the PS the Government's «crutch». On Friday, Moody's upgraded Portugal's credit rating to A2.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Votes confirmed by ECO, RTP and Lusa (DN, Executive Digest). Deficit estimates confirmed by ECO/Lusa and Observador. New schedule confirmed by Observador and RTP. Ventura's quote from a single source (DN). The PS abstention is the party's announced position, not a vote already cast."
+      },
+      "fontes": [
+        {
+          "nome": "ECO – first day of votes (18 Nov)",
+          "url": "https://eco.sapo.pt/2026/11/18/governo-sofre-derrota-nas-pensoes-e-no-arrendamento-ao-primeiro-dia-de-votacoes-do-oe2027/"
+        },
+        {
+          "nome": "RTP / Lusa – zero VAT (20 Nov)",
+          "url": "https://www.rtp.pt/noticias/economia/isencao-de-iva-do-cabaz-alimentar-proposta-pelo-ps-aprovada-com-apoio-do-chega_n1780380"
+        },
+        {
+          "nome": "Executive Digest / Lusa – tuition fees (20 Nov)",
+          "url": "https://executivedigest.sapo.pt/sintese-oe2027-3-o-dia-de-votacoes-mais-curto-devido-ao-chega-e-marcado-por-congelamento-de-propinas/"
+        },
+        {
+          "nome": "ECO / Lusa – deficit (20 Nov)",
+          "url": "https://eco.sapo.pt/2026/11/20/medidas-do-ps-levam-a-defice-entre-03-e-07-do-pib-no-proximo-ano/"
+        },
+        {
+          "nome": "Observador – Miranda Sarmento (21 Nov)",
+          "url": "https://observador.pt/2026/11/21/cenario-mais-provavel-e-que-o-governo-com-muito-esforco-consiga-manter-o-equilibrio-das-contas-publicas-em-2027-diz-miranda-sarmento/"
+        },
+        {
+          "nome": "RTP – Montenegro (20 Nov)",
+          "url": "https://www.rtp.pt/noticias/politica/a-irresponsabilidade-paga-se-caro-montenegro-acusa-ps-e-chega-de-castigarem-familias_n1780664"
+        },
+        {
+          "nome": "Observador – new schedule (21 Nov)",
+          "url": "https://observador.pt/2026/11/21/discussao-final-do-orcamento-do-estado-vai-ter-horario-ajustado-por-causa-da-convencao-do-chega/"
+        },
+        {
+          "nome": "RTP – final vote moved to the afternoon (21 Nov)",
+          "url": "https://www.rtp.pt/noticias/economia/oe2027-plenario-para-votacao-final-da-proposta-adiado-para-a-tarde-de-terca-feira_n1780783"
+        },
+        {
+          "nome": "DN – Chega convention (21 Nov)",
+          "url": "https://www.dn.pt/pol%C3%ADtica/conveno-do-chega-ventura-denuncia-tentativa-de-silenciar-o-partido-que-se-diz-pronto-para-governar"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 14,
+      "imagem": {
+        "commons": "Lisboa - Assembleia da República.jpg",
+        "tipo": "arquivo",
+        "alt": "Façade of São Bento Palace, home of Portugal's parliament, in Lisbon",
+        "legenda": "São Bento Palace, home of the Assembleia da República, Portugal's parliament (file image)"
+      }
+    },
+    {
+      "titulo": "COP31 in overtime: final text of the climate summit goes to a vote without mentioning fossil fuels",
+      "seccao": "mundo",
+      "data": "2026-11-22",
+      "estado": "Final text presented · approval scheduled for the morning of 22 Nov · outcome not confirmed at time of publication",
+      "texto": [
+        "The UN climate summit in Antalya, Turkey, was due to end on Friday 20 November and went into a second day of overtime. On Saturday night, COP31 President Murat Kurum presented a text that, he said, «all parties» can accept; the approval session was scheduled for Sunday morning, 22 November. According to AP, this possibly final version does not mention fossil fuels, the main cause of global warming.",
+        "What changed during the week? The first draft spoke of moving away from fossil fuels; the 19 November draft removed those references. Instead, it proposes that electricity should make up 35% of the energy used worldwide by 2035, gives prominence to carbon capture and acknowledges for the first time that the 1.5°C limit will be overshot. The European Union threatened to block a text that forgets oil, coal and gas, and several countries, such as Panama and Vanuatu, said they would not accept it as it stood."
+      ],
+      "desenvolvimento": "Kurum insists concerns about fossil fuels and adaptation finance were «addressed», but the final text was not public when Al Jazeera reported. Portugal played a role in the talks: Environment Minister Maria da Graça Carvalho negotiated the just-transition file for the EU and announced a further €3.2 million for climate funds.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Overtime and Kurum's statements confirmed by Reuters (via Spokesman-Review) and Al Jazeera; content of the 19 November draft by UN News and AP (via PBS). The absence of fossil fuels in the final text comes from AP's headline and summary; the body of the article could not be opened. At the time of publication it was not possible to confirm whether the deal was adopted. Portugal's role confirmed by DN and RTP."
+      },
+      "fontes": [
+        {
+          "nome": "Reuters via Spokesman-Review (21 Nov)",
+          "url": "https://www.spokesman.com/stories/2026/nov/21/cop31-climate-talks-close-to-final-deal-says-summi/"
+        },
+        {
+          "nome": "Al Jazeera (22 Nov)",
+          "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+        },
+        {
+          "nome": "AP via Local10 (22 Nov)",
+          "url": "https://www.local10.com/news/world/2026/11/22/turkeys-final-draft-at-un-climate-talks-doesnt-mention-the-fossil-fuels-that-cause-global-warming/"
+        },
+        {
+          "nome": "UN News (19 Nov)",
+          "url": "https://news.un.org/en/story/2026/11/1168839"
+        },
+        {
+          "nome": "AP via PBS (20 Nov)",
+          "url": "https://www.pbs.org/newshour/world/activists-leaders-criticize-cop31-climate-talks-as-fossil-fuels-go-unmentioned-in-draft-deal"
+        },
+        {
+          "nome": "RTP – Portugal adds funding (18 Nov)",
+          "url": "https://www.rtp.pt/noticias/mundo/portugal-anuncia-mais-3-2-me-em-fundos-internacionais-de-acao-climatica_n1779907"
+        },
+        {
+          "nome": "DN – Portugal in the negotiations (9 Nov)",
+          "url": "https://www.dn.pt/sociedade/cop31-arranca-com-apelos-a-resultados-e-portugal-a-assumir-negociaes-pela-ue"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 10
+    },
+    {
+      "titulo": "Nvidia: after Huang's exit, record revenue and, in the end, its worst week on the stock market since 2008",
+      "seccao": "tecnologia",
+      "data": "2026-11-20",
+      "estado": "Facts (results, share fall) · SEC investigation reported with anonymous sources · SEC and Nvidia declined to comment",
+      "texto": [
+        "Nvidia, the biggest maker of artificial intelligence (AI) chips, had a week of extremes. On Tuesday 17 November, it presented its first results without Jensen Huang at the helm: revenue of $115.8 billion in three months, more than double a year earlier. The board ruled out the founder's return, despite a letter with thousands of signatures calling for it. On Friday 20, the shares fell 14% to $125.53 and ended the week down 23% — the worst week since October 2008.",
+        "Why did they fall so much? The slide accelerated after Reuters reported, citing two sources, that the SEC, the US securities regulator, is examining possible accounting problems at the company. The SEC did not comment and Nvidia did not respond to journalists' questions. The company had already mentioned in its results statement an internal investigation by an independent committee of the board."
+      ],
+      "desenvolvimento": "California's attorney general subpoenaed Nvidia on 19 November for information on chips that allegedly reached China and on whether it misled investors, and a law firm announced a shareholder class action. Board chairman Harvey Jones says the search for a permanent chief executive is under way; Colette Kress remains interim leader and no names are known.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Share fall confirmed by the Motley Fool, Investing.com and Yahoo Finance; SEC investigation reported by Reuters (cited by the Daily Star) with anonymous sources, and earlier by the Wall Street Journal (cited by PYMNTS). California subpoena confirmed by Yahoo Finance and 24/7 Wall St. The class action is a statement by the law firm itself."
+      },
+      "fontes": [
+        {
+          "nome": "Nvidia – fiscal Q3 results (17 Nov)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+        },
+        {
+          "nome": "The Motley Fool (21 Nov)",
+          "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+        },
+        {
+          "nome": "Investing.com (21 Nov)",
+          "url": "https://au.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4787315"
+        },
+        {
+          "nome": "Yahoo Finance (21 Nov)",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+        },
+        {
+          "nome": "The Daily Star / Reuters (21 Nov)",
+          "url": "https://www.thedailystar.net/news/world/news/nvidias-accounting-focus-us-sec-investigation-sources-say-4329306"
+        },
+        {
+          "nome": "24/7 Wall St (21 Nov)",
+          "url": "https://247wallst.com/investing/2026/11/21/nvidias-worst-losing-streak-since-2008-now-has-an-sec-problem-what-shareholders-need-to-know/"
+        },
+        {
+          "nome": "GlobeNewswire – class action (19 Nov)",
+          "url": "https://www.globenewswire.com/news-release/2026/11/19/3406831/0/en/shareholder-alert-bernstein-liebhard-llp-announces-a-securities-fraud-class-action-lawsuit-has-been-filed-against-nvidia-corporation-nvda.html"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 7
+    },
+    {
+      "titulo": "Anthropic debuts on Nasdaq after the biggest IPO ever and ends the week above its starting price",
+      "seccao": "ia",
+      "data": "2026-11-20",
+      "estado": "Facts (closing prices) · market value is a press estimate",
+      "texto": [
+        "Anthropic, the company behind the AI assistant Claude, joined the US stock market on Thursday 19 November, after the biggest initial public offering ever. The offer price was $83, above the expected range. In the first trade, the shares reached $111.50, more than 30% higher, and closed the day at $97.17, a gain of about 17%.",
+        "The second day was harder. On Friday 20, the shares fell about 8.5% to around $89, after coming within five cents of the offer price. They ended the week about 7% above $83. At that price, the company is worth close to $1.2 trillion on the stock market, according to calculations by the Motley Fool and EnterpriseAM."
+      ],
+      "desenvolvimento": "Friday's closing figures vary slightly between sources ($88.91 or $88.30). According to EnterpriseAM, Anthropic could join the Russell 1000 and Nasdaq-100 indices as early as December (single-source information).",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Offer price and first-day close confirmed by AP (via BNN Bloomberg), the Motley Fool and EnterpriseAM; Friday's close by the Motley Fool and EnterpriseAM (24/7 Wall St gives $88.30). The total size of the deal varies depending on whether the extra share option is counted, so we do not give it. Note: this newspaper is written with the help of Claude, made by Anthropic."
+      },
+      "fontes": [
+        {
+          "nome": "AP via BNN Bloomberg (19 Nov)",
+          "url": "https://bnnbloomberg.ca/business/company-news/2026/11/19/anthropic-set-to-begin-trading-as-a-us15-trillion-company-in-the-biggest-ipo-on-record"
+        },
+        {
+          "nome": "The Motley Fool (20 Nov)",
+          "url": "https://www.fool.com/investing/2026/11/20/why-anthropic-stock-is-falling-today/"
+        },
+        {
+          "nome": "EnterpriseAM (22 Nov)",
+          "url": "https://enterpriseam.com/egypt/2026/11/22/the-finger-pointing-begins-after-anthropic-has-a-rough-second-day-on-the-nasdaq/"
+        },
+        {
+          "nome": "24/7 Wall St via Yahoo Finance (20 Nov)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-came-within-5-211710460.html"
+        }
+      ],
+      "edicao": "2026-11-20",
+      "noticia": 4
+    },
+    {
+      "titulo": "AI in the service of cyberattacks: from Google to the European Commission, the week the warning became reality",
+      "seccao": "ciberseguranca",
+      "data": "2026-11-19",
+      "estado": "Facts (reports, confirmed incident) · data theft at the Commission not confirmed · perpetrators unknown",
+      "texto": [
+        "This was the week artificial intelligence showed up, in black and white, on the attackers' side. On 16 November, Google said it had seen the first cyberattack carried out from start to finish by an AI system, with no human involvement: it found flaws, prepared the attack and executed it against French websites. On the 17th, OpenAI launched its GPT-6.2 models and admitted they reach the «critical» cybersecurity risk level, the highest on its scale, and therefore come with stronger safeguards.",
+        "Then came Brussels. On 19 November, the European Commission confirmed that the systems its staff use for pay, leave and working hours had been attacked with a publicly available AI tool. The attack was detected on 22 October. According to spokesperson Thomas Regnier, there is so far no evidence of a data breach affecting staff as a whole, and no known ransom demand. In Germany, the cybersecurity agency (BSI) raised its alert level and warned of a serious flaw in Java, «Java4Shell», which requires thousands of companies to update their systems."
+      ],
+      "desenvolvimento": "As of Sunday 22, the Commission had not confirmed whether data was stolen or who was behind the attack. Politico reported that the EU's response team, CERT-EU, detected the ARTEX tool — the same one the FBI had warned about — but the Commission has not officially confirmed this.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Google's report confirmed by CyberScoop and by Google itself; GPT-6.2 by OpenAI and Unite.AI; the Commission incident by Euronews and Help Net Security; the BSI warning by the BSI document itself. The identification of the ARTEX tool comes from Politico and has not been confirmed by the Commission."
+      },
+      "fontes": [
+        {
+          "nome": "CyberScoop – Google (16 Nov)",
+          "url": "https://cyberscoop.com/google-fully-automated-ai-cyberattack"
+        },
+        {
+          "nome": "Google blog (16 Nov)",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/"
+        },
+        {
+          "nome": "OpenAI – GPT-6.2 safety report (17 Nov)",
+          "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol"
+        },
+        {
+          "nome": "Euronews – European Commission (19 Nov)",
+          "url": "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown"
+        },
+        {
+          "nome": "Help Net Security (20 Nov)",
+          "url": "https://www.helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool/"
+        },
+        {
+          "nome": "Security Affairs (19 Nov)",
+          "url": "https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html"
+        },
+        {
+          "nome": "BSI – Java4Shell warning (17–18 Nov)",
+          "url": "https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2026/2026-306673-1032.pdf?__blob=publicationFile&v=3"
+        }
+      ],
+      "edicao": "2026-11-20",
+      "noticia": 1
+    },
+    {
+      "titulo": "A week of rain and rough seas ends with five districts on red warning and more than a thousand incidents, with no casualties",
+      "seccao": "portugal",
+      "data": "2026-11-21",
+      "estado": "Facts (IPMA warnings) · Civil Protection tally cited by a single source · dry weather forecast until Monday",
+      "texto": [
+        "It rained almost all week on mainland Portugal, with waves of up to 10 metres on the northern and central coast from Wednesday and a flash flood in Manteigas, in the Serra da Estrela, that left people homeless on 19 November. The worst came on Saturday 21: IPMA, Portugal's weather service, put Coimbra, Guarda and Viseu on red rain warning — the highest level — and later added Leiria and Santarém, making five districts in all until 6pm.",
+        "By 6pm on Saturday, Civil Protection had recorded more than a thousand incidents, mostly flooding, more than 700 of them in the Lisbon and Tagus Valley region, according to Observador. There were no casualties. In Lisbon, the Segunda Circular ring road flooded again and some tunnels were closed; the Portugal–Uruguay rugby match at the Restelo was cancelled because the pitch was waterlogged. In Manteigas, eight streets near the stream remained closed as a precaution."
+      ],
+      "desenvolvimento": "Late on Saturday afternoon, IPMA lifted the red warnings. Sunday and Monday should be dry and colder, with minimum temperatures falling 2 to 5 degrees; rain may return on Tuesday 24 with a new cold front, according to IPMA as cited by Observador.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Warnings confirmed by IPMA, Lusa (Executive Digest) and Público; flooding in Lisbon by RTP and Público. The number of incidents (1,036 by 6pm) was found only in Observador and should be read as provisional. The forecast for Tuesday is from IPMA, cited by Observador, and matches Meteored's."
+      },
+      "fontes": [
+        {
+          "nome": "IPMA – warnings",
+          "url": "https://www.ipma.pt/pt/otempo/prev-sam/?p=rain"
+        },
+        {
+          "nome": "Executive Digest / Lusa (20 Nov)",
+          "url": "https://executivedigest.sapo.pt/ipma-coloca-coimbra-guarda-e-viseu-sob-aviso-vermelho-de-chuva-no-sabado/"
+        },
+        {
+          "nome": "Público (21 Nov)",
+          "url": "https://www.publico.pt/2026/11/21/sociedade/noticia/cinco-distritos-alerta-vermelho-ha-inundacoes-leiria-nada-preocupante-2195838"
+        },
+        {
+          "nome": "RTP (21 Nov)",
+          "url": "https://www.rtp.pt/noticias/pais/chuva-intensa-e-persistente-provocou-inundacoes-no-pais_e1780804"
+        },
+        {
+          "nome": "Observador – 9pm news bulletin (21 Nov)",
+          "url": "https://observador.pt/programas/noticiario/as-noticias-das-21h-1824/"
+        },
+        {
+          "nome": "Observador – 10pm news bulletin (21 Nov)",
+          "url": "https://observador.pt/programas/noticiario/as-noticias-das-22h-1903/"
+        },
+        {
+          "nome": "Postal do Algarve / Meteored (21 Nov)",
+          "url": "https://postal.pt/nacional/tempo/chuva-forte-aperta-no-sabado-e-pode-dar-treguas-no-domingo-mas-ja-ha-um-dia-apontado-para-o-regresso/"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 13
+    },
+    {
+      "titulo": "Public-sector strike, a CGTP march in the rain and more stoppages planned for budget vote day",
+      "seccao": "portugal",
+      "data": "2026-11-21",
+      "estado": "Facts (strike, march) · turnout according to unions · no official attendance figures",
+      "texto": [
+        "On Friday 20 November, public administration workers held a national strike called by the Frente Comum union front. Rubbish went uncollected in several municipalities and many schools were closed; the Frente Comum spoke of «strong» turnout, without giving a national percentage. The unions want rises of at least 15%, with a minimum of €150, and call the Government's offer «cents».",
+        "On Saturday 21, it was the turn of the CGTP, Portugal's largest trade union confederation. Several thousand people marched in the rain from Saldanha to Restauradores, in Lisbon, under the slogan «A new direction for Portugal», calling for higher wages, an end to precarious work, price controls and more investment in housing, health and education. No official figures were released. CGTP leader Tiago Oliveira warned that «workers will not forget» the parties that let the budget pass."
+      ],
+      "desenvolvimento": "The protests continue this week. CP train drivers have a strike called from 23 to 27 November, with a full stoppage on the 24th and 25th. On the day of the final budget vote, Tuesday 24, there is a national strike called by unions in education (S.T.O.P.), nursing (SITEU) and retail (STGSSP) and by the MUDAR bank workers' movement, with protests outside Parliament, where the CGTP will also rally.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Strike confirmed by Observador and Jornal Económico; march by oregioes.pt and esquerda.net (an outlet linked to a political party). CP strike confirmed by Observador and the SMAQ union; 24 November strike by Observador and Diário de Coimbra. Turnout percentages are the unions'."
+      },
+      "fontes": [
+        {
+          "nome": "Observador – strike turnout (20 Nov)",
+          "url": "https://observador.pt/2026/11/20/frente-comum-regista-forte-adesao-a-greve-da-funcao-publica/"
+        },
+        {
+          "nome": "Jornal Económico (20 Nov)",
+          "url": "https://jornaleconomico.sapo.pt/noticias/frente-comum-regista-forte-adesao-a-greve-da-funcao-publica/"
+        },
+        {
+          "nome": "oregioes.pt – CGTP march (21 Nov)",
+          "url": "https://oregioes.pt/milhares-saem-a-rua-em-lisboa-na-manifestacao-nacional-da-cgtp-contra-politicas-do-governo-e-orcamento-do-estado/"
+        },
+        {
+          "nome": "esquerda.net (21 Nov)",
+          "url": "https://www.esquerda.net/artigo/forca-dos-protestos-nao-recua-perante-chuva-forte/99549"
+        },
+        {
+          "nome": "Observador – train drivers' strike (18 Nov)",
+          "url": "https://observador.pt/2026/11/18/maquinistas-da-cp-convocam-greve-de-23-a-27-de-novembro-empresa-avisa-para-perturbacoes-na-circulacao/"
+        },
+        {
+          "nome": "SMAQ (18 Nov)",
+          "url": "https://smaq.pt/2026/11/18/smaq-convoca-greve-na-cp-entre-23-e-27-de-novembro/"
+        },
+        {
+          "nome": "Observador – national strike on 24 November (18 Nov)",
+          "url": "https://observador.pt/2026/11/18/greve-nacional-no-dia-da-votacao-do-oe2027-sindicatos-da-saude-educacao-e-comercio-convocam-paralisacao-para-24-de-novembro/"
+        },
+        {
+          "nome": "Diário de Coimbra (19 Nov)",
+          "url": "https://www.diariocoimbra.pt/2026/11/19/sindicatos-da-saude-educacao-e-comercio-convocam-greve-nacional-para-24-de-novembro/"
+        }
+      ],
+      "edicao": "2026-11-20",
+      "noticia": 13
+    },
+    {
+      "titulo": "BepiColombo is now in orbit around Mercury, eight years after setting off",
+      "seccao": "espaco",
+      "data": "2026-11-21",
+      "estado": "Fact: capture confirmed by the ESA team · science planned for April 2027",
+      "texto": [
+        "BepiColombo has arrived. The mission of the European Space Agency (ESA) and the Japanese agency JAXA went into orbit around Mercury on Saturday 21 November, after firing its engines for 37 minutes to brake. The manoeuvre was scheduled for 18:24 Lisbon time. ESA's flight dynamics team announced «orbital capture» shortly afterwards. It is only the second mission ever to orbit the planet closest to the Sun, after NASA's MESSENGER.",
+        "What next? The probe carries two spacecraft attached to each other: Europe's MPO and Japan's Mio. They will separate on 9 and 10 December and will only reach their final orbits in March 2027. Science should begin in April, if the timetable holds; ESA warns the dates may change. The mission carries Portuguese science and technology."
+      ],
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Capture confirmed by Starlust and theglobalspy, which quote the ESA team; ESA's updates page had not yet published the confirmation when it was consulted. Time and duration of the manoeuvre from Space.com (before the manoeuvre). Subsequent timetable according to ESA and Space.com."
+      },
+      "fontes": [
+        {
+          "nome": "Starlust (22 Nov)",
+          "url": "https://starlust.org/bepicolombo-becomes-second-spacecraft-in-history-to-enter-mercurys-orbit/"
+        },
+        {
+          "nome": "theglobalspy (22 Nov)",
+          "url": "https://www.theglobalspy.com/2026/11/bepicolombo-reaches-mercury-after-eight.html"
+        },
+        {
+          "nome": "Space.com (21 Nov)",
+          "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+        },
+        {
+          "nome": "ESA – Mercury arrival updates",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+        },
+        {
+          "nome": "DN – Portuguese science on BepiColombo (18 Oct 2018)",
+          "url": "https://www.dn.pt/vida-e-futuro/interior/primeira-missao-europeia-a-mercurio-e-lancada-no-sabado-com-ciencia-e-tecnologia-portuguesas-10020454.html"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 17
+    }
+  ],
+  "semana_que_vem": [
+    {
+      "quando": "Monday 23 Nov",
+      "texto": "Final detailed votes on the budget, with the plenary starting at 9am. In Brussels, the North Atlantic Council discusses the Russian missiles that fell in Poland. The CP train drivers' strike notice begins."
+    },
+    {
+      "quando": "Monday 23 Nov",
+      "texto": "Launch of an Ariane 6 carrying 36 Amazon Leo internet satellites from Kourou, French Guiana, scheduled for «no earlier than» 23 November."
+    },
+    {
+      "quando": "Tuesday 24 Nov",
+      "texto": "Final overall vote on the 2027 State Budget at 3pm. National strike called by education, nursing and retail unions, protests outside Parliament and a full stoppage by CP train drivers (also on the 25th)."
+    },
+    {
+      "quando": "Tuesday or Wednesday, 24–25 Nov",
+      "texto": "Expected launch of Shenzhou-24, due to take the first foreign astronaut — from Pakistan — to China's space station; China has not yet announced the official date."
+    },
+    {
+      "quando": "Tuesday 24 Nov",
+      "texto": "After two dry, cold days, rain may return with a new cold front, according to IPMA's forecast."
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "In which Chinese city was the first three-way summit between Xi Jinping, Donald Trump and Vladimir Putin held?",
+      "opcoes": ["Shanghai", "Beijing", "Shenzhen", "Guangzhou"],
+      "certa": 2,
+      "explicacao": "The summit took place on 19 November in Shenzhen, on the sidelines of APEC.",
+      "destaque": 1
+    },
+    {
+      "pergunta": "Which topic was left out of the «peace declaration» signed by the three leaders in Shenzhen?",
+      "opcoes": ["UN reform", "The war in Ukraine", "Nuclear weapons risks"],
+      "certa": 1,
+      "explicacao": "The text covers UN reform, oil and nuclear risks, but does not mention Ukraine or Iran.",
+      "destaque": 1
+    },
+    {
+      "pergunta": "Which country saw two Russian missiles and a drone fall on its territory during an attack on Ukraine on 20 November?",
+      "opcoes": ["Romania", "Poland", "Moldova", "Estonia"],
+      "certa": 1,
+      "explicacao": "They fell in three villages in south-eastern Poland, with no injuries; Mark Rutte went to Warsaw the following day.",
+      "destaque": 2
+    },
+    {
+      "pergunta": "Which 2027 budget measure did the PS and Chega pass against the Government's wishes?",
+      "opcoes": ["A rise in income tax for everyone", "A freeze on tuition fees", "Scrapping VAT on electricity"],
+      "certa": 1,
+      "explicacao": "Chega's proposal to freeze tuition fees passed with PS votes; zero VAT on a food basket was also approved.",
+      "destaque": 3
+    },
+    {
+      "pergunta": "At what time is the final overall budget vote scheduled on Tuesday 24 November?",
+      "opcoes": ["10am", "3pm", "9pm"],
+      "certa": 1,
+      "explicacao": "It was moved from 10am to 3pm because of Chega's party convention this weekend.",
+      "destaque": 3
+    },
+    {
+      "pergunta": "How much did Nvidia shares lose over the week, the worst since 2008?",
+      "opcoes": ["About 5%", "About 23%", "About 50%"],
+      "certa": 1,
+      "explicacao": "They fell 14% on Friday alone and 23% over the week, after reports of an investigation by the securities regulator.",
+      "destaque": 5
+    },
+    {
+      "pergunta": "Which institution confirmed it had been hit by a cyberattack carried out with an artificial intelligence tool?",
+      "opcoes": ["The European Central Bank", "The European Commission", "The European Parliament"],
+      "certa": 1,
+      "explicacao": "The systems Commission staff use for pay, leave and working hours were attacked.",
+      "destaque": 7
+    },
+    {
+      "pergunta": "Around which planet did the European–Japanese probe BepiColombo go into orbit on Saturday?",
+      "opcoes": ["Venus", "Mars", "Mercury"],
+      "certa": 2,
+      "explicacao": "After an eight-year journey, it became only the second mission ever to orbit Mercury.",
+      "destaque": 10
+    }
+  ],
+  "agenda_aviso": "Data collected on the morning of 22 November from the websites of Casa da Música, Serralves, Cinema Trindade and Agenda Porto, and from the Galeria Municipal do Porto's announcement on e-flux. The pages of Teatro Municipal do Porto, TNSJ and Porto/Post/Doc, and several Agenda Porto event pages, could not be opened, so Porto/Post/Doc festival screenings are not listed with times. Where it says «To be confirmed», the information was not on the source: check the link before you go.",
+  "agenda": [
+    {
+      "dia": "2026-11-22",
+      "eventos": [
+        {
+          "nome": "Café com Nata: Soloists of the Symphony Orchestra",
+          "descricao": "Sunday-morning recital featuring the oboe in a programme of Mozart, Britten and Kodály, served with coffee and a custard tart.",
+          "horario": "11:00",
+          "tipo": "Music",
+          "local": "Casa da Música – Sala 2, Av. da Boavista, 604-610, Porto",
+          "preco": "€14",
+          "url": "https://casadamusica.com/en/event/orquestra-sinfonica-soloists-2/?selected_session=54909",
+          "ligacao": "Casa da Música",
+          "nota": "Time and price confirmed on the event page. Ages 6+; discounts for under-30s, over-65s and students."
+        },
+        {
+          "nome": "Singspiele – Maguy Marin Focus",
+          "descricao": "In a solo created by Maguy Marin, David Mambouch swaps faces, clothes and gestures to question identity and social roles.",
+          "horario": "16:00",
+          "tipo": "Theatre",
+          "local": "Serralves – Museum Auditorium, Rua Dom João de Castro, 210, Porto",
+          "preco": "€7.50",
+          "url": "https://www.serralves.pt/en/atividades-serralves/2211-singspiele/",
+          "ligacao": "Serralves",
+          "nota": "There is a second performance at 19:00. Reduced price of €3.75 for students, young people, over-64s and Friends of Serralves. Running time 1 hour; age rating not stated."
+        },
+        {
+          "nome": "A Cara que Mereces (The Face You Deserve) – Miguel Gomes retrospective",
+          "descricao": "Miguel Gomes's first feature follows a man who turns 30 dressed as a cowboy, during a Carnival that goes wrong.",
+          "horario": "17:00",
+          "tipo": "Cinema",
+          "local": "Casa do Cinema Manoel de Oliveira, Serralves, Porto",
+          "preco": "To be confirmed",
+          "url": "https://www.serralves.pt/en/atividades-serralves/2211-a-cara-que-mereces/",
+          "ligacao": "Serralves",
+          "nota": "Time confirmed on the event page. The page only lists reduced prices (€3 students and young people; €1.50 over-64s and Friends). Running time 108 minutes."
+        },
+        {
+          "nome": "Rasgar um céu sem sol (Tearing a sunless sky) – tour with the artists",
+          "descricao": "Guided tour of the exhibition by Basel Abbas and Ruanne Abou-Rahme, led by the artists themselves.",
+          "horario": "To be confirmed",
+          "tipo": "Exhibition",
+          "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de Dom Manuel II, Porto",
+          "preco": "Free entry",
+          "url": "https://www.agenda-porto.pt/en/local/n9d8XJQM7JP/",
+          "ligacao": "Agenda Porto",
+          "nota": "Agenda Porto lists the tour on 22 November, free, but with no time; the event page could not be opened. The gallery is open Tuesday to Sunday, 10:00 to 18:00."
+        },
+        {
+          "nome": "Jazz in the Space Age, by George Russell",
+          "descricao": "The Orquestra Jazz de Matosinhos, conducted by Pedro Guedes, revisits George Russell's album, with Mário Laginha and Miguel Meirinhos on piano.",
+          "horario": "21:30",
+          "tipo": "Music",
+          "local": "Casa da Música – Sala Suggia, Av. da Boavista, 604-610, Porto",
+          "preco": "€26 to €30",
+          "url": "https://casadamusica.com/en/event/jazz-in-the-space-age-by-george-russel/?selected_session=55746",
+          "ligacao": "Casa da Música",
+          "nota": "Time and prices confirmed on the event page. Ages 6+."
+        }
+      ]
+    },
+    {
+      "dia": "2026-11-23",
+      "eventos": [
+        {
+          "nome": "Serralves exhibitions in the late afternoon",
+          "descricao": "A Monday evening is a chance to see the exhibitions on at Serralves, such as those by Jenny Holzer, Alice Neel, Lee Ufan and Joan Miró.",
+          "horario": "17:00",
+          "tipo": "Exhibition",
+          "local": "Fundação de Serralves, Rua Dom João de Castro, 210, Porto",
+          "preco": "€12 (residents) / €15 (non-residents)",
+          "url": "https://www.serralves.pt/en/visitar-serralves/",
+          "ligacao": "Serralves",
+          "nota": "The visit page lists a late-afternoon ticket from Monday to Thursday, from 17:00, with last entry at 18:00. Free for under-12s and Friends of Serralves."
+        },
+        {
+          "nome": "Ida, by Paweł Pawlikowski",
+          "descricao": "In 1962 Poland, a novice about to take her vows discovers she is Jewish and sets off with her aunt to uncover her family's story.",
+          "horario": "19:30",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "To be confirmed",
+          "url": "https://cinematrindade.pt/en/films/ida",
+          "ligacao": "Cinema Trindade",
+          "nota": "Screening from 19:30 to 20:50, confirmed on the film page. M/14 (ages 14+). The page gives no price."
+        },
+        {
+          "nome": "Misty Fest – Rodrigo Leão: Alma Mater",
+          "descricao": "Rodrigo Leão celebrates 26 years of the album Alma Mater with an ensemble, choir and guests.",
+          "horario": "21:00",
+          "tipo": "Music",
+          "local": "Casa da Música – Sala Suggia, Av. da Boavista, 604-610, Porto",
+          "preco": "€25 to €40",
+          "url": "https://casadamusica.com/en/event/rodrigo-leao-4/?selected_session=51210",
+          "ligacao": "Casa da Música",
+          "nota": "Prices confirmed on the event page. Casa da Música's listings mark the show as sold out. Ages 6+."
+        },
+        {
+          "nome": "Underground – Era Uma Vez Um País (Once Upon a Time There Was a Country)",
+          "descricao": "Screening of Emir Kusturica's film, a dark comedy about war and the history of the former Yugoslavia.",
+          "horario": "21:00",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "To be confirmed",
+          "url": "https://cinematrindade.pt/en/films/underground-era-uma-vez-um-pais",
+          "ligacao": "Cinema Trindade",
+          "nota": "Time confirmed in Trindade's programme; price and age rating to be confirmed."
+        }
+      ]
+    },
+    {
+      "dia": "2026-11-24",
+      "eventos": [
+        {
+          "nome": "Rasgar um céu sem sol / Nightwood / Gothic Tale",
+          "descricao": "Three new exhibitions at the Galeria Municipal: Basel Abbas and Ruanne Abou-Rahme, Leonor Parda and Isabel Carvalho.",
+          "horario": "10:00",
+          "tipo": "Exhibition",
+          "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de Dom Manuel II, Porto",
+          "preco": "Free entry",
+          "url": "https://www.e-flux.com/announcements/6787436/autumn-2026-winter-2027-programme",
+          "ligacao": "e-flux (Galeria Municipal do Porto)",
+          "nota": "Open Tuesday to Sunday, 10:00 to 18:00, according to the gallery's announcement. Closing date of the exhibitions not stated."
+        },
+        {
+          "nome": "Documentary and Artificial Intelligence, with Jorge Caballero (Porto/Post/Doc)",
+          "descricao": "A Porto/Post/Doc festival talk on what artificial intelligence changes in the way documentaries are made.",
+          "horario": "To be confirmed",
+          "tipo": "Talk",
+          "local": "Teatro Rivoli, Praça de D. João I, Porto",
+          "preco": "Free entry",
+          "url": "https://www.agenda-porto.pt/en/local/rivoli-theatre/",
+          "ligacao": "Agenda Porto",
+          "nota": "The Rivoli page on Agenda Porto lists the talk on 24 November, free, with no time; the event page and the Teatro Municipal website could not be opened."
+        },
+        {
+          "nome": "Misty Fest – Rodrigo Leão: Alma Mater (early evening)",
+          "descricao": "Another night of Rodrigo Leão at Casa da Música, revisiting Alma Mater with choir and guests.",
+          "horario": "18:30",
+          "tipo": "Music",
+          "local": "Casa da Música – Sala Suggia, Av. da Boavista, 604-610, Porto",
+          "preco": "€25 to €40",
+          "url": "https://casadamusica.com/en/event/rodrigo-leao-4/?selected_session=60241",
+          "ligacao": "Casa da Música",
+          "nota": "Casa da Música's listings show performances at 18:30 and 21:00, both sold out. Prices from the event page. Ages 6+."
+        },
+        {
+          "nome": "Cold War – Guerra Fria, by Paweł Pawlikowski",
+          "descricao": "In its season devoted to the director, the Trindade shows the romance between two musicians in divided post-war Europe.",
+          "horario": "19:30",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "To be confirmed",
+          "url": "https://cinematrindade.pt/en/programme",
+          "ligacao": "Cinema Trindade",
+          "nota": "Time confirmed in Trindade's programme; price and age rating to be confirmed."
+        },
+        {
+          "nome": "Green Book – Projecto SER screening",
+          "descricao": "Peter Farrelly's film about a Black pianist's tour of the US South in the 1960s, followed by a conversation with the audience.",
+          "horario": "21:30",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "To be confirmed",
+          "url": "https://cinematrindade.pt/en/films/green-book",
+          "ligacao": "Cinema Trindade",
+          "nota": "Screening from 21:30 to 23:40, M/12 (ages 12+), confirmed on the film page. Price not stated."
+        }
+      ]
+    },
+    {
+      "dia": "2026-11-25",
+      "eventos": [
+        {
+          "nome": "La Bola Negra (The Black Ball)",
+          "descricao": "Three men from three eras, linked by desire and by an unfinished work by García Lorca, in the film by Javier Calvo and Javier Ambrossi.",
+          "horario": "18:30",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "To be confirmed",
+          "url": "https://cinematrindade.pt/en/films/la-bola-negra",
+          "ligacao": "Cinema Trindade",
+          "nota": "Trindade's programme shows screenings at 14:15, 18:30 and 21:15. Running time 2 h 35 min, in Spanish. Price and age rating to be confirmed."
+        },
+        {
+          "nome": "Misty Fest – Christian Löffler: Until We Meet Again",
+          "descricao": "The German electronic musician presents his latest album with an ensemble, between ambient, techno, piano and strings.",
+          "horario": "21:00",
+          "tipo": "Music",
+          "local": "Casa da Música – Sala Suggia, Av. da Boavista, 604-610, Porto",
+          "preco": "€30 to €50",
+          "url": "https://casadamusica.com/en/event/christian-loffler-ensemble-2/?selected_session=49756",
+          "ligacao": "Casa da Música",
+          "nota": "Time and prices confirmed on the event page. Ages 6+."
+        },
+        {
+          "nome": "Quem Decide o que Ouvimos? (Who Decides What We Listen To?)",
+          "descricao": "Carlos Tê, João Gobern, Miguel Gonçalves and Rui Massena discuss who shapes musical taste today.",
+          "horario": "To be confirmed",
+          "tipo": "Talk",
+          "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+          "preco": "Free entry",
+          "url": "https://agenda-porto.pt/en/local/coliseu-porto-ageas",
+          "ligacao": "Agenda Porto",
+          "nota": "The Coliseu page on Agenda Porto lists the talk on 25 November, free, with no time; the event page could not be opened."
+        },
+        {
+          "nome": "Hora de Ponta (Rush Hour) – «Pão» (Bread)",
+          "descricao": "A guided listening session at the Fonoteca Municipal, this time on the theme of bread.",
+          "horario": "To be confirmed",
+          "tipo": "Music",
+          "local": "Fonoteca Municipal do Porto, Rua de Pinto Bessa, 122, Armazém 12, Campanhã, Porto",
+          "preco": "Free entry",
+          "url": "https://www.agenda-porto.pt/en/local/fonoteca-municipal-do-porto/",
+          "ligacao": "Agenda Porto",
+          "nota": "The Fonoteca page on Agenda Porto lists the session on 25 November, free, with no time; the event page could not be opened."
+        }
+      ]
+    }
+  ],
+  "linkedin_abertura": "In one week, Xi, Trump and Putin sat at the same table without talking about Ukraine, Russian missiles fell in Poland and the BepiColombo probe went into orbit around Mercury."
+}

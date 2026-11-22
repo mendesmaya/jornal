@@ -1,0 +1,825 @@
+{
+  "data": "2026-11-22",
+  "numero": "030",
+  "tipo": "semanal",
+  "resumo": "A semana em que Xi, Trump e Putin se sentaram à mesma mesa em Shenzhen, mísseis russos caíram na Polónia, PS e Chega reescreveram o Orçamento de 2027 e a BepiColombo ficou em órbita de Mercúrio.",
+  "em_2_minutos": [
+    {
+      "texto": "A primeira cimeira a três entre EUA, China e Rússia acabou com uma «declaração de paz» de quatro pontos, sem prazos nem compromissos concretos e sem uma palavra sobre a Ucrânia.",
+      "destaque": 1
+    },
+    {
+      "texto": "Dois mísseis e um drone russos caíram na Polónia; Rutte garantiu em Varsóvia que a NATO defenderá «cada centímetro» do território polaco e os aliados reúnem-se na segunda-feira.",
+      "destaque": 2
+    },
+    {
+      "texto": "PS e Chega aprovaram contra o Governo pensões, IVA zero num cabaz e propinas congeladas; o ministro das Finanças fala em risco de défice e a votação final é terça, às 15h.",
+      "destaque": 3
+    },
+    {
+      "texto": "A COP31 entrou no segundo dia de prolongamento com um texto final que, segundo a AP, não menciona os combustíveis fósseis; a aprovação estava marcada para a manhã de domingo.",
+      "destaque": 4
+    },
+    {
+      "texto": "A Nvidia teve a pior semana em bolsa desde 2008, com notícias de que o regulador americano investiga a sua contabilidade; a Anthropic estreou-se na Nasdaq e fechou a semana 7% acima do preço de entrada.",
+      "destaque": 5
+    },
+    {
+      "texto": "Depois de oito anos de viagem, a sonda europeia e japonesa BepiColombo ficou em órbita de Mercúrio no sábado, ao fim de uma travagem de 37 minutos.",
+      "destaque": 10
+    }
+  ],
+  "destaques": [
+    {
+      "titulo": "Shenzhen: Xi, Trump e Putin juntam-se pela primeira vez e saem com uma «declaração de paz» sem a Ucrânia",
+      "seccao": "mundo",
+      "data": "2026-11-19",
+      "estado": "Facto: cimeira e declaração conjunta · texto sem prazos nem mecanismos · sem nova reunião anunciada",
+      "texto": [
+        "Foi a imagem da semana. Na quinta-feira, 19 de novembro, Xi Jinping, Donald Trump e Vladimir Putin reuniram-se em Shenzhen, no sul da China, à margem da cimeira da APEC (o fórum de cooperação económica da Ásia-Pacífico). Foi a primeira cimeira a três entre os líderes da China, dos EUA e da Rússia. A reunião durou perto de hora e meia e terminou com uma «declaração trilateral de paz» que fala de reforma da ONU, de mais produção de petróleo e de diálogo sobre os riscos das armas nucleares — mas não menciona a guerra na Ucrânia nem a do Irão.",
+        "O que diz, afinal, o texto? São quatro pontos, sem calendário, sem mecanismo que obrigue alguém a cumpri-los e sem compromissos de redução de armas, segundo o South China Morning Post. Os três países defendem a imunidade dos governantes e dizem que os tribunais internacionais, como o Tribunal Penal Internacional, «não devem abusar da sua jurisdição». O próprio Putin admitiu que a declaração não fixa metas ambiciosas e que ninguém será obrigado a segui-la. Xi falou de uma reunião «frutuosa»; Trump deu-lhe «12 em 10».",
+        "Na Europa e em Kiev, a leitura foi outra. O ministro francês dos Negócios Estrangeiros, Jean-Noël Barrot, disse que os três líderes «discordam em tudo». O presidente ucraniano, Volodymyr Zelensky, reagiu a Trump ter chamado «amigo» a Putin: «Para nós, ele é um inimigo.» Horas depois de sair de Shenzhen, a Rússia lançou um dos maiores ataques da semana contra a Ucrânia (ver destaque seguinte)."
+      ],
+      "desenvolvimento": "No sábado, 21 de novembro, Trump publicou na Truth Social fotografias da cimeira, incluindo um aperto de mão com Putin com a legenda «My Friend» («O meu amigo»), o que lhe valeu críticas de senadores dos dois partidos, segundo a DPA. Na reunião bilateral com Xi não foram anunciadas novas tarifas; os dois países combinaram preparar um plano de ação para a «estabilidade estratégica», segundo a China Briefing. Não foi marcada nenhuma nova reunião a três.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Cimeira e conteúdo da declaração confirmados pela Euronews, pela AP (via Newser) e pelo South China Morning Post. A frase de Putin sobre metas e a nota «12 em 10» de Trump só foram encontradas numa fonte (HNGN). A publicação de sábado foi confirmada pela Ukrainska Pravda e pela DPA; as reações dos senadores só pela DPA. O resultado da reunião bilateral EUA–China só numa fonte (China Briefing)."
+      },
+      "fontes": [
+        {
+          "nome": "Euronews (19 nov.)",
+          "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia"
+        },
+        {
+          "nome": "AP via Newser (19 nov.)",
+          "url": "https://www.newser.com/story/400290/rare-trump-xi-putin-summit-ends-with-joint-declaration.html"
+        },
+        {
+          "nome": "South China Morning Post (20 nov.)",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375130/xi-trump-and-putin-peace-declaration-suggests-summit-more-photo-op"
+        },
+        {
+          "nome": "HNGN (21 nov.)",
+          "url": "https://www.hngn.com/articles/273910/20261121/trump-says-putin-wants-peace-missiles-hit-kyiv-poland.htm"
+        },
+        {
+          "nome": "DPA via Korea Times (22 nov.)",
+          "url": "https://www.koreatimes.co.kr/world/20261122/trump-again-calls-putin-friend-despite-criticism-in-us"
+        },
+        {
+          "nome": "Ukrainska Pravda via Yahoo (21 nov.)",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-posts-photo-putin-captioned-232600585.html"
+        },
+        {
+          "nome": "China Briefing (20 nov.)",
+          "url": "https://www.china-briefing.com/news/apec-2026-in-shenzhen-what-the-leaders-meeting-and-trump-xi-talks-mean-for-business/"
+        }
+      ],
+      "edicao": "2026-11-20",
+      "noticia": 9,
+      "imagem": {
+        "commons": "Shenzhen Skyline from Futian District5.jpg",
+        "tipo": "ilustrativa",
+        "alt": "Arranha-céus do distrito de Futian, em Shenzhen",
+        "legenda": "Shenzhen vista do distrito de Futian (imagem ilustrativa; não mostra a cimeira)"
+      }
+    },
+    {
+      "titulo": "Guerra na Ucrânia sobe de tom: ponte da Crimeia cortada, pontes de Kiev atingidas e mísseis russos caídos na Polónia",
+      "seccao": "mundo",
+      "data": "2026-11-20",
+      "estado": "Factos (ataques, queda na Polónia) · intenção russa em disputa · Polónia não pediu consultas do artigo 4.º",
+      "texto": [
+        "A semana começou com um golpe ucraniano e acabou com a NATO em alerta. Na noite de 16 para 17 de novembro, a Ucrânia atacou com drones e mísseis a ponte que liga a Rússia à Crimeia ocupada e cortou a ligação rodoviária; Moscovo admitiu «danos». A Rússia respondeu com ataques a Kiev, que atingiram pontes sobre o rio Dnipro a 17 e de novo a 20 de novembro. No ataque de dia 20 — mais de 400 drones e mais de 110 mísseis — morreram pelo menos oito pessoas, segundo as autoridades ucranianas, citadas pela AP.",
+        "Na mesma madrugada, dois mísseis e um drone a jato russos caíram em três localidades do sudeste da Polónia, a menos de 50 quilómetros da fronteira. Não houve feridos. Um dos mísseis, um Kh-101, foi recuperado em Nowy Lipowiec. O primeiro-ministro polaco, Donald Tusk, fala de uma «provocação intencional»; Trump disse que Putin os deixou cair «por engano». O Kremlin não comentou.",
+        "No sábado, 21, o secretário-geral da NATO, Mark Rutte, foi a Varsóvia e garantiu que a Aliança defenderá «cada centímetro» do território polaco. O comandante militar da NATO na Europa vai avaliar as falhas e ajustar a defesa, se for preciso. A Polónia não invocou o artigo 4.º do tratado (que obriga a consultas formais entre aliados), segundo a Al Jazeera; o caso vai ser discutido pelo Conselho do Atlântico Norte na segunda-feira."
+      ],
+      "desenvolvimento": "Nas negociações, o Wall Street Journal noticiou a 20 de novembro, com fontes anónimas, que os enviados dos EUA discutiram dar à Ucrânia a entrada na NATO em troca do Donbass, ou congelar a frente com garantias de segurança; Moscovo rejeitou. Não há data para uma nova ronda. A violência continuou no fim de semana: no domingo, 22, um drone russo destruiu vários andares de um prédio em Dymer, perto de Kiev, e havia pessoas que podiam estar sob os escombros, segundo o Kyiv Post e a Ukrinform. A Rússia diz ter reposto o tráfego ferroviário na ponte da Crimeia; não há data para a estrada.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Queda dos mísseis e declarações de Tusk e Trump confirmadas pela AP (via PBS) e pela AFP (via CP24); visita e frase de Rutte pela Reuters (via ThePrint) e pela AFP; artigo 4.º só pela Al Jazeera. Número de mortos de 20 de novembro é provisório (algumas contagens dão nove). Ataque em Dymer confirmado pelo Kyiv Post e pela Ukrinform. Reposição do tráfego ferroviário só pela TASS (agência estatal russa). O artigo do Wall Street Journal não foi aberto diretamente; foi citado pelo Observador."
+      },
+      "fontes": [
+        {
+          "nome": "AP via PBS (20 nov.)",
+          "url": "https://www.pbs.org/newshour/world/nato-calls-russian-missiles-landing-in-poland-a-grave-violation-of-airspace"
+        },
+        {
+          "nome": "AFP via CP24 (21 nov.)",
+          "url": "https://www.cp24.com/news/world/2026/11/21/nato-chief-pledges-to-defend-poland-after-russian-missile-incursion/"
+        },
+        {
+          "nome": "Reuters via ThePrint (22 nov.)",
+          "url": "https://theprint.in/world/nato-to-defend-every-inch-of-polish-territory-says-secretary-general-mark-rutte-in-warsaw/3105600"
+        },
+        {
+          "nome": "Al Jazeera (21 nov.)",
+          "url": "https://www.aljazeera.com/news/2026/11/21/russian-missiles-hit-poland-what-happened-and-could-nato-respond"
+        },
+        {
+          "nome": "PBS – ponte da Crimeia (17 nov.)",
+          "url": "https://www.pbs.org/newshour/world/the-symbol-of-the-occupation-ukraine-destroys-span-of-kerch-bridge-linking-russia-with-crimea"
+        },
+        {
+          "nome": "Observador – cenários dos EUA (20 nov.)",
+          "url": "https://observador.pt/2026/11/20/eua-admitem-dois-cenarios-para-ucrania-nato-em-troca-da-cedencia-do-donbass-ou-congelar-linhas-da-frente-com-garantias-de-seguranca/"
+        },
+        {
+          "nome": "Kyiv Post – Dymer (22 nov.)",
+          "url": "https://www.kyivpost.com/post/90829"
+        },
+        {
+          "nome": "Ukrinform (22 nov.)",
+          "url": "https://www.ukrinform.net/rubric-ato/4187306-drone-attack-damages-apartment-block-in-kyiv-region-people-may-be-trapped-under-rubble.html"
+        },
+        {
+          "nome": "TASS (21 nov.)",
+          "url": "https://tass.com/society/2222879"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 9,
+      "imagem": {
+        "commons": "Russian Kh-101 missile shot in Vinnytsia Oblast, 2023-01-26 (05).jpg",
+        "tipo": "arquivo",
+        "alt": "Destroços de um míssil de cruzeiro russo Kh-101 abatido, no chão",
+        "legenda": "Destroços de um míssil Kh-101 abatido na região de Vinnytsia, na Ucrânia, em 2023 (imagem de arquivo; não mostra os mísseis caídos na Polónia)"
+      }
+    },
+    {
+      "titulo": "Orçamento de 2027: PS e Chega impõem pensões, IVA zero e propinas congeladas, e o Governo avisa para o regresso do défice",
+      "seccao": "portugal",
+      "data": "2026-11-21",
+      "estado": "Factos (votações na especialidade) · estimativas de défice são do Governo · votação final a 24 nov., às 15h",
+      "texto": [
+        "A semana das votações do Orçamento do Estado para 2027 correu mal ao Governo. A partir de 18 de novembro, na fase em que se vota proposta a proposta, PS e Chega juntaram-se várias vezes contra o PSD e o CDS-PP: aprovaram aumentos permanentes das pensões, uma garantia pública para as rendas, medidas para recuperar o tempo de serviço dos funcionários públicos, IVA zero num cabaz de alimentos entre janeiro e março de 2027 e o congelamento das propinas no ensino superior público.",
+        "Quanto custa? O ministro das Finanças, Joaquim Miranda Sarmento, diz que «com as medidas do PS regressa o défice»: estima entre 0,3% e 0,7% do PIB em 2027, contra um pequeno excedente na proposta do Governo. No sábado admitiu que o «cenário mais provável» é que o Governo consiga, «com muito esforço», manter as contas equilibradas. O primeiro-ministro, Luís Montenegro, acusou PS e Chega de «irresponsabilidade»; o líder do PS, José Luís Carneiro, garante que as propostas do partido são «sustentáveis»."
+      ],
+      "desenvolvimento": "A 21 de novembro, a votação final global passou das 10h para as 15h de terça-feira, 24, por causa da convenção do Chega deste fim de semana; na segunda-feira o plenário começa às 9h. O PS tem dito que se vai abster, o que deverá garantir a aprovação; na convenção, André Ventura recusou «assegurar» o Orçamento e chamou ao PS a «muleta» do Governo. Na sexta-feira, a Moody's subiu a nota da dívida portuguesa para A2.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Votações confirmadas pelo ECO, pela RTP e pela Lusa (DN, Executive Digest). Estimativas de défice confirmadas pelo ECO/Lusa e pelo Observador. Novo horário confirmado pelo Observador e pela RTP. A frase de Ventura só numa fonte (DN). A abstenção do PS é a posição anunciada pelo partido, não um voto já feito."
+      },
+      "fontes": [
+        {
+          "nome": "ECO – primeiro dia de votações (18 nov.)",
+          "url": "https://eco.sapo.pt/2026/11/18/governo-sofre-derrota-nas-pensoes-e-no-arrendamento-ao-primeiro-dia-de-votacoes-do-oe2027/"
+        },
+        {
+          "nome": "RTP / Lusa – IVA zero (20 nov.)",
+          "url": "https://www.rtp.pt/noticias/economia/isencao-de-iva-do-cabaz-alimentar-proposta-pelo-ps-aprovada-com-apoio-do-chega_n1780380"
+        },
+        {
+          "nome": "Executive Digest / Lusa – propinas (20 nov.)",
+          "url": "https://executivedigest.sapo.pt/sintese-oe2027-3-o-dia-de-votacoes-mais-curto-devido-ao-chega-e-marcado-por-congelamento-de-propinas/"
+        },
+        {
+          "nome": "ECO / Lusa – défice (20 nov.)",
+          "url": "https://eco.sapo.pt/2026/11/20/medidas-do-ps-levam-a-defice-entre-03-e-07-do-pib-no-proximo-ano/"
+        },
+        {
+          "nome": "Observador – Miranda Sarmento (21 nov.)",
+          "url": "https://observador.pt/2026/11/21/cenario-mais-provavel-e-que-o-governo-com-muito-esforco-consiga-manter-o-equilibrio-das-contas-publicas-em-2027-diz-miranda-sarmento/"
+        },
+        {
+          "nome": "RTP – Montenegro (20 nov.)",
+          "url": "https://www.rtp.pt/noticias/politica/a-irresponsabilidade-paga-se-caro-montenegro-acusa-ps-e-chega-de-castigarem-familias_n1780664"
+        },
+        {
+          "nome": "Observador – novo horário (21 nov.)",
+          "url": "https://observador.pt/2026/11/21/discussao-final-do-orcamento-do-estado-vai-ter-horario-ajustado-por-causa-da-convencao-do-chega/"
+        },
+        {
+          "nome": "RTP – votação final adiada para a tarde (21 nov.)",
+          "url": "https://www.rtp.pt/noticias/economia/oe2027-plenario-para-votacao-final-da-proposta-adiado-para-a-tarde-de-terca-feira_n1780783"
+        },
+        {
+          "nome": "DN – convenção do Chega (21 nov.)",
+          "url": "https://www.dn.pt/pol%C3%ADtica/conveno-do-chega-ventura-denuncia-tentativa-de-silenciar-o-partido-que-se-diz-pronto-para-governar"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 14,
+      "imagem": {
+        "commons": "Lisboa - Assembleia da República.jpg",
+        "tipo": "arquivo",
+        "alt": "Fachada do Palácio de São Bento, sede da Assembleia da República, em Lisboa",
+        "legenda": "O Palácio de São Bento, sede da Assembleia da República (imagem de arquivo)"
+      }
+    },
+    {
+      "titulo": "COP31 em prolongamento: texto final da cimeira do clima chega a votos sem falar de combustíveis fósseis",
+      "seccao": "mundo",
+      "data": "2026-11-22",
+      "estado": "Texto final apresentado · aprovação marcada para a manhã de 22 nov. · resultado não confirmado até ao fecho",
+      "texto": [
+        "A cimeira do clima da ONU em Antália, na Turquia, devia ter acabado na sexta-feira, 20 de novembro, e entrou no segundo dia de prolongamento. Na noite de sábado, o presidente da COP31, Murat Kurum, apresentou um texto que, disse, «todas as partes» podem aceitar; a sessão de aprovação estava marcada para a manhã de domingo, 22. Segundo a AP, esta versão, possivelmente a final, não menciona os combustíveis fósseis, a principal causa do aquecimento global.",
+        "O que mudou ao longo da semana? O primeiro rascunho falava em abandonar os combustíveis fósseis; o de 19 de novembro retirou essas referências. Em troca, propõe que a eletricidade passe a valer 35% da energia usada no mundo até 2035, dá destaque à captura de carbono e reconhece pela primeira vez que o limite de 1,5 °C vai ser ultrapassado. A União Europeia ameaçou bloquear um texto que esqueça o petróleo, o carvão e o gás, e vários países, como o Panamá e Vanuatu, disseram que não o aceitavam assim."
+      ],
+      "desenvolvimento": "Kurum garante que as preocupações sobre combustíveis fósseis e sobre o financiamento da adaptação foram «tidas em conta», mas o texto final não estava público quando a Al Jazeera escreveu. Portugal teve um papel nas negociações: a ministra do Ambiente, Maria da Graça Carvalho, negociou pela UE o dossiê da transição justa e anunciou mais 3,2 milhões de euros para fundos climáticos.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Prolongamento e declarações de Kurum confirmados pela Reuters (via Spokesman-Review) e pela Al Jazeera; conteúdo do rascunho de 19 de novembro pela ONU News e pela AP (via PBS). A ausência dos combustíveis fósseis no texto final vem do título e resumo da AP; o corpo do artigo não pôde ser aberto. Até ao fecho desta edição não foi possível confirmar se o acordo foi aprovado. Papel português confirmado pelo DN e pela RTP."
+      },
+      "fontes": [
+        {
+          "nome": "Reuters via Spokesman-Review (21 nov.)",
+          "url": "https://www.spokesman.com/stories/2026/nov/21/cop31-climate-talks-close-to-final-deal-says-summi/"
+        },
+        {
+          "nome": "Al Jazeera (22 nov.)",
+          "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime"
+        },
+        {
+          "nome": "AP via Local10 (22 nov.)",
+          "url": "https://www.local10.com/news/world/2026/11/22/turkeys-final-draft-at-un-climate-talks-doesnt-mention-the-fossil-fuels-that-cause-global-warming/"
+        },
+        {
+          "nome": "ONU News (19 nov.)",
+          "url": "https://news.un.org/en/story/2026/11/1168839"
+        },
+        {
+          "nome": "AP via PBS (20 nov.)",
+          "url": "https://www.pbs.org/newshour/world/activists-leaders-criticize-cop31-climate-talks-as-fossil-fuels-go-unmentioned-in-draft-deal"
+        },
+        {
+          "nome": "RTP – Portugal reforça verbas (18 nov.)",
+          "url": "https://www.rtp.pt/noticias/mundo/portugal-anuncia-mais-3-2-me-em-fundos-internacionais-de-acao-climatica_n1779907"
+        },
+        {
+          "nome": "DN – Portugal nas negociações (9 nov.)",
+          "url": "https://www.dn.pt/sociedade/cop31-arranca-com-apelos-a-resultados-e-portugal-a-assumir-negociaes-pela-ue"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 10
+    },
+    {
+      "titulo": "Nvidia: depois da saída de Huang, receitas recorde e, no fim, a pior semana em bolsa desde 2008",
+      "seccao": "tecnologia",
+      "data": "2026-11-20",
+      "estado": "Factos (resultados, queda das ações) · investigação da SEC noticiada com fontes anónimas · SEC e Nvidia sem comentário",
+      "texto": [
+        "A Nvidia, a maior fabricante de chips para inteligência artificial (IA), viveu uma semana de extremos. Na terça-feira, 17 de novembro, apresentou os primeiros resultados sem Jensen Huang na liderança: receitas de 115,8 mil milhões de dólares em três meses, mais do dobro de há um ano. O conselho de administração afastou o regresso do fundador, apesar de uma carta com milhares de assinaturas a pedi-lo. Na sexta-feira, 20, as ações caíram 14%, para 125,53 dólares, e acabaram a semana a perder 23% — a pior semana desde outubro de 2008.",
+        "Porque é que caíram tanto? A queda acelerou depois de a Reuters noticiar, citando duas fontes, que a SEC, o regulador da bolsa americana, está a analisar possíveis problemas na contabilidade da empresa. A SEC não comentou e a Nvidia não respondeu às perguntas dos jornalistas. A própria empresa já tinha referido no comunicado de resultados uma investigação interna, feita por uma comissão independente do conselho de administração."
+      ],
+      "desenvolvimento": "A procuradoria-geral da Califórnia intimou a Nvidia a 19 de novembro a entregar informação sobre chips que terão chegado à China e sobre se enganou investidores, e um escritório de advogados anunciou uma ação coletiva de acionistas. O presidente do conselho, Harvey Jones, diz que a procura de um presidente executivo permanente está em curso; Colette Kress continua como líder interina e não há nomes conhecidos.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Queda das ações confirmada pelo Motley Fool, pelo Investing.com e pelo Yahoo Finance; investigação da SEC noticiada pela Reuters (citada pelo Daily Star) com fontes anónimas, e antes pelo Wall Street Journal (citado pela PYMNTS). Intimação da Califórnia confirmada pelo Yahoo Finance e pela 24/7 Wall St. A ação coletiva é um comunicado do próprio escritório de advogados."
+      },
+      "fontes": [
+        {
+          "nome": "Nvidia – resultados do 3.º trimestre fiscal (17 nov.)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+        },
+        {
+          "nome": "The Motley Fool (21 nov.)",
+          "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+        },
+        {
+          "nome": "Investing.com (21 nov.)",
+          "url": "https://au.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4787315"
+        },
+        {
+          "nome": "Yahoo Finance (21 nov.)",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+        },
+        {
+          "nome": "The Daily Star / Reuters (21 nov.)",
+          "url": "https://www.thedailystar.net/news/world/news/nvidias-accounting-focus-us-sec-investigation-sources-say-4329306"
+        },
+        {
+          "nome": "24/7 Wall St (21 nov.)",
+          "url": "https://247wallst.com/investing/2026/11/21/nvidias-worst-losing-streak-since-2008-now-has-an-sec-problem-what-shareholders-need-to-know/"
+        },
+        {
+          "nome": "GlobeNewswire – ação coletiva (19 nov.)",
+          "url": "https://www.globenewswire.com/news-release/2026/11/19/3406831/0/en/shareholder-alert-bernstein-liebhard-llp-announces-a-securities-fraud-class-action-lawsuit-has-been-filed-against-nvidia-corporation-nvda.html"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 7
+    },
+    {
+      "titulo": "Anthropic estreia-se na Nasdaq depois da maior entrada em bolsa de sempre e acaba a semana acima do preço de partida",
+      "seccao": "ia",
+      "data": "2026-11-20",
+      "estado": "Factos (preços de fecho) · valor de mercado é estimativa da imprensa",
+      "texto": [
+        "A Anthropic, a empresa que faz o assistente de IA Claude, entrou na bolsa americana na quinta-feira, 19 de novembro, depois da maior oferta pública de ações de sempre. O preço de entrada foi 83 dólares, acima do intervalo previsto. No primeiro negócio, as ações chegaram aos 111,50 dólares, mais de 30% acima, e fecharam o dia nos 97,17 dólares, com um ganho de cerca de 17%.",
+        "O segundo dia foi mais difícil. Na sexta-feira, 20, as ações caíram cerca de 8,5%, para perto de 89 dólares, depois de terem chegado a estar a cinco cêntimos do preço de entrada. Fecharam a semana cerca de 7% acima dos 83 dólares. Com este valor, a empresa vale em bolsa perto de 1,2 biliões de dólares (milhões de milhões), segundo as contas do Motley Fool e da EnterpriseAM."
+      ],
+      "desenvolvimento": "Os números do fecho de sexta variam ligeiramente entre fontes (88,91 ou 88,30 dólares). Segundo a EnterpriseAM, a Anthropic pode entrar nos índices Russell 1000 e Nasdaq-100 já em dezembro (informação de uma só fonte).",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Preço de entrada e fecho do primeiro dia confirmados pela AP (via BNN Bloomberg), pelo Motley Fool e pela EnterpriseAM; fecho de sexta pelo Motley Fool e pela EnterpriseAM (a 24/7 Wall St dá 88,30 dólares). O montante total da operação varia conforme se conte ou não a opção de ações extra, por isso não o indicamos. Nota: este jornal é escrito com a ajuda do Claude, da Anthropic."
+      },
+      "fontes": [
+        {
+          "nome": "AP via BNN Bloomberg (19 nov.)",
+          "url": "https://bnnbloomberg.ca/business/company-news/2026/11/19/anthropic-set-to-begin-trading-as-a-us15-trillion-company-in-the-biggest-ipo-on-record"
+        },
+        {
+          "nome": "The Motley Fool (20 nov.)",
+          "url": "https://www.fool.com/investing/2026/11/20/why-anthropic-stock-is-falling-today/"
+        },
+        {
+          "nome": "EnterpriseAM (22 nov.)",
+          "url": "https://enterpriseam.com/egypt/2026/11/22/the-finger-pointing-begins-after-anthropic-has-a-rough-second-day-on-the-nasdaq/"
+        },
+        {
+          "nome": "24/7 Wall St via Yahoo Finance (20 nov.)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-came-within-5-211710460.html"
+        }
+      ],
+      "edicao": "2026-11-20",
+      "noticia": 4
+    },
+    {
+      "titulo": "IA ao serviço dos ataques informáticos: da Google à Comissão Europeia, a semana em que o aviso passou a realidade",
+      "seccao": "ciberseguranca",
+      "data": "2026-11-19",
+      "estado": "Factos (relatórios, incidente confirmado) · roubo de dados na Comissão não confirmado · autoria desconhecida",
+      "texto": [
+        "Foi a semana em que a inteligência artificial apareceu, preto no branco, do lado dos atacantes. A 16 de novembro, a Google disse ter visto o primeiro ataque informático feito do princípio ao fim por um sistema de IA, sem intervenção humana: encontrou falhas, preparou o ataque e executou-o contra sites franceses. A 17, a OpenAI lançou os modelos GPT-6.2 e admitiu que atingem o nível «crítico» de risco em cibersegurança, o mais alto da sua escala, e que por isso têm proteções reforçadas.",
+        "Depois veio Bruxelas. A 19 de novembro, a Comissão Europeia confirmou que os sistemas que os funcionários usam para salários, férias e horários foram atacados com uma ferramenta de IA disponível ao público. O ataque foi detetado a 22 de outubro. Segundo o porta-voz Thomas Regnier, não há, para já, provas de uma fuga de dados que afete o pessoal em geral, nem pedido de resgate conhecido. Na Alemanha, a agência de cibersegurança (BSI) subiu o nível de alerta e avisou para uma falha grave no Java, a «Java4Shell», que obriga milhares de empresas a atualizar sistemas."
+      ],
+      "desenvolvimento": "Até domingo, 22, a Comissão não tinha confirmado se houve roubo de dados nem quem esteve por trás do ataque. O Politico noticiou que a equipa de resposta da UE, a CERT-EU, detetou a ferramenta ARTEX — a mesma sobre a qual o FBI tinha avisado — mas a Comissão não o confirmou oficialmente.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Relatório da Google confirmado pela CyberScoop e pela própria Google; GPT-6.2 pela OpenAI e pela Unite.AI; incidente da Comissão pela Euronews e pela Help Net Security; aviso da BSI pelo próprio documento da BSI. A identificação da ferramenta ARTEX vem do Politico e não foi confirmada pela Comissão."
+      },
+      "fontes": [
+        {
+          "nome": "CyberScoop – Google (16 nov.)",
+          "url": "https://cyberscoop.com/google-fully-automated-ai-cyberattack"
+        },
+        {
+          "nome": "Google, blogue (16 nov.)",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gtig-ai-threat-tracker-q4-2026/"
+        },
+        {
+          "nome": "OpenAI – relatório de segurança do GPT-6.2 (17 nov.)",
+          "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol"
+        },
+        {
+          "nome": "Euronews – Comissão Europeia (19 nov.)",
+          "url": "https://www.euronews.com/2026/11/19/eu-commission-hit-by-large-scale-cyberattack-with-data-leakage-unknown"
+        },
+        {
+          "nome": "Help Net Security (20 nov.)",
+          "url": "https://www.helpnetsecurity.com/2026/11/20/european-commission-ai-generated-cyberattack-publicly-available-tool/"
+        },
+        {
+          "nome": "Security Affairs (19 nov.)",
+          "url": "https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html"
+        },
+        {
+          "nome": "BSI – aviso Java4Shell (17–18 nov.)",
+          "url": "https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2026/2026-306673-1032.pdf?__blob=publicationFile&v=3"
+        }
+      ],
+      "edicao": "2026-11-20",
+      "noticia": 1
+    },
+    {
+      "titulo": "Semana de chuva e mar bravo acaba com cinco distritos em aviso vermelho e mais de mil ocorrências, sem vítimas",
+      "seccao": "portugal",
+      "data": "2026-11-21",
+      "estado": "Factos (avisos do IPMA) · balanço da Proteção Civil citado por uma só fonte · previsão de tempo seco até segunda",
+      "texto": [
+        "Choveu quase toda a semana no continente, com ondas até 10 metros no litoral Norte e Centro a partir de quarta-feira e uma enxurrada em Manteigas, na serra da Estrela, que deixou pessoas desalojadas a 19 de novembro. O pior chegou no sábado, 21: o IPMA pôs Coimbra, Guarda e Viseu em aviso vermelho de chuva — o nível mais alto — e juntou-lhes depois Leiria e Santarém, num total de cinco distritos até às 18h.",
+        "Até às 18h de sábado, a Proteção Civil registou mais de mil ocorrências, a maioria inundações, mais de 700 delas em Lisboa e Vale do Tejo, segundo o Observador. Não houve vítimas. Em Lisboa, a Segunda Circular voltou a inundar e alguns túneis foram fechados; o jogo de râguebi Portugal–Uruguai, no Restelo, foi cancelado porque o relvado ficou alagado. Em Manteigas, oito ruas perto da ribeira continuaram fechadas por precaução."
+      ],
+      "desenvolvimento": "Ao fim da tarde de sábado, o IPMA retirou os avisos vermelhos. Domingo e segunda-feira devem ser secos e mais frios, com as mínimas a descer 2 a 5 graus; a chuva pode voltar na terça-feira, 24, com uma nova frente fria, segundo o IPMA citado pelo Observador.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Avisos confirmados pelo IPMA, pela Lusa (Executive Digest) e pelo Público; inundações em Lisboa pela RTP e pelo Público. O número de ocorrências (1036 até às 18h) só foi encontrado no Observador e deve ser lido como provisório. A previsão para terça é do IPMA, citado pelo Observador, e coincide com a da Meteored."
+      },
+      "fontes": [
+        {
+          "nome": "IPMA – avisos",
+          "url": "https://www.ipma.pt/pt/otempo/prev-sam/?p=rain"
+        },
+        {
+          "nome": "Executive Digest / Lusa (20 nov.)",
+          "url": "https://executivedigest.sapo.pt/ipma-coloca-coimbra-guarda-e-viseu-sob-aviso-vermelho-de-chuva-no-sabado/"
+        },
+        {
+          "nome": "Público (21 nov.)",
+          "url": "https://www.publico.pt/2026/11/21/sociedade/noticia/cinco-distritos-alerta-vermelho-ha-inundacoes-leiria-nada-preocupante-2195838"
+        },
+        {
+          "nome": "RTP (21 nov.)",
+          "url": "https://www.rtp.pt/noticias/pais/chuva-intensa-e-persistente-provocou-inundacoes-no-pais_e1780804"
+        },
+        {
+          "nome": "Observador – noticiário das 21h (21 nov.)",
+          "url": "https://observador.pt/programas/noticiario/as-noticias-das-21h-1824/"
+        },
+        {
+          "nome": "Observador – noticiário das 22h (21 nov.)",
+          "url": "https://observador.pt/programas/noticiario/as-noticias-das-22h-1903/"
+        },
+        {
+          "nome": "Postal do Algarve / Meteored (21 nov.)",
+          "url": "https://postal.pt/nacional/tempo/chuva-forte-aperta-no-sabado-e-pode-dar-treguas-no-domingo-mas-ja-ha-um-dia-apontado-para-o-regresso/"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 13
+    },
+    {
+      "titulo": "Greve na Função Pública, manifestação da CGTP à chuva e mais paragens marcadas para o dia do voto do Orçamento",
+      "seccao": "portugal",
+      "data": "2026-11-21",
+      "estado": "Factos (greve, manifestação) · adesão segundo os sindicatos · sem números oficiais de participantes",
+      "texto": [
+        "Na sexta-feira, 20 de novembro, os trabalhadores da Administração Pública fizeram greve nacional, convocada pela Frente Comum. Houve lixo por recolher em vários concelhos e muitas escolas fechadas; a Frente Comum falou de uma adesão «forte», sem dar uma percentagem nacional. Os sindicatos pedem aumentos de pelo menos 15%, com um mínimo de 150 euros, e chamam «cêntimos» à proposta do Governo.",
+        "No sábado, 21, foi a vez da CGTP. Vários milhares de pessoas desfilaram à chuva do Saldanha aos Restauradores, em Lisboa, sob o lema «Um novo rumo para Portugal», a pedir salários mais altos, fim da precariedade, controlo de preços e mais investimento na habitação, na saúde e na educação. Não foram divulgados números oficiais. O líder da CGTP, Tiago Oliveira, avisou que «os trabalhadores não esquecerão» os partidos que deixarem passar o Orçamento."
+      ],
+      "desenvolvimento": "Os protestos continuam esta semana. Os maquinistas da CP têm greve marcada de 23 a 27 de novembro, com paragem total a 24 e 25. No dia da votação final do Orçamento, terça-feira, 24, há uma greve nacional convocada por sindicatos da educação (S.T.O.P.), da enfermagem (SITEU), do comércio (STGSSP) e pelo movimento de bancários MUDAR, com protestos em frente ao Parlamento, onde a CGTP também se vai concentrar.",
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Greve confirmada pelo Observador e pelo Jornal Económico; manifestação pelo oregioes.pt e pelo esquerda.net (meio ligado a um partido). Greve da CP confirmada pelo Observador e pelo sindicato SMAQ; greve de 24 de novembro pelo Observador e pelo Diário de Coimbra. Percentagens de adesão são dos sindicatos."
+      },
+      "fontes": [
+        {
+          "nome": "Observador – adesão à greve (20 nov.)",
+          "url": "https://observador.pt/2026/11/20/frente-comum-regista-forte-adesao-a-greve-da-funcao-publica/"
+        },
+        {
+          "nome": "Jornal Económico (20 nov.)",
+          "url": "https://jornaleconomico.sapo.pt/noticias/frente-comum-regista-forte-adesao-a-greve-da-funcao-publica/"
+        },
+        {
+          "nome": "oregioes.pt – manifestação da CGTP (21 nov.)",
+          "url": "https://oregioes.pt/milhares-saem-a-rua-em-lisboa-na-manifestacao-nacional-da-cgtp-contra-politicas-do-governo-e-orcamento-do-estado/"
+        },
+        {
+          "nome": "esquerda.net (21 nov.)",
+          "url": "https://www.esquerda.net/artigo/forca-dos-protestos-nao-recua-perante-chuva-forte/99549"
+        },
+        {
+          "nome": "Observador – greve dos maquinistas (18 nov.)",
+          "url": "https://observador.pt/2026/11/18/maquinistas-da-cp-convocam-greve-de-23-a-27-de-novembro-empresa-avisa-para-perturbacoes-na-circulacao/"
+        },
+        {
+          "nome": "SMAQ (18 nov.)",
+          "url": "https://smaq.pt/2026/11/18/smaq-convoca-greve-na-cp-entre-23-e-27-de-novembro/"
+        },
+        {
+          "nome": "Observador – greve nacional a 24 de novembro (18 nov.)",
+          "url": "https://observador.pt/2026/11/18/greve-nacional-no-dia-da-votacao-do-oe2027-sindicatos-da-saude-educacao-e-comercio-convocam-paralisacao-para-24-de-novembro/"
+        },
+        {
+          "nome": "Diário de Coimbra (19 nov.)",
+          "url": "https://www.diariocoimbra.pt/2026/11/19/sindicatos-da-saude-educacao-e-comercio-convocam-greve-nacional-para-24-de-novembro/"
+        }
+      ],
+      "edicao": "2026-11-20",
+      "noticia": 13
+    },
+    {
+      "titulo": "BepiColombo já está em órbita de Mercúrio, oito anos depois de partir",
+      "seccao": "espaco",
+      "data": "2026-11-21",
+      "estado": "Facto: captura confirmada pela equipa da ESA · ciência prevista para abril de 2027",
+      "texto": [
+        "A BepiColombo chegou. A missão da Agência Espacial Europeia (ESA) e da agência japonesa JAXA ficou em órbita de Mercúrio no sábado, 21 de novembro, depois de ligar os motores durante 37 minutos para travar. A manobra estava marcada para as 18h24 de Lisboa. A equipa de dinâmica de voo da ESA anunciou a «captura orbital» pouco depois. É apenas a segunda missão de sempre a ficar à volta do planeta mais próximo do Sol, depois da MESSENGER, da NASA.",
+        "E agora? A sonda leva duas naves agarradas uma à outra: a europeia MPO e a japonesa Mio. Vão separar-se a 9 e 10 de dezembro e só chegam às órbitas finais em março de 2027. A ciência deve começar em abril, se o calendário se mantiver; a ESA avisa que as datas podem mudar. A missão leva ciência e tecnologia portuguesas."
+      ],
+      "verificacao": {
+        "independentes": 2,
+        "nota": "Captura confirmada pela Starlust e pela theglobalspy, que citam a equipa da ESA; a página de atualizações da ESA ainda não tinha publicado a confirmação quando foi consultada. Hora e duração da manobra pela Space.com (antes da manobra). Calendário seguinte segundo a ESA e a Space.com."
+      },
+      "fontes": [
+        {
+          "nome": "Starlust (22 nov.)",
+          "url": "https://starlust.org/bepicolombo-becomes-second-spacecraft-in-history-to-enter-mercurys-orbit/"
+        },
+        {
+          "nome": "theglobalspy (22 nov.)",
+          "url": "https://www.theglobalspy.com/2026/11/bepicolombo-reaches-mercury-after-eight.html"
+        },
+        {
+          "nome": "Space.com (21 nov.)",
+          "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+        },
+        {
+          "nome": "ESA – atualizações da chegada a Mercúrio",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+        },
+        {
+          "nome": "DN – ciência portuguesa na BepiColombo (18 out. 2018)",
+          "url": "https://www.dn.pt/vida-e-futuro/interior/primeira-missao-europeia-a-mercurio-e-lancada-no-sabado-com-ciencia-e-tecnologia-portuguesas-10020454.html"
+        }
+      ],
+      "edicao": "2026-11-21",
+      "noticia": 17
+    }
+  ],
+  "semana_que_vem": [
+    {
+      "quando": "Segunda, 23 nov.",
+      "texto": "Últimas votações do Orçamento na especialidade, com o plenário a começar às 9h. Em Bruxelas, o Conselho do Atlântico Norte discute os mísseis russos caídos na Polónia. Começa o pré-aviso de greve dos maquinistas da CP."
+    },
+    {
+      "quando": "Segunda, 23 nov.",
+      "texto": "Lançamento de um Ariane 6 com 36 satélites de internet Amazon Leo, a partir de Kourou, na Guiana Francesa, marcado para «não antes de» 23 de novembro."
+    },
+    {
+      "quando": "Terça, 24 nov.",
+      "texto": "Votação final global do Orçamento do Estado para 2027, às 15h. Greve nacional convocada por sindicatos da educação, enfermagem e comércio, protestos em frente ao Parlamento e paragem total dos maquinistas da CP (também a 25)."
+    },
+    {
+      "quando": "Terça ou quarta, 24–25 nov.",
+      "texto": "Lançamento esperado da Shenzhou-24, que deve levar o primeiro astronauta estrangeiro — paquistanês — à estação espacial chinesa; a China ainda não anunciou a data oficial."
+    },
+    {
+      "quando": "Terça, 24 nov.",
+      "texto": "Depois de dois dias secos e frios, a chuva pode voltar com uma nova frente fria, segundo a previsão do IPMA."
+    }
+  ],
+  "quiz": [
+    {
+      "pergunta": "Em que cidade chinesa se realizou a primeira cimeira a três entre Xi Jinping, Donald Trump e Vladimir Putin?",
+      "opcoes": ["Xangai", "Pequim", "Shenzhen", "Cantão"],
+      "certa": 2,
+      "explicacao": "A cimeira decorreu a 19 de novembro em Shenzhen, à margem da APEC.",
+      "destaque": 1
+    },
+    {
+      "pergunta": "Que tema ficou de fora da «declaração de paz» assinada pelos três líderes em Shenzhen?",
+      "opcoes": ["A reforma da ONU", "A guerra na Ucrânia", "Os riscos das armas nucleares"],
+      "certa": 1,
+      "explicacao": "O texto fala de reforma da ONU, petróleo e riscos nucleares, mas não menciona a Ucrânia nem o Irão.",
+      "destaque": 1
+    },
+    {
+      "pergunta": "Que país viu cair no seu território dois mísseis e um drone russos durante um ataque à Ucrânia, a 20 de novembro?",
+      "opcoes": ["Roménia", "Polónia", "Moldávia", "Estónia"],
+      "certa": 1,
+      "explicacao": "Caíram em três localidades do sudeste da Polónia, sem feridos; Mark Rutte foi a Varsóvia no dia seguinte.",
+      "destaque": 2
+    },
+    {
+      "pergunta": "Que medida do Orçamento para 2027 foi aprovada pelo PS e pelo Chega contra a vontade do Governo?",
+      "opcoes": ["Subida do IRS para todos", "Congelamento das propinas", "Fim do IVA na eletricidade"],
+      "certa": 1,
+      "explicacao": "A proposta do Chega para congelar as propinas passou com os votos do PS; o IVA zero num cabaz de alimentos também foi aprovado.",
+      "destaque": 3
+    },
+    {
+      "pergunta": "A que horas está marcada a votação final global do Orçamento, na terça-feira, 24 de novembro?",
+      "opcoes": ["10h", "15h", "21h"],
+      "certa": 1,
+      "explicacao": "Passou das 10h para as 15h por causa da convenção do Chega deste fim de semana.",
+      "destaque": 3
+    },
+    {
+      "pergunta": "Quanto perderam as ações da Nvidia na semana, a pior desde 2008?",
+      "opcoes": ["Cerca de 5%", "Cerca de 23%", "Cerca de 50%"],
+      "certa": 1,
+      "explicacao": "Caíram 14% só na sexta-feira e 23% na semana, depois de notícias de uma investigação do regulador da bolsa.",
+      "destaque": 5
+    },
+    {
+      "pergunta": "Que instituição confirmou ter sido alvo de um ciberataque feito com uma ferramenta de inteligência artificial?",
+      "opcoes": ["O Banco Central Europeu", "A Comissão Europeia", "O Parlamento Europeu"],
+      "certa": 1,
+      "explicacao": "Foram atacados os sistemas que os funcionários da Comissão usam para salários, férias e horários.",
+      "destaque": 7
+    },
+    {
+      "pergunta": "Em órbita de que planeta ficou a sonda europeia e japonesa BepiColombo no sábado?",
+      "opcoes": ["Vénus", "Marte", "Mercúrio"],
+      "certa": 2,
+      "explicacao": "Depois de oito anos de viagem, tornou-se a segunda missão de sempre a ficar em órbita de Mercúrio.",
+      "destaque": 10
+    }
+  ],
+  "agenda_aviso": "Dados recolhidos na manhã de 22 de novembro nas páginas da Casa da Música, de Serralves, do Cinema Trindade e da Agenda Porto, e no anúncio da Galeria Municipal do Porto no e-flux. Não foi possível abrir as páginas do Teatro Municipal do Porto, do TNSJ, do Porto/Post/Doc nem várias páginas de evento da Agenda Porto, por isso as sessões do festival Porto/Post/Doc não aparecem com hora. Onde se lê «Por confirmar», o dado não estava na fonte: confirme na ligação antes de sair.",
+  "agenda": [
+    {
+      "dia": "2026-11-22",
+      "eventos": [
+        {
+          "nome": "Café com Nata: Solistas da Orquestra Sinfónica",
+          "descricao": "Recital de domingo de manhã, com o oboé em destaque num programa de Mozart, Britten e Kodály, acompanhado de café e pastel de nata.",
+          "horario": "11:00",
+          "tipo": "Música",
+          "local": "Casa da Música – Sala 2, Av. da Boavista, 604-610, Porto",
+          "preco": "14 €",
+          "url": "https://casadamusica.com/en/event/orquestra-sinfonica-soloists-2/?selected_session=54909",
+          "ligacao": "Casa da Música",
+          "nota": "Hora e preço confirmados na página do evento. Para maiores de 6 anos; há descontos para menores de 30, maiores de 65 e estudantes."
+        },
+        {
+          "nome": "Singspiele – Foco Maguy Marin",
+          "descricao": "Num solo criado por Maguy Marin, David Mambouch troca de rosto, roupa e gestos para pôr em causa a identidade e os papéis sociais.",
+          "horario": "16:00",
+          "tipo": "Teatro",
+          "local": "Serralves – Auditório do Museu, Rua Dom João de Castro, 210, Porto",
+          "preco": "7,50 €",
+          "url": "https://www.serralves.pt/en/atividades-serralves/2211-singspiele/",
+          "ligacao": "Serralves",
+          "nota": "Há uma segunda sessão às 19:00. Preço reduzido de 3,75 € para estudantes, jovens, maiores de 64 e Amigos de Serralves. Duração de 1 hora; classificação etária não indicada."
+        },
+        {
+          "nome": "A Cara que Mereces – retrospetiva Miguel Gomes",
+          "descricao": "A primeira longa-metragem de Miguel Gomes segue um homem que faz 30 anos vestido de cowboy, num Carnaval que corre mal.",
+          "horario": "17:00",
+          "tipo": "Cinema",
+          "local": "Casa do Cinema Manoel de Oliveira, Serralves, Porto",
+          "preco": "Por confirmar",
+          "url": "https://www.serralves.pt/en/atividades-serralves/2211-a-cara-que-mereces/",
+          "ligacao": "Serralves",
+          "nota": "Hora confirmada na página do evento. A página só indica os preços reduzidos (3 € estudantes e jovens; 1,50 € maiores de 64 e Amigos). Duração de 108 minutos."
+        },
+        {
+          "nome": "Rasgar um céu sem sol – visita com os artistas",
+          "descricao": "Visita orientada à exposição de Basel Abbas e Ruanne Abou-Rahme, conduzida pelos próprios artistas.",
+          "horario": "Por confirmar",
+          "tipo": "Exposição",
+          "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de Dom Manuel II, Porto",
+          "preco": "Entrada gratuita",
+          "url": "https://www.agenda-porto.pt/en/local/n9d8XJQM7JP/",
+          "ligacao": "Agenda Porto",
+          "nota": "A Agenda Porto mostra a visita a 22 de novembro, gratuita, mas sem hora; a página do evento não pôde ser aberta. A galeria abre de terça a domingo, das 10:00 às 18:00."
+        },
+        {
+          "nome": "Jazz in the Space Age, de George Russell",
+          "descricao": "A Orquestra Jazz de Matosinhos, dirigida por Pedro Guedes, revisita o disco de George Russell, com Mário Laginha e Miguel Meirinhos ao piano.",
+          "horario": "21:30",
+          "tipo": "Música",
+          "local": "Casa da Música – Sala Suggia, Av. da Boavista, 604-610, Porto",
+          "preco": "26 € a 30 €",
+          "url": "https://casadamusica.com/en/event/jazz-in-the-space-age-by-george-russel/?selected_session=55746",
+          "ligacao": "Casa da Música",
+          "nota": "Hora e preços confirmados na página do evento. Para maiores de 6 anos."
+        }
+      ]
+    },
+    {
+      "dia": "2026-11-23",
+      "eventos": [
+        {
+          "nome": "Exposições de Serralves ao fim da tarde",
+          "descricao": "Segunda-feira ao fim do dia dá para ver as exposições em curso em Serralves, como as de Jenny Holzer, Alice Neel, Lee Ufan e Joan Miró.",
+          "horario": "17:00",
+          "tipo": "Exposição",
+          "local": "Fundação de Serralves, Rua Dom João de Castro, 210, Porto",
+          "preco": "12 € (residentes) / 15 € (não residentes)",
+          "url": "https://www.serralves.pt/en/visitar-serralves/",
+          "ligacao": "Serralves",
+          "nota": "A página de visita indica um bilhete de fim de tarde de segunda a quinta, a partir das 17:00, com última entrada às 18:00. Gratuito para menores de 12 anos e Amigos de Serralves."
+        },
+        {
+          "nome": "Ida, de Paweł Pawlikowski",
+          "descricao": "Na Polónia de 1962, uma noviça prestes a fazer votos descobre que é judia e parte com a tia à procura da história da família.",
+          "horario": "19:30",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "Por confirmar",
+          "url": "https://cinematrindade.pt/en/films/ida",
+          "ligacao": "Cinema Trindade",
+          "nota": "Sessão das 19:30 às 20:50, confirmada na página do filme. M/14. A página não indica preço."
+        },
+        {
+          "nome": "Misty Fest – Rodrigo Leão: Alma Mater",
+          "descricao": "Rodrigo Leão celebra os 26 anos do disco Alma Mater com ensemble, coro e convidados.",
+          "horario": "21:00",
+          "tipo": "Música",
+          "local": "Casa da Música – Sala Suggia, Av. da Boavista, 604-610, Porto",
+          "preco": "25 € a 40 €",
+          "url": "https://casadamusica.com/en/event/rodrigo-leao-4/?selected_session=51210",
+          "ligacao": "Casa da Música",
+          "nota": "Preços confirmados na página do evento. A agenda da Casa da Música marca a sessão como esgotada. Para maiores de 6 anos."
+        },
+        {
+          "nome": "Underground – Era Uma Vez Um País",
+          "descricao": "Sessão do filme de Emir Kusturica, uma comédia negra sobre a guerra e a história da antiga Jugoslávia.",
+          "horario": "21:00",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "Por confirmar",
+          "url": "https://cinematrindade.pt/en/films/underground-era-uma-vez-um-pais",
+          "ligacao": "Cinema Trindade",
+          "nota": "Hora confirmada na programação do Trindade; preço e classificação etária por confirmar."
+        }
+      ]
+    },
+    {
+      "dia": "2026-11-24",
+      "eventos": [
+        {
+          "nome": "Rasgar um céu sem sol / Nightwood / Gothic Tale",
+          "descricao": "Três exposições novas na Galeria Municipal: Basel Abbas e Ruanne Abou-Rahme, Leonor Parda e Isabel Carvalho.",
+          "horario": "10:00",
+          "tipo": "Exposição",
+          "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de Dom Manuel II, Porto",
+          "preco": "Entrada gratuita",
+          "url": "https://www.e-flux.com/announcements/6787436/autumn-2026-winter-2027-programme",
+          "ligacao": "e-flux (Galeria Municipal do Porto)",
+          "nota": "Aberto de terça a domingo, das 10:00 às 18:00, segundo o anúncio da galeria. Data de fecho das exposições não indicada."
+        },
+        {
+          "nome": "Documentário e Inteligência Artificial, com Jorge Caballero (Porto/Post/Doc)",
+          "descricao": "Conversa do festival Porto/Post/Doc sobre o que a inteligência artificial muda na forma de fazer documentários.",
+          "horario": "Por confirmar",
+          "tipo": "Conversa",
+          "local": "Teatro Rivoli, Praça de D. João I, Porto",
+          "preco": "Entrada gratuita",
+          "url": "https://www.agenda-porto.pt/en/local/rivoli-theatre/",
+          "ligacao": "Agenda Porto",
+          "nota": "A página do Rivoli na Agenda Porto mostra a conversa a 24 de novembro, gratuita, sem hora; a página do evento e o site do Teatro Municipal não puderam ser abertos."
+        },
+        {
+          "nome": "Misty Fest – Rodrigo Leão: Alma Mater (fim de tarde)",
+          "descricao": "Nova noite de Rodrigo Leão na Casa da Música, a revisitar Alma Mater com coro e convidados.",
+          "horario": "18:30",
+          "tipo": "Música",
+          "local": "Casa da Música – Sala Suggia, Av. da Boavista, 604-610, Porto",
+          "preco": "25 € a 40 €",
+          "url": "https://casadamusica.com/en/event/rodrigo-leao-4/?selected_session=60241",
+          "ligacao": "Casa da Música",
+          "nota": "A agenda da Casa da Música mostra sessões às 18:30 e às 21:00, ambas esgotadas. Preços da página do evento. Para maiores de 6 anos."
+        },
+        {
+          "nome": "Cold War – Guerra Fria, de Paweł Pawlikowski",
+          "descricao": "No ciclo dedicado ao realizador, o Trindade mostra o romance entre dois músicos na Europa dividida do pós-guerra.",
+          "horario": "19:30",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "Por confirmar",
+          "url": "https://cinematrindade.pt/en/programme",
+          "ligacao": "Cinema Trindade",
+          "nota": "Hora confirmada na programação do Trindade; preço e classificação etária por confirmar."
+        },
+        {
+          "nome": "Green Book – sessão Projecto SER",
+          "descricao": "O filme de Peter Farrelly sobre a digressão de um pianista negro pelo sul dos EUA nos anos 60, seguido de conversa com o público.",
+          "horario": "21:30",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "Por confirmar",
+          "url": "https://cinematrindade.pt/en/films/green-book",
+          "ligacao": "Cinema Trindade",
+          "nota": "Sessão das 21:30 às 23:40, M/12, confirmada na página do filme. Preço não indicado."
+        }
+      ]
+    },
+    {
+      "dia": "2026-11-25",
+      "eventos": [
+        {
+          "nome": "La Bola Negra",
+          "descricao": "Três homens de três épocas, ligados pelo desejo e por uma obra inacabada de García Lorca, no filme de Javier Calvo e Javier Ambrossi.",
+          "horario": "18:30",
+          "tipo": "Cinema",
+          "local": "Cinema Trindade, Rua do Almada, 412, Porto",
+          "preco": "Por confirmar",
+          "url": "https://cinematrindade.pt/en/films/la-bola-negra",
+          "ligacao": "Cinema Trindade",
+          "nota": "A programação do Trindade mostra sessões às 14:15, 18:30 e 21:15. Duração de 2 h 35 min, falado em espanhol. Preço e classificação etária por confirmar."
+        },
+        {
+          "nome": "Misty Fest – Christian Löffler: Until We Meet Again",
+          "descricao": "O músico eletrónico alemão apresenta o disco mais recente com um ensemble, entre o ambient, o techno, o piano e as cordas.",
+          "horario": "21:00",
+          "tipo": "Música",
+          "local": "Casa da Música – Sala Suggia, Av. da Boavista, 604-610, Porto",
+          "preco": "30 € a 50 €",
+          "url": "https://casadamusica.com/en/event/christian-loffler-ensemble-2/?selected_session=49756",
+          "ligacao": "Casa da Música",
+          "nota": "Hora e preços confirmados na página do evento. Para maiores de 6 anos."
+        },
+        {
+          "nome": "Quem Decide o que Ouvimos?",
+          "descricao": "Carlos Tê, João Gobern, Miguel Gonçalves e Rui Massena conversam sobre quem molda hoje o gosto musical.",
+          "horario": "Por confirmar",
+          "tipo": "Conversa",
+          "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+          "preco": "Entrada gratuita",
+          "url": "https://agenda-porto.pt/en/local/coliseu-porto-ageas",
+          "ligacao": "Agenda Porto",
+          "nota": "A página do Coliseu na Agenda Porto mostra a conversa a 25 de novembro, gratuita, sem hora; a página do evento não pôde ser aberta."
+        },
+        {
+          "nome": "Hora de Ponta – «Pão»",
+          "descricao": "Sessão de escuta comentada na Fonoteca Municipal, desta vez com o pão como tema.",
+          "horario": "Por confirmar",
+          "tipo": "Música",
+          "local": "Fonoteca Municipal do Porto, Rua de Pinto Bessa, 122, Armazém 12, Campanhã, Porto",
+          "preco": "Entrada gratuita",
+          "url": "https://www.agenda-porto.pt/en/local/fonoteca-municipal-do-porto/",
+          "ligacao": "Agenda Porto",
+          "nota": "A página da Fonoteca na Agenda Porto mostra a sessão a 25 de novembro, gratuita, sem hora; a página do evento não pôde ser aberta."
+        }
+      ]
+    }
+  ],
+  "linkedin_abertura": "Numa semana, Xi, Trump e Putin sentaram-se à mesma mesa sem falar da Ucrânia, mísseis russos caíram na Polónia e a sonda BepiColombo ficou em órbita de Mercúrio."
+}

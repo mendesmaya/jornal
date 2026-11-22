@@ -1,0 +1,23 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-shenzhen-skyline-from-futian-district5.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shenzhen_Skyline_from_Futian_District5.jpg?width=1000",
+  "commons": "Shenzhen Skyline from Futian District5.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-russian-kh-101-missile-shot-in-vinnytsia-oblast-2023-01-26-0.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Russian_Kh-101_missile_shot_in_Vinnytsia_Oblast%2C_2023-01-26_%2805%29.jpg?width=1000",
+  "commons": "Russian Kh-101 missile shot in Vinnytsia Oblast, 2023-01-26 (05).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-lisboa-assembleia-da-rep-blica.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lisboa_-_Assembleia_da_Rep%C3%BAblica.jpg?width=1000",
+  "commons": "Lisboa - Assembleia da República.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ }
+]
