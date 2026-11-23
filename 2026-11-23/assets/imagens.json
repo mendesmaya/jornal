@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-chris-bowen-cop31-president-of-negotiation-dan-j-rgensen-eur.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris_Bowen%2C_COP31_President_of_Negotiation_%26_Dan_J%C3%B8rgensen%2C_European_Commissioner.jpg?width=1000",
+  "commons": "Chris Bowen, COP31 President of Negotiation & Dan Jørgensen, European Commissioner.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-front-of-server-racks-at-nersc.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Front_of_server_racks_at_NERSC.jpg?width=1000",
+  "commons": "Front of server racks at NERSC.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-brussels-nato-headquarters.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Brussels_NATO_Headquarters.jpg?width=1000",
+  "commons": "Brussels NATO Headquarters.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-assembleia-da-rep-blica-portugal-pal-cio-de-s-o-bento-lisboa.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Assembleia_da_Rep%C3%BAblica_%28Portugal%29_Pal%C3%A1cio_de_S%C3%A3o_Bento%2C_Lisboa.JPG?width=1000",
+  "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-bepicolombo-surveys-mercury-s-rich-geology-esa24324352.jpeg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BepiColombo_surveys_Mercury%E2%80%99s_rich_geology_ESA24324352.jpeg?width=1000",
+  "commons": "BepiColombo surveys Mercury’s rich geology ESA24324352.jpeg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-ethan-hawke-in-2022.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethan_Hawke_in_2022.jpg?width=1000",
+  "commons": "Ethan Hawke in 2022.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-hospicio-caba-as-guadalajara-jal.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hospicio_Caba%C3%B1as%2C_Guadalajara%2C_Jal.jpg?width=1000",
+  "commons": "Hospicio Cabañas, Guadalajara, Jal.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-riteofspringdancers.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/RiteofSpringDancers.jpg?width=1000",
+  "commons": "RiteofSpringDancers.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-rita-redshoes-no-coliseu-de-lisboa-01.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rita_RedShoes_no_Coliseu_de_Lisboa_01.jpg?width=1000",
+  "commons": "Rita RedShoes no Coliseu de Lisboa 01.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

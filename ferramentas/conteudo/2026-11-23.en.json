@@ -1,0 +1,1151 @@
+{
+ "data": "2026-11-23",
+ "numero": "031",
+ "resumo": "COP31 ends without a deal in Antalya; NATO meets today over the Russian missiles that fell in Poland; Portugal's 2027 Budget enters the home stretch, with the decisive vote set for Tuesday at 15:00; and BepiColombo is now in orbit around Mercury.",
+ "tema_palavras": "words from this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Prompts sent to AI models were copied for months: OpenRouter drops three providers after a trap set by researchers",
+   "estado": "Fact confirmed by OpenRouter and by three providers · providers dropped not identified · full extent yet to be established",
+   "data": "2026-11-22",
+   "texto": [
+    "For months, someone was reading what companies and developers write to AI models. OpenRouter, a platform that routes requests to dozens of companies hosting AI models, announced on Sunday 22 November that it had dropped three of those providers and removed 125 services from its «zero data retention» option, the guarantee that prompts are not stored. The decision comes after researchers at the cybersecurity company Dragos detected prompt theft at at least three providers, which did not know they had been attacked.",
+    "How was it discovered? Between July and November, Dragos sent around two million prompts with hidden «bait»: unique links and fake credentials. If anyone used one of those secrets, it proved they had read the prompt. According to The Hacker News, the earliest intrusion began in mid-July. In the most serious case, some two hundred access keys to Amazon's cloud (AWS) were stolen at the end of October and tested within a few hours by the attacker, who tried to reach data and create new users.",
+    "Three providers have already explained what happened to them. Phala says an attacker controlled one of its servers and that prompts to a DeepSeek model between 21 October and 8 November should be treated as exposed. Together AI says an AI coding agent mistakenly published a credential on GitHub, which gave access to samples of prompts from June and July. Novita speaks of a configuration error that sent prompts to another company. OpenRouter insists its own systems were not breached, but does not say which three providers it dropped.",
+    "Why does this matter? Many people paste code, logs and passwords into these prompts. The advice given to affected customers is to change all the keys, passwords and credentials they have written and check for unusual access. «A privacy option doesn't help when the attacker is already inside», summed up Dragos's head of research, HD Moore, quoted by The Hacker News."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Facts confirmed by The Hacker News (22 Nov) and Notebookcheck (23 Nov), which quote OpenRouter's announcement and the notices from Phala and Together AI. The OpenRouter and Dragos pages are cited (we could not open them). The details of the AWS keys and HD Moore's quote come from The Hacker News. OpenRouter and Dragos have not identified the providers dropped, nor said whether they are the same three that disclosed incidents."
+   },
+   "fontes": [
+    {
+     "nome": "The Hacker News – «OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms» (22 Nov)",
+     "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
+    },
+    {
+     "nome": "Notebookcheck – «OpenRouter cuts three AI providers: Who needs to rotate API keys now» (23 Nov)",
+     "url": "https://www.notebookcheck.net/OpenRouter-cuts-three-AI-providers-Who-needs-to-rotate-API-keys-now.1457670.0.html"
+    },
+    {
+     "nome": "OpenRouter – «Data processing incidents on inference providers» (cited)",
+     "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+    },
+    {
+     "nome": "Dragos – research using bait in AI prompts (cited)",
+     "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+    }
+   ],
+   "imagem": {
+    "commons": "Front of server racks at NERSC.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Row of server cabinets in a data centre",
+    "legenda": "Servers in a NERSC data centre in the US (illustrative image; does not show the providers attacked)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "AI agents used by China-linked hackers found a flaw in medical imaging software on their own and took over a university server, says Amazon",
+   "estado": "Amazon's account, not independently confirmed · attribution to China with moderate confidence · fix not yet available as an installable release",
+   "data": "2026-11-20",
+   "texto": [
+    "A group of hackers used AI agents to find and exploit a previously unknown flaw in medical imaging software, and gained full control of a university server. The account comes from Amazon's threat intelligence team, released on 20 November. The company says it suspects, with moderate confidence, attackers linked to China: the instructions were written in simplified Chinese and the clocks were set to Beijing time.",
+    "The target was MONAI Label, an open-source program used to annotate medical scans and train AI models. According to Amazon, the tool used, called Cairn, puts several AI agents to work like a penetration-testing team: the operator chooses the target and the goal, and the agents decide how to get there. In about 11 minutes they reached the flaw, which allowed files to be written outside the intended folder without asking for a password. In another session, they used it to gain administrator access. A second university was reportedly attacked in the same way, but this is not confirmed.",
+    "How did it come to light? The attacker's control panel was left open on the internet without a password, with instructions and history in plain view. «The agents planned, executed and adjusted their approach as they learned», Amazon's security chief, CJ Moses, told The Record. Amazon did not name the universities, which are in East Asia, and says it has no evidence that patient data was taken.",
+    "What's missing: the flaw (CVE-2026-133968, severity 9.8 out of 10) was fixed in the code on 19 October but, according to The Hacker News, there is still no new release ready to install. Until then, the advice is not to leave these servers exposed to the internet and to switch on authentication, which is off by default. It is one more case in a recent series of attacks using AI tools, after the FBI's warning about the ARTEX tool."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Reported by The Record (20 Nov), with quotes from CJ Moses, and by The Hacker News (21 Nov), both based on Amazon's report, which has not been verified by third parties. BleepingComputer also reported it (cited; not opened). There is a discrepancy: one aggregator says MONAI «has already released a fix»; The Hacker News says the fix is in the code but without an installable release — we follow The Hacker News."
+   },
+   "fontes": [
+    {
+     "nome": "The Record – «Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university» (20 Nov)",
+     "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day"
+    },
+    {
+     "nome": "The Hacker News – «Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access» (21 Nov)",
+     "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+    },
+    {
+     "nome": "BleepingComputer – «Hackers use autonomous AI tool Cairn to find zero-day, take over server» (cited)",
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Spies suspected of links to China used an unknown flaw in VMware vCenter for two months; deadline for US agencies to patch ends today",
+   "estado": "Attacks confirmed by Google/Mandiant · fix available · CISA deadline for federal agencies ends on 23 Nov",
+   "data": "2026-11-20",
+   "texto": [
+    "An espionage group suspected of links to China exploited a previously unknown flaw in VMware vCenter, the software many companies use to manage their virtual machines, for more than two months. The discovery comes from Mandiant, Google's incident response team, which published the details on 19 November, the day Broadcom, VMware's owner, released the fix. The US cybersecurity agency (CISA) added the flaw to its list of vulnerabilities already being exploited and gave federal agencies until today, Monday 23 November, to fix it.",
+    "How did the attack work? According to Google, the group, which the company calls ARMORY CASTLE, first got in through another flaw, in a BeyondTrust remote support program. It then moved on to vCenter from early September, using its own tool. There it stole the key used to sign logins, created an administrator account and managed to get around two-step authentication. Finally, it reached the physical servers and took copies of Windows account databases.",
+    "The flaw (CVE-2026-123890) has a severity of 9.8 out of 10. It is fixed in versions 8.0 and 9 of vCenter, but version 7, which lost support in October 2025, is not getting a public fix despite being vulnerable, according to SecurityWeek. Google has not identified the victims or the sector.",
+    "Added to the same CISA list, with the same deadline, were serious flaws in Cisco Expressway, used for video conferencing, and in Apache Roller, a blogging program, both already used in attacks. In other words: anyone running these systems should update now, and not just in the US."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The technical details come from the Google/Mandiant report (19 Nov) and were confirmed by SecurityWeek. The inclusion on the CISA list and the 23 Nov deadline come from The Hacker News (21 Nov); we did not open the original CISA notice. The attribution to China is Google's («suspected»), with no official US confirmation."
+   },
+   "fontes": [
+    {
+     "nome": "Google Cloud / Mandiant – «ARMORY CASTLE Exploits vSphere» (19 Nov)",
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere"
+    },
+    {
+     "nome": "SecurityWeek – «Newly patched VMware vCenter flaw exploited as zero-day by Chinese APT»",
+     "url": "https://securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt"
+    },
+    {
+     "nome": "The Hacker News – «Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge» (21 Nov)",
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "OpenAI's chief scientist proposes industry-wide limits to hold back more powerful AI models until there are ways to monitor them",
+   "estado": "Proposal published by OpenAI on Sunday · backed by Sam Altman · no numerical limits and no other companies signed up",
+   "data": "2026-11-22",
+   "texto": [
+    "AI companies should agree on limits that none of them crosses until they know how to monitor what their models are doing. The proposal comes from Jakub Pachocki, OpenAI's chief scientist, in a piece published on Sunday 22 November on the company's website, according to Reuters and Bloomberg. Chief executive Sam Altman backed it on X and called it «the most important thing» OpenAI has published in a long time.",
+    "How would these limits work? Pachocki suggests using «perplexity», a measure of how well a model guesses the next word in a text (the lower it is, the more capable the model), combined with other measurements. Companies would commit not to pass a first threshold until the ability to understand and monitor AI behaviour reached a concrete target, defined in a common standard.",
+    "Why does this matter? Pachocki warns that AI itself could bring fundamental advances in training methods as early as 2027, faster than safety tools are progressing. In September, in an earlier essay, he had already argued for «extreme caution» and voluntary slowdowns when safety has not been demonstrated.",
+    "What we still don't know. According to the reports available, the proposal does not set values for the limits or the targets, and does not say who would check compliance. Nor has there been, so far, any public reaction from other companies, such as Anthropic or Google. For now, it is a proposal — not a commitment made by the industry."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The proposal and Altman's reaction come from Reuters (via Yahoo News and The Star, 22–23 Nov); Bloomberg Law (Bloomberg copy, 22 Nov) confirms the proposal and Pachocki's quotes. We could not open the original text on OpenAI's website. The September essay is described by TechRepublic (9 Sep). The actual values of the limits do not appear in the sources consulted."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via Yahoo News – «OpenAI scientist proposes industry AI limits tied to model intelligence metric» (22 Nov)",
+     "url": "https://www.yahoo.com/news/articles/openai-scientist-proposes-industry-ai-230920757.html"
+    },
+    {
+     "nome": "Bloomberg Law – «OpenAI Chief Scientist Urges Industry Limits on AI Development» (22 Nov)",
+     "url": "https://news.bloomberglaw.com/ip-law/openai-chief-scientist-urges-industry-limits-on-ai-development"
+    },
+    {
+     "nome": "The Star (Reuters) – «OpenAI scientist proposes industry AI limits tied to model intelligence metric» (23 Nov; seen in search results)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/23/openai-scientist-proposes-industry-ai-limits-tied-to-model-intelligence-metric"
+    },
+    {
+     "nome": "OpenAI – Jakub Pachocki's piece on perplexity and intelligence (cited; could not be opened)",
+     "url": "https://openai.com/index/perplexity-and-intelligence"
+    },
+    {
+     "nome": "TechRepublic – «OpenAI Scientist Urges Safety Limits as AI Research Accelerates» (9 Sep)",
+     "url": "https://techrepublic.com/article/news-openai-scientist-ai-research-safety-limits"
+    }
+   ],
+   "imagem": {
+    "commons": "Jakub Pachocki in 2012 cropped.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of Jakub Pachocki, OpenAI's chief scientist, in a 2012 photograph",
+    "legenda": "Jakub Pachocki, now OpenAI's chief scientist, in an archive photograph from 2012 (does not show the announcement)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "South Korea's education minister resigns after the confusion over anti-AI-cheating measures in the national university entrance exam",
+   "estado": "Fact confirmed: resignation accepted by the President on Sunday · 111 suspected cases of cheating with electronic devices",
+   "data": "2026-11-22",
+   "texto": [
+    "AI has now brought down a minister. In South Korea, education minister Choi Kyo-jin resigned on Sunday 22 November, and President Lee Jae Myung accepted his departure the same day. Choi took responsibility for the confusion caused by last-minute measures against AI cheating in the Suneung, the national university entrance exam, held on Thursday 19, according to the Korea JoongAng Daily and the Yonhap news agency.",
+    "What happened? Days before the exam, the top scorer in an entrance exam for the tax accountant profession admitted to cheating with a tiny camera and AI. The ministry, which had focused on smart glasses, added rules in a hurry. On exam day, invigilators checked glasses, covered clothing buttons with stickers because of hidden cameras, and three emergency alerts were sent to phones across the country, looking for pupils who had not handed in their phones. The ministry counted 111 suspected cases of cheating with electronic devices.",
+    "The minister was already under fire. Three days before the exam, he told Parliament he would not be able to catch every case of AI cheating and added «because of my age», a remark that drew heavy criticism. «Now that the exam is over, I feel the responsibility deeply», he said as he stepped down, according to the JoongAng Daily.",
+    "What now? The President ordered a review of how the Suneung and other exams are organised and wrote that concern about AI cheating already extends to other admission exams and to school tests. Marking exam papers so their origin can be traced if they are photographed is being considered. The new minister will be chosen through the normal procedure."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The details (acceptance of the resignation, 111 cases, alerts, quotes) come from the Korea JoongAng Daily (22 Nov). The Korea Times, carrying a Yonhap report (22 Nov), confirms the resignation and the reason; we could only read the summary of that page. The Guardian and The Japan Times also reported the resignation (seen in search results, not opened)."
+   },
+   "fontes": [
+    {
+     "nome": "Korea JoongAng Daily – «Lee accepts education minister's resignation after CSAT anticheating measures trigger nationwide confusion» (22 Nov)",
+     "url": "https://www.koreajoongangdaily.com/korea/lee-accepts-education-ministers-resignation-after-csat-anticheating-measures-trigger-nationwide-confusion/12984387"
+    },
+    {
+     "nome": "The Korea Times / Yonhap – «Education minister offers to resign over college exam controversy amid AI cheating fears» (22 Nov)",
+     "url": "https://www.koreatimes.co.kr/southkorea/society/20261122/education-minister-offers-to-resign-over-college-exam-controversy-amid-ai-cheating-fears"
+    },
+    {
+     "nome": "The Guardian – «South Korea education minister resigns after AI cheating scandal engulfs university exams» (22 Nov; seen in search results)",
+     "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams"
+    },
+    {
+     "nome": "Kyunghyang Shinmun – report on exam day (19 Nov)",
+     "url": "https://www.khan.co.kr/en/article/202611192312047/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "US governors from both parties ask Congress for federal AI rules, but without taking power away from the states",
+   "estado": "Principles published by the National Governors Association on Sunday · request to Congress, no law yet",
+   "data": "2026-11-22",
+   "texto": [
+    "US governors want national rules for artificial intelligence — but ones that leave room for the states. The National Governors Association, which brings together Democrats and Republicans, published six principles for a federal law on Sunday 22 November and asked Congress to draw it up together with them. The story was also reported by Bloomberg.",
+    "What are they proposing? That Washington deals with national and international risks and that states keep room to protect their residents. They also call for support for workers affected by AI, rules proportionate to proven risks, fewer duplicated or contradictory laws, and care not to favour big companies over small ones. The group is led by Democrat Wes Moore (Maryland) and Republican Mike Braun (Indiana), with Josh Stein (North Carolina) and Spencer Cox (Utah). «We don't have to choose between innovation and safety», said Cox.",
+    "Why does this matter? The US has no general AI law, and several states have gone it alone: New York, California and Illinois have already passed rules for the most advanced models. Companies in the sector complain of a patchwork of 50 different laws. In other words: the governors accept a national law, as long as it is not used to wipe out state ones.",
+    "For now, it is a request. There is no bill up for a vote, and the sources consulted do not indicate how Congress or the White House will respond."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The principles and quotes come from the official National Governors Association press release (22 Nov). Bloomberg reported the request the same day (seen in search results; we could not open the article). The context on state laws (New York, California, Illinois) comes from CBS Chicago (9 Nov)."
+   },
+   "fontes": [
+    {
+     "nome": "National Governors Association – «Governors Call for AI Action» (press release, 22 Nov)",
+     "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/"
+    },
+    {
+     "nome": "Bloomberg – «Governors Call for Federal AI Rules Without Sidelining States» (22 Nov; seen in search results)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/governors-call-for-federal-ai-rules-without-sidelining-states"
+    },
+    {
+     "nome": "CBS Chicago – Pritzker calls for federal AI rules (9 Nov)",
+     "url": "https://www.cbsnews.com/chicago/news/gov-jb-pritzker-federal-ai-artificial-intelligence-regulations-democratic-congress/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "After a wave of failures at airlines, banks and Microsoft's email, the US intelligence chief warns: there will be more",
+   "estado": "Statement by the Director of National Intelligence · no official explanation for the FBI and Agriculture cases",
+   "data": "2026-11-22",
+   "texto": [
+    "More outages are on the way. That was the warning from the US Director of National Intelligence, Jay Clayton, on Sunday 22 November, after a month in which flights were grounded across the country, Microsoft's email failed, several large banks had problems with transactions and the internal network of the NSA, the electronic intelligence agency, went down. «We're going to have bumps, gaps, service interruptions. That's going to happen», he said on CNN, according to Reuters.",
+    "The Government's explanation is the same: companies and agencies are upgrading old systems that cannot cope with the new technology. Clayton repeated on ABC that the outages were not coordinated or carried out by another country. President Donald Trump had already blamed the problems on the upgrades. In the NSA's case, the agency itself said it was back to normal and Government officials denied it was an attack.",
+    "What remains unexplained are the two cases that were indeed reported as attacks: the suspected intrusion into the FBI's crime database and the incident at the Department of Agriculture, which halted payments to farmers. Clayton declined to go into detail and said investigators would provide answers «in due course». According to Tech Times, he also told Fox he could not say where the FBI intrusion came from or whether anything was compromised. So there is no news on who was behind them or what data was affected.",
+    "Why does this matter? The warning comes a few days before the Thanksgiving holiday, one of the busiest travel weeks in the US, and at a time of change in the leadership of US cybersecurity, after the departure of the National Cyber Director, Sean Cairncross, on 19 November."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Statements quoted by Reuters (via The Star, 23 Nov) and by Tech Times (23 Nov), which quotes Fox and Reuters. The CNBC interview is cited (we could not open the page). The NSA situation comes from The Record (20 Nov). The link to the Thanksgiving holiday comes from the CNBC headline; the rest of the context is ours."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via The Star – «US intelligence chief predicts more tech outages as systems undergo upgrades» (23 Nov)",
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/11/23/us-intelligence-chief-predicts-more-tech-outages-as-systems-undergo-upgrades"
+    },
+    {
+     "nome": "Tech Times – «Jay Clayton Predicts More Tech Outages From Patching, Won't Explain Suspected FBI, USDA Hacks» (23 Nov)",
+     "url": "https://www.techtimes.com/articles/331300/20261123/jay-clayton-predicts-more-tech-outages-patching-wont-explain-suspected-fbi-usda-hacks.htm"
+    },
+    {
+     "nome": "The Record – «NSA resumes normal operations following internal network disruptions» (20 Nov)",
+     "url": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions"
+    },
+    {
+     "nome": "CNBC – «Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages» (cited)",
+     "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Nvidia under pressure: regulator looks into its accounts and the New York Times says the former executive linked to Jensen Huang was in contact with Chinese intelligence",
+   "estado": "Investigation reported by Reuters and the NYT, no comment from the regulator · Justice Department says there is no conclusion on espionage",
+   "data": "2026-11-22",
+   "texto": [
+    "The difficult week for Nvidia, the biggest maker of AI chips, had two more chapters over the weekend. According to Reuters, the US stock market regulator (SEC) is looking into possible problems with the company's accounts. And the New York Times reported on Sunday 22 November that a former executive at Megaspeed, an Nvidia customer in Singapore, was in contact for more than a year with an officer of China's Ministry of State Security, the country's intelligence service.",
+    "What is known about the accounting investigation? Not much. Reuters, citing two people briefed on the matter, says it could not establish when it began or what issues are involved; the SEC did not comment and Nvidia did not respond. According to AFP, there are questions about a change in the way the company reports sales by country, which made Singapore disappear from its accounts. An investigation is not proof of wrongdoing and many end without consequences.",
+    "The former executive was at the centre of the departure of chief executive and founder Jensen Huang, who left the post this month after admitting an extramarital relationship. The US is investigating whether that relationship may have been used to get banned chips or company information to China. Attorney General Todd Blanche said the Justice Department has not yet concluded whether she was working for Beijing; China denies it, and Megaspeed says it has always acted within the law.",
+    "The political pressure is growing too. Treasury Secretary Scott Bessent told CBS on Sunday that the Government wants to know who was responsible for controlling sales to China. Donald Trump, for his part, called on Friday for Huang to get a «second chance», but the board says it will not reinstate him. The shares fell 14% on Friday and more than 20% over the week."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The SEC investigation into the accounts comes from Reuters (via Business Standard, 22 Nov) and AFP (via The Manila Times, 22 Nov), which quotes the New York Times. The contact with Chinese intelligence and the statements by Blanche and Bessent come from The Week (23 Nov), which quotes the New York Times (not opened). We do not name the former Megaspeed executive as there is no formal charge. Nvidia did not comment."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters via Business Standard – «US SEC's Nvidia probe focuses on potential accounting irregularities» (22 Nov)",
+     "url": "https://www.business-standard.com/amp/world-news/us-sec-s-nvidia-probe-focuses-on-potential-accounting-irregularities-126112200089_1.html"
+    },
+    {
+     "nome": "AFP via The Manila Times – «Nvidia faces US accounting probe amid deepening turmoil — media» (22 Nov)",
+     "url": "https://www.manilatimes.net/2026/11/22/world/americas-emea/nvidia-faces-us-accounting-probe-amid-deepening-turmoil-media/2475581"
+    },
+    {
+     "nome": "The Week – «Nvidia row: ... was in touch with Chinese spy agency during affair with Jensen Huang, NYT reports» (23 Nov)",
+     "url": "https://www.theweek.in/news/world/2026/11/23/alice-huang-jensen-affair-chinese-intelligence-nvidia-investigation.html"
+    },
+    {
+     "nome": "The New York Times (cited)",
+     "url": "https://www.nytimes.com/2026/11/22/us/politics/alice-huang-china-spy-agency-nvidia.html"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "COP31 ends without a deal: the longest climate summit ever fails in Antalya over fossil fuels",
+   "estado": "Fact confirmed: final text not adopted on Sunday · UN says it is «disappointed» · work moves on to COP32, in Ethiopia",
+   "data": "2026-11-22",
+   "texto": [
+    "There was no deal. COP31, the UN climate conference in Antalya, Turkey, ended on Sunday 22 November without the almost 200 countries approving the final text. The summit was due to close on Friday and ran on for around 48 hours — the longest ever, according to AFP. The COP31 president, Turkish environment minister Murat Kurum, acknowledged at the closing session that «there is no agreement on this text», because some countries were opposed.",
+    "What went wrong? The usual thing, this time with no patch-up: fossil fuels. The last draft no longer spoke of moving away from coal, oil and gas — it only made an indirect reference to them, according to AFP. The European Union, Ireland, Panama, Vanuatu and the Marshall Islands refused to approve a text like that. On the other side, oil-producing countries, led by Saudi Arabia, blocked any mention of phasing out fossil fuels. Along the way, a global target for electrifying the economy and a $120 billion climate finance goal requested by developing countries also fell.",
+    "The reactions were harsh. UN Secretary-General António Guterres said he shared the «very deep frustration» of those who expected action from governments and warned that the climate crisis «will not wait» for consensus. Australia's Chris Bowen, who led the negotiations, spoke of «impossible-to-reconcile red lines» and a «very disappointing» outcome. The UN climate chief, Simon Stiell, admitted the summit «fell short», though he said there were decisions on issues such as the just transition — something the sources consulted do not detail.",
+    "What now? The discussion on how and when to move away from fossil fuels passes to the next conference, COP32, in Ethiopia. Meanwhile, around 60 countries had already begun working on this outside the COPs, at a conference in April, according to AFP. In other words: the way forward may increasingly lie with groups of countries willing to move ahead, rather than waiting for unanimity."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Outcome confirmed by independent sources: AFP (via The Korea Herald/Yonhap), Xinhua and CBS News, all from 22–23 Nov; BusinessDay (Nigeria) confirms it and names COP32 in Ethiopia. The quotes from Kurum, Guterres and Stiell come from Xinhua and AFP; Bowen's, from AFP. Stiell's claim about decisions on the just transition (Xinhua) contrasts with BusinessDay, which says there was no agreement on a just transition mechanism: it remains to be clarified which technical decisions were actually adopted. Reuters, NPR and CNN reported the collapse (seen only in search results; we could not open the pages)."
+   },
+   "fontes": [
+    {
+     "nome": "AFP via The Korea Herald – «Climate deal collapses in chaotic end to COP31» (22 Nov)",
+     "url": "https://www.koreaherald.com/article/10946205"
+    },
+    {
+     "nome": "Xinhua – «Extended COP31 concludes in Türkiye without overarching deal» (23 Nov)",
+     "url": "https://english.news.cn/20261123/ab12aafac33e40959ab80a3c8640115e/c.html"
+    },
+    {
+     "nome": "CBS News – «U.N. COP31 climate conference ends with no agreement after fossil fuel debate reaches standstill» (22 Nov)",
+     "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
+    },
+    {
+     "nome": "BusinessDay – «COP31 ends without a deal as fossil fuel fight derails talks» (23 Nov)",
+     "url": "https://businessday.ng/climate-and-environment/article/cop31-ends-without-a-deal-as-fossil-fuel-fight-derails-talks"
+    },
+    {
+     "nome": "CNN – «Global climate summit collapses as countries fail to agree on moving away from fossil fuels» (cited; not opened)",
+     "url": "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure"
+    }
+   ],
+   "imagem": {
+    "commons": "Chris Bowen, COP31 President of Negotiation & Dan Jørgensen, European Commissioner.jpg",
+    "tipo": "arquivo",
+    "alt": "Chris Bowen, president of the COP31 negotiations, next to European Commissioner Dan Jørgensen",
+    "legenda": "Chris Bowen, who led the COP31 negotiations, with European Commissioner Dan Jørgensen (archive image; does not show the close of the summit)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "NATO meets in Brussels today over the Russian missiles in Poland; investigators say all three objects were cruise missiles",
+   "estado": "Meeting scheduled for today · Poland to ask for reinforcements · not an activation of collective defence",
+   "data": "2026-11-23",
+   "texto": [
+    "Ambassadors from NATO's 32 member countries sit down in Brussels today, Monday 23 November, to discuss the Russian objects that fell on Poland on Friday during a large-scale attack on Ukraine. The extraordinary meeting of the North Atlantic Council — the Alliance's main political body — was announced by Poland's defence minister, Władysław Kosiniak-Kamysz, who promises to bring «concrete proposals». Poland is represented by deputy minister Paweł Zalewski.",
+    "What has changed since Friday? The official version. Warsaw first spoke of two missiles and a drone; then there were reports of one missile and two drones. Now, according to the Greek news site ProtoThema, the Lublin public prosecutor's office, which is investigating the case, has concluded that all three objects were Russian Kh-101 cruise missiles — made in the last quarter of 2026 in Dubna, near Moscow, according to the preliminary findings. No one was hurt and there was no damage to critical infrastructure.",
+    "What is Poland asking for? More resources on the eastern flank: air surveillance, air defence and a boost to Eastern Sentry, the operation NATO set up in September 2025. Warsaw had already formally requested F-35 fighter jets and early-warning aircraft, according to the Latin Times. Prime Minister Donald Tusk speaks of an «intentional provocation»; NATO Secretary General Mark Rutte was in Warsaw on Saturday and pledged that the Alliance will «defend every inch» of Polish territory.",
+    "Why does this matter? The meeting is not the same as activating NATO's collective defence (the well-known Article 5). But it shows the pressure on the allies to respond visibly — at a time when US President Donald Trump has been saying the missiles entered Poland «by mistake»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Today's meeting is confirmed by Censor.net (quoting the Polish defence minister) and by EU Today (22 Nov); the Washington Times also reported it (seen only in search results). The conclusion that all three objects were Kh-101 missiles is attributed to the Lublin public prosecutor's office by ProtoThema (23 Nov); we could not read the original statement. The requests for F-35s and early-warning aircraft come from the Latin Times. Sources disagree on whether or not the objects were intercepted: we have left that point out. Poland's concrete proposals are not yet known. Image: file name confirmed in Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "ProtoThema – «All three missiles that violated Polish airspace were Russian, NATO to meet today» (23 Nov)",
+     "url": "https://en.protothema.gr/2026/11/23/all-three-missiles-that-violated-polish-airspace-were-russian-nato-to-meet-today/"
+    },
+    {
+     "nome": "Censor.net – «On November 23, NATO will hold meeting regarding incursion of Russian missiles into Poland» (22 Nov)",
+     "url": "https://censor.net/en/news/4034973/on-november-23-nato-will-hold-meeting-regarding-incursion-of-russian-missiles-into-poland-concrete"
+    },
+    {
+     "nome": "EU Today – «NATO Calls Emergency Brussels Meeting After Russian Missile Incursion into Poland» (22 Nov)",
+     "url": "https://eutoday.net/nato-emergency-meeting-brussels/"
+    },
+    {
+     "nome": "Latin Times – «Poland Requests More NATO Air Defenses After Russian Missiles, Drone Crash on Its Soil»",
+     "url": "https://www.latintimes.com/russian-weapons-crash-poland-nato-article-4-601654"
+    },
+    {
+     "nome": "TVP World – «NATO stands with Poland, says Rutte after Russia violates its airspace» (21 Nov)",
+     "url": "https://tvpworld.com/96607446/all-of-nato-stands-with-poland-secretary-general-mark-rutte-says-in-warsaw"
+    }
+   ],
+   "imagem": {
+    "commons": "Brussels NATO Headquarters.jpg",
+    "tipo": "arquivo",
+    "alt": "The NATO headquarters building in Brussels",
+    "legenda": "NATO headquarters in Brussels (file image; does not show today's meeting)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Ukraine: Russian drone brings down part of a block of flats near Kyiv, killing at least 11; search continues",
+   "estado": "Provisional toll from Ukrainian authorities: 11 dead · search under way · no progress in peace talks",
+   "data": "2026-11-22",
+   "texto": [
+    "At least 11 people have died in Dymer, a town north of Kyiv, after a Russian drone hit a five-storey block of flats in the early hours of Sunday 22 November. Part of the building collapsed. The toll was given on Monday morning by the head of the Kyiv regional administration, Tymur Tkachenko, who said eight more bodies had been found overnight, according to Meduza. The search continues.",
+    "On Sunday, President Volodymyr Zelensky said 14 residents could not be reached. According to Reuters, nine people were brought out of the building, some using ladders and aerial platforms, and two were injured, among them a teenager. Rescuers found a 79-year-old woman alive in the rubble.",
+    "It was another hard weekend. On Friday night, Russian ballistic missiles struck the centre of Kryvyi Rih, Zelensky's home town: a 7-year-old boy and a 20-year-old woman were killed, and around 60 people were injured, six of them children, according to AP. The city's head says more missiles fell after rescue teams were already on the scene. On the Russian side, Moscow-installed authorities say a Ukrainian attack killed six people in Luhansk, according to Al Jazeera.",
+    "And the negotiations? Still no results. After the summit with Putin and Xi in China, Trump says Putin wants to end the war through diplomacy. Zelensky is less convinced: he called the Russian president «a murderer» in an interview with CNN. Moscow is still demanding that Ukraine withdraw from the whole of the Donbas, which Kyiv refuses."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The attack on Dymer is confirmed by Reuters (via Yahoo News, 22 Nov) and by Meduza (23 Nov), which attributes the 11 deaths to Tymur Tkachenko. The toll is provisional and may rise; we do not know how many people are still missing. The attack on Kryvyi Rih comes from AP (via ClickOnDetroit) and Al Jazeera; the deaths in Luhansk are a claim by Russian authorities, quoted by Al Jazeera, which we could not verify."
+   },
+   "fontes": [
+    {
+     "nome": "Meduza – «11 killed in Russian strike on Ukraine's Dymer in Kyiv region» (23 Nov)",
+     "url": "https://meduza.io/en/news/2026/11/23/11-killed-in-russian-strike-on-ukraine-s-dymer-in-kyiv-region"
+    },
+    {
+     "nome": "Reuters via Yahoo News – «At least 14 people missing after Russian drone hit building in Kyiv region, Zelenskiy says» (22 Nov)",
+     "url": "https://ca.news.yahoo.com/least-14-people-missing-russian-085938398.html"
+    },
+    {
+     "nome": "AP via ClickOnDetroit – «Ballistic missile attack on Zelenskyy's hometown in central Ukraine kills 2 and wounds scores» (21 Nov)",
+     "url": "https://clickondetroit.com/news/world/2026/11/21/ballistic-missile-attack-on-zelenskyys-hometown-in-central-ukraine-kills-2-and-wounds-scores"
+    },
+    {
+     "nome": "Al Jazeera – «Russian strike kills two, wounds 60, in Zelenskyy's hometown» (21 Nov)",
+     "url": "https://aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Iran says it struck US radars at bases in Bahrain; Manama speaks of a fire at a civilian facility",
+   "estado": "Unverified Iranian claim · Bahrain confirms attack and fire, no injuries · US has not commented on the radars",
+   "data": "2026-11-21",
+   "texto": [
+    "The war in the Gulf heated up again over the weekend. Iran's Revolutionary Guard claims that on Saturday night, 21 November, it used missiles and drones to hit two radars belonging to US Army Patriot air-defence systems at two bases in Bahrain. The small Gulf kingdom, which hosts the US Navy's Fifth Fleet, confirms the attack — but says what caught fire was a civilian industrial facility, according to Xinhua and TRT World.",
+    "What does each side say? Tehran presents the attack as a response to US drones entering its airspace, which it considers a «red line». Bahrain's Interior Ministry speaks of «Iranian aggression» and says there was only material damage, with no injuries; the country's Defence Force says it intercepted several attacks. Iranian media themselves do not agree on which bases were hit. The US has not commented on the radars, but US Central Command denied another Iranian claim: that an F-16 fighter jet had been hit on Friday.",
+    "On the same Saturday, two oil tankers leaving the Strait of Hormuz were hit by «unknown projectiles» off Oman, with no injuries, according to the UK maritime agency UKMTO, quoted by Investing.com. Hormuz is the passage through which a large share of the Gulf's oil leaves.",
+    "For context: the war began on 28 February with US and Israeli strikes on Iran and has already killed thousands of people across the region. After a lull in Iranian attacks on Gulf countries from September, Bahrain has been targeted again several times this month, according to TRT World. Iran's deputy foreign minister, Kazem Gharibabadi, says a two-day Iranian plan to halt the fighting and reopen Hormuz remains on the table."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The attack and Bahrain's version are confirmed by Xinhua (22 Nov) and TRT World; Investing.com (with a Reuters photo) adds the information about the tankers (UKMTO) and Central Command's denial about the F-16. The claim that Patriot radars were hit comes only from the Revolutionary Guard and Iranian state media and has not been independently verified; the US did not comment on it in the sources consulted."
+   },
+   "fontes": [
+    {
+     "nome": "Xinhua – «Iran's IRGC says targeted U.S. positions at 2 bases in Bahrain with missiles, drones» (22 Nov)",
+     "url": "https://english.news.cn/20261122/ce7d52a3f05646b5b646a5f066e607b5/c.html"
+    },
+    {
+     "nome": "TRT World – «Iran says struck US Patriot radars in Bahrain; Manama says attack hit civilian industrial site»",
+     "url": "https://www.trtworld.com/article/1b7ac3dfdb5e"
+    },
+    {
+     "nome": "Investing.com – «Iran claims strikes on U.S. radars in Bahrain; Saudi downs missile» (21 Nov)",
+     "url": "https://www.investing.com/news/economy-news/iran-war-sees-tanker-hit-near-hormuz-as-saudi-arabia-intercepts-houthi-missiles-5043277"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Budget reaches the final stretch: article-by-article votes wrap up today, and everything is decided tomorrow at 15:00",
+   "estado": "Committee-stage votes today (expected) · final overall vote scheduled for Tuesday, 15:00 · PS voting intention to be confirmed",
+   "data": "2026-11-23",
+   "texto": [
+    "It is the home straight for the 2027 State Budget. This Monday, 23 November, Parliament resumes at 09:00 Lisbon time — an hour earlier than planned — for the last committee-stage votes (in Portuguese, «especialidade»), the phase in which MPs vote article by article and on the parties' proposed amendments. On Tuesday 24 November, at 15:00, comes the final overall vote, which decides whether or not the Budget passes.",
+    "Why were the times changed? On Friday, Chega, the radical-right party, used a right under parliamentary rules to cut the sitting short so that its MPs could attend the party's convention in Entroncamento. Many votes were left outstanding: the Bloco de Esquerda (Left Bloc) estimated around 1,256 votes for this Monday, and the PS, the Socialist Party, even spoke of 17 hours of work. So whatever is not voted on tonight moves to Tuesday morning, before the afternoon plenary. According to Lusa, Portugal's news agency, quoted by RTP, the new timetable was accepted because no parliamentary group objected within the deadline.",
+    "So far, Luís Montenegro's minority government has lost several votes to the ad hoc alliance between the PS and Chega: permanent pension increases, zero VAT on a basket of foods for three months, a cap on rises in fuel tax without Parliament's approval, and a freeze on university tuition fees. The prime minister called them «piecemeal» and «incoherent» measures, but refused to talk of a political crisis. On Sunday, the PSD, his centre-right party, accused the PS and Chega of forming a «gerinsonsa» (a play on «geringonça», the nickname for the left-wing alliance that backed the Socialist government from 2015); PS leader José Luís Carneiro replied that he does not play «political games».",
+    "What we still don't know. At the general stage, in October, the Budget passed with the votes of the PSD and CDS and the PS abstaining. In the sources consulted we have not yet found a formal announcement of how the PS will vote on Tuesday; the Left Bloc has already said it will vote against. The President of the Republic, António José Seguro, has called for political stability and an approved Budget, according to ECO."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "New timetable (plenary at 09:00 on Monday, final vote at 15:00 on Tuesday) confirmed by Observador and RTP/Lusa (21 Nov) and by the page for the committee meeting at 09:00 on 23 Nov (CTC Autónoma). Estimate of 1,256 votes attributed to the BE in Jornal Económico; 17 hours attributed to the PS by Observador. Statements by the PSD and Carneiro taken from the visible summaries of two Lusa dispatches of 22 Nov (full text for subscribers only). The BE's position seen only in the headline of Notícias ao Minuto (not opened). Seguro's appeal quoted by ECO, which also still gave 10:00 for the final vote — a time already superseded by the change of timetable. The PS's final voting intention not confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "Observador – Discussão final do Orçamento do Estado vai ter horário ajustado por causa da convenção do Chega (21 Nov)",
+     "url": "https://observador.pt/2026/11/21/discussao-final-do-orcamento-do-estado-vai-ter-horario-ajustado-por-causa-da-convencao-do-chega/"
+    },
+    {
+     "nome": "RTP – OE2027. Plenário para votação final da proposta adiado para a tarde de terça-feira (21 Nov)",
+     "url": "https://www.rtp.pt/noticias/economia/oe2027-plenario-para-votacao-final-da-proposta-adiado-para-a-tarde-de-terca-feira_n1780783"
+    },
+    {
+     "nome": "Jornal Económico – OE2027 ao minuto: votações na especialidade (19–20 Nov)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/%F0%9F%94%B4-oe2027-entra-na-fase-decisiva-acompanhe-ao-minuto-a-discussao-e-votacoes-no-parlamento/"
+    },
+    {
+     "nome": "Lusa – PSD acusa PS e Chega de formarem uma «gerinsonsa» (22 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-22/48174050/psd-acusa-ps-e-chega-de-formarem-uma-gerinsonsa-e-aumentarem-impostos-sobre-rendas"
+    },
+    {
+     "nome": "Lusa – Carneiro recusa «jogos políticos» e deixa «palavra de conforto» aos senhorios (22 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-22/48175726/carneiro-recusa-jogos-políticos-e-deixa-palavra-de-conforto-aos-senhorios"
+    },
+    {
+     "nome": "ECO – ECO da Semana: OE2027, proposta de Costa para a UE e a Black Friday (22 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/22/eco-da-semana-oe2027-proposta-de-costa-para-ue-e-a-black-friday/"
+    },
+    {
+     "nome": "CTC Autónoma – Orçamento do Estado para 2027 entra na fase decisiva com conclusão da votação na especialidade",
+     "url": "https://ctc.grupoautonoma.pt/orcamento-do-estado-para-2027-entra-na-fase-decisiva-com-conclusao-da-votacao-na-especialidade/"
+    },
+    {
+     "nome": "Notícias ao Minuto – OE2027: BE mantém posição contra na votação final (only headline seen in search)",
+     "url": "https://www.noticiasaominuto.com/pais/3087109/oe2027-be-mantem-posicao-contra-na-votacao-final-e-critica-ps"
+    }
+   ],
+   "imagem": {
+    "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+    "tipo": "arquivo",
+    "alt": "Façade of the São Bento Palace, home of the Assembleia da República, Portugal's parliament, in Lisbon",
+    "legenda": "The São Bento Palace, home of the Assembleia da República, in Lisbon (file image; does not show the Budget votes)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Trains only at peak hours on Tuesday and Wednesday: CP train drivers strike on the same day as the national strike against the Budget",
+   "estado": "Minimum services set by an arbitration tribunal · national strike called for Tuesday · turnout not yet known",
+   "data": "2026-11-23",
+   "texto": [
+    "Rail passengers are in for a difficult week. Train drivers at CP, Portugal's state railway, are holding a full strike on Tuesday and Wednesday, 24 and 25 November, and an arbitration tribunal has set minimum services of more than 330 trains a day — between 25% and 30% of the scheduled timetable, according to Observador. In practice, trains will run mainly at peak hours, with gaps of several hours in the middle of the day. The strike has been called by SMAQ, the train drivers' union, and there has been disruption since this Monday.",
+    "The figures by service: 160 trains a day on Lisbon's suburban lines (Sintra, Cascais, Azambuja and Sado), 72 on Porto's suburban lines, 72 on regional services, 8 on Coimbra's suburban lines and, on long-distance routes, 27 on Tuesday and 24 on Wednesday. According to CNN Portugal, on the Sintra line, for example, after the 09:38 train at Lisboa-Oriente the next one leaves only at 16:38, and the last departs at 21:38. Between Aveiro and Porto there are about seven hours without trains in the middle of the day. CP warns that the full strike also affects the night before and the early hours of the following day; on days with partial stoppages there are no minimum services.",
+    "What are the drivers asking for? To recover purchasing power, better career recognition, more rail safety, better rosters and rest times, and compliance with the company agreement. SMAQ says it is complying with the minimum services but is challenging them on legal and safety grounds.",
+    "On the same day, the 24th, when the final Budget vote takes place, there is a national strike called by S.T.O.P. (education workers), SITEU (nurses), the union for large retail stores and commerce (STGSSP) and the MUDAR bank workers' movement, with a rally at 10:00 outside the Assembleia da República, Portugal's parliament. The unions say the Budget does not make up for lost purchasing power. We found no information about minimum services for this strike."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Minimum services and figures by service according to Observador (20 Nov), which confirmed them with SMAQ's leadership; specific timetables according to CNN Portugal (22 Nov). Público and Renascença (22 Nov) report in their headlines that there will only be trains at peak hours (pages not opened, seen only in search). National strike on 24 Nov according to Diário de Coimbra (19 Nov); some headlines from other outlets say «Wednesday» by mistake — 24 November is a Tuesday. Minimum services for the national strike not confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "Observador – Greve dos maquinistas da CP para 24 e 25 de novembro vai ter serviços mínimos entre 25% e 30% da oferta (20 Nov)",
+     "url": "https://observador.pt/2026/11/20/greve-dos-maquinistas-da-cp-para-24-e-25-de-novembro-vai-ter-servicos-minimos-entre-25-e-30-da-oferta/"
+    },
+    {
+     "nome": "CNN Portugal – Vem aí uma greve na CP: os horários afetados (22 Nov)",
+     "url": "https://cnnportugal.iol.pt/cp/comboios/vem-ai-uma-greve-na-cp-ha-comboios-que-vao-ficar-horas-sem-circular-e-outros-que-deixam-de-existir-a-noite-saiba-os-horarios-afetados/20261122/6b037554d34e442fdd39dac1"
+    },
+    {
+     "nome": "Público – Greve deixa CP só com comboios assegurados nas horas de ponta na terça e quarta-feira (22 Nov; only headline seen in search)",
+     "url": "https://www.publico.pt/2026/11/22/economia/noticia/greve-deixa-cp-so-comboios-assegurados-horas-ponta-terca-quartafeira-2195899"
+    },
+    {
+     "nome": "Renascença – Greve na CP vai ter serviços mínimos na terça e quarta-feira (22 Nov; only headline seen in search)",
+     "url": "https://rr.pt/noticia/pais/2026/11/22/greve-na-cp-vai-ter-servicos-minimos-na-terca-e-quarta-feira/494672/"
+    },
+    {
+     "nome": "Diário de Coimbra – Sindicatos da saúde, educação e comércio convocam greve nacional para 24 de novembro (19 Nov)",
+     "url": "https://www.diariocoimbra.pt/2026/11/19/sindicatos-da-saude-educacao-e-comercio-convocam-greve-nacional-para-24-de-novembro/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Ventura closes the Chega convention saying he is «ready to be prime minister»; delegates approve a motion in favour of «remigration»",
+   "estado": "Fact: leadership elected with 85.66% · approved motion is a recommendation, not a measure · Ventura's statements",
+   "data": "2026-11-22",
+   "texto": [
+    "André Ventura left the 7th National Convention of Chega, the radical-right party, in Entroncamento saying he no longer has any «excuses» for not winning the next general election and that he is «ready» to be prime minister. In his closing speech on Sunday 22 November, he accused Luís Montenegro of «blackmail» over elections and replied that, if the prime minister wants them, Chega is prepared.",
+    "The national leadership chosen by Ventura, on a single list, was elected with 85.66% of the vote. It needed two thirds. In 2024 the result had been 90.2%, ZAP points out; the party did not disclose how many people voted or the number of blank and spoilt ballots.",
+    "The most controversial topic was immigration. Delegates approved, with 355 votes in favour, 70 against and 20 abstentions, a motion recommending «remigration» as a principle of the party's strategy — including the return, voluntary or forced, of immigrants, even those with legal residence, and possible changes to the Constitution. Motions are recommendations: it is up to the leadership to decide whether to adopt them. «Yes, we want remigration», Ventura said, according to Lusa. He also promised to present a «major reform of the justice system» in January, without giving details.",
+    "Why does this matter this very week? Chega has been voting alongside the PS against the government on the Budget. Ventura called it a «coalition with Portugal» and not «negative coalitions». The party has not yet said, in the sources consulted, how it will vote in Tuesday's final vote."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Speech and election result confirmed by RTP (22 Nov) and by Lusa dispatches (visible summaries; full text for subscribers). Figures for the motion vote, the comparison with 2024 and the promise on justice according to ZAP, which cites TSF, JN and Renascença. Chega's voting intention in the final Budget vote not confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – Ventura encerra convenção do Chega: «Não tenho desculpas para não ganhar as próximas eleições legislativas» (22 Nov)",
+     "url": "https://www.rtp.pt/noticias/politica/ventura-encerrou-convencao-co-chega-nao-tenho-desculpas-para-nao-ganhar-as-proximas-eleicoes-legislativas_n1780954"
+    },
+    {
+     "nome": "ZAP – Remigração, reforma da Justiça. Ventura diz que já não tem desculpas para não ganhar (22 Nov)",
+     "url": "https://zap.aeiou.pt/remigracao-reforma-da-justica-ventura-diz-que-ja-nao-tem-desculpas-para-nao-ganhar-777479"
+    },
+    {
+     "nome": "Lusa – «Sim, nós queremos a remigração» – André Ventura (22 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-22/48175575/-sim-nós-queremos-a-remigração-andré-ventura"
+    },
+    {
+     "nome": "Lusa – Direção Nacional de André Ventura eleita com 85,66% dos votos (22 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-22/48175102/direção-nacional-de-andré-ventura-eleita-com-85-66-dos-votos"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Red-warning Saturday leaves more than a thousand incidents, nearly all flooding, but no injuries; rain could return as early as Tuesday",
+   "estado": "Civil Protection toll with no injuries · Manteigas keeps emergency plan in place · rain forecast subject to change",
+   "data": "2026-11-22",
+   "texto": [
+    "The heavy, persistent rain on Saturday 21 November caused more than a thousand incidents across mainland Portugal, mostly flooding, according to Civil Protection (Proteção Civil). The good news is that there were no injuries and no major damage. Five districts — Coimbra, Guarda, Viseu, Leiria and Santarém — were under a red warning from IPMA, Portugal's weather service, until 18:00, and several others, including Lisbon and Porto, reached orange or yellow warning level.",
+    "The Lisbon and Tagus Valley region was the hardest hit, with 721 incidents, followed by the Centre (221) and the North (88). In Lisbon there was flooding on Avenida de Berlim and in Campo Grande, and some tunnels closed until the water drained away; in Cascais, the Marginal coast road was also flooded. In Pernes (Santarém), the River Alviela burst its banks at Mouchão Parque, with no known damage.",
+    "In Manteigas, in the Serra da Estrela mountains, the town council is keeping its municipal emergency plan in place because the risk of landslides in the Carvalheira woods remains, despite work carried out over the past few days. Two people had to be rehoused and eight streets next to the Ribeiro da Vila stream were closed on Saturday. The cost of the damage has not yet been counted. The town had already been hit by a flash flood last week.",
+    "What next? Sunday and Monday brought drier weather and cold mornings, with minimum temperatures that may drop below 0 degrees in the inland North. According to Meteored, a new Atlantic front could bring rain on Tuesday 24 November, especially in the North and Centre, and the weekend could be unsettled again. This is a forecast several days ahead and may change; it is worth keeping an eye on IPMA's warnings."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "More than a thousand incidents and figures by region according to Civil Protection, quoted by Pressnet (22 Nov) and by Observador's 21:00 news bulletin (headline); RTP/Lusa counted 700 up to 16:00. IPMA warnings according to 24 Notícias and RTP. Manteigas according to RTP and the visible Lusa summary. The forecast for Tuesday is from Meteored (tempo.pt, 21 Nov), not IPMA: we could not open IPMA's pages or the Renascença report of 23 Nov («Vai chover praticamente a semana toda», «It will rain practically all week»), seen only in search."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – Chuva intensa e persistente provocou inundações no país (21 Nov)",
+     "url": "https://www.rtp.pt/noticias/pais/chuva-intensa-e-persistente-provocou-inundacoes-no-pais_e1780804"
+    },
+    {
+     "nome": "Pressnet – Mau tempo provocou mais de mil ocorrências em Portugal, sem feridos nem danos de maior (22 Nov)",
+     "url": "https://pressnet.pt/2026/11/22/mau-tempo-provocou-mais-de-mil-ocorrencias-em-portugal-sem-feridos-nem-danos-de-maior/"
+    },
+    {
+     "nome": "Observador – Noticiário das 21h: Proteção Civil registou mais de 1000 ocorrências até às 18h (21 Nov; only headline seen in search)",
+     "url": "https://observador.pt/programas/noticiario/as-noticias-das-21h-1824"
+    },
+    {
+     "nome": "24 Notícias – IPMA estende aviso vermelho a mais dois distritos (21 Nov)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/ipma-estende-aviso-vermelho-a-mais-dois-distritos-ha-agora-cinco-em-alerta-maximo"
+    },
+    {
+     "nome": "Lusa – Manteigas mantém plano municipal de emergência porque risco de derrocadas continua (21 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-21/48172538/manteigas-mantém-plano-municipal-de-emergência-porque-risco-de-derrocadas-continua"
+    },
+    {
+     "nome": "Meteored (tempo.pt) – Semana de 23 a 29 de novembro: precipitação acima da média poderá continuar no Norte e Centro (21 Nov)",
+     "url": "https://www.tempo.pt/noticias/previsao/semana-de-23-a-29-de-novembro-precipitacao-acima-da-media-podera-continuar-a-marcar-o-norte-e-centro-de-portugal.html"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "BepiColombo is now in orbit around Mercury, but a software fault cut its braking burn short; ESA says the probe is safe",
+   "estado": "Orbit insertion confirmed by ESA · cause of the fault under investigation · effect on the orbit yet to be clarified",
+   "data": "2026-11-21",
+   "texto": [
+    "It made it: BepiColombo, the probe from the European Space Agency (ESA) and the Japanese agency JAXA, entered orbit around Mercury on Saturday 21 November, after an eight-year journey. Its engines fired at 18:24 Lisbon time and ran for about 37 minutes. Hours later, the flight dynamics team confirmed the capture. On Sunday, however, ESA admitted a setback: the burn was shorter than planned because of a software problem.",
+    "What we know — and what we don't yet. According to ESA, the probe is safe and communicating normally, and teams at its operations centre in Darmstadt, Germany (ESOC), are trying to work out what happened. The agency did not say how much of the braking burn was missed or whether this means changing the orbit or the schedule. It promised more information for this Monday, 23 November.",
+    "Why does this matter? Mercury is hard to reach: the Sun's strong pull means a spacecraft has to brake a great deal. That is why the journey included nine planetary flybys — one of Earth, two of Venus and six of Mercury itself. BepiColombo is only the second spacecraft to orbit the planet, after NASA's MESSENGER. Among the questions it wants to answer: why Mercury has a magnetic field, and how there can be ice in craters so close to the Sun.",
+    "The next steps already had dates: the two probes travelling together — Europe's MPO and Japan's Mio — are due to separate on 9 and 10 December. MPO only reaches its final orbit on 10 March 2027, and the science proper is expected to start in April. ESA has scheduled a press briefing in London for Friday 27 November."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Orbit insertion and software fault confirmed by Reuters (via Aaj English TV) and Space.com, both citing ESA; ESA's post on X appears in search results (not opened). Time and duration of the burn (18:24 UTC, ~37 min) according to Space.com and Starlust. Dates for the separation and the science phase from Space.com and ESA's updates page (whose latest entry is from 29 Oct). Briefing on 27 Nov according to SpacePolicyOnline. Planned duration of the burn, cause of the fault and impact on the orbit to be confirmed; at the time of going to press we had not found the update promised for today."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com – «European-Japanese BepiColombo mission becomes 2nd ever to arrive in orbit around Mercury»",
+     "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival"
+    },
+    {
+     "nome": "Reuters via Aaj English TV – «BepiColombo reaches Mercury orbit, but thruster glitch raises concern»",
+     "url": "https://english.aaj.tv/news/330481753/bepicolombo-reaches-mercury-orbit-but-thruster-glitch-raises-concern"
+    },
+    {
+     "nome": "The Register – «Software issues have even reached Mercury as BepiColombo probe arrives in uncertain state» (23 Nov)",
+     "url": "https://theregister.com/science/2026/11/23/software-issues-have-even-reached-mercury-as-bepicolombo-probe-arrives-in-uncertain-state/5311554"
+    },
+    {
+     "nome": "Starlust – «BepiColombo ran into trouble during Mercury orbital insertion»",
+     "url": "https://starlust.org/bepicolombo-ran-into-trouble-during-mercury-orbital-insertion-reveals-esa-a-day-after-milestone/"
+    },
+    {
+     "nome": "ESA – Latest updates: BepiColombo's arrival at Mercury",
+     "url": "https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury"
+    },
+    {
+     "nome": "BepiColombo (ESA) on X – post of 22 Nov (cited; seen only in search results)",
+     "url": "https://x.com/BepiColombo/status/2124567353035772045"
+    },
+    {
+     "nome": "SpacePolicyOnline – What's Happening in Space Policy, 22–29 Nov 2026",
+     "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-november-22-29-2026/"
+    }
+   ],
+   "imagem": {
+    "commons": "BepiColombo surveys Mercury’s rich geology ESA24324352.jpeg",
+    "tipo": "arquivo",
+    "alt": "The crater-covered surface of Mercury, photographed by the BepiColombo probe",
+    "legenda": "Mercury seen by BepiColombo during one of its earlier flybys of the planet (ESA file image; does not show Saturday's orbit insertion)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Ariane 6 attempts today to put 36 Amazon internet satellites into orbit, a week after a US rocket lost 40",
+   "estado": "Launch scheduled for today at 11:09 Lisbon time · outcome not yet known at time of going to press",
+   "data": "2026-11-23",
+   "texto": [
+    "The European Ariane 6 rocket is scheduled to launch today, Monday 23 November, at 11:09 Lisbon time, from Kourou in French Guiana. It carries 36 Amazon Leo satellites, part of Amazon's satellite internet network. The launch window is 29 minutes, according to Space.com. Arianespace, the company that operates the rocket, had announced the date as «no earlier than» 23 November.",
+    "It is Ariane 6's 10th flight and its fourth for Amazon this year, after February, April and June. It is flying in its most powerful version, with four side boosters. About two hours should pass between lift-off and the release of the last satellite. If all goes well, Arianespace will have taken 136 Amazon satellites into space.",
+    "Why does this matter? Eight days ago, on 15 November, a Vulcan rocket from the US company ULA failed a few minutes after lift-off, and the 40 Amazon satellites it was carrying were lost. Vulcan is expected to stay grounded while the cause is investigated, and Blue Origin's New Glenn has not flown since April. In other words: for now, Ariane 6 is one of Amazon's few options, and the company has until July 2029 to put the more than 3,200 satellites of the first phase into orbit. Close to 400 are up there so far; its rival, SpaceX's Starlink, has more than 11,000."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date, number of satellites, designation (VA271/LE-04) and the total of 136 satellites according to the Arianespace press release; time (11:09 UTC, the same as Lisbon time) and 29-minute window according to Space.com (22 Nov), confirmed by Space Launch Schedule («Go for launch» on 20 Nov). A NASASpaceflight forum thread appears in search results with a different time (10:12 UTC); we did not open it. Vulcan failure according to 24/7 Wall St. (via Yahoo Finance), which cites GeekWire and Spaceflight Now. The outcome of the launch was not known at the time of going to press."
+   },
+   "fontes": [
+    {
+     "nome": "Arianespace – «Arianespace to launch 36 Amazon Leo satellites on November 23 at the earliest, for 10th Ariane 6 flight»",
+     "url": "https://newsroom.arianespace.com/arianespace-to-launch-36-amazon-leo-satellites-on-november-23-at-the-earliest-for-10th-ariane-6-flight/"
+    },
+    {
+     "nome": "Space.com – «Watch live on Nov. 23: Amazon launching 1st batch of internet satellites since Vulcan Centaur failure» (22 Nov)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch"
+    },
+    {
+     "nome": "Space Launch Schedule – Ariane 64 Amazon Leo (LE-04)",
+     "url": "https://www.spacelaunchschedule.com/launch/ariane-64-block-2-amazon-leo-le-04/"
+    },
+    {
+     "nome": "Amazon – Amazon Leo mission updates",
+     "url": "https://www.aboutamazon.com/news/innovation-at-amazon/project-kuiper-satellite-rocket-launch-progress-updates"
+    },
+    {
+     "nome": "24/7 Wall St. via Yahoo Finance – «Amazon Just Lost 40 Leo Satellites…» (16 Nov)",
+     "url": "https://finance.yahoo.com/technology/articles/amazon-just-lost-40-leo-124036342.html"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«A Peso de Ouro» (The Weight): Ethan Hawke and Russell Crowe in a race for gold through the forest, an old-fashioned adventure film that pleases most critics",
+   "ficha": {
+    "Original title": "The Weight (2026, USA, Germany and Canada)",
+    "Director": "Padraic McKinley (first feature film; until now he worked mainly as an editor)",
+    "Cast": "Ethan Hawke, Russell Crowe, Julia Jones, Austin Amelio, Avi Nash, Lucas Lynggaard Tønnesen",
+    "Release in Portugal": "19 November 2026 (adventure and historical thriller; rated M/14; 112 minutes; distributed by NOS Audiovisuais)",
+    "Reviews": "Mostly positive reviews: enthusiasm from RogerEbert.com, TheWrap and Screen Daily, B+ from the AV Club; 3 out of 5 from Time Out and the Canberra Times"
+   },
+   "texto": [
+    "«A Peso de Ouro» (The Weight), an adventure film set during the American Great Depression, has been in Portuguese cinemas since Thursday 19 November. Ethan Hawke plays the lead and Russell Crowe plays a prison warden. It is director Padraic McKinley's first feature film, and it premiered in January at the Sundance Festival, in the USA. In Portugal it can be seen, for example, at Cinemas NOS Colombo, in Lisbon, at UCI Arrábida and NOS GaiaShopping, in Gaia, and at NOS Braga Parque.",
+    "The story begins in Oregon, in 1933. Samuel Murphy, an unemployed widower raising a young daughter on his own, is sentenced to hard labour in a prison camp in the middle of the forest. The camp's warden, Clancy, makes him an offer: if he and a small group of prisoners carry a shipment of gold bars on foot across hostile territory, he will be released early and can go back to his daughter. The journey lasts only a few days, but the gold stirs up everyone's greed. The rest is for those who go to the cinema.",
+    "The strengths, for those who liked it. Almost every critic singles out Ethan Hawke. Matt Zoller Seitz, of RogerEbert.com, says it is one of the best roles of the actor's career and praises a film that works at once as a prison drama, a wilderness adventure, a psychological thriller and a fable about labour and money, which he compares to Steinbeck's «The Grapes of Wrath». Chase Hutchinson, of TheWrap, saw it at Sundance and thinks it is impossible to take your eyes off Hawke, with Crowe «stealing scenes» as a corrupt warden. Mitchell Beaupre, of the AV Club (B+), likes the real locations, the practical effects and a tense scene on a bridge, reminiscent of William Friedkin's «Sorcerer» (1977). Screen Daily stresses that McKinley films the action in a simple, tense way, and that the Bavarian forests where the film was shot pass well for the Oregon of a hundred years ago.",
+    "The weaknesses also come up. Stephen A. Russell, of Time Out (3 out of 5), likes its 1970s charm but points to jerky editing, underdeveloped supporting characters, electronic music that jars and a film that runs a little long. The Canberra Times review (also 3 out of 5) finds the premise too familiar, the opening emotionally forced and many scenes too dark to make out what is happening. Several critics regret that Julia Jones's character has little to do. In short, according to the assessment that emerges from the reviews consulted: a classic, well-acted adventure, with Hawke in great form, that holds few surprises for those who know the genre."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – Films of the week: cinema releases (19 November 2026)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-19-de-novembro-2026-15107/"
+    },
+    {
+     "nome": "Cinecartaz (Público) – «A Peso de Ouro»",
+     "url": "https://cinecartaz.publico.pt/filme/peso-ouro-416106"
+    },
+    {
+     "nome": "Cinecartaz (Público) – Cinemas NOS Colombo (listings)",
+     "url": "https://cinecartaz.publico.pt/cinema/zon-lusomundo-colombo-17538"
+    },
+    {
+     "nome": "RogerEbert.com – review of «The Weight» (Matt Zoller Seitz)",
+     "url": "https://www.rogerebert.com/?p=276212"
+    },
+    {
+     "nome": "TheWrap – review of «The Weight» at Sundance (Chase Hutchinson, 27 Jan)",
+     "url": "https://www.thewrap.com/creative-content/movies/the-weight-review-ethan-hawke"
+    },
+    {
+     "nome": "AV Club – review of «The Weight» (Mitchell Beaupre, 15 Sep)",
+     "url": "https://www.avclub.com/the-weight-review-ethan-hawke-russell-crowe-old-school-adventure"
+    },
+    {
+     "nome": "Screen Daily – review of «The Weight» (Sundance, Premieres section)",
+     "url": "https://www.screendaily.com/reviews/the-weight-review-ethan-hawke-and-russell-crowe-expertly-carry-tense-effective-1930s-survival-tale/5213064.article"
+    },
+    {
+     "nome": "Time Out – review of «The Weight» (Stephen A. Russell, 17 Feb)",
+     "url": "https://www.timeout.com/movies/the-weight-review-2026"
+    },
+    {
+     "nome": "Canberra Times – review of «The Weight»",
+     "url": "https://www.canberratimes.com.au/story/9349467/the-weight-review-hawke-and-crowe-do-heavy-lifting-in-so-so-depression-epic/"
+    }
+   ],
+   "nota": "Release on 19 Nov, director, cast, genre, M/14 rating, running time of 112 min and distributor (NOS Audiovisuais) according to filmSPOT's weekly article (the November releases list and the film's page on filmSPOT could not be opened). Cinecartaz confirms the release on 19/11, M/14, the countries (USA, Germany, Canada), McKinley's first feature, the Sundance premiere, and gives 113 min; Screen Daily gives Germany/USA and 112 min. Cinemas mentioned (NOS Colombo, UCI Arrábida, NOS GaiaShopping, NOS Braga Parque) listed on Cinecartaz, which shows times without giving the day; the Colombo page, dated today, 23 Nov, gives screenings at 21:20 and 00:05 — it is worth checking times before setting out. Synopsis (Oregon, 1933, labour camp, warden Clancy's offer, transport of gold) cross-checked between filmSPOT, Cinecartaz, RogerEbert.com, Time Out and Screen Daily; the daughter's name differs between sources (Penny or Ava), so it is not given. That McKinley was an editor, the shooting in Bavaria and the Sundance Premieres section according to Screen Daily. The screenplay is credited by Screen Daily to Matthew Chapman and Shelby Gaines (story by Matthew Booi and Leo Scherman) and by Cinecartaz to Matthew Booi and Shelby Gaines, so it was left out of the fact box. Ratings: B+ (AV Club), 3/5 (Time Out and Canberra Times); RogerEbert.com, TheWrap and Screen Daily show no legible rating. The Screen Daily and Canberra Times reviews do not name an author in the text obtained; the date of the RogerEbert.com review was not visible. The comparison with «Sorcerer» (1977) is from the AV Club; Friedkin's authorship and the year are general knowledge. The phrase «stealing scenes» is a loose rendering of an expression used by TheWrap. No Portuguese reviews were found. The image's Commons page could not be opened; the file appears in Commons search results and the year comes from the file name.",
+   "imagem": {
+    "commons": "Ethan Hawke in 2022.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of the actor Ethan Hawke",
+    "legenda": "Ethan Hawke, star of «A Peso de Ouro» (The Weight), in a 2022 photograph (archive image; does not show the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "José Clemente Orozco, the muralist who painted Mexico with one hand: born 143 years ago, he left a «Man of Fire» on the ceiling of a chapel",
+   "ficha": {
+    "Born and died": "23 November 1883, in Zapotlán el Grande (now Ciudad Guzmán), in the state of Jalisco, Mexico; 7 September 1949, in Mexico City",
+    "Field": "Mural painting (fresco), caricature, drawing and printmaking",
+    "Essential work": "Murals at the National Preparatory School, Mexico City (1923–27); «Prometheus», Pomona College, California (1930); «The Epic of American Civilization», Dartmouth College, USA (1932–34); «Catharsis», Palace of Fine Arts, Mexico City (1934); frescoes at the Hospicio Cabañas, Guadalajara, with «Man of Fire» (1938–39)",
+    "Now": "Today, 23 November, marks 143 years since his birth"
+   },
+   "texto": [
+    "143 years ago today, on 23 November 1883, José Clemente Orozco was born in Mexico. He was one of the three great names of Mexican muralism, alongside Diego Rivera and David Alfaro Siqueiros. The Encyclopaedia Britannica considers him the most important 20th-century muralist to paint in fresco, that is, directly onto a wall while the plaster is still wet. And he did it with one hand: he lost his left hand while still young, in an accident.",
+    "Orozco was born in Zapotlán el Grande, in the state of Jalisco, and moved with his family to Mexico City as a child. He was fascinated by the satirical prints of José Guadalupe Posada and took evening drawing classes at the Academy of San Carlos, but his father pushed him towards agronomy and architectural drawing. Everything changed with an explosion: according to PBS, while preparing fireworks for Independence Day, he injured his hand and an eye, and his left hand ended up being amputated. He went back to the academy to study painting and earned a living as a caricaturist for opposition newspapers during the Mexican Revolution. Between 1917 and 1919 he was in the USA, where he even painted cinema posters; before that, according to PBS, customs officials at the Texas border destroyed about two-thirds of the works he was carrying.",
+    "His style is dramatic and monumental: twisted bodies, strong colours, flames, machines, crowds. Orozco began with Mexican themes but gradually moved on to universal subjects — war, oppression, progress that crushes people — with an often bleak outlook. Britannica notes the influence of Michelangelo and Byzantine mosaics. In the 1930s he painted in the USA: «Prometheus» at Pomona College, in California (1930), described by PBS as the first true fresco painted in the country, and «The Epic of American Civilization», 24 panels covering the four walls of a room in the Dartmouth College library, designated a US National Historic Landmark in 2013.",
+    "His most famous work is in Guadalajara. Between 1938 and 1939 he painted 57 frescoes in the chapel of the Hospicio Cabañas, a former orphanage from the early 19th century. At the centre of the dome is «Man of Fire», a figure wrapped in flames that seems to rise towards the sky. UNESCO, which put the building on the World Heritage List, calls these frescoes a masterpiece of Mexican art. One more curiosity: Orozco died of heart failure in 1949, aged 65, while still working on a mural for a social housing complex, according to PBS."
+   ],
+   "fontes": [
+    {
+     "nome": "Encyclopaedia Britannica – José Clemente Orozco",
+     "url": "https://www.britannica.com/biography/Jose-Clemente-Orozco"
+    },
+    {
+     "nome": "PBS American Masters – José Clemente Orozco: timeline",
+     "url": "https://www.pbs.org/wnet/americanmasters/episodes/jose-clemente-orozco/career-timeline/83/"
+    },
+    {
+     "nome": "UNESCO – Hospicio Cabañas, Guadalajara (World Heritage)",
+     "url": "https://whc.unesco.org/en/list/815/"
+    },
+    {
+     "nome": "National Park Service – The Epic of American Civilization Murals",
+     "url": "https://www.nps.gov/places/the-epic-of-american-civilization-murals.htm"
+    }
+   ],
+   "nota": "Birth on 23 Nov 1883 in Zapotlán el Grande (PBS) / Ciudad Guzmán (Britannica) and death on 7 Sep 1949 in Mexico City according to both sources. The circumstances of the accident differ: Britannica speaks of a laboratory accident at 17; PBS places it in 1904, while preparing fireworks, with injuries to his hand and an eye and amputation due to gangrene — the text follows PBS, attributing it, and says only «while still young». Posada, evening classes at San Carlos, agronomy and architectural drawing, return to the academy in 1905, caricatures for the opposition, murals and dates (Preparatory School 1923–27, Pomona 1930, Catharsis 1934, Guadalajara 1936–39), Michelangelo and Byzantine mosaics and «most important 20th-century muralist in fresco» according to Britannica. Years in the USA (1917–19), cinema posters, works destroyed at the border, «first true fresco in the USA», age and circumstances of death according to PBS. Dartmouth: 24 panels on the four walls of the Reserve Reading Room of the Baker Library, 1932–34, National Historic Landmark in 2013, according to the National Park Service. Hospicio Cabañas: 57 frescoes, founded in the early 19th century, «Hombre de Fuego» in the dome and «masterpiece of Mexican art» according to UNESCO; the year of inscription (1997) does not appear on the page opened and so is not given. The «great trio» label with Rivera and Siqueiros is general knowledge, supported by Britannica, which groups them together in the founding of muralism. No current exhibition in Portugal was found. Image: instead of a work (the murals may still be protected by copyright in some countries), a photograph of the building was used; the file's Commons page could not be opened and the file appears in Commons search results.",
+   "imagem": {
+    "commons": "Hospicio Cabañas, Guadalajara, Jal.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Neoclassical façade of the Hospicio Cabañas, in Guadalajara, Mexico",
+    "legenda": "The Hospicio Cabañas, in Guadalajara, where Orozco painted «Man of Fire» (illustrative image; does not show the frescoes)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that the premiere of «The Rite of Spring», in Paris, in 1913, ended in shouting, whistling and shoving — and that today it is one of the most performed works of the 20th century?",
+   "texto": [
+    "Did you know that one of the most famous premieres in the history of music and dance was a scandal? It happened in Paris, on 29 May 1913, at the Théâtre des Champs-Élysées. The Ballets Russes, the company of the Russian impresario Sergei Diaghilev, were presenting «The Rite of Spring», a ballet with music by Igor Stravinsky and choreography by Vaslav Nijinsky. The sets and costumes were by the painter Nicholas Roerich. As soon as the music started, the audience began to laugh, protest and whistle.",
+    "What was so shocking? To begin with, the music. It opens with a bassoon playing a very high note, so high that it sounds strange. Then come chords that clash with one another and rhythms with accents where no one expects them. Then, the dance. Instead of light ballerinas on pointe, Nijinsky had the dancers stamping their feet, with heavy jumps, knees turned inwards and clenched fists. The story was not a peaceful one either: in an ancient, pagan Russia, a tribe chooses a young girl, who dances until she dies, as a sacrifice to the gods of spring.",
+    "The uproar was so great that the dancers could no longer hear the orchestra. The poet Jean Cocteau, who was in the audience, recalled that people laughed, booed and made animal noises. According to History Today, Diaghilev switched the house lights on and off to try to calm people down, and Nijinsky stood on a chair in the wings shouting out the counts to the dancers. Stravinsky, furious, left the stalls and watched the rest from the wings. There are reports that the police were called, but the number of arrests that is sometimes quoted is not confirmed by all sources — and some historians think part of the commotion came from the rivalry between the elegant audience and the bohemian audience, who were there on opposite sides.",
+    "And afterwards? The original choreography was danced only seven times before being replaced, and it disappeared from the stage for decades, until the Joffrey Ballet, in the USA, reconstructed it in 1987. The music had better luck: a year later, in 1914, played in concert in Paris, it was a triumph and Stravinsky is said to have been carried on the shoulders of his admirers. Today, «The Rite of Spring» is seen as one of the starting points of modern music and contemporary dance. In other words: sometimes, booing is just the sound of someone arriving too early."
+   ],
+   "fontes": [
+    {
+     "nome": "Encyclopaedia Britannica – The Rite of Spring",
+     "url": "https://www.britannica.com/topic/The-Rite-of-Spring"
+    },
+    {
+     "nome": "NPR – «Then The Curtain Opened: The Bracing Impact Of Stravinsky's Rite» (25 May 2013)",
+     "url": "https://www.npr.org/sections/deceptivecadence/2013/05/25/186497792/then-the-curtain-opened-the-bracing-impact-of-stravinskys-rite"
+    },
+    {
+     "nome": "History Today – A Musical Riot",
+     "url": "https://www.historytoday.com/archive/months-past/musical-riot"
+    },
+    {
+     "nome": "uDiscover Music – The Riot At Stravinsky's «Rite Of Spring» Premiere",
+     "url": "https://www.udiscovermusic.com/classical-features/stravinsky-rite-of-spring/"
+    },
+    {
+     "nome": "BBC Music Magazine (classical-music.com) – The Rite of Spring premiere",
+     "url": "https://www.classical-music.com/articles/rite-of-spring-premiere"
+    }
+   ],
+   "nota": "Date, venue, Ballets Russes, Diaghilev, Nijinsky, Roerich (sets and costumes), subtitle «Pictures of Pagan Russia», dancers unable to hear the orchestra, seven performances of the original choreography and the Joffrey Ballet's 1987 reconstruction according to Britannica. Style of the choreography (stamping, heavy jumps, clenched fists), harmonies and rhythms, the sacrifice plot and the swift recognition of the score according to NPR. Bassoon in a high register, shouting and scuffles and the police being called according to classical-music.com. Cocteau, Diaghilev switching the lights on and off and Nijinsky on a chair shouting numbers according to History Today. Stravinsky leaving for the wings, rivalry between the elegant and bohemian audience and the triumph of the 1914 concert, with Stravinsky carried on shoulders, according to uDiscover Music; uDiscover speaks of about 40 arrests, a figure the other sources do not confirm, so it is not given. The «knees turned inwards» is general knowledge about the choreography, not confirmed in the sources opened today. The last sentence is the newspaper's own comment. The image's Commons page could not be opened; the file appears in Commons search results and what it shows comes from the file name (a 1913 photograph, in the public domain).",
+   "imagem": {
+    "commons": "RiteofSpringDancers.jpg",
+    "tipo": "arquivo",
+    "alt": "Ballets Russes dancers in the folk-inspired costumes of «The Rite of Spring»",
+    "legenda": "Dancers from the original production of «The Rite of Spring», with costumes by Nicholas Roerich (1913 photograph)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Bons Sons: for 20 years, a village of 800 people near Tomar has turned itself into a festival of Portuguese music run by the neighbours themselves",
+   "ficha": {
+    "Origins": "First edition in 2006, organised by the Sport Clube Operário de Cem Soldos (SCOCS), the village association",
+    "Where": "Cem Soldos, municipality of Tomar (Santarém district); ten stages spread across streets, squares, threshing floors and back gardens",
+    "Field": "Portuguese music (Portuguese artists only), local development and community life",
+    "Participants": "Village residents, SCOCS members (more than a thousand) and volunteers; 600 to 700 people involved in the 2026 edition, which expected around 32,000 visitors",
+    "Now": "The 13th edition, marking 20 years, ran from 6 to 9 August 2026; since the end of 2024 the festival has been biennial"
+   },
+   "texto": [
+    "For four days, every two years, Cem Soldos changes its face and opens up to everyone. This village of around 800 people, near Tomar, has organised Bons Sons since 2006, a festival of Portuguese music only, spread over ten stages among the houses. It is not run by a concert promoter: it is run by the local association, the Sport Clube Operário de Cem Soldos, with the neighbours as hosts. In August 2026 it turned 20.",
+    "The motto says it all: «Vem viver a aldeia» (Come and live the village). The stages are in streets, squares, threshing floors, vegetable gardens and an auditorium. According to a 2017 report by Observador, an old threshing floor belonging to a village family became one of the main stages, first used by Capitão Fausto in 2012, and the old grain store became an exhibition room. There are back gardens that turn into restaurants, scouts who set up spaces for babies and grandmothers who sew the souvenirs featuring the festival mascot, a lizard. At this year's edition, the 13th, the village welcomed names such as Rita Redshoes, Quinta do Bill, Luca Argel, Cacique'97 and a project that brought together Amélia Muge, Júlio Pereira, Rão Kyao and other musicians. The four-day pass, with camping, cost 70 euros.",
+    "The idea goes beyond the concerts. In 2017, according to Observador, money from the festival was already paying for children's activities and expenses at the village health post; and, according to the Lusa news agency, Bons Sons helps keep the population, the primary school and the nursery school going. It was biennial until 2014, became annual and, at the end of 2024, went back to being held every two years. The organisers explained the decision by the wish to give the volunteer teams more time and to create other projects in the village. The then director, Miguel Atalaia, said that investing in the festival's longevity «is believing in national artistic creation».",
+    "Why does it matter? In a country where many villages are losing people, Bons Sons shows another way of running a festival: small, community-made and with Portuguese music only, from well-known names to bands at the start of their careers. At 20, the leadership has passed to a younger generation. Sérgio Alves, who shares the artistic direction with João Rufino, told RTP that the festival is, in itself, «a resistance movement». And Filipe Cartaxo, president of the association, issued a warning: if the village is lost, «that is no longer Bons Sons»."
+   ],
+   "fontes": [
+    {
+     "nome": "RTP – Bons Sons marks 20 years with community resistance and generational renewal (Aug 2026)",
+     "url": "https://www.rtp.pt/noticias/cultura/bons-sons-assinala-20-anos-com-resistencia-comunitaria-e-renovacao-geracional_n1757163"
+    },
+    {
+     "nome": "Observador / Lusa – Four days in the village: the return to Cem Soldos for Bons Sons (6 Aug 2026)",
+     "url": "https://observador.pt/2026/08/06/quatro-dia-na-aldeia-o-regresso-a-cem-soldos-para-o-bons-sons/"
+    },
+    {
+     "nome": "Notícias ao Minuto – Bons Sons festival only returns in 2026 and becomes biennial (11 Dec 2024)",
+     "url": "https://www.noticiasaominuto.com/cultura/2687556/festival-bons-sons-so-regressa-em-2026-e-passa-a-ser-bienal"
+    },
+    {
+     "nome": "Observador – In Cem Soldos, their home is everyone's festival (Rita Dantas Ferreira, 14 Aug 2017)",
+     "url": "https://observador.pt/especiais/em-cem-soldos-a-casa-deles-e-o-festival-de-todos/"
+    }
+   ],
+   "nota": "Dates of the 2026 edition (6–9 Aug), first edition in 2006, SCOCS with more than a thousand members, around 800 residents, 600 to 700 people involved, around 32,000 visitors expected, ten stages, Portuguese music only, artistic direction by João Rufino and Sérgio Alves and quotes from Sérgio Alves and Filipe Cartaxo according to RTP. 13th edition, the motto «Vem viver a aldeia», types of stage, names on the line-up, prices (€70 pass with camping; €35 day ticket), help for the population, school and nursery school, and frequency (biennial until 2014, then annual, return to biennial announced at the end of 2024) according to Lusa in Observador. Reasons for going biennial and the quote from Miguel Atalaia, then director of the festival, according to Notícias ao Minuto (Dec 2024); whether Atalaia still holds a role was not confirmed. Threshing floor, grain store, Capitão Fausto in 2012, back-garden restaurants, scouts, grandmothers and mascot, and income for the after-school club and the health centre according to Observador (2017) — information almost ten years old, so presented in the past tense. The date of the next edition (presumably 2028) was not confirmed. No photograph of Cem Soldos or the festival was found on Commons (only a video); an archive photograph of an artist from the 2026 line-up, taken elsewhere, was used. The image's Commons page could not be opened; the file appears in Commons search results and the location comes from the file name.",
+   "imagem": {
+    "commons": "Rita RedShoes no Coliseu de Lisboa 01.jpg",
+    "tipo": "arquivo",
+    "alt": "The singer Rita Redshoes on a stage",
+    "legenda": "Rita Redshoes, one of the artists at Bons Sons 2026, at a concert at the Coliseu de Lisboa (archive image; does not show the festival or Cem Soldos)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 23 November from the Casa da Música listings, Agenda Porto (home page and the pages for the Coliseu, the Rivoli, the Mercado do Bolhão and two concerts), the Teatro Municipal do Porto programme, the Serralves listings, the Planetário do Porto, Time Out Porto and the Galeria Municipal do Porto announcement on e-flux. It was not possible to open the TNSJ website, the Porto/Post/Doc programme (portopostdoc.com), the page for the film «Victor como toda a gente» at the Teatro Municipal, Agenda Porto's screening pages, or the websites of Cinema Trindade, the Batalha (calendar), Hard Club and Maus Hábitos for these dates; for that reason several Porto/Post/Doc screenings are left out or without a time reconfirmed today. Sold out: Rodrigo Leão (23 and 24, all performances), the Remix Ensemble Soloists at the Palácio da Bolsa (23) and Al Di Meola (26). National strike on Tuesday 24: none of the pages consulted shows any notice of closures or cancellations, but it is worth checking with each venue before setting out. Where it says «To be confirmed», the information was not in the source.",
+ "agenda": [
+  {
+   "dia": "2026-11-23",
+   "eventos": [
+    {
+     "nome": "Porto/Post/Doc: «Yalda, a Noite do Perdão» (Yalda, a Night for Forgiveness), by Massoud Bakhshi",
+     "descricao": "A special screening at the documentary film festival of the Iranian film about a young woman sentenced to death who goes on a live television show to ask for forgiveness.",
+     "horario": "19:15",
+     "tipo": "Cinema / Festival",
+     "local": "Batalha Centro de Cinema, Praça da Batalha, 47, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.agenda-porto.pt/en",
+     "ligacao": "Agenda Porto",
+     "nota": "Agenda Porto today shows the film on 23 November at the Batalha, without a time or price; the time (19:15) was confirmed yesterday, 22 November, on the festival programme page on Agenda Porto and could not be rechecked today (neither the festival programme nor the screening page opened). Price, screen and age rating to be confirmed. Event repeated from the 22 November edition."
+    },
+    {
+     "nome": "Rodrigo Leão – «Alma Mater», 26 years on (Misty Fest)",
+     "descricao": "Rodrigo Leão returns to the album «Alma Mater» with an ensemble, choir and guests, on one of the three nights he is playing at Casa da Música this week.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 to €40 (sold out)",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, hall, prices and sold-out status confirmed today on the Casa da Música listings. Also on Time Out Porto's list of concerts of the week. Event repeated from the 21 and 22 November editions."
+    },
+    {
+     "nome": "Solistas do Remix Ensemble Casa da Música (Remix Ensemble Soloists)",
+     "descricao": "The musicians of Casa da Música's contemporary music group leave Boavista for a chamber concert at the Palácio da Bolsa.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Palácio da Bolsa, Rua de Ferreira Borges, Porto",
+     "preco": "To be confirmed (sold out)",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, venue and sold-out status confirmed today on the Casa da Música listings, which show neither price nor programme; the general page of the Remix Ensemble Soloists only describes a September performance. The Palácio da Bolsa address does not come from the source consulted."
+    },
+    {
+     "nome": "«Os Christophers» (The Christophers), by Steven Soderbergh",
+     "descricao": "A comedy about art, money and grudges: Ian McKellen is a painter estranged from his children, who hire a forger to finish the paintings he left half done.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/os-christophers-steven-soderbergh/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 1h50, with subtitles. Screenings confirmed today on the Teatro Municipal do Porto page: 23, 24 and 25 November at 21:30. No sold-out notice and no mention of effects of the strike."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-24",
+   "eventos": [
+    {
+     "nome": "Porto/Post/Doc: talk «Documentário e Inteligência Artificial» (Documentary and Artificial Intelligence), with Jorge Caballero",
+     "descricao": "Director Jorge Caballero talks about what artificial intelligence changes in the way documentary films are made.",
+     "horario": "To be confirmed",
+     "tipo": "Talk",
+     "local": "Teatro Rivoli, Praça D. João I, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/local/rivoli-theatre/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, venue and free admission confirmed today on the Rivoli page on Agenda Porto, without a time; the Agenda Porto home page presents the initiative from 24 to 27 November at several venues. The 22 November edition gave 15:30, from the festival programme page, which could not be reopened today. Event repeated from the 21 and 22 November editions."
+    },
+    {
+     "nome": "Porto/Post/Doc at the Planetarium: session #02",
+     "descricao": "Three short films projected onto the Planetarium dome: «Adeus, Goldie» (Goodbye, Goldie), by Pat Clark, «The Frontiers of Infinity», by Michel D.T. Lam, and «A Leap into the Void», by Sergey Prokofyev.",
+     "horario": "17:30",
+     "tipo": "Cinema / Festival",
+     "local": "Planetário do Porto – Centro Ciência Viva, Rua das Estrelas, s/n, 4150-762 Porto",
+     "preco": "To be confirmed",
+     "url": "https://planetario.up.pt/pt/evento/PPD26@PP",
+     "ligacao": "Planetário do Porto",
+     "nota": "Date, time, running time (57 minutes), films and M/12 rating confirmed today on the Planetarium page. The price field is empty; tickets are sold on BOL or on site, about 30 minutes before the session."
+    },
+    {
+     "nome": "Rodrigo Leão – «Alma Mater», 26 years on (Misty Fest)",
+     "descricao": "Rodrigo Leão's last two nights at Casa da Música, revisiting «Alma Mater» with an ensemble, choir and guests.",
+     "horario": "18:30 and 21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 to €40 (sold out)",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "The Casa da Música listings today show both performances sold out, including the 18:30 one, which the 22 November edition still gave without a sold-out notice. Event repeated from the 21 and 22 November editions."
+    },
+    {
+     "nome": "«Os Christophers» (The Christophers), by Steven Soderbergh",
+     "descricao": "Ian McKellen as a reclusive painter, in a comedy about inheritance, forgery and the art market.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/os-christophers-steven-soderbergh/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 1h50. Screening confirmed today on the Teatro Municipal do Porto page, with no notice about today's national strike; it is worth checking before setting out."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-25",
+   "eventos": [
+    {
+     "nome": "«Auto da Barca do Inferno» (The Play of the Ship of Hell), directed by Marta Pazos",
+     "descricao": "Gil Vicente reread through theatre, dance and visual arts: at the edge of the quay, an Angel and a Devil decide the fate of the Nobleman, the Friar, the Procuress and company.",
+     "horario": "19:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "€7 to €16.80",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "A co-production between the TNSJ and the Centro Dramático Galego, running until 13 December. Date, time and prices from Time Out Porto; Agenda Cultural Porto gives €10 to €16, M/12 and about 90 minutes, and has contradictory dates. The TNSJ website was not consulted: check price and seats at the box office."
+    },
+    {
+     "nome": "Quem Decide o que Ouvimos? (Who Decides What We Listen To?)",
+     "descricao": "Carlos Tê, João Gobern, Miguel Gonçalves and Rui Massena discuss who shapes musical taste today.",
+     "horario": "To be confirmed",
+     "tipo": "Talk",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/local/coliseu-porto-ageas/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, participants and free admission confirmed today on the Coliseu page on Agenda Porto, which gives no time; the event page could not be opened. Event repeated from the 22 November edition."
+    },
+    {
+     "nome": "Há Fado no Mercado (There's Fado at the Market), with Ana Cristina",
+     "descricao": "Live fado at the Mercado do Bolhão, with fado singer Ana Cristina.",
+     "horario": "To be confirmed",
+     "tipo": "Music",
+     "local": "Mercado do Bolhão, Rua Formosa, 322, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/local/mercado-do-bolhao/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, performer and free admission confirmed today on the Mercado do Bolhão page on Agenda Porto, which gives neither the time nor the year (the event also appears in the 25 November list on the Agenda Porto home page)."
+    },
+    {
+     "nome": "Christian Löffler – «Until We Meet Again» (Misty Fest)",
+     "descricao": "The German electronic musician presents his latest album with an ensemble, moving between ambient, techno, piano and strings.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€30 to €50",
+     "url": "https://www.agenda-porto.pt/en/evento/cdm-christian-loffler-1776080591422/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6 (ages 6+). Date, time, hall and prices confirmed today on the Casa da Música listings, with no sold-out notice, and on the concert page on Agenda Porto. Event repeated from the 22 November edition."
+    },
+    {
+     "nome": "«Os Christophers» (The Christophers), by Steven Soderbergh – final screening",
+     "descricao": "Last day to see Soderbergh's comedy with Ian McKellen about art, money and a feuding family at Campo Alegre.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/os-christophers-steven-soderbergh/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 1h50. Screening confirmed today on the Teatro Municipal do Porto page; it is the film's last at Campo Alegre."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-26",
+   "eventos": [
+    {
+     "nome": "Rasgar um céu sem sol (Tearing a Sunless Sky) / Nightwood / Gothic Tale",
+     "descricao": "Three exhibitions at the Galeria Municipal: Basel Abbas and Ruanne Abou-Rahme, the institutional debut of Leonor Parda and a first overview of Isabel Carvalho's career.",
+     "horario": "10:00–18:00",
+     "tipo": "Exhibition",
+     "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de Dom Manuel II, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.e-flux.com/announcements/6787436/autumn-2026-winter-2027-programme",
+     "ligacao": "e-flux (Galeria Municipal do Porto)",
+     "nota": "Exhibitions open since 11 November; opening hours (Tuesday to Sunday, 10:00–18:00) confirmed today in the gallery's announcement, which gives neither price nor closing date. The 22 November edition gave free entry, from Agenda Porto, which could not be reconfirmed today. Event repeated from the 22 November edition (there on the 24th)."
+    },
+    {
+     "nome": "«Auto da Barca do Inferno» (The Play of the Ship of Hell), directed by Marta Pazos",
+     "descricao": "The new reading of Gil Vicente by the TNSJ and the Centro Dramático Galego, blending theatre, dance and visual arts.",
+     "horario": "19:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "€7 to €16.80",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Date, time and prices from Time Out Porto (Agenda Cultural Porto gives €10 to €16 and M/12). The TNSJ website was not consulted: check at the box office."
+    },
+    {
+     "nome": "«Victor como toda a gente» (Victor Like Everyone Else), by Pascal Bonitzer",
+     "descricao": "The film by French director Pascal Bonitzer opens at the Campo Alegre Cine-Estúdio, showing until 2 December.",
+     "horario": "To be confirmed",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "The Teatro Municipal do Porto programme shows the film from 26 November to 2 December at the Cine-Estúdio; the film's page did not open, so time, price, rating and synopsis are missing (the previous film in the same space cost €5.50 and was at 21:30, but this is not confirmed for this film)."
+    },
+    {
+     "nome": "Al Di Meola (Misty Fest)",
+     "descricao": "The American guitarist, who for more than four decades has been blending jazz with flamenco, tango and world music, combines signature pieces and new material.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€30 to €70 (sold out)",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (ages 6+). Date, time, hall, prices and sold-out status confirmed today on the Casa da Música listings; iPorto gives a second date on 29 November, also at 21:00 (the Agenda Porto page only shows the 29th), with no information on availability."
+    },
+    {
+     "nome": "Eden Lewis II",
+     "descricao": "A free concert at the Casa da Música café.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Café), Av. da Boavista, 604-610, Porto",
+     "preco": "Free entry",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, space and free admission confirmed today on the Casa da Música listings, which do not describe the concert or the musical genre."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "COP31 ended on Sunday in Antalya without the almost 200 countries approving the final text; the deadlock over fossil fuels moves on to COP32, in Ethiopia.",
+   "noticia": 9
+  },
+  {
+   "texto": "NATO ambassadors meet today in Brussels over the Russian missiles that fell in Poland; this is not the activation of collective defence.",
+   "noticia": 10
+  },
+  {
+   "texto": "Portugal's 2027 Budget reaches the home stretch: the committee-stage votes wrap up today and the final overall vote is set for Tuesday at 15:00.",
+   "noticia": 13
+  },
+  {
+   "texto": "A Russian drone brought down part of a building in Dymer, north of Kyiv, and killed at least 11 people, according to a provisional toll.",
+   "noticia": 11
+  },
+  {
+   "texto": "BepiColombo, from ESA and JAXA, entered orbit around Mercury on Saturday; a software fault cut the braking short, but ESA says the probe is safe.",
+   "noticia": 17
+  },
+  {
+   "texto": "OpenRouter has dropped three AI model providers after a trap set by researchers showed that customers' prompts were being copied.",
+   "noticia": 1
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Monday 23 Nov",
+   "texto": "Last committee-stage Budget votes (plenary at 09:00). NATO meeting on Poland. Launch of Ariane 6 with 36 Amazon Leo satellites, scheduled for 11:09 Lisbon time.",
+   "noticia": 18
+  },
+  {
+   "quando": "Tuesday 24 Nov",
+   "texto": "Final overall vote on the 2027 State Budget at 15:00, with a national strike and a gathering in front of Parliament at 10:00. Meteored forecasts the return of rain to the North and Centre.",
+   "noticia": 13
+  },
+  {
+   "quando": "Tuesday and Wednesday, 24–25 Nov",
+   "texto": "Full strike by CP train drivers, with minimum services of more than 330 trains a day, mostly at peak hours; CP expects disruption until Friday 27.",
+   "noticia": 14
+  },
+  {
+   "quando": "Thursday and Friday, 26–27 Nov",
+   "texto": "Extraordinary European Council summit in Brussels, chaired by António Costa, on the EU budget for 2028–2034 and funding for Ukraine, according to ECO."
+  }
+ ],
+ "linkedin_abertura": "COP31 ended without a deal: after around 48 hours of overtime, countries failed to approve the final text in Antalya, held back by fossil fuels."
+}
