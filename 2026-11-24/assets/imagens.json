@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-pal-cio-de-s-o-bento-assembl-e-nationale-9307363528.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pal%C3%A1cio_de_S%C3%A3o_Bento_%28Assembl%C3%A9e_nationale%29_%289307363528%29.jpg?width=1000",
+  "commons": "Palácio de São Bento (Assemblée nationale) (9307363528).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-george-kurtz.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/George_Kurtz.jpg?width=1000",
+  "commons": "George Kurtz.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-russian-navy-corvette-merkury.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Russian_Navy_Corvette_Merkury.jpg?width=1000",
+  "commons": "Russian Navy Corvette Merkury.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-cp-2300-2400-lisboa-oriente-01-20-01.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CP_2300-2400%2C_Lisboa-Oriente._01-20_%2801%29.jpg?width=1000",
+  "commons": "CP 2300-2400, Lisboa-Oriente. 01-20 (01).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-rear-view-of-tiangong-space-station.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rear_view_of_Tiangong_Space_Station.jpg?width=1000",
+  "commons": "Rear view of Tiangong Space Station.jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-mia-wasikowska-sundance-2026.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mia_Wasikowska_Sundance_2026.jpg?width=1000",
+  "commons": "Mia Wasikowska Sundance 2026.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-carlo-collodi.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlo_Collodi.jpg?width=1000",
+  "commons": "Carlo Collodi.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-goodmorningtoall-1893-song.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/GoodMorningToAll_1893_song.jpg?width=1000",
+  "commons": "GoodMorningToAll 1893 song.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-arquip-lago-centro-de-artes-contempor-neas-azoren-2016-01.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arquip%C3%A9lago_-_Centro_de_Artes_Contempor%C3%A2neas%2C_Azoren_2016_01.JPG?width=1000",
+  "commons": "Arquipélago - Centro de Artes Contemporâneas, Azoren 2016 01.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

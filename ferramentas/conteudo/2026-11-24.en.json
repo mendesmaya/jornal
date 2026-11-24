@@ -1,0 +1,1111 @@
+{
+ "data": "2026-11-24",
+ "numero": "032",
+ "resumo": "The 2027 Budget goes to its final vote today, with approval taken for granted; it is a day of strikes, with most trains at a standstill in the morning; Ukraine says it has sunk a Russian corvette in Libya; and tonight China launches the first foreign astronaut bound for its space station.",
+ "tema_palavras": "words from this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "CrowdStrike to buy Zscaler for $43.9 billion, the biggest deal ever in cybersecurity",
+   "estado": "Deal announced by both companies · regulator and shareholder approval still needed · completion not before the second half of 2027",
+   "data": "2026-11-23",
+   "texto": [
+    "Two of the world's biggest cybersecurity companies are joining forces. CrowdStrike announced on Monday 23 November that it had agreed to buy Zscaler for around $43.9 billion, paid entirely in shares. Each Zscaler share will be worth 1.135 CrowdStrike shares, a 34% premium on Friday's closing price, according to TheStreet and Yahoo Finance. The deal still needs the green light from regulators and shareholders.",
+    "What does each one do? CrowdStrike protects computers, servers and user accounts; it is known, among other things, for the faulty update that knocked out millions of Windows computers in July 2024. Zscaler protects companies' connections to the internet and to their applications, without going through traditional firewalls and virtual private networks (VPNs). With the purchase, CrowdStrike moves into network security, which it describes as the biggest market in the sector. «Security used to be about keeping the adversary out. Today, you need security to let AI in», said chief executive George Kurtz, quoted by PYMNTS.",
+    "The stock market didn't like all of it. CrowdStrike shares fell by between 9% and 12% at one point during the session, while Zscaler's rose more than 13%. CrowdStrike's existing shareholders will own around 84% of the combined company. Zscaler's founder, Jay Chaudhry, who together with people linked to him holds about 34% of the company, has already committed to backing the deal and, according to Yahoo Finance, will continue to lead Zscaler and join CrowdStrike's board.",
+    "What comes next? The companies expect to add around $1 billion a year in revenue in the first 30 months after the purchase and to save $500 million in costs. The completion date varies depending on the source: mid-2027, according to Yahoo Finance, or between August 2027 and January 2028, according to TheStreet. On the same day, CrowdStrike reported the best quarter in its history, with $419 million in net new annual recurring revenue, up 58% on a year earlier."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Terms of the deal (value, exchange ratio, payment in shares, conditions) confirmed in CrowdStrike's press release filed with the SEC (23 Nov). The 34% premium, the 84.1% stake, Jay Chaudhry's backing and the quarterly results come from TheStreet and Yahoo Finance; the synergies and Chaudhry's future role come only from Yahoo Finance (Brian Sozzi). The share price moves are intraday figures (the sources differ: -9.6% to -12% for CrowdStrike, +13% to +14% for Zscaler); we have not confirmed the closing figures. Kurtz's quote comes from PYMNTS. That it is the biggest deal ever in the sector is our own context (Google's purchase of Wiz, agreed in 2025, was worth $32 billion). We did not open the SecurityWeek and CNBC pages on the deal."
+   },
+   "fontes": [
+    {
+     "nome": "CrowdStrike – press release on the Zscaler deal, attached to the Form 8-K filed with the SEC (23 Nov)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000035/crwd-20261123xex991.htm"
+    },
+    {
+     "nome": "TheStreet – «CrowdStrike's best quarter ever gets buried by $44 billion deal» (23 Nov)",
+     "url": "https://www.thestreet.com/investing/crowdstrike-record-quarter-zscaler-deal-crwd-zs"
+    },
+    {
+     "nome": "Yahoo Finance – «Crowdstrike is spending $43.9 billion to buy ZScaler in a huge cybersecurity deal as tech outages spread» (23 Nov)",
+     "url": "https://finance.yahoo.com/technology/article/crowdstrike-is-spending-439-billion-to-buy-zscaler-in-a-huge-cybersecurity-deal-as-tech-outages-spread-110645119.html"
+    },
+    {
+     "nome": "Yahoo Finance – «CrowdStrike Sinks 12% on $43.9 Billion Zscaler Deal» (23 Nov)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-sinks-12-43-9-160043670.html"
+    },
+    {
+     "nome": "PYMNTS – «CrowdStrike Buys Cybersecurity Firm Zscaler for $44 Billion» (23 Nov)",
+     "url": "https://pymnts.com/cybersecurity/2026/crowdstrike-buys-cybersecurity-firm-zscaler-for-44-billion"
+    },
+    {
+     "nome": "SecurityWeek – «CrowdStrike to Acquire Zscaler in $43.9 Billion Deal» (cited)",
+     "url": "https://www.securityweek.com/crowdstrike-to-acquire-zscaler-in-43-9-billion-deal/"
+    }
+   ],
+   "imagem": {
+    "commons": "George Kurtz.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of George Kurtz, founder and chief executive of CrowdStrike",
+    "legenda": "George Kurtz, founder and chief executive of CrowdStrike (file photo; not from the deal announcement)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Flaw in a Microsoft service used to attack Equinor and another Norwegian energy company; Norway orders all access keys to be replaced",
+   "estado": "Attacks confirmed by Norway's security authority · Microsoft has already fixed the flaw · extent and perpetrators unknown",
+   "data": "2026-11-23",
+   "texto": [
+    "A serious flaw in a Microsoft cloud service was exploited to try to steal keys and passwords from energy companies in Norway. The Norwegian National Security Authority (NSM) said the problem affected several organisations in the country, among them the oil company Equinor and the power company Skagerak Energi, which had disclosed incidents on 17 and 18 November. According to SecurityWeek and The Register, which reported the case on 23 November, there are also victims outside Norway.",
+    "What was involved? Azure API Management, a service companies use to manage and protect the connections between their applications. Microsoft says the flaw only affects «Classic» versions of the service set up without following its security recommendations, or that stored secrets directly in the service instead of in a dedicated vault. Access passwords, subscription keys and management credentials could leak from there. Microsoft detected the problem on 18 November and applied an automatic fix the next day.",
+    "Was there any damage? Equinor says it has no evidence that data was stolen or altered. Skagerak Energi also found no sign of compromised information and says production was not affected. It is not known who is behind the attacks, nor how many companies were hit. Microsoft has not publicly released an identification number or a severity score for the flaw.",
+    "The NSM's advice is clear: treat all keys and passwords stored in the service as stolen and replace them. The fix closes the door, but does not cancel credentials that may already have been taken, and these could open other systems connected to the service, warned an expert quoted by SecurityWeek. The NSM praised Equinor for spotting the problem early and sharing the information."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Facts confirmed by SecurityWeek and The Register (23 Nov), both based on the NSM's advisory (20 Nov) and Microsoft's statements. The positions of Equinor and Skagerak Energi come from SecurityWeek. We did not open the original NSM advisory or the companies' statements. There is no public CVE identifier and no attribution of the attacks."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek – «Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms» (23 Nov)",
+     "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/"
+    },
+    {
+     "nome": "The Register – «Norway links energy firm cyberattacks to critical Azure API Management flaw» (23 Nov)",
+     "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
+    },
+    {
+     "nome": "BleepingComputer – «Microsoft Azure flaw exploited to steal customers' API credentials» (cited)",
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Hacker who leaked GTA VI footage sentenced to seven years in prison, but walks free the same day",
+   "estado": "Sentence handed down on 23 Nov in London · admitted the crimes · almost all of the sentence already served in detention",
+   "data": "2026-11-23",
+   "texto": [
+    "In the week GTA VI finally reached the shops, the young man who leaked the first footage of the game in 2022 was sentenced. A London court (Woolwich Crown Court) on Monday 23 November handed a seven-year prison sentence to a 21-year-old Briton, a former member of the hacking group Lapsus$. As he had already spent years in detention, he walked free the same day, according to AFP.",
+    "The crimes go beyond Rockstar's game. The week before, the young man admitted attacks on the telecoms operator BT/EE in 2021, which helped others steal customers' phone numbers, on the digital bank Revolut, where he accessed data on thousands of customers, and on Uber, causing losses of more than $2.8 million, according to the Crown Prosecution Service (CPS). At Rockstar, he stole 90 videos of GTA VI while it was still in development, posted them online and threatened to release the game's code to blackmail the company.",
+    "The case became famous for how he did it: while under police protection in a hotel, without a computer, he got into Rockstar's systems using a mobile phone, the room's television and an Amazon Fire TV Stick. In 2023 he was found unfit to stand trial and detained in a secure psychiatric hospital; he was later declared fit and moved to an ordinary prison.",
+    "According to AFP, the judge said the sentence weighs the seriousness of the crimes against the young man's age and his health problems. «You are obviously a very talented young man», he told him. According to the BBC, quoted by GadgetReview, he will be subject for five years to an order limiting what he can do online."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Sentence, crimes and the judge's quote confirmed by AFP (republished by AM800, 23 Nov) and by GadgetReview (which quotes the BBC and the CPS). The crimes admitted come from the CPS statement of 16 Nov. The five-year order comes from the BBC (cited, not opened). The sources differ on the cost of the attack on Rockstar ($1.5 million according to the judge, quoted by AFP; around $5 million according to the BBC), so we do not give a figure. We do not name the convicted man as an editorial rule, although his name was released by the court."
+   },
+   "fontes": [
+    {
+     "nome": "AFP via AM800 – «U.K. Grand Theft Auto VI hacker gets 7-year sentence» (23 Nov)",
+     "url": "https://www.am800cklw.com/news/uk-grand-theft-auto-vi-hacker-gets-7-year-sentence/"
+    },
+    {
+     "nome": "GadgetReview – «GTA VI Hacker Sentenced to Seven Years, Released Same Day» (23 Nov)",
+     "url": "https://gadgetreview.com/gta-vi-hacker-sentenced-to-seven-years-released-same-day"
+    },
+    {
+     "nome": "Crown Prosecution Service – statement on the guilty pleas (16 Nov)",
+     "url": "https://www.cps.gov.uk/node/30563"
+    },
+    {
+     "nome": "Computing – «GTA VI and crypto hackers face prison» (19 Nov)",
+     "url": "https://www.computing.co.uk/news/2026/security/gta-vi-and-crypto-hackers-face-prison"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Guterres gives the world a year to agree common rules against the risks of AI, with independent oversight",
+   "estado": "Appeal by the UN Secretary-General on Monday, in Barbados · a proposal, with no agreement between countries",
+   "data": "2026-11-23",
+   "texto": [
+    "One year to set up global rules for artificial intelligence. That is the deadline António Guterres, the UN Secretary-General, proposed on Monday 23 November at the close of the Special Summit on AI Safety in Bridgetown, the capital of Barbados. He asked countries for a multilateral framework to manage the risks of AI, with independent oversight, according to AFP and the Chinese news agency Xinhua.",
+    "Where to start? Guterres suggested three starting points: shared safety measures, a testing regime for the most powerful systems and minimum requirements for those who oversee them. He also called for more transparency about serious incidents and «near misses», so that countries can learn from each other. And he said international institutions still reflect the world of 1945.",
+    "The summit ended with the «Bridgetown Call», which asks governments, companies and foundations for more investment in AI in the countries of the Global South — including shared regional pools of computing capacity. Barbados's Prime Minister, Mia Mottley, argued that every country should be able to build, test and use AI on its own terms.",
+    "What we don't know yet. Guterres is at the end of his term, and his successor takes office in the new year. The sources we consulted do not say which countries support the proposal, and AFP points out that the rivalry between the US and China makes an agreement difficult. For now, it is an appeal — not a commitment."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Guterres's statements, the one-year deadline and the three starting points come from AFP (via CP24, 23 Nov); Xinhua (24 Nov) confirms the appeal and describes the «Bridgetown Call» and Mia Mottley's words. France 24 also reported it (seen in search results; we could not open it). We did not find the full text of the speech or the list of countries present."
+   },
+   "fontes": [
+    {
+     "nome": "CP24 (AFP) – «UN chief calls for AI risk management framework within a year» (23 Nov)",
+     "url": "https://www.cp24.com/news/world/2026/11/23/un-chief-calls-for-ai-risk-management-framework-within-a-year/"
+    },
+    {
+     "nome": "Xinhua – «Guterres calls for multilateral framework to manage AI risks worldwide» (24 Nov)",
+     "url": "https://english.news.cn/20261124/177e46ae687e41c6afc2dbb62eb99dcd/c.html"
+    },
+    {
+     "nome": "France 24 – «'Maintain control': UN chief calls for creation of global AI safety framework within a year» (23 Nov; seen in search results)",
+     "url": "https://www.france24.com/en/americas/20261123-un-chief-antonio-guterres-calls-for-global-ai-safety-framework-within-a-year"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Two US states sue SpaceX over the fake sexual images created by Grok",
+   "estado": "Lawsuits filed by Virginia and Oregon · allegations yet to be proven in court · no public response from SpaceX",
+   "data": "2026-11-23",
+   "texto": [
+    "Virginia and Oregon have taken SpaceX to court over Grok, Elon Musk's AI assistant. The attorneys general of the two US states, Jay Jones and Dan Rayfield, announced separate lawsuits on Monday 23 November over the fake sexual images («deepfakes») of real people, including children, that the tool allowed users to create. SpaceX bought xAI, the company that made Grok, in February, according to The Hill.",
+    "What are they accused of? The states are invoking consumer protection laws. They say the company and Musk did not stop the feature that «undressed» people in photos, even after it was known to be used that way, and that they misled the public about the safeguards. One of the points cited is Grok Imagine's «spicy mode», which allegedly allowed nudity to be generated. «Time and again, xAI and X told consumers they were protected. That was false», said Jones, quoted by CyberScoop.",
+    "What are they asking for? That the court bar the company from advertising or profiting from these capabilities, that victims be compensated and that fines be imposed. The allegations still have to be proven. SpaceX did not respond to requests for comment; earlier, the X Safety account had said that sexual content involving minors «has no place» on X or Grok and that safeguards had been strengthened.",
+    "Why does this matter? It is another front for Musk: the company already faces a class action from victims and an investigation into X by the British regulator Ofcom. A study by the Center for Countering Digital Hate, quoted by The Hill, counted around 3 million sexualised images posted by the Grok account between 29 December and 8 January."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The lawsuits, the allegations, the demands and Jones's quote come from CyberScoop (23 Nov); The Hill (23 Nov) confirms the lawsuits, SpaceX's purchase of xAI in February, X Safety's response and the CCDH study (which The Hill calls the «Center for Countering Digital Harm»). CNBC also reported it (seen in search results; we could not open it). The courts where the lawsuits were filed are not given in the sources we consulted."
+   },
+   "fontes": [
+    {
+     "nome": "CyberScoop – «Virginia, Oregon hit SpaceX with fresh lawsuits over Grok-created CSAM» (23 Nov)",
+     "url": "https://cyberscoop.com/virginia-oregon-sue-spacex-grok-deepfakes/"
+    },
+    {
+     "nome": "The Hill – «Virginia, Oregon sue SpaceX over AI deepfake porn, child sexual abuse material» (23 Nov)",
+     "url": "https://thehill.com/regulation/court-battles/6237551-virginia-oregon-lawsuit-spacex-ai/amp/"
+    },
+    {
+     "nome": "CNBC – «SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims» (23 Nov; seen in search results)",
+     "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "World's largest trial of AI in breast cancer screening begins in the UK: 700,000 women over three years",
+   "estado": "Clinical trial began on Monday in Cambridge · results only in years' time · benefits yet to be proven",
+   "data": "2026-11-23",
+   "texto": [
+    "The world's largest study of AI in breast cancer screening has begun in the UK. It is called EDITH, and the first invitations went out on Monday 23 November at Cambridge University Hospitals. Over three years, almost 700,000 women attending routine mammograms on the NHS will be invited to take part, at 30 sites.",
+    "What do they want to find out? Two things. First, whether AI helps detect cancers earlier, by flagging areas of the mammogram where a tumour might be missed. Second, whether many mammograms can be read by a single radiologist, instead of the two required today, just as safely. Four AI systems will be tested.",
+    "The machines do not decide on their own. Every mammogram will still be seen by at least one specialist, and clinical decisions stay with the doctors. The invitation letters explain how to opt out. The study costs £10 million, paid by the Government through the National Institute for Health and Care Research (NIHR), and is led by the universities of Warwick and Cambridge.",
+    "Why does this matter? Around 55,000 breast cancers are diagnosed in the UK each year, and there is a shortage of radiologists. If AI proves at least as safe as the current method, it could free up specialists and shorten waits — but, for now, none of this has been shown."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Dates, number of participants, sites, funding and safety rules come from the University of Warwick's press release (via EuropaWire, 23 Nov) and are confirmed by TechTimes UK (23 Nov), which also stresses that the benefits have not yet been proven. The names of the four AI systems are not given in the sources we consulted. We could not open the Nursing in Practice article."
+   },
+   "fontes": [
+    {
+     "nome": "EuropaWire (University of Warwick press release) – «University of Warwick-Led £10m EDITH Study Starts Recruiting Women for AI Breast Screening Trial» (23 Nov)",
+     "url": "https://news.europawire.eu/university-of-warwick-led-10m-edith-study-starts-recruiting-women-for-ai-breast-screening-trial/eu-press-release/2026/11/23/12/23/07/189195/"
+    },
+    {
+     "nome": "TechTimes UK – «700,000 Women Could Benefit From NHS Trial Bringing AI Into Breast Cancer Screening» (23 Nov)",
+     "url": "https://www.techtimes.co.uk/nhs-ai-breast-cancer-screening-trial-edith-1810223"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "U-turn at Nvidia: Jensen Huang is chief executive again and the shares jump more than 30% in a day",
+   "estado": "Decision announced by Nvidia · Trump says he convinced the board · internal investigation continues",
+   "data": "2026-11-23",
+   "texto": [
+    "Jensen Huang is back. The board of Nvidia, the biggest maker of AI chips, voted unanimously on Monday 23 November to reinstate the founder as chief executive and board director, with immediate effect. It is a U-turn: over the weekend, the board was saying it would not reinstate him. Huang had left this month after admitting a relationship with a former executive of a customer in Singapore, who the New York Times says was in contact with Chinese intelligence services.",
+    "Why now? Nvidia says it was satisfied with Huang's candour and that, after hearing from senior US government officials, it concluded that his return poses no national security risk. Donald Trump told CNBC that he «convinced» the board, and a White House spokeswoman said the President was «fully involved» in the decision, according to Yahoo Finance. Colette Kress, who had been interim chief executive, goes back to being chief financial officer only.",
+    "The stock market reacted strongly. Nvidia shares rose more than 30% during the session, still below their value before the controversy, and lifted the whole market: the tech-heavy Nasdaq index was up nearly 7% at one point. The week before, Nvidia had lost more than 20%.",
+    "What remains open? A committee of independent directors is still investigating whether Huang was targeted by foreign espionage, with his support. The company has also set up a committee for national security and export controls and is looking for a chief compliance officer. In Congress, Democrats Chuck Schumer and Elizabeth Warren promise to keep asking questions. There has been no news on the stock market regulator's investigation into the company's accounts, reported last week."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Decision, reasons, committees and Colette Kress's role confirmed in Nvidia's press release filed with the SEC and by Fox Business (23 Nov). The statements by Trump and the White House and the reactions in Congress come from Yahoo Finance (live updates page). The rises in the shares and the Nasdaq are intraday figures (Yahoo Finance); Techmeme and Reuters (cited) report a close of around +31%, which we have not confirmed directly. The link to Chinese intelligence services is a New York Times report (cited in yesterday's edition), not an official finding."
+   },
+   "fontes": [
+    {
+     "nome": "Nvidia – «NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director», attached to the 8-K filed with the SEC (23 Nov)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+     "nome": "Fox Business – «Nvidia reinstates Jensen Huang as CEO effective immediately following US government input» (23 Nov)",
+     "url": "https://www.foxbusiness.com/markets/nvidia-reinstates-jensen-huang-ceo"
+    },
+    {
+     "nome": "Yahoo Finance – «Nvidia live updates: Jensen Huang reinstated as CEO, Trump says he convinced board» (23 Nov)",
+     "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-he-convinced-board-165423793.html"
+    },
+    {
+     "nome": "Yahoo Finance – «Nvidia Shares Surge Over 30% as Board Reinstates Jensen Huang as CEO» (23 Nov)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-surge-over-30-183222460.html"
+    },
+    {
+     "nome": "Reuters – «Nvidia reinstates Jensen Huang as CEO» (cited)",
+     "url": "https://www.reuters.com/3fec1b0a85a0/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Mozilla, Shopify and thousands of European companies ask Brussels to force Apple to open up iPhone browsers",
+   "estado": "Open letter sent to the European Commission · request for formal proceedings · Commission has not yet replied",
+   "data": "2026-11-23",
+   "texto": [
+    "If you use Firefox or Chrome on an iPhone, you are in practice using Apple's engine. A coalition of European companies and organisations sent an open letter on Monday 23 November to the President of the European Commission, Ursula von der Leyen, asking her to open formal proceedings against Apple. The signatories, including Mozilla, Shopify, the Vivaldi browser and the accelerator Y Combinator, say they represent between 45,000 and 55,000 companies and organisations in the EU.",
+    "What is the complaint? Since March 2024, the EU's Digital Markets Act (DMA) has required Apple to let other browsers use their own engine, the component that displays pages and decides what websites can do. According to Open Web Advocacy, which organised the letter, more than two and a half years later no browser has managed to move its European users from WebKit, Apple's engine, to its own. Mozilla explained that, to use its engine on iOS, it would have to launch a new Firefox app, and users would have to move their bookmarks, passwords and history over by hand.",
+    "Why does this matter? The signatories say these rules prevent web apps from competing with those in the App Store, where Apple charges commission. Apple replies that it requires rival engines to meet privacy and security standards, such as fixing flaws quickly, to protect users. The coalition, which includes newspaper publishers and digital rights groups, stresses that it is not asking for new laws: only for the Commission to enforce the one that already exists."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Confirmed by Open Web Advocacy, which published the letter (23 Nov), and by MacRumors (23 Nov), which also quotes Mozilla's statement of 20 Nov and Apple's general position. We did not find a response to the letter from Apple or the Commission. The reference to App Store commissions is our own context. The number of companies represented is the signatories' own estimate."
+   },
+   "fontes": [
+    {
+     "nome": "Open Web Advocacy – «Europe Rallies for a Free and Competitive Web on iOS» (23 Nov)",
+     "url": "https://open-web-advocacy.org/blog/europe-rallies-for-a-free-and-competitive-web-on-ios/"
+    },
+    {
+     "nome": "MacRumors – «Coalition of 55,000 EU Businesses Challenges Apple» (23 Nov)",
+     "url": "https://www.macrumors.com/2026/11/23/coalition-of-eu-businesses-challenges-apple/"
+    },
+    {
+     "nome": "AppleInsider – «Coalition representing thousands urges EU to challenge Apple's grip on iPhone browsers» (cited)",
+     "url": "https://appleinsider.com/articles/26/11/23/eu-urges-to-challenge-apples-grip-on-iphone-browsers"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "The war reaches Libya: Ukraine says it sank one of Russia's newest corvettes in the port of Benghazi",
+   "estado": "Ukrainian claim · serious damage confirmed by Libyan officials · Moscow has not acknowledged the loss",
+   "data": "2026-11-22",
+   "texto": [
+    "Ukraine's war turned up some 1,700 kilometres from the front line. In the early hours of Sunday 22 November, naval drones attacked Russian ships at the naval base in Benghazi, in eastern Libya. President Volodymyr Zelensky claimed the attack and says the Russian corvette Merkury, in service since 2023, was sunk. On Monday, Ukraine's security service (SBU) said it had carried out the operation.",
+    "According to Kyiv, seven Ukrainian-made naval drones were used, carried to the area by a larger vessel, a kind of «mothership», according to the SBU as quoted by CNN Portugal. As well as the corvette, a Ka-27 military helicopter that was on board was reportedly destroyed, and the cargo ship Angara, which is under Western sanctions and which Ukraine accuses of carrying weapons, was hit. It is not known how badly the cargo ship was damaged, nor whether there were casualties. Residents heard explosions and saw fire at the base; two Libyan officials told AP that the corvette was badly damaged.",
+    "And the reactions? The Kremlin said only that it had «taken note» of Zelensky's statements and referred questions to the Defence Ministry; Moscow has not acknowledged the loss of the ship, according to the Kyiv Post. Libya's UN-recognised government, in Tripoli, condemned the operation and asked Kyiv for an explanation. The authorities in the east, allied with Russia, say the corvette was in Benghazi to refuel, under a military agreement. The UN mission in Libya called for an independent investigation and warned that the country «cannot become a battleground for foreign conflicts».",
+    "Why does this matter? Since the fall of Assad in Syria in 2024, Russia has been trying to strengthen its military presence in Libya. Zelensky promises that Ukrainian naval operations «will continue». The day before, a sanctioned Russian cargo ship, the Sparta II, had been disabled in the Gulf of Finland; the Finnish authorities say Ukraine is the likely culprit."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The attack, Zelensky's claim and the UN mission's position are confirmed by AP (via CBS News, 23 Nov) and by the Kyiv Post (with AFP, 23 Nov); CNN Portugal describes the «mothership» method based on the SBU's account. The sinking of the Merkury, the destroyed helicopter and the Angara's cargo of weapons are Ukrainian claims, not independently verified; the Libyan officials speak of serious damage. There is no information on casualties. CNBC, NBC and CBC also reported the case (seen only in search results)."
+   },
+   "fontes": [
+    {
+     "nome": "AP via CBS News – «Ukraine sinks Russian warship Merkury off Libya, damages sanctioned Russian cargo ship» (23 Nov)",
+     "url": "https://www.cbsnews.com/news/ukraine-zelenskyy-2-russian-ships-libya/"
+    },
+    {
+     "nome": "Kyiv Post – «Zelensky Vows More Naval Strikes After Ukrainian Drones Sink One of Russia's Newest Warships in Libya» (23 Nov)",
+     "url": "https://www.kyivpost.com/post/90991"
+    },
+    {
+     "nome": "CNN Portugal – «Transportaram sete drones até um \"navio-mãe\"…: como a Ucrânia afundou uma das corvetas mais recentes da Rússia ao largo da Líbia» («They carried seven drones to a \"mothership\"…: how Ukraine sank one of Russia's newest corvettes off Libya») (23 Nov)",
+     "url": "https://cnnportugal.iol.pt/ucrania/guerra-na-ucrania/transportaram-sete-drones-ate-um-navio-mae-e-lancaram-nos-debaixo-de-agua-como-a-ucrania-afundou-uma-das-corvetas-mais-recentes-da-russia-ao-largo-da-libia/20261123/6b040a5e0cf2c0fc744b7321"
+    },
+    {
+     "nome": "CNBC – «Russian warship sinks at Libya port, as Zelenskyy hails operation» (cited; not opened)",
+     "url": "https://www.cnbc.com/2026/11/23/ukraine-russia-warship-libya.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Russian Navy Corvette Merkury.jpg",
+    "tipo": "arquivo",
+    "alt": "The Russian corvette Merkury, a grey warship, at sea",
+    "legenda": "The corvette Merkury of the Russian Navy (file image; does not show the attack in Benghazi)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Trump threatens to strike Iran again next year if talks fail; Tehran vows to use «every means» against the naval blockade",
+   "estado": "Statements from both sides · US blockade still in place · only indirect talks, with Qatar mediating",
+   "data": "2026-11-23",
+   "texto": [
+    "Tension between the US and Iran is rising again. In an interview with Fox News on Sunday 22 November, President Donald Trump said he could resume the war against Iran next year if the talks go nowhere, according to Bloomberg. On Monday, Tehran hit back: it will use «every means» against the American naval blockade of its ports, said Iran's foreign ministry spokesman, Esmaeil Baghaei, quoted by Euronews.",
+    "Trump didn't mince his words. He called the Iranian negotiators «professional tap dancers» for dragging the talks out, and said he hoped Iranian ships would try to break the blockade, because in that case they would «end up at the bottom of the sea». He also claimed that over the past week Iran had fired more drones and missiles than it had in a long time, and that all of them were shot down. According to Euronews, he also declared the memorandum of understanding signed in Islamabad dead.",
+    "On the Iranian side, Revolutionary Guard commanders say the range of their missiles has increased and that any threat will be met with an immediate response. Foreign Minister Abbas Araghchi insists that the Strait of Hormuz — through which a large share of the Gulf's oil passes — could reopen shortly after the US does its part: lifting sanctions, ending the blockade and honouring the Islamabad memorandum. The UK maritime agency UKMTO confirmed on Sunday an incident involving an oil tanker in the Gulf of Oman, with military forces involved, without saying whose.",
+    "And diplomacy? There are no formal negotiations, only indirect talks with Qatar as mediator. A Qatari delegation was in Tehran, and Qatar's prime minister was due to meet US Secretary of State Marco Rubio on Monday. The positions remain far apart: Washington wants tighter limits on the nuclear programme; Tehran says its enriched uranium will not leave the country under any deal. Meanwhile, the blockade is deepening Iran's economic crisis, with inflation close to 90%, according to Bloomberg."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Trump's statements come from Bloomberg (via Military.com, 23 Nov) and Euronews (23 Nov); the Iranian reactions from Euronews and CBS News (live blog, 23 Nov). The sources disagree on Araghchi's timeframe for reopening Hormuz (Euronews: two hours; CBS: two days), so we give no figure. Nor do they agree on Trump's comparison about the past week's attacks. We could not confirm whether the meeting between Qatar's prime minister and Rubio took place, or its outcome. The claim that all the drones and missiles were shot down is Trump's."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews – «Iran vows 'every means' to counter US blockade of Hormuz after Trump threat» (23 Nov)",
+     "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat"
+    },
+    {
+     "nome": "Bloomberg via Military.com – «Trump Suggests Iran Strikes Will Resume Next Year if Talks Fail» (23 Nov)",
+     "url": "https://www.military.com/trump-suggests-iran-strikes-will-resume-next-year-if-talks-fail"
+    },
+    {
+     "nome": "CBS News – «Live Updates: Iran says it will use all means to end U.S. blockade as Trump plays down escalating attacks» (23 Nov)",
+     "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/"
+    }
+   ],
+   "imagem": {
+    "commons": "The Eisenhower Carrier Strike Group Transits the Strait of Hormuz (8170044).jpg",
+    "tipo": "arquivo",
+    "alt": "US warships in line crossing the Strait of Hormuz",
+    "legenda": "US Navy ships crossing the Strait of Hormuz (archive image; does not show the current blockade)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "NATO answers Poland with an AWACS surveillance plane after the Russian missiles; other requests wait until next week",
+   "estado": "Decision confirmed by Poland · other requests (F-35s, air defence) still under review · not an activation of collective defence",
+   "data": "2026-11-23",
+   "texto": [
+    "NATO is to make an AWACS airborne surveillance and early-warning plane available to Poland. The decision came out of the extraordinary meeting of the 32 allies' ambassadors in Brussels on Monday 23 November, called after three Russian Kh-101 cruise missiles came down on Polish territory on Friday. It was announced by Poland's deputy defence minister, Paweł Zalewski: «The decision has been confirmed», he said, quoted by the Polish news agency PAP.",
+    "What is an AWACS for? It is a plane with a large rotating radar on its back, which sees a very long way and helps detect low-flying targets — exactly the kind of threat that ground radars struggle to track. Zalewski says it will give Poland «deeper operational awareness» and that some of Warsaw's proposals received a «very positive» response. But he added: «This is not about escalation.»",
+    "The rest will come later. Poland's other requests — F-35 fighter jets and more air-defence batteries — will be discussed next week; NATO has a meeting of foreign ministers scheduled for 2 December. Prosecutors in Lublin found missile debris at three sites: Nowy Lipowiec, Rudnik and Mołodycz. No one was hurt. NATO Secretary General Mark Rutte called it a «dangerous» incident, but says it is still being assessed whether the missiles' incursion was intentional.",
+    "Meanwhile, Polish diplomats will summon the Russian ambassador once the military and the security services have completed their procedures, according to spokesman Maciej Wewiór. Moscow has not acknowledged the incursion."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The AWACS decision and Zalewski's quotes come from PAP (via Radio PiK, 23 Nov) and Polsat News (23 Nov); TVP World also reported it. The date of the ministers' meeting (2 Dec) is from NATO's media advisory; PAP says the Polish proposals will be discussed at that meeting «next week», but it is not clear whether that will be on 2 December or at another meeting. We found no official NATO statement on the decision. The explanation of what an AWACS is is our own general summary."
+   },
+   "fontes": [
+    {
+     "nome": "PAP via Radio PiK – «NATO: Polską obronę wzmocni samolot wczesnego ostrzegania AWACS» (23 Nov)",
+     "url": "https://www.radiopik.pl/3,143965,nato-polska-obrone-wzmocni-samolot-wczesnego-ost"
+    },
+    {
+     "nome": "Polsat News – «Rada Północnoatlantycka w Brukseli. Wiceminister deklaruje» (23 Nov)",
+     "url": "https://www.polsatnews.pl/wiadomosc/2026-11-23/rada-polnocnoatlantycka-w-brukseli-wiceminister-deklaruje/"
+    },
+    {
+     "nome": "TVP World – «NATO to deploy early-warning aircraft to Poland following Russian missile incidents» (23 Nov)",
+     "url": "https://tvpworld.com/96644624/poland-nato-to-deploy-awacs-after-kh-101-missile-incidents"
+    },
+    {
+     "nome": "NATO – Media advisory: meeting of foreign ministers (2 Dec)",
+     "url": "https://www.nato.int/en/news-and-events/events/media-advisories/2026/11/13/meeting-of-nato-ministers-of-foreign-affairs"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Costa brings EU leaders a budget 10% smaller; France, Germany and Sweden object, each for their own reasons",
+   "estado": "Proposal under negotiation · extraordinary summit Thursday and Friday, 26–27 Nov · decision requires unanimity of all 27",
+   "data": "2026-11-23",
+   "texto": [
+    "Leaders of the 27 meet in Brussels on Thursday and Friday, 26 and 27 November, at an extraordinary summit to try to settle the European Union's budget for 2028–2034. On the table is the proposal from the President of the European Council, António Costa, presented on Saturday: €1,582 billion (at 2025 prices), 10% less than the European Commission had proposed, according to Lusa, the Portuguese news agency.",
+    "Where are the cuts? External action — the money the EU spends beyond its borders — loses 21%. Competitiveness and security lose 16%. Cohesion and agriculture, the most important slices for Portugal, lose 5%. Support for Ukraine is kept: up to €100 billion at current prices, according to the Kyiv Post. The proposal also includes new own resources for the EU, such as a levy on non-recycled packaging waste and another on digital services.",
+    "Nobody is happy, and for opposite reasons. France thinks there is too little money, especially for agriculture, and says the proposal «is not a basis for an agreement». Germany and Sweden think the budget is still too big; Chancellor Friedrich Merz called it «a first step». The European Commission regretted the «substantial cuts», and in the European Parliament the Socialist MEP Carla Tavares warned that less money for cohesion could put essential investment at risk.",
+    "The aim is to reach a deal by the end of the year. At the same summit, leaders are also expected to discuss funding for Ukraine in 2027: last week the Commission proposed a new €45 billion loan, according to AP."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The figures in the proposal and the reactions of France, Germany, Sweden and Carla Tavares come from Lusa (via DN, 21 Nov); the Commission's reaction from Lusa (via DNoticias, 23 Nov). The 10% cut and the support for Ukraine are confirmed by the Kyiv Post (21 Nov) and by New Union Post. The figures differ depending on whether 2025 prices (€1,582 billion) or current prices (€1,781 billion) are used. The €45 billion loan proposal comes from AP (via ABC News, 18 Nov). Costa's invitation letter for the summit was published today on the Council's website, but we could not open it; the dates are confirmed by Lusa and Eunews. We have not checked the proposal's impact on Portugal."
+   },
+   "fontes": [
+    {
+     "nome": "Lusa via DN – «França, Alemanha e Suécia criticam proposta de orçamento de António Costa para a UE» (21 Nov)",
+     "url": "https://www.dn.pt/economia/frana-alemanha-e-sucia-criticam-proposta-de-oramento-de-antnio-costa-para-a-ue"
+    },
+    {
+     "nome": "Lusa via DNoticias – «Bruxelas lamenta \"cortes substanciais\" em proposta orçamental de Costa» (23 Nov)",
+     "url": "https://www.dnoticias.pt/2026/11/23/514022-bruxelas-lamenta-cortes-substanciais-em-proposta-orcamental-de-costa/"
+    },
+    {
+     "nome": "Kyiv Post – «Antonio Costa Proposes €1.78T EU Budget for 2028-2034, Preserves €100B for Ukraine» (21 Nov)",
+     "url": "https://www.kyivpost.com/post/90817"
+    },
+    {
+     "nome": "AP via ABC News – «EU proposes fresh $49 billion loan for Ukraine as war costs mount» (18 Nov)",
+     "url": "https://abcnews.com/International/wireStory/eu-proposes-fresh-49-billion-loan-ukraine-war-138249084"
+    },
+    {
+     "nome": "Council of the EU – António Costa's invitation letter for the extraordinary European Council of 26–27 Nov (cited; not opened)",
+     "url": "https://www.consilium.europa.eu/fr/press/press-releases/2026/11/24/special-european-council-of-26-27-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "2027 Budget goes to the vote today with approval all but guaranteed: PS abstains, Chega votes against",
+   "estado": "Final vote expected this afternoon · PS has announced it will abstain · 343 amendments approved at committee stage (fact)",
+   "data": "2026-11-24",
+   "texto": [
+    "Decision day has arrived for the 2027 State Budget. The final overall vote is scheduled for this Tuesday, 24 November, in the afternoon plenary session of the Assembleia da República, Portugal's parliament, due to start at 14:30 Lisbon time, according to RTP, the public broadcaster. Approval is taken for granted: the PS (Socialist Party) has announced it will abstain, as it did at the first reading, which means the votes of the PSD and CDS, the governing parties, are enough to pass it. Chega votes against, André Ventura confirmed the day before in an interview with TVI/CNN Portugal.",
+    "The marathon of article-by-article votes (the so-called committee stage) only ended after midnight: at 00:05 this Tuesday, with 134 proposals approved on the last day alone. In all, the parties tabled around 2,900 amendments — a record number — and 343 passed. The PS got the most approved (108), followed by PSD/CDS (70) and Chega (57), according to the count cited by RTP.",
+    "The Budget going to the vote is no longer quite the one the Government submitted. Among the changes approved against the executive's wishes, nearly always with PS and Chega votes: zero VAT on a basket of foods from 1 January to 31 March 2027 (paid for by ending the reduced 10% income tax rate for landlords charging moderate rents), university tuition fees frozen for 2027-2028, PSP and GNR (police and national guard) allowances linked to inflation, and any bonus for pensioners turned into a permanent increase. Also approved were a public guarantee for landlords when rent goes unpaid and an extension of the State guarantee to young people building their first home.",
+    "The tone has risen over the past few days. Finance Minister Joaquim Miranda Sarmento accused the PS and Chega of forming a «fatal bloc»; both parties reject the idea. José Luís Carneiro, the PS leader, says the Budget remains «structurally equivalent» in spending and revenue. The President of the Republic, António José Seguro, said he expected «an approved Budget». The result will only be known in the afternoon, after this edition's closing time."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Scheduled time (14:30), end of the votes at 00:05, 134 approvals on the last day, 343 in total and the breakdown by party according to RTP (special page on the final vote, 24 Nov, 07:55). The PS abstention and Chega's vote against confirmed by RTP and DN (Lusa dispatch of 24 Nov). List of amendments confirmed by Euronews (24 Nov), which gives 343 out of 2,864 proposals. Statements by Sarmento, Carneiro and Seguro according to RTP. The vote had not yet taken place at closing time: the result and the votes of IL, BE, PCP, Livre, PAN and JPP were not confirmed in the sources consulted."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – Orçamento do Estado para 2027 submetido a votação final global no Parlamento (24 Nov)",
+     "url": "https://www.rtp.pt/noticias/economia/orcamento-do-estado-para-2027-submetido-a-votacao-final-global-no-parlamento_e1781227"
+    },
+    {
+     "nome": "DN/Lusa – OE2027. Proposta aprovada esta terça-feira em votação final global após várias alterações à revelia do Governo (24 Nov)",
+     "url": "https://www.dn.pt/pol%C3%ADtica/oe2027-proposta-aprovada-esta-tera-feira-em-votao-final-global-aps-vrias-alteraes-revelia-do-governo"
+    },
+    {
+     "nome": "Euronews – Há um novo OE2027? Principais alterações aprovadas mexem na habitação, pensões, alimentação e propinas (24 Nov)",
+     "url": "https://pt.euronews.com/2026/11/24/ha-um-novo-oe2027-principais-alteracoes-aprovadas-mexem-na-habitacao-pensoes-alimentacao-e"
+    },
+    {
+     "nome": "RTP – OE2027. Governo acusa Chega e PS de criarem «bloco fatal» (headline only, seen in search results)",
+     "url": "https://rtp.pt/noticias/economia/oe2027-governo-acusa-chega-e-ps-de-criarem-bloco-fatal-e-de-estarem-empenhados-que-pais-tenha-defice_n1780477"
+    }
+   ],
+   "imagem": {
+    "commons": "Palácio de São Bento (Assemblée nationale) (9307363528).jpg",
+    "tipo": "arquivo",
+    "alt": "The Palácio de São Bento in Lisbon, home of the Assembleia da República",
+    "legenda": "The Palácio de São Bento, seat of the Assembleia da República, in Lisbon (archive image; does not show the Budget vote)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "A day of strikes: almost 60% of trains cancelled by 7am and protests planned outside Parliament",
+   "estado": "CP figures up to 07:00 (fact) · national strike and rallies called · turnout in schools and hospitals not yet known",
+   "data": "2026-11-24",
+   "texto": [
+    "Tuesday morning, 24 November, began with few trains. On the first of two days of a full strike by train drivers at CP, Portugal's state railway, 86 of the 145 trains scheduled between midnight and 07:00 did not run — 59.3%, according to CP's status update quoted by Lusa. The other 59 ran under the minimum services set by an arbitration tribunal.",
+    "The figures by service: on the Lisbon commuter lines only 22 of 63 trains ran; on the Porto commuter lines half of the 30 were cancelled; on regional services 22 of 41 were cancelled; on long-distance services 1 of 6 ran; and on the Coimbra commuter lines, 2 of 5. The stoppage is also total on Wednesday, the 25th. On Monday and Thursday the strike is partial, and the strike notice runs until midnight on Friday, the 27th. Ticket holders can ask for a full refund or switch at no cost to another train of the same category and class.",
+    "There is also a national strike in several sectors today. It was called by S.T.O.P. (education workers), SITEU (nurses), STGSSP (large retailers and commerce) and the MUDAR bancários movement (bank workers), who say the Budget does not halt the loss of purchasing power and that the planned pay rises fall short of inflation. There is a rally outside the Assembleia da República from 10:00, and the CGTP, the largest trade union confederation, has called another near Parliament on the same day. According to RTP, housing rights activists have pitched tents in front of the building.",
+    "Still to be known: there are as yet no turnout figures for schools, hospitals and shops, nor any information on minimum services for the national strike in the sources consulted."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Figures up to 07:00 according to CP's status update, released by Lusa and published by DN and Correio da Manhã (24 Nov); Renascença gives «almost 60%» in its headline (page not opened). CP strike calendar according to ECO (23 Nov); refunds according to DN/Lusa. National strike and rallies confirmed by Observador and Jornal Económico (24 Nov), both apparently based on the same Lusa information. Time of the CGTP rally not confirmed. Activists' tents according to RTP. Turnout for the national strike and minimum services not confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "DN/Lusa – Greve dos maquinistas faz parar mais de metade dos comboios previstos até às sete horas da manhã (24 Nov)",
+     "url": "https://www.dn.pt/sociedade/greve-dos-maquinistas-faz-parar-mais-de-metade-dos-comboios-previstos-at-s-sete-horas-da-manh"
+    },
+    {
+     "nome": "Correio da Manhã – Greve dos maquinistas da CP faz parar mais de metade dos comboios previstos até às 07h00 (24 Nov)",
+     "url": "https://www.cmjornal.pt/sociedade/detalhe/greve-dos-maquinistas-da-cp-faz-parar-mais-de-metade-dos-comboios-previstos-ate-as-07h00"
+    },
+    {
+     "nome": "Renascença – Greve nos comboios. Quase 60% das viagens suprimidas até às 07h00 (24 Nov; headline only, seen in search results)",
+     "url": "https://rr.pt/noticia/pais/2026/11/24/greve-nos-comboios-quase-60-das-viagens-suprimidas-ate-as-07h00/494849/"
+    },
+    {
+     "nome": "ECO – Semana de greve dos maquinistas da CP arranca com supressões de comboios (23 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/23/semana-de-greve-dos-maquinistas-da-cp-arranca-com-supressoes-de-comboios/"
+    },
+    {
+     "nome": "Observador – OE2027: trabalhadores da saúde, educação e comércio esta terça-feira em greve (24 Nov)",
+     "url": "https://observador.pt/2026/11/24/oe2027-trabalhadores-da-saude-educacao-e-comercio-esta-terca-feira-em-greve/"
+    },
+    {
+     "nome": "Jornal Económico – OE2027: Trabalhadores da saúde, educação e comércio hoje em greve (24 Nov)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/oe2027-trabalhadores-da-saude-educacao-e-comercio-hoje-em-greve/"
+    },
+    {
+     "nome": "RTP – Orçamento do Estado para 2027 submetido a votação final global no Parlamento (24 Nov)",
+     "url": "https://www.rtp.pt/noticias/economia/orcamento-do-estado-para-2027-submetido-a-votacao-final-global-no-parlamento_e1781227"
+    }
+   ],
+   "imagem": {
+    "commons": "CP 2300-2400, Lisboa-Oriente. 01-20 (01).jpg",
+    "tipo": "ilustrativa",
+    "alt": "A CP commuter train, from the 2300/2400 series, at Lisboa-Oriente station",
+    "legenda": "A CP commuter train at Lisboa-Oriente station (illustrative image; not taken during the strike)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Around 80 researchers accuse the Government of breaking promises and putting the future of science at risk",
+   "estado": "Open letter (the signatories' position) · Government has not responded directly in the sources consulted",
+   "data": "2026-11-23",
+   "texto": [
+    "Around 80 researchers and heads of universities and research centres have signed an open letter, released on Monday 23 November, accusing the Ministry of Education, Science and Innovation of breaking commitments and jeopardising the future of science in Portugal. The letter, «Em defesa da ciência e do futuro do país» (In defence of science and the country's future), was sent to the President of the Republic, the Prime Minister and the parliamentary groups.",
+    "The signatories include political scientist Pedro Magalhães, economist Susana Peralta, political scientist Marina Costa Lobo, researchers Arlindo Oliveira and Helena Freitas and former Socialist ministers Augusto Santos Silva and Maria de Lurdes Rodrigues, as well as researchers from the Champalimaud Foundation, the Instituto Gulbenkian de Medicina Molecular and several universities.",
+    "Their complaints, in short: the end of the Aliança Ciência programme, which paid part of the cost of hiring more than a thousand PhD holders and whose costs, they say, were passed on to the institutions without warning; the cancellation of the second FCT-Tenure call, for permanent posts; and less money in the 2027 Budget for AI2, the new agency merging the FCT (the science funding agency) and ANI (the innovation agency). According to 24 Notícias, the drop is partly explained by the end of the Recovery and Resilience Plan (PRR), but it also includes a 3.9% fall in funding from taxes.",
+    "And the minister? Fernando Alexandre had already said that the current scientific employment programmes are not the most suitable, that Aliança Ciência was approved by the previous Government for one year only, and that FCT-Tenure will be evaluated before deciding what comes next. The signatories want to request meetings and get together to decide on further initiatives."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Content of the letter and its recipients according to Lusa (published by DNoticias, 23 Nov); signatories' names, the 3.9% drop and the minister's earlier positions according to 24 Notícias (23 Nov). The two headlines give the letter slightly different names («Em defesa…» / «Defender a ciência…»). Neither source includes a direct response from the Government to the letter."
+   },
+   "fontes": [
+    {
+     "nome": "DNoticias/Lusa – Investigadores acusam Governo de quebrar compromissos e comprometer futuro da ciência (23 Nov)",
+     "url": "https://www.dnoticias.pt/2026/11/23/513988-investigadores-acusam-governo-de-quebrar-compromissos-e-comprometer-futuro-da-ciencia/"
+    },
+    {
+     "nome": "24 Notícias – «Não é possível confiar nas promessas do ministro». Mais de 80 investigadores contestam política do Governo para ciência (23 Nov)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/nao-e-possivel-confiar-nas-promessas-do-ministro-mais-de-80-investigadores-contestam-politica-do-governo-para-ciencia"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Rain returns today: a cold front crosses the country, with the most in the Minho and waves of up to 4.5 metres tonight",
+   "estado": "Forecasts (IPMA and Meteored) · IPMA yellow warning for rough seas from 21:00",
+   "data": "2026-11-24",
+   "texto": [
+    "After two drier days, the rain is back this Tuesday, 24 November. IPMA, Portugal's weather service, forecasts rain in every district of the mainland, and Meteored describes a cold front crossing the country from north-west to south-east from 06:00, with spells of rain until late morning, at times heavy in the Minho, the Douro Litoral, parts of the central coast and the Lisbon Metropolitan Area.",
+    "In the afternoon the rain should turn to showers and stay mainly in the North and part of the Centre; in the South it should stop by mid-afternoon. The highest totals, 20 to 30 millimetres by the end of the day, are expected in the Minho, with Viana do Castelo, Braga and Porto among the wettest districts, according to Meteored. Highs dip slightly and lows rise, says IPMA.",
+    "At sea, IPMA has a yellow warning for rough seas between 21:00 on Tuesday and midday on Wednesday, the 25th, with north-westerly waves of 4 to 4.5 metres on the Minho coast and also in the districts of Porto, Aveiro, Coimbra and Leiria. The unsettled weather may last until Sunday, the 29th — a forecast several days out, which may change. It is worth keeping an eye on IPMA's warnings, especially after last Saturday's red warning and more than a thousand incidents."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Hourly forecast and rainfall totals according to Meteored (tempo.pt), not IPMA. Rain in every district and the temperature changes attributed to IPMA by Diário do Distrito (23 Nov), which said there were no weather warnings at the time of publication. Yellow warning for rough seas according to O Minho (24 Nov). We were unable to open IPMA's warnings pages and API directly to confirm whether rain warnings have since been issued."
+   },
+   "fontes": [
+    {
+     "nome": "Meteored (tempo.pt) – Até 30 mm de chuva: a partir das 06 horas de terça, 24 de novembro, uma frente cruzará Portugal de noroeste para sudeste",
+     "url": "https://www.tempo.pt/noticias/previsao/ate-30-mm-de-chuva-a-partir-das-06-horas-de-terca-24-de-novembro-uma-frente-cruzara-portugal-de-noroeste-para-sudeste.html"
+    },
+    {
+     "nome": "O Minho – Ondas até 4,5 metros na costa do Minho: IPMA já emitiu aviso amarelo (24 Nov)",
+     "url": "https://ominho.pt/ondas-ate-45-metros-na-costa-do-minho-ipma-ja-emitiu-aviso-amarelo/"
+    },
+    {
+     "nome": "Diário do Distrito – Frente fria chega terça-feira: Setúbal deverá ter chuva de manhã e abertas à tarde (23 Nov)",
+     "url": "https://diariodistrito.sapo.pt/chuva-e-paralisacao-de-comboios-em-setubal-amanha"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "China confirms: Shenzhou-24 leaves tonight with the first foreign astronaut bound for the Chinese space station",
+   "estado": "Launch announced for Wednesday at 00:18 (Lisbon time) · crew revealed today by the Chinese space agency",
+   "data": "2026-11-24",
+   "texto": [
+    "There is now a time and there are names. China's crewed space agency (CMSA) announced this Tuesday, 24 November, that Shenzhou-24 lifts off on Wednesday the 25th at 08:18 Beijing time — 00:18 Lisbon time — from the Jiuquan launch centre in the country's north-west. On board will be Muhammad Zeeshan Ali, from Pakistan: he will be the first foreign astronaut to visit Tiangong, the Chinese space station.",
+    "Who's going? The commander is Tang Hongbo, on his third mission, after Shenzhou-12 and 17. With him are Wu Yi, flight engineer, and Zeeshan Ali, payload specialist, both first-timers. The spacecraft is due to dock with the Tianhe core module about three and a half hours after reaching orbit. The Pakistani astronaut will carry out joint Chinese–Pakistani experiments.",
+    "There is another first. Zeeshan Ali will return to Earth with two Shenzhou-23 crew members, Zhang Zhiyuan and Li Jiaying, who have been on the station since May. The third, Zhu Yangzhu, stays on board for a long-duration experiment: he will be the first Chinese astronaut to spend a year in orbit, according to South Korea's SBS.",
+    "Why does this matter? Until now, only Chinese astronauts had flown on Shenzhou spacecraft. Taking a foreigner is a step towards China opening its station to partners — an alternative to the International Space Station, which is due to be retired early next decade."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date, time, crew, docking and return with Shenzhou-23 come from SBS (24 Nov), which quotes the CMSA press conference; the China-Global South Project, carrying a Reuters report (23–24 Nov), confirms the day, the time (08:18), the rocket and the crew. Zhu Yangzhu's year-long stay is reported by SBS and JKN (24 Nov). The conversion to Lisbon time is ours (Beijing is 8 hours ahead). The ISS retirement date is general context and does not come from these sources. At closing time the launch had not yet taken place."
+   },
+   "fontes": [
+    {
+     "nome": "SBS News – «China to Launch Manned Spacecraft Carrying Pakistani Astronaut Tomorrow... First Foreign Visit to Tiangong» (24 Nov)",
+     "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008861205"
+    },
+    {
+     "nome": "The China-Global South Project (Reuters) – Shenzhou-24 and the Pakistani astronaut (23 Nov)",
+     "url": "https://chinaglobalsouth.com/2026/11/23/china-shenzhou-24-pakistani-astronaut-tiangong/"
+    },
+    {
+     "nome": "JKN – «China Launches Shenzhou 24; First Foreigner to Visit Tiangong Space Station» (24 Nov)",
+     "url": "https://news.jkn.co.kr/editions/english/post/1118821"
+    }
+   ],
+   "imagem": {
+    "commons": "Rear view of Tiangong Space Station.jpg",
+    "tipo": "arquivo",
+    "alt": "The Chinese space station Tiangong in orbit, with its solar panels deployed, seen from behind",
+    "legenda": "The Chinese space station Tiangong in orbit (archive image; does not show the Shenzhou-24 mission)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Ariane 6 delayed: a ground equipment problem halts the launch of 36 Amazon satellites; new attempt today at 10:45",
+   "estado": "Delay confirmed by Arianespace · new attempt today at 10:45 (Lisbon time) · outcome unknown at closing time",
+   "data": "2026-11-24",
+   "texto": [
+    "Ariane 6 did not lift off yesterday as planned. The countdown in Kourou, French Guiana, was halted on Monday 23 November because of a technical problem with the ground support systems, explained Arianespace, the company that operates the European rocket. New attempt: today, Tuesday, in a window between 10:45 and 11:14 Lisbon time.",
+    "The rocket and the 36 satellites for Amazon Leo, Amazon's satellite internet network, are stable and safe, Arianespace says. After the necessary checks, the company set the new date on Monday itself, and ESA also confirmed the delay. If all goes well, the last satellite separates about two hours and four minutes after lift-off.",
+    "Why does this matter? It is Ariane 6's 10th flight and the first launch of Amazon satellites since the American Vulcan rocket failed on 15 November, losing 40. Vulcan is expected to stay grounded during the investigation, and Blue Origin's New Glenn is not expected to fly again until early 2027, according to Spaceflight Now. With this launch, Amazon would have 432 satellites in orbit, far from the 3,232 of the first phase, which it must complete by July 2029."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The reason for the delay, the new window (10:45–11:14 UTC, the same as Lisbon time) and the time until the last separation come from Arianespace's statement; Space.com (updated on 23 Nov) confirms the delay and the new time, and ESA announced it on X (seen in search results). The total of 432 satellites, the 3,232 target and the New Glenn schedule come from Spaceflight Now (23 Nov). Arianespace did not specify which equipment failed. At closing time, the launch had not yet taken place."
+   },
+   "fontes": [
+    {
+     "nome": "Arianespace – «Mission VA271/LE-04: Ariane 6 Launch Rescheduled for November 24, 2026»",
+     "url": "https://www.arianespace.com/news/mission-va271-le-04-ariane-6-launch-rescheduled-for-november-24-2026/"
+    },
+    {
+     "nome": "Space.com – «Ariane 6 rocket launching 36 Amazon Leo satellites to orbit on Nov. 24 after delay: Watch it live» (23 Nov)",
+     "url": "https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch"
+    },
+    {
+     "nome": "Spaceflight Now – «Live coverage: Arianespace to launch Amazon Leo sats amid rocket crunch» (23 Nov)",
+     "url": "https://spaceflightnow.com/2026/11/23/live-coverage-arianespaces-launches-amazon-leo-sats-amid-rocket-crunch/"
+    },
+    {
+     "nome": "ESA on X – «The Ariane 6 #VA271 launch is postponed to no earlier than 24 November» (cited; seen in search results)",
+     "url": "https://x.com/esa/status/2124765401363976335"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Leviticus»: two boys, a religious town and an entity that takes the form of the person you desire most — Adrian Chiarella's debut wins over the critics",
+   "ficha": {
+    "Original title": "Leviticus (2026, Australia)",
+    "Director": "Adrian Chiarella (also screenwriter; first feature film)",
+    "Cast": "Joe Bird, Stacy Clausen, Mia Wasikowska, Ewen Leslie, Nicholas Hope",
+    "Release in Portugal": "19 November 2026 (horror; 88 minutes; distributed by Cinemundo; M/14 according to filmSPOT, M/16 according to Cinecartaz)",
+    "Reviews": "Very positive reviews: 4 out of 5 from Time Out, 3.5 out of 5 from Bloody Disgusting, praise from Screen Daily, TheWrap and the AV Club; 92% positive reviews on Rotten Tomatoes and 83/100 on Metacritic"
+   },
+   "texto": [
+    "«Leviticus», an Australian horror film that premiered in January at the Sundance Festival, in the US, in the Midnight section, has been in Portuguese cinemas since Thursday 19 November. It is the first feature film by Adrian Chiarella, who also wrote the screenplay, and Mia Wasikowska is in the cast. In Portugal it is showing in only a few cinemas: Cinecartaz lists, for example, UCI El Corte Inglés, in Lisbon, and Cinemas NOS Alameda Shop & Spot, in Porto.",
+    "The story is set in a small town in the state of Victoria, in a very conservative evangelical community. Naim (Joe Bird) moves there with his mother, a woman of rigid faith (Wasikowska), after his father's death, and grows close to Ryan (Stacy Clausen). When their relationship is discovered, the community forces them into a religious «conversion therapy» ritual. From then on, they are pursued by a supernatural force that appears to each of them with the face of the person he desires most: the other. The rest is for those who go to the cinema.",
+    "The strengths, for those who liked it. Almost every critic singles out the two leads. Elizabeth Weitzman, of Time Out (4 out of 5), says it is the most unsettling and, at the same time, the quietest of this season's horror debuts, and calls the two boys' romance one of the most moving of the year. Screen Daily praises the restrained tone, Tyson Perkins's cinematography and Jed Kurzel's unsettling music. Chase Hutchinson, of TheWrap, sees in Chiarella a new voice to watch and reads the horror as a metaphor for the way fear is used as a weapon. Monica Castillo, of the AV Club, compares the idea of the curse that pursues the characters to that of «It Follows» and the religious fanaticism to that of «A Bruxa» (The Witch).",
+    "The weaknesses show up too. Time Out feels that the supernatural side always falls short and that the allegory is not very subtle, and several critics regret that Mia Wasikowska has little to do. Bloody Disgusting (3.5 out of 5) points to poorly staged scares, an all too familiar opening and curse rules that change whenever it suits the story; TheWrap warns that the road to the end is long and heavy, and Screen Daily notes that the secondary characters are left on the sidelines. In short, according to the assessment that emerges from the reviews consulted: a horror film that is more emotional than frightening, very well acted, whose worth lies above all in the love story and in its portrait of a community that fails its young people."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – Cinema releases in Portugal in November 2026",
+     "url": "https://filmspot.pt/estreias/202611/"
+    },
+    {
+     "nome": "Cinecartaz (Público) – «Leviticus»",
+     "url": "https://cinecartaz.publico.pt/filme/leviticus-416058"
+    },
+    {
+     "nome": "Magazine.HD – 8 films open in our cinemas this week (19 November)",
+     "url": "https://www.magazine-hd.com/apps/wp/?p=801869"
+    },
+    {
+     "nome": "Causeway Films – Leviticus (production details)",
+     "url": "https://causewayfilms.com.au/films/leviticus"
+    },
+    {
+     "nome": "Time Out – review of «Leviticus» (Elizabeth Weitzman, 18 Jun)",
+     "url": "https://www.timeout.com/movies/leviticus-review-2026"
+    },
+    {
+     "nome": "Screen Daily – review of «Leviticus»",
+     "url": "https://www.screendaily.com/reviews/leviticus-review-striking-performances-and-a-balanced-tone-elevate-unnerving-australian-lgbtq-horror/5217890.article"
+    },
+    {
+     "nome": "TheWrap – review of «Leviticus» at Sundance (Chase Hutchinson, 24 Jan)",
+     "url": "https://www.thewrap.com/creative-content/movies/leviticus-review-sundance-queer-horror-movie/"
+    },
+    {
+     "nome": "AV Club – review of «Leviticus» (Monica Castillo, 19 Jun)",
+     "url": "https://www.avclub.com/leviticus-review"
+    },
+    {
+     "nome": "Bloody Disgusting – review of «Leviticus» at Sundance",
+     "url": "https://bloody-disgusting.com/reviews/3930731/leviticus-sundance-review-desire-is-deadly-in-affecting-cursed-horror-movie/"
+    },
+    {
+     "nome": "Wikipedia – Leviticus (film)",
+     "url": "https://en.wikipedia.org/wiki/Leviticus_(film)"
+    }
+   ],
+   "nota": "Release on 19 Nov, genre, 88 min, director and distributor (Cinemundo) according to filmSPOT's November releases list, which gives M/14; Cinecartaz confirms the release on 19/11, the 88 min, Australia as the country and Chiarella's first feature, but gives M/16 — the rating should be checked at the cinema. filmSPOT's weekly article could not be opened; Magazine.HD confirms the film among the 19 Nov releases. Cinemas mentioned (UCI El Corte Inglés, NOS Alameda Shop & Spot) listed on Cinecartaz, which shows screenings without exact dates: check times before going out. Cast according to Causeway Films (the production company) and Cinecartaz. Sundance Midnight section (23 Jan), setting in Victoria, Wasikowska's role (Naim's mother) and aggregate scores (92% of 155 reviews on Rotten Tomatoes; 83/100 on Metacritic) according to Wikipedia. Synopsis cross-checked between Cinecartaz, Causeway Films and Screen Daily. Scores: 4/5 (Time Out), 3.5/5 (Bloody Disgusting); Screen Daily, TheWrap and AV Club with no visible score; the Screen Daily and Bloody Disgusting reviews do not name an author in the text obtained. No Portuguese reviews were found. Image: the file appears in Commons search results (including the «Leviticus (film)» category), but the page could not be opened; date and event are taken from the file name.",
+   "imagem": {
+    "commons": "Mia Wasikowska Sundance 2026.jpg",
+    "tipo": "arquivo",
+    "alt": "The actress Mia Wasikowska at the Sundance Festival",
+    "legenda": "Mia Wasikowska, actress and executive producer of «Leviticus», at the 2026 Sundance Festival (archive image; does not show the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Carlo Collodi, the Florentine journalist who invented Pinocchio: born exactly 200 years ago, his wooden puppet became one of the most translated books in the world",
+   "ficha": {
+    "Born and died": "24 November 1826, in Florence (Italy); 26 October 1890, in Florence",
+    "Real name": "Carlo Lorenzini; «Collodi» comes from the Tuscan village where his mother was born",
+    "Field": "Children's literature, journalism and political satire, translation",
+    "Essential work": "«As Aventuras de Pinóquio» (The Adventures of Pinocchio; serialised from 1881 to 1883; in book form in 1883); «Giannettino» (1876); «Minuzzolo» (1878); translation of Perrault's tales («I racconti delle fate», 1875)",
+    "Now": "Today marks 200 years since his birth; in Florence, the Gabinetto Vieusseux is showing the exhibition «C'era una volta… un re!» until 15 June 2027, with the first edition of Pinocchio"
+   },
+   "texto": [
+    "200 years ago today, on 24 November, Carlo Lorenzini, better known as Carlo Collodi, the author of «As Aventuras de Pinóquio» (The Adventures of Pinocchio), was born in Florence. Italy is marking the bicentenary throughout the year: there is a national committee for the celebrations, a €2 coin featuring Pinocchio in circulation since March and, in Florence, an exhibition showing the first edition of the book, from 1883.",
+    "Lorenzini was the son of a cook and a seamstress who worked for the Ginori family of marquises, who paid for his education. He spent a few years in a seminary but never became a priest: the cause of Italian unification led him into journalism and, in 1848, he volunteered in the First Italian War of Independence. He founded the satirical newspaper «Il Lampione» and wrote for several others. The pen name Collodi comes from the Tuscan village where his mother was born and where he spent his summers as a child. After 1861, according to the Encyclopaedia Britannica, he gradually swapped politics for children's books, starting with a translation of Charles Perrault's fairy tales.",
+    "Pinocchio was born as a serial. The first chapter came out in July 1881 in the «Giornale per i bambini», a children's magazine, and the story was published in instalments until January 1883, the year it came out as a book. Collodi's style is fast, full of humour and small acts of mischief: Britannica notes that the children in his books misbehave like real children, and that is why readers recognise themselves in them. Pinocchio lies, skips school and gets into trouble, and the characters he meets — the Talking Cricket, the Cat and the Fox, the Fairy with blue hair — have stayed in the imagination of several generations.",
+    "A curiosity: according to the Zecca dello Stato, the Italian mint, quoted by MeteoWeb, Collodi had in mind a tragic ending for the puppet, but protests from his young readers led him to continue the story until Pinocchio's redemption. The book is often cited as the most translated non-religious work in the world, in more than 300 languages and dialects. In 1940, Disney turned it into an animated film, and in the village of Collodi there has been a Pinocchio Park since 1956, which is turning 70. Collodi died in 1890, without imagining how far his puppet's nose would go."
+   ],
+   "fontes": [
+    {
+     "nome": "Encyclopaedia Britannica – C. Collodi",
+     "url": "https://www.britannica.com/biography/C-Collodi"
+    },
+    {
+     "nome": "La Nazione – 24 November: Collodi and Pinocchio (24 Nov 2024)",
+     "url": "https://www.lanazione.it/cronaca/24-novembre-collodi-pinocchio-5099f603"
+    },
+    {
+     "nome": "Finestre sull'Arte – An exhibition in Florence explores Collodi beyond Pinocchio",
+     "url": "https://www.finestresullarte.info/en/exhibitions/an-exhibition-in-florence-explores-collodi-beyond-pinocchio-documents-first-editions-and-works-of-art"
+    },
+    {
+     "nome": "MeteoWeb – The €2 coin with Pinocchio for Collodi's 200th anniversary goes into circulation (5 Mar 2026)",
+     "url": "https://www.meteoweb.eu/2026/03/da-oggi-in-circolazione-i-2-euro-con-pinocchio-per-celebrare-i-200-anni-di-carlo-collodi-una-moneta-ricercatissima-per-una-storia-bellissima/1001905443/"
+    },
+    {
+     "nome": "Il Sole 24 Ore – In Collodi, two centuries of Pinocchio's father",
+     "url": "https://en.ilsole24ore.com/art/in-collodi-valdinievole-two-centuries-of-father-pinocchio-AJyCsVZ"
+    },
+    {
+     "nome": "Wikipedia – Carlo Collodi",
+     "url": "https://en.wikipedia.org/wiki/Carlo_Collodi"
+    }
+   ],
+   "nota": "Dates of birth and death, Carlo Lorenzini's pen name, seminary, journalism for the Risorgimento, «Il Lampione», turn to children's literature after 1861, «Giannettino» (1876), «Minuzzolo» (1878) and the realism of the children in his books according to Britannica (which gives «Il Lampione» in 1848; Wikipedia gives 1853, so the year is not given). Parents in the service of the Ginori family, seminary in Colle Val d'Elsa (1837–42) and volunteering in 1848 according to La Nazione (2024 article). Origin of the pen name (his mother's birthplace) according to Wikipedia and Il Sole 24 Ore (childhood summers, Pinocchio Park turning 70). Translation of Perrault (1875) according to Wikipedia; the Vieusseux exhibition also shows that translation. Serialisation from 7 Jul 1881 to 25 Jan 1883, exhibition (Gabinetto Vieusseux, Palazzo Corsini Suarez, 15 Oct 2026 – 15 Jun 2027) and national bicentenary committee according to Finestre sull'Arte. €2 coin (since 5 Mar 2026), tragic ending abandoned because of readers and «more than 300 languages and dialects» according to MeteoWeb; the number of translations varies widely between sources and is presented as a current estimate. Park opened in 1956 and 1940 Disney film according to Wikipedia. No specific events scheduled for today, 24 Nov, were confirmed. No exhibition in Portugal was found. The image page on Commons could not be opened; the file appears in Commons search results and is a 19th-century portrait, in the public domain.",
+   "imagem": {
+    "commons": "Carlo Collodi.jpg",
+    "tipo": "arquivo",
+    "alt": "Portrait of Carlo Collodi, with moustache and beard",
+    "legenda": "Carlo Collodi (Carlo Lorenzini, 1826–1890), the author of «As Aventuras de Pinóquio» (The Adventures of Pinocchio) (19th-century portrait, in the public domain)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that «Happy Birthday to You», the English version of the birthday song Portuguese speakers know as «Parabéns a Você», had an owner for decades and only became free of copyright in 2016?",
+   "texto": [
+    "Did you know that one of the most sung songs on the planet has earned millions of dollars in copyright fees? We are talking about «Happy Birthday to You», the English version of the birthday song heard at parties all over the world. Until 2016, anyone who wanted to use it in a film, a series or a record in the US had to pay a music publisher, Warner/Chappell.",
+    "The story begins in 1893, in Kentucky, in the US. Patty Smith Hill, a kindergarten teacher, and her older sister, Mildred Hill, wrote a simple song for children called «Good Morning to All», published in a songbook for pre-school. The tune was easy to sing and it spread. Later, someone swapped «good morning» for «happy birthday» and the birthday version was born, which at first was just an optional verse.",
+    "In 1935, a publisher, Clayton F. Summy, registered the copyright of «Happy Birthday to You». The company was bought in 1988 by Warner/Chappell, for around $25 million, according to court records. From then on, the publisher charged for commercial use of the song: it is estimated to have received around $2 million a year. Singing happy birthday at home was never a problem, but for many years films and restaurants preferred to make up other songs so as not to pay. Warner expected to hold the rights until 2030.",
+    "The turning point came from a film-maker. Jennifer Nelson was making a documentary about the song, paid $1,500 to use it and decided to go to court. In September 2015, Judge George H. King, in Los Angeles, concluded that the 1935 registration covered only a piano arrangement and not the lyrics. Warner/Chappell agreed to pay back $14 million to those who had paid for licences, and in June 2016 the judge approved the settlement that put the song in the public domain. In other words: since then, happy birthday really does belong to everyone."
+   ],
+   "fontes": [
+    {
+     "nome": "CBS News / AP – «Happy Birthday» song officially recognized in public domain (27 Jun 2016)",
+     "url": "https://www.cbsnews.com/news/happy-birthday-song-officially-recognized-in-public-domain"
+    },
+    {
+     "nome": "Rolling Stone – Warner Music Settles «Happy Birthday» Lawsuit for $14 Million",
+     "url": "https://www.rollingstone.com/music/music-news/warner-music-settles-happy-birthday-lawsuit-for-14-million-182584/"
+    },
+    {
+     "nome": "NBC News – U.S. judge rules copyright on «Happy Birthday to You» invalid",
+     "url": "https://www.nbcnews.com/business/business-news/u-s-judge-rules-copyright-happy-birthday-you-invalid-n514766"
+    },
+    {
+     "nome": "Fortune – «Happy Birthday» song to enter public domain (9 Dec 2015)",
+     "url": "https://fortune.com/2015/12/09/happy-birthday-song-public-domain/"
+    }
+   ],
+   "nota": "Authorship by the Hill sisters, 1893, Kentucky, kindergarten song with the title «Good Morning to All», birthday lyrics as an optional verse added later, 1988 purchase for around $25 million, rights until 2030, $14 million settlement and approval on 27 Jun 2016 according to CBS/AP. Tune published in a kindergarten songbook and Summy's 1935 registrations according to NBC News (which also gives the figure of around $2 million a year). September 2015 ruling by Judge George H. King, 1935 registration limited to a piano arrangement, Jennifer Nelson's lawsuit and $1,500 licence according to Rolling Stone. Fortune confirms the settlement in Dec 2015 and that private singing was not the target of lawsuits. The publisher's full name (Clayton F. Summy Co.) is general knowledge; the sources opened say «Summy Co.». The exact day of the 2015 ruling does not appear in the sources opened. The idea that restaurants and films avoided the song so as not to pay is general knowledge, not confirmed in the sources opened today. The headline refers to the English version; the Portuguese «Parabéns a Você» has a different tune and was not part of this case. The last sentence is the newspaper's comment. The image page on Commons could not be opened; the file appears in Commons search results and what it shows is taken from the file name (1893 sheet music, in the public domain).",
+   "imagem": {
+    "commons": "GoodMorningToAll 1893 song.jpg",
+    "tipo": "obra",
+    "alt": "Old sheet music of the song «Good Morning to All»",
+    "legenda": "The sheet music of «Good Morning to All», by the sisters Mildred and Patty Hill, published in 1893 — the tune that gave rise to «Happy Birthday to You» (public domain)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Walk&Talk and Anda&Fala: for 15 years, a project born out of street art has been bringing artists from all over the world to São Miguel and backing young Azorean creators",
+   "ficha": {
+    "Origins": "2011, on São Miguel (Azores), as an annual summer street art festival; founded by the curator Jesse James, who grew up on the island",
+    "Where": "São Miguel island; headquarters and the «vaga» space in Ponta Delgada; the 2025 biennial took over nine venues on the island",
+    "Field": "Visual arts and public art, performance, artist residencies, cultural mediation",
+    "Participants": "The non-profit cultural association Anda&Fala, a network of artists, curators and teams; more than 500 creators have taken part in the festival's twelve editions",
+    "Now": "Exhibition of the 2026 Prémio Nova Vaga (New Wave Prize) at vaga, in Ponta Delgada, until 28 November; next Walk&Talk Biennial planned for 2027"
+   },
+   "texto": [
+    "In 2011, a street art festival began painting walls in Ponta Delgada, in the Azores. It was called Walk&Talk and, 15 years later, it is a contemporary arts biennial with artists from all over the world, organised by the Azorean association Anda&Fala. Until Saturday 28 November, the association's space in Ponta Delgada, vaga, is showing the work of three young Azorean artists who won awards this year.",
+    "The idea came from the curator Jesse James, who grew up on São Miguel. According to The Art Newspaper, Walk&Talk began as a short summer celebration of street art. Over the years, it added exhibitions, performance, music and residencies, and twelve editions of the festival brought together more than 500 artists, curators and creators, according to the announcement of the first biennial. In 2023 the shift to a biennial began, with residencies and preparatory work in the years without a festival. The first Walk&Talk Biennial, «Gestos de Abundância» (Gestures of Abundance), ran from 25 September to 30 November 2025, with more than 80 artists in nine venues across the island — from a former Franciscan convent and a 19th-century market to a pineapple plantation and the Arquipélago, the contemporary arts centre housed in a former factory in Ribeira Grande.",
+    "The aim is to see the Azores not as a periphery but as a meeting point in the middle of the Atlantic. Anda&Fala, a non-profit association, says it wants to «promote new centralities for contemporary creation». As well as the biennial, it runs vaga, an art space in Ponta Delgada, and the Prémio Nova Vaga (New Wave Prize), which every two years awards €5,000 creation grants to artists aged 18 to 35 who were born in and live in the Azores. This year, the winners were André Carreiro Oliveira, from Faial, the collective Atelineiras, from São Miguel, and Tomás Toste, from Terceira, with João Francisco Reis as curator.",
+    "Why does it matter? In an archipelago far from the major centres, the project has Azorean artists working side by side with international names and takes art to schools, markets and farmland. And it keeps growing: in January, the association joined the European project TIDAL ArtS, which brings together art and science to protect oceans and rivers and will bring an artist residency to São Miguel, with a public presentation scheduled for the 2027 biennial. All this in a year in which Ponta Delgada is Portuguese Capital of Culture."
+   ],
+   "fontes": [
+    {
+     "nome": "The Art Newspaper – review of the 2025 Walk&Talk Biennial (3 Nov 2025)",
+     "url": "https://www.theartnewspaper.com/2025/11/03/azores-biennial-walk-and-talk-review"
+    },
+    {
+     "nome": "e-flux – Walk&Talk Arts Biennial: «Gestures of Abundance» (announcement, 20 Nov 2024)",
+     "url": "https://www.e-flux.com/announcements/641329/inaugural-editiongestures-of-abundance"
+    },
+    {
+     "nome": "RTP / Lusa – Anda&Fala's Prémio Nova Vaga goes to André Carreiro Oliveira, Atelineiras and Tomás Toste (22 Jan 2026)",
+     "url": "https://www.rtp.pt/noticias/cultura/premio-nova-vaga-da-andafala-para-andre-carreiro-oliveira-atelineiras-e-tomas-toste_n1712129"
+    },
+    {
+     "nome": "Anda&Fala – Anda&Fala joins the European project TIDAL ArtS (16 Jan 2026)",
+     "url": "https://anda.walktalkazores.org/en/andafala-integra-o-projeto-europeu-tidal-arts/"
+    },
+    {
+     "nome": "Anda&Fala – home page (news and programme)",
+     "url": "https://anda.walktalkazores.org/en/"
+    },
+    {
+     "nome": "RTP – Exhibition invites reflection on the nature of the Azores and silencing under the dictatorship (24 Jul 2026)",
+     "url": "https://www.rtp.pt/noticias/cultura/exposicao-propoe-reflexao-sobre-natureza-dos-acores-e-silenciamento-em-ditadura_n1755673"
+    }
+   ],
+   "nota": "Founding in 2011 as a summer street art festival, Jesse James as founder, formal shift to a biennial in 2025 (from summer to autumn), dates, nine venues, more than 80 artists and types of venue according to The Art Newspaper. Twelve editions of the festival, more than 500 creators, transition to a biennial since 2023 and the vision of the archipelago as an Atlantic meeting point according to the e-flux announcement. Anda&Fala as a non-profit association from São Miguel, quote about «new centralities», vaga as its headquarters in Ponta Delgada, biennial prize (2nd edition), €5,000 grants, ages 18–35, winners and curator according to RTP/Lusa. Nova Vaga 2026 exhibition (25 Sep – 28 Nov 2026), 15 years of activity (announced on 11 Sep 2026) and the TIDAL ArtS project (2026–27, residency on São Miguel, presentation at the 2027 biennial) according to the Anda&Fala website; the full text on the 15 years was not read, and vaga's address and opening hours were not confirmed. The exact date of the 2027 biennial was not confirmed. The location of the Arquipélago in Ribeira Grande is general knowledge. Ponta Delgada 2026 – Portuguese Capital of Culture according to RTP (Jul 2026). Visits to schools are mentioned by The Art Newspaper (school groups). No photograph of Walk&Talk works was found on Commons; a photograph of the Arquipélago, one of the venues of the 2025 biennial, was used. The image page on Commons could not be opened; the file appears in Commons search results and the year is taken from the file name.",
+   "imagem": {
+    "commons": "Arquipélago - Centro de Artes Contemporâneas, Azoren 2016 01.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Dark stone buildings of the Arquipélago – Centro de Artes Contemporâneas, on the island of São Miguel",
+    "legenda": "The Arquipélago – Centro de Artes Contemporâneas (contemporary arts centre), in Ribeira Grande, one of the venues of the 2025 Walk&Talk Biennial, in a 2016 photograph (illustrative image; does not show the biennial or vaga)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 24 November from the Casa da Música listings and the Symphony Orchestra concert page, Agenda Porto (home page, the Coliseu page and the Christian Löffler concert page), the Teatro Municipal do Porto page for «Mechita», the Serralves listings, the Planetário do Porto, the Batalha's Porto/Post/Doc page, Time Out Porto (theatre and kids) and the Galeria Municipal do Porto announcement on e-flux. It was not possible to open today the general programme and the «Os Christophers» page of the Teatro Municipal do Porto, the Agenda Porto session pages, the Coliseu website, the Batalha calendar or the Porto/Post/Doc programme (portopostdoc.com): almost all the festival's screenings are therefore left out, and «Victor como toda a gente» (Campo Alegre, from the 26th) is not included for lack of a time and price. Sold out: Rodrigo Leão (24th, 21:00 performance) and Al Di Meola (26th). Today's national strike, Tuesday 24: none of the pages consulted shows closure or cancellation notices, but during the public sector strike of 20 November the Museu Nacional Soares dos Reis closed; check with each venue before going out. Where it says «To be confirmed», the information was not in the source.",
+ "agenda": [
+  {
+   "dia": "2026-11-24",
+   "eventos": [
+    {
+     "nome": "Porto/Post/Doc at the Planetarium: session #02",
+     "descricao": "Three short films projected onto the Planetarium dome: «Adeus, Goldie» (Goodbye, Goldie), by Pat Clark, «The Frontiers of Infinity», by Michel D.T. Lam, and «A Leap into the Void», by Sergey Prokofyev.",
+     "horario": "17:30",
+     "tipo": "Cinema / Festival",
+     "local": "Planetário do Porto – Centro Ciência Viva, Rua das Estrelas, s/n, 4150-762 Porto",
+     "preco": "To be confirmed",
+     "url": "https://planetario.up.pt/pt/evento/PPD26@PP",
+     "ligacao": "Planetário do Porto",
+     "nota": "Date, time, running time (57 minutes), films and M/12 rating reconfirmed today on the Planetarium page, with no notice about the strike. The price field is still empty; tickets on BOL or on site, about 30 minutes before. Event repeated from the 23 November edition."
+    },
+    {
+     "nome": "Rodrigo Leão – «Alma Mater», 26 years on (Misty Fest)",
+     "descricao": "Rodrigo Leão's last two nights at Casa da Música, revisiting «Alma Mater» with an ensemble, choir and guests.",
+     "horario": "18:30 and 21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€25 to €40 (21:00 sold out)",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Times, hall and prices confirmed today on the Casa da Música listings, which mark the 21:00 performance as sold out; the 18:30 one appears today with no sold-out notice, unlike what the same listings showed yesterday (23 November edition), so availability should be checked at the box office. No notice about the strike. Event repeated from the 21 to 23 November editions."
+    },
+    {
+     "nome": "Porto/Post/Doc: talk «Documentário e Inteligência Artificial» (Documentary and Artificial Intelligence)",
+     "descricao": "A talk at the documentary film festival about what artificial intelligence changes in the way documentaries are made.",
+     "horario": "To be confirmed",
+     "tipo": "Talk",
+     "local": "Teatro Rivoli, Praça D. João I, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, venue and free admission confirmed today on the 24 November list on the Agenda Porto home page, which gives no time (the page itself warns that the matching of venue and date may be out of line). The event page did not open. Event repeated from the 21 to 23 November editions, which gave the director Jorge Caballero as guest."
+    },
+    {
+     "nome": "Rasgar um céu sem sol (Tearing a Sunless Sky) / Nightwood / Gothic Tale",
+     "descricao": "Three exhibitions at the Galeria Municipal: Basel Abbas and Ruanne Abou-Rahme, the institutional debut of Leonor Parda (sculpture, video and sound) and a first overview of Isabel Carvalho's career.",
+     "horario": "10:00–18:00",
+     "tipo": "Exhibition",
+     "local": "Galeria Municipal do Porto, Jardins do Palácio de Cristal, Rua de Dom Manuel II, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.e-flux.com/announcements/6787436/autumn-2026-winter-2027-programme",
+     "ligacao": "e-flux (Galeria Municipal do Porto)",
+     "nota": "Open since 11 November; opening hours (Tuesday to Sunday, 10:00–18:00) confirmed today in the gallery's announcement, which gives neither price nor closing date. A municipal venue: with today's strike, check whether it is open. Event repeated from the 22 and 23 November editions."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-25",
+   "eventos": [
+    {
+     "nome": "«Auto da Barca do Inferno» (The Ship of Hell), directed by Marta Pazos",
+     "descricao": "Gil Vicente reread through theatre, dance and visual arts: at the edge of the quay, an Angel and a Devil decide the fate of the Nobleman, the Friar, the Procuress and company.",
+     "horario": "19:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, 4000-101 Porto",
+     "preco": "€7 to €16.80",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "A co-production of the TNSJ with the Centro Dramático Galego, running until 13 December. Date, time and prices reconfirmed today on Time Out Porto (Wednesday and Thursday at 19:00, Friday at 21:00). The TNSJ website was not consulted: check price and seats at the box office. Event repeated from the 23 November edition."
+    },
+    {
+     "nome": "Christian Löffler – «Until We Meet Again» (Misty Fest)",
+     "descricao": "The German electronic musician presents his latest album with an ensemble, between ambient, techno, piano and strings.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€30 to €50",
+     "url": "https://www.agenda-porto.pt/en/evento/cdm-christian-loffler-1776080591422/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6. Date, time, hall and prices confirmed today on the Casa da Música listings, with no sold-out notice, and on the concert page on Agenda Porto. Event repeated from the 22 and 23 November editions."
+    },
+    {
+     "nome": "Há Fado no Mercado (There's Fado at the Market)",
+     "descricao": "Live fado at the Mercado do Bolhão, with free admission.",
+     "horario": "To be confirmed",
+     "tipo": "Music",
+     "local": "Mercado do Bolhão, Rua Formosa, 322, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, venue and free admission confirmed today on the 25 November list on the Agenda Porto home page, without a time. The 23 November edition named the fado singer Ana Cristina, from the Mercado do Bolhão page on Agenda Porto, which was not reopened today. Event repeated from the 23 November edition."
+    },
+    {
+     "nome": "Nano Mini Micro",
+     "descricao": "A programme for children and families at the Biblioteca Municipal Almeida Garrett, with free shows, until 19 December.",
+     "horario": "To be confirmed",
+     "tipo": "Family",
+     "local": "Biblioteca Municipal Almeida Garrett, Jardins do Palácio de Cristal, Porto",
+     "preco": "Free entry (shows)",
+     "url": "https://www.timeout.pt/porto/pt/miudos/coisas-para-fazer-com-os-miudos-no-porto-nos-proximos-dias",
+     "ligacao": "Time Out Porto",
+     "nota": "Time Out Porto (article of 19 November, consulted today) gives the programme until 19 December with free shows, but does not say which activities take place on this day or at what time: check with the library. The location in the Jardins do Palácio de Cristal does not come from the source consulted."
+    },
+    {
+     "nome": "«Os Christophers» (The Christophers), by Steven Soderbergh – last screening",
+     "descricao": "Last day to see at the Campo Alegre Soderbergh's comedy with Ian McKellen about art, money and a feuding family.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/os-christophers-steven-soderbergh/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 1h50. Time and price confirmed yesterday, 23 November, on the Teatro Municipal do Porto page, which could not be reopened today. Event repeated from the 22 and 23 November editions."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-26",
+   "eventos": [
+    {
+     "nome": "Joan Miró and Lee Ufan, «Fragmentos do Infinito» (Fragments of Infinity)",
+     "descricao": "Two exhibitions at the Casa de Serralves: one devoted to Joan Miró and the other to the Korean artist Lee Ufan.",
+     "horario": "To be confirmed",
+     "tipo": "Exhibition",
+     "local": "Casa de Serralves, Fundação de Serralves, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.serralves.pt/en/agenda-serralves",
+     "ligacao": "Serralves",
+     "nota": "Both exhibitions opened on 16 October; Miró runs until 7 March 2027 and Lee Ufan until March 2027, according to the Serralves listings consulted today, which give neither opening hours nor prices."
+    },
+    {
+     "nome": "«Auto da Barca do Inferno» (The Ship of Hell), directed by Marta Pazos",
+     "descricao": "The new reading of Gil Vicente by the TNSJ and the Centro Dramático Galego, between theatre, dance and visual arts.",
+     "horario": "19:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, 4000-101 Porto",
+     "preco": "€7 to €16.80",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Date, time and prices reconfirmed today on Time Out Porto. The TNSJ website was not consulted: check at the box office. Event repeated from the 23 November edition."
+    },
+    {
+     "nome": "Al Di Meola (Misty Fest)",
+     "descricao": "The American guitarist, who for more than four decades has been crossing jazz with flamenco, tango and world music, combines signature pieces with new material.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€30 to €70 (sold out)",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, hall, prices and sold-out status reconfirmed today on the Casa da Música listings. Event repeated from the 23 November edition."
+    },
+    {
+     "nome": "Eden Lewis II",
+     "descricao": "A free concert in the Casa da Música café.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Café), Av. da Boavista, 604-610, Porto",
+     "preco": "Free entry",
+     "url": "https://casadamusica.com/en/agenda/?lang=en_US",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, space and free admission reconfirmed today on the Casa da Música listings, which do not describe the concert. Event repeated from the 23 November edition."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-27",
+   "eventos": [
+    {
+     "nome": "Anri Sala, «Fallen Vision»",
+     "descricao": "The exhibition by the Albanian artist Anri Sala opens at the Museu de Serralves; at 22:30 the museum hosts the presentation of «Surface, Otherwise (after STA XLII)».",
+     "horario": "22:30 («Surface, Otherwise»)",
+     "tipo": "Exhibition",
+     "local": "Museu de Serralves, Fundação de Serralves, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.serralves.pt/en/agenda-serralves",
+     "ligacao": "Serralves",
+     "nota": "The Serralves listings, consulted today, give the exhibition from 27 November 2026 to 2 May 2027 and «Surface, Otherwise» on the 27th at 22:30, without prices and without describing the format of this presentation; Agenda Porto gives a closing date of 31 May 2027 (conflicting dates). Exhibition opening hours to be confirmed."
+    },
+    {
+     "nome": "«Mechita», by Sol Garcia",
+     "descricao": "A piece for five women in which body and sound serve as a living archive: movement, voice and live music about memory, abandonment, abuse and resistance, ending in celebration.",
+     "horario": "21:00",
+     "tipo": "Dance / Performance",
+     "local": "Teatro Campo Alegre (Café-Teatro), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€7",
+     "url": "https://www.teatromunicipaldoporto.pt/en/programa/sol-garcia-mechita/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 50 minutes. Dates (27 and 28 November, at 21:00), hall and price confirmed today on the Teatro Municipal do Porto page; on the 27th there is a talk with the artistic teams at the end. The page does not state the genre: the creator works in contemporary dance and performance."
+    },
+    {
+     "nome": "Pizarro performs Britten – Orquestra Sinfónica do Porto Casa da Música",
+     "descricao": "Artur Pizarro plays Britten's Piano Concerto, 50 years after the composer's death, and Michael Sanderling then conducts Brahms's Symphony No. 2.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€30 to €34",
+     "url": "https://casadamusica.com/en/event/pizarro-performs-britten/",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Date, time, hall, programme and prices (€34, €32 or €30 depending on the row, with discounts on some seats) confirmed today on the concert page and on the Casa da Música listings, with no sold-out notice."
+    },
+    {
+     "nome": "«O Lago dos Cisnes» (Swan Lake), by the Imperial Heritage Ballet",
+     "descricao": "Tchaikovsky's ballet performed by the Imperial Heritage Ballet company, at the Coliseu.",
+     "horario": "21:00",
+     "tipo": "Dance",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.timeout.pt/porto/pt/miudos/coisas-para-fazer-com-os-miudos-no-porto-nos-proximos-dias",
+     "ligacao": "Time Out Porto",
+     "nota": "Date and time (21:00) from Time Out Porto (article of 19 November, consulted today); the Coliseu page on Agenda Porto confirms the show on 27 November, without a time or price. The Coliseu website was not consulted: price and seats to be confirmed. The address does not come from the sources consulted today."
+    },
+    {
+     "nome": "«Auto da Barca do Inferno» (The Ship of Hell), directed by Marta Pazos",
+     "descricao": "Gil Vicente by the TNSJ and the Centro Dramático Galego; on Fridays, an evening performance.",
+     "horario": "21:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, 4000-101 Porto",
+     "preco": "€7 to €16.80",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Date, time and prices confirmed today on Time Out Porto. The TNSJ website was not consulted: check at the box office."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "The 2027 State Budget goes to its final overall vote today, scheduled to start at 14:30; with the PS (Socialist Party) having announced it will abstain, approval is taken for granted.",
+   "noticia": 13
+  },
+  {
+   "texto": "A day of strikes: on the first of two days of a full stoppage by train drivers, CP cancelled 86 of the 145 trains scheduled until 07:00; protests are planned at the doors of Parliament.",
+   "noticia": 14
+  },
+  {
+   "texto": "Ukraine says it has sunk the Russian corvette Merkury with naval drones in the port of Benghazi, in Libya; Libyan officials speak of serious damage and Moscow has not confirmed it.",
+   "noticia": 9
+  },
+  {
+   "texto": "CrowdStrike has announced the purchase of Zscaler for $43.9 billion; the deal still needs the approval of regulators and shareholders.",
+   "noticia": 1
+  },
+  {
+   "texto": "Shenzhou-24 is scheduled to launch at 00:18 Lisbon time, carrying the Pakistani Muhammad Zeeshan Ali, the first foreign astronaut to visit the Chinese space station.",
+   "noticia": 17
+  },
+  {
+   "texto": "Guterres called, in Barbados, for common rules on the risks of AI within a year, with independent oversight; for now it is a proposal, with no agreement between countries.",
+   "noticia": 4
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Tuesday 24 Nov",
+   "texto": "Final overall vote on the 2027 Budget (plenary scheduled to start at 14:30). New attempt to launch Ariane 6 with 36 Amazon Leo satellites, between 10:45 and 11:14 Lisbon time, if there is no further postponement.",
+   "noticia": 13
+  },
+  {
+   "quando": "Wednesday 25 Nov",
+   "texto": "Launch of Shenzhou-24 scheduled for 00:18 Lisbon time, at Jiuquan. Second day of the full strike by CP train drivers; on Thursday the strike is partial and the strike notice runs until Friday 27.",
+   "noticia": 17
+  },
+  {
+   "quando": "Thursday and Friday, 26–27 Nov",
+   "texto": "Extraordinary European Council summit in Brussels on the 2028–2034 EU budget, based on António Costa's proposal.",
+   "noticia": 12
+  },
+  {
+   "quando": "Wednesday 2 Dec",
+   "texto": "Meeting of NATO foreign ministers in Brussels; according to the Polish news agency PAP, Poland's other requests are due to be discussed next week.",
+   "noticia": 11
+  }
+ ],
+ "linkedin_abertura": "Portugal's 2027 State Budget goes to its final vote today: with the PS (Socialist Party) having announced it will abstain, approval is taken for granted, on a day marked by strikes."
+}
