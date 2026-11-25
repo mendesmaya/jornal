@@ -1,0 +1,1166 @@
+{
+ "data": "2026-11-25",
+ "numero": "033",
+ "resumo": "The 2027 Budget has been approved, but the opposition's changes push the accounts into a small deficit; China has taken the first foreign astronaut to its space station; Moscow accuses Estonia of being «on the brink» of open war; and CP train drivers are holding the second day of their full strike today.",
+ "tema_palavras": "words from this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Hackers using AI tools broke into the servers that run Check Point «firewalls» at at least 22 organisations",
+   "estado": "Campaign described by GreyNoise · attacker unknown · Check Point says the flaw used had already been fixed · attacks may be continuing",
+   "data": "2026-11-24",
+   "texto": [
+    "A group of hackers whose name is still unknown broke into the servers that control Check Point «firewalls» at at least 22 organisations in several countries, and is believed to have used artificial intelligence (AI) tools to automate much of the work. The case was revealed on Tuesday 24 November by the American security company GreyNoise, according to SecurityWeek, Cybersecurity Dive and The Hacker News. The victims are in energy, finance, public administration, transport, mining, engineering and manufacturing.",
+    "Why does this matter? These servers, called Security Management, are the control centre for a company's «firewalls»: this is where the rules on what comes into and goes out of the network are set. According to The Hacker News, the attacker used a flaw in Check Point's management software (CVE-2026-16232), since fixed, to launch more than a hundred tasks on those servers. These included stealing the «firewall» databases and the files used to issue internal digital certificates, creating a new certificate and switching off security policies. Data was taken from the 24 compromised servers, according to SecurityWeek.",
+    "Where does AI come in? GreyNoise, which has given the group the codename GT13, believes the attacker uses AI «agents», programs that look for vulnerable systems and attack them automatically, with only occasional human involvement. The researchers counted 99 internet addresses, more than 1,400 connections and more than 800 commands. They also saw attempts to exploit old flaws in products from Citrix, Ivanti, VMware, Microsoft Exchange and Windows. This is a suspicion on the researchers' part, not a proven conclusion. GreyNoise does not know how the attacker first got into the servers, and has not been able to link it to a country or a known group.",
+    "What we know — and what we don't. GreyNoise tracked the activity between 17 October and 2 November and thinks the campaign is still going on, because the attacker kept access to the systems. The victims are in around 16 countries, mainly in Europe and Asia-Pacific, as well as the US, according to The Hacker News; the countries named by SecurityWeek include the United Kingdom, Germany, France, Austria and the Netherlands. Check Point, quoted by The Hacker News, says this is not a new technique but a flaw that had already been disclosed and had a fix available, and urges customers to update and to restrict access to their management servers."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The three articles (SecurityWeek and Cybersecurity Dive, 24 Nov; The Hacker News, 25 Nov) are based on GreyNoise's report, which we did not open; the figures (22 organisations, 24 servers, 99 IPs, 1,400 sessions, 800 commands, 17 Oct–2 Nov) match in all three. SecurityWeek speaks of 22 organisations «targeted» and data taken from 24 servers; Cybersecurity Dive of 22 organisations «compromised». The use of the CVE-2026-16232 flaw for the data-theft tasks, the roughly 16 countries and Check Point's statement (Sergey Shykevich) come only from The Hacker News; Cybersecurity Dive says Check Point did not respond in time. The use of AI is a suspicion on GreyNoise's part. There is no attribution to a country or group. We do not know whether there are victims in Portugal. Image: the file appears in Commons search results, but the page could not be opened; what it shows is inferred from the file name."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek – «Check Point Security Management Servers Hacked in AI-Assisted Campaign» (24 Nov)",
+     "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/"
+    },
+    {
+     "nome": "Cybersecurity Dive – «AI-enabled campaign targets Check Point Security Management servers» (24 Nov)",
+     "url": "https://www.cybersecuritydive.com/news/ai-enabled-campaign-targets-check-point-security-management-servers/875622/"
+    },
+    {
+     "nome": "The Hacker News – «Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign» (25 Nov)",
+     "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Check Point offices.jpg",
+    "tipo": "arquivo",
+    "alt": "Offices of the Israeli cybersecurity company Check Point",
+    "legenda": "Offices of Check Point, the Israeli company whose «firewall» management servers were targeted by the campaign (archive image; it does not show the attack)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Drupal flaw found by Anthropic's automatic scanner is already being used in attacks; US orders it fixed by Friday",
+   "estado": "Attacks confirmed by the Drupal team and by CISA · fix available since 18 Nov · number of sites attacked unknown",
+   "data": "2026-11-24",
+   "texto": [
+    "A serious flaw in Drupal, one of the most widely used programs for building and running websites, is already being exploited by hackers. Drupal's security team confirmed attacks on real sites since 19 November, a day after it published the fix. On Tuesday 24 November, CISA, the US cybersecurity agency, added the flaw (CVE-2026-132165) to its list of exploited vulnerabilities and gave federal agencies until Friday 27 to fix it, according to SecurityWeek.",
+    "How does it work? The problem lies in the installer that comes with Drupal and stays on the server after the site has been set up. In certain configurations, an attacker without an account can use it to reinstall the site, take control of it or run their own code on the server. The Drupal team raised the rating to «highly critical» (20 out of 25) when it learned of the attacks. The fixed versions are 11.4.13, 11.3.22 and 10.6.22; versions that are no longer supported will not get a fix.",
+    "Who found it? Anthropic's OSS Scanner, a free, automatic service launched in October that looks for flaws in registered open-source projects and alerts the people in charge. It is the third Drupal flaw exploited in attacks this year, according to SecurityWeek.",
+    "What should you do? Update. Drupal also recommends blocking access to the installer even after updating. Some attack paths are closed off if the server cannot change the «settings.php» configuration file. It is not known how many sites have been attacked, or by whom."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Exploitation since 19 Nov at 19:00 UTC, the 20/25 rating, the affected and fixed versions and the credit to Anthropic's OSS Scanner confirmed in Drupal's official advisory SA-CORE-2026-017 (updated 21 Nov) and in SecurityWeek (25 Nov). The addition to CISA's list on 24 Nov and the 27 Nov deadline come from SecurityWeek; CISA's 24 Nov alert page appears in search results but could not be opened. Launch date of the OSS Scanner (8 Oct) according to The Hacker News (19 Nov), which reported the fix before the attacks. No public data on victims or perpetrators."
+   },
+   "fontes": [
+    {
+     "nome": "Drupal – «Drupal core - Highly critical - Remote code execution - SA-CORE-2026-017» (18 Nov, updated 21 Nov)",
+     "url": "https://drupal.org/sa-core-2026-017"
+    },
+    {
+     "nome": "SecurityWeek – «Drupal Flaw Found by Anthropic Scanner Exploited in Attacks» (25 Nov)",
+     "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/"
+    },
+    {
+     "nome": "The Hacker News – «Drupal Patches Critical Installer Flaw» (19 Nov)",
+     "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
+    },
+    {
+     "nome": "CISA – «CISA Adds Three Known Exploited Vulnerabilities to Catalog» (24 Nov) (cited)",
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Cyberattack forces a US uranium mine to stop: Peninsula Energy shuts down operations in Wyoming and suspends its shares on the Australian stock exchange",
+   "estado": "Incident confirmed by the company · operations halted with no restart date · shares suspended until 30 Nov · perpetrators unknown",
+   "data": "2026-11-25",
+   "texto": [
+    "A cyberattack has forced the Lance uranium mine, in the US state of Wyoming, to stop. Its owner, Australia's Peninsula Energy, said on Tuesday night, Lisbon time (already Wednesday 25 November in Australia), that operations had been temporarily shut down and will only resume once a programme to recover and check the systems is complete. The company's shares are suspended on the Australian stock exchange until Monday 30, or until there is news about the restart, according to a summary of the announcement published by Discovery Alert.",
+    "What happened? The attack was detected on Friday 20 November. On Monday, the company asked the stock exchange to halt trading and said the systems hit were those that control the operation, not the administrative systems in the US or Australia. According to Discovery Alert, the new update refers to control systems for the plant and the wellfields. The company has not said whether it was a «ransomware» attack (software that locks up systems to demand a ransom) or who is behind it.",
+    "Why does this matter? Lance extracts uranium by injecting a solution underground and processes it into what is known as «yellowcake», the raw material for nuclear fuel. SecurityWeek points out that the US added uranium to its list of critical minerals in 2025. Speaking to the local newspaper Cowboy State Daily, a Wyoming cybersecurity adviser, Mary Keane, found it «very odd» that anyone would target this mine, and warned that restarting a mining operation is not like flicking a switch."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The incident, the date (20 Nov), the request for a trading halt (23 Nov) and the fact that only operational systems were affected confirmed in SecurityWeek (24 Nov), the Cowboy State Daily (23 Nov) and the summary of the announcement on Listcorp. The 25 Nov update (operations shut down, suspension until 30 Nov, plant and wellfield control systems) comes only from Discovery Alert; Listcorp confirms that the announcements «Update on Lance Cyber Security Incident and Recovery Program» and «Suspension from Quotation» came out that day, but we did not open the text. The time of the attack varies: «late Friday» Western Australia time (23 Nov announcement) or Friday morning in the US (Discovery Alert). No information on the perpetrators, the type of attack or data theft."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek – «Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine» (24 Nov)",
+     "url": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/"
+    },
+    {
+     "nome": "Cowboy State Daily – «'Very Odd' Cyber Breach Halts Operations, Stock Trading At Wyoming Uranium Field» (23 Nov)",
+     "url": "https://cowboystatedaily.com/2026/11/23/very-odd-cyber-breach-halts-operations-stock-trading-at-lance-uranium-mine/"
+    },
+    {
+     "nome": "Listcorp – Peninsula Energy, «Trading Halt» (announcement to the ASX, 23 Nov)",
+     "url": "https://www.listcorp.com/asx/pen/peninsula-energy-limited/news/trading-halt-3440700.html"
+    },
+    {
+     "nome": "Discovery Alert – «Peninsula Energy Suspends Lance Uranium Operations After Cyber Incident» (25 Nov)",
+     "url": "https://discoveryalert.com/asx-stock-news/energy/pen-peninsula-energy-lance-cyber-incident-november-2026/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "OpenAI says GPT-6 can now design new proteins, and some of them worked in the lab",
+   "estado": "Results released by OpenAI in a study not yet peer-reviewed · tests carried out with a partner · independent confirmation still lacking",
+   "data": "2026-11-24",
+   "texto": [
+    "OpenAI's language models are learning to design proteins. On Tuesday 24 November the company released a study in which it says the GPT-6 family can create new protein structures and sequences just by reasoning and writing code, without a specialised biology program doing the design. Some of these proteins were made and tested in the lab by partner company Onava, according to Let's Data Science and N Globe. The study has not yet been reviewed by other scientists.",
+    "What was tested? Small proteins called «minibinders», designed to latch on to a specific target, such as the molecules PD-L1 and VEGF-A, which are linked to cancer and inflammatory diseases. GPT-6.2 was given the shape of five target proteins and proposed candidates. Of the 322 samples tested, 35 showed signs of binding to the target: around 11%. In another test, the model had to write the sequence of already known proteins without seeing the original. For the protein MDM2, 75 of 88 proposals worked, even though many were quite different from the original sequence. For OpenAI, this shows the model is not simply repeating what it has memorised.",
+    "Why does this matter? Designing proteins to order is one of the routes to new medicines and vaccines. Until now, the work has depended on tools built solely for that purpose. If a general-purpose model can do it, researchers could switch tasks with written instructions alone, without training a new program. OpenAI says its latest models matched or beat the specialised tools in most of 14 computer-based tests.",
+    "What we know — and what we don't. The specialised tools have not gone away: they still suggested sequences and filtered candidates. The model is also still weak at predicting the full shape of a protein. And binding to a target in an assay is not the same as treating a disease: the study includes no potency or toxicity data, N Globe notes. The figures are OpenAI's own and have not yet been reproduced by others."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The figures (35 of 322, 75 of 88, 14 tests, the partnership with Onava, the weakness in structure prediction) match in Let's Data Science and N Globe (24–25 Nov), both of which are based on OpenAI's study and announcement. We could not open OpenAI's original page (access blocked). Note: the two sources confirm the announcement, not the results — these are the company's own, not yet peer-reviewed or independently reproduced. None of the sources we opened mentions biosecurity safeguards. The reference to the diseases associated with PD-L1 and VEGF-A is our own context. Do not use «cure» or «medicine» in the headline."
+   },
+   "fontes": [
+    {
+     "nome": "OpenAI – «GPT-6 models demonstrate intrinsic protein-design capabilities» (24 Nov) (cited)",
+     "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+    },
+    {
+     "nome": "Let's Data Science – «OpenAI Reports GPT-6 Models Can Design Proteins With Lab Evidence of Binding» (24 Nov)",
+     "url": "https://letsdatascience.com/news/openai-reports-gpt-6-models-can-design-proteins-with-lab-evi-b0ee33c8"
+    },
+    {
+     "nome": "N Globe – «OpenAI says GPT-6 can design proteins: 35 of 322 lab samples bound their targets» (25 Nov)",
+     "url": "https://nglobenews.com/en/article/us-openai-gpt-6-protein-design-minibinders-2026-11-24"
+    }
+   ],
+   "imagem": {
+    "commons": "Myoglobin.png",
+    "tipo": "ilustrativa",
+    "alt": "Coloured ribbon diagram of the three-dimensional structure of a protein, myoglobin",
+    "legenda": "The structure of myoglobin, a muscle protein, shown as a ribbon diagram (illustrative image; it is not one of the proteins designed by OpenAI)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Tidal will delete around 27 million songs made entirely by AI and stop accepting new ones from 9 December",
+   "estado": "Decision announced by Tidal · removals begin on 9 December · music made with the help of AI still allowed",
+   "data": "2026-11-24",
+   "texto": [
+    "The music platform Tidal is banning songs generated entirely by artificial intelligence (AI). The company announced on Tuesday 24 November that from 9 December it will start deleting these tracks from its catalogue and turning away new ones, according to TechCrunch and Digital Music News. That is around 27 million songs, 6.3% of everything Tidal has. According to the company, 96% of them have never been played even once.",
+    "Why now? Because the flood has not stopped. Over the past 90 days, 43% of tracks uploaded to Tidal were detected as 100% AI-generated. On 6 November, more than 60% of the day's deliveries were entirely synthetic, says Digital Music News. In June, Tidal had already stopped paying royalties on these songs and started labelling them, but that was not enough. «Something more drastic is needed», Tidal's head of music, Robert Anderson, wrote on X, quoted by TechCrunch.",
+    "How will it work? Tidal will use audio-detection technology from the French company Ircam Amplify and check the information that comes with each upload. Distributors will no longer be able to deliver tracks made solely by AI. Those who use AI as a production tool, alongside human work, can still publish. The company expects to turn away between 80,000 and 85,000 tracks a day.",
+    "According to several sources, Tidal is the first major streaming service to go this far. The Bandcamp store has already banned AI-made music; Deezer removes these tracks from recommendations and editorial playlists; Spotify and YouTube Music prefer to identify them with labels."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The 9 December date, the ban on distributors, the exception for music made with the help of AI, the 6.3% of the catalogue, the 96% never played and the 43% of uploads over 90 days confirmed in TechCrunch and Digital Music News (24 Nov). There is a discrepancy: both speak of 27 million fully AI-generated tracks, but TechCrunch says Tidal expects to delete more than 29 million by the end of the year. The 60% on 6 November, Ircam Amplify and the comparison with Deezer only in Digital Music News; Anderson's quote and the 80,000–85,000 rejections a day only in TechCrunch (which quotes the line with an ellipsis). We did not open The Hollywood Reporter or Rolling Stone; Tidal's original announcement was not consulted. «First service» is a claim made by several outlets (Yahoo, Rolling Stone, in their headlines), not verified by us."
+   },
+   "fontes": [
+    {
+     "nome": "TechCrunch – «Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming» (24 Nov)",
+     "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/"
+    },
+    {
+     "nome": "Digital Music News – «Breaking: TIDAL Fully Bans AI-Generated Music» (24 Nov)",
+     "url": "https://www.digitalmusicnews.com/2026/11/24/tidal-bans-ai-generated-music/"
+    },
+    {
+     "nome": "The Hollywood Reporter – Tidal bans wholly AI-generated music (24 Nov) (cited)",
+     "url": "https://www.hollywoodreporter.com/music/music-industry-news/tidal-bans-wholly-ai-generated-music-1236762171/"
+    },
+    {
+     "nome": "Rolling Stone – «Tidal Bans Music Made Entirely With Artificial Intelligence» (cited)",
+     "url": "https://www.rollingstone.com/music/music-news/tidal-bans-ai-music-1235663794/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Meta launches Muse in the UK, an AI «agent» that shops and makes bookings on the user's behalf",
+   "estado": "Launched on 24 November, for over-18s · British regulators watching · no date announced for the European Union",
+   "data": "2026-11-24",
+   "texto": [
+    "Meta, the owner of Facebook and WhatsApp, has started rolling out Muse, its personal artificial intelligence agent, in the United Kingdom. The launch was on Tuesday 24 November, in time for Black Friday and Christmas shopping, according to MacRumors and The Next Web. Unlike a chat assistant, Muse connects to other apps and carries out tasks: filling a supermarket basket, booking a flight, requesting a refund, buying presents.",
+    "How does it work? It is available in its own app, on the web and inside WhatsApp, and only for over-18s. Payments go through Link, a digital wallet for agents created by Stripe. Users choose what Muse has access to and have to approve important actions, including purchases. According to Meta, each Muse runs on its own virtual computer in the cloud, where data and passwords are kept, separate from the company's other services. In the UK it starts with partners such as Marks & Spencer, Currys and easyJet.",
+    "Why does this matter? It is one of the first agents of this kind to arrive in force in Europe. In the US, where it launched in September, it has been downloaded more than 10 million times, according to MacRumors. But there have also been problems: the Reuters news agency reported that Meta employees raised internal concerns about unwanted actions by the agent, such as accessing encrypted messages and giving false information in purchases. Meta speaks of «isolated incidents».",
+    "British regulators are watching. On the same day, the financial markets authority (FCA) published what it expects from AI agents, and the competition authority has already secured changes to Meta's terms, according to The Next Web. No date has been announced for its arrival in the European Union."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The 24 Nov launch, the features, the app/web/WhatsApp availability and payments through Link (Stripe) confirmed in MacRumors and The Next Web. The minimum age of 18, the virtual computer, the 10 million downloads in the US and the Reuters reports on internal concerns only in MacRumors (we did not open the Reuters piece). The FCA and the competition authority only in The Next Web. The list of partners differs: MacRumors cites M&S, Debenhams, ASOS, Currys, easyJet and Jet2; The Next Web cites Sainsbury's, Argos, M&S, Currys, easyJet and Debenhams — we used only those common to both. Neither source mentions price or the European Union; «no date for the EU» only means we found no announcement. We did not open the Politico piece."
+   },
+   "fontes": [
+    {
+     "nome": "MacRumors – «Meta's Muse Personal AI Agent Launches in the UK» (24 Nov)",
+     "url": "https://www.macrumors.com/2026/11/24/metas-muse-personal-ai-agent-launches-in-the-uk/"
+    },
+    {
+     "nome": "The Next Web – «Meta's AI agent Muse lands in the UK in time for Christmas shopping» (24 Nov)",
+     "url": "https://thenextweb.com/news/meta-muse-uk-launch"
+    },
+    {
+     "nome": "Politico Europe – Muse launch in the UK (24 Nov) (cited)",
+     "url": "https://www.politico.eu/article/meta-ai-agent-muse-launch-uk/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Huawei convicted in the US of conspiracy to steal trade secrets and bank fraud, but acquitted of racketeering",
+   "estado": "Jury verdict in New York · Huawei to appeal · sentencing scheduled for September 2027",
+   "data": "2026-11-24",
+   "texto": [
+    "A US federal jury has found Huawei guilty of conspiracy to steal trade secrets, bank fraud and sanctions violations. The verdict came on Tuesday 24 November in a federal court in Brooklyn, New York, according to Al Jazeera and Law Commentary. The Chinese tech giant and three associated companies were convicted on 10 of the 12 counts. But they were acquitted of the most serious one: racketeering conspiracy, a charge usually used against mafias and trafficking networks.",
+    "What was it accused of? Prosecutors said Huawei spent around two decades appropriating technology from American companies: router code from Cisco, antenna technology from Quintel, a circuit board from CNEX. The jury was shown a video in which, according to the prosecution, a Huawei employee put part of a T-Mobile testing robot in his backpack. The company was also accused of hiding its business in Iran, a country under US sanctions, from banks.",
+    "Huawei will appeal. Its lawyer Brian Heberlig said the acquittal on racketeering shows that the prosecution's central argument has collapsed: «It was the only charge that tied all the allegations together», he said, quoted by Al Jazeera. In a statement quoted by The Citizen, the company says the US charges are «without legal or factual merit». The defence argued that investigators took isolated cases involving a few of its more than 200,000 employees to build a conspiracy.",
+    "The case has old roots. The prosecution began in 2018 and led to the arrest in Canada of Meng Wanzhou, the chief financial officer and daughter of the founder, who eventually returned to China in 2021 after a deal with the US justice system. Sentencing is set for 14 September 2027, according to Law Commentary. Experts interviewed by Al Jazeera say the case has not hurt Huawei's business, which is now a central part of China's push into AI."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The conviction for conspiracy to steal trade secrets and bank fraud and the acquittal on racketeering confirmed in Al Jazeera, Law Commentary and The Citizen (the latter based on AFP). 10 of 12 counts in Law Commentary and The Citizen; the acquittal also on obstruction of justice, the Brooklyn court (Judge Ann Donnelly) and the sentencing date (14 Sep 2027) only in Law Commentary. The length of the trial differs: «more than two months» (Al Jazeera) and «three months» (The Citizen) — left out of the text. The companies harmed, Heberlig's quote and the Meng Wanzhou context according to Al Jazeera. The date of Meng's return (2021) is our own context. We did not open the AP piece. Possible penalties not established."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera – «China's Huawei found guilty of trade secrets conspiracy, fraud in US trial» (24 Nov)",
+     "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets"
+    },
+    {
+     "nome": "Law Commentary – «Huawei Convicted on 10 Counts, Acquitted of Racketeering» (24 Nov)",
+     "url": "https://www.lawcommentary.com/articles/huawei-convicted-10-counts-racketeering-acquittal"
+    },
+    {
+     "nome": "The Citizen (AFP) – «Huawei hits back at US conviction, says verdict 'without legal or factual merit'» (25 Nov)",
+     "url": "https://citizen.co.za/lifestyle/technology/huawei-hits-back-us-conviction-calls-verdict-without-legal-or-factual-merit"
+    },
+    {
+     "nome": "AP – verdict in the Huawei trial (24 Nov) (cited)",
+     "url": "https://apnews.com/article/huawei-racketeering-trial-verdict-b39ac780e2e31140015a1be02f0329ab"
+    }
+   ],
+   "imagem": {
+    "commons": "Huawei Headquarter, Bantian, Shenzhen - panoramio.jpg",
+    "tipo": "arquivo",
+    "alt": "Huawei headquarters building in the Bantian district of Shenzhen, China",
+    "legenda": "Huawei's headquarters in Bantian, Shenzhen, China (archive photograph; it does not show the trial)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "SpaceX and Tesla in talks on a $3.5 trillion merger and want a deal by the end of the year, according to the Financial Times",
+   "estado": "Talks reported by the FT · a deal is «not close», according to sources · would need approval from shareholders and regulators",
+   "data": "2026-11-24",
+   "texto": [
+    "Elon Musk's two biggest companies are negotiating a merger. SpaceX, which makes rockets and Starlink satellites, and Tesla, which makes electric cars, have set up special committees to discuss a tie-up paid for entirely in shares, which would create a group valued at around $3.5 trillion (3.5 million million). The news was reported by the Financial Times and picked up on Tuesday 24 November by Electrek and Yahoo Finance. It would be the biggest merger ever. But, according to people close to the talks, a deal is not yet close.",
+    "Who is negotiating? Musk runs both companies, but Texas corporate governance rules prevent him from taking part directly, according to the sources. On Tesla's side, the committee is chaired by Robyn Denholm, with Kathleen Wilson-Thompson and Jack Hartung, advised by the bank Evercore. For SpaceX there are Roelof Botha and Randy Glein, with Morgan Stanley and Goldman Sachs. The teams are crunching the numbers and discussing how many shares of one are worth each share of the other.",
+    "Why the rush? The aim is to reach a deal by the end of the year. Electrek notes that this would happen days before the new US Congress takes office on 3 January, where Democrats have promised to investigate Musk's companies. Any deal would have to go to an extraordinary general meeting of Tesla and win the backing of more than half of all shares, not just of those that vote. Musk has around 20% of the votes at Tesla and 84% at SpaceX.",
+    "What we don't know yet. The terms of the share exchange, and whether regulators in the US, China, Europe and the United Kingdom would let the deal through. Tesla's factory in Shanghai is where it makes more than half of its cars. The companies have not commented publicly, according to the sources consulted."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Everything stems from a single Financial Times story (not opened, behind a paywall), confirmed and detailed by Electrek and Yahoo Finance/InvestorsHub (24 Nov): the value, payment in shares, committee members, advisers, the year-end deadline, «deal not close», the rule requiring a majority of all shares and Musk's voting percentages. The link to the new Congress (3 Jan) and the Shanghai factory only in Electrek; Electrek also cites Bloomberg (not opened) as saying the companies want to close before Trump leaves. None of the sources includes statements from the companies or a clear stock market reaction. These are reported negotiations, not an announced deal."
+   },
+   "fontes": [
+    {
+     "nome": "Electrek – «Tesla (TSLA), SpaceX race for year-end merger deal before new Congress» (24 Nov)",
+     "url": "https://electrek.co/2026/11/24/tesla-spacex-merger-year-end-deadline-new-congress/"
+    },
+    {
+     "nome": "Yahoo Finance – «SpaceX and Tesla Directors Hold Talks Over Potential US$3.5 Trillion Merger» (24 Nov)",
+     "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-tesla-directors-hold-talks-111930850.html"
+    },
+    {
+     "nome": "Financial Times – merger talks between SpaceX and Tesla (24 Nov) (cited)",
+     "url": "https://www.ft.com/content/2585e45e-9133-4215-a2d8-e1275e1033b9"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Russia accuses Estonia of being «on the verge» of triggering an «open war», days before Tallinn closes the border with its neighbour",
+   "estado": "Threat made by the Russian foreign ministry on 23 Nov · Estonia denies the accusations · border closes on 1 December · NATO says it is watching",
+   "data": "2026-11-23",
+   "texto": [
+    "Tension between Russia and Estonia has escalated. The Russian foreign ministry on Monday 23 November accused the small Baltic country of a series of «hostile actions» which, it said, are «on the verge of triggering an open war» with Russia. The warning was delivered to Estonia's chargé d'affaires in Moscow, summoned to the ministry in protest at Tallinn's decision to close the land border from 1 December, according to Al Jazeera and RTÉ, which cites the AFP and Reuters news agencies. Estonia is a member of NATO and the European Union.",
+    "Why is Estonia closing the border? The Estonian government accuses Russia's military intelligence service (GRU) of ordering an attempted arson attack on Threod Systems, a company that makes military drones, in Viimsi, near Tallinn. According to Euronews, eight people living in Latvia have been arrested. Russia denies any involvement. The closure of the three border crossings (Narva, Luhamaa and Koidula) is expected to last at least six months.",
+    "Moscow added other complaints: it says Estonia lets Ukrainian drones pass through its airspace to attack north-western Russia, that it tries to stop Russian cargo ships in the Baltic Sea, that it has banned the transit of Russian and Belarusian grain and that it wants to restrict the Russian language and the Russian Orthodox Church. Russia says it reserves the right to take «comprehensive political and diplomatic measures». The Estonian foreign ministry replied that the country «has never allowed, and will never allow» its territory to be used for another country's military operations.",
+    "What does NATO say? Its secretary-general, Mark Rutte, said in Berlin that the alliance is following the situation and has options to respond, linking the case to the recent incursion of Russian missiles into Poland, according to Al Jazeera. Why does this matter? Estonia has a large Russian-speaking minority, and alleged discrimination against Russian speakers was one of the arguments Moscow used to justify its intervention in eastern Ukraine in 2014."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The «open war» threat, the summoning of the chargé d'affaires, the list of Russian complaints and the Estonian foreign ministry's reply confirmed in Al Jazeera and RTÉ (based on AFP/Reuters), both of 23 Nov. The diplomat's name (Marek Uhtegi) and Rutte's remarks appear only in Al Jazeera. Threod Systems, the eight arrests and the three border crossings come from Euronews (16 Nov), which does not give the length of the closure; the «at least six months» comes from Al Jazeera and RTÉ. We found no new developments from 24 Nov and did not open the Russian foreign ministry's original statement. There is no independent confirmation that Russia was behind the attempted arson: it is an accusation by the Estonian government. Image: the file appears in Commons search results, but the page could not be opened; what it shows is inferred from the file name."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera – «Russia threatens 'hostile' Estonia with 'open war'» (23 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war"
+    },
+    {
+     "nome": "RTÉ (AFP/Reuters) – «Estonia action on 'verge of triggering open war' - Russia» (23 Nov)",
+     "url": "https://www.rte.ie/news/world/2026/1123/1600353-russia-estonia-finland/"
+    },
+    {
+     "nome": "Euronews – «Estonia to close Russia border after sabotage bid on drone maker, foreign minister says» (16 Nov)",
+     "url": "https://www.euronews.com/2026/11/16/estonia-to-close-russia-border-after-sabotage-bid-on-drone-maker-foreign-minister-says"
+    },
+    {
+     "nome": "Yahoo News – «Russia Accuses Estonia of Hostilities 'On the Verge of Triggering Open War'» (cited)",
+     "url": "https://www.yahoo.com/news/world/articles/russia-accuses-estonia-hostilities-verge-103000083.html"
+    }
+   ],
+   "imagem": {
+    "commons": "Narva Hermann Castle and Ivangorod Fortress.jpg",
+    "tipo": "arquivo",
+    "alt": "Hermann Castle in Narva, Estonia, and Ivangorod Fortress in Russia, facing each other across the Narva River",
+    "legenda": "The Narva River separates Estonia (Hermann Castle, in Narva) from Russia (Ivangorod Fortress); this is where the main border crossing between the two countries is located (archive image; it does not show this week's events)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Riyadh's tallest skyscraper hit again in an attack attributed to Yemen's Houthis: 11 injured",
+   "estado": "Second attack on the same tower in less than a week · Saudi-led coalition speaks of a «terrorist attack» · no claim of responsibility reported",
+   "data": "2026-11-24",
+   "texto": [
+    "Riyadh's tallest tower, in Saudi Arabia, has been hit for the second time in less than a week. Tuesday's attack, on 24 November, attributed to Yemen's Houthi rebels, injured at least 11 people, according to Saudi Civil Defence, quoted by Reuters and Middle East Eye. The 80-storey building is the headquarters of the Public Investment Fund, Saudi Arabia's sovereign wealth fund, and stands in the capital's financial district.",
+    "Who are the injured? Two Saudis, four Egyptians, three Nepalis and two Indians, according to The Week, which quotes Civil Defence. Images released by the authorities show damage halfway up the façade. On 19 November the same tower had already been hit, with no injuries. The spokesman for the Saudi-led military coalition called it a «cowardly terrorist attack». The sources consulted do not report any claim of responsibility by the Houthis.",
+    "Why does this matter? The attacks show how the war between the US and Iran is spreading across the region. According to Reuters, Yemen's civil war flared up again in July, linked to that conflict, and since then the Houthis, allies of Iran, have been firing at Saudi airports, oil facilities and office buildings. Most international flights to Riyadh have been cancelled. In October, an attack on Riyadh airport killed 14 people, according to The Week.",
+    "Meanwhile, according to the American newspaper News Tribune, Donald Trump said in an interview with Fox News on Sunday that he could resume bombing Iran next year if the indirect talks, mediated by Qatar, fail. The Saudi finance minister, Mohammed al-Jadaan, gave assurances that the kingdom can withstand a prolonged conflict with the Houthis."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The 24 Nov attack, the 11 injured, the sovereign wealth fund headquarters and the previous attack on 19 Nov are confirmed by Middle East Eye and The Standard (Hong Kong), the latter carrying Reuters copy. The nationalities of the injured, the 80 storeys, the October airport attack and the finance minister's statements come only from The Week (India). The Yemen background (flare-up in July, cancelled flights) is according to Reuters via The Standard. Trump's interview with Fox News (Sunday 22 Nov) comes from the News Tribune; we did not see it in any other open source — hence it remains attributed. None of the open sources reports a claim of responsibility by the Houthis; authorship is as attributed by the sources and the coalition. We did not open the Bloomberg, NBC and Anadolu pages (the latter only showed the headline)."
+   },
+   "fontes": [
+    {
+     "nome": "Middle East Eye – «Eleven hurt in second Houthi strike within days on Riyadh's tallest tower» (24 Nov)",
+     "url": "https://www.middleeasteye.net/live-blog/live-blog-update/eleven-hurt-second-houthi-strike-within-days-riyadhs-tallest-tower"
+    },
+    {
+     "nome": "The Standard (Reuters) – «Eleven hurt in second Houthi strike within days on Riyadh's tallest tower» (24 Nov)",
+     "url": "https://www.thestandard.com.hk/world/article/349537/Eleven-hurt-in-second-Houthi-strike-within-days-on-Riyadhs-tallest-tower"
+    },
+    {
+     "nome": "The Week – «2 Indians among 11 injured in Houthi attack on Riyadh's tallest building» (24 Nov)",
+     "url": "https://www.theweek.in/news/middle-east/2026/11/24/riyadh-tower-attack-houthis.html"
+    },
+    {
+     "nome": "News Tribune – «Trump suggests Iran strikes will resume next year» (24 Nov)",
+     "url": "https://www.newstribune.com/news/2026/nov/24/trump-suggests-iran-strikes-will-resume-next-year/"
+    },
+    {
+     "nome": "Bloomberg – «Houthi Attack on Riyadh Tower Injures 11 People, Saudis Say» (cited)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/riyadh-s-finance-hub-attacked-saudi-anti-houthi-coalition-says"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Western intelligence services fear Russia could launch a nuclear-armed satellite as early as December; Kremlin plays it down",
+   "estado": "Information from anonymous sources published by the German press · Kremlin says it does not deserve to be taken seriously · launch not confirmed",
+   "data": "2026-11-23",
+   "texto": [
+    "Intelligence services in several NATO countries believe Russia is preparing to put a satellite carrying a nuclear weapon into orbit, possibly as early as December. The information was published on Monday 23 November by a joint investigation by the German public broadcasters WDR and NDR and the newspaper Süddeutsche Zeitung, according to The Moscow Times and The Copenhagen Post. The satellite will reportedly be called Sputnik-S and, according to the same anonymous sources, was allegedly assembled several years ago and is said to be stored in the Moscow region.",
+    "Why does this matter? A nuclear explosion in orbit could damage or destroy thousands of satellites at once, affecting communications and navigation systems such as GPS, the US Defense Intelligence Agency (DIA) warned in October, as quoted by The Moscow Times. Placing nuclear weapons in Earth orbit is prohibited by the 1967 Outer Space Treaty, which Russia signed.",
+    "The Kremlin plays it down. Its spokesman, Dmitry Peskov, said the reports are full of possibilities and claims from anonymous sources and therefore hardly deserve to be taken seriously. The Russian embassy in Berlin spoke of «unfounded insinuations» and insisted that Russia's space activities are peaceful. On NATO's side, Secretary General Mark Rutte said the alliance will defend itself against threats from space, according to the BBC, quoted by the Just Security newsletter.",
+    "What we know — and what we don't. The US has for years accused Russia of developing a weapon of this kind; the White House confirmed it publicly in February 2024. There is no independent confirmation that the launch is scheduled, nor that the satellite exists in the form described."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The existence of the German investigation (WDR, NDR, Süddeutsche Zeitung), the name Sputnik-S, the possible launch in December and Peskov's reaction are in The Moscow Times and The Copenhagen Post (the latter based on Reuters), both of 23 Nov. The underlying information comes from anonymous intelligence sources and has not been independently confirmed. The reaction of the Russian embassy in Berlin, the DIA warning and the White House confirmation in 2024 come only from The Moscow Times. Rutte's remark comes from the Just Security round-up (24 Nov), which quotes the BBC; we were unable to open the BBC article. We did not open the original German investigation."
+   },
+   "fontes": [
+    {
+     "nome": "The Moscow Times – «Kremlin Dismisses Reports About Alleged Nuclear-Armed Satellite Launch» (23 Nov)",
+     "url": "https://www.themoscowtimes.com/2026/11/23/kremlin-dismisses-reports-about-alleged-nuclear-armed-satellite-launch-a94349"
+    },
+    {
+     "nome": "The Copenhagen Post – «Kremlin denies reports Russia plans to launch a nuclear-armed satellite» (23 Nov)",
+     "url": "https://cphpost.dk/2026-11-23/global/kremlin-denies-reports-russia-plans-to-launch-a-nuclear-armed-satellite/"
+    },
+    {
+     "nome": "Just Security – «Early Edition: November 24, 2026» (24 Nov)",
+     "url": "https://www.justsecurity.org/165763/early-edition-november-24-2026/"
+    },
+    {
+     "nome": "BBC – article on Mark Rutte's position (cited)",
+     "url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Solomon Islands sign treaty with Australia and choose it as their main security partner, moving away from China",
+   "estado": "Treaty signed today in Canberra · includes education, visas and work in Australia · future of the pact with China unclear",
+   "data": "2026-11-25",
+   "texto": [
+    "The Solomon Islands, an archipelago in the South Pacific, signed a wide-ranging treaty with Australia on Wednesday 25 November. Prime Ministers Matthew Wale and Anthony Albanese met in Canberra, the Australian capital. In the text, the Solomon Islands choose Australia as their main security partner and commit to not accepting foreign military bases, according to the Australian prime minister's office and the AP news agency.",
+    "Why does this matter? In 2022, the previous Solomon Islands government signed a security agreement with China, which raised fears of a Chinese naval base in the Pacific. According to press reports, the current government has already told Beijing it will not renew it when it expires in early 2027. Wale neither confirmed nor denied this, citing a confidentiality clause in the agreement with China, and said talks with Beijing are continuing, according to the AP.",
+    "The treaty is not just about security. According to the Australian government, it includes support for free education in the archipelago, investment in roads and renewable energy, more places for Solomon Islands workers in Australia (including in childcare and care homes) and longer visas. There is also a stronger partnership in football. No figures were disclosed.",
+    "«Those days are over», said Wale, referring to the years of uncertainty in the region, as quoted by the AP. Albanese says relations between the two countries have never been stronger. China, through a Foreign Ministry spokesman, Guo Jiakun, said it treats the islands with mutual respect and denied any «geopolitical rivalry»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The signing on 25 Nov in Canberra, Australia as main security partner and the commitment to no foreign bases are confirmed in the Australian prime minister's statement and by the AP (via ClickOrlando). The detailed content (education, PALM, visas, football) is only in the official statement. The expiry of the pact with China in early 2027, the quotes from Wale and Albanese and the Chinese reaction come from the AP. Discrepancy: the 10 Things newsletter (24 Nov), quoting the Sydney Morning Herald and RNZ, gives the expiry of the Chinese pact as «April» and Australian funding of around 980 million dollars until 2028 — a figure we have not confirmed and have not included. We did not open the CNN, France 24 and Japan Times pages."
+   },
+   "fontes": [
+    {
+     "nome": "Prime Minister of Australia – «Signing of the Australia-Solomon Islands Treaty» (25 Nov)",
+     "url": "https://www.pm.gov.au/media/signing-australia-solomon-islands-treaty"
+    },
+    {
+     "nome": "AP (via ClickOrlando) – «Solomon Islands names Australia as its primary security partner in a new treaty that excludes China» (25 Nov)",
+     "url": "https://www.clickorlando.com/news/world/2026/11/25/solomon-islands-names-australia-as-its-primary-security-partner-in-a-new-treaty-that-excludes-china/"
+    },
+    {
+     "nome": "CNN – «This nation had a security pact with China. It's just signed a deal with a US ally instead» (cited)",
+     "url": "https://edition.cnn.com/2026/11/24/australia/solomon-islands-australia-security-pact-intl-hnk"
+    },
+    {
+     "nome": "France 24 – «Australia, Solomon Islands sign sweeping pact seen as countering China» (cited)",
+     "url": "https://www.france24.com/en/live-news/20261125-australia-solomon-islands-sign-sweeping-pact-stymieing-china"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Portugal's 2027 State Budget passes thanks to the PS abstaining, but the opposition's changes lead the Government to forecast a 0.2% deficit",
+   "estado": "Approved in the final overall vote on 24 Nov · goes to the President of the Republic · Government promises to correct the deficit over the year",
+   "data": "2026-11-24",
+   "texto": [
+    "The country now has a Budget for 2027. Luís Montenegro's government's proposal was approved on Tuesday 24 November in the final overall vote in the Assembleia da República, Portugal's parliament. Only the PSD and CDS-PP voted in favour. The PS (Socialists) and JPP abstained, which allowed it to pass. Chega, IL, Livre, PCP, BE and PAN voted against. PAN switched from abstaining to voting against because of an approved proposal that obliges RTP, the public broadcaster, to show bullfights, according to RTP.",
+    "The document leaving Parliament is not the one that went in. In the detailed stage, in which amendments are voted on article by article, 273 opposition proposals were approved, 108 of them from the PS, according to ECO. Among them are zero VAT for three months on a basket of essential foods, a freeze on university tuition fees, more allowances for the PSP and the GNR (Portugal's police forces) and a requirement that any increase in fuel tax (ISP) must go through Parliament. In other words: the Government lost several votes to the PS and Chega, which together have a majority.",
+    "Why does this matter? According to the Ministry of Finance's figures, submitted on Tuesday itself, the changes are worth around €800 million. Instead of a small surplus of 0.1% of GDP (€275 million), the State would run a deficit of 0.2% (€525 million). Montenegro accused the PS and Chega of disloyalty, insisted that «we will carry on governing» and that the Government «will do everything to avoid a political and constitutional crisis». He also said there will be no deficit because the Executive will work during the year to correct what it considers to be mistakes. The PS leader, José Luís Carneiro, called it «a bad budget» and explained that the party abstained to avoid a political crisis. André Ventura, of Chega, described it as a budget «negotiated with the PS».",
+    "On the same day, the European Commission found that Portugal's budget plan complies with EU rules, but warned that spending could grow well above what is recommended. Commissioner Valdis Dombrovskis acknowledged that, in theory, a 0.2% deficit still fits the criterion of accounts «close to balance». The Council of the EU is expected to adopt on 11 December a recommendation allowing Portugal to deviate from the spending growth limits, according to Forbes Portugal. The Budget now goes to the President of the Republic, António José Seguro, who before the vote had said he hoped the country would have «an approved Budget», according to RTP."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "How each party voted is confirmed by RTP (live coverage of the vote), Forbes Portugal and 24 Notícias (SAPO); ECO confirms approval with the PS abstaining but contains a contradictory sentence («remaining benches» against). Vote counts/numbers of MPs do not appear in the open sources. The 273 opposition proposals (108 from the PS) come only from ECO. The balance (-0.2%, €525 million vs. +0.1%, €275 million) and the impact of around €800 million are confirmed by ECO and Forbes Portugal. The quotes from Montenegro, Carneiro and Ventura and Seguro's remark come from RTP (Montenegro also in Forbes and 24 Notícias, in reported speech). Brussels' position, Dombrovskis and the 11 December date come only from Forbes Portugal. Seguro's remark was made before the vote; we found no date for promulgation nor any indication of a request for review by the Constitutional Court, although Montenegro spoke of the risk of a «constitutional» crisis (Forbes says he raised the possibility of distinguishing binding from recommendatory provisions, without specifying). We were unable to open the Renascença, TSF, Sol and Observador pages on the vote."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – «2027 State Budget proposal approved in final overall vote» (24 Nov)",
+     "url": "https://www.rtp.pt/noticias/politica/proposta-de-orcamento-do-estado-para-2027-aprovada-em-votacao-final-global_e1781227"
+    },
+    {
+     "nome": "ECO – «2027 State Budget approved in final vote thanks to PS abstention» (24 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/24/orcamento-do-estado-para-2027-aprovado-em-votacao-final-gracas-a-abstencao-do-ps/"
+    },
+    {
+     "nome": "Forbes Portugal – «OE2027: final overall vote confirms approval. Brussels warns of spending increase above what is recommended» (24 Nov)",
+     "url": "https://www.forbespt.com/oe2027-votacao-final-global-confirma-aprovacao-bruxelas-alerta-para-aumento-da-despesa-acima-do-recomendado/"
+    },
+    {
+     "nome": "24 Notícias (SAPO) – «OE2027 approved with PS and JPP abstaining» (24 Nov)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/oe2027-aprovado"
+    },
+    {
+     "nome": "Renascença – «2027 State Budget approved with PS abstention» (cited)",
+     "url": "https://rr.pt/noticia/politica/2026/11/24/orcamento-do-estado-para-2027-aprovado-com-abstencao-do-ps/494947/"
+    },
+    {
+     "nome": "Observador – «Brussels gives 'green light' to 2027 State Budget, but warns of spending increase above what is recommended» (cited)",
+     "url": "https://observador.pt/2026/11/24/bruxelas-da-luz-verde-ao-orcamento-do-estado-para-2027-mas-alerta-para-aumento-da-despesa-acima-do-recomendado/"
+    }
+   ],
+   "imagem": {
+    "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+    "tipo": "arquivo",
+    "alt": "Façade of the Palácio de São Bento in Lisbon, home of the Assembleia da República",
+    "legenda": "The Palácio de São Bento, home of the Assembleia da República, where the 2027 Budget was approved on 24 November (file photo; does not show the vote)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "CP train drivers' strike: three in four trains cancelled on Tuesday and another full stoppage today",
+   "estado": "Full strike on 24 and 25 Nov · partial on Thursday · ends on Friday 27 · minimum services only at rush hours",
+   "data": "2026-11-24",
+   "texto": [
+    "For those who depend on the train, today, Wednesday 25 November, is another difficult day. Train drivers at CP, Portugal's state railway, are on the second day of a full strike called by the Train Drivers' Union (SMAQ). On Tuesday, up to 19:00 Lisbon time, CP cancelled 795 of the 1,062 scheduled trains, almost 75%, according to company figures quoted by Jornal Económico. Only minimum-service trains ran.",
+    "The cuts were similar across the country. On Lisbon's suburban lines, 373 of 500 trains were cancelled; on Porto's, 168 of 228; on Coimbra's, 22 of 28. On long-distance services (Alfa Pendular and Intercidades), 51 of 67 were cancelled, and on regional services 181 of 239. In the morning in Agualva-Cacém, the few trains that came through arrived full and many passengers were left on the platform, RTP reported. On Monday, the first day and a partial strike, 242 trains had been cancelled by 19:00.",
+    "What do the drivers want? Recovery of purchasing power, recognition of the profession, better working conditions and stronger railway safety. Minimum services cover rush hours on the Lisbon, Porto and Coimbra suburban lines and some long-distance and regional routes. Ticket holders can ask for a full refund or swap free of charge for another train of the same category and class. On Thursday the strike becomes partial again and the strike notice ends on Friday 27.",
+    "Tuesday was also a day of other protests. Unions in education (STOP), nursing (SITEU), retail and large stores (STGSSP) and the bank workers' movement MUDAR held a national strike against the Budget, and the CGTP, Portugal's largest trade union confederation, gathered outside the Assembleia da República during the vote, promising that «the struggle will go on». No turnout figures for the national strike were given in the sources consulted."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Tuesday's figures up to 19:00 (1,062 scheduled, 267 run, 74.9% cancelled, breakdown by service) are from Jornal Económico, based on CP; RTP (with Lusa) confirms the same pattern with figures up to 08:00 (140 of 246 cancelled) and up to 12:00 (380 of 543, around 70%), as well as the refunds and minimum services; the figure of 795 cancelled is our own calculation (1,062-267). Monday's figure (242 cancelled, around 22.8%) and the Agualva-Cacém account are from RTP. Both sources rely on CP's figures. The exact arrangements for Friday 27 are not detailed in the open sources. At the time of going to press we had found no figures for today, Wednesday. The national strike of 24 Nov (unions and demands) is confirmed by Observador (Lusa); the CGTP protest and quote are from Executive Digest. We did not open the Público page or the CP notice."
+   },
+   "fontes": [
+    {
+     "nome": "Jornal Económico – «CP train drivers' strike cancels almost 75% of trains up to 19:00» (24 Nov)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/greve-dos-maquinistas-da-cp-cancela-quase-75-dos-comboios-ate-as-1900/"
+    },
+    {
+     "nome": "RTP – «CP train drivers' strike. Second day is a full stoppage with minimum services at rush hours» (24 Nov)",
+     "url": "https://www.rtp.pt/noticias/economia/greve-de-maquinistas-da-cp-segundo-dia-e-de-paralisacao-total-com-servicos-minimos-as-horas-de-ponta_n1781235"
+    },
+    {
+     "nome": "RTP/Lusa – «70% of trains cancelled during the morning. CP train drivers on second day of strike» (24 Nov)",
+     "url": "https://www.rtp.pt/noticias/economia/suprimidos-70-dos-comboios-durante-a-manha-maquinistas-da-cp-cumprem-segundo-dia-de-greve_n1781294"
+    },
+    {
+     "nome": "Observador/Lusa – «OE2027: health, education and retail workers on strike this Tuesday» (24 Nov)",
+     "url": "https://observador.pt/2026/11/24/oe2027-trabalhadores-da-saude-educacao-e-comercio-esta-terca-feira-em-greve/"
+    },
+    {
+     "nome": "Executive Digest – «CGTP back at Parliament today in new protest against OE2027 and promises that \"the struggle will go on\"» (24 Nov)",
+     "url": "https://executivedigest.sapo.pt/cgtp-esta-hoje-de-regresso-ao-parlamento-em-novo-protesto-contra-o-oe2027-e-promete-que-a-luta-vai-continuar/"
+    },
+    {
+     "nome": "Público – «CP train drivers' strike: hundreds of trains cancelled, full stoppage until Wednesday» (cited)",
+     "url": "https://www.publico.pt/2026/11/24/sociedade/noticia/greve-maquinistas-cp-86-comboios-suprimidos-ate-7h-paralisacao-total-ate-quarta-2196069"
+    },
+    {
+     "nome": "CP – notice of the strike from 23 to 27 November (cited)",
+     "url": "https://www.cp.pt/pt/detalhe-aviso/greve-23a27-nov"
+    }
+   ],
+   "imagem": {
+    "commons": "CP 2064 na estação de Lisboa-Rossio.jpg",
+    "tipo": "arquivo",
+    "alt": "CP suburban train standing at Rossio station in Lisbon",
+    "legenda": "A CP train at Rossio station in Lisbon (file photo; does not show the strike)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Two polls, the same message: two in three Portuguese want a Government reshuffle, with the health minister and the interior minister top of the list",
+   "estado": "Católica and Intercampus polls · negative rating of the Government rises · Montenegro gives an interview on RTP today",
+   "data": "2026-11-24",
+   "texto": [
+    "Most Portuguese want changes in the Government. According to a poll by the Catholic University (CESOP) for RTP, Antena 1 and Público, released on Tuesday 24 November, 67% of respondents favour a reshuffle, against 28% who prefer to keep the team. Another poll, by Intercampus for Jornal de Negócios, reaches an almost identical figure: 67.7%.",
+    "Who should go? In the Católica poll, the health minister, Ana Paula Martins, is named most often (34%), followed by the interior minister, Luís Neves (31%), and the education minister, Fernando Alexandre (15%). Only 6% want the prime minister to go. In the Intercampus poll, the order of first choice is reversed: Luís Neves with 28.7% and Ana Paula Martins with 24.1%.",
+    "The Government's rating has worsened. According to Católica, 44% give the Executive a negative rating, against 41% in July and 24% in March 2025; only 14% rate it positively. Health (65% negative ratings) and housing (61%) are the areas faring worst. Even so, two in three respondents expect the Government to serve out its term and 72% think that is best for the country.",
+    "The Católica poll was carried out by telephone between 13 and 19 November, with 836 valid interviews and a margin of error of up to 3.4%; the Intercampus poll between 11 and 18 November, with 609 interviews and a margin of error of 4%. Luís Montenegro answers questions this Wednesday, the 25th, on RTP's «Grande Entrevista» (Big Interview), conducted by Vítor Gonçalves."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "These are two different polls (Católica/CESOP and Intercampus), which gives two independent confirmations of the figure of around two thirds in favour of a reshuffle. The Católica poll's technical details and results are confirmed by RTP and Observador; the historical series (24%, 32%, 41%, 44%) is from Observador. RTP gives 14% positive ratings (13% good + 1% very good); Observador gives 13% «good». The Intercampus results and technical details come only via Executive Digest, which quotes Jornal de Negócios (we did not open Negócios). The questions about ministers were put to a subsample of 572 people in the Católica poll. Montenegro's interview is confirmed by RTP (RTP1, RTP Notícias and RTP Mundo), with no time given. We did not open the Público article."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – «Católica poll. Negative rating of the Government rises and majority wants reshuffle» (24 Nov)",
+     "url": "https://www.rtp.pt/noticias/politica/sondagem-catolica-avaliacao-negativa-do-governo-aumenta-e-maioria-quer-remodelacao_n1781263"
+    },
+    {
+     "nome": "Observador – «Government approval rating falls and 67% favour reshuffle» (24 Nov)",
+     "url": "https://observador.pt/2026/11/24/sondagem-sobe-avaliacao-negativa-do-governo-e-67-defendem-remodelacao/"
+    },
+    {
+     "nome": "Executive Digest – «Portuguese want changes in the Government: almost 70% call for reshuffle and 62% say the country is worse off» (24 Nov)",
+     "url": "https://executivedigest.sapo.pt/portugueses-querem-mudancas-no-governo-quase-70-pedem-remodelacao-e-62-dizem-que-pais-esta-pior/"
+    },
+    {
+     "nome": "RTP – «Luís Montenegro this Wednesday on RTP's Grande Entrevista» (24 Nov)",
+     "url": "https://www.rtp.pt/noticias/politica/luis-montenegro-esta-quarta-feira-na-grande-entrevista-da-rtp_n1781398"
+    },
+    {
+     "nome": "Público – «Poll: 67% want reshuffle. Health and Interior top the list of ministers who should go» (cited)",
+     "url": "https://www.publico.pt/2026/11/24/politica/noticia/sondagem-67-querem-remodelacao-ana-paula-martins-luis-neves-lideram-lista-ministros-sair-2196137"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "New HIV diagnoses fell 39% in a decade and Portugal meets the first UN target, but more than half of cases are still found late",
+   "estado": "DGS and INSA report released on 24 Nov · 961 new cases in 2025 · none in children",
+   "data": "2026-11-24",
+   "texto": [
+    "Portugal continues to curb HIV, the virus that causes AIDS. In 2025, 961 new infections were recorded, according to the annual report by the DGS, Portugal's Directorate-General of Health, and the INSA, the Doutor Ricardo Jorge National Health Institute, released on Tuesday 24 November. Over the last decade, new diagnoses fell by 39% and AIDS cases by 55%. There were no cases in children under 15.",
+    "There is another positive sign. Of the roughly 51,400 people living with HIV in Portugal in 2024, 95% knew they were infected. This is the first of the three targets set by UNAIDS, the United Nations programme on HIV, which calls for 95% of people diagnosed, 95% of those on treatment and 95% of those with the virus under control. Access to treatment has also become faster: 96.1% of the newly diagnosed reached a specialist appointment in under 90 days.",
+    "What still needs to improve? More than half of cases (53%) were diagnosed late, especially among women and people aged 50 or over. And 63% of people had no symptoms when they found out. That is why health authorities are calling for tests that are easier to get and closer to people. In 2025, 112 people living with HIV died. Greater Lisbon and the Setúbal Peninsula have the highest diagnosis rates."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Figures confirmed by RTP and CNN Portugal (24 Nov), which match and probably derive from the same Lusa copy on the DGS/INSA report; Lusa (lead only, paywalled) confirms the 961 cases and the late diagnosis among women and those over 50. We did not open the original report. The sources do not give the 2024 figure for a year-on-year comparison, nor the values for the 2nd and 3rd 95-95-95 targets; the explanation of the three targets is our own context. TSF's headline reads «Portugal reached UNAIDS targets for diagnosis and treatment», but we were unable to open that page, so we only state the first target."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – «Portugal recorded 961 new cases of HIV infection in 2025» (24 Nov)",
+     "url": "https://www.rtp.pt/noticias/pais/portugal-registou-961-novos-casos-de-infecao-por-vih-em-2025_n1781226"
+    },
+    {
+     "nome": "CNN Portugal – «Portugal recorded 961 new cases of HIV infection in 2025» (24 Nov)",
+     "url": "https://cnnportugal.iol.pt/novos-casos-vih/direcao-geral-da-saude/portugal-registou-961-novos-casos-de-infecao-por-vih-em-2025/20261124/6b05396a0cf2c0fc744b7501"
+    },
+    {
+     "nome": "Lusa – «Portugal recorded 961 new cases of HIV infection in 2025» (24 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-24/48181524/portugal-registou-961-novos-casos-de-infeção-por-vih-em-2025"
+    },
+    {
+     "nome": "TSF – «\"Significant milestone.\" Portugal reached UNAIDS targets for HIV diagnosis and treatment» (cited)",
+     "url": "https://tsf.pt/sociedade/artigo/marco-significativo-portugal-atingiu-metas-da-onusida-para-diagnostico-e-tratamento-do-vih/18151594"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Shenzhou-24 has docked with the Chinese space station, taking the first foreign astronaut to Tiangong, Pakistan's Muhammad Zeeshan Ali",
+   "estado": "Launch and docking completed · Pakistani astronaut stays 5 to 10 days · Shenzhou-23 commander stays a year in orbit",
+   "data": "2026-11-25",
+   "texto": [
+    "The Chinese space station has welcomed a foreign astronaut for the first time. The Shenzhou-24 spacecraft lifted off at 00:18 Lisbon time this Wednesday, 25 November (08:18 in Beijing), from the Jiuquan launch centre in north-western China, on a Long March 2F rocket. About three and a half hours later, at 03:56 Lisbon time, it docked with the Tiangong station, according to Reuters. On board is Pakistani pilot Muhammad Zeeshan Ali, aged 40, the first citizen of Pakistan to reach orbit.",
+    "Who is on board? The commander is Tang Hongbo, who, according to China's Xinhua news agency as quoted by Space.com, becomes the first person to visit Tiangong three times. Wu Yi, the flight engineer, is making his first trip to space. Zeeshan Ali is flying as payload specialist, the crew member in charge of the scientific experiments. Zhang Jingbo, spokesman for the China Manned Space Agency (CMSA), called the launch «a complete success», according to The Express Tribune.",
+    "The Pakistani astronaut's stay is short. Ali is due to stay 5 to 10 days and return to Earth aboard the Shenzhou-23 spacecraft, with two of the crew members who have been on the station since May. Tang and Wu will stay around six months. There is something new in this crew handover: the Shenzhou-23 commander, Zhu Yangzhu, will remain in orbit for about a year, to study how the human body copes with long stays, with future missions to the Moon in mind. It will be the longest stay ever by a Chinese astronaut.",
+    "Why does this matter? China presents Tiangong as a hub for international cooperation, at a time when the NASA-led International Space Station may be retired around 2030. Ali trained for seven months in Beijing, including Chinese lessons, and will take part in experiments, among them one on carbon-fibre materials capable of repairing small cracks by themselves. «I am not flying for myself. I carry Pakistan's name on my shoulder», he told reporters the day before, as quoted by Reuters."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The launch (08:18 Beijing time, 00:18 UTC/Lisbon, Long March 2F, Jiuquan) is confirmed by Space.com (Mike Wall, updated on 25 Nov, based on CCTV and Xinhua) and by The Express Tribune (based on the CMSA and Xinhua). The docking time (11:56 Beijing time, 03:56 GMT) comes only from Reuters, read in the republication by The Kathmandu Post and in Asharq Al-Awsat (both reproduce the same Reuters copy); The Express Tribune only anticipated docking about three hours after separation. The crew and their roles match across the three sources. The length of Ali's stay (5 to 10 days) is from Reuters and The Express Tribune; Space.com says «about a week». Zhu Yangzhu's one-year stay is from Reuters and Space.com (the latter quoting the South China Morning Post). Space.com names Ali's colleagues on the return trip, Zhang Zhiyuan and Lai Ka-ying; Reuters says only «the other Shenzhou-23 crew members». The quotes from Ali (Reuters) and Zhang Jingbo (The Express Tribune) were translated by us. There is no confirmed date for Ali's return. We did not open Xinhua, CGTN or the CMSA website directly. Image: the file appears in Commons search results, but the page could not be opened to confirm author, date and licence; the description is based on the file name."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters, republished by The Kathmandu Post – «China's Shenzhou-24 docks at space station with Pakistani national as first foreign astronaut» (25 Nov)",
+     "url": "https://kathmandupost.com/world/2026/11/25/china-s-shenzhou-24-docks-at-space-station-with-pakistani-national-as-first-foreign-astronaut"
+    },
+    {
+     "nome": "Space.com – «China's Shenzhou-24 mission launches 1st international astronaut to Tiangong space station» (Mike Wall, 24–25 Nov)",
+     "url": "https://www.space.com/space-exploration/human-spaceflight/china-shenzhou-24-first-international-astronaut-launch-tiangong-space-station"
+    },
+    {
+     "nome": "The Express Tribune – «Shenzhou-24 carrying Pakistan's first astronaut docks at China's space station» (25 Nov)",
+     "url": "https://tribune.com.pk/story/2642235/shenzhou-24-carrying-pakistans-first-astronaut-docks-at-chinas-space-station"
+    },
+    {
+     "nome": "Asharq Al-Awsat – «China's Shenzhou-24 Docks at Space Station with Pakistani National as 1st Foreign Astronaut» (25 Nov)",
+     "url": "https://english.aawsat.com/varieties/5345393-chinas-shenzhou-24-docks-space-station-pakistani-national-1st-foreign-astronaut"
+    }
+   ],
+   "imagem": {
+    "commons": "Chinese Tiangong Space Station (cropped).jpg",
+    "tipo": "arquivo",
+    "alt": "The Chinese space station Tiangong in orbit, with its modules and solar panels",
+    "legenda": "The Chinese space station Tiangong, where Shenzhou-24 docked this Wednesday (file image; does not show the Shenzhou-24 mission)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Ariane 6 puts another 36 Amazon Leo satellites into orbit, a day after a postponement and nine days after 40 satellites were lost on an American rocket",
+   "estado": "Successful launch on 24 Nov · tenth Ariane 6 flight · 136 Amazon Leo satellites launched by Arianespace",
+   "data": "2026-11-24",
+   "texto": [
+    "The European Ariane 6 rocket launched 36 satellites for the Amazon Leo internet network on Tuesday 24 November. It lifted off at 11:14 Lisbon time (08:14 local time) from Europe's Spaceport in Kourou, French Guiana, according to CNES, the French space agency. The last satellites separated from the rocket two hours and four minutes later, at an altitude of around 460 kilometres, according to Mediasat and Telecompaper.",
+    "The launch was supposed to happen on Monday, but was postponed. The countdown was halted because of a technical problem in the ground support systems, according to Space.com, quoted by ua.news. On the new attempt, the rocket left in the last minute of the launch window. It was Ariane 6's tenth flight, which CNES sums up as «ten out of ten».",
+    "In other words: Arianespace has now put 136 Amazon Leo satellites into orbit in less than ten months, in four flights. The rocket used its most powerful version, with four P160C side boosters, larger than the earlier ones. Amazon, which competes with SpaceX's Starlink, is in a hurry: ULA's Vulcan rocket, from the US, failed on 15 November and destroyed 40 of the network's satellites, and Blue Origin's New Glenn has been grounded since an explosion in May, according to Mediasat. The US regulator's licence requires Amazon to have the first generation, of 3,232 satellites, in orbit by July 2029."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The launch on 24 Nov, the 36 satellites and the total of 136 are confirmed by CNES (event page for VA271, with time 08:14 Kourou/12:14 Paris), Mediasat (11:14 UTC; flight VA271/LE-04) and Telecompaper (460 km, 2 h 04 min). Arianespace's home page announces «Mission success! VA271/LE-04», but the full press release could not be opened. An older page (Digg, based on an Arianespace post on X) designated the flight as VA267; we follow VA271, used by CNES, Arianespace and Mediasat. The reason for the 23 Nov postponement (ground support systems) is according to ua.news, which quotes Space.com, and confirmed by the cached RocketLaunch.live page (quoting Arianespace); we did not open the Space.com article. The Vulcan failure on 15 Nov with 40 satellites, the New Glenn grounding and the FCC deadline (July 2029) come only from Mediasat (which quotes Reuters and Bloomberg). Lisbon time is the same as UTC in November."
+   },
+   "fontes": [
+    {
+     "nome": "CNES – «VA271 : revivez le 10e lancement d'Ariane 6» (Relive Ariane 6's 10th launch) (24 Nov)",
+     "url": "https://cnes.fr/en/node/2970"
+    },
+    {
+     "nome": "Mediasat – «Ariane 6 Launches 36 More Amazon Leo Internet Satellites» (24 Nov)",
+     "url": "https://mediasat.info/en/2026/11/24/ariane-6-launches-36-more-amazon-leo-internet-satellites/"
+    },
+    {
+     "nome": "Telecompaper – «Arianespace launches another 36 Amazon Leo satellites on tenth Ariane 6 flight» (24 Nov)",
+     "url": "https://www.telecompaper.com/news/arianespace-launches-another-36-amazon-leo-satellites-on-tenth-ariane-6-flight--1589906"
+    },
+    {
+     "nome": "ua.news – «Ariane 6 launch with 36 Amazon Leo satellites postponed» (23 Nov)",
+     "url": "https://ua.news/en/dovkolo-svitu/zapusk-raketi-ariane-6-z-36-suputnikami-perenesli-cherez-tekhnichnu-problemu-space-com"
+    },
+    {
+     "nome": "Arianespace – home page («Mission success! VA271/LE-04»)",
+     "url": "https://arianespace.com/"
+    },
+    {
+     "nome": "AIAA – «Ariane 6 Launches 36 Satellites for Amazon Leo Constellation» (24 Nov) (cited)",
+     "url": "https://aiaa.org/2026/11/24/ariane-6-launches-36-satellites-for-amazon-leo-constellation/"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Soldado Fantasma» (Ghost Soldier): Jim Caviezel is a former soldier who single-handedly takes on a company that wants his town's land — an action film in the 1980s mould that divides the critics",
+   "ficha": {
+    "Original title": "Ghost Soldier (2026, USA)",
+    "Director": "William Eubank («Underwater», «Land of Bad»); screenplay by Chris Papasadero",
+    "Cast": "Jim Caviezel, Olivia Thirlby, Shea Whigham, Garret Dillahunt, Beau Knapp, Michael Ironside",
+    "Release in Portugal": "19 November 2026 (thriller and action; 90 minutes; distributed by Big Picture; M/14, according to filmSPOT)",
+    "Reviews": "Divided reviews, more negative than positive: 7 out of 10 from JoBlo; negative reviews from RogerEbert.com and the AV Club; 39% positive out of 23 reviews on Rotten Tomatoes, but a 90% audience score"
+   },
+   "texto": [
+    "«Soldado Fantasma» (Ghost Soldier), an American action film starring Jim Caviezel, the actor from «The Passion of the Christ», has been in Portuguese cinemas since Thursday 19 November. It is directed by William Eubank, who previously made «Underwater» and «Land of Bad», and opened in the USA a week earlier, on 11 November. According to filmSPOT, it runs for 90 minutes and is distributed by Big Picture; today, Wednesday, there is for example a screening at 21:00 at the Cinemas NOS in Nosso Shopping, in Vila Real.",
+    "Caviezel plays Fitz, a former Green Beret, of the American special forces, who lives in retirement in a small town in Wyoming and secretly designs weapons for a government agency. When a company starts forcing the residents out to take over the land and the river's water — according to the AV Club, to build artificial intelligence data centres — Fitz refuses to sell his. He takes in a boy from a displaced family and decides to take on the company's mercenaries single-handedly, with a collection of high-tech gadgets. The rest is for those who go to the cinema.",
+    "The strengths, for those who liked it. Chris Bumbray, of the JoBlo website (7 out of 10), speaks of a fast, lean action film, with well-choreographed shoot-outs, which looks far more expensive than it was, and with the flavour of 1980s and 1990s action films. He also praises the supporting cast: Olivia Thirlby as the sheriff, Michael Ironside as an armourer and father figure, Shea Whigham as Fitz's boss in the government. Clint Worthington, of RogerEbert.com, likes Beau Knapp's energy as the villain, some visual style and the gadgets, and Siddhant Adlakha, of the AV Club, finds the science-fiction devices imaginative, though underused. American audiences seem to have liked it more than the critics: a 90% audience score on Rotten Tomatoes.",
+    "The weaknesses weigh more. The AV Club describes an incoherent film, with jerky editing, confusing action scenes and dialogue from Caviezel that is hard to make out, in which 90 minutes feel long. RogerEbert.com criticises the political message, which it considers heavy-handed and right-wing, a protagonist with no depth, too many characters with little room and fights that are hard to follow. Even JoBlo, the most favourable, points to cartoonish villains, too many speeches and some badly acted small roles. On Rotten Tomatoes, only 39% of the 23 reviews are positive. In short, according to the assessment that emerges from the reviews consulted: an old-fashioned B-movie action film that may entertain those looking for gunfire and gadgets without great pretensions, but which most critics consider confused and simplistic."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – Cinema release dates in Portugal (19 November 2026)",
+     "url": "https://filmspot.pt/estreias/"
+    },
+    {
+     "nome": "filmSPOT – Cinemas NOS Nosso Shopping, Vila Real: times and screenings (25 Nov)",
+     "url": "https://filmspot.pt/cinema/cinemas-nos-nosso-shopping-vila-real-39/"
+    },
+    {
+     "nome": "Magazine.HD – 8 films open in our cinemas this week (19 November)",
+     "url": "https://www.magazine-hd.com/apps/wp/?p=801869"
+    },
+    {
+     "nome": "Rotten Tomatoes – «Ghost Soldier»",
+     "url": "https://www.rottentomatoes.com/m/ghost_soldier"
+    },
+    {
+     "nome": "JoBlo – review of «Ghost Soldier» (Chris Bumbray, 11 Nov 2026)",
+     "url": "https://www.joblo.com/ghost-soldier-review/amp/"
+    },
+    {
+     "nome": "RogerEbert.com – review of «Ghost Soldier» (Clint Worthington)",
+     "url": "https://www.rogerebert.com/?p=278387"
+    },
+    {
+     "nome": "AV Club – review of «Ghost Soldier» (Siddhant Adlakha, 12 Nov 2026)",
+     "url": "https://www.avclub.com/ghost-soldier-review-jim-caveizel-conservative-action-movie"
+    }
+   ],
+   "nota": "Release on 19 Nov, genres, 90 min, M/14, distributor Big Picture and main cast (Caviezel, Thirlby, Knapp) according to filmSPOT's releases list; Magazine.HD confirms the film among the 19 Nov releases. Today's screening at 21:00 at the Cinemas NOS Nosso Shopping (Vila Real) according to filmSPOT's times page; Cinecartaz and filmSPOT's November page were not opened for this film, and times should be checked before setting out. Director, screenwriter, full cast, US release on 11 Nov, 39% from 23 reviews and 90% audience score according to Rotten Tomatoes (Columbia Pictures/Sony as US distributor). Eubank's previous films and Michael Ironside in the cast according to JoBlo. Synopsis cross-checked between Rotten Tomatoes, JoBlo, RogerEbert.com, AV Club and Magazine.HD; the AI data centres are mentioned by the AV Club. Ratings: 7/10 (JoBlo); RogerEbert.com and AV Club with no rating visible in the text obtained. «The Passion of the Christ» as Caviezel's best-known role is general knowledge. No Portuguese reviews were found. The film replaces Pawlikowski's «Fatherland», which only opens on 26 Nov. Image: the file appears in the Commons search results, but the page could not be opened; the year comes from the file name and the event is not known.",
+   "imagem": {
+    "commons": "Jim Caviezel 2012 (6991397724) CROPPED.jpg",
+    "tipo": "arquivo",
+    "alt": "The actor Jim Caviezel",
+    "legenda": "Jim Caviezel, star of «Soldado Fantasma» (Ghost Soldier), in a 2012 photograph (archive image; does not show the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Fernando Lemos, the surrealist photographer who swapped his face for a light bulb in his self-portrait: on the centenary of his birth, Tavira shows more than a hundred of his photographs",
+   "ficha": {
+    "Born and died": "3 May 1926, in Lisbon; 17 December 2019, in São Paulo (Brazil)",
+    "Field": "Photography, painting, drawing, graphic design and poetry; surrealism",
+    "Essential work": "Black-and-white portraits and self-portraits from 1949–1952 (Sophia de Mello Breyner Andresen, Alexandre O'Neill, Mário Cesariny, Jorge de Sena, José Cardoso Pires); exhibition at Casa Jalco, in Lisbon (1952), with Vespeira and Fernando de Azevedo; in Brazil, abstract painting, graphic design and the ceramic panel at Brigadeiro station on the São Paulo metro (1990–91)",
+    "Awards": "Drawing prize at the São Paulo Biennial (1957); Prémio Nacional de Fotografia (National Photography Prize, 2001)",
+    "Now": "Centenary of his birth; exhibition «Fernando Lemos. As imagens que nos olham» (The images that look at us) at the Museu Municipal de Tavira – Palácio da Galeria, from 14 November 2026 to 3 April 2027"
+   },
+   "texto": [
+    "The Museu Municipal de Tavira (Tavira Municipal Museum), in the Algarve, is showing more than a hundred photographs by Fernando Lemos (1926–2019), one of the central names of Portuguese surrealism, until 3 April. The exhibition «As imagens que nos olham» (The images that look at us) opened on 14 November at the Palácio da Galeria and is part of the celebrations of the centenary of the artist's birth. The photographs, almost all from 1949 to 1952, come from the Fundação Cupertino de Miranda, in Vila Nova de Famalicão, and the exhibition is curated by Marlene Oliveira.",
+    "Fernando Lemos was born in Lisbon on 3 May 1926. He studied at the Escola António Arroio and then painting at the Sociedade Nacional de Belas Artes, and worked in industrial lithography. In 1949 he took part in the first exhibition of the Lisbon Surrealist Group and, in the following years, photographed writers and artists who were his friends, such as Sophia de Mello Breyner Andresen, Alexandre O'Neill, Mário Cesariny and Jorge de Sena. In 1952 he exhibited at the former Casa Jalco, on Rua Ivens, with Marcelino Vespeira and Fernando de Azevedo: painting, drawing, objects, collages and photography. Shortly afterwards, fed up with the Estado Novo dictatorship, he left for Brazil, where he settled in 1953 and became a Brazilian citizen in 1960.",
+    "The photographs from those years are what made him known in Portugal. They are black-and-white portraits full of masks, shadows and superimpositions, in which people's faces are never just faces. According to the newspaper Postal do Algarve, Lemos explained that, after a first automatic gesture, the rest of the photographic work was thought through and planned, almost like writing. In Brazil he was above all an abstract painter, draughtsman and graphic designer: he won the drawing prize at the São Paulo Biennial in 1957, taught at the Faculty of Architecture and Urbanism of the University of São Paulo, headed the Brazilian Industrial Design Association and, with a Gulbenkian grant, studied calligraphy in Japan in 1963. In Portugal, he received the Prémio Nacional de Fotografia (National Photography Prize) in 2001.",
+    "A curiosity: Fernando Lemos's most famous self-portrait does not show his face, but a light bulb and the tarot card «The Hanged Man». According to the Diário de Notícias, he tried to use it as his passport photograph, and the authorities refused. In Brazil, the same newspaper says, they jokingly called him «the guy Salazar sent us». He died in São Paulo in December 2019, aged 93. He used to sum up his life like this: «I have two homelands, one that made me and another that I help to make.»"
+   ],
+   "fontes": [
+    {
+     "nome": "Postal do Algarve – Tavira hosts more than a hundred photographs by Fernando Lemos in an exhibition devoted to surrealism (11 Nov 2026)",
+     "url": "https://postal.pt/algarve/tavira-recebe-mais-de-cem-fotografias-de-fernando-lemos-em-exposicao-dedicada-ao-surrealismo/"
+    },
+    {
+     "nome": "Diário de Notícias – Surrealist visual artist, designer and photographer Fernando Lemos dies aged 93 (17 Dec 2019)",
+     "url": "https://www.dn.pt/cultura/morreu-o-artista-plastico-designer-e-fotografo-do-surrealismo-fernando-lemos-aos-93-anos-11629480.html"
+    },
+    {
+     "nome": "Diário de Notícias – «Lemos. Um retrato de quem fixou o adeus português» (Lemos. A portrait of the man who captured the Portuguese farewell) (Feb 2018)",
+     "url": "https://www.dn.pt/arquivo/diario-de-noticias/lemos-um-retrato-de-quem-fixou-o-adeus-portugues-9118191.html"
+    },
+    {
+     "nome": "Fundação Calouste Gulbenkian, CAM – Chronology: Fernando Lemos (1926–2019)",
+     "url": "https://gulbenkian.pt/cam/en/chronology/fernando-lemos-1926-2019/"
+    },
+    {
+     "nome": "Observador – «Fernando Lemos: design e celebração» (Fernando Lemos: design and celebration) (republished on 10 Dec 2019)",
+     "url": "https://observador.pt/2019/12/10/fernando-lemos-design-e-celebracao/"
+    },
+    {
+     "nome": "Fascínio da Fotografia – Exhibition listings, October to December 2026",
+     "url": "https://fasciniodafotografia.com/2026/10/01/agenda-exposicoes-outubro-a-dezembro-2026/"
+    },
+    {
+     "nome": "Wikipedia – Fernando Lemos",
+     "url": "https://en.wikipedia.org/wiki/Fernando_Lemos"
+    }
+   ],
+   "nota": "Exhibition (title, Museu Municipal de Tavira – Palácio da Galeria, opening on 14 Nov 2026, until 3 Apr 2027, more than a hundred photographs mostly from 1949–1952, masks, shadows and superimpositions, partnership with the Fundação Cupertino de Miranda, curated by Marlene Oliveira, centenary) according to Postal do Algarve; dates confirmed by the Fascínio da Fotografia listings. Date of birth according to the DN (2019) and Wikipedia (which gives the full name, José Fernandes de Lemos, and the death on 17 Dec 2019); place of death (a hospital in São Paulo) according to the DN. Education (António Arroio 1938–43, SNBA), the 1952 Casa Jalco exhibition with painting, drawing, objects, collages and photography, departure in 1953, Gulbenkian grant and Japan in 1963 and the 1957 Biennial drawing prize according to the CAM/Gulbenkian chronology. First exhibition of the Lisbon Surrealist Group (1949), Rua Ivens, origin of the Galeria de Março, Brazilian citizenship in 1960, FAU-USP, Brazilian Industrial Design Association, Prémio Nacional de Fotografia (2001) and the quotation «I have two homelands…» according to the DN (2019). Industrial lithography and the Brigadeiro station panel according to the Observador. People portrayed, self-portrait with the light bulb and «The Hanged Man», refusal as a passport photo and the Brazilian nickname according to the DN (2018). The DN says he left by boat in 1952 and settled in 1953; the Postal and the Gulbenkian give 1953. The DN (2019) also mentions a painting prize at the Biennial in 1953, which is not confirmed by the Gulbenkian chronology and is therefore not used. The quotation about the photographic process is a paraphrase of the Postal. Image: there is a «Fernando Lemos» category on Commons, but it was not possible to open it or to confirm the name of any file with photographs or portraits of him; a general view of Tavira that appears in the Commons search results was used (page not opened; what it shows comes from the file name). It should be replaced with a portrait of Lemos if the newsroom finds one.",
+   "imagem": {
+    "commons": "Vista Tavira.jpg",
+    "tipo": "ilustrativa",
+    "alt": "View of the town of Tavira, in the Algarve",
+    "legenda": "Tavira, where the Municipal Museum is showing Fernando Lemos's «As imagens que nos olham» (The images that look at us) until April (illustrative image; does not show the exhibition or the artist's works)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that the first Christmas card to be sold was born in 1843, in London, because a man did not have time to answer his letters?",
+   "texto": [
+    "Did you know that Christmas cards were born out of a lack of time? In December 1843, in London, Henry Cole had a pile of letters waiting for a reply. To get his season's greetings out of the way, he asked a painter friend, John Callcott Horsley, to design a card to be printed, to which he only had to add the name. It is considered the first commercial Christmas card.",
+    "Cole was no ordinary man. A civil servant, educator and inventor, he helped to reform the British postal service in the 1840s, with the penny stamp, which made sending letters cheap, and he was later the first director of the museum now called the Victoria and Albert Museum (V&A), in London. According to the V&A, Cole's diary records that Horsley brought him the design on 17 December 1843. In the centre, hand-coloured, is the Cole family, three generations raising a toast; around it, in black-and-white scenes, people giving food and clothing to the poor. Underneath, the words «A Merry Christmas and a Happy New Year to You». Horsley signed it with a small self-portrait and the date «Xmasse, 1843».",
+    "A thousand copies were printed. Cole used the ones he needed and put the rest on sale at a shilling each, which was expensive at the time. The result: according to the V&A, it was a commercial failure. And there was controversy. In one corner of the design, a child drinks wine from an adult's glass, and the temperance movement, which campaigned against alcohol, did not like it at all, says Mental Floss magazine.",
+    "The idea, however, caught on. With new printing techniques, cards became cheap and, according to the Historic UK website, 11.5 million were already being produced in the United Kingdom by 1880. Few copies of Cole's card survive, between a dozen and about twenty, depending on the source. In 2013, one of them, which had belonged to Cole himself, was sold at auction for £22,000, according to the V&A. In other words: the first Christmas card cost a shilling and today it is worth a small fortune."
+   ],
+   "fontes": [
+    {
+     "nome": "Victoria and Albert Museum – «The first Christmas card»",
+     "url": "https://www.vam.ac.uk/articles/the-first-christmas-card"
+    },
+    {
+     "nome": "Live Science – «The Story of the World's First Christmas Card» (Dec 2013)",
+     "url": "https://livescience.com/42091-first-christmas-card-history.html"
+    },
+    {
+     "nome": "Mental Floss – «The First Christmas Card Was Sent in 1843»",
+     "url": "https://www.mentalfloss.com/holidays/christmas/first-christmas-card-was-sent-1843"
+    },
+    {
+     "nome": "Historic UK – «The Christmas Card»",
+     "url": "https://www.historic-uk.com/CultureUK/History-Christmas-Cards/"
+    }
+   ],
+   "nota": "Cole as civil servant, educator, inventor and first director of the V&A, the pile of correspondence, his role in postal reform (Uniform Penny Post), the diary entry of 17 Dec 1843, the description of the card (hand-coloured panel, three generations, scenes of charity), the self-portrait and the inscription «Xmasse, 1843», the thousand copies, the price of a shilling («expensive»), the commercial failure and the 2013 sale for £22,000 according to the V&A. A thousand copies, one shilling, the wording on the card, «first commercial Christmas card» and about 20 surviving copies according to Live Science (which mentions another copy, uncoloured, sold in Dec 2013 for £4,200). Sale at the Felix Summerly's Treasure House shop, protests from the temperance movement and 12 surviving copies in private collections according to Mental Floss — hence the range «between a dozen and about twenty». Child drinking wine, a thousand printed, poor sales and 11.5 million cards in 1880 according to Historic UK. The year 1840 for the penny stamp is general knowledge; the sources opened do not give it. The last sentence is the newspaper's comment. Image: the file appears in the Commons search results, but the page could not be opened; what it shows comes from the file name (an 1843 work, in the public domain).",
+   "imagem": {
+    "commons": "Firstchristmascard.jpg",
+    "tipo": "obra",
+    "alt": "An 1843 Christmas card with a family raising a toast in the centre and scenes of charity on either side",
+    "legenda": "The Christmas card designed by John Callcott Horsley for Henry Cole in 1843, considered the first commercial Christmas card (public domain)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "WOOL: for 15 years Covilhã's street art festival has been painting the town's walls, and this year it got more than a thousand people crocheting to cover a house",
+   "ficha": {
+    "Origins": "2011, in Covilhã; created by the siblings Lara and Pedro Seixo Rodrigues, who grew up in the town, with Elisabet Carceller",
+    "Where": "Covilhã (Castelo Branco district), mainly in the historic centre",
+    "Field": "Street art and public art: murals, tile panels, installations; also exhibitions, concerts, residencies and guided tours",
+    "Participants": "Portuguese and foreign artists (131 works by 79 artists in the first ten editions, according to Lusa) and the local community; Bordalo II's first mural was born at WOOL",
+    "Now": "13th edition from 11 to 21 June 2026, for the festival's 15th anniversary, with the community project «A Nossa Casa» (Our House); the murals can be seen in the street"
+   },
+   "texto": [
+    "In Covilhã, the walls tell stories. For 15 years, WOOL – Covilhã Arte Urbana, presented as the oldest street art festival in the country, has been inviting Portuguese and foreign artists to paint the Serra da Estrela town. The 13th edition took place in June and brought new murals, tile panels and a project in which more than a thousand people, aged from 3 to 102, made crochet and knitted squares to cover a house in the historic centre.",
+    "It all began in 2011. Lara Seixo Rodrigues, a curator and producer, and her brother Pedro grew up in Covilhã and studied architecture in Lisbon. Inspired by festivals such as Fame, in Italy, and Asalto, in Spain, they wanted to bring the idea to their town. According to the Diário de Notícias, the project was submitted to the Direção-Geral das Artes (the Directorate-General for the Arts) that year and came 8th among the ten chosen. The first edition had four artists, two Portuguese and two foreign, painting one at a time. The name, «lã» in Portuguese, points to the history of a wool-industry town, and the Observador describes the festival as a way of preserving the memory of an industrial territory, partly abandoned.",
+    "The idea is simple: put art in the street and bring artists closer to the people who live there. In ten editions, according to Lusa, 52 Portuguese and 27 foreign artists left 131 works in the town, and the street art trail has dozens of murals, which can be seen on guided tours on foot or by tuk-tuk. It was at WOOL that Bordalo II painted his first mural. The road has not always been easy: after the initial support from DGArtes, there were years without public funding, and the festival also relies on support from private companies. As Lara Seixo Rodrigues tells the DN, for street art to work, it «has to be communicated every day».",
+    "This year, the theme was participation. Murals were painted by Ben Johnston (South Africa), Tellas (Italy), the Canadian collective Nasarimba and the Portuguese Projeto Ruído and Mariana, a Miserável, in a mural for the centenary of the Orfeão da Covilhã choir. There were also ten tile panels and installations. The project «A Nossa Casa» (Our House) brought together more than 5,000 crochet and knitted squares, made over months by more than a thousand people in more than a hundred institutions around the country, such as care homes and senior academies. Why does this matter? In an inland town, far from the big centres, WOOL shows that contemporary art can change the landscape and get different generations working together. «We must keep investing heavily in community involvement and participation», the organiser told the newspaper UrbietOrbi."
+   ],
+   "fontes": [
+    {
+     "nome": "UrbietOrbi (University of Beira Interior) – «Quinze anos de WOOL: o festival que une a comunidade» (Fifteen years of WOOL: the festival that brings the community together) (22 Apr 2026)",
+     "url": "https://urbietorbi.ubi.pt/quinze-anos-de-wool-o-festival-que-une-a-comunidade/"
+    },
+    {
+     "nome": "Rádio Clube da Covilhã – New street art murals and the opening of «A Nossa Casa» mark the final stretch of WOOL (17 Jun 2026)",
+     "url": "https://radio-covilha.pt/2026/06/noticias/novos-murais-de-arte-urbana-e-inauguracao-de-a-nossa-casa-marcam-reta-final-do-wool/"
+    },
+    {
+     "nome": "Marketeer – Portugal's oldest street art festival is back in Covilhã (23 Apr 2026)",
+     "url": "https://marketeer.sapo.pt/?p=402333"
+    },
+    {
+     "nome": "RTP / Lusa – Oldest street art festival takes place in Covilhã from 10 to 18 June (12 May 2023)",
+     "url": "https://www.rtp.pt/noticias/cultura/mais-antigo-festival-de-arte-urbana-realiza-se-na-covilha-de-10-a-18-de-junho_n1485929"
+    },
+    {
+     "nome": "Diário de Notícias – «Lara Seixo Rodrigues. A filha da Covilhã que nunca cardou nem pintou, mas criou a arte urbana» (Lara Seixo Rodrigues. The daughter of Covilhã who never carded wool or painted, but created street art) (10 Aug 2023)",
+     "url": "https://www.dn.pt/sociedade/lara-seixo-rodrigues-a-filha-da-covilha-que-nunca-cardou-nem-pintou-mas-criou-a-arte-urbana-16831947.html"
+    },
+    {
+     "nome": "Observador – «Festival Wool: um livro para contar os dez anos de histórias, encontros e de arte urbana na Covilhã» (Wool Festival: a book telling ten years of stories, encounters and street art in Covilhã) (13 Jun 2022)",
+     "url": "https://observador.pt/2022/06/13/festival-wool-um-livro-para-contar-os-dez-anos-de-historias-encontros-e-de-arte-urbana-na-covilha/"
+    }
+   ],
+   "nota": "Dates and number of the 2026 edition (11–21 Jun, 13th, 15 years), «oldest street art festival in the country» and artists according to Marketeer and UrbietOrbi; the theme of participation, the ten tile panels and Lara Seixo Rodrigues's quotation according to UrbietOrbi. «A Nossa Casa» (more than 5,000 squares, more than a thousand participants aged from 3 to 102, more than 100 institutions) and completed murals according to Rádio Clube da Covilhã. Mural for the centenary of the Orfeão da Covilhã according to Marketeer. Founders, studies in Lisbon, inspiration from Fame and Asalto, industrial territory and funding (DGArtes, years without public support, private companies) according to the Observador (2022). The year 2011, the application to DGArtes (8th of 10), four artists in the first edition, Bordalo II and the quotation «has to be communicated every day» according to the DN (2023), which mentions 46 murals and 15 smaller pieces on the trail (hence the text says «dozens of murals»). 131 works by 52 Portuguese and 27 foreign artists in ten editions and guided tours on foot and by tuk-tuk according to RTP/Lusa (2023); 1st edition in 2011 also confirmed by Lusa. The link between the name and Covilhã's wool industry is general knowledge, not explained in the sources opened. It was not confirmed that the guided tours continue outside the festival period, nor any WOOL programme for the coming weeks. Lara Seixo Rodrigues is also known as the creator of Lata 65 (covered on 7 Nov), but this was not confirmed in the sources opened today and is not included in the text. Image: no identified photograph of WOOL murals was found on Commons; a view of the centre of Covilhã that appears in the Commons search results was used (page not opened; what it shows comes from the file name).",
+   "imagem": {
+    "commons": "Centrodacovilha.JPG",
+    "tipo": "ilustrativa",
+    "alt": "View of the centre of Covilhã",
+    "legenda": "The centre of Covilhã, the town where the WOOL festival has been painting walls since 2011 (illustrative image; does not show the festival's murals)"
+   }
+  }
+ ],
+ "agenda_aviso": "Information gathered on the morning of 25 November from Agenda Porto pages (Coliseu, Mercado do Bolhão, Rivoli and event pages), the Pizarro concert page and the Casa da Música Festival Amazónia page, the Serralves listings and exhibition and screening pages, the Teatro Municipal do Porto page for «Mechita», the Planetário do Porto (times, Porto/Post/Doc and «Mais Perto das Estrelas»), Time Out Porto (theatre, kids, weekend, «what to do this month» and «Natal no Porto 2026»), iPorto, MATO and the Serralves and Galeria Municipal announcements on e-flux. It was not possible to open today the general Casa da Música listings, the Agenda Porto home page, the programme and the «Os Christophers» page of the Teatro Municipal do Porto, or the Coliseu website; the Agenda Porto calendar showed no dates after 24 November and the Batalha does not publish times per screening on its Porto/Post/Doc page (the festival ends on the 28th at the Batalha; programme at portopostdoc.com, not consulted). Sold out: Al Di Meola on the 26th, according to the Casa da Música listings consulted on 23 and 24 November (not reconfirmed today). Left out for lack of space, with information confirmed today: «Auto da Barca do Inferno» also on the 27th (21:00) and 28th (19:00) at the TNSJ; «Mechita» also on the 28th (21:00); Porto/Post/Doc at the Planetarium, session #03, on the 28th at 17:30; the organist Hampus Lindwall at the Igreja de Cedofeita on the 28th at 19:00 (Serralves, no price); and a free Christmas card workshop at the Bolhão on the 28th (11:00–13:00, ages 5 and up, max. 20 people). The Christmas Market in Praça da Batalha opens on the 27th (Time Out). Getting around: the CP train drivers' strike continues today, the 25th (full), and tomorrow, the 26th (partial); anyone relying on the train should check services with CP. Where it says «To be confirmed», the information was not in the source.",
+ "agenda": [
+  {
+   "dia": "2026-11-25",
+   "eventos": [
+    {
+     "nome": "«Quem Decide o que Ouvimos?» (Who Decides What We Hear?) – talk and book launch",
+     "descricao": "Carlos Tê, João Gobern, Rui Massena and the author Miguel Gonçalves discuss who chooses the music played on Portuguese radio, based on the book about what goes on behind the playlists. Moderated by the journalist Ana Isabel Reis, RTP's listeners' ombudsman.",
+     "horario": "18:30–19:45",
+     "tipo": "Talk",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/evento/coliseu-quem-decide-o-que-ouvimos/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, time, free entry, participants and address confirmed today on the event page on Agenda Porto. Organised by the Mantras do Coliseu. The Coliseu website was not consulted."
+    },
+    {
+     "nome": "«Auto da Barca do Inferno» (The Boat of Hell), directed by Marta Pazos",
+     "descricao": "Gil Vicente reread through theatre, dance and visual arts: on the edge of the quay, an Angel and a Devil decide the fate of those who want to board.",
+     "horario": "19:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, 4000-101 Porto",
+     "preco": "€7 to €16.80",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "A co-production by the TNSJ and the Centro Dramático Galego, running until 13 December. Date, time and prices reconfirmed today on Time Out Porto (Wednesday and Thursday at 19:00, Friday at 21:00, Saturday at 19:00, Sunday at 16:00). The TNSJ website was not consulted: check seats at the box office. Event repeated from the 23 and 24 November editions."
+    },
+    {
+     "nome": "Há Fado no Mercado (Fado at the Market), with Ana Cristina",
+     "descricao": "The fado singer Ana Cristina sings in two restaurants in the Mercado do Bolhão, with free entry.",
+     "horario": "20:00 (Herdade 1980) and 21:00 (Casa Vegetariana)",
+     "tipo": "Music",
+     "local": "Mercado do Bolhão, Rua Formosa, 322, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/evento/ha-fado-no-mercado-2511/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, times, restaurants, singer and free entry confirmed today on the event page on Agenda Porto. Event repeated from the 23 and 24 November editions (which did not have the time)."
+    },
+    {
+     "nome": "Christian Löffler – «Until We Meet Again» (Misty Fest)",
+     "descricao": "The German electronic musician presents his latest album with an ensemble, somewhere between ambient, techno, piano and strings.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€30 to €50",
+     "url": "https://www.agenda-porto.pt/en/evento/cdm-christian-loffler-1776080591422/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6. Date, time (expected to end at 22:30) and prices reconfirmed today on the concert page on Agenda Porto, which does not say whether it is sold out or give the hall. The Sala Suggia comes from the Casa da Música listings consulted on 24 November; it was not possible to open them today. Event repeated from the 22 to 24 November editions."
+    },
+    {
+     "nome": "«Os Christophers» (The Christophers), by Steven Soderbergh – last screening",
+     "descricao": "Last day to see Soderbergh's comedy at the Campo Alegre, with Ian McKellen, about art, money and a family at odds.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/os-christophers-steven-soderbergh/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 1h50. Time and price confirmed on 23 November on the Teatro Municipal do Porto page, which could not be reopened either yesterday or today: check before going. Event repeated from the 22 to 24 November editions."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-26",
+   "eventos": [
+    {
+     "nome": "«Rasgar um céu sem sol» (Tearing a sunless sky) / «Nightwood» / «Gothic Tale»",
+     "descricao": "Three exhibitions at the Galeria Municipal: Basel Abbas and Ruanne Abou-Rahme, Leonor Parda's institutional debut and a first look back at Isabel Carvalho's career.",
+     "horario": "10:00–18:00",
+     "tipo": "Exhibition",
+     "local": "Galeria Municipal do Porto, Rua D. Manuel II (Jardins do Palácio de Cristal), 4050-346 Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.e-flux.com/announcements/6787436/autumn-2026-winter-2027-programme",
+     "ligacao": "e-flux (Galeria Municipal do Porto)",
+     "nota": "Open since 11 November; opening hours (Tuesday to Sunday, 10:00–18:00) and address reconfirmed today in the gallery's announcement on e-flux, which gives no price or closing date. Event repeated from the 22 to 24 November editions."
+    },
+    {
+     "nome": "Caminhos da Floresta (Forest Paths) (Festival Amazónia)",
+     "descricao": "A free-roaming trail of installations, documentaries, exhibitions and performances spread across the foyers and bars of Casa da Música, at the festival devoted to the Amazon.",
+     "horario": "To be confirmed (throughout the day and before the concerts)",
+     "tipo": "Installation / Exhibition",
+     "local": "Casa da Música, Av. da Boavista, 604-610, Porto",
+     "preco": "To be confirmed",
+     "url": "https://ma.to/event/caminhos-da-floresta-25-nov-2026",
+     "ligacao": "MATO",
+     "nota": "MATO (consulted today) gives the trail from 12 to 28 November, to be visited at any time of day or before each concert, with no opening hours or price; the Casa da Música Festival Amazónia page confirms the festival dates (12 to 28) and lists the pieces, without times. The Casa da Música listings did not open today."
+    },
+    {
+     "nome": "Lee Ufan, «Fragmentos do Infinito» (Fragments of the Infinite)",
+     "descricao": "The first major exhibition in Portugal by the South Korean artist, a figure of the Japanese Mono-ha movement: sculptures and paintings (one made for the site) in dialogue with the Serralves House and Park.",
+     "horario": "To be confirmed",
+     "tipo": "Exhibition",
+     "local": "Casa e Parque de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.serralves.pt/en/ciclo-serralves/2607-lee-ufan/",
+     "ligacao": "Serralves",
+     "nota": "Dates (16 October 2026 to March 2027, with no closing day) confirmed today on the exhibition page, which gives no opening hours or price. The Serralves announcement on e-flux gives Monday to Friday 10:00–19:00 and weekends 10:00–20:00 for the museum, but does not say whether this applies to the House. The address does not come from the pages consulted today. Event repeated from the 24 November edition (then together with the Miró exhibition)."
+    },
+    {
+     "nome": "«Auto da Barca do Inferno» (The Boat of Hell), directed by Marta Pazos",
+     "descricao": "The new reading of Gil Vicente by the TNSJ and the Centro Dramático Galego, combining theatre, dance and visual arts.",
+     "horario": "19:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, 4000-101 Porto",
+     "preco": "€7 to €16.80",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Date, time and prices reconfirmed today on Time Out Porto. The TNSJ website was not consulted: check seats at the box office. Event repeated from the 23 and 24 November editions."
+    },
+    {
+     "nome": "Al Di Meola (Misty Fest)",
+     "descricao": "The American guitarist, who for more than four decades has blended jazz with flamenco, tango and world music, combines signature pieces and new material.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música, Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "€30 to €70 (sold out)",
+     "url": "https://iporto.amp.pt/en/eventos/al-di-meola/",
+     "ligacao": "iPorto",
+     "nota": "Time and prices (€30 to €70, depending on the area) confirmed today on iPorto, which also gives a second date, 29 November, at 21:00, and does not say whether tickets are available. The sold-out status on the 26th comes from the Casa da Música listings consulted on 23 and 24 November; it was not possible to open them today. Event repeated from the 23 and 24 November editions."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-27",
+   "eventos": [
+    {
+     "nome": "Pizarro performs Britten – Orquestra Sinfónica do Porto Casa da Música",
+     "descricao": "Artur Pizarro plays Britten's Piano Concerto and Michael Sanderling then conducts Brahms's Symphony No. 2.",
+     "horario": "21:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, Porto",
+     "preco": "€30 to €34",
+     "url": "https://casadamusica.com/en/event/pizarro-performs-britten/",
+     "ligacao": "Casa da Música",
+     "nota": "Date, time, hall, programme and prices (€34, €32 or €30 depending on the row; discounts of 25% to 50% in some cases) reconfirmed today on the concert page, which has tickets on sale and does not say sold out. Event repeated from the 24 November edition."
+    },
+    {
+     "nome": "«O Lago dos Cisnes» (Swan Lake), by the Imperial Heritage Ballet",
+     "descricao": "Tchaikovsky's ballet about Odette, the princess turned into a swan, and her rival Odile.",
+     "horario": "21:00",
+     "tipo": "Dance",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "€28 to €42",
+     "url": "https://www.agenda-porto.pt/en/evento/coliseu-o-lago-dos-cisnes-1791382844321/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6. Date, time, prices and address confirmed today on the show's page on Agenda Porto; the time matches that given by Time Out Porto (article of 19 November, consulted again today). The Coliseu website was not consulted: seats to be confirmed. Event repeated from the 24 November edition (then without a price)."
+    },
+    {
+     "nome": "«Mechita», by Sol Garcia",
+     "descricao": "A piece for five women in which body and sound serve as a living archive: movement, voice and live music about memory, childhood and freedom, ending in celebration.",
+     "horario": "21:00",
+     "tipo": "Dance / Performance",
+     "local": "Teatro Campo Alegre (Café-Teatro), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€7",
+     "url": "https://teatromunicipaldoporto.pt/en/programa/sol-garcia-mechita/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 50 minutes. Dates (27 and 28, at 21:00), venue and price reconfirmed today on the Teatro Municipal do Porto page, which does not say sold out; on the 27th there is a talk with the artistic teams at the end. Event repeated from the 24 November edition."
+    },
+    {
+     "nome": "Mais Perto das Estrelas (Closer to the Stars)",
+     "descricao": "An astronomy evening: a demonstration in the Planetarium dome and, weather permitting, telescope observation with specialists from the Instituto de Astrofísica e Ciências do Espaço (Institute of Astrophysics and Space Sciences).",
+     "horario": "21:00–22:30",
+     "tipo": "Family / Science",
+     "local": "Planetário do Porto – Centro Ciência Viva, Rua das Estrelas, s/n, 4150-762 Porto",
+     "preco": "Free entry (registration required)",
+     "url": "https://planetario.up.pt/pt/evento/maispertonov26",
+     "ligacao": "Planetário do Porto",
+     "nota": "Date, time, free admission and conditions confirmed today on the Planetarium page: individual registration via a form, limited places, ages 7 and up (minors must be accompanied), not intended for groups. The observation depends on the weather. The page does not say whether places are still available."
+    },
+    {
+     "nome": "Anri Sala, «Fallen Vision» – opening",
+     "descricao": "The first major exhibition in Portugal by the Albanian artist opens, conceived for Siza's architecture; on the opening night, the vocal ensemble EXAUDI, conducted by Jack Sheen, performs «Surface, Otherwise (after STA XLII)» live.",
+     "horario": "22:00 (opening) · 22:30 (EXAUDI)",
+     "tipo": "Exhibition",
+     "local": "Museu de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "Free entry (opening)",
+     "url": "https://www.serralves.pt/en/ciclo-serralves/2611-anri-sala/",
+     "ligacao": "Serralves",
+     "nota": "Free entry at 22:00 and performance at 22:30 confirmed today on the exhibition page at Serralves; the Serralves listings give the same time for «Surface, Otherwise». Conflicting closing dates: Serralves gives 2 May 2027, the e-flux announcement 25 April and Agenda Porto (24 November edition) 31 May. Standard ticket price to be confirmed. The address does not come from the pages consulted today. Event repeated from the 24 November edition."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-28",
+   "eventos": [
+    {
+     "nome": "«O Quebra-Nozes» (The Nutcracker), by the Imperial Heritage Ballet",
+     "descricao": "Tchaikovsky's ballet about Clara's magical night, with toys that come to life, dancing snowflakes and enchanted kingdoms. Designed for families.",
+     "horario": "15:00 and 18:30",
+     "tipo": "Dance / Family",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "€28 to €42",
+     "url": "https://www.agenda-porto.pt/en/evento/coliseu-o-quebra-nozes/",
+     "ligacao": "Agenda Porto",
+     "nota": "M/6. Date, times, prices and address confirmed today on the show's page on Agenda Porto, which refers ticket sales to the Coliseu website (not consulted): availability to be confirmed. Time Out Porto (19 November, consulted today) also gives it on the 28th, without a time."
+    },
+    {
+     "nome": "«O Último Canto dos Pássaros» (The Last Song of the Birds) (Festival Amazónia)",
+     "descricao": "A concert based on the last recorded song of an extinct Hawaiian bird, in 1987: real bird recordings, electronics and images by Bianca Dacosta, about loss and the Earth's sound memory.",
+     "horario": "15:00",
+     "tipo": "Music / Family",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, Porto",
+     "preco": "€9",
+     "url": "https://casadamusica.com/en/event/the-last-song-of-the-birds/?selected_session=58700",
+     "ligacao": "Casa da Música",
+     "nota": "For families, ages 6 and up. Date, time, hall, price and performers (created by Óscar Rodrigues) confirmed today on the concert page at Casa da Música, which has tickets on sale and does not say sold out or give the running time."
+    },
+    {
+     "nome": "Ópera de Bolso (Pocket Opera)",
+     "descricao": "Famous arias in a relaxed format, for those who love opera and for those who have never been. Part of Porto's Christmas programme.",
+     "horario": "17:00",
+     "tipo": "Music / Family",
+     "local": "Mercado do Bolhão, Rua Formosa, 322, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/evento/2811-opera-de-bolso/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, time and free entry confirmed today on the event page on Agenda Porto, which does not name the performers. The address comes from other Bolhão event pages on Agenda Porto (fado on the 25th and workshop on the 28th)."
+    },
+    {
+     "nome": "«Francisca», by Manoel de Oliveira, with talk",
+     "descricao": "The 1981 film, based on Agustina Bessa-Luís's «Fanny Owen», with Camilo Castelo Branco as a character; second screening in the «Oliveira, leitor de Camilo» (Oliveira, reader of Camilo) series, marking the writer's 200th anniversary, followed by a talk with Cristina Fernandes and Nuno Resende.",
+     "horario": "17:00",
+     "tipo": "Cinema",
+     "local": "Casa do Cinema Manoel de Oliveira, Fundação de Serralves, Porto",
+     "preco": "€3",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2811-francisca/",
+     "ligacao": "Serralves",
+     "nota": "167 minutes. Date, time and price (€3; 50% discount for Friends of Serralves, under-18s, students and over-65s) confirmed today on the screening page at Serralves, which gives no age rating or address. Moderated by Tânia Furtado Moreira."
+    },
+    {
+     "nome": "Christmas in Porto: switching on the lights at the Aliados",
+     "descricao": "The giant tree and the city's lights are switched on with a show of music, dance, light and fireworks, featuring Áurea, the fado singer Ricardo Ribeiro, the soprano Marina Pacheco and the Orquestra Portuguesa de Guitarras e Bandolins (Portuguese Guitar and Mandolin Orchestra), conducted by Hélder Magalhães.",
+     "horario": "18:00",
+     "tipo": "Celebration / Music",
+     "local": "Avenida dos Aliados, in front of the Paços do Concelho, Porto",
+     "preco": "Free entry",
+     "url": "https://www.timeout.pt/porto/pt/coisas-para-fazer/natal-no-porto-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Date, time, artists and free entry confirmed today in Time Out Porto's «Natal no Porto 2026» article (6 November), which mentions Portuguese Sign Language interpretation and access ramps; Time Out's article on November (30 October) gives the same date and time. No confirmation was found today on the Porto City Council website. The Christmas programme runs until 10 January."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "The 2027 State Budget was approved on Tuesday with the PS (Socialist Party) and JPP abstaining; with the opposition's amendments, the Finance Ministry now forecasts a deficit of 0.2% instead of a surplus.",
+   "noticia": 13
+  },
+  {
+   "texto": "Shenzhou-24 lifted off at 00:18 Lisbon time and has already docked with the Chinese space station, carrying the Pakistani Muhammad Zeeshan Ali, the first foreign astronaut to reach Tiangong.",
+   "noticia": 17
+  },
+  {
+   "texto": "Russia accuses Estonia of being «on the brink» of provoking open war; Tallinn denies it and is keeping to the closure of its border with Russia from 1 December.",
+   "noticia": 9
+  },
+  {
+   "texto": "CP train drivers are holding the second day of their full strike today; on Tuesday almost three in four trains did not run, according to CP figures.",
+   "noticia": 14
+  },
+  {
+   "texto": "Hackers who allegedly used AI tools broke into management servers for Check Point «firewalls» in at least 22 organisations, according to the security company GreyNoise.",
+   "noticia": 1
+  },
+  {
+   "texto": "New HIV diagnoses in Portugal fell by 39% in a decade, according to the DGS and INSA, but more than half of cases are still discovered late.",
+   "noticia": 16
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Wednesday 25 Nov",
+   "texto": "Second day of the full strike by CP train drivers, with minimum services at peak times; on Thursday the strike is partial and the strike notice ends on Friday 27. Luís Montenegro gives RTP's «Grande Entrevista» today (time not confirmed).",
+   "noticia": 14
+  },
+  {
+   "quando": "Thursday and Friday, 26–27 Nov",
+   "texto": "Extraordinary European Council summit in Brussels on the 2028–2034 EU budget, based on António Costa's proposal."
+  },
+  {
+   "quando": "Friday 27 Nov",
+   "texto": "Deadline set by the US cybersecurity agency (CISA) for federal agencies to fix the Drupal flaw already used in attacks.",
+   "noticia": 2
+  },
+  {
+   "quando": "Tuesday 1 Dec",
+   "texto": "Estonia closes its border crossings with Russia at Narva, Luhamaa and Koidula, for at least six months.",
+   "noticia": 9
+  }
+ ],
+ "linkedin_abertura": "The 2027 State Budget has been approved, thanks to the PS (Socialist Party) abstaining, but the opposition's amendments have led the Government to forecast a deficit of 0.2% instead of a surplus."
+}

@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-assembleia-da-rep-blica-portugal-pal-cio-de-s-o-bento-lisboa.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Assembleia_da_Rep%C3%BAblica_%28Portugal%29_Pal%C3%A1cio_de_S%C3%A3o_Bento%2C_Lisboa.JPG?width=1000",
+  "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-check-point-offices.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Check_Point_offices.jpg?width=1000",
+  "commons": "Check Point offices.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-narva-hermann-castle-and-ivangorod-fortress.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Narva_Hermann_Castle_and_Ivangorod_Fortress.jpg?width=1000",
+  "commons": "Narva Hermann Castle and Ivangorod Fortress.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-cp-2064-na-esta-o-de-lisboa-rossio.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CP_2064_na_esta%C3%A7%C3%A3o_de_Lisboa-Rossio.jpg?width=1000",
+  "commons": "CP 2064 na estação de Lisboa-Rossio.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-chinese-tiangong-space-station-cropped.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_Tiangong_Space_Station_%28cropped%29.jpg?width=1000",
+  "commons": "Chinese Tiangong Space Station (cropped).jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-jim-caviezel-2012-6991397724-cropped.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jim_Caviezel_2012_%286991397724%29_CROPPED.jpg?width=1000",
+  "commons": "Jim Caviezel 2012 (6991397724) CROPPED.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-vista-tavira.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista_Tavira.jpg?width=1000",
+  "commons": "Vista Tavira.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-firstchristmascard.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Firstchristmascard.jpg?width=1000",
+  "commons": "Firstchristmascard.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-centrodacovilha.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Centrodacovilha.JPG?width=1000",
+  "commons": "Centrodacovilha.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]
