@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-luis-montenegro-at-epp-summit-21-march-brussels.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Luis_Montenegro_at_EPP_Summit%2C_21_March%2C_Brussels.jpg?width=1000",
+  "commons": "Luis Montenegro at EPP Summit, 21 March, Brussels.jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-u-s-treasury-building-and-albert-gallatin-statue.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S._Treasury_Building_and_Albert_Gallatin_Statue.jpg?width=1000",
+  "commons": "U.S. Treasury Building and Albert Gallatin Statue.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-special-meeting-of-the-european-council-march-2025-p065852-4.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Special_meeting_of_the_European_Council_-_March_2025_-_P065852-462073.jpg?width=1000",
+  "commons": "Special meeting of the European Council - March 2025 - P065852-462073.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-assembleia-da-rep-blica-portugal-pal-cio-de-s-o-bento-lisboa.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Assembleia_da_Rep%C3%BAblica_%28Portugal%29_Pal%C3%A1cio_de_S%C3%A3o_Bento%2C_Lisboa.JPG?width=1000",
+  "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-last-image-showing-all-of-dimorphos-by-dart.png",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Last_image_showing_all_of_Dimorphos_by_DART.png?width=1000",
+  "commons": "Last image showing all of Dimorphos by DART.png",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-joanna-kulig-and-pawe-pawlikowski-at-2018-cannes-film-festiv.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Joanna_Kulig_and_Pawe%C5%82_Pawlikowski_at_2018_Cannes_Film_Festival.jpg?width=1000",
+  "commons": "Joanna Kulig and Paweł Pawlikowski at 2018 Cannes Film Festival.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-anjosmetrolx4.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/AnjosMetroLx4.JPG?width=1000",
+  "commons": "AnjosMetroLx4.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-statue-of-liberty-7.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Statue_of_Liberty_7.jpg?width=1000",
+  "commons": "Statue of Liberty 7.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-turntables-and-mixer.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Turntables_and_mixer.jpg?width=1000",
+  "commons": "Turntables and mixer.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

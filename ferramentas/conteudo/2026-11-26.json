@@ -1,0 +1,1125 @@
+{
+ "data": "2026-11-26",
+ "numero": "034",
+ "resumo": "Montenegro diz que não vai aplicar o IVA zero e outras medidas que a oposição pôs no Orçamento; os líderes europeus reúnem-se em Bruxelas para discutir o orçamento da UE até 2034; piratas entraram em sistemas da agência americana que recebe os alertas de branqueamento de capitais; e a sonda europeia Hera mostra a cratera deixada pela NASA num asteroide.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Piratas entraram em sistemas da agência americana que recebe os alertas de branqueamento de capitais; CIA também confirma intrusão",
+   "estado": "Intrusão confirmada pela FinCEN · dados afetados e autores desconhecidos · caso da CIA contado por fonte anónima",
+   "data": "2026-11-25",
+   "texto": [
+    "Alguém entrou sem autorização em parte dos sistemas da FinCEN, a agência do Departamento do Tesouro dos EUA que recebe dos bancos os alertas de operações suspeitas de branqueamento de capitais e de financiamento do terrorismo. A própria agência revelou o incidente na noite de terça-feira, 24 de novembro (hora de Washington), e desligou alguns sistemas por precaução. Na quarta-feira, um responsável do Tesouro disse à Reuters que o caso está a ser investigado com o FBI, a CISA (a agência de cibersegurança dos EUA) e peritos externos.",
+    "Porque é que isto importa? A FinCEN guarda informação muito sensível: relatórios confidenciais enviados por bancos e outras instituições sobre clientes e movimentos de dinheiro suspeitos. Segundo a Reuters, o Tesouro diz que, para já, não há sinais de que as bases de dados desses relatórios, nem a dos donos reais de empresas, tenham sido violadas. A análise forense continua. A agência não disse que sistemas foram afetados, desde quando o intruso lá estava, nem quem é.",
+    "Há efeitos práticos. Desde 18 de novembro que falhavam os envios automáticos de relatórios, segundo a The Hacker News. A FinCEN deu mais tempo aos bancos que usam esse canal: o que era para entregar entre 18 de novembro e 29 de dezembro pode ser entregue até 30 de dezembro. O portal de entregas continua a funcionar, com alguns serviços em baixo, e a linha de emergência para casos urgentes mantém-se.",
+    "Não é caso único. Na terça-feira, o New York Times noticiou, e uma fonte confirmou à AP, que um sistema não classificado da CIA, usado para analisar informação de fontes abertas (internet, imagens de satélite comerciais, dados comprados a empresas), também foi atacado. Segundo essa fonte, não havia informação secreta envolvida e o problema está resolvido. O FBI investiga um ataque a uma base de dados policial e o Departamento da Agricultura desligou aplicações depois de um incidente, segundo a Nextgov. As autoridades não ligaram publicamente estes casos entre si."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "O incidente na FinCEN, os sistemas desligados e o prazo alargado até 30 de dezembro coincidem na Nextgov/FCW, na The Hacker News e na Reuters (lida via Yahoo News). A cooperação com FBI, CISA e peritos externos e a ausência de sinais de violação das bases de dados de relatórios e de donos reais só vêm da declaração do responsável do Tesouro à Reuters. As falhas desde 18 nov. vêm da The Hacker News, que cita o site The Deep Dive; a FinCEN não disse se foram causadas pela intrusão. A The Hacker News diz que a divulgação foi «terça-feira, 25 de novembro», o que não bate com o calendário; seguimos a Nextgov (terça à noite). O caso da CIA baseia-se numa fonte anónima citada pela AP (via SecurityWeek); a Nextgov fala de um sistema ligado à CIA e ao gabinete do diretor nacional de informações. Os casos do FBI e da Agricultura vêm só da Nextgov. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro."
+   },
+   "fontes": [
+    {
+     "nome": "Nextgov/FCW – «Treasury's financial crimes bureau takes systems offline after hack» (25 nov.)",
+     "url": "https://www.nextgov.com/cybersecurity/2026/11/treasurys-financial-crimes-bureau-takes-systems-offline-after-hack/417442/"
+    },
+    {
+     "nome": "Reuters (via Yahoo News) – «US FinCEN takes some systems offline after cyber incident, official says» (25 nov.)",
+     "url": "https://www.yahoo.com/news/us/articles/us-fincen-takes-systems-offline-144239506.html"
+    },
+    {
+     "nome": "The Hacker News – «U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion» (25 nov.)",
+     "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+    },
+    {
+     "nome": "SecurityWeek / AP – «An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says» (24 nov.)",
+     "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/"
+    }
+   ],
+   "imagem": {
+    "commons": "U.S. Treasury Building and Albert Gallatin Statue.jpg",
+    "tipo": "arquivo",
+    "alt": "Fachada do edifício do Departamento do Tesouro dos EUA, em Washington, com a estátua de Albert Gallatin à frente",
+    "legenda": "Edifício do Departamento do Tesouro, em Washington, de que depende a FinCEN (imagem de arquivo; não mostra o ataque)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "1Password confirma ataque: piratas levaram nomes, e-mails e código-fonte, mas não chegaram aos cofres de palavras-passe",
+   "estado": "Incidente confirmado pela 1Password · cofres não afetados, diz a empresa · número de clientes não divulgado",
+   "data": "2026-11-25",
+   "texto": [
+    "A 1Password, uma das aplicações de gestão de palavras-passe mais usadas no mundo, foi atacada. A empresa contou na quarta-feira, 25 de novembro, que um intruso usou a conta GitHub de um funcionário (a plataforma onde as equipas de programação guardam o código) para chegar a sistemas internos. De lá levou o nome e o e-mail de uma parte dos clientes, além de código-fonte de repositórios privados. A investigação começou a 19 de novembro.",
+    "O que foi levado? Além de nomes e e-mails, identificadores de conta, datas de criação e do último acesso, chaves públicas e alguns parâmetros técnicos do sistema de autenticação. Para um pequeno número de utilizadores, já avisados um a um, ficaram também expostos códigos de convites e de recuperação de conta enviados por e-mail. Segundo a empresa, o atacante chegou a pôr código malicioso em serviços internos e a entrar no sistema que compila e publica o software.",
+    "E as palavras-passe? A 1Password garante que o conteúdo dos cofres nunca esteve ao alcance do atacante. As chaves que os protegem, a palavra-passe principal e a «Secret Key» de cada utilizador não ficam guardadas nos servidores da empresa. As aplicações e extensões do navegador não foram afetadas e o serviço funciona normalmente. A empresa não disse quantos clientes estão em causa.",
+    "O que fazer? A empresa diz que não é preciso mudar nada na conta. Mas, como nomes e e-mails estão nas mãos de terceiros, pede atenção a mensagens, SMS ou chamadas inesperadas sobre convites ou recuperação de conta. A 1Password lembra que nunca pede a palavra-passe principal nem a «Secret Key». Por precaução, os códigos enviados por e-mail passaram de seis dígitos para dez caracteres."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Confirmado no comunicado oficial da 1Password (25 nov.) e na The Hacker News (26 nov.), que coincidem em datas, dados expostos e medidas. A informação sobre a segurança dos cofres e a ausência de impacto nos produtos vem só da empresa; não há verificação independente. A empresa não divulga o número de clientes afetados nem como foi comprometida a conta GitHub do funcionário. O artigo da BleepingComputer sobre o caso surge nos resultados de pesquisa, mas não pôde ser aberto. Não sabemos se há utilizadores em Portugal entre os afetados."
+   },
+   "fontes": [
+    {
+     "nome": "1Password – «Update on a security incident involving 1Password's backend systems» (25 nov.)",
+     "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+    },
+    {
+     "nome": "The Hacker News – «1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach» (26 nov.)",
+     "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Suíça e Itália confirmam ataques feitos por «agentes» de IA: na Suíça, todos os casos conhecidos acabaram com sistemas comprometidos",
+   "estado": "Avisos oficiais das agências suíça e italiana · vítimas e setores não identificados · autores desconhecidos",
+   "data": "2026-11-24",
+   "texto": [
+    "Os ciberataques feitos por programas de inteligência artificial (IA) que trabalham quase sozinhos já chegaram à Europa. O Centro Nacional de Cibersegurança da Suíça (NCSC) anunciou na terça-feira, 24 de novembro, os primeiros casos confirmados no país: empresas e operadores de infraestruturas críticas de pelo menos dois setores foram atacados com estes «agentes» de IA. Em todos os casos conhecidos, os atacantes conseguiram entrar. A agência italiana de cibersegurança deu um alerta semelhante, segundo a BleepingComputer.",
+    "Como funcionam? São ferramentas criadas para testar a segurança das empresas, mas que também servem para atacar. Procuram sozinhas pontos fracos, escolhem as ferramentas, avaliam o resultado e decidem o passo seguinte. Na Suíça, aproveitaram palavras-passe fracas e falhas conhecidas em sistemas ligados à internet. O NCSC diz que fazem tudo muito mais depressa do que uma pessoa e mudam de método quando encontram defesas. O número destas ferramentas disponíveis na internet, como a ARTEX e a CyberStrikeAI, quase duplicou desde outubro.",
+    "Em Itália, a equipa de resposta a incidentes da agência nacional (CSIRT Italia) detetou campanhas em grande escala em que vários agentes trabalhavam em paralelo e comprometiam muitos sistemas em poucas horas. Num dos casos, um programa coordenador distribuía tarefas por cinco agentes: recolher informação, explorar falhas e garantir acesso continuado. Segundo a BleepingComputer, os agentes juntavam falhas pequenas em ataques complexos e escreviam código malicioso na hora para fugir aos antivírus.",
+    "O que recomendam? A Suíça pede que as atualizações críticas dos sistemas expostos à internet sejam instaladas em 24 horas, que haja autenticação com dois fatores ou chaves de acesso («passkeys») em todos os acessos remotos e que se reduza ao mínimo o que fica visível na internet. Itália pede prioridade às falhas já exploradas e o fim dos acessos de gestão remota desnecessários. Nenhuma das agências identificou as vítimas ou os autores."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Os casos suíços (pelo menos dois setores, todos os ataques conhecidos bem-sucedidos, ferramentas quase duplicadas desde outubro, conselhos) estão no comunicado oficial do NCSC suíço (24 nov.) e coincidem com a BleepingComputer (25 nov.). Os pormenores italianos (agentes em paralelo, caso com cinco agentes, código escrito em tempo real) vêm só da BleepingComputer; não conseguimos abrir o boletim do CSIRT Italia, que segundo uma empresa de segurança (Red Tiger Security) é de 23 nov. e lista 81 falhas, número que não confirmámos. O NCSC dá a ARTEX e a CyberStrikeAI como exemplos de ferramentas, sem dizer que foram essas as usadas nos casos suíços. Não há referência a Portugal."
+   },
+   "fontes": [
+    {
+     "nome": "NCSC (Suíça) – «Cyberattacks involving AI agents: First confirmed cases in Switzerland» (24 nov.)",
+     "url": "https://www.bacs.admin.ch/en/26-ki-agenten-1-en"
+    },
+    {
+     "nome": "BleepingComputer – «Italy and Switzerland warn of autonomous AI-driven cyberattacks» (25 nov.)",
+     "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Apple retira do mundo inteiro a Talkie, aplicação chinesa de personagens de IA, depois de investigação sobre conversas sexuais com crianças",
+   "estado": "Retirada confirmada pela Apple · investigação jornalística TBIJ/ABC · MiniMax não respondeu · app continua no Google Play",
+   "data": "2026-11-25",
+   "texto": [
+    "A Talkie, uma aplicação de conversas com personagens criadas por inteligência artificial (IA), desapareceu da App Store da Apple em todo o mundo. A Apple confirmou que a retirou por causa de conteúdo sexual. A decisão chegou depois das perguntas de uma investigação do Bureau of Investigative Journalism (TBIJ), uma organização britânica sem fins lucrativos, e da televisão pública australiana ABC, publicada na terça e na quarta-feira, 24 e 25 de novembro. A Talkie pertence à MiniMax, uma empresa de IA de Xangai.",
+    "O que encontraram os jornalistas? Mães de vários países mostraram conversas que encontraram nos telemóveis dos filhos. Uma rapariga de 12 anos ouviu de uma personagem que «não valia nada». Duas irmãs de 10 e 13 anos usavam a aplicação às escondidas, e a mais velha descreveu interações sexuais com a IA. Segundo a ABC, documentos da empresa mostram que a aplicação foi pensada para manter os utilizadores agarrados: as personagens deviam ser «próximas, protetoras e possessivas».",
+    "A Talkie tem dezenas de milhões de utilizadores e mais de 50 milhões de descargas no Google Play, onde continua disponível, segundo o TBIJ. A aplicação é para maiores de 18 anos, mas o regulador britânico Ofcom estimou que 3% das crianças do Reino Unido entre os 8 e os 14 anos a visitaram num só mês. Há também dúvidas sobre os dados: a aplicação diz que as conversas são privadas, mas duas patentes de empresas do grupo descrevem o uso de conversas para treinar IA.",
+    "A MiniMax não respondeu aos jornalistas. Não é a primeira vez: a Apple já tinha retirado uma versão anterior em 2024 e a empresa lançou outra em 2025, segundo a ABC. Desde 16 de novembro, a Apple obriga as aplicações com «companheiros virtuais» a declarar essa função e as que têm conteúdo sexual ou romântico a ter classificação de 18 anos; o prazo para declarar termina a 12 de janeiro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Investigação conjunta do TBIJ (24 nov.) e da ABC (25 nov.), que lemos as duas; a 9to5Mac (25 nov.) confirma de forma independente a retirada mundial e o motivo dado pela Apple. Os testemunhos das mães e os documentos internos são relatados pelos jornalistas; não os vimos. As «dezenas de milhões» de utilizadores e os 50 milhões de descargas vêm do TBIJ; a 9to5Mac cita outra estimativa (quase 11 milhões de utilizadores mensais em outubro). Os dados do Ofcom e as regras da Apple vêm do TBIJ. A MiniMax não respondeu; não encontrámos reação da Google. Não sabemos quantos utilizadores tem em Portugal. Crianças não identificadas, como nas fontes."
+   },
+   "fontes": [
+    {
+     "nome": "The Bureau of Investigative Journalism – «Talkie: the Chinese-owned chatbot abusing children» (24 nov.)",
+     "url": "https://www.thebureauinvestigates.com/stories/2026-11-24/talkie-china-chatbot-children"
+    },
+    {
+     "nome": "ABC News (Austrália) – «Inside the Chinese AI app Talkie engineered to hook kids and mine their data» (25 nov.)",
+     "url": "https://abc.net.au/news/2026-11-25/chinese-ai-companion-app-talkie-child-harm-allegations/107416128"
+    },
+    {
+     "nome": "9to5Mac – «Apple pulls popular Chinese AI chatbot from the App Store amid child safety concerns» (25 nov.)",
+     "url": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Conversas de 21 milhões de utilizadores da Character.AI vão a leilão a 1 de dezembro; 42 procuradores-gerais americanos tentam travar a venda",
+   "estado": "Oposição apresentada em tribunal de falências · leilão marcado para 1 dez. · sem decisão do tribunal",
+   "data": "2026-11-25",
+   "texto": [
+    "As conversas privadas de mais de 21 milhões de contas americanas da Character.AI, uma plataforma onde se conversa com personagens de inteligência artificial (IA), podem ser vendidas em leilão já na terça-feira, 1 de dezembro. Uma coligação de 42 procuradores-gerais de estados dos EUA (os responsáveis máximos pela justiça em cada estado) pediu ao tribunal de falências que trave a venda, segundo a TechCrunch e a Engadget, que noticiaram o caso na quarta-feira, 25 de novembro.",
+    "O que está à venda? A empresa entrou em falência em outubro e quer vender os seus bens sob supervisão do tribunal. Entre eles estão históricos de conversas e dados pessoais, como endereços de internet. Mais de 2,1 milhões das contas são de menores, segundo a TechCrunch. Há conversas sobre automutilação e pensamentos suicidas e outras com personagens que se faziam passar por médicos e terapeutas, segundo a Engadget.",
+    "Quem quer comprar? O único interessado conhecido é uma empresa anónima, a Smirks and Pangs Acquisition, criada no estado de Delaware a 13 de novembro, um dia antes de ser escolhida como licitação de base. Não se sabe quem a financia nem o que quer fazer com os dados. Os procuradores dizem que o acordo não impede o comprador de revender a informação e pedem que as conversas de crianças e os dados sensíveis fiquem fora de qualquer venda.",
+    "«A Character.AI prometeu aos consumidores que os seus dados não seriam vendidos», disse o procurador-geral da Califórnia, Rob Bonta, citado pela TechCrunch. A falência, acrescentou, não deve servir para contornar essa proteção. A empresa diz que os dados continuarão protegidos pela sua política de privacidade. Não há data conhecida para o tribunal decidir."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "TechCrunch e Engadget (ambas de 25 nov.) coincidem nos 42 procuradores, no leilão de 1 de dezembro, no comprador anónimo criado um dia antes de ser escolhido e no pedido para excluir dados sensíveis. Os números (21 milhões de contas, 2,1 milhões de menores) e a citação de Rob Bonta vêm da TechCrunch; os tipos de conversas e o pedido para recusar uma compensação de 350 mil dólares vêm da Engadget. Nenhuma das fontes nomeia o tribunal nem dá data de audiência. Não lemos o documento entregue em tribunal. A Character.AI não reagiu de novo; citamos a posição anterior da empresa."
+   },
+   "fontes": [
+    {
+     "nome": "TechCrunch – «Character.AI's plan to auction off users' private chats challenged by state AGs» (25 nov.)",
+     "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+    },
+    {
+     "nome": "Engadget – «State AGs are trying to stop Character.AI from auctioning off users' chat histories» (25 nov.)",
+     "url": "https://www.engadget.com/2328630/state-ags-are-trying-to-stop-characterai-from-auctioning-off-users-chat-histories/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Nova Iorque proíbe durante cinco anos os brinquedos com «chatbots» de IA, como peluches e bonecas que conversam com as crianças",
+   "estado": "Lei assinada a 24 nov. · entra em vigor 90 dias depois · não se aplica a este Natal",
+   "data": "2026-11-24",
+   "texto": [
+    "Peluches, bonecas e robôs que conversam com as crianças através de inteligência artificial (IA) vão deixar de poder ser fabricados, distribuídos ou vendidos no estado de Nova Iorque durante cinco anos. A governadora Kathy Hochul assinou a lei na terça-feira, 24 de novembro, segundo o gabinete da governadora. A proibição entra em vigor 90 dias depois da assinatura, por isso não vale para as compras deste Natal.",
+    "Porquê? Uma organização americana de defesa dos consumidores testou brinquedos com IA à venda para crianças dos 3 aos 12 anos. Alguns falaram de temas sexuais explícitos, tinham poucos ou nenhuns controlos parentais e podiam gravar a voz da criança ou ler-lhe o rosto. Segundo a Engadget, que cita os testes da organização PIRG, as barreiras de segurança iam enfraquecendo à medida que a conversa se prolongava e houve conselhos que podiam provocar um incêndio.",
+    "Quem não cumprir arrisca multas até 15 mil dólares (cerca de 13 mil euros) por dia e por infração, aplicadas pela procuradora-geral do estado, Letitia James, que prometeu fazer cumprir a lei. Enquanto isso, a governadora deixa conselhos aos pais: verificar se o brinquedo traz um «companheiro» de IA, que dados recolhe e se permite conversas abertas.",
+    "O desafio será aplicar a lei nas lojas online. A Amazon disse à Engadget que os vendedores externos têm de cumprir as leis aplicáveis. Nova Iorque tem também outra lei que limita funções de «chatbots» para menores de 18 anos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Data da assinatura (24 nov.), número da lei (S.9408A/A.11144B), entrada em vigor 90 dias depois, multas e papel da procuradora-geral confirmados no comunicado oficial do gabinete da governadora; a Engadget (26 nov.) confirma a proibição de cinco anos e as multas. Os pormenores dos testes da PIRG (fogo, segurança que enfraquece) e a reação da Amazon vêm só da Engadget. A faixa dos 3 aos 12 anos refere-se aos brinquedos testados; a lei, tal como descrita, não fixa uma idade. Conversão em euros aproximada, nossa."
+   },
+   "fontes": [
+    {
+     "nome": "Gabinete da Governadora de Nova Iorque – «Governor Hochul Signs Five-Year Ban on AI Chatbot Toys» (24 nov.)",
+     "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+    },
+    {
+     "nome": "Engadget – «New York state bans AI chatbot toys for kids» (26 nov.)",
+     "url": "https://www.engadget.com/2328996/new-york-state-bans-ai-chatbot-toys-for-kids/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Bruxelas quer a Europa na frente da computação quântica em 2030: propõe uma lei própria e um fundo que pode mobilizar 50 mil milhões",
+   "estado": "Proposta da Comissão Europeia · precisa de aprovação do Parlamento Europeu e do Conselho · fundo previsto até 2028",
+   "data": "2026-11-25",
+   "texto": [
+    "A Comissão Europeia apresentou na quarta-feira, 25 de novembro, o Quantum Act, uma proposta de lei para transformar a investigação europeia em tecnologias quânticas em indústria. Ao lado, propôs um Fundo Soberano de Participações Tecnológicas (STEF, na sigla inglesa), que deverá mobilizar até 50 mil milhões de euros para empresas de tecnologias quânticas, inteligência artificial e outras consideradas críticas. O objetivo declarado é a Europa liderar o setor em 2030.",
+    "Como funciona o fundo? Segundo a Euronews, o dinheiro público serve de rampa de lançamento: por cada euro, Bruxelas quer atrair até seis de investidores privados, Estados-membros e Banco Europeu de Investimento. Deve estar a funcionar o mais cedo possível e, no máximo, em 2028, quando arranca o próximo orçamento de longo prazo da UE. A ideia é fazer investimentos maiores e mais arriscados do que os programas atuais, para que as melhores empresas não tenham de crescer ou ser vendidas fora da Europa.",
+    "E a lei? Prevê centros de apoio às pequenas empresas em cada país, infraestruturas quânticas partilhadas e vigilância das cadeias de fornecimento: dos 47 componentes identificados, nove não têm hoje nenhum fornecedor europeu, segundo a Euronews. Os Estados-membros terão de passar a criptografia pós-quântica (resistente a futuros computadores quânticos) até 2030 nas áreas de alto risco, como as infraestruturas críticas, e até 2035 no resto.",
+    "Ponto de partida: a UE tem uma em cada três empresas quânticas do mundo e 44% das patentes, mas atraiu em 2025 só 1,1 mil milhões de euros de investimento privado, contra 7 mil milhões nos EUA, segundo a Euronews. A indústria aplaudiu, mas pede compromissos de compra pública. IBM e Cisco pedem que as empresas não europeias não fiquem de fora. A proposta ainda vai ao Parlamento Europeu e ao Conselho."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Apresentação a 25 nov. confirmada na página oficial da Comissão (que lemos só em resumo), na Euronews, na Tech.eu e na TNW. A TNW diz que foi em Estrasburgo e que o Financial Times noticiou o fundo antes do anúncio, citando fontes anónimas. O efeito de alavanca (1 para 6), o prazo de 2028, os 47 componentes, os prazos da criptografia pós-quântica e os números de investimento vêm da Euronews. Os 50 mil milhões são o volume de investimento que o fundo pretende mobilizar, não dinheiro já atribuído. Não encontrámos referência específica a Portugal."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews – «EU unveils €50 billion tech fund to challenge US and China» (25 nov.)",
+     "url": "https://www.euronews.com/2026/11/25/eu-unveils-50-billion-quantum-industry-investment-plans"
+    },
+    {
+     "nome": "Comissão Europeia – «Proposal for a Quantum Act» (25 nov.)",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-quantum-act"
+    },
+    {
+     "nome": "Tech.eu – «EU proposes €50BN equity fund to support quantum and essential sovereign tech» (25 nov.)",
+     "url": "https://tech.eu/2026/11/25/eu-proposes-eur50-billion-equity-fund-to-support-quantum-and-essential-sovereign-tech"
+    },
+    {
+     "nome": "TNW – «EU proposes €50bn Sovereign Tech Equity Fund for AI and quantum» (25 nov.)",
+     "url": "https://thenextweb.com/news/eu-50bn-sovereign-tech-equity-fund-ai-quantum"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Montanha-russa em Wall Street: tecnológicas chegaram a cair mais de 4% na quarta-feira, mas recuperaram quase tudo até ao fecho",
+   "estado": "Números de fecho confirmados · Nvidia perde 3,9% · razões da recuperação são leituras de analistas",
+   "data": "2026-11-25",
+   "texto": [
+    "A bolsa americana viveu um dia de sustos na quarta-feira, 25 de novembro, véspera do feriado de Ação de Graças. Nas primeiras horas, o Nasdaq, o índice onde pesam as grandes tecnológicas, chegou a cair mais de 4%. O Dow Jones perdeu mais de mil pontos. Ao fim do dia, quase tudo estava recuperado: o Nasdaq fechou a perder 0,6%, nos 23 585 pontos, e o S&P 500, das 500 maiores empresas, cedeu cerca de 0,3%, segundo a ABC News e a Motley Fool.",
+    "O que provocou a queda? Três coisas ao mesmo tempo. Uma inflação mais alta do que o esperado em outubro, que alimenta o receio de nova subida dos juros. Novas tarifas propostas pelos EUA contra 14 parceiros comerciais. E mais vendas de ações ligadas à inteligência artificial (IA), por dúvidas de que os enormes gastos em centros de dados venham a dar o retorno prometido. No pior momento, o Nasdaq 100, que junta as 100 maiores empresas do índice, esteve cerca de 20% abaixo do recorde de 6 de outubro, o limiar a que os analistas chamam «mercado em baixa».",
+    "A Nvidia, que fabrica os chips mais usados em IA, fechou a perder 3,9%, nos 149,30 dólares, com o dobro do volume habitual de negócio. Apaga assim parte da subida do início da semana, quando Jensen Huang voltou a liderar a empresa. Micron, Sandisk e Oracle perderam entre 4% e 5%, segundo a ABC News. A Anthropic, que entrou em bolsa há poucos dias, fechou perto dos 82,8 dólares, ligeiramente abaixo do preço de estreia, de 83.",
+    "E a recuperação? Não há uma explicação única. Segundo um boletim de mercado, ajudaram notícias que aliviaram a pressão sobre a Nvidia e o pouco negócio antes do feriado, que amplifica os movimentos. A bolsa americana fecha hoje, quinta-feira, e na sexta, 27, encerra mais cedo, às 18h00 de Lisboa."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Fecho do Nasdaq (−0,6%) e do S&P 500 (−0,2% a −0,3%), queda inicial de mais de 4% no Nasdaq e de mais de mil pontos no Dow, e queda de quase 4% da Nvidia coincidem na ABC News e na Motley Fool (ambas 25 nov.). O preço de fecho da Nvidia e o volume vêm da Motley Fool. O fecho do Dow diverge: a ABC News diz que caiu 166 pontos; a Motley Fool e um boletim de mercado (T-Money Daily) dão subida de cerca de 0,3% — por isso não o indicamos. O Nasdaq 100 perto dos 20% abaixo do recorde aparece na Reuters (via Business Recorder, a meio da sessão) e no boletim; as razões da recuperação vêm só desse boletim, não de fonte de referência. As tarifas sobre 14 parceiros vêm da Reuters. Horário de sexta (13h00 de Nova Iorque) segundo o boletim, convertido para Lisboa."
+   },
+   "fontes": [
+    {
+     "nome": "ABC News – «Stocks close mixed after Wall Street erases sharp decline: Nvidia drops 4%» (25 nov.)",
+     "url": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070"
+    },
+    {
+     "nome": "The Motley Fool – «Stock Market Today, Nov. 25: Nvidia Slides 3.9%…» (25 nov.)",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
+    },
+    {
+     "nome": "Reuters (via Business Recorder) – «Nasdaq slides 4% as AI selloff, tariff proposals rattle Wall St» (25 nov., a meio da sessão)",
+     "url": "https://www.brecorder.com/news/40450713/nasdaq-slides-4-as-ai-selloff-tariff-proposals-rattle-wall-st"
+    },
+    {
+     "nome": "T-Money Daily – «The Nasdaq 100 Hit Bear-Market Territory. Then the Dow Erased a 1,100-Point Drop» (25 nov.)",
+     "url": "https://tmoneydaily.substack.com/p/the-nasdaq-100-hit-bear-market-territory"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Líderes da UE reúnem-se hoje em Bruxelas para discutir o orçamento até 2034, com a Alemanha a ligá-lo ao empréstimo à Ucrânia",
+   "estado": "Cimeira extraordinária a 26–27 nov. · acordo não esperado já · meta: dezembro · BCE também na agenda",
+   "data": "2026-11-26",
+   "texto": [
+    "Começa esta quinta-feira, 26 de novembro, em Bruxelas, uma cimeira extraordinária dos 27 líderes da União Europeia (UE) dedicada ao próximo orçamento de longo prazo, para 2028–2034. A reunião, convocada pelo presidente do Conselho Europeu, António Costa, arranca às 9h de Lisboa e deve prolongar-se até sexta-feira, segundo a Lusa. Luís Montenegro representa Portugal. Quase ninguém espera um acordo esta semana: o objetivo é aproximar posições para fechar o negócio até ao fim do ano, segundo a Reuters e o Irish Times.",
+    "De quanto dinheiro se fala? A proposta de compromisso de Costa ronda os 1,78 biliões de euros a preços correntes (cerca de 1,58 biliões a preços de 2025), cerca de 10% abaixo do que a Comissão Europeia tinha proposto. Inclui cerca de 740 mil milhões para a agricultura e para as regiões mais pobres, segundo a Reuters, e uma contribuição de 3% sobre certas receitas digitais das grandes empresas. Portugal ficaria com 34,9 mil milhões de euros, menos cerca de 400 milhões do que nas versões anteriores, segundo a Lusa.",
+    "As divisões são claras. Os países que pagam mais do que recebem, liderados pela Alemanha, querem cortes, sobretudo na agricultura e nos fundos regionais. Os que mais beneficiam, como os 17 países do grupo «Amigos da Coesão», sobretudo do sul e do leste, acham que os cortes já vão longe demais. E há a Ucrânia: a UE quer pedir emprestados 45 mil milhões de euros em conjunto para financiar Kiev em 2027, mas Hungria, Eslováquia, República Checa e Bulgária não querem participar. O chanceler alemão, Friedrich Merz, quer que o acordo sobre o orçamento dependa de todos contribuírem para esse empréstimo.",
+    "Na mesa está ainda a escolha de quem sucede a Christine Lagarde à frente do Banco Central Europeu (BCE). Lagarde sai a 7 de fevereiro de 2027, mais cedo do que o previsto, e esta é a última cimeira em que participa, segundo a Lusa. O espanhol Pablo Hernández de Cos e o neerlandês Klaas Knot são os nomes falados; a decisão deverá ficar para dezembro. O orçamento precisa da unanimidade dos 27 e da aprovação do Parlamento Europeu."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Datas da cimeira, falta de expectativa de acordo imediato, posições dos dois campos e a exigência de Merz sobre o empréstimo à Ucrânia confirmadas na Reuters (via Yahoo) e no Irish Times, ambos de 26 nov. Valores em preços correntes e constantes, verba para Portugal e Açores/Madeira, hora de início e data de saída de Lagarde vêm da Lusa (via Executive Digest e Jornal de Negócios). Os 740 mil milhões para agricultura e coesão e a cimeira de 17–18 dez. só na Reuters. As fontes usam bases diferentes para os valores (o Euronews fala em cerca de 2 biliões na proposta inicial da Comissão, a preços correntes); usámos os números da Lusa. Os candidatos ao BCE são os referidos pela Lusa e pelo Euronews; não há escolha feita. O texto foi escrito antes do início da reunião: não inclui declarações à chegada. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters (via Yahoo News) – «EU leaders to wrestle with seven-year budget, Ukraine financing as they seek December deal» (26 nov.)",
+     "url": "https://www.yahoo.com/news/articles/eu-leaders-wrestle-seven-budget-050220404.html"
+    },
+    {
+     "nome": "The Irish Times – «EU budget negotiations kick up a gear: ‘More cuts are necessary’» (26 nov.)",
+     "url": "https://www.irishtimes.com/world/europe/2026/11/26/eu-budget-negotiations-kick-up-a-gear-more-cuts-are-necessary/"
+    },
+    {
+     "nome": "Lusa (via Executive Digest) – «UE/Cimeira: Líderes europeus reunidos em Bruxelas com orçamento até 2034, apoio à Ucrânia e sucessão no BCE na agenda» (26 nov.)",
+     "url": "https://executivedigest.sapo.pt/ue-cimeira-lideres-europeus-reunidos-em-bruxelas-com-orcamento-ate-2034-apoio-a-ucrania-e-sucessao-no-bce-na-agenda/"
+    },
+    {
+     "nome": "Jornal de Negócios – «Costa pede compromisso aos líderes da UE. \"Chegou o momento\" de um acordo orçamental» (24 nov.)",
+     "url": "https://www.jornaldenegocios.pt/economia/europa/uniao-europeia/detalhe/costa-pede-compromisso-aos-lideres-da-ue-chegou-o-momento-de-um-acordo-orcamental"
+    },
+    {
+     "nome": "Euronews – «Europe’s €2 trillion punch-up: Welcome to the Brussels fight club» (26 nov.)",
+     "url": "https://www.euronews.com/2026/11/26/europes-2-trillion-punch-up-welcome-to-the-brussels-fight-club"
+    }
+   ],
+   "imagem": {
+    "commons": "Special meeting of the European Council - March 2025 - P065852-462073.jpg",
+    "tipo": "arquivo",
+    "alt": "Líderes europeus reunidos numa reunião especial do Conselho Europeu, em Bruxelas, em março de 2025",
+    "legenda": "Reunião especial do Conselho Europeu em março de 2025 (imagem de arquivo; não mostra a cimeira desta semana)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Trump propõe novas tarifas a 14 parceiros comerciais, da China à UE; Bruxelas rejeita a acusação de produzir a mais",
+   "estado": "Proposta anunciada a 25 nov. · ainda sem data de entrada em vigor (não antes de janeiro) · UE e China contestam",
+   "data": "2026-11-25",
+   "texto": [
+    "Os Estados Unidos querem aplicar novas tarifas às importações de 14 parceiros comerciais, incluindo a União Europeia. A proposta foi apresentada na quarta-feira, 25 de novembro, pelo gabinete do Representante Comercial dos EUA (USTR), depois de uma investigação de oito meses. A acusação: estes países produzem mais do que o mercado precisa, com subsídios e outras práticas, e inundam os EUA de produtos baratos, segundo a Euronews e a RTÉ, que cita a AFP e a Reuters.",
+    "Quem é visado? China, UE, Índia, Japão, Coreia do Sul, Indonésia, Bangladesh, Camboja, Malásia, Singapura, Suíça, Taiwan, Tailândia e Vietname. A China enfrenta a taxa mais alta: mais 20% sobre parte dos produtos, a somar aos cerca de 25% que já paga. Para a UE, a taxa não deve passar dos 15% acordados com Washington, segundo a RTÉ; a Euronews diz que a Casa Branca anunciou 15%. As novas taxas não se somam às que já existem sobre carros, aço e alumínio. O México e a Noruega também foram investigados, mas ficam de fora, para já.",
+    "Porque é que isto acontece agora? Em fevereiro, o Supremo Tribunal dos EUA decidiu que Trump não podia usar a lei de emergência que tinha invocado para as tarifas anteriores. Agora, o governo recorre a outra lei, a Secção 301 da Lei do Comércio de 1974. Ainda há um período de comentários públicos e uma audiência, por isso as taxas não deverão entrar em vigor antes de janeiro, segundo um responsável norte-americano citado pela Reuters.",
+    "As reações não tardaram. A Comissão Europeia disse que vai analisar as conclusões, mas rejeita «firmemente» a ideia de que a Europa produza a mais, segundo a Al Jazeera. A China falou num «falso problema» e pediu diálogo. Em Wall Street, o índice tecnológico Nasdaq chegou a cair mais de 4% e fechou a perder 0,6%."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Lista dos 14 visados, taxa de 20% para a China, exclusão de México e Noruega, base legal (Secção 301) e decisão do Supremo em fevereiro confirmadas na Euronews, na RTÉ (AFP/Reuters) e na Al Jazeera, todas de 25 nov. A taxa para a UE não é clara: a Euronews fala em 15% anunciados pela Casa Branca; a RTÉ diz só que as taxas respeitarão o limite de 15% acordado e serão publicadas no registo oficial (Federal Register). A previsão de janeiro vem de um responsável anónimo citado pela Reuters. Reação da Comissão Europeia e números da bolsa só na Al Jazeera. Não abrimos o anúncio original do USTR."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews – «US proposes new tariffs on 14 major trading partners, the EU included» (25 nov.)",
+     "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included"
+    },
+    {
+     "nome": "RTÉ (AFP/Reuters) – «US proposes new tariffs on trading partners, including EU» (25 nov.)",
+     "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/"
+    },
+    {
+     "nome": "Al Jazeera – «World reacts to Trump’s new tariffs as US stocks tumble» (25 nov.)",
+     "url": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble"
+    }
+   ],
+   "imagem": {
+    "commons": "View of Port of Los Angeles with container ships.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Navios porta-contentores no porto de Los Angeles",
+    "legenda": "Porto de Los Angeles (imagem ilustrativa; não está relacionada com o anúncio)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Mísseis russos atingem centro comercial em Kiev e drone mata duas pessoas em Kharkiv; central nuclear de Zaporíjia volta a ficar sem eletricidade",
+   "estado": "Ataques de 25–26 nov. confirmados pelas autoridades ucranianas · 48 mísseis Patriot à espera da assinatura de Hegseth",
+   "data": "2026-11-26",
+   "texto": [
+    "A Rússia voltou a atacar a Ucrânia durante a noite. Na quarta-feira, 25 de novembro, mísseis balísticos atingiram um centro comercial e outros edifícios no bairro de Desnianskyi, em Kiev, e feriram pelo menos sete pessoas, segundo a administração militar da cidade, citada pelo Kyiv Post. Já na madrugada desta quinta-feira, um drone atingiu um prédio de 16 andares em Kharkiv e matou duas pessoas, segundo os serviços de emergência ucranianos e a agência Ukrinform.",
+    "Segundo a Força Aérea ucraniana, a Rússia lançou 113 drones e mísseis balísticos de vários tipos. As defesas abateram ou neutralizaram 87 drones; houve impactos em 20 locais. Horas antes, outro ataque tinha deixado cinco regiões sem eletricidade, parado uma central térmica da DTEK, a maior empresa privada de energia do país, e provocado um grande incêndio numa instalação de produção de gás da Naftogaz em Poltava, segundo a Reuters.",
+    "A central nuclear de Zaporíjia, ocupada pela Rússia, voltou a perder a ligação à rede elétrica e passou a funcionar com geradores a gasóleo. Segundo a Agência Internacional da Energia Atómica (AIEA), é a 28.ª vez desde 2022; o vice-ministro da Energia ucraniano diz que é a 17.ª só este ano. A operadora ucraniana Energoatom avisa que os ataques repetidos aumentam o risco de um acidente nuclear.",
+    "Entretanto, Volodymyr Zelensky queixa-se de que um acordo para entregar 48 mísseis de defesa aérea Patriot, já pagos por aliados ocidentais, continua à espera da assinatura do secretário da Defesa dos EUA, Pete Hegseth. O Pentágono não explicou o atraso, segundo o Kyiv Post."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ataque a Kiev, mortos em Kharkiv e números da Força Aérea confirmados no Kyiv Post (26 nov.) e no título da Ukrinform (resultado de pesquisa; página não aberta). O número de feridos em Kiev subiu ao longo da noite: o Kyiv Post deu primeiro quatro, depois pelo menos sete. Ataques à energia (DTEK, Naftogaz, cinco regiões) e a «17.ª vez este ano» na central de Zaporíjia vêm da Reuters (via KFGO, 25 nov.); a «28.ª vez desde 2022», os geradores e o aviso da Energoatom vêm do Kyiv Post, que cita a AIEA. As contagens diferem por usarem períodos diferentes. A questão dos Patriot só no Kyiv Post (declaração de Zelensky). Não abrimos os comunicados da Força Aérea nem da AIEA."
+   },
+   "fontes": [
+    {
+     "nome": "Kyiv Post – «Russian Strike Kills 2 in Kharkiv as Moscow Pounds Ukraine with Ballistic Missiles, 100+ Drones» (26 nov.)",
+     "url": "https://www.kyivpost.com/post/91254"
+    },
+    {
+     "nome": "Kyiv Post – «Russia Strikes Kyiv Shopping Mall, Injures 4 as Pentagon Delays Patriot Missile Deliveries» (26 nov.)",
+     "url": "https://www.kyivpost.com/post/91219"
+    },
+    {
+     "nome": "Reuters (via KFGO) – «Russian attack damages Ukraine’s energy and gas sites, cuts power in five regions» (25 nov.)",
+     "url": "https://kfgo.com/2026/11/25/russian-attack-damages-ukraines-energy-and-gas-sites-cuts-power-in-five-regions/"
+    },
+    {
+     "nome": "Kyiv Post – «Zaporizhzhia Nuclear Plant Loses External Power for 28th Time Since Russia’s 2022 Invasion» (25 nov.)",
+     "url": "https://kyivpost.com/post/91160"
+    },
+    {
+     "nome": "Ukrinform – «Drone strike on high-rise building in Kharkiv kills two people» (citado)",
+     "url": "https://ukrinform.net/rubric-ato/4188730-drone-strike-on-highrise-building-in-kharkiv-kills-two-people.html"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Irão diz que mais petroleiros bateram em minas em Ormuz; Teerão acusa Israel de querer arrastar os EUA para nova guerra",
+   "estado": "Minas: alegação iraniana não verificada · acusação israelita de armas químicas negada pelo Irão",
+   "data": "2026-11-25",
+   "texto": [
+    "Mais dois petroleiros bateram em minas navais e incendiaram-se no estreito de Ormuz, a passagem entre o golfo Pérsico e o mar da Arábia por onde circula grande parte do petróleo mundial. A informação foi dada na quarta-feira, 25 de novembro, pela marinha dos Guardas da Revolução iranianos, segundo a Reuters, que não conseguiu confirmá-la de forma independente. À noite, os Guardas falaram ainda de um navio de gás natural liquefeito em chamas. Não foram divulgados nomes dos navios nem informação sobre feridos.",
+    "Segundo o Irão, os navios seguiam por uma rota «não autorizada». O exército iraniano diz ter reforçado a vigilância do estreito e avisa que quem passar sem coordenar com as forças iranianas corre mais riscos. Teerão só promete normalizar a navegação quando os EUA levantarem o bloqueio naval aos portos iranianos e a guerra acabar em todas as frentes; através do Catar, que faz de mediador, ofereceu reabrir o estreito 48 horas depois de as condições serem cumpridas. O barril de Brent estava nos 95,30 dólares no início da manhã desta quinta-feira na Ásia, segundo dados do OilPrice.com.",
+    "Ao mesmo tempo, sobe a tensão com Israel. O ministro da Defesa israelita, Israel Katz, afirmou na terça-feira que o Irão está a desenvolver armas químicas, embora ainda não consiga atacar Israel com elas, e que isso não pode ser permitido. O chefe da diplomacia iraniana, Abbas Araghchi, respondeu no X que o objetivo é «enganar os EUA» para combaterem «mais uma guerra» em nome de Israel, segundo a AFP. O Irão nega ter armas químicas.",
+    "Nem todos em Israel acompanham Katz. Avigdor Liberman, aliado do candidato a primeiro-ministro Gadi Eisenkot, disse que não há razão para um ataque israelita imediato, segundo a AFP. Israel tem um governo de gestão, liderado por Benjamin Netanyahu."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "As minas em Ormuz são uma alegação dos Guardas da Revolução, divulgada pelos media estatais iranianos e noticiada pela Reuters (via Business Recorder e Arab News, 25–26 nov.), que diz não a ter podido verificar; não há confirmação de armadores, dos EUA ou de outra fonte independente. O preço do Brent vem do resumo da PiQ Markets (automático), que cita o OilPrice.com; não abrimos o OilPrice. A acusação de Katz, a resposta de Araghchi e as declarações de Liberman vêm da AFP (via RTÉ e Arab News, 25 nov.). As duas partes da notícia assentam, assim, em agências diferentes (Reuters e AFP), mas cada uma tem uma só origem."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters (via Business Recorder) – «Iran says ships hit mines in Hormuz, warns vessels to coordinate passage» (25 nov.)",
+     "url": "https://www.brecorder.com/news/40450695/iran-says-ships-hit-mines-in-hormuz-warns-vessels-to-coordinate-passage?v=RZFpkOjgwi_7YFxToIyGrwis"
+    },
+    {
+     "nome": "Reuters (via Arab News) – «Iran claims LNG tanker ablaze in Hormuz after hitting mine» (25–26 nov.)",
+     "url": "https://www.arabnews.com/middle-east/iran-claims-lng-tanker-ablaze-in-hormuz-after-hitting-mine-3013942"
+    },
+    {
+     "nome": "RTÉ (AFP) – «Iran claims Israel trying to deceive US into another war» (25 nov.)",
+     "url": "https://www.rte.ie/news/middle-east/2026/1125/1600662-iran-israel/"
+    },
+    {
+     "nome": "AFP (via Arab News) – «Iran says Israel trying to deceive US into war with chemical weapons claim» (25 nov.)",
+     "url": "https://www.arabnews.com/middle-east/iran-says-israel-trying-to-deceive-us-into-war-with-chemical-weapons-claim-3014026"
+    },
+    {
+     "nome": "PiQ Markets – «Iran says two tankers hit mines in Hormuz; Brent trades at $95.30» (26 nov.)",
+     "url": "https://piqmarkets.com/story/iran-says-two-tankers-hit-mines-in-hormuz-brent-trades-at-95-30"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Montenegro recusa aplicar o IVA zero e outras medidas que a oposição meteu no Orçamento; PS e Chega falam em «desrespeito» e Ventura promete um anúncio",
+   "estado": "Declarações na RTP a 25 nov. · Governo considera as normas «recomendatórias» · admite ir ao Tribunal Constitucional · reações hoje",
+   "data": "2026-11-25",
+   "texto": [
+    "O Orçamento para 2027 foi aprovado, mas o Governo não vai cumprir parte dele. Na «Grande Entrevista» da RTP, na noite de quarta-feira, 25 de novembro, o primeiro-ministro, Luís Montenegro, disse que não vai criar a lista de alimentos com IVA zero, aprovada no Parlamento por PS e Chega. Também mantém o IRS mais baixo para as rendas ditas moderadas (até 2300 euros), que a oposição queria acabar, e não vai tornar permanente o bónus das pensões. «O Governo não vai executar aquilo que não está obrigado a fazer», resumiu, segundo o Observador.",
+    "Porquê? Montenegro chamou ao IVA zero uma medida «meramente simbólica», com «um efeito praticamente nulo»: nas contas dele, equivaleria a um apoio de cerca de nove cêntimos, segundo a RTP e o Observador. O argumento jurídico é que estas normas são apenas recomendações, porque o Parlamento não pode obrigar o Governo a legislar — o PSD invoca um acórdão do Tribunal Constitucional de 1987. O primeiro-ministro falou num «entorse constitucional» e admitiu que, «se for necessário», o Tribunal Constitucional seja chamado a decidir. Ao mesmo tempo garantiu que não quer uma crise política: «Nunca esteve na minha cabeça, nem está, uma crise política. Conto cumprir a legislatura até 2029.»",
+    "Sobre a remodelação pedida por dois em cada três portugueses nas sondagens desta semana, a resposta foi não: disse confiar «totalmente em todos os ministros» e defendeu o ministro da Administração Interna, Luís Neves. Admitiu «frustração» com a saúde em 2026 e reconheceu que, nas acampadas pela habitação, «aqui ou acolá pode ter havido um excesso» da polícia. Foi a primeira entrevista televisiva desde as últimas legislativas, conduzida por Vítor Gonçalves.",
+    "A oposição reagiu logo. Pelo PS, Marina Gonçalves falou em «desrespeito institucional pelo Parlamento» e pediu ao Presidente da República, António José Seguro, que se pronuncie. Bruno Nunes, do Chega, disse que «o normal funcionamento das instituições está em causa» e não excluiu uma nova moção de censura. O que vem a seguir: o líder do PS, José Luís Carneiro, deve reagir esta quinta-feira de manhã, na Madeira, e André Ventura anunciou uma declaração à hora de almoço na sede do Chega, sem dizer o que vai anunciar."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Recusa do IVA zero, manutenção do regime das rendas, pensões, «entorse constitucional», hipótese do Tribunal Constitucional, recusa de crise política, legislatura até 2029 e defesa de Luís Neves confirmados na RTP e no liveblog do Observador (que indica início às 20h49 e Vítor Gonçalves como entrevistador). O valor dos «nove cêntimos» difere entre fontes: a RTP escreve «nove cêntimos por cada pessoa», o Observador «9 cêntimos por dia»; por isso não especificamos a unidade. A citação «O Governo não vai executar aquilo que não está obrigado a fazer» é do Observador; a RTP tem formulação parecida. O acórdão de 1987 é referido na análise do Observador; o argumento do PSD (Hugo Carneiro) vem do Observador. «Primeira entrevista televisiva desde as legislativas» só no 24 Notícias. Reações de PS e Chega no Observador (artigo de 26 nov. e liveblog). Hora da declaração de Ventura não é consistente: o liveblog diz 12h, a análise do Observador 12h30; Carneiro às 9h30 segundo a análise do Observador. À hora do fecho não encontrámos estas reações já feitas. Não foi possível abrir as páginas do Público, TSF e Renascença. Imagem: fotografia de arquivo de Montenegro numa cimeira do PPE em Bruxelas, encontrada na pesquisa no Commons; não conseguimos abrir a página do ficheiro para confirmar data e licença."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – «Entrevista de Montenegro à RTP. IVA Zero não avança e IRS aplicado às rendas não será alterado» (25 nov.)",
+     "url": "https://www.rtp.pt/noticias/mundo/luis-montenegro-da-entrevista-em-exclusivo-a-rtp_n1781639"
+    },
+    {
+     "nome": "Observador – liveblog «Montenegro recusa aplicar IVA zero e mantém benefícios fiscais para as rendas moderadas…» (25 nov.)",
+     "url": "https://observador.pt/liveblogs/seguro-estreia-se-com-discurso-na-sessao-solene-do-25-de-novembro-pcp-vai-voltar-a-estar-ausente/"
+    },
+    {
+     "nome": "Observador – «“Desrespeito” e “funcionamento anormal das instituições”. PS e Chega indignam-se com Montenegro e Ventura promete anúncio» (26 nov.)",
+     "url": "https://observador.pt/2026/11/26/desrespeito-e-funcionamento-anormal-das-instituicoes-ps-e-chega-indignam-se-com-montenegro-e-ventura-promete-anuncio/"
+    },
+    {
+     "nome": "Observador – «Montenegro tenta virar o jogo e desafia oposição e Seguro» (análise)",
+     "url": "https://observador.pt/especiais/montenegro-tenta-virar-o-jogo-e-desafia-carneiro-ventura-e-seguro/"
+    },
+    {
+     "nome": "24 Notícias (SAPO) – «Montenegro garante que “nada justifica a minha demissão”…» (25 nov.)",
+     "url": "https://24noticias.sapo.pt/atualidade/artigos/e-preciso-esclarecer-os-portugueses-sobre-o-rumo-do-pais-diz-montenegro"
+    },
+    {
+     "nome": "Público – «Montenegro recusa implementar IVA Zero e alterar IRS das rendas, remodelação afastada» (citado)",
+     "url": "https://www.publico.pt/2026/11/25/politica/noticia/montenegro-nao-vai-implementar-medida-iva-zero-decidida-parlamento-2196331"
+    }
+   ],
+   "imagem": {
+    "commons": "Luis Montenegro at EPP Summit, 21 March, Brussels.jpg",
+    "tipo": "arquivo",
+    "alt": "Luís Montenegro, primeiro-ministro de Portugal, numa cimeira do Partido Popular Europeu em Bruxelas",
+    "legenda": "Luís Montenegro numa cimeira do Partido Popular Europeu, em Bruxelas (fotografia de arquivo; não mostra a entrevista à RTP)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Seguro estreia-se no 25 de Novembro a pedir que o povo não seja ouvido «apenas quando há eleições»; discurso de Aguiar-Branco sobre as acampadas divide o Parlamento",
+   "estado": "Discursos na sessão solene a 25 nov. · PCP ausente · Presidência Aberta anunciada para 1 a 4 de dezembro",
+   "data": "2026-11-25",
+   "texto": [
+    "António José Seguro falou pela primeira vez como Presidente da República na sessão solene que assinala o 25 de Novembro de 1975, na quarta-feira, na Assembleia da República. A mensagem principal: a voz do povo não deve ser ouvida «apenas quando há eleições». E logo a seguir, a ressalva: «Escutar não significa abdicar da responsabilidade de decidir». O PCP voltou a não comparecer, por considerar a sessão uma «ação provocatória».",
+    "Seguro deixou um retrato de um país a duas velocidades: uma parte vive bem, outra não beneficia do crescimento económico. Pediu respostas na habitação, na saúde, no custo de vida e nos salários, com «compromissos duradouros durante várias legislaturas», e desejou que «se vença o cinismo e a hipocrisia». Sobre a velha disputa entre as duas datas, disse que não é preciso «diminuir Abril para valorizar Novembro». Saudou ainda a aprovação do Orçamento, segundo o Observador, e anunciou uma Presidência Aberta na área metropolitana de Lisboa e no Alentejo, de 1 a 4 de dezembro.",
+    "O momento mais tenso foi do presidente da Assembleia, José Pedro Aguiar-Branco. Numa alusão às acampadas pela habitação, disse que é preciso «voltar a explicar que as assembleias populares não são formas democráticas de decisão». PSD, CDS, IL e Chega aplaudiram. À esquerda, as críticas foram duras: o PS acusou-o de «confronto institucional», o Livre de «cavar trincheiras» e o BE de fazer um «discurso de fação», segundo a RTP."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Frases de Seguro sobre a voz do povo, «Escutar não significa…», «diminuir Abril…», habitação e coesão social confirmadas na RTP; «compromissos duradouros…», «cinismo e a hipocrisia» e a Presidência Aberta de 1 a 4 de dezembro no Executive Digest (com Lusa); «cinismo e a hipocrisia» também na RTP. A saudação ao Orçamento só aparece nos títulos do liveblog do Observador (12h56) e na RTP. Ausência do PCP e expressão «ação provocatória» da RTP; ausência confirmada também no Observador. A frase de Aguiar-Branco, os aplausos e as reações de PS, Livre e BE são da RTP. Não abrimos o texto integral do discurso publicado pela TSF nem a análise do Observador. Imagem: o ficheiro surge nos resultados de pesquisa do Commons; o que mostra resulta do nome do ficheiro."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – «25 de Novembro. Seguro avisa que a voz do povo não deve “ser ouvida apenas quando há eleições”» (25 nov.)",
+     "url": "https://www.rtp.pt/noticias/politica/25-de-novembro-seguro-avisa-que-a-voz-do-povo-nao-deve-ser-ouvida-apenas-quando-ha-eleicoes_e1781476"
+    },
+    {
+     "nome": "Executive Digest/Lusa – «25 Novembro: Seguro pede compromissos e exige soluções na habitação e saúde contra “cinismo e a hipocrisia”» (25 nov.)",
+     "url": "https://executivedigest.sapo.pt/25-novembro-seguro-pede-compromissos-e-exige-solucoes-na-habitacao-e-saude-contra-cinismo-e-a-hipocrisia/"
+    },
+    {
+     "nome": "Observador – liveblog da sessão solene do 25 de Novembro (25 nov.)",
+     "url": "https://observador.pt/liveblogs/seguro-estreia-se-com-discurso-na-sessao-solene-do-25-de-novembro-pcp-vai-voltar-a-estar-ausente/"
+    },
+    {
+     "nome": "TSF – «“Povo não deve ser ouvido só em eleições.” Leia na íntegra o discurso de Seguro no 25 de Novembro» (citado)",
+     "url": "https://www.tsf.pt/politica/artigo/povo-nao-deve-ser-ouvido-so-em-eleicoes-leia-na-integra-o-discurso-de-seguro-no-25-de-novembro/18152141"
+    }
+   ],
+   "imagem": {
+    "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+    "tipo": "arquivo",
+    "alt": "Fachada do Palácio de São Bento, sede da Assembleia da República, em Lisboa",
+    "legenda": "Palácio de São Bento, sede da Assembleia da República, onde decorreu a sessão solene do 25 de Novembro (imagem de arquivo; não mostra a sessão)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Último dia de greve dos maquinistas da CP é amanhã, e na sexta-feira o Metro do Porto só circula em duas ligações",
+   "estado": "CP: 75% dos comboios suprimidos a 25 nov. · greve parcial hoje, sem serviços mínimos · Metro do Porto em greve na sexta, 27",
+   "data": "2026-11-26",
+   "texto": [
+    "A semana de greve nos comboios entra na reta final. Na quarta-feira, 25 de novembro, segundo dia de paralisação total dos maquinistas da CP, foram suprimidos 797 dos 1063 comboios previstos até às 19h00, cerca de 75%, segundo dados da CP divulgados pela Lusa. Só andaram os comboios dos serviços mínimos. Esta quinta-feira a greve é parcial, sem um número mínimo de comboios garantido, e o pré-aviso termina às 24h00 de sexta-feira, 27.",
+    "O balanço de quarta-feira foi quase igual ao de terça. Nos urbanos de Lisboa pararam 373 de 500 comboios; nos do Porto, 168 de 228; nos de Coimbra, 22 de 28. No longo curso foram suprimidos 51 de 67 e nos regionais 183 de 240. A greve foi convocada pelo Sindicato dos Maquinistas (SMAQ), que pede recuperação do poder de compra, valorização da profissão, melhores condições de trabalho e mais segurança ferroviária. Nenhuma das fontes consultadas refere negociações em curso.",
+    "No Porto, a sexta-feira também vai ser complicada no metro. Por causa de uma greve dos maquinistas, a Via Porto, que opera o Metro do Porto, avisa que a circulação pode ficar parada na maioria das linhas. Só deverá haver viagens no tronco comum, entre a Senhora da Hora e o Estádio do Dragão, e na linha Amarela, entre o Hospital São João e Santo Ovídio: de 15 em 15 minutos entre as 7h00 e as 20h00, e de meia em meia hora no resto do dia. Os efeitos começam já esta quinta-feira, com o serviço a terminar por volta das 23h00, em vez da 1h00.",
+    "Para quem tem bilhete da CP para um comboio suprimido, continua a ser possível pedir o reembolso total ou trocá-lo sem custos por outro comboio da mesma categoria e classe."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Números de quarta-feira até às 19h00 (797 de 1063, divisão por serviço) do DN/Lusa, com base na CP; o Executive Digest confirma com números até às 12h00 (378 de 544, 69,5%) e indica que hoje e segunda-feira são de greve parcial sem número mínimo de comboios e que a greve termina às 24h00 de sexta. Os números por serviço de quarta coincidem quase exatamente com os de terça publicados ontem, o que pode refletir a mesma grelha de serviços mínimos; não conseguimos confirmar isso. As horas exatas da greve parcial de hoje e o regime de sexta na CP não vêm nas fontes abertas. Metro do Porto: ligações, frequências e fim do serviço às 23h00 de quinta confirmados no Observador e na RTP (ambos a partir de comunicado da Via Porto); nenhuma das duas fontes identifica com clareza o sindicato que convocou a greve no metro, embora citem reivindicações do SMAQ — por isso não atribuímos a convocatória. Não abrimos as páginas do Público, Renascença nem o aviso da CP."
+   },
+   "fontes": [
+    {
+     "nome": "DN/Lusa – «Greve dos maquinistas da CP cancela 75% dos comboios previstos até às 19:00» (25 nov.)",
+     "url": "https://www.dn.pt/sociedade/greve-dos-maquinistas-da-cp-cancela-75-dos-comboios-previstos-at-s-1900"
+    },
+    {
+     "nome": "Executive Digest – «Greve dos maquinistas da CP regressa hoje com paralisação parcial…» (26 nov.)",
+     "url": "https://executivedigest.sapo.pt/greve-dos-maquinistas-da-cp-regressa-hoje-com-paralisacao-parcial-comboios-podem-voltar-a-sofrer-perturbacoes-e-nao-ha-servicos-minimos/"
+    },
+    {
+     "nome": "Observador – «Greve dos maquinistas reduz serviço do Metro do Porto na sexta-feira» (25 nov.)",
+     "url": "https://observador.pt/2026/11/25/greve-dos-maquinistas-reduz-servico-do-metro-do-porto-na-sexta-feira/"
+    },
+    {
+     "nome": "RTP – «Greve dos maquinistas reduz serviço do Metro do Porto na sexta-feira» (25 nov.)",
+     "url": "https://www.rtp.pt/noticias/economia/greve-dos-maquinistas-reduz-servico-do-metro-do-porto-na-sexta-feira_n1781632"
+    },
+    {
+     "nome": "Público – «Greve na CP cancela 75% dos comboios previstos até às 19h» (citado)",
+     "url": "https://www.publico.pt/2026/11/25/sociedade/noticia/greve-cp-dia-paralisacao-servicos-minimos-so-hora-ponta-2196217"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Acampada pela habitação sai hoje dos Restauradores, depois de três avisos da PSP, mas garante: «Isto não é um fim»",
+   "estado": "Anúncio do movimento a 26 nov. · saída pacífica prevista hoje · protesto continua, segundo os organizadores",
+   "data": "2026-11-26",
+   "texto": [
+    "As tendas do protesto pela habitação vão sair esta quinta-feira, 26 de novembro, da Praça dos Restauradores, em Lisboa. A Acampada de Lisboa decidiu-o ao fim da noite de quarta-feira. A razão apontada são as comemorações do 1.º de Dezembro, que se fazem naquela praça e tornam «impossível» manter ali o acampamento, segundo o movimento.",
+    "Na quarta-feira, a PSP contactou os manifestantes três vezes, às 14h00, às 16h00 e às 18h00, para pedir que desmobilizassem. «Deram a entender que ou desmobilizamos ou eles nos desmobilizam», contou o movimento, segundo a Lusa. A porta-voz Lou Loução garantiu que a saída será pacífica, sem confrontos com a polícia, e que a Acampada «não vai terminar». Nos últimos dias, parte dos manifestantes tem também pernoitado junto à Assembleia da República.",
+    "O protesto começou no Porto a 10 de outubro e chegou a Lisboa a 17 de outubro. As tendas estiveram primeiro no Rossio, de onde saíram antes das depressões Bruna e Charles; não puderam voltar porque a Câmara instalou lá o Mercado de Natal, e mudaram-se para os Restauradores a 14 de novembro. Os manifestantes pedem que a nova lei do arrendamento seja revertida, que se trave a compra de casas por fundos imobiliários e tetos de renda «verdadeiramente acessíveis»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Saída hoje, motivo (1.º de Dezembro), três contactos da PSP com as horas, a frase sobre a desmobilização, as declarações de Lou Loução, as datas (10 e 17 out., 14 nov.) e as reivindicações confirmados no DN e no Jornal de Negócios (ambos com Lusa; o DN refere confirmação à SIC Notícias). Ambos dependem da mesma informação de agência e do próprio movimento; a versão da PSP sobre os contactos não aparece nas fontes. A hora da retirada não foi divulgada. Não encontrámos o número de pessoas ou tendas. Não abrimos as páginas da TSF e da Renascença."
+   },
+   "fontes": [
+    {
+     "nome": "DN – «“Não é o fim” do protesto. Acampada de Lisboa pela habitação vai retirar tendas dos Restauradores» (26 nov.)",
+     "url": "https://www.dn.pt/sociedade/no-o-fim-do-protesto-acampada-de-lisboa-pela-habitao-vai-retirar-tendas-dos-restauradores"
+    },
+    {
+     "nome": "Jornal de Negócios – «Acampada de Lisboa vai retirar tendas dos Restauradores» (26 nov.)",
+     "url": "https://www.jornaldenegocios.pt/economia/habitacao/detalhe/acampada-de-lisboa-vai-retirar-tendas-dos-restauradores"
+    },
+    {
+     "nome": "TSF – «“Ou desmobilizamos ou eles desmobilizam-nos”: acampada de Lisboa denuncia avisos da PSP» (citado)",
+     "url": "https://www.tsf.pt/sociedade/artigo/acampada-de-lisboa-revela-contacto-da-psp-para-desmobilizacao-nos-restauradores/18152375"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Primeiras imagens da sonda europeia Hera: o asteroide atingido pela NASA ficou com uma cratera do tamanho de um estádio e a rodar «em caos»",
+   "estado": "Imagens divulgadas pela ESA a 25 nov. · Hera a cerca de 30 km dos asteroides · aproximação a 13 km prevista para meados de dezembro",
+   "data": "2026-11-25",
+   "texto": [
+    "Há quatro anos, a NASA atirou uma sonda contra um asteroide para ver se conseguia desviá-lo. Agora vê-se o resultado de perto. A Agência Espacial Europeia (ESA) divulgou na quarta-feira, 25 de novembro, as primeiras imagens detalhadas de Dimorphos tiradas pela sonda Hera, numa apresentação no Museu de História Natural de Berlim. O pequeno asteroide, com cerca de 151 metros, ficou com uma cratera que ocupa quase toda a face atingida — os cientistas esperavam uma com cerca de dez metros.",
+    "As surpresas não ficam por aí. Dimorphos, que dava sempre a mesma face ao asteroide maior à volta do qual gira, Didymos (cerca de 730 metros), passou a rodar de forma irregular. É hoje o objeto com a rotação mais caótica do Sistema Solar, disse o cientista da missão Michael Kueppers, segundo a Lusa. As imagens mostram ainda centenas de rochas desconhecidas, algumas com cerca de um metro, a flutuar em redor do par. «Caos total», resumiu o responsável pela missão, Ian Carnelli, citado pela Euronews. O impacto da sonda DART, em setembro de 2022, encurtou em cerca de 33 minutos a volta de Dimorphos em torno de Didymos.",
+    "Porque é que isto importa? A Hera foi feita para medir o que o choque fez ao asteroide, para que um dia, se for preciso desviar uma rocha perigosa, se saiba quanta força usar. Há também mão portuguesa: o software que guia e orienta a sonda, capaz de decidir sozinha por causa do atraso nas comunicações com a Terra, foi desenvolvido por engenheiros da GMV em Portugal, segundo a própria empresa.",
+    "O que vem a seguir: a sonda, que está a cerca de 30 quilómetros, deve aproximar-se a 13 quilómetros em meados de dezembro. Em janeiro devem começar a trabalhar dois pequenos satélites que a acompanham: o Juventas, que vai espreitar o interior de um asteroide com radar, e o Milani, que vai estudar a superfície e a poeira. A missão principal termina em junho de 2027."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Divulgação a 25 nov., tamanhos de Dimorphos (151 m) e Didymos (730 m), cratera muito maior do que o esperado, rotação caótica, centenas de rochas e os 33 minutos confirmados na Euronews e no Observador (Lusa, a partir da EFE); o Instituto de Astrofísica de Canarias (parceiro científico) confirma a cratera, as rochas, os 33 minutos, o fim da missão em junho de 2027 e indica que as imagens foram tiradas a 3 e 6 de novembro. A expectativa de uma cratera de cerca de 10 m, a frase de Kueppers, a apresentação em Berlim e o calendário (13 km em meados de dezembro, cubesats em janeiro) vêm da Lusa; o local de Berlim é confirmado pela netthings.pt. «Caos total» (Carnelli) só na Euronews, em tradução. Há pequenas diferenças: a Euronews fala em 2,7 m por píxel e rochas até cerca de 1 m; o IAC em cerca de 3 m por píxel; a Lusa em rochas de «alguns metros»; o IAC diz que a Hera chegou em outubro, a Lusa no início de novembro — por isso não indicamos a data de chegada. O papel da GMV em Portugal (equipa liderada por Francisco Cabral) vem da netthings.pt, que reproduz informação da empresa; não confirmámos noutra fonte independente. Não abrimos as páginas da ESA, da CNN nem do Space.com. Imagem: fotografia de arquivo tirada pela DART em 2022, antes do impacto, encontrada na pesquisa no Commons; não mostra a cratera."
+   },
+   "fontes": [
+    {
+     "nome": "Euronews – «ESA releases first images showing ‘complete chaos’ on asteroid smashed by NASA probe» (25 nov.)",
+     "url": "https://www.euronews.com/2026/11/25/esa-releases-first-images-showing-complete-chaos-on-asteroid-smashed-by-nasa-probe"
+    },
+    {
+     "nome": "Observador/Lusa – «Missão Hera confirma sucesso do primeiro teste de desvio de um asteroide» (26 nov.)",
+     "url": "https://observador.pt/2026/11/26/missao-hera-confirma-sucesso-do-primeiro-teste-de-desvio-de-um-asteroide/"
+    },
+    {
+     "nome": "Instituto de Astrofísica de Canarias – «ESA’s Hera mission reveals the first images of asteroid Dimorphos after the DART impact»",
+     "url": "https://www.iac.es/en/outreach/news/esas-hera-mission-reveals-first-images-asteroid-dimorphos-after-dart-impact"
+    },
+    {
+     "nome": "netthings.pt – «ESA e GMV revelam hoje imagens inéditas do asteroide Dimorphos atingido pela missão DART» (25 nov.)",
+     "url": "https://www.netthings.pt/2026/11/esa-e-gmv-revelam-hoje-imagens-ineditas.html"
+    },
+    {
+     "nome": "ESA – «Watch live: Hera’s first images of post-impact asteroid Dimorphos» (citado)",
+     "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/watch-live-hera-s-first-images-of-post-impact-asteroid-dimorphos"
+    },
+    {
+     "nome": "CNN – «ESA mission reveals stadium-size crater left by first planetary defense test» (citado)",
+     "url": "https://www.cnn.com/2026/11/25/science/hera-mission-dimorphos-asteroid-arrival-images"
+    }
+   ],
+   "imagem": {
+    "commons": "Last image showing all of Dimorphos by DART.png",
+    "tipo": "arquivo",
+    "alt": "O asteroide Dimorphos, coberto de rochas, fotografado de perto pela sonda DART segundos antes do impacto",
+    "legenda": "Dimorphos fotografado pela sonda DART da NASA pouco antes do impacto, em setembro de 2022 (imagem de arquivo; não mostra as novas imagens da Hera nem a cratera)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Reguladora norte-americana autoriza a SpaceX a lançar até um milhão de satélites para centros de dados no espaço; astrónomos «consternados»",
+   "estado": "Autorização da FCC a 25 nov. · primeiro satélite até 2033 · lançamentos previstos a partir de 2027, segundo a SpaceX",
+   "data": "2026-11-25",
+   "texto": [
+    "Um milhão de satélites. É quantos a SpaceX, de Elon Musk, pode agora pôr em órbita para a Starmind, uma rede de centros de dados no espaço. A Comissão Federal de Comunicações dos EUA (FCC), que regula o uso do espectro de rádio e licencia satélites, aprovou o pedido na quarta-feira, 25 de novembro. É a primeira autorização do género na história do país, segundo a própria FCC.",
+    "A ideia é pôr os computadores que alimentam a inteligência artificial a trabalhar em órbita, com energia solar e sem precisar de terrenos nem de água para arrefecimento. Cada satélite levaria processadores da Nvidia e voaria entre cerca de 500 e 1002 quilómetros de altitude. A licença tem prazos: pelo menos um satélite em órbita até 25 de novembro de 2033, 10% da rede até 2035 e metade até 2038, segundo a Via Satellite. A diretora de operações da SpaceX, Gwynne Shotwell, aponta para o início dos lançamentos em 2027.",
+    "Nem todos aplaudem. A Amazon, a Viasat e a Sociedade Astronómica Americana (AAS) pediram que o projeto fosse recusado. A AAS, preocupada com o efeito no céu noturno, disse-se «consternada» com a decisão, segundo a GeekWire. A FCC rejeitou as objeções, chamou «especulativas» as preocupações com o impacto na atmosfera dos satélites que ardem ao reentrar e exigiu um plano detalhado contra o lixo espacial. Há outros pedidos na fila: a Blue Origin quer 51 600 satélites e a Starcloud 88 000."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Autorização a 25 nov., até um milhão de satélites, nome Starmind, altitudes de 500 a 1002 km, objeções de Amazon, Viasat e AAS e pedidos da Blue Origin e Starcloud confirmados na GeekWire e na Via Satellite. Prazos detalhados (2033, 2035, 2038, 2040), lançamentos a partir de 2027 segundo Shotwell e «especulativas» só na Via Satellite; processadores Nvidia e a reação da AAS («disheartened and dismayed», traduzido) só na GeekWire. A GeekWire diz que a rede completa deverá operar até 2040. Não foi possível abrir as páginas da SpaceNews e da CNBC. Esta notícia toca também a tecnologia e a IA: convém confirmar que não sai noutra secção."
+   },
+   "fontes": [
+    {
+     "nome": "GeekWire – «FCC clears SpaceX to put up to a million satellites in orbit for Starmind data center network» (25 nov.)",
+     "url": "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/"
+    },
+    {
+     "nome": "Via Satellite – «FCC Approves SpaceX’s 1-Million Satellite Orbital Data Center Constellation» (25 nov.)",
+     "url": "https://www.satellitetoday.com/connectivity/2026/11/25/fcc-approves-spacexs-1-million-satellite-orbital-data-center-constellation/"
+    },
+    {
+     "nome": "SpaceNews – «FCC authorizes SpaceX to deploy one million orbital data centers» (citado)",
+     "url": "https://spacenews.com/fcc-authorizes-spacex-to-deploy-one-million-orbital-data-centers/"
+    },
+    {
+     "nome": "CNBC – «SpaceX wins FCC approval to deploy 1 million orbital data center satellites» (citado)",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Fatherland»: Thomas Mann regressa à Alemanha em ruínas, com a filha Erika ao volante — o novo filme de Pawlikowski, premiado em Cannes, chega hoje às salas",
+   "ficha": {
+    "Título original": "Fatherland / Vaterland (2026; Polónia, Alemanha, Itália e França)",
+    "Realização": "Paweł Pawlikowski («Ida», «Cold War»); argumento de Pawlikowski e Henk Handloegten; fotografia a preto e branco de Łukasz Żal",
+    "Elenco": "Hanns Zischler (Thomas Mann), Sandra Hüller (Erika Mann), August Diehl (Klaus Mann), Devid Striesow, Joachim Meyerhoff; participação de Joanna Kulig",
+    "Estreia em Portugal": "Quinta-feira, 26 de novembro de 2026 (drama histórico; 82 minutos; M/12; distribuição Nitrato Filmes)",
+    "Prémios": "Prémio de melhor realização em Cannes 2026, ex aequo com Los Javis («La Bola Negra»); 11 nomeações para os Prémios do Cinema Europeu; candidato da Polónia ao Óscar de melhor filme internacional",
+    "Avaliação": "Críticas muito positivas: 5 em 5 na Time Out (Phil de Semlyen); B+ no AV Club (Monica Castillo); elogios na Screen Daily, no RogerEbert.com (Robert Daniels) e na Sábado (Nuno Miguel Guedes); 10 críticas, todas positivas, no Metacritic"
+   },
+   "texto": [
+    "Chega hoje, quinta-feira, 26 de novembro, aos cinemas portugueses «Fatherland», o novo filme do polaco Paweł Pawlikowski, realizador de «Ida» e «Cold War». Valeu-lhe em maio o prémio de melhor realização no Festival de Cannes, partilhado com a dupla espanhola Los Javis, e lidera as nomeações para os Prémios do Cinema Europeu, com 11. É distribuído pela Nitrato Filmes e, no Cinema Medeia Nimas, em Lisboa, há hoje uma sessão às 13h00.",
+    "A história passa-se em 1949. O escritor Thomas Mann, Prémio Nobel da Literatura, volta à Alemanha pela primeira vez desde que fugiu do nazismo, 16 anos antes. Vai receber o Prémio Goethe, primeiro em Frankfurt, na zona ocupada pelos americanos, e depois em Weimar, sob controlo soviético. Leva consigo a filha Erika, que é ao mesmo tempo motorista, tradutora e conselheira. Hanns Zischler faz de Mann e Sandra Hüller, de «Anatomia de uma Queda», faz de Erika. Pelo caminho, o país dividido e derrotado obriga pai e filha a encarar a culpa, o luto e a ideia de que voltar a casa talvez já não seja possível. O resto fica para quem for ao cinema.",
+    "Os pontos fortes são muitos, segundo as críticas consultadas. Phil de Semlyen, da Time Out, dá-lhe cinco estrelas em cinco e diz que, em cerca de 80 minutos, o filme diz mais do que outros no dobro do tempo. A Screen Daily fala de um tema pesado tratado com rara leveza. Quase todos destacam a fotografia a preto e branco de Łukasz Żal, num formato de imagem quase quadrado, e a interpretação de Hüller, contida mas cheia de raiva e de dor. Robert Daniels, do RogerEbert.com, elogia a forma como a relação entre pai e filha se mostra em gestos, e não em diálogos. Em Portugal, Nuno Miguel Guedes, na Sábado, chama-lhe «um filme extraordinário».",
+    "Os pontos fracos são poucos e têm sobretudo a ver com o tom. A Time Out acha-o frio em alguns momentos e nota que temas da vida de Erika ficam só sugeridos. Monica Castillo, do AV Club, que lhe dá B+, diz que falta a paixão de «Cold War». A Screen Daily avisa que é um filme mais exigente e intelectual do que os anteriores do realizador, e uma crítica do IndieWire, citada no Metacritic, considera que o estilo contido limita o impacto emocional. Em resumo, segundo a apreciação que resulta das críticas consultadas: um drama histórico curto, elegante e muito bem interpretado, para quem gosta de cinema pausado e de ideias; quem procura emoção imediata pode achá-lo distante."
+   ],
+   "fontes": [
+    {
+     "nome": "Comunidade Cultura e Arte – «Fatherland», novo filme de Paweł Pawlikowski, estreia esta quinta-feira, 26 de novembro (conteúdo patrocinado pela Nitrato Filmes)",
+     "url": "https://comunidadeculturaearte.com/fatherland-novo-filme-de-pawel-pawlikowski-estreia-esta-quinta-feira-26-de-novembro-nos-cinemas-portugueses/"
+    },
+    {
+     "nome": "Cinevisão – «Fatherland»: drama histórico e biográfico de Paweł Pawlikowski em estreia nos cinemas",
+     "url": "https://cinevisao.pt/fatherland-drama-historico-e-biografico-de-pawel-pawlikowski-em-estreia-nos-cinemas/"
+    },
+    {
+     "nome": "Cinevisão – Estreias nos cinemas portugueses desta semana (25–26 nov.)",
+     "url": "https://cinevisao.pt/estreias-nos-cinemas-portugueses-conheca-os-filmes-que-pode-ver-esta-semana/"
+    },
+    {
+     "nome": "Medeia Filmes – Cinema Medeia Nimas: programação",
+     "url": "https://medeiafilmes.com/cinemas/cinema-medeia-nimas"
+    },
+    {
+     "nome": "Rua de Baixo – Fatherland lidera nomeações europeias e estreia a 26 de novembro",
+     "url": "https://www.ruadebaixo.com/fatherland-pawel-pawlikowski-estreia-26-novembro-2026.html"
+    },
+    {
+     "nome": "Euronews – European Film Awards: Fatherland, La Bola Negra and Fjord lead the nominations (16 nov. 2026)",
+     "url": "https://euronews.com/2026/11/16/european-film-awards-fatherland-la-bola-negra-and-fjord-lead-the-nominations"
+    },
+    {
+     "nome": "SensaCine – Palmarés completo de Cannes 2026",
+     "url": "https://www.sensacine.com/noticias/cine/noticia-1000205574/"
+    },
+    {
+     "nome": "Culture.pl – Paweł Pawlikowski wins Best Director at Cannes 2026",
+     "url": "https://culture.pl/en/article/pawel-pawlikowski-wins-best-director-at-cannes-2026"
+    },
+    {
+     "nome": "Sábado (GPS) – «O que torna Fatherland um dos grandes filmes do ano?» (Nuno Miguel Guedes, 24 nov. 2026)",
+     "url": "https://www.sabado.pt/gps/detalhe/o-que-torna-fatherland-um-dos-grandes-filmes-deste-2026"
+    },
+    {
+     "nome": "Time Out – crítica de «Fatherland» (Phil de Semlyen, 8 mai. 2026)",
+     "url": "https://www.timeout.com/movies/fatherland-review-2026"
+    },
+    {
+     "nome": "Screen Daily – crítica de «Fatherland»",
+     "url": "https://www.screendaily.com/reviews/fatherland-review-sandra-huller-and-hanns-zischler-command-pawel-pawlikowskis-finely-honed-literary-drama/5216564.article"
+    },
+    {
+     "nome": "RogerEbert.com – crítica de «Fatherland» (Robert Daniels)",
+     "url": "https://www.rogerebert.com/reviews/fatherland-film-review-2026"
+    },
+    {
+     "nome": "AV Club – crítica de «Fatherland» (Monica Castillo, 22 out. 2026)",
+     "url": "https://www.avclub.com/fatherland-sandra-huller-movie-review"
+    },
+    {
+     "nome": "Metacritic – «Fatherland»: críticas",
+     "url": "https://legacy.prod.metacritic.com/movie/fatherland/critic-reviews"
+    }
+   ],
+   "nota": "Estreia a 26 nov. e distribuição Nitrato Filmes segundo o Cinevisão e a Rua de Baixo; data também na Comunidade Cultura e Arte (texto patrocinado pela distribuidora) e na lista de estreias da semana do Cinevisão. Sessão de hoje às 13h00 no Medeia Nimas, 82 min e M/12 segundo a página do cinema; a página de estreias do filmSPOT não pôde ser aberta (pedido de acesso sem resposta) e não foram consultados Cinecartaz nem exibidores NOS/UCI; convém confirmar horários antes de sair. Sinopse (1949, 16 anos de exílio, Prémio Goethe em Frankfurt e Weimar, Erika como assistente, tradutora e conselheira) segundo a Comunidade Cultura e Arte, cruzada com Screen Daily e RogerEbert.com; «motorista» resulta da viagem de carro descrita no Cardápio e não está explícita nas outras fontes. Elenco, países e 82 min segundo a Screen Daily; argumentista Handloegten segundo o Cardápio e a Euronews; Żal como diretor de fotografia segundo o AV Club e a Euronews. Prémio de realização ex aequo com Los Javis segundo a SensaCine e o site do festival (que diz ex aequo sem nomear o outro premiado); a página da Culture.pl não refere a partilha. 11 nomeações e cerimónia a 16 jan. 2027 em Atenas segundo a Euronews. Candidatura polaca ao Óscar segundo o Cinevisão. Notas e opiniões: Time Out 5/5; AV Club B+; Screen Daily sem nota e sem autor visível; RogerEbert.com sem nota visível; Sábado com o texto quase todo atrás de paywall (só se leu o início); a citação do IndieWire vem do resumo do Metacritic, não do artigo original. A Irish Times terá dado cinco estrelas em Cannes, mas só se viu o título nos resultados de pesquisa. «Anatomia de uma Queda» como filme conhecido de Hüller é conhecimento geral. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro (2018). Existe no Commons uma categoria «Fatherland (2026 film)», que não pôde ser aberta.",
+   "imagem": {
+    "commons": "Joanna Kulig and Paweł Pawlikowski at 2018 Cannes Film Festival.jpg",
+    "tipo": "arquivo",
+    "alt": "O realizador Paweł Pawlikowski e a atriz Joanna Kulig no Festival de Cannes",
+    "legenda": "Paweł Pawlikowski com Joanna Kulig, que tem uma pequena participação em «Fatherland», no Festival de Cannes de 2018, onde apresentaram «Cold War» (imagem de arquivo; não mostra o novo filme)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Maria Keil, a artista que vestiu de azulejo as primeiras estações do metro de Lisboa: uma retrospetiva com cerca de 200 obras abre no sábado no Bairro Alto",
+   "ficha": {
+    "Nascimento e morte": "9 de agosto de 1914, em Silves; 10 de junho de 2012, em Lisboa",
+    "Área": "Pintura, desenho, ilustração, azulejo, tapeçaria e design de mobiliário; segunda geração de modernistas portugueses",
+    "Obra essencial": "Painéis de azulejo do Metropolitano de Lisboa (de 1957 ao início dos anos 70); painel «O Mar» na Avenida Infante Santo (1958–59); cartões para a Manufactura de Tapeçarias de Portalegre; ilustração de livros de Sophia de Mello Breyner Andresen, Aquilino Ribeiro e Matilde Rosa Araújo",
+    "Prémios": "Prémio Revelação Souza-Cardoso (1941); comendadora da Ordem Militar de Sant'Iago da Espada (1981)",
+    "Atualidade": "Retrospetiva «Maria Keil: Sem Rótulos», na Galeria Tapeçarias de Portalegre, em Lisboa, a partir de sábado, 28 de novembro, até ao fim de fevereiro de 2027; obras à venda"
+   },
+   "texto": [
+    "Quem anda no metro de Lisboa já viu Maria Keil, mesmo sem saber. A artista (1914–2012) desenhou os azulejos de muitas das primeiras estações, e agora é a vez de o público ver o resto da obra. A partir de sábado, 28 de novembro, a Galeria Tapeçarias de Portalegre, no Bairro Alto, mostra cerca de 200 peças, algumas nunca expostas, numa retrospetiva chamada «Sem Rótulos». Fica até ao fim de fevereiro.",
+    "Maria Keil nasceu em Silves, no Algarve, em agosto de 1914. Ainda adolescente, mudou-se para Lisboa e estudou na Escola de Belas-Artes, num curso de pintura que não chegou a terminar. Em 1933 casou com o arquiteto Francisco Keil do Amaral. Fez a primeira exposição individual em 1939 e, dois anos depois, ganhou o Prémio Revelação Souza-Cardoso com um autorretrato. Pertence à chamada segunda geração de modernistas portugueses, e nunca se fixou numa só arte: pintou, desenhou, ilustrou livros, fez cenários e figurinos para bailado, desenhou móveis, azulejos e tapeçarias. Chamava a si própria «operária das artes».",
+    "O azulejo deu-lhe a obra mais conhecida. Segundo o Observador, a ideia de decorar o metro foi do marido, que era responsável pelas obras das estações. Havia pouco dinheiro, e o azulejo industrial, da fábrica Viúva Lamego, era uma solução barata. Maria Keil transformou-o em arte: padrões geométricos e abstratos que cobriram estações como Anjos, Intendente, Alameda, Campo Pequeno ou Rossio. Segundo a RTP, foram 19 das primeiras estações. Algumas obras perderam-se nas ampliações a partir dos anos 70, e o último trabalho para o metro, em São Sebastião, foi feito quando já tinha 95 anos. Foi também ilustradora de livros de Sophia de Mello Breyner Andresen, Aquilino Ribeiro e Matilde Rosa Araújo, e a primeira mulher a criar cartões para a Manufactura de Tapeçarias de Portalegre, fundada em 1946.",
+    "A exposição nasceu de uma vontade da família. O filho, Francisco Keil do Amaral, conhecido como «Pitum», tem 91 anos e gere o espólio, onde foram inventariadas cerca de duas mil peças. «As obras de arte têm o seu tempo e, depois, acabam por ser guardadas e sair da vista das pessoas», disse ao Observador. As obras estão à venda, entre 800 e 18 mil euros, e decorrem conversas com a Biblioteca Nacional, o Museu Nacional do Azulejo e a Fundação Portuguesa das Comunicações para ficarem com parte do arquivo, que inclui cartas e manuscritos. Uma curiosidade: Maria Keil explicava que deixou a pintura de cavalete porque achava «mais útil fazer coisas para a arquitetura»."
+   ],
+   "fontes": [
+    {
+     "nome": "Observador – Família de Maria Keil expõe obras para venda e procura instituições para o espólio da artista",
+     "url": "https://observador.pt/especiais/familia-de-maria-keil-expoe-obras-para-venda-e-procura-instituicoes-para-o-espolio-da-artista/"
+    },
+    {
+     "nome": "RTP / Antena 1 – Obra de Maria Keil reencontra o público (25 nov. 2026)",
+     "url": "https://www.rtp.pt/noticias/pais/obra-de-maria-keil-reencontra-o-publico_n1781624"
+    },
+    {
+     "nome": "Jornal Económico – Lisboa recebe a maior retrospetiva de Maria Keil com cerca de 200 obras inéditas e raramente expostas (16 nov. 2026)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/lisboa-recebe-a-maior-retrospetiva-de-maria-keil-com-cerca-de-200-obras-ineditas-e-raramente-expostas/"
+    },
+    {
+     "nome": "Wikipedia – Maria Keil",
+     "url": "https://en.wikipedia.org/wiki/Maria_Keil"
+    }
+   ],
+   "nota": "Exposição: título «Sem Rótulos», abertura a 28 nov., galeria e cerca de 200 obras segundo o Observador, a RTP e o Jornal Económico; fim em fevereiro de 2027 só segundo a RTP; localização no Bairro Alto, preços (800–18 000 euros), inventário de cerca de 2000 peças, a citação do filho e a origem da ideia do metro (marido, pouco dinheiro, azulejos da Viúva Lamego) segundo o Observador; idade do filho (91) segundo a RTP; negociações com BNP, Museu Nacional do Azulejo e Fundação Portuguesa das Comunicações segundo o Observador e o Jornal Económico. Nascimento em Silves segundo o Observador, a RTP e a Wikipedia (o Jornal Económico diz Lisboa); data de nascimento e morte (10 jun. 2012) segundo o Jornal Económico e a Wikipedia; a RTP diz junho de 2013, o que contraria as outras fontes. Escola de Belas-Artes desde 1929, casamento em 1933, prémio de 1941 com um autorretrato, cenários para «Lenda das Amendoeiras» (1940), mobiliário, «O Mar» (1958–59), período do metro (1957–c. 1972), estações citadas, destruições a partir de 1977, condecoração de 1981 e a frase sobre a arquitetura (traduzida do inglês, por isso não é a formulação original) segundo a Wikipedia. «19 das primeiras estações» segundo a RTP (que data o projeto de 1959); São Sebastião aos 95 anos segundo o Observador. «Operária das artes» segundo o Observador e a RTP; primeira mulher a criar cartões para Portalegre e fundação da Manufactura em 1946 segundo a RTP e o Jornal Económico. Não foi confirmado quais painéis originais se mantêm hoje em cada estação. Imagem: o ficheiro surge nos resultados de pesquisa do Commons para «Maria Keil azulejos», mas a página não pôde ser aberta; que mostre azulejos dela na estação Anjos resulta do nome do ficheiro e do contexto da pesquisa, não foi confirmado. Os painéis são obra protegida, fotografada em espaço público (Portugal admite a liberdade de panorama, aceite pelo Commons). Ida para Lisboa: aos 16 anos segundo a RTP; curso preparatório desde 1929 (aos 15) segundo a Wikipedia — daí «ainda adolescente».",
+   "imagem": {
+    "commons": "AnjosMetroLx4.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Paredes revestidas a azulejo na estação Anjos do metro de Lisboa",
+    "legenda": "Estação Anjos do metro de Lisboa, uma das que Maria Keil decorou com azulejo (imagem ilustrativa; não mostra a exposição)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que a Estátua da Liberdade não nasceu verde? Era cor de cobre, como uma moeda nova, e quase foi pintada para o voltar a ser",
+   "texto": [
+    "Sabias que a Estátua da Liberdade nem sempre foi verde? Quando foi inaugurada em Nova Iorque, a 28 de outubro de 1886, tinha a cor do cobre novo, um castanho avermelhado e brilhante, parecido com o de uma moeda acabada de cunhar. O verde que hoje conhecemos apareceu sozinho, com o tempo, e demorou cerca de 30 anos a cobrir a estátua toda.",
+    "A explicação está no material. A pele da estátua, desenhada pelo escultor francês Frédéric-Auguste Bartholdi, é feita de cerca de 300 folhas de cobre martelado, cada uma com cerca de 2,4 milímetros, mais ou menos a espessura de duas moedas juntas. Por dentro, segura-a uma estrutura de ferro projetada por Gustave Eiffel, o mesmo da torre de Paris. Exposto ao ar, à chuva, ao sal do mar e à poluição, o cobre reage e forma à superfície uma camada fina esverdeada, chamada pátina ou verdete.",
+    "A mudança não passou despercebida. Segundo o History.com, já em 1903 se notava o verde e, em 1910, a estátua estava meio cobre, meio verde. Houve quem não gostasse. Em 1906, o Congresso americano aprovou 62 mil dólares para a pintar e devolver-lhe a cor original. Os jornais chamaram à ideia um «sacrilégio», e o plano caiu. Além disso, a tinta teria de ser renovada regularmente.",
+    "Afinal, o verde fazia-lhe bem. A pátina funciona como uma capa que protege o cobre por baixo da corrosão. Quando a estátua foi restaurada, nos anos 80, para o centenário, os técnicos descobriram que a pele de cobre estava quase intacta, segundo a Copper Development Association. Ou seja: aquilo que parecia um defeito é o que mantém a estátua de pé, e tornou-se a sua cor mais famosa."
+   ],
+   "fontes": [
+    {
+     "nome": "National Park Service – Statue of Liberty: Frequently Asked Questions",
+     "url": "https://www.nps.gov/stli/faqs.htm"
+    },
+    {
+     "nome": "History.com – «Why the Statue of Liberty Turned Green» (Elizabeth Yuko; atualizado a 17 ago. 2026)",
+     "url": "https://www.history.com/news/statue-of-liberty-green-color-change"
+    },
+    {
+     "nome": "Britannica – «What Is the Statue of Liberty Made Of?»",
+     "url": "https://britannica.com/technology/What-Is-the-Statue-of-Liberty-Made-Of"
+    },
+    {
+     "nome": "Copper Development Association – «Liberty Reclothed»",
+     "url": "https://copper.org/education/liberty/liberty_reclothed1.php"
+    }
+   ],
+   "nota": "Cor castanha de moeda em 1886, oxidação natural (não tinta), cerca de 30 anos até à pátina completa e espessura de 3/32 de polegada («duas moedas») segundo o National Park Service. Inauguração a 28 out. 1886, cerca de 300 folhas de cobre, causas (ar, água salgada, poluição), 1903 e 1910, os 62 mil dólares de 1906, o «sacrilégio», a necessidade de repintar e o papel de Eiffel na estrutura segundo o History.com; os 62 mil dólares e o «sacrilégio» também segundo a Copper Development Association, que confirma o restauro dos anos 80 e a pele de cobre quase intacta. Espessura de 2,4 mm, Bartholdi e a pátina como proteção segundo a Britannica (o NPS dá cerca de 2,5 mm; o texto diz «cerca de»). O History.com diz que a estátua ficou toda verde «cerca de uma década» depois de 1910, o que bate com os cerca de 30 anos do NPS. Que o restauro foi feito para o centenário (1986) é conhecimento geral. A estrutura de Eiffel é de ferro segundo o History.com; a Britannica fala de aço. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro. A estátua (1886) está em domínio público.",
+   "imagem": {
+    "commons": "Statue of Liberty 7.jpg",
+    "tipo": "obra",
+    "alt": "A Estátua da Liberdade, verde, com o braço erguido a segurar a tocha",
+    "legenda": "A Estátua da Liberdade, em Nova Iorque: o verde é a pátina que o cobre ganhou com o tempo (obra de 1886, em domínio público)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Rádio Quântica: há onze anos que uma rádio comunitária de Lisboa dá voz a DJs, artistas e ativistas que não passam nas rádios comerciais",
+   "ficha": {
+    "Origem": "1 de novembro de 2015, em Lisboa; fundada por Violet (Inês Coutinho) e Photonz (Marco Rodrigues), inspirados na londrina NTS Radio",
+    "Onde": "Online, 24 horas por dia, em radioquantica.com; o estúdio esteve na Rua das Gaivotas e depois no Planeta Manas (Prior Velho) e procura um espaço novo em Alcântara",
+    "Área": "Rádio comunitária e música independente, sobretudo eletrónica, mas também experimental, hip hop, funk e conversas; editora, festas, workshops e o festival Ano Q",
+    "Participantes": "Cerca de 100 programas de autor e mais de 170 artistas residentes; comunidades queer, artistas negros e da diáspora lusófona",
+    "Atualidade": "Workshop gratuito de produção musical a 19 nov. e concerto no Sótão do MNAC a 21 nov.; 6.ª edição do festival Ano Q em setembro, na Galeria Zé dos Bois"
+   },
+   "texto": [
+    "Em Lisboa há uma rádio que não se ouve em FM nem em AM, mas que não para. A Rádio Quântica é uma rádio comunitária online, que emite 24 horas por dia desde 2015, com cerca de cem programas de autor e mais de 170 artistas residentes. Em novembro organizou um workshop gratuito de produção musical e um concerto no Sótão do Museu Nacional de Arte Contemporânea (MNAC), no Chiado, e prepara a mudança para um espaço novo.",
+    "A rádio começou a emitir a 1 de novembro de 2015. Os fundadores, Inês Coutinho, que atua como DJ com o nome Violet, e Marco Rodrigues, o DJ e produtor Photonz, inspiraram-se na NTS, uma rádio online nascida em Londres. «Não ouvíamos os nossos pares nas rádios mainstream e queríamos mostrar esta rede ao mundo», explicou Inês Coutinho à Time Out. O primeiro estúdio ficou num pequeno espaço cedido pelo Teatro Praga na Rua das Gaivotas e, mais tarde, mudou-se para um cubículo de nove metros quadrados no Planeta Manas, um espaço de dança no Prior Velho, perto de Lisboa.",
+    "A proposta é dar antena a quem tem pouco espaço nas plataformas comerciais. A grelha mistura música eletrónica, experimental, hip hop, funk, soul e conversas, com DJs portugueses e convidados de fora. A Quântica tem uma editora com o mesmo nome, organizou festas no Lux Frágil e, em 2018, ajudou a lançar a mina, uma festa techno queer itinerante. Em 2019 criou o festival Ano 0, entre a Galeria Zé dos Bois (ZDB), em Lisboa, e a ADAO, no Barreiro, pensado para artistas queer, trans, negros e mulheres. Hoje chama-se Ano Q: a 6.ª edição foi em setembro, na ZDB, com bilhetes a 15 euros na pré-venda.",
+    "Nem tudo foi fácil. Em 2025, com o fecho do Planeta Manas, a rádio lançou uma recolha de fundos para um estúdio novo em Alcântara, que quer transformar num espaço comunitário com exposições, debates e oficinas. Porque é que isto importa? Numa cidade onde as rendas sobem e os espaços culturais pequenos fecham, a Quântica é uma das poucas plataformas onde a música independente e as comunidades menos visíveis podem ser ouvidas sem filtro de algoritmo. Para Inês Coutinho, a rádio comunitária é «uma forma de resistir ao que é hegemónico»."
+   ],
+   "fontes": [
+    {
+     "nome": "Rádio Quântica – página oficial",
+     "url": "https://www.radioquantica.com/"
+    },
+    {
+     "nome": "Rádio Quântica – «About»",
+     "url": "https://radio-quantica.vercel.app/about"
+    },
+    {
+     "nome": "Time Out Lisboa – «Nem FM nem AM: as rádios comunitárias tocam DIY» (21 fev. 2024)",
+     "url": "https://www.timeout.pt/lisboa/pt/noticias/nem-fm-nem-am-as-radios-comunitarias-tocam-diy-022124"
+    },
+    {
+     "nome": "Fact Magazine – Rádio Quântica spotlights DJs and artists from Portugal and lusophone countries (27 out. 2015)",
+     "url": "https://factmag.com/2015/10/27/radio-quantica-portugal"
+    },
+    {
+     "nome": "DJ Mag – Ano 0 is the community-led festival unifying Lisbon's electronic underground",
+     "url": "https://direct.djmag.com/features/ano-0-community-led-festival-unifying-lisbons-electronic-underground"
+    },
+    {
+     "nome": "Mixmag – Rádio Quântica announces debut Ano 0 festival in Portugal (7 ago. 2019)",
+     "url": "https://mixmag.net/read/radio-quantica-ano-0-festival-portugal-news"
+    },
+    {
+     "nome": "DJ Mag – Lisbon's Rádio Quântica launches fundraiser for new studio and community artspace (6 jun. 2025)",
+     "url": "https://djmag.com/news/lisbons-radio-quantica-launches-fundraiser-new-studio-and-community-artspace"
+    },
+    {
+     "nome": "A Cabine – Ano Q revela cartaz para este ano (25 jun. 2026)",
+     "url": "https://acabine.pt/2026/06/ano-q-revela-cartaz-para-este-ano/"
+    },
+    {
+     "nome": "Galeria Zé dos Bois – Festival Ano Q 2026",
+     "url": "https://zedosbois.org/en/programa/festival-ano-q-2026/"
+    }
+   ],
+   "nota": "Arranque a 1 nov. 2015 e Photonz entre os primeiros residentes segundo a Fact (2015). Fundadores (Inês Pereira Coutinho e Marco Rodrigues), inspiração na NTS, espaço do Teatro Praga na Rua das Gaivotas em 2016, estúdio de 9 m² no Planeta Manas, 170 residentes e as duas citações segundo a Time Out (2024); co-fundadores com os nomes Violet e Photonz, Lux, mina (2018) e Ano 0 entre ZDB e ADAO segundo a DJ Mag; que Marco Rodrigues é Photonz resulta do cruzamento destas duas fontes, não é dito explicitamente em nenhuma. Ano 0 em 2019 segundo a Mixmag. Cerca de 100 programas, 170 residentes, géneros, editora e workshops segundo a página «About»; workshop de 19 nov. e concerto de 21 nov. no Sótão do MNAC (ciclo «Vontade Própria», da Filho Único) segundo o site oficial. Recolha de fundos (2025), fecho do Planeta Manas e Alcântara segundo a DJ Mag; não foi confirmado se o estúdio de Alcântara já abriu — o site oficial ainda fala da mudança. 6.ª edição do Ano Q a 25–26 set. 2026 na ZDB segundo a ZDB; 15 euros em pré-venda segundo A Cabine. A Rua das Gaivotas foi referida a 13 nov. (Teatro Praga) e a ZDB foi tema a 17 nov., mas o assunto de hoje é a rádio. «Onze anos» conta a partir de 1 nov. 2015. Imagem: não foi encontrada no Commons fotografia da Rádio Quântica; usou-se uma imagem genérica de gira-discos e mesa de mistura que surge nos resultados de pesquisa do Commons (página não aberta; o que mostra resulta do nome do ficheiro).",
+   "imagem": {
+    "commons": "Turntables and mixer.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Dois gira-discos e uma mesa de mistura de DJ",
+    "legenda": "Gira-discos e mesa de mistura (imagem ilustrativa; não mostra a Rádio Quântica)"
+   }
+  }
+ ],
+ "agenda_aviso": "Dados recolhidos na manhã de 26 de novembro na agenda geral da Casa da Música e nas páginas dos concertos (Al Di Meola, Eden Lewis II, ensaio aberto e concerto de Pizarro, Javier Perianes, Youn Sun Nah, Paus, «Som de Lá e de Cá» e «Brahms, a Segunda Sinfonia»), no programa e nas páginas de espetáculos e filmes do Teatro Municipal do Porto, na agenda e nas páginas de atividades de Serralves, nas páginas do Coliseu na Viral Agenda, na página inicial e nas páginas de locais da Agenda Porto, no Planetário do Porto (horários e Porto/Post/Doc), na Time Out Porto (fim de semana, «Auto da Barca do Inferno», Paus e Mercado de Natal da Batalha), na iPorto e na MATO. Não foi possível abrir hoje as páginas de eventos individuais da Agenda Porto (por exemplo «O Diabo em Mim», GANSO no Hard Club, Invictacon e a sessão de «Trainspotting»), o site do Coliseu, o site do TNSJ e o artigo de coisas grátis da Time Out; o programa diário do Porto/Post/Doc não foi consultado e a página do festival no Batalha não tem horas por sessão. Esgotados, segundo a agenda da Casa da Música consultada hoje: Al Di Meola a 26 e a 29 (21:00, Sala Suggia) e Youn Sun Nah com Bojan Z a 28 (22:00, Sala 2). Ficaram de fora por falta de espaço, com dados confirmados hoje: «Victor como toda a gente» também a 27 (21:30) e a 28 e 29 (15:30, 18:00 e 21:30) no Cine-Estúdio do Campo Alegre; «Mechita», de Sol Garcia, a 27 e 28 às 21:00 (Café-Teatro do Campo Alegre, 7 €); «A Epopeia dos Bani Hilal» também a 29 às 17:00; «Auto da Barca do Inferno» no TNSJ a 27 (21:00), 28 (19:00) e 29 (16:00), segundo a Time Out; «O Lago dos Cisnes» no Coliseu a 27 (21:00; a Viral Agenda dá hoje 25 € a 42 €, a Agenda Porto dava ontem 28 € a 42 €); «Pizarro interpreta Britten» a 27 às 21:00 (30 € a 34 €, sem indicação de esgotado); o Porto/Post/Doc no Planetário, sessão #03, a 28 às 17:30 (três filmes, 49 minutos, M/12); as oficinas «Do Lixo se Faz Música» (28, 10:30 e 14:30, 7,50 €) e «Som de Lá e de Cá» (29, 10:00 e 11:30, dos 3 meses aos 6 anos, 12,50 € por criança e adulto) na Casa da Música; e o organista Hampus Lindwall na Igreja de Cedofeita a 28 às 19:00 (Serralves). «O Quebra-Nozes» no Coliseu (28, 15:00 e 18:30), a «Ópera de Bolso» no Bolhão (28, 17:00) e o acendimento das luzes de Natal nos Aliados (28, 18:00) vêm na edição de ontem e não foram reconfirmados hoje. O Planetário está fechado no domingo, 29. Deslocações: a greve dos maquinistas da CP é hoje, 26, parcial e sem serviços mínimos, e prolonga-se até às 24:00 de sexta-feira, 27 (DN); quem conte com o comboio deve confirmar a circulação junto da CP. Onde se lê «Por confirmar», o dado não estava na fonte.",
+ "agenda": [
+  {
+   "dia": "2026-11-26",
+   "eventos": [
+    {
+     "nome": "«Auto da Barca do Inferno», encenação de Marta Pazos",
+     "descricao": "Gil Vicente em versão de teatro, dança e artes visuais: no cais, um Anjo e um Diabo decidem quem embarca e para onde.",
+     "horario": "19:00",
+     "tipo": "Teatro",
+     "local": "Teatro Nacional São João, Praça da Batalha, 4000-101 Porto",
+     "preco": "7 € a 16,80 €",
+     "url": "https://www.timeout.pt/porto/pt/teatro/auto-da-barca-do-inferno-1",
+     "ligacao": "Time Out Porto",
+     "nota": "Coprodução do TNSJ com o Centro Dramático Galego, em cena até 13 de dezembro. Data, hora e preços reconfirmados hoje na Time Out Porto, que não indica disponibilidade. O site do TNSJ não foi consultado: confirmar lugares na bilheteira. Evento repetido das edições de 23 a 25 de novembro."
+    },
+    {
+     "nome": "Eden Lewis II no Café Casa da Música",
+     "descricao": "O projeto do cantor e produtor portuense Edgar Silva, criado em 2014, mistura soul, funk, R&B, jazz e hip hop em canções sobre amor, perda e um mundo inquieto.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Café Casa da Música, Casa da Música, Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://casadamusica.com/event/eden-lewis-ii/?selected_session=60546",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala e entrada livre confirmadas hoje na página do concerto e na agenda da Casa da Música. Duração não indicada. A morada completa (com código postal) vem da iPorto, consultada hoje."
+    },
+    {
+     "nome": "«Victor como toda a gente», de Pascal Bonitzer",
+     "descricao": "Fabrice Luchini é um ator que vive mergulhado em Victor Hugo e recita versos todas as noites em Paris, até que o regresso da filha afastada lhe baralha a melancolia. Com Chiara Mastroianni.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "5,50 €",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/victor-como-toda-a-gente-pascal-bonitzer/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 1h28, França, 2026. Estreia hoje no Campo Alegre e fica até 6 de dezembro. Hora, sala e preço confirmados hoje na página do Teatro Municipal do Porto, que não indica esgotado."
+    },
+    {
+     "nome": "Mosaico – espetáculo final do encontro de escolas artísticas",
+     "descricao": "Jovens músicos, bailarinos e atores de 21 escolas artísticas e profissionais do Porto sobem ao palco em «Quando Deixamos de Ser Silêncio», sobre pensamento crítico, democracia e desinformação.",
+     "horario": "21:30",
+     "tipo": "Dança / Música / Teatro",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.viralagenda.com/pt/events/1874040/mosaico",
+     "ligacao": "Viral Agenda",
+     "nota": "Data, hora, morada e conteúdo confirmados hoje na Viral Agenda, que remete para o Balleteatro e indica como promotores o Balleteatro e a Rede de Teatros e Cineteatros Portugueses, com o Município do Porto. A página não indica preço nem bilheteira e mostra, por engano aparente, a etiqueta «evento terminado». O site do Coliseu não foi consultado: confirmar antes de ir."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-27",
+   "eventos": [
+    {
+     "nome": "Mercado de Natal da Praça da Batalha – abertura",
+     "descricao": "Abrem as bancas de Natal na Batalha, com artesanato, roupa, bijuteria, brinquedos, livros, decorações e comida. Organiza o Mercado da Alegria.",
+     "horario": "A partir das 10:00 (hora de fecho por confirmar)",
+     "tipo": "Natal / Mercado",
+     "local": "Praça da Batalha, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.timeout.pt/porto/pt/compras/mercado-de-natal-na-praca-da-batalha",
+     "ligacao": "Time Out Porto",
+     "nota": "Datas (27 de novembro a 27 de dezembro), abertura às 10:00 e entrada livre confirmadas hoje na página da Time Out Porto (17 de novembro), que não indica a hora de fecho. Não foi encontrada hoje confirmação no site da Câmara do Porto."
+    },
+    {
+     "nome": "Ensaio aberto: Pizarro interpreta Britten",
+     "descricao": "A Orquestra Sinfónica do Porto Casa da Música abre as portas da Sala Suggia para se ver como se prepara um concerto, horas antes da estreia do programa com Artur Pizarro.",
+     "horario": "10:00",
+     "tipo": "Música / Escolas e famílias",
+     "local": "Casa da Música (Sala Suggia, sem lugares marcados), Casa da Música, Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "Entrada gratuita (com levantamento de bilhete)",
+     "url": "https://casadamusica.com/event/ensaio-aberto-%c2%b7-pizarro-interpreta-britten-2/?selected_session=58057",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala e entrada livre confirmadas hoje na página do ensaio e na agenda da Casa da Música: é preciso levantar bilhete, disponível a partir da véspera no site e na bilheteira. A página destina-o sobretudo a escolas e grupos e não indica duração nem lugares restantes. O concerto completo é às 21:00 (30 € a 34 €)."
+    },
+    {
+     "nome": "«Manual de Defesa», de Júlio Cerdeira – estreia",
+     "descricao": "Entre ensaio teórico e treino físico (contact improvisation, jiu-jitsu, afeto queer), dois corpos aprendem a proteger-se e defendem o conhecimento como escudo contra o discurso de ódio.",
+     "horario": "19:30",
+     "tipo": "Dança / Performance",
+     "local": "Teatro Campo Alegre (Sala-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "7 €",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/j-lio-cerdeira-manual-de-defesa-589/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 45 minutos. Datas (27 e 28, às 19:30), sala e preço confirmados hoje na página do Teatro Municipal do Porto, que não indica esgotado; a 27 há conversa com as equipas artísticas no fim."
+    },
+    {
+     "nome": "Anri Sala, «Fallen Vision» – inauguração com EXAUDI",
+     "descricao": "Abre a primeira exposição individual em Portugal do artista albanês; na noite de estreia, o ensemble vocal EXAUDI canta ao vivo «Surface, Otherwise (after STA XLII)», partitura criada a partir dos frescos recentes de Sala.",
+     "horario": "22:30 (atuação do EXAUDI)",
+     "tipo": "Exposição / Música",
+     "local": "Museu de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2711-surface-otherwise-after-sta-xlii/",
+     "ligacao": "Serralves",
+     "nota": "Data, hora (22:30), local e acesso gratuito confirmados hoje na página da atuação e na agenda de Serralves. A abertura da exposição às 22:00 vem da página da exposição consultada ontem, não reaberta hoje. A morada vem das edições anteriores, não das páginas de hoje. Evento repetido das edições de 24 e 25 de novembro."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-28",
+   "eventos": [
+    {
+     "nome": "Visita guiada ao Treetop Walk",
+     "descricao": "Passeio guiado pelo percurso suspenso à altura das copas, desenhado por Carlos Castanheira com Álvaro Siza, para ver o Parque de Serralves de outro ângulo.",
+     "horario": "11:00",
+     "tipo": "Família / Visita",
+     "local": "Parque de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "12 € (residentes) ou 15 €; grátis até aos 12 anos",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2811-visita-guiada-ao-treetop-walk/",
+     "ligacao": "Serralves",
+     "nota": "Data, hora e preços confirmados hoje na página da atividade em Serralves (50% de desconto para Amigos de Serralves, jovens até 18 e maiores de 65). Inscrição por formulário online. A página não indica ponto de encontro, duração nem vagas. A morada vem das edições anteriores."
+    },
+    {
+     "nome": "Sessões do Planetário: «Há formas no Espaço» e «Biosfera da Escuridão»",
+     "descricao": "Duas sessões públicas de sábado à tarde na cúpula do Planetário do Porto.",
+     "horario": "15:00 («Há formas no Espaço») e 16:00 («Biosfera da Escuridão»)",
+     "tipo": "Família / Ciência",
+     "local": "Planetário do Porto – Centro Ciência Viva, Rua das Estrelas, s/n, 4150-762 Porto",
+     "preco": "Por confirmar",
+     "url": "https://www.planetario.up.pt/pt/horarios",
+     "ligacao": "Planetário do Porto",
+     "nota": "Títulos e horas confirmados hoje na página de horários do Planetário, que remete os preços para o preçário (não consultado) e não indica idades recomendadas nem conteúdo das sessões. Reservas levantadas até 30 minutos antes; bilheteira: 226 089 800. Às 17:30 há a sessão #03 do Porto/Post/Doc."
+    },
+    {
+     "nome": "Javier Perianes (Ciclo Piano)",
+     "descricao": "O pianista espanhol cruza Manuel de Falla e Chopin – noturnos, mazurcas, valsa e «Berceuse» – e fecha com quatro peças da «Iberia» de Albéniz.",
+     "horario": "18:00",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Casa da Música, Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "30 € a 34 €",
+     "url": "https://casadamusica.com/event/javier-perianes/?selected_session=44148",
+     "ligacao": "Casa da Música",
+     "nota": "Data, hora, sala, programa e preços (34 €, 32 € ou 30 € conforme a zona; descontos de 20% a 50% em algumas zonas) confirmados hoje na página do concerto, que tem bilhetes à venda e não indica esgotado nem duração."
+    },
+    {
+     "nome": "«A Epopeia dos Bani Hilal», de Bashar Murkus e Khulood Basel (Khashabi Theatre)",
+     "descricao": "Sete intérpretes contam com canto, dança, teatro de sombras e marionetas a saga árabe transmitida oralmente desde o século XIV: a migração da tribo Bani Hilal e a vida de Abu Zaid al-Hilali, exilado em criança.",
+     "horario": "19:30",
+     "tipo": "Teatro",
+     "local": "Teatro Campo Alegre (Auditório), Rua das Estrelas, 4150-762 Porto",
+     "preco": "9 €",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/bashar-murkus-khulood-basel-khashabi-theatre-al-sirah-al-hilaliyyah-a-epopeia-de-ban-hil-l/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "2h40 com intervalo; em árabe, legendado em português e inglês; classificação etária ainda por definir. Datas (28 às 19:30 e 29 às 17:00), sala e preço confirmados hoje na página do Teatro Municipal do Porto, que não indica esgotado (bilhetes na BOL)."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-29",
+   "eventos": [
+    {
+     "nome": "Promenade 2026: «Uma Sinfonia Alpina», de Richard Strauss",
+     "descricao": "Concerto comentado para todas as idades: a Orquestra Sinfónica da ESMAE, dirigida por Cesário Costa, sobe aos Alpes da Baviera com Strauss, da noite antes da madrugada ao regresso ao vale, com comentários de Jorge Castro Ribeiro e multimédia de Sara Botelho.",
+     "horario": "11:00–12:15",
+     "tipo": "Música / Família",
+     "local": "Coliseu Porto Ageas, Rua de Passos Manuel, 137, Porto",
+     "preco": "12 € a 72 €",
+     "url": "https://www.viralagenda.com/pt/events/1877062/promenade-2026-uma-sinfonia-alpina-de-r-strauss",
+     "ligacao": "Viral Agenda",
+     "nota": "M/6. Data, hora, intérpretes e preços (12 € na tribuna, 14 € na 1.ª plateia, 72 € o camarote de 1.ª) confirmados hoje na Viral Agenda, que reproduz a página do Coliseu e mostra, por engano aparente, a etiqueta «evento terminado». O site do Coliseu não abriu hoje: disponibilidade por confirmar."
+    },
+    {
+     "nome": "«Brahms, a Segunda Sinfonia» – concerto para famílias",
+     "descricao": "Versão comentada, ao meio-dia, da Sinfonia n.º 2 de Brahms pela Orquestra Sinfónica do Porto Casa da Música, dirigida por Michael Sanderling.",
+     "horario": "12:00",
+     "tipo": "Música / Família",
+     "local": "Casa da Música (Sala Suggia), Casa da Música, Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "14 €",
+     "url": "https://casadamusica.com/event/brahms-a-segunda-sinfonia/?selected_session=44152",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala, intérpretes e preço confirmados hoje na página do concerto (descontos de 20% a 50% conforme o caso; com cartão Continente, um adulto pode levar até duas crianças grátis, com condições). Bilhetes à venda, sem indicação de esgotado nem de duração."
+    },
+    {
+     "nome": "«Um Verão Violento», de Valerio Zurlini",
+     "descricao": "Verão de 1943, Riccione: o filho de um alto dirigente fascista apaixona-se por uma viúva de guerra mais velha; com a queda de Mussolini, tentam fugir. Quinta sessão da carta branca a Miguel Gomes.",
+     "horario": "17:00",
+     "tipo": "Cinema",
+     "local": "Casa do Cinema Manoel de Oliveira (Auditório), Fundação de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "3 € (estudante/jovem); 1,50 € (maiores de 64 e Amigos de Serralves); bilhete normal por confirmar",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2911-um-verao-violento/",
+     "ligacao": "Serralves",
+     "nota": "Itália, 1959, 98 minutos. Data, hora, sala e preços reduzidos confirmados hoje na página da sessão em Serralves, que não indica o preço normal nem a classificação etária (na sessão de «Francisca», a 28, o bilhete normal era 3 €). A morada vem das edições anteriores."
+    },
+    {
+     "nome": "Onceim toca Stephen O'Malley e François J. Bonnet",
+     "descricao": "A orquestra francesa de 25 a 35 músicos toca «Gruidés», drone longo de O'Malley feito de notas sustentadas, e «Orbes», de Bonnet, sete blocos que o maestro reordena a cada concerto, inspirados no «Paraíso Perdido» de Milton.",
+     "horario": "18:30",
+     "tipo": "Música",
+     "local": "Auditório do Museu de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "13 € (9 € com desconto)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2911-onceim-plays-stephen-oand39malley-francois-j-bonnet/",
+     "ligacao": "Serralves",
+     "nota": "Data, hora, sala e preços (9 € para Amigos de Serralves, estudantes, jovens dos 12 aos 18 e maiores de 65) confirmados hoje na página do concerto em Serralves; «Gruidés» dura cerca de 35 minutos e «Orbes» cerca de 40. A página não indica esgotado. A morada vem das edições anteriores."
+    },
+    {
+     "nome": "Paus – concerto de despedida (Misty Fest)",
+     "descricao": "Ao fim de 18 anos, a banda lisboeta despede-se do palco com «Enterro», o último disco: math rock, krautrock, rock progressivo e ritmos africanos, com imagens e sons do seu percurso e um coro.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala 2), Casa da Música, Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "20 €",
+     "url": "https://casadamusica.com/en/event/paus-2/",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala e preço (25% de desconto para Amigos) confirmados hoje na página do concerto, que tem bilhetes à venda e não indica esgotado; a Time Out Porto e a iPorto, consultadas hoje, dão a mesma hora e preço. Duração não indicada."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Montenegro disse na RTP que o Governo não vai aplicar o IVA zero nos alimentos, o fim do IRS mais baixo nas rendas moderadas nem o bónus permanente das pensões, aprovados pela oposição no Orçamento.",
+   "noticia": 13
+  },
+  {
+   "texto": "Os 27 líderes da UE começam hoje em Bruxelas uma cimeira extraordinária sobre o orçamento europeu para 2028–2034; quase ninguém espera acordo esta semana.",
+   "noticia": 9
+  },
+  {
+   "texto": "A FinCEN, agência do Tesouro dos EUA que recebe os alertas de branqueamento de capitais, confirmou uma intrusão nos seus sistemas; não se sabe que dados foram afetados nem quem atacou.",
+   "noticia": 1
+  },
+  {
+   "texto": "Os EUA propõem novas tarifas a 14 parceiros comerciais, incluindo a UE, que rejeita a acusação de produzir a mais; segundo a Reuters, não devem entrar em vigor antes de janeiro.",
+   "noticia": 10
+  },
+  {
+   "texto": "As primeiras imagens de perto da sonda europeia Hera mostram que o asteroide Dimorphos, atingido pela NASA em 2022, ficou com uma cratera muito maior do que o esperado.",
+   "noticia": 17
+  },
+  {
+   "texto": "A greve dos maquinistas da CP é hoje parcial e acaba às 24h00 de sexta-feira; na sexta, o Metro do Porto também está em greve e só circula em duas ligações.",
+   "noticia": 15
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Quinta e sexta, 26–27 nov.",
+   "texto": "Cimeira extraordinária do Conselho Europeu em Bruxelas sobre o orçamento da UE para 2028–2034; a meta é um acordo na cimeira de 17–18 de dezembro.",
+   "noticia": 9
+  },
+  {
+   "quando": "Sexta, 27 nov.",
+   "texto": "Greve no Metro do Porto, com serviço só no tronco comum Senhora da Hora–Estádio do Dragão e na linha Amarela; termina às 24h00 o pré-aviso de greve dos maquinistas da CP.",
+   "noticia": 15
+  },
+  {
+   "quando": "Terça, 1 dez.",
+   "texto": "Data marcada para o leilão das conversas de 21 milhões de contas da Character.AI, que 42 procuradores-gerais americanos pedem ao tribunal que trave.",
+   "noticia": 5
+  },
+  {
+   "quando": "Terça a sexta, 1–4 dez.",
+   "texto": "Primeira Presidência Aberta de António José Seguro, na área metropolitana de Lisboa e no Alentejo.",
+   "noticia": 14
+  }
+ ],
+ "linkedin_abertura": "O Orçamento para 2027 foi aprovado, mas Montenegro diz que o Governo não vai aplicar o IVA zero nos alimentos nem outras medidas que a oposição lá pôs, e admite levar o caso ao Tribunal Constitucional."
+}
