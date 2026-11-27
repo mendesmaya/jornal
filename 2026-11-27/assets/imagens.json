@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-european-council-building-in-brussels.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European_council_building_in_Brussels.jpg?width=1000",
+  "commons": "European council building in Brussels.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-home-of-fifa-buiding-and-flags.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Home_of_FIFA_-_buiding_and_flags.jpg?width=1000",
+  "commons": "Home of FIFA - buiding and flags.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-kuwait-city-skyline.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuwait_city_skyline.jpg?width=1000",
+  "commons": "Kuwait city skyline.jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-assembleia-da-rep-blica-portugal-pal-cio-de-s-o-bento-lisboa.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Assembleia_da_Rep%C3%BAblica_%28Portugal%29_Pal%C3%A1cio_de_S%C3%A3o_Bento%2C_Lisboa.JPG?width=1000",
+  "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-euclid-spacecraft-esa24912474.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Euclid_spacecraft_ESA24912474.jpg?width=1000",
+  "commons": "Euclid spacecraft ESA24912474.jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-imax-theater.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IMAX_THEATER.jpg?width=1000",
+  "commons": "IMAX THEATER.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-jimi-hendrix-s-1970-fender-stratocaster-in-white-left-handed.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jimi_Hendrix%27s_1970_Fender_Stratocaster_in_white%2C_left-handed%2C_given_to_Stephen_Stills_-_Rock_and_Roll_Hall_of_Fame_%282014-07-12_15.53.43_by_Zurich_99%29.jpg?width=1000",
+  "commons": "Jimi Hendrix's 1970 Fender Stratocaster in white, left-handed, given to Stephen Stills - Rock and Roll Hall of Fame (2014-07-12 15.53.43 by Zurich 99).jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-boulevard-du-temple-by-daguerre.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boulevard_du_Temple_by_Daguerre.jpg?width=1000",
+  "commons": "Boulevard du Temple by Daguerre.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-drum-kit-overview.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Drum_kit_overview.JPG?width=1000",
+  "commons": "Drum kit overview.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

@@ -1,0 +1,1011 @@
+{
+ "data": "2026-11-27",
+ "numero": "035",
+ "resumo": "Os líderes da UE saíram de Bruxelas sem acordo sobre o orçamento até 2034; em Portugal, a guerra do Orçamento do Estado segue para um debate de urgência a 3 de dezembro; a FIFA e a agência AFP confirmam ciberataques; e o telescópio europeu Euclid encontra o quasar mais antigo de sempre.",
+ "tema_palavras": "palavras desta edição",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "FIFA confirma ciberataque: piratas chegaram a «um conjunto limitado» de dados pessoais e comerciais",
+   "estado": "Ataque confirmado pela FIFA · dimensão e autores por esclarecer · reivindicação de grupo não confirmada",
+   "data": "2026-11-26",
+   "texto": [
+    "A FIFA, que organiza o futebol mundial, foi alvo de um ciberataque. A própria federação, com sede em Zurique, na Suíça, confirmou-o na quinta-feira, 26 de novembro: alguém teve acesso sem autorização a «um conjunto limitado» de informação pessoal e comercial. A FIFA diz que está a trabalhar com as autoridades, incluindo a polícia, e condena a obtenção e a publicação ilegal dos dados.",
+    "O que se sabe — e o que falta saber. A FIFA não disse quando foi o ataque, quantas pessoas ou parceiros foram afetados, nem que tipo de documentos saíram. Uma fonte próxima do caso disse à Reuters que foi atingida menos de 0,1% da informação total da organização, e que os ficheiros do plano abandonado para vender uma parte dos torneios a investidores privados não foram tocados.",
+    "Na semana passada, um grupo que se apresenta como Handsome Boy Hacking Club publicou na rede X uma imagem que dizia mostrar ficheiros internos da FIFA. Três dias depois, segundo a AP, pareceu assumir o ataque ao responder a uma publicação sobre a fuga de mais de 12 gigabytes de documentos. A FIFA não comentou essa reivindicação.",
+    "O caso chega numa altura delicada para a federação. Gianni Infantino, presidente há 11 anos, candidata-se a novo mandato até 2031 nas eleições marcadas para 18 de março, contra o japonês Kohzo Tashima e o francês Philippe Diallo."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A confirmação do ataque e as frases da FIFA coincidem na AP (via SecurityWeek), na Fox Business (com Reuters) e no ECO (que cita a BBC e a Reuters). O número de menos de 0,1% e a garantia de que os ficheiros do plano «FIFA Forward Enterprise» não foram acedidos vêm só de uma fonte anónima citada pela Reuters. A reivindicação do grupo e os 12 GB vêm da AP; não foram confirmados pela FIFA. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro."
+   },
+   "fontes": [
+    {
+     "nome": "SecurityWeek / AP – «FIFA Reports Data Breach After Cyberattack» (26 nov.)",
+     "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/"
+    },
+    {
+     "nome": "Fox Business – «FIFA confirms criminal cyberattack, says $4.2B World Cup stake sale files were untouched» (26 nov.)",
+     "url": "https://www.foxbusiness.com/sports/fifa-confirms-cyberattack-world-cup-stake-sale-files"
+    },
+    {
+     "nome": "ECO – «FIFA alvo de ciberataque que acedeu a dados pessoais e empresariais» (26 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/26/fifa-alvo-de-ciberataque-que-acedeu-a-informacao-pessoal-e-empresarial/"
+    }
+   ],
+   "imagem": {
+    "commons": "Home of FIFA - buiding and flags.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício da sede da FIFA em Zurique, com bandeiras à frente",
+    "legenda": "Sede da FIFA, em Zurique (imagem de arquivo; não mostra o ataque)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Agência France-Presse atacada: plataforma onde os jornais vão buscar notícias, fotos e vídeos está desligada",
+   "estado": "Ataque confirmado pela AFP · autores desconhecidos · sem confirmação de roubo de dados",
+   "data": "2026-11-26",
+   "texto": [
+    "A AFP (Agence France-Presse), uma das três grandes agências de notícias do mundo, foi alvo de um ciberataque na madrugada de quinta-feira, 26 de novembro, por volta da 1h30 de Paris. O alvo foi o AFP Forum, o portal onde os meios de comunicação clientes descarregam despachos, fotografias e vídeos. A agência desligou a plataforma por precaução e montou alternativas para os clientes continuarem a receber conteúdos, segundo uma mensagem interna da direção citada pela imprensa francesa.",
+    "«Neste momento, não temos qualquer elemento sobre a identidade dos autores», diz a direção. A AFP está a analisar o caso com peritos externos. Não disse como os piratas entraram, nem se houve roubo de dados ou um «ransomware» (programa que bloqueia os sistemas e pede resgate). Também não há data para o regresso do portal.",
+    "Não é a primeira vez. Em setembro de 2024, a AFP sofreu um ataque que afetou sistemas de envio de conteúdos aos clientes. Nada liga, para já, os dois casos. A agência tem cerca de 1840 jornalistas em 210 delegações e produz, em média, 2300 despachos, 3000 fotografias e 300 vídeos por dia, em seis línguas."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Hora do ataque, isolamento do AFP Forum, soluções alternativas e a frase da direção coincidem no Le Monde Informatique (que cita uma mensagem interna relatada pelo Clubic) e na Génération NT (que cita o Le Figaro). Não foi possível ler um comunicado público da própria AFP. O Le Monde Informatique nota que os metadados de uma das fontes apontam para a noite de 25 para 26 de novembro."
+   },
+   "fontes": [
+    {
+     "nome": "Le Monde Informatique – «Cyberattaque contre l'AFP : la plateforme AFP Forum mise hors ligne» (27 nov.)",
+     "url": "https://www.lemondeinformatique.fr/cybersecurite-conformite/cyberattaque-contre-l-afp-la-plateforme-afp-forum-mise-hors-ligne"
+    },
+    {
+     "nome": "Génération NT – «L'Agence France-Presse frappée par une cyberattaque» (27 nov.)",
+     "url": "https://www.generation-nt.com/actualites/afp-forum-cyberattaque-medias-2085174"
+    }
+   ]
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Maior hospital da Guadalupe trabalha em papel depois de ataque informático; cirurgias e tratamentos de cancro adiados",
+   "estado": "Ataque confirmado · «ransomware» é a hipótese da agência francesa de cibersegurança · sem data para normalizar",
+   "data": "2026-11-25",
+   "texto": [
+    "O Centro Hospitalar Universitário da Guadalupe, o maior hospital deste território francês nas Caraíbas (e, por isso, parte da União Europeia), está a funcionar a papel e caneta desde o fim de semana. Um ataque informático cifrou as bases de dados, segundo o hospital, e obrigou a desligar os sistemas. A ANSSI, a agência francesa de cibersegurança, investiga e aponta para um «ransomware», um programa que torna os dados ilegíveis para pedir resgate.",
+    "As consequências são sérias. Cirurgias, consultas e exames de imagem foram cancelados pelo menos até sexta-feira, a radioterapia foi suspensa por segurança e houve sessões de quimioterapia canceladas, segundo a The Record. As urgências, a diálise e os casos cardíacos urgentes continuam. Os resultados das análises são impressos e levados à mão, e foi pedido aos doentes que tragam cópias em papel dos seus registos. O hospital ativou o plano de emergência («plano branco»).",
+    "O hospital diz que não recebeu pedido de resgate e que não o pagaria. Ainda não se sabe se foram roubados dados pessoais ou médicos. A ANSSI tenta perceber se os atacantes entraram através de um fornecedor informático, que terá sido comprometido meses antes, e o Ministério Público de Paris abriu um inquérito.",
+    "Quanto tempo vai durar? A ministra da Saúde francesa, Stéphanie Rist, falou em «alguns dias no mínimo, talvez várias semanas», segundo o Outremers360. O hospital serve cerca de 380 mil habitantes."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Funcionamento manual, plano branco e hipótese de ransomware coincidem na The Record e no Outremers360. Os pormenores sobre radioterapia, quimioterapia, o fornecedor informático, o inquérito em Paris e a ausência de pedido de resgate vêm só da The Record. A frase da ministra vem do Outremers360. As fontes divergem sobre o início (sábado à noite na The Record, domingo no Outremers360); usámos «fim de semana». A evolução depois de 25 de novembro não foi confirmada."
+   },
+   "fontes": [
+    {
+     "nome": "The Record – «Suspected ransomware attack disrupts cancer treatments, surgeries at Guadeloupe hospital» (25 nov.)",
+     "url": "https://therecord.media/guadeloupe-ransomware-hospital-cyber"
+    },
+    {
+     "nome": "Outremers360 – «CHU de Guadeloupe: le calendrier de retour à la normale encore flou» (25 nov.)",
+     "url": "https://outremers360.com/bassin-atlantique-appli/chu-de-guadeloupe-le-calendrier-de-retour-a-la-normale-encore-flou"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Governo dá estatuto de «interesse estratégico nacional» à candidatura portuguesa a uma gigafábrica europeia de IA",
+   "estado": "Resolução aprovada · ligação à rede só se Portugal ganhar · concurso europeu adiado para 30 de dezembro",
+   "data": "2026-11-26",
+   "texto": [
+    "O Conselho de Ministros aprovou na quinta-feira, 26 de novembro, uma resolução que reconhece o «interesse estratégico nacional» da candidatura portuguesa a uma gigafábrica de inteligência artificial (IA) — um centro de computação gigante para treinar e pôr a funcionar modelos de IA. Na prática, o Governo garante que a infraestrutura poderá ligar-se à rede elétrica pública com uma potência até 260 MVA (megavolt-amperes), mas só se Portugal vencer o concurso europeu.",
+    "Porque é que isto importa? O concurso é da EuroHPC, a empresa comum europeia para a supercomputação, cofinanciada pela Comissão Europeia. A ideia é criar até sete gigafábricas na Europa, cada uma com até 100 mil processadores de última geração. Os candidatos têm de provar que conseguem garantir eletricidade suficiente, e explicar o impacto da refrigeração no consumo de água e energia.",
+    "Segundo a agência EFE, o Estado autorizou em julho até 200 milhões de euros, entre 2027 e 2033, para comprar tempo de computação; a EuroHPC igualaria essa verba numa primeira fase, e o investimento total na parte portuguesa rondaria os 4 mil milhões, com capital privado. A preparação está a cargo do Banco Português de Fomento, e o Governo negoceia com Espanha uma candidatura ibérica conjunta. A localização não foi indicada.",
+    "O calendário continua a escorregar. O lote em que Portugal concorre já tinha passado para o início de dezembro e, a 25 de novembro, foi novamente adiado para 30 de dezembro, segundo o ECO. A comissária europeia Henna Virkkunen considerou os atrasos «muito lamentáveis»."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A resolução, os 260 MVA, as sete gigafábricas e o papel do Banco Português de Fomento coincidem no ECO, na EFE (via Infobae) e no PressNET. Os 200 milhões, a contrapartida da EuroHPC e os cerca de 4 mil milhões vêm só da EFE. O adiamento para 30 de dezembro e as palavras de Henna Virkkunen vêm do ECO (que cita a EuroHPC); o PressNET confirma o novo adiamento. Não lemos o comunicado do Conselho de Ministros."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Futura gigafábrica de IA recebe autorização para ligação à rede elétrica» (26 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/26/futura-gigafabrica-de-ia-recebe-autorizacao-para-ligacao-a-rede-eletrica/"
+    },
+    {
+     "nome": "EFE (via Infobae) – «Portugal declara de interés estratégico la candidatura a una gigafábrica de IA» (26 nov.)",
+     "url": "https://www.infobae.com/america/agencias/2026/11/26/portugal-declara-de-interes-estrategico-la-candidatura-a-una-gigafabrica-de-ia/"
+    },
+    {
+     "nome": "PressNET – «Conselho de Ministros reconhece interesse estratégico nacional da candidatura portuguesa a uma gigafábrica de IA» (26 nov.)",
+     "url": "https://pressnet.pt/2026/11/26/conselho-de-ministros-reconhece-interesse-estrategico-nacional-da-candidatura-portuguesa-a-uma-gigafabrica-de-ia/"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Óculos com câmara e IA da Meta em tribunal nos Países Baixos: três associações pedem que sejam alterados ou proibidos",
+   "estado": "Audiência realizada · pedidos das associações · decisão do juiz prevista até 24 de dezembro",
+   "data": "2026-11-26",
+   "texto": [
+    "Os óculos inteligentes da Meta, que gravam vídeo e som e trazem um assistente de IA, foram a tribunal em Amesterdão na quinta-feira, 26 de novembro. Três organizações neerlandesas — a associação de consumidores Consumentenbond, a Offlimits (que combate abusos online) e a The Firewall — acusam a Meta de violar o RGPD, o regulamento europeu de proteção de dados, e pediram medidas urgentes num processo cautelar.",
+    "Os pedidos não são iguais. A Offlimits e a The Firewall querem a venda proibida, por considerarem que só isso resolve o problema. A Consumentenbond pede que a Meta tome medidas contra as gravações às escondidas e deixe de usar as imagens captadas para treinar os seus modelos de IA. «A nossa sociedade democrática fica ameaçada quando todos têm de temer, a toda a hora, estar a ser filmados», disse o advogado da Offlimits, citado pela AFP.",
+    "A Meta defende que a responsabilidade é de quem usa os óculos, que estes só gravam quando o utilizador o pede e que uma luz avisa quando há gravação. Lembrou ainda que outras marcas vendem produtos parecidos e que os óculos ajudam pessoas com deficiência visual. O juiz vai decidir até 24 de dezembro, segundo a AG Connect."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "As três associações, o tribunal de Amesterdão e a data da audiência coincidem na Villamedia, na AG Connect e num despacho da AFP (publicado pelo jornal brasileiro O Povo). A diferença entre os pedidos e a data da decisão vêm da AG Connect. A citação do advogado vem da AFP (em tradução brasileira, adaptada). Os argumentos da Meta juntam o que dizem a Villamedia, a AG Connect e a AFP."
+   },
+   "fontes": [
+    {
+     "nome": "AG Connect – «Drie organisaties verenigd bij de rechtbank tegen gluurbril» (27 nov.)",
+     "url": "https://www.agconnect.nl/maatschappij/ethiek/drie-organisaties-verenigd-bij-de-rechtbank-tegen-gluurbril"
+    },
+    {
+     "nome": "Villamedia – «Meta in rechtszaal: gebruikers AI-brillen zelf verantwoordelijk» (26 nov.)",
+     "url": "https://villamedia.nl/artikel/Meta-in-rechtszaal-gebruikers-ai-brillen-zelf-verantwoordelijk"
+    },
+    {
+     "nome": "O Povo / AFP – «Várias associações holandesas pedem a proibição da venda de óculos inteligentes da Meta» (26 nov.)",
+     "url": "https://opovo.com.br/noticias/mundo/2026/11/26/varias-associacoes-holandesas-pedem-a-proibicao-da-venda-de-oculos-inteligentes-da-meta.html"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Banco de Inglaterra avisa: o dinheiro emprestado para a corrida à IA está cada vez mais «complexo, circular e opaco»",
+   "estado": "Avaliação oficial do Banco de Inglaterra · riscos descritos são alertas, não previsões de crise",
+   "data": "2026-11-26",
+   "texto": [
+    "O Banco de Inglaterra acha que a forma como se está a financiar a inteligência artificial (IA) pode tornar-se um problema para o sistema financeiro. No relatório de estabilidade financeira, publicado na quinta-feira, 26 de novembro, descreve o financiamento dos centros de dados como «cada vez mais complexo, circular e opaco», o que aumenta as ligações entre empresas e mercados e facilita o contágio se algo correr mal.",
+    "No centro estão as chamadas «hiperescaladoras», o pequeno grupo de gigantes tecnológicas que constroem os grandes centros de dados. Segundo a Reuters, vão emitir este ano mais de 305 mil milhões de dólares em dívida, mais do que a maioria dos governos, incluindo o britânico. Segundo a Bloomberg, o banco central estima a exposição total destas empresas à IA em mais de 4 biliões de dólares, contando também compromissos que ficam fora dos balanços. Esses compromissos podem ficar sob pressão se as expectativas de lucros com a IA forem revistas em baixa, avisa o banco.",
+    "Mesmo depois das quedas recentes, as avaliações em bolsa continuam «esticadas», diz o relatório. O banco também pede aos bancos que não dependam de um só fornecedor de serviços na nuvem, depois das falhas recentes da Microsoft e da Google, e quer que mudem para criptografia resistente aos futuros computadores quânticos: os sistemas prioritários até ao fim de 2031, os restantes até 2035."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A descrição do financiamento, o risco de contágio e as avaliações «esticadas» coincidem na Reuters (via Global Banking & Finance Review) e na Bloomberg (via Business Standard). Os mais de 305 mil milhões e os prazos da criptografia pós-quântica vêm da Reuters; os mais de 4 biliões de dólares vêm da Bloomberg. Não lemos o relatório original do Banco de Inglaterra."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters (via Global Banking & Finance Review) – «Bank of England sees growing financial risks from AI borrowing» (26 nov.)",
+     "url": "https://www.globalbankingandfinance.com/bank-england-sees-growing-financial-risks-ai-borrowing/"
+    },
+    {
+     "nome": "Bloomberg (via Business Standard) – «AI firms' $4 trillion exposure amplifies global market risks: BOE» (26 nov.)",
+     "url": "https://www.business-standard.com/technology/artificial-intelligence/ai-firms-4-trillion-exposure-amplifies-global-market-risks-boe-126112601042_1.html"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Volvo começa a treinar robôs humanoides na fábrica de Gante para tirar aos trabalhadores as tarefas mais pesadas",
+   "estado": "Treino em curso · piloto previsto para o 1.º semestre de 2027 · produção real só a partir de meados de 2027",
+   "data": "2026-11-26",
+   "texto": [
+    "A Volvo Cars está a treinar robôs humanoides na sua fábrica de Gante, na Bélgica, a primeira do grupo a testá-los. A marca anunciou-o na quinta-feira, 26 de novembro. Os robôs, chamados AEON, são da Hexagon Robotics, uma empresa sueca, e aprendem a imitar o que os trabalhadores lhes mostram. A primeira tarefa é colocar peças em dois suportes com muita precisão.",
+    "Os AEON medem 1,65 metros, pesam 60 quilos, andam sobre rodas em vez de pernas e carregam até 10 quilos — o suficiente para peças pequenas, não para componentes pesados. O objetivo, diz a Volvo, é que façam algum do trabalho mais repetitivo e fisicamente exigente, ao lado das equipas e das máquinas que já lá estão.",
+    "O calendário é cauteloso: um piloto na fábrica no primeiro semestre de 2027, com mais robôs, e uso na produção real a partir de meados de 2027. A Tech Times nota que a Volvo não revelou quantos robôs tem, nem com que frequência precisam de ajuda humana, e lembra que a marca anunciou em outubro cerca de 2500 despedimentos no mundo."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Os factos sobre o treino, as características do robô e o calendário vêm do comunicado da Volvo Cars e são confirmados pela Tech Times. As questões em aberto e os despedimentos anunciados em outubro vêm só da Tech Times."
+   },
+   "fontes": [
+    {
+     "nome": "Volvo Cars (comunicado) – «Volvo Cars trains Hexagon Robotics' humanoids for manufacturing» (26 nov.)",
+     "url": "https://news.cision.com/volvo-cars-global/r/volvo-cars-trains-hexagon-robotics--humanoids-for-manufacturing,c4429415"
+    },
+    {
+     "nome": "Tech Times – «Volvo Humanoid Robots Begin Ghent Training With One Task: Placing Parts Into Two Fixtures» (27 nov.)",
+     "url": "https://www.techtimes.com/articles/331663/20261127/volvo-humanoid-robots-begin-ghent-training-one-task-placing-parts-two-fixtures.htm"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Nvidia terá travado envio de servidores de IA para quatro países do Sudeste Asiático, por causa das novas regras dos EUA",
+   "estado": "Notícia do Financial Times com fontes anónimas · Nvidia não comentou · não se sabe se é temporário",
+   "data": "2026-11-26",
+   "texto": [
+    "A Nvidia terá pedido aos fabricantes que montam servidores com os seus chips de IA para deixarem de os enviar para a Malásia, Singapura, Tailândia e Indonésia. A notícia é do Financial Times, publicada na quinta-feira, 26 de novembro, com base em fontes não identificadas: empresas como a Dell e a Supermicro terão avisado clientes nesses países de que a Nvidia não autorizava as encomendas.",
+    "Porquê? Na semana passada, os EUA aprovaram regras para impedir que empresas chinesas contornem as restrições à exportação alugando poder de computação em centros de dados de outros países. Os fornecedores de serviços na nuvem têm 90 dias para pedir uma licença e mostrar que não servem clientes proibidos. «Há uma regra nova, mas nenhuma orientação sobre como aplicá-la», disse ao jornal um responsável do setor.",
+    "Não se sabe se a suspensão é temporária. A Nvidia não fez comentários públicos, segundo as fontes consultadas. A região tornou-se importante para a empresa: a filial de Singapura registou 104 mil milhões de dólares de receitas em 2025, embora esse valor inclua também vendas para Taiwan e para a China, segundo o The National."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "Toda a informação sobre a suspensão vem do Financial Times (não lido diretamente), relatado pelo The National e pela Tom's Hardware (via Yahoo Finance), que não apresentam confirmação própria. A citação do responsável do setor e o prazo de 90 dias aparecem nas duas. Os números da filial de Singapura vêm do The National."
+   },
+   "fontes": [
+    {
+     "nome": "The National – «Nvidia halts chip shipments to South-East Asia amid US crackdown» (26 nov.)",
+     "url": "https://www.thenationalnews.com/future/technology/2026/11/26/nvidia-halts-chip-shipments-to-south-east-asia-amid-us-crackdown/"
+    },
+    {
+     "nome": "Tom's Hardware (via Yahoo Finance) – «Nvidia stops AI GPU shipments to Southeast Asia amid purported China cloud access ban, report claims» (26 nov.)",
+     "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-stops-ai-gpu-shipments-160000782.html"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Cimeira europeia acaba sem acordo sobre o orçamento até 2034, ao fim de quase 15 horas; espanhol Hernández de Cos é o escolhido para o BCE",
+   "estado": "Sem acordo no orçamento (facto) · nova tentativa prevista para meados de dezembro · BCE: escolha política, formalização em dezembro",
+   "data": "2026-11-26",
+   "texto": [
+    "Os 27 líderes da União Europeia (UE) não chegaram a acordo sobre o orçamento de longo prazo para 2028–2034. A cimeira extraordinária em Bruxelas terminou já de madrugada, nesta sexta-feira, 27 de novembro, depois de quase 15 horas de discussão, segundo o Jornal de Negócios e o EUalive. O segundo dia, previsto para hoje, foi cancelado. «Não chegámos a um acordo relativamente ao montante global do orçamento», admitiu o presidente do Conselho Europeu, António Costa, que chamou à reunião «uma etapa necessária do processo» e aponta agora para a cimeira de meados de dezembro.",
+    "Em cima da mesa estava a proposta de compromisso de Costa: cerca de 1,78 biliões de euros, abaixo dos quase 1,98 biliões propostos pela Comissão Europeia. Para uns é demais, para outros é de menos. Sete países que pagam mais do que recebem, entre eles Alemanha, Países Baixos e Suécia, querem cortes maiores e recusaram participar nas reuniões em pequenos grupos que Costa organizou, segundo a Euronews. O chanceler alemão, Friedrich Merz, disse que será preciso cortar ainda mais. Do outro lado, o Presidente francês, Emmanuel Macron, chamou aos cortes um «erro estratégico» e avisou que, sem acordo até 31 de dezembro, as negociações não poderão ser reabertas. A italiana Giorgia Meloni disse que um acordo está a «anos-luz».",
+    "E Portugal? Luís Montenegro disse que a proposta de Costa «ainda não é suficiente» e que Portugal não a apoia sem garantias para os fundos de coesão, destinados às regiões mais pobres, e para os Açores e a Madeira, segundo o Observador. A proposta dá a Portugal 34,9 mil milhões de euros, cerca de 400 milhões menos do que versões anteriores. O empréstimo de 45 mil milhões à Ucrânia para 2027 ficou em segundo plano: a Bulgária conseguiu ficar fora da parte militar e Hungria, Eslováquia e República Checa continuam a recusar participar, segundo o EUalive.",
+    "Houve uma decisão: os líderes dos países do euro apoiaram o espanhol Pablo Hernández de Cos, antigo governador do Banco de Espanha, para suceder a Christine Lagarde na presidência do Banco Central Europeu (BCE), segundo a Lusa e a Euronews. Lagarde sai a 7 de fevereiro de 2027. A francesa Laurence Boone e o alemão Markus Brunnermeier foram indicados para outros lugares na direção do banco. A nomeação ainda tem de ser formalizada, o que deverá acontecer em dezembro."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Fim da cimeira sem acordo, as quase 15 horas, as declarações de Costa e a cimeira de meados de dezembro confirmadas no Jornal de Negócios (27 nov.) e no EUalive (27 nov.). Boicote dos sete «frugais», declarações de Merz, Macron e Meloni na Euronews e no EUalive. Montenegro e a verba para Portugal vêm do Observador (Lusa, 26 nov.). Posição da Bulgária e dos três países que recusam o empréstimo à Ucrânia só no EUalive. Escolha de Hernández de Cos, Boone e Brunnermeier na Lusa (via Correio da Manhã) e no EUalive; o título da Euronews sobre o tema surgiu nos resultados de pesquisa, mas a página não foi aberta. A data exata da cimeira de dezembro não foi confirmada hoje (fontes anteriores indicavam 17–18 dez.). Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro."
+   },
+   "fontes": [
+    {
+     "nome": "Jornal de Negócios – «Reunião sobre Orçamento da UE termina sem acordo mas Costa espera aval em dezembro» (27 nov.)",
+     "url": "https://www.jornaldenegocios.pt/economia/europa/uniao-europeia/detalhe/reuniao-sobre-orcamento-da-ue-termina-sem-acordo-mas-costa-espera-aval-em-dezembro"
+    },
+    {
+     "nome": "EUalive – «EU leaders end marathon summit without budget deal, pushing crunch talks to December» (27 nov.)",
+     "url": "https://eualive.net/eu-leaders-end-marathon-summit-without-budget-deal-pushing-crunch-talks-to-december/"
+    },
+    {
+     "nome": "Euronews – «'A lot of political theatre': EU summit ends in disarray as leaders cling to red lines» (27 nov.)",
+     "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines"
+    },
+    {
+     "nome": "Observador (Lusa) – «Montenegro. Proposta de Costa para orçamento comunitário \"ainda não é suficiente\"» (26 nov.)",
+     "url": "https://observador.pt/2026/11/26/montenegro-proposta-de-costa-para-orcamento-comunitario-ainda-nao-e-suficiente/"
+    },
+    {
+     "nome": "Correio da Manhã (Lusa) – «Líderes da União Europeia escolhem espanhol De Cos para suceder a Lagarde no BCE» (26 nov.)",
+     "url": "https://www.cmjornal.pt/economia/detalhe/lideres-da-uniao-europeia-escolhem-espanhol-de-cos-para-suceder-a-lagarde-no-bce"
+    },
+    {
+     "nome": "Euronews – «Eurozone leaders back Hernández de Cos to succeed Lagarde at ECB» (26 nov., citado)",
+     "url": "https://www.euronews.com/2026/11/26/eurozone-leaders-back-hernandez-de-cos-to-succeed-lagarde-at-ecb"
+    }
+   ],
+   "imagem": {
+    "commons": "European council building in Brussels.jpg",
+    "tipo": "arquivo",
+    "alt": "Edifício Europa, sede do Conselho Europeu, em Bruxelas",
+    "legenda": "O edifício Europa, em Bruxelas, onde se reúnem os líderes da UE (imagem de arquivo; não mostra a cimeira)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Ataque com drones no Kuwait mata dois técnicos italianos; Kuwait culpa o Irão, que nega",
+   "estado": "Mortes confirmadas por Kuwait e Itália · autoria iraniana: acusação do Kuwait, negada por Teerão",
+   "data": "2026-11-26",
+   "texto": [
+    "Dois técnicos italianos morreram na quinta-feira, 26 de novembro, num ataque com drones contra uma instalação no Kuwait. Segundo o Ministério da Defesa kuwaitiano, citado pela ABC News e pelo Gulf News, os drones eram iranianos e atingiram um «local vital». Quatro pessoas ficaram feridas com estilhaços: os dois italianos, que acabaram por morrer, um paquistanês e um kuwaitiano. O Irão nega qualquer envolvimento.",
+    "O Ministério dos Negócios Estrangeiros italiano confirmou que as vítimas trabalhavam para a Rheinmetall Italia, filial do grupo alemão de armamento, e faziam a manutenção de um sistema de defesa aérea, segundo o Gulf News. A primeira-ministra, Giorgia Meloni, deixou condolências às famílias. A presidente da Comissão Europeia, Ursula von der Leyen, chamou ao ataque «iraniano» e pediu mais pressão sobre Teerão.",
+    "Do lado iraniano, o porta-voz das Forças Armadas, Abolfazl Shekarchi, disse à televisão estatal que o Irão não fez «operações militares ou ofensivas» na região e sugeriu que se trata de uma manobra de Israel e dos EUA para culpar o Irão. No mesmo dia, um ataque à refinaria de Jazan, no sul da Arábia Saudita, matou um trabalhador nepalês e provocou um incêndio; a coligação liderada pelos sauditas atribuiu-o aos Houthis do Iémen, segundo a agência oficial saudita, citada pelo Gulf News.",
+    "O contexto: os EUA mantêm um bloqueio naval aos portos iranianos e as conversas com Teerão estão paradas, apesar de um memorando de entendimento assinado em junho, segundo a ABC News. As trocas de ataques continuam, embora com menos intensidade do que no início da guerra."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ataque, número de vítimas e nacionalidades confirmados pela ABC News (que cita o exército e o Ministério da Defesa do Kuwait) e pelo Gulf News, ambos de 26 nov. A identificação do empregador (Rheinmetall Italia) vem do Ministério dos Negócios Estrangeiros italiano, citado só pelo Gulf News; a reação de von der Leyen também só no Gulf News. A autoria iraniana é uma acusação do Kuwait; não há verificação independente, e o Irão nega. O tipo exato de instalação atingida não foi divulgado (o Gulf News fala num sistema de defesa aérea). Não abrimos fontes italianas. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro."
+   },
+   "fontes": [
+    {
+     "nome": "ABC News – «Iran live updates: Iranian drone attack killed 2 Italians, Kuwait says» (26 nov.)",
+     "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-strait-hormuz-safe-demands/?id=138369648"
+    },
+    {
+     "nome": "Gulf News – «Middle East conflict: Saudi refinery attack kills worker, Iran denies deadly Kuwait strike» (26–27 nov.)",
+     "url": "https://gulfnews.com/world/mena/middle-east-conflict-saudi-refinery-attack-kills-worker-iran-denies-deadly-kuwait-strike-1.500761343"
+    }
+   ],
+   "imagem": {
+    "commons": "Kuwait city skyline.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Vista dos arranha-céus da cidade do Kuwait",
+    "legenda": "Cidade do Kuwait (imagem ilustrativa; não mostra o ataque)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Zelensky critica Trump por chamar «amigo» a Putin e diz que a falta de mísseis Patriot custa vidas",
+   "estado": "Declarações de Zelensky à BBC · Trump defende relação com Putin · negociações devem retomar em dezembro (previsto)",
+   "data": "2026-11-26",
+   "texto": [
+    "Volodymyr Zelensky não gostou de ver Donald Trump chamar «amigo» a Vladimir Putin. Numa entrevista à BBC gravada em Kiev e divulgada na quinta-feira, 26 de novembro, o Presidente ucraniano disse que isso é «estranho» e que Putin, a quem chamou agressor e assassino, «não pode ser amigo», segundo o Kyiv Post e a Newsweek. Comparou a situação a alguém ter dito, na Segunda Guerra Mundial, que Hitler era «bom amigo».",
+    "Na origem está uma publicação de Trump na rede Truth Social: uma fotografia em que aparece com Putin, com a legenda «My Friend» («Meu amigo»), dias depois da cimeira com Putin e Xi Jinping em Shenzhen, na China, que terminou sem cessar-fogo na Ucrânia. Questionado pelos jornalistas, Trump respondeu que podia dizer que Putin «não é amigo», mas que quer «fazer um acordo», e que a proximidade é deliberada, segundo a Newsweek. Disse ainda que Putin pode ir à cimeira do G20 que os EUA organizam no próximo mês, na Florida, se quiser.",
+    "Zelensky voltou a queixar-se da demora na entrega de 48 mísseis de defesa aérea Patriot, já pagos por aliados, que continuam à espera da assinatura do secretário da Defesa norte-americano, Pete Hegseth. «A falta destes mísseis são vidas de pessoas», disse. A Ucrânia tem dificuldade em travar os mísseis balísticos russos, segundo o Kyiv Post.",
+    "Sobre a paz, Zelensky admitiu que a última ronda de conversas mediada pelos EUA em Abu Dhabi não trouxe avanços visíveis e que a Rússia voltou a exigências máximas. As negociações devem recomeçar em dezembro, sem data marcada e sem garantia de que os europeus participem."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Declarações de Zelensky à BBC confirmadas no Kyiv Post e na Newsweek (27 nov.), que citam a entrevista; não vimos a entrevista original da BBC. A frase sobre Hitler é citada pela Newsweek; o Kyiv Post apresenta-a por palavras suas. A resposta de Trump aos jornalistas e a legenda da publicação vêm da Newsweek; o convite ao G20 aparece nas duas. A questão dos Patriot e das conversas em Abu Dhabi está em ambas. A Casa Branca não respondeu à Newsweek. A data exata da cimeira do G20 não foi confirmada."
+   },
+   "fontes": [
+    {
+     "nome": "Kyiv Post – «Zelensky Draws Hitler Parallel Over Trump’s Friendship With Putin» (27 nov.)",
+     "url": "https://www.kyivpost.com/post/91349"
+    },
+    {
+     "nome": "Newsweek – «Zelensky Rips Trump Over Putin Embrace, Compares It to Befriending Hitler» (27 nov.)",
+     "url": "https://www.newsweek.com/zelensky-rips-trump-over-putin-embrace-compares-it-to-befriending-hitler-12772292"
+    }
+   ]
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Nova Zelândia: contagem final tira a maioria ao Governo de Luxon, e um pequeno partido centrista passa a decidir quem governa",
+   "estado": "Resultados oficiais divulgados a 27 nov. (facto) · negociações por começar · nova eleição não está excluída",
+   "data": "2026-11-27",
+   "texto": [
+    "Três semanas depois das eleições na Nova Zelândia, a contagem final deu um parlamento sem maioria. Os resultados oficiais, divulgados nesta sexta-feira, 27 de novembro, pela Comissão Eleitoral, deixam a coligação do primeiro-ministro, Christopher Luxon, com 65 dos 130 lugares, um a menos do que precisa, segundo a ABC australiana e a 1News. Na noite eleitoral, a 7 de novembro, a coligação tinha maioria por dois lugares.",
+    "O que mudou? Foram contados cerca de 400 mil votos especiais (por correspondência, do estrangeiro e de quem votou fora da sua área). O Partido Nacional, de Luxon, perdeu dois deputados e fica com 40. Os Trabalhistas têm 36 e os Verdes um recorde de 17. Três círculos mudaram de mãos, dois deles por menos de 200 votos.",
+    "Quem decide agora é o Opportunity, um partido centrista com sete deputados, liderado por Qiulae Wong. Luxon, que antes tinha afastado trabalhar com este partido, mudou de posição e disse estar «confiante» em formar um governo estável, sem pressa: «vai demorar o tempo que demorar», segundo a 1News. Wong diz que fala primeiro com o Partido Nacional e admite um acordo em que se abstém em votações; uma das suas exigências é que Winston Peters, do NZ First, não seja ministro dos Negócios Estrangeiros. O bloco de esquerda não tem forma de chegar ao poder.",
+    "Os pedidos de recontagem podem ser feitos até quarta-feira; se não houver nenhum, os deputados são declarados eleitos na quinta-feira, 3 de dezembro. Um constitucionalista citado pela 1News acha difícil haver governo antes do Natal, e quase ninguém exclui uma nova ida às urnas."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Distribuição dos lugares, perda da maioria e papel do Opportunity confirmados na ABC (Austrália) e na 1News (Nova Zelândia), ambas de 27 nov. As declarações de Luxon e de Wong, os círculos que mudaram de mãos, os prazos de recontagem e a data de 3 de dezembro vêm só da 1News. O título da RNZ («Coalition loses majority, another election possible») surgiu nos resultados de pesquisa, mas a página não pôde ser aberta. Não consultámos o site da Comissão Eleitoral."
+   },
+   "fontes": [
+    {
+     "nome": "ABC News (Austrália) – «New Zealand's incumbent government fails to secure majority from election result» (27 nov.)",
+     "url": "https://www.abc.net.au/news/2026-11-27/official-results-of-new-zealand-s-national-election-announced/107434326"
+    },
+    {
+     "nome": "1News – «'Unprecedented' election delivers a tough deal for Luxon to seal» (27 nov.)",
+     "url": "https://www.1news.co.nz/2026/11/27/unprecedented-election-delivers-a-tough-deal-for-luxon-to-seal/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Guerra do Orçamento: Montenegro garante que não vai ao Tribunal Constitucional, Ventura desafia-o a pedir uma moção de confiança e o debate fica para 3 de dezembro",
+   "estado": "Debate de urgência marcado para 3 dez. · Governo diz que não recorre ao TC · moção de confiança é só um desafio do Chega",
+   "data": "2026-11-26",
+   "texto": [
+    "O Orçamento do Estado para 2027 está aprovado, mas a discussão sobre o que fica dentro dele continua. Na quinta-feira, 26 de novembro, o primeiro-ministro, Luís Montenegro, garantiu a partir de Bruxelas que o Governo «não tem nenhuma intenção» de pedir ao Tribunal Constitucional (TC) que avalie as medidas aprovadas pela oposição, como o IVA zero num cabaz de alimentos. O Chega, de André Ventura, respondeu com um pedido de debate de urgência no Parlamento, marcado para 3 de dezembro, e desafiou Montenegro a apresentar uma moção de confiança.",
+    "Tudo começou na entrevista de Montenegro à RTP, na quarta-feira à noite. O primeiro-ministro disse que normas como o IVA zero e a subida da taxa de IRS sobre rendas são «recomendações» e que o Parlamento não pode obrigar o Governo a legislar. Ventura acusou-o de «espírito autoritário» e lembrou que «o Parlamento não faz recomendações». O Chega diz que vai apresentar um projeto próprio para o IVA zero e que se opõe à versão final do texto se esta não trouxer a lista de bens abrangidos. O líder parlamentar do PSD, Hugo Soares, afastou a moção de confiança.",
+    "O PS também critica o Governo, mas recusa uma crise política. O secretário-geral, José Luís Carneiro, falou num «ajuste de contas» com o Parlamento e o líder parlamentar, Eurico Brilhante Dias, garantiu que «não haverá uma crise política». O Presidente da República, António José Seguro, pediu a Governo e Parlamento que resolvam as «divergências de interpretação» e, para já, afasta o recurso ao TC: não quer «pôr o carro à frente dos bois».",
+    "E agora? Os serviços do Parlamento têm até 9 de dezembro para fechar a redação final, que só pode trazer acertos de forma, não de conteúdo. Depois de receber o diploma, o Presidente tem oito dias para pedir ao TC uma fiscalização preventiva, que pode demorar até 25 dias. Pode também promulgar e pedir uma fiscalização sucessiva de algumas normas, e aí o Orçamento entra logo em vigor. Constitucionalistas ouvidos pela RTP dizem que a última palavra deve ser do TC e não de uma decisão do Governo."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A garantia de Montenegro sobre o TC vem do noticiário da Rádio Observador das 22h de 26 nov. O debate de urgência a 3 dez., as declarações de Seguro, Carneiro e Brilhante Dias e a opinião dos constitucionalistas vêm da RTP (acompanhamento ao minuto). O desafio da moção de confiança, as frases de Ventura e a ameaça sobre a redação final coincidem na Euronews e na RTP; a recusa de Hugo Soares vem do Observador e da RTP. Os prazos (9 dez., oito dias, 25 dias) vêm do ECO. A data da votação da redação final na comissão de Orçamento não foi encontrada. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – «OE2027. Debate de urgência requerido pelo Chega marcado para 3 de dezembro» (26 nov.)",
+     "url": "https://www.rtp.pt/noticias/politica/oe2027-debate-de-urgencia-requerido-pelo-chega-marcado-para-3-de-dezembro_e1781811"
+    },
+    {
+     "nome": "Euronews – «Orçamento polémico: Ventura desafia Governo a convocar moção de confiança» (26 nov.)",
+     "url": "https://pt.euronews.com/2026/11/26/orcamento-polemico-ventura-desafia-governo-a-convocar-mocao-de-confianca"
+    },
+    {
+     "nome": "Observador (Rádio Observador) – «22h. OE. Governo não tem intenção de recorrer a TC» (26 nov.)",
+     "url": "https://observador.pt/programas/noticiario/as-noticias-das-22h-1905/"
+    },
+    {
+     "nome": "ECO – «Chega pode bloquear Orçamento na redação final? Sete respostas para perceber a polémica» (26 nov.)",
+     "url": "https://eco.sapo.pt/descodificador/chega-pode-bloquear-orcamento-na-redacao-final-sete-respostas-para-perceber-a-polemica/"
+    }
+   ],
+   "imagem": {
+    "commons": "Assembleia da República (Portugal) Palácio de São Bento, Lisboa.JPG",
+    "tipo": "arquivo",
+    "alt": "Fachada do Palácio de São Bento, em Lisboa, sede da Assembleia da República",
+    "legenda": "Palácio de São Bento, sede da Assembleia da República, em Lisboa (imagem de arquivo; não mostra o debate)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Alta velocidade: consórcio da espanhola Sacyr com a DST confirmado no troço Oiã–Soure, por 2038 milhões; proposta da Mota-Engil fica de fora",
+   "estado": "Relatório final do júri confirma vencedor · adjudicação prevista para dezembro · contrato previsto para 2027",
+   "data": "2026-11-26",
+   "texto": [
+    "Já se sabe quem vai construir o segundo troço da linha de alta velocidade entre Porto e Lisboa. O relatório final do júri, conhecido na quinta-feira, 26 de novembro, confirma a vitória do consórcio liderado pela espanhola Sacyr, com as portuguesas DST e Alberto Couto Alves. O troço vai de Oiã (Oliveira do Bairro) a Soure e tem cerca de 60 quilómetros, chegando na prática a Taveiro, junto a Coimbra. A proposta vencedora é de 2038 milhões de euros para projeto e construção, segundo o site Portugal Ferroviário.",
+    "O consórcio rival, Lusolav, liderado pela Mota-Engil, continua excluído. Segundo o Portugal Ferroviário, o júri considerou que a proposta não cumpria o caderno de encargos: deixava de fora, por exemplo, a ligação em Taveiro, a nova estação de Coimbra e partes da adaptação da Linha do Norte, e afastava-se 400 metros do corredor aprovado na avaliação ambiental. A proposta excluída era cerca de 262 milhões de euros mais cara.",
+    "O que vem a seguir? Segundo o ECO, a adjudicação deve acontecer no próximo mês, a assinatura do contrato está prevista para junho e a obra só começa em 2028. Antes disso, o consórcio tem de fazer o projeto de execução e provar que cumpre as condições ambientais. O terceiro troço, entre Taveiro e o Carregado, o maior de todos, deverá ser contratado em 2027."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "A confirmação do vencedor coincide no ECO e no Portugal Ferroviário; ambos se baseiam no relatório final do júri, noticiado primeiro pelo Jornal de Negócios (não consultado). A exclusão da Mota-Engil consta também do título do Observador (página não aberta). Extensão, valor, motivos da exclusão, diferença de 262 milhões e calendário do terceiro troço vêm só do Portugal Ferroviário; adjudicação em dezembro, contrato em junho e obra em 2028 vêm do ECO (que não diz o ano do contrato; o Portugal Ferroviário fala no primeiro semestre de 2027). A Infraestruturas de Portugal não foi consultada diretamente. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; o que mostra resulta do nome do ficheiro."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Consórcio da Sacyr e DST ganha segundo troço da alta velocidade. Contrato será assinado em junho» (26 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/26/consorcio-da-sacyr-e-dst-ganha-segundo-troco-da-alta-velocidade-contrato-sera-assinado-em-junho/"
+    },
+    {
+     "nome": "Portugal Ferroviário – «Alta velocidade: júri confirma Sacyr e DST no troço Oiã - Taveiro» (26 nov.)",
+     "url": "https://www.portugalferroviario.net/noticias/2026/11/26/alta-velocidade-juri-confirma-sacyr-e-dst-no-troco-oia-taveiro"
+    }
+   ],
+   "imagem": {
+    "commons": "Linha do Norte - Alfa Pendular 2.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Comboio Alfa Pendular da CP a circular na Linha do Norte",
+    "legenda": "Alfa Pendular na atual Linha do Norte, que a nova linha de alta velocidade vai complementar (imagem ilustrativa; não mostra o troço Oiã–Soure)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Black Friday com preços que subiram antes de descer: Deco encontra falsos descontos em várias lojas e pede mais fiscalização",
+   "estado": "Análise da DECO PROteste publicada · denúncias e pedidos ao Governo e à ASAE · lojas não foram ouvidas",
+   "data": "2026-11-27",
+   "texto": [
+    "Hoje é Black Friday e nem todos os descontos são o que parecem. A DECO PROteste analisou preços em nove cadeias, entre lojas físicas e online, e encontrou produtos em campanha mais caros do que estavam poucos dias antes. A associação de defesa do consumidor pediu à ASAE (Autoridade de Segurança Alimentar e Económica) que fiscalize e castigue estas práticas.",
+    "Os exemplos são concretos. Segundo a análise publicada na quinta-feira, um computador para jogos estava a 1899 euros na FNAC durante a campanha, quando custava 1549,99 euros até 1 de novembro. Um frigorífico no El Corte Inglés subiu 350 euros face ao preço de uma semana antes. Outro truque frequente é comparar com o PVPR, o preço de venda recomendado pelo fornecedor, que muitas vezes nunca foi praticado na loja.",
+    "O que diz a lei? Desde 2022, um desconto só pode ser anunciado face ao preço mais baixo praticado pela mesma loja nos 30 dias anteriores, e esse preço tem de estar visível. A Deco diz que as infrações se repetem há anos e que agora são mais difíceis de detetar, com campanhas que duram semanas, notas em letra pequena nos anúncios de televisão e lojas falsas feitas com ajuda de inteligência artificial (IA).",
+    "Os conselhos: ver o histórico de preços antes de comprar, desconfiar de descontos muito altos e de comparações com o PVPR, comparar várias lojas e guardar a fatura. Nas compras online há, em regra, 14 dias para desistir sem dar justificação."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Metodologia e exemplos de preços vêm da própria análise da DECO PROteste (26 nov.). O comunicado com as denúncias, os pedidos ao Governo e as novas táticas (letra pequena, IA, lojas falsas) vem do Diário de Coimbra (27 nov.); a RTP noticiou o mesmo alerta (só vimos o título nos resultados). As lojas citadas não foram ouvidas nas fontes consultadas."
+   },
+   "fontes": [
+    {
+     "nome": "DECO PROteste – «Black Friday 2026: nem todas as promoções dão descontos reais» (26 nov.)",
+     "url": "https://www.deco.proteste.pt/familia-consumo/direitos-consumidor/noticias/black-friday-2026-nem-todas-promocoes-dao-descontos-reais"
+    },
+    {
+     "nome": "Diário de Coimbra – «Deco alerta para práticas de falsos descontos na Black Friday e recomenda cautela aos consumidores» (27 nov.)",
+     "url": "https://www.diariocoimbra.pt/2026/11/27/deco-alerta-para-praticas-de-falsos-descontos-na-black-friday-e-recomenda-cautela-aos-consumidores/"
+    },
+    {
+     "nome": "RTP – «Deco Proteste denuncia persistência de falsos descontos na Black Friday» (27 nov.)",
+     "url": "https://www.rtp.pt/noticias/pais/deco-proteste-denuncia-persistencia-de-falsos-descontos-na-black-friday_n1781903"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Dia de greve no Metro do Porto: só circulam duas ligações da Linha Amarela e do tronco comum; CP também com perturbações no último dia de paralisação",
+   "estado": "Greve em curso hoje · serviço anunciado pela empresa · adesão ainda por conhecer",
+   "data": "2026-11-27",
+   "texto": [
+    "Os maquinistas do Metro do Porto estão hoje, sexta-feira, 27 de novembro, em greve, e a rede funciona só em parte. Segundo a empresa, há comboios apenas no tronco comum, entre a Senhora da Hora e o Estádio do Dragão, e na Linha Amarela, entre o Hospital de São João e Santo Ovídio. As outras ligações, como as da Póvoa de Varzim e de Vila do Conde, ficam sem metro.",
+    "Nas duas ligações que funcionam, os comboios passam de 15 em 15 minutos entre as 7h00 e as 20h00 e de 30 em 30 minutos no resto do dia, até à meia-noite. A greve foi convocada pelo SMAQ, o Sindicato Nacional dos Maquinistas dos Caminhos de Ferro Portugueses. Os trabalhadores pedem a recuperação do poder de compra, melhores escalas e tempos de descanso e melhores instalações. A Via Porto, do grupo Barraqueiro, que opera e mantém a rede, avisou que a operação podia ficar «impedida na maioria das linhas».",
+    "Também na CP é o último dia da greve dos maquinistas, que começou na segunda-feira, desta vez com paralisação parcial. Na quinta-feira, até às 8h00, a CP tinha suprimido 93 dos 247 comboios previstos, incluindo todos os de longo curso. Quem tem bilhete para um comboio cancelado pode pedir reembolso total ou trocá-lo sem custos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Ligações em funcionamento, frequências, sindicato, reivindicações e aviso da Via Porto coincidem no ECO e na CNN Portugal (25 nov.) e na Executive Digest (27 nov.). Os números da CP de quinta-feira e o reembolso vêm do Observador; o carácter parcial no último dia vem do Observador e do título da Renascença (página não aberta). A adesão à greve desta sexta-feira ainda não era conhecida à hora de fecho. Um site regional (Notícias Primeira Mão) refere nova greve no Metro de 28 nov. a 4 dez., mas não foi confirmada noutras fontes e ficou de fora do texto."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Greve dos maquinistas reduz serviço do Metro do Porto na sexta-feira» (25 nov.)",
+     "url": "https://eco.sapo.pt/2026/11/25/greve-dos-maquinistas-reduz-servico-do-metro-do-porto-na-sexta-feira/"
+    },
+    {
+     "nome": "CNN Portugal – «Vêm aí uma greve no Metro do Porto. Saiba tudo» (25 nov.)",
+     "url": "https://cnnportugal.iol.pt/greve-metro-do-porto/greve-maquinistas/vem-ai-uma-greve-no-metro-do-porto-saiba-tudo/20261125/6b0735ee0cf22114c9128e60"
+    },
+    {
+     "nome": "Executive Digest – «Greve dos Maquinistas reduz hoje serviço no Metro do Porto» (27 nov.)",
+     "url": "https://executivedigest.sapo.pt/greve-dos-maquinistas-reduz-hoje-servico-no-metro-do-porto-operacao-pode-ser-impedida-na-maioria-das-linhas/"
+    },
+    {
+     "nome": "Observador – «Greve dos maquinistas da CP leva à supressão de 93 comboios» (26 nov.)",
+     "url": "https://observador.pt/2026/11/26/greve-dos-maquinistas-da-cp-leva-a-supressao-de-93-comboios-ate-as-8h00"
+    }
+   ]
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Telescópio europeu Euclid bate o próprio recorde e encontra o quasar mais antigo de sempre, com um buraco negro de 360 milhões de sóis",
+   "estado": "Descoberta publicada na Astronomy & Astrophysics a 24 nov. · massa medida pelo telescópio James Webb",
+   "data": "2026-11-24",
+   "texto": [
+    "O telescópio espacial Euclid, da Agência Espacial Europeia (ESA), encontrou o quasar mais distante — e, por isso, mais antigo — alguma vez confirmado. Chama-se J1504+6252 e vemo-lo como era cerca de 630 milhões de anos depois do Big Bang. O estudo foi publicado na terça-feira, 24 de novembro, na revista Astronomy & Astrophysics, e bate por cerca de 40 milhões de anos o recorde anterior, que também era do Euclid.",
+    "Um quasar é o centro muito brilhante de uma galáxia jovem, alimentado por um buraco negro gigante que engole gás à sua volta. Este tem uma massa de cerca de 360 milhões de vezes a do Sol, calculada com o telescópio James Webb. Ou seja: um monstro destes já existia quando o Universo tinha menos de 5% da idade atual — e explicar como cresceu tão depressa é um quebra-cabeças para os astrónomos, segundo o Space.com.",
+    "Como foi encontrado? O Euclid, lançado em 2023 para mapear a «matéria escura» e a «energia escura», detetou-o no meio de milhões de objetos em 18 meses de dados. Seguiram-se observações com os observatórios Keck e LBT (o Grande Telescópio Binocular), nos EUA, e com os telescópios Hubble e Webb. É o primeiro quasar confirmado com um desvio para o vermelho acima de 8 (8,13), a medida que os astrónomos usam para a distância, diz o Universe Today.",
+    "A equipa, liderada por Julien Wolf, do Instituto Max Planck de Astronomia, na Alemanha, deu-lhe a alcunha Dún Aonghasa, o nome de um forte pré-histórico irlandês."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Nome do quasar, alcunha, 630 milhões de anos após o Big Bang, massa de 360 milhões de sóis medida pelo Webb, 40 milhões de anos de recuo face ao recorde anterior e revista confirmados no Space.com e no Universe Today; o Space.com dá a data de publicação (24 nov.), os 18 meses de dados e os telescópios de seguimento (Keck, LBT, Hubble, Webb); o Universe Today dá o desvio para o vermelho z = 8,13, o autor principal (Julien Wolf, então no MPIA) e o título do artigo. Que o recorde anterior era do próprio Euclid vem do título do artigo da ESA («Euclid breaks own quasar record by 40 million years», 24 nov.), visto na página de entrada da ESA, mas a notícia da ESA não pôde ser aberta; abrimos apenas a página da imagem da ESA (24 nov.). Nenhuma das fontes consultadas nomeia o anterior detentor do recorde. A explicação de quasar e a comparação «menos de 5% da idade atual» (630 milhões de anos face a cerca de 13,8 mil milhões) são nossas. Imagem: o ficheiro surge nos resultados de pesquisa do Commons, mas a página não pôde ser aberta; é uma ilustração da sonda, não mostra o quasar."
+   },
+   "fontes": [
+    {
+     "nome": "Space.com – «Astronomers discover the most distant and ancient supermassive black hole-powered quasar in the universe» (25 nov.)",
+     "url": "https://www.space.com/astronomy/black-holes/dark-universe-detective-telescope-discovers-most-distant-and-ancient-supermassive-black-hole-powered-quasar"
+    },
+    {
+     "nome": "Universe Today – «Euclid's Record-Setting Quasar Probes Black Hole Formation» (25 nov.)",
+     "url": "https://www.universetoday.com/articles/euclids-record-setting-quasar-probes-black-hole-formation"
+    },
+    {
+     "nome": "ESA – «Euclid's image of the farthest quasar» (24 nov.)",
+     "url": "https://www.esa.int/media/about-us/directorates/science/euclid/euclid-s-image-of-farthest-quasar"
+    },
+    {
+     "nome": "ESA – «Euclid breaks own quasar record by 40 million years» (24 nov.) (citado)",
+     "url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-breaks-own-quasar-record-by-40-million-years"
+    }
+   ],
+   "imagem": {
+    "commons": "Euclid spacecraft ESA24912474.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Ilustração do telescópio espacial Euclid, da ESA, no espaço",
+    "legenda": "O telescópio espacial Euclid, da ESA (imagem ilustrativa; não mostra o quasar descoberto)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Gaia abre o «baú» na quarta-feira: maior catálogo de estrelas de sempre chega com 2 mil milhões de objetos e 40 vezes mais dados",
+   "estado": "Divulgação anunciada pela ESA para 2 dez., cerca das 11h (Lisboa) · conteúdo descrito pela ESA antes da publicação",
+   "data": "2026-11-26",
+   "texto": [
+    "Está marcado: a Agência Espacial Europeia (ESA) publica na próxima quarta-feira, 2 de dezembro, o quarto grande catálogo da missão Gaia, o mapa mais preciso da Via Láctea. A divulgação está prevista para cerca das 11h de Lisboa (12h na Europa Central), anunciou a ESA na quinta-feira. Vai ter cerca de 2 mil milhões de estrelas e outros objetos com medições de alta qualidade, escolhidos entre perto de 2,8 mil milhões processados.",
+    "O salto é grande. O novo catálogo, conhecido como DR4, junta 66 meses de observações, entre julho de 2014 e janeiro de 2020 — quase o dobro dos 34 meses do anterior, de 2022. São cerca de 400 terabytes, contra 10 do DR3. A maior parte são as medições individuais de cada estrela ao longo do tempo: só as posições somam mais de 129 mil milhões de registos.",
+    "Porque é que isto importa? Ver como uma estrela se mexe ou muda de brilho ao longo dos anos permite descobrir o que está à volta dela: planetas, estrelas companheiras, estrelas de neutrões ou buracos negros, explica a Universidade de Lund, na Suécia, que participa na missão. A lista inclui, por exemplo, 1007 possíveis passagens de planetas à frente das suas estrelas — candidatos, não planetas confirmados.",
+    "A Gaia, lançada em 2013, já terminou as observações no início de 2025. Os dados a publicar agora já estavam recolhidos e foram processados durante anos por centenas de cientistas europeus. O último catálogo, com a missão completa, só está previsto para daqui a alguns anos."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Data de 2 dez. e hora (~12h CET) confirmadas na página oficial do DR4 (ESA Cosmos) e na Universidade de Lund (evento a 2 dez.); o geekradar.co (26 nov.) indica abertura às 11h UTC e apresentação da ESA às 13h45 UTC. Números (2,8 mil milhões processados, ~2 mil milhões na tabela principal, 66 meses de 25 jul. 2014 a 20 jan. 2020, 34 meses no DR3, ~400 TB contra 10 TB, 129,6 mil milhões de medições de posição, 1007 candidatos a trânsitos planetários) vêm da página de conteúdo do DR4 da ESA; os totais de fontes, o volume e os 66 meses são confirmados pelo geekradar.co. O que o DR4 permite detetar vem da Universidade de Lund. O anúncio da ESA de 26 nov. («Watch live: Gaia releases its largest-ever goldmine of cosmic data») foi visto na página de entrada da ESA, mas não pôde ser aberto. O fim das observações em janeiro de 2025 vem do geekradar.co; o ano de lançamento (2013) e o de DR3 (2022) são conhecimento de referência, não confirmados nas fontes desta notícia. O calendário do catálogo final (DR5) não foi confirmado, por isso só dizemos «daqui a alguns anos»."
+   },
+   "fontes": [
+    {
+     "nome": "ESA Cosmos – «Gaia Data Release 4»",
+     "url": "https://www.cosmos.esa.int/web/gaia/data-release-4"
+    },
+    {
+     "nome": "ESA Cosmos – «Gaia DR4 content»",
+     "url": "https://www.cosmos.esa.int/web/gaia/dr4"
+    },
+    {
+     "nome": "Universidade de Lund – «Gaia Data Release 4 Event»",
+     "url": "https://www.lunduniversity.lu.se/calendar/gaia-data-release-4-event"
+    },
+    {
+     "nome": "Geek Radar – «Gaia's next star catalogue will be 40 times larger. What takes up all that space?» (26 nov.)",
+     "url": "https://geekradar.co/article/gaia-dr4-epoch-measurements-december-archive"
+    },
+    {
+     "nome": "ESA – «Watch live: Gaia releases its largest-ever goldmine of cosmic data» (26 nov.) (citado)",
+     "url": "https://www.esa.int/articles/about-us/directorates/science/gaia/watch-live-gaia-releases-its-largest-ever-goldmine-of-cosmic-data"
+    }
+   ]
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«As Novas Desventuras de Cliff Booth»: Brad Pitt volta a ser a personagem de Tarantino, agora pelas mãos de David Fincher — e só em salas IMAX até chegar à Netflix",
+   "ficha": {
+    "Título original": "The Further Mis-Adventures of Cliff Booth (2026; EUA)",
+    "Realização": "David Fincher («Seven», «Clube de Combate», «A Rede Social»); argumento de Quentin Tarantino; fotografia de Erik Messerschmidt; montagem de Kirk Baxter",
+    "Elenco": "Brad Pitt (Cliff Booth), Elizabeth Debicki, Scott Caan, Carla Gugino, Yahya Abdul-Mateen II, Peter Weller; regresso de Timothy Olyphant",
+    "Estreia em Portugal": "Quinta-feira, 26 de novembro de 2026, em exclusivo nas salas IMAX (distribuição NOS Audiovisuais); cerca de 141 minutos; na Netflix a partir de 23 de dezembro",
+    "Avaliação": "Críticas divididas, com mais elogios do que reparos: 85% de críticas positivas no Rotten Tomatoes (segundo a MovieWeb, 19 nov.); «Critic's Pick» na The Film Stage (Nick Newman); elogios com reservas na Film Stories (Simon Brew); 2,5 em 4 numa crítica distribuída por agências; negativa no RogerEbert.com (Brian Tallerico)"
+   },
+   "texto": [
+    "Cliff Booth está de volta. A personagem que deu a Brad Pitt o Óscar de melhor ator secundário em «Era Uma Vez em… Hollywood» (2019) tem agora filme próprio, escrito por Quentin Tarantino e realizado por David Fincher. «As Novas Desventuras de Cliff Booth» estreou ontem, quinta-feira, 26 de novembro, nos cinemas portugueses, mas só nas salas IMAX: é uma produção da Netflix, que o põe na plataforma a 23 de dezembro.",
+    "A história passa-se em 1977, em Los Angeles, oito anos depois do filme de 2019. Cliff já não é duplo de cinema: trabalha nos bastidores dos estúdios como «resolvedor de problemas», o homem a quem se liga quando alguma coisa corre mal. É uma sequela que se vê sozinha. Elizabeth Debicki, Scott Caan, Carla Gugino e Yahya Abdul-Mateen II completam o elenco, e Peter Weller faz de pai de Cliff. Com um orçamento noticiado de 200 milhões de dólares, é o filme mais caro da carreira de Tarantino e de Fincher.",
+    "Os pontos fortes, segundo as críticas consultadas, estão na época e nos atores. Quase todos elogiam a reconstituição da Los Angeles dos anos 70, a banda sonora e, sobretudo, Elizabeth Debicki, apontada como a melhor coisa do filme. Brad Pitt continua a segurar a personagem com um carisma descontraído, e as cenas com Peter Weller são das mais comentadas. Nick Newman, da The Film Stage, vê nele uma obra madura e divertida, talvez o melhor Fincher em 15 anos; Simon Brew, da Film Stories, diz que é Fincher «de gama média» mas Tarantino «de gama alta», e que a disciplina do realizador faz bem ao argumentista.",
+    "Os pontos fracos têm a ver com a história. Várias críticas dizem que o filme anda à deriva: é mais um retrato de um ambiente do que uma trama, e o enredo principal demora a arrancar. Brian Tallerico, do RogerEbert.com, acha que o estilo solto de Tarantino e o controlo de Fincher nunca se encontram e chega a chamar-lhe aborrecido; Stephanie Zacharek, da Time, citada pela MovieWeb, fala de «uma vibração» mais do que de um filme. Em resumo, segundo a apreciação que resulta das críticas consultadas: um policial de época elegante e bem interpretado, com 141 minutos que nem sempre se justificam — e uma rara ocasião de ver um filme da Netflix num ecrã gigante."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – Os filmes da semana: estreias nas salas de cinema (26 de novembro 2026)",
+     "url": "https://filmspot.pt/artigo/os-filmes-da-semana-estreias-nas-salas-de-cinema-26-de-novembro-2026-15118/"
+    },
+    {
+     "nome": "Magazine.HD – Estreiam 10 filmes esta semana nos cinemas portugueses e estes são os 3 melhores (26 de novembro)",
+     "url": "https://www.magazine-hd.com/apps/wp/estreiam-10-filmes-esta-semana-cinemas-portugueses-3-melhores-26-novembro/"
+    },
+    {
+     "nome": "Wikipedia – The Further Mis-Adventures of Cliff Booth",
+     "url": "https://en.wikipedia.org/wiki/The_Further_Mis-Adventures_of_Cliff_Booth"
+    },
+    {
+     "nome": "The Film Stage – «The Further Mis-Adventures of Cliff Booth» review (Nick Newman)",
+     "url": "https://thefilmstage.com/the-further-mis-adventures-of-cliff-booth-review-david-fincher-and-quentin-tarantino-bring-the-best-out-of-each-other/"
+    },
+    {
+     "nome": "Film Stories – «The Further Mis-Adventures Of Cliff Booth» review (Simon Brew, 20 nov.)",
+     "url": "https://filmstories.co.uk/news/the-further-mis-adventures-of-cliff-booth-review-fincher-and-tarantinos-bogus-journey/"
+    },
+    {
+     "nome": "RogerEbert.com – The Further Mis-Adventures of Cliff Booth (Brian Tallerico)",
+     "url": "https://www.rogerebert.com/?p=278656"
+    },
+    {
+     "nome": "La Nación (serviços noticiosos) – Movie Review: «The Further Mis-Adventures of Cliff Booth» burnishes the legend of a stuntman hero (19 nov.)",
+     "url": "https://www.lanacion.com.ar/usa/movie-review-the-further-mis-adventures-of-cliff-booth-burnishes-the-legend-of-a-stuntman-hero-nid19112026/"
+    },
+    {
+     "nome": "MovieWeb – «The Further Mis-Adventures of Cliff Booth» Rotten Tomatoes Score Officially Revealed (19 nov.)",
+     "url": "https://movieweb.com/the-further-mis-adventures-of-cliff-booth-rotten-tomatoes-score/"
+    }
+   ],
+   "nota": "Estreia em Portugal a 26 nov., título português, distribuição NOS Audiovisuais e sinopse (1977, «solucionador de problemas» nos estúdios) segundo o filmSPOT; exclusivo IMAX segundo a Magazine.HD. Netflix a 23 dez., estreia IMAX nos EUA a 25 nov. por duas semanas, orçamento de 200 milhões de dólares, elenco, fotografia e montagem segundo a Wikipedia (inglesa), que remete para a imprensa especializada. Duração de 141 min segundo o RogerEbert.com e a crítica distribuída pela La Nación (a Film Stories diz 2h20). 85% no Rotten Tomatoes e a frase de Zacharek (Time) segundo a MovieWeb, que não indica o número de críticas. Não foram consultados Cinecartaz nem as páginas dos exibidores (NOS/UCI): não se confirmaram as salas IMAX concretas, os horários, a classificação etária portuguesa nem quanto tempo o filme fica em cartaz; convém confirmar antes de sair. O Óscar de Pitt por «Era Uma Vez em… Hollywood» é conhecimento geral, não confirmado nas fontes desta peça. As páginas das críticas da Empire e da The Playlist não puderam ser abertas. A apreciação resulta das críticas consultadas, não de visionamento próprio. A imagem foi escolhida a partir dos resultados de pesquisa do Commons; a página do ficheiro não pôde ser aberta e a descrição resulta do nome do ficheiro.",
+   "imagem": {
+    "commons": "IMAX THEATER.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Sala de cinema IMAX com ecrã gigante",
+    "legenda": "Uma sala IMAX, o único formato em que o filme se vê nos cinemas (imagem ilustrativa; não mostra o filme nem uma sala portuguesa)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "Jimi Hendrix faria hoje 84 anos: o canhoto de Seattle que tocava a guitarra ao contrário e mudou para sempre o som do rock",
+   "ficha": {
+    "Nascimento e morte": "27 de novembro de 1942, em Seattle (EUA), como Johnny Allen Hendrix; 18 de setembro de 1970, em Londres, aos 27 anos",
+    "Área": "Música: guitarra elétrica, rock, blues e psicadelismo; compositor e cantor",
+    "Obra essencial": "Com a Jimi Hendrix Experience, os álbuns «Are You Experienced» (1967), «Axis: Bold as Love» (1967–68) e «Electric Ladyland» (1968); canções como «Hey Joe», «Purple Haze» e «All Along the Watchtower»; atuações em Monterey (1967) e Woodstock (1969)",
+    "Reconhecimento": "Rock and Roll Hall of Fame (1992); a antiga casa em Londres, ao lado da de Handel, é hoje museu",
+    "Atualidade": "84 anos do nascimento a 27 de novembro; o apartamento de Brook Street, em Londres, recuperado como era em 1968–69, pode ser visitado no Handel Hendrix House"
+   },
+   "texto": [
+    "Jimi Hendrix nasceu há 84 anos, a 27 de novembro de 1942, em Seattle, nos Estados Unidos. Gravou só três álbuns de estúdio com a sua banda e morreu aos 27 anos, mas poucos músicos mudaram tanto o rock. Com a guitarra elétrica, fez da distorção, do «feedback» (o assobio do amplificador) e do pedal wah-wah uma linguagem própria, que ainda hoje se ouve em quase todas as bandas de guitarras.",
+    "A história começa longe dos palcos. Batizado Johnny Allen, passou a chamar-se James Marshall por decisão do pai. Teve a primeira guitarra, acústica e em segunda mão, por volta dos 15 anos. Era canhoto: virou a guitarra ao contrário e aprendeu sozinho, a imitar discos de blues e de rock'n'roll. Depois de passar pelo exército como paraquedista, andou anos como guitarrista de acompanhamento de nomes como Little Richard e os Isley Brothers, até ser descoberto em Nova Iorque por Chas Chandler, dos Animals, que o levou para Londres em 1966.",
+    "Aí tudo acelerou. Formou a Jimi Hendrix Experience com Noel Redding e Mitch Mitchell, e o primeiro single, «Hey Joe», entrou no top britânico. Em 1967 saiu «Are You Experienced» e, nos EUA, a atuação no Festival de Monterey — onde pegou fogo à guitarra — fez dele uma estrela. Seguiram-se «Axis: Bold as Love» e «Electric Ladyland». Em agosto de 1969 fechou o festival de Woodstock com uma versão do hino norte-americano em que a guitarra imitava bombas e rajadas de metralhadora, em plena guerra do Vietname. No ano seguinte abriu em Nova Iorque o seu estúdio, o Electric Lady. Morreu poucas semanas depois, em Londres, a 18 de setembro de 1970, num episódio ligado a barbitúricos.",
+    "Uma curiosidade para quem passe por Londres: entre 1968 e 1969, Hendrix viveu no número 23 de Brook Street, encostado à casa onde o compositor barroco Handel morou dois séculos antes. As duas placas azuis estão lado a lado na fachada. Quando um jornalista lhe falou do vizinho, Hendrix admitiu que não sabia e que mal conhecia a música de Handel. Hoje as duas casas formam um só museu, e o quarto de Hendrix foi reconstituído como era no seu tempo."
+   ],
+   "fontes": [
+    {
+     "nome": "HistoryLink.org – Hendrix, Jimi (1942-1970)",
+     "url": "https://historylink.org/File/2498"
+    },
+    {
+     "nome": "History.com – Jimi Hendrix is born (This Day in History, 27 nov.)",
+     "url": "https://www.history.com/this-day-in-history/november-27/jimi-hendrix-born"
+    },
+    {
+     "nome": "Britannica (estudantes) – Jimi Hendrix",
+     "url": "https://kids.britannica.com/students/article/Jimi-Hendrix/311656"
+    },
+    {
+     "nome": "English Heritage – Blue Plaques: Jimi Hendrix",
+     "url": "https://www.english-heritage.org.uk/visit/blue-plaques/jimi-hendrix/"
+    },
+    {
+     "nome": "Handel Hendrix House – About us",
+     "url": "https://handelhendrix.org/about-us"
+    }
+   ],
+   "nota": "Data e local de nascimento segundo o History.com e o HistoryLink; nome de batismo e mudança de nome, primeira guitarra por volta de 1957, Little Richard e Isley Brothers, data e local da morte, causa (barbitúricos; o HistoryLink contesta a versão de «overdose») segundo o HistoryLink. Canhoto e guitarra virada, datas dos álbuns «Axis» e «Electric Ladyland» (1968), Hall of Fame (1992) e descrição do hino em Woodstock segundo a Britannica; o History.com dá 1969 para «Axis», o que contraria a Britannica — «Axis» saiu no Reino Unido em dezembro de 1967 e nos EUA em 1968, daí a formulação «1967–68» na ficha (conhecimento geral, não confirmado em fonte consultada). Chas Chandler, Redding e Mitchell, «Hey Joe» no top britânico, Monterey com a guitarra em chamas e o Electric Lady (agosto de 1970) segundo o History.com. O ano de entrada no exército diverge (1959 no History.com, 1961 no HistoryLink), por isso não se indica. Morada, anos, placas e a resposta sobre Handel segundo a English Heritage; museu e moradas segundo o Handel Hendrix House. «Purple Haze» e «All Along the Watchtower» são conhecimento geral. Não se encontrou nenhum evento específico pelo aniversário. A imagem foi escolhida a partir dos resultados de pesquisa do Commons; a página do ficheiro não pôde ser aberta e a descrição resulta do nome do ficheiro.",
+   "imagem": {
+    "commons": "Jimi Hendrix's 1970 Fender Stratocaster in white, left-handed, given to Stephen Stills - Rock and Roll Hall of Fame (2014-07-12 15.53.43 by Zurich 99).jpg",
+    "tipo": "arquivo",
+    "alt": "Guitarra Fender Stratocaster branca, para canhotos, exposta numa vitrina",
+    "legenda": "Uma Fender Stratocaster branca para canhotos de 1970, que pertenceu a Hendrix, exposta no Rock and Roll Hall of Fame, em Cleveland (imagem de arquivo)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Sabias que as primeiras pessoas alguma vez fotografadas foram um engraxador e o seu cliente, numa rua de Paris que parecia deserta? Este outono, ganharam uma placa",
+   "texto": [
+    "Em 1838, Louis Daguerre apontou a câmara da janela do seu estúdio para o Boulevard du Temple, em Paris. A rua estava cheia de gente e de carroças, mas na imagem parece vazia. Só ficaram duas figuras: um homem a engraxar os sapatos e o engraxador. São, tanto quanto se sabe, as primeiras pessoas que aparecem numa fotografia.",
+    "Porquê só elas? Por causa do tempo de exposição. O daguerreótipo, a técnica que Daguerre apresentou ao mundo em 1839, precisava de vários minutos de luz para fixar a imagem numa placa de metal. Quem passava a andar não ficava tempo suficiente no mesmo sítio para deixar marca. O cliente, de pé, com a perna apoiada, e o engraxador, debruçado sobre os sapatos, estiveram quietos o bastante para ficar na história — sem nunca o saberem.",
+    "A placa original já não existe como era. Foi oferecida ao rei Luís I da Baviera e ficou muito danificada nos bombardeamentos da Segunda Guerra Mundial. A versão que hoje circula vem sobretudo de uma cópia feita em 1937 por Beaumont Newhall, então no Museu de Arte Moderna de Nova Iorque. E o estúdio de Daguerre, ao lado do seu teatro de ilusões, o Diorama, ardeu em 1839.",
+    "A parte mais recente da história é deste outono. Três cineastas suecos — Maximilien Van Aertryck, Axel Danielson e Kalle Boman — passaram dois anos em arquivos, mapas e registos de impostos, e mandaram fazer modelos em 3D do bairro de 1838. Duas equipas de arquitetos chegaram, cada uma por si, a pontos a poucos passos um do outro. O sítio fica junto à atual Place de la République, e a Câmara de Paris colocou lá, em outubro, uma placa de bronze chamada «Un détail imprévu» — «um pormenor imprevisto». Na próxima vez que fores a Paris, já sabes onde procurar."
+   ],
+   "fontes": [
+    {
+     "nome": "PetaPixel – «Researchers Pinpoint the Exact Location of First Ever Photo of a Human» (22 out. 2026)",
+     "url": "https://petapixel.com/2026/10/22/researchers-pinpoint-the-exact-location-of-first-ever-photo-of-a-human/"
+    },
+    {
+     "nome": "Smithsonian Magazine – «Where Exactly Were the First Humans to Be Captured in a Photograph Standing? Three Obsessed Filmmakers Solved the Nearly 200-Year-Old Mystery»",
+     "url": "https://www.smithsonianmag.com/smart-news/where-exactly-were-the-first-humans-to-be-captured-in-a-photograph-standing-three-obsessed-filmmakers-solved-the-nearly-200-year-old-mystery-180989727/"
+    }
+   ],
+   "nota": "Data (1838, primavera segundo a Smithsonian), vista da janela do estúdio, as duas figuras e a placa «Un Détail Imprévu» segundo a Smithsonian e a PetaPixel. O tempo de exposição diverge (4 a 5 minutos na PetaPixel; até 10 minutos na Smithsonian), por isso escreveu-se «vários minutos». Oferta a Luís I da Baviera, danos na Segunda Guerra Mundial e cópia de 1937 de Beaumont Newhall (MoMA) segundo a PetaPixel; incêndio do estúdio e do Diorama em 1839 segundo a Smithsonian. Nomes dos cineastas, dois anos de pesquisa, modelos 3D, as duas equipas de arquitetos e Place de la République segundo as duas fontes; a nacionalidade sueca dos três resulta de a PetaPixel referir uma das firmas como sueca e de Van Aertryck e Danielson serem autores do documentário sueco «Fantastic Machine» (citado pela Smithsonian) — não confirmada explicitamente para os três. A Smithsonian situa a colocação da placa a 15 de outubro, sem ano; a data de 2026 resulta do artigo da PetaPixel de 22 out. 2026. Apresentação pública do daguerreótipo em 1839 é conhecimento geral. A imagem é a cópia em domínio público da obra de 1838; a página do ficheiro no Commons não pôde ser aberta (surge nos resultados de pesquisa do Commons).",
+   "imagem": {
+    "commons": "Boulevard du Temple by Daguerre.jpg",
+    "tipo": "obra",
+    "alt": "Fotografia antiga a preto e branco de um boulevard parisiense quase vazio, com árvores e edifícios",
+    "legenda": "«Boulevard du Temple», de Louis Daguerre (1838): no canto inferior esquerdo, o engraxador e o cliente (obra em domínio público)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Stop: o centro comercial do Porto onde mais de cem bandas ensaiam por trás de montras de lojas — e que a Câmara quer agora tornar casa oficial de música",
+   "ficha": {
+    "Origem": "Antiga garagem dos anos 50, convertida em centro comercial em 1982; com o declínio do comércio, as lojas foram sendo ocupadas por músicos como salas de ensaio",
+    "Onde": "Rua do Heroísmo, no Porto (Bonfim)",
+    "Área": "Música: salas de ensaio, estúdios e comunidade de bandas de vários géneros, do rock ao metal e aos blues",
+    "Participantes": "Mais de 100 bandas e 400 a 500 músicos; associações ACM – Associação Cultural de Músicos do Stop e Alma Stop, e o movimento informal Stop Manifesta",
+    "Atualidade": "Classificado como monumento de interesse municipal (julho de 2025); a Câmara do Porto anunciou em outubro um pré-acordo com a NOS para comprar as duas antigas salas de cinema; candidatura do uso musical a património cultural imaterial em preparação"
+   },
+   "texto": [
+    "Na Rua do Heroísmo, no Porto, há um centro comercial onde quase não se vende nada — mas onde se ensaia muito. No Stop, as antigas lojas são hoje salas de ensaio de mais de 100 bandas e de 400 a 500 músicos, segundo a Câmara e a imprensa local. Em outubro, a autarquia anunciou um pré-acordo com a NOS para comprar as duas salas de cinema do edifício e transformá-las em espaços de criação para músicos.",
+    "O edifício foi garagem nos anos 50 e passou a centro comercial em 1982. Com o tempo, o comércio foi saindo e as bandas foram entrando, uma loja de cada vez. O resultado é um caso raro: um prédio inteiro de salas de ensaio, com gente de géneros muito diferentes, do rock e do metal aos blues, a cruzar-se nos corredores e no café. Há músicos organizados em associações, como a ACM – Associação Cultural de Músicos do Stop e a Alma Stop, e um movimento informal, o Stop Manifesta, que nasceu em 2023.",
+    "Esse ano foi o do susto. Em julho de 2023, a Polícia Municipal selou a maior parte das lojas por falta de licenças de utilização, e centenas de músicos e lojistas ficaram sem espaço. Houve concentrações à porta da Câmara e petições, e as salas reabriram cerca de duas semanas depois. Desde então, o Stop passou de problema a património: foi classificado como monumento de interesse municipal em julho de 2025, e a Câmara iniciou a candidatura do seu uso musical a património cultural imaterial nacional, num estudo das universidades do Porto e Lusíada.",
+    "Nem tudo é simples. Segundo uma reportagem do JN em agosto, as rendas subiram — algumas salas que custavam 100 a 150 euros por mês custam agora 250, mais eletricidade — e muitas bandas já partilham sala. Há quem tema a gentrificação. Mas a comunidade continua a mexer-se: este verão, nove bandas do Stop deram concertos gratuitos nos coretos da cidade, num ciclo organizado pela associação de músicos com a empresa municipal Ágora. E as antigas salas de cinema, com cerca de 240 e 120 lugares, poderão vir a ser o palco que faltava, se o negócio e as medidas de segurança forem fechados."
+   ],
+   "fontes": [
+    {
+     "nome": "Observador – Câmara do Porto com «pré-acordo» para comprar cinemas do centro comercial Stop (9 out. 2026)",
+     "url": "https://observador.pt/2026/10/09/camara-do-porto-com-pre-acordo-para-comprar-cinemas-do-centro-comercial-stop/"
+    },
+    {
+     "nome": "Viva Porto – No Stop, as rendas sobem e as bandas já não têm sala só para elas (17 ago. 2026, a partir de reportagem do JN)",
+     "url": "https://viva-porto.pt/no-stop-as-rendas-sobem-e-as-bandas-ja-nao-tem-sala-so-para-elas/"
+    },
+    {
+     "nome": "41N – Programa completo: Bandas do STOP atuam nos coretos da cidade (17 jul. 2026)",
+     "url": "https://www.41n.pt/2026/07/17/programa-completo-bandas-do-stop-atuam-nos-coretos-da-cidade/"
+    },
+    {
+     "nome": "Observador / Lusa – Executivo do Porto unânime em classificar Stop de interesse municipal (24 fev. 2025)",
+     "url": "https://observador.pt/2025/02/24/executivo-do-porto-unanime-em-classificar-stop-de-interesse-municipal/"
+    },
+    {
+     "nome": "Renascença – Porto. Músicos e lojistas regressam ao Stop após duas semanas com espaços selados (4 ago. 2023) (visto nos resultados de pesquisa)",
+     "url": "https://rr.pt/noticia/pais/2023/08/04/porto-musicos-e-lojistas-regressam-ao-stop-apos-duas-semanas-com-espacos-selados/341644/"
+    }
+   ],
+   "nota": "Pré-acordo com a NOS, salas de 240 e 120 lugares, valor abaixo do mercado (não revelado), mais de 100 bandas e 400 músicos (estimativa da Câmara), Rede de Centros de Criação, medidas de segurança pendentes e classificação a 30 jul. 2025 segundo o Observador (9 out.). Garagem dos anos 50, centro comercial em 1982, cerca de 500 músicos, rendas (100–150 € antes, 250 € agora, segundo um músico citado), associações ACM, Alma Stop e Stop Manifesta (2023), receios de gentrificação e candidatura a património imaterial (estudo de Paula Guerra, FLUP, e João Rapagão, Lusíada) segundo o Viva Porto, a partir de reportagem do JN (a página do JN não pôde ser aberta). Ciclo «STOP no Coreto» (9 concertos gratuitos, 18 jul.–12 set., ACMSTOP e Ágora) segundo o 41N. Selagem pela Polícia Municipal por falta de licenças de utilização: o Observador (2025) e o Viva Porto, tal como foram lidos, datam um episódio de 18 jul.–4 ago. com 105 de 126 lojas seladas em «2013», mas os títulos da Renascença (4 ago. 2023, «regressam ao Stop após duas semanas com espaços selados») e do Observador (18 jul. 2023, «Câmara do Porto mandou fechar centenas de lojas») mostram que foi em 2023; por isso não se indicou o número exato de lojas. Concentrações e petições de 2023 segundo títulos de resultados de pesquisa (The Portugal News, Renascença), não lidos na íntegra. A ideia de que as bandas foram ocupando as lojas com o declínio do comércio é uma síntese, não uma cronologia confirmada. Não se encontrou no Commons uma foto identificável do Stop (a categoria existe mas não pôde ser aberta): usa-se imagem ilustrativa; a página do ficheiro não pôde ser aberta (surge nos resultados de pesquisa do Commons).",
+   "imagem": {
+    "commons": "Drum kit overview.JPG",
+    "tipo": "ilustrativa",
+    "alt": "Uma bateria completa, com tambores e pratos",
+    "legenda": "Uma bateria, peça de todas as salas de ensaio (imagem ilustrativa; não mostra o Centro Comercial Stop)"
+   }
+  }
+ ],
+ "agenda_aviso": "Deslocações hoje, sexta-feira, 27: há greve dos maquinistas no Metro do Porto, convocada pelo Sindicato Nacional dos Maquinistas dos Caminhos de Ferro Portugueses (SMAQ). Segundo a operadora ViaPorto, citada pela Rádio Jornal FM e pela Viva Porto, só circulam o tronco comum entre Senhora da Hora e Estádio do Dragão e a Linha Amarela (D) entre Hospital de São João e Santo Ovídio, com um metro a cada 15 minutos das 07:00 às 20:00 e a cada 30 minutos das 06:00 às 07:00 e das 20:00 à meia-noite; as restantes linhas (incluindo Póvoa, Vila do Conde e aeroporto) podem ficar sem serviço. Nenhuma das fontes diz quando a operação volta ao normal: convém confirmar no site da Metro do Porto antes de sair no sábado de manhã. Na edição de ontem, a greve dos maquinistas da CP prolongava-se até às 24:00 de hoje (DN), informação não reconfirmada esta manhã. Para os eventos, foram consultados hoje: a agenda geral da Casa da Música e as páginas de «Pizarro interpreta Britten», «O Último Canto dos Pássaros», Al Di Meola, Paus e Eliana Glass + Anne Paceo + Mammal Hands; o programa e as páginas de «Mechita», «A Epopeia dos Bani Hilal» e «Victor como toda a gente» no Teatro Municipal do Porto; a agenda e as páginas de atividades de Serralves; a página de horários e o preçário do Planetário do Porto; a página inicial e as páginas de eventos da Agenda Porto (luzes de Natal, Air Invictus, Praça da Fantasia, exposição do Centro Português de Fotografia) e a página do Centro Português de Fotografia na Viral Agenda. Não foi possível abrir hoje a página da Time Out sobre o Mercado de Natal da Batalha (que abre hoje, segundo a edição de ontem), nem a página da masterclass do realizador Jan Ijäs no Batalha (hoje, entrada livre, segundo a lista da Agenda Porto). Atenção a uma mudança face a ontem: o concerto de Al Di Meola de domingo, 29, aparecia ontem como esgotado e hoje surge sem essa indicação, com bilhetes à venda. Esgotados hoje, segundo a agenda da Casa da Música: Youn Sun Nah a 28 (22:00, Sala 2) e a oficina «Do Lixo se Faz Música» de 28 às 14:30 (a sessão das 10:30 tem lugares). Ficaram de fora por falta de espaço, com dados confirmados hoje: «Manual de Defesa», de Júlio Cerdeira (27 e 28, 19:30, Campo Alegre); Javier Perianes (28, 18:00, Casa da Música, 30 € a 34 €); o Porto/Post/Doc no Planetário (28, 17:30, último dia do festival); «Brahms, a Segunda Sinfonia» para famílias (29, 12:00, 14 €); Onceim em Serralves (29, 18:30); e «Victor como toda a gente» nas sessões de 27 a 29. Na segunda-feira, 30, o Centro Português de Fotografia está fechado (abre de terça a domingo, das 10:00 às 18:00) e não há atividades na agenda de Serralves; o Teatro Sá da Bandeira tem «Kairos», da ArtGym Company, com a Orquestra Orff do Porto, e o músico brasileiro Chico Chico toca no M.Ou.Co., mas nenhuma das páginas consultadas dá hora ou preço. O Planetário está fechado no domingo, 29. Onde se lê «Por confirmar», o dado não estava na fonte.",
+ "agenda": [
+  {
+   "dia": "2026-11-27",
+   "eventos": [
+    {
+     "nome": "Ensaio aberto: Pizarro interpreta Britten",
+     "descricao": "De manhã, a Orquestra Sinfónica do Porto Casa da Música deixa ver como se afina um concerto: o ensaio do programa que estreia à noite com o pianista Artur Pizarro.",
+     "horario": "10:00",
+     "tipo": "Música / Escolas e famílias",
+     "local": "Casa da Música (Sala Suggia, sem lugares marcados), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://casadamusica.com/agenda/",
+     "ligacao": "Casa da Música",
+     "nota": "Hora, sala, entrada livre e ausência de esgotado confirmadas hoje na agenda geral da Casa da Música. A necessidade de levantar bilhete e a orientação sobretudo para escolas vêm da página do ensaio consultada ontem (não reaberta hoje). Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "«Mechita», de Sol Garcia (Palcos Instáveis)",
+     "descricao": "Cinco mulheres usam o corpo e a voz como arquivo vivo de memórias de infância, liberdade e feminilidade, entre movimento, canto e música composta ao vivo.",
+     "horario": "21:00",
+     "tipo": "Dança / Performance",
+     "local": "Teatro Campo Alegre (Café-Teatro), Rua das Estrelas, 4150-762 Porto",
+     "preco": "7 €",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/sol-garcia-mechita/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 50 minutos, sem texto. Datas (27 e 28, às 21:00), sala e preço confirmados hoje na página do Teatro Municipal do Porto, que não indica esgotado; a 27 há conversa com as equipas artísticas no fim."
+    },
+    {
+     "nome": "Pizarro interpreta Britten",
+     "descricao": "Artur Pizarro é o solista do Concerto para piano de Britten, com a Orquestra Sinfónica do Porto Casa da Música dirigida por Michael Sanderling; na segunda parte, a Sinfonia n.º 2 de Brahms.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "30 € a 34 €",
+     "url": "https://casadamusica.com/event/pizarro-interpreta-britten/",
+     "ligacao": "Casa da Música",
+     "nota": "Data, hora, sala, programa, maestro e preços (34 €, 32 € ou 30 € conforme a zona; descontos para alguns públicos) confirmados hoje na página do concerto e na agenda, que não indicam esgotado. Duração não indicada."
+    },
+    {
+     "nome": "Anri Sala, «Fallen Vision» – noite de inauguração com EXAUDI",
+     "descricao": "Abre em Serralves a exposição do artista albanês; na estreia, o ensemble vocal EXAUDI, dirigido por James Weeks, canta ao vivo uma partitura de Sala e Jack Sheen inspirada nos seus frescos recentes.",
+     "horario": "22:30 (atuação do EXAUDI)",
+     "tipo": "Exposição / Música",
+     "local": "Museu de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2711-surface-otherwise-after-sta-xlii/",
+     "ligacao": "Serralves",
+     "nota": "Data, hora, local e acesso gratuito confirmados hoje na página da atuação e na agenda de Serralves; a exposição fica até abril de 2027. A página não dá a hora de abertura da exposição. A morada vem das edições anteriores. Evento repetido das edições de 24 a 26 de novembro."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-28",
+   "eventos": [
+    {
+     "nome": "«O Último Canto dos Pássaros»",
+     "descricao": "Concerto para famílias que parte do último canto gravado de uma ave havaiana extinta: gravações de pássaros de todo o mundo, eletrónica e imagens de Bianca Dacosta, a pensar na biodiversidade que se perde.",
+     "horario": "15:00",
+     "tipo": "Música / Família",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "9 €",
+     "url": "https://casadamusica.com/event/o-ultimo-canto-dos-passaros-2/",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Criação e interpretação de Óscar Rodrigues, com Ema Ferreira, Tiago Oliveira e Filipe Fernandes. Data, hora, sala e preço confirmados hoje na página do concerto e na agenda da Casa da Música, sem indicação de esgotado. Duração não indicada."
+    },
+    {
+     "nome": "«Havia Sempre Mais para Ver» – Viana Jorge, 120 anos (inauguração)",
+     "descricao": "Fotografias a preto e branco de Joaquim Guerreiro Viana Jorge (1906–1985): moliceiros, pescadores, lavadeiras, cidades e paisagens, e o verso das provas originais, com carimbos de salões e concursos.",
+     "horario": "15:30 (inauguração)",
+     "tipo": "Exposição",
+     "local": "Centro Português de Fotografia, Largo Amor de Perdição, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.agenda-porto.pt/en/evento/havia-sempre-mais-para-ver/",
+     "ligacao": "Agenda Porto",
+     "nota": "Datas (28 de novembro a 28 de fevereiro de 2027), horário (terça a domingo, 10:00–18:00) e entrada livre confirmados hoje na Agenda Porto; a hora da inauguração (15:30) vem da página do Centro Português de Fotografia na Viral Agenda, consultada hoje. Às 16:00 há uma conversa sobre a Kodak no mesmo local (Viral Agenda). A Agenda Porto não dá número de porta."
+    },
+    {
+     "nome": "Acendimento das luzes de Natal nos Aliados, com Áurea e Ricardo Ribeiro",
+     "descricao": "A cidade acende as luzes e a árvore de Natal com música, dança, luz e fogo de artifício: Áurea, Ricardo Ribeiro, a soprano Marina Pacheco e a Orquestra Portuguesa de Guitarras e Bandolins, dirigida por Hélder Magalhães.",
+     "horario": "18:00",
+     "tipo": "Natal / Música (gratuito)",
+     "local": "Avenida dos Aliados, Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.agenda-porto.pt/en/evento/2811-inauguracao-luzes-natal-aurea/",
+     "ligacao": "Agenda Porto",
+     "nota": "Data, hora, local, participantes e entrada livre confirmados hoje na Agenda Porto, que indica interpretação em Língua Gestual Portuguesa e rampas para pessoas com mobilidade reduzida. Duração não indicada. Evento já referido na edição de ontem, reconfirmado hoje."
+    },
+    {
+     "nome": "«A Epopeia dos Bani Hilal», de Bashar Murkus e Khulood Basel (Khashabi Theatre)",
+     "descricao": "Canto, dança, sombras e marionetas para contar a saga árabe da tribo Bani Hilal e do herói Abu Zaid al-Hilali, passada de boca em boca desde o século XIV.",
+     "horario": "19:30",
+     "tipo": "Teatro",
+     "local": "Teatro Campo Alegre (Auditório), Rua das Estrelas, 4150-762 Porto",
+     "preco": "9 €",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/bashar-murkus-khulood-basel-khashabi-theatre-al-sirah-al-hilaliyyah-a-epopeia-de-ban-hil-l/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "2h40 com intervalo; em árabe, legendado em português e inglês; classificação etária por definir. Datas (28 às 19:30 e 29 às 17:00), sala e preço reconfirmados hoje na página do Teatro Municipal do Porto, que não indica esgotado (bilhetes na BOL). Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "Air Invictus – espetáculo de drones sobre o Douro",
+     "descricao": "Centenas de drones iluminam o céu entre as duas margens do rio, na segunda edição do espetáculo, depois da estreia em junho.",
+     "horario": "21:30",
+     "tipo": "Espetáculo ao ar livre (gratuito)",
+     "local": "Ribeiras do Porto e de Vila Nova de Gaia (rio Douro)",
+     "preco": "Entrada gratuita",
+     "url": "https://www.agenda-porto.pt/en/evento/air-invictus-1795685498344/",
+     "ligacao": "Agenda Porto",
+     "nota": "Data, hora, local e entrada livre confirmados hoje na Agenda Porto, que não indica o organizador nem a duração e remete para airinvictus.com (não consultado). Espetáculo ao ar livre: pode depender do tempo; confirmar antes de ir."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-29",
+   "eventos": [
+    {
+     "nome": "«Brahms, a Segunda Sinfonia» – concerto para famílias",
+     "descricao": "A Orquestra Sinfónica do Porto Casa da Música apresenta, em versão comentada e ao meio-dia, a Sinfonia n.º 2 de Brahms.",
+     "horario": "12:00",
+     "tipo": "Música / Família",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "14 €",
+     "url": "https://casadamusica.com/agenda/",
+     "ligacao": "Casa da Música",
+     "nota": "Hora, sala e preço reconfirmados hoje na agenda geral da Casa da Música, sem indicação de esgotado. O formato comentado, a direção de Michael Sanderling e a classificação M/6 vêm da página do concerto consultada ontem (não reaberta hoje). Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "«Um Verão Violento», de Valerio Zurlini",
+     "descricao": "Riccione, verão de 1943: o filho de um alto dirigente fascista apaixona-se por uma viúva de guerra; quando Mussolini cai, tentam fugir juntos. Sessão da carta branca a Miguel Gomes.",
+     "horario": "17:00",
+     "tipo": "Cinema",
+     "local": "Casa do Cinema Manoel de Oliveira (Auditório), Fundação de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "3 € (estudantes, jovens e maiores de 64); 1,50 € (Amigos de Serralves); bilhete normal por confirmar",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2911-um-verao-violento/",
+     "ligacao": "Serralves",
+     "nota": "Itália, 1959, 98 minutos. Data, hora, sala e preços reduzidos confirmados hoje na página da sessão e na agenda de Serralves; a página não indica o preço normal nem a classificação etária. A morada vem das edições anteriores. Evento repetido da edição de ontem."
+    },
+    {
+     "nome": "Al Di Meola (Misty Fest)",
+     "descricao": "O guitarrista percorre a carreira no jazz, com o flamenco e o tango por perto, entre temas emblemáticos e composições novas.",
+     "horario": "21:00",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "30 € a 70 €",
+     "url": "https://casadamusica.com/event/al-di-meola/?selected_session=48964",
+     "ligacao": "Casa da Música",
+     "nota": "Data, hora, sala e preços (70 € nas filas A–D, 45 €, 40 €, 35 € no camarote e 30 € na fila Z; 25% de desconto para Amigos) confirmados hoje na página do concerto e na agenda. Atenção: ontem a agenda dava esta sessão como esgotada; hoje nem a página nem a agenda o indicam e há ligação para bilhetes. Confirmar lugares na bilheteira."
+    },
+    {
+     "nome": "Paus – concerto de despedida (Misty Fest)",
+     "descricao": "Ao fim de 18 anos, a banda despede-se dos palcos com a digressão de «Enterro»: math rock, krautrock e ritmos africanos, com imagens do seu percurso e um coro.",
+     "horario": "21:30",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "20 €",
+     "url": "https://casadamusica.com/event/paus/?selected_session=51857",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala e preço (25% de desconto para Amigos) reconfirmados hoje na página do concerto e na agenda, sem indicação de esgotado. Duração não indicada. Evento repetido da edição de ontem."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-30",
+   "eventos": [
+    {
+     "nome": "Praça da Fantasia na Rotunda da Boavista",
+     "descricao": "O recinto de Natal da Boavista tem pista de gelo natural, escorrega de gelo, casa do Pai Natal, carrosséis, comboio de Natal e bancas de artesanato, doces e farturas.",
+     "horario": "11:00–22:00 (última entrada cerca das 21:30)",
+     "tipo": "Natal / Família",
+     "local": "Praça Mouzinho de Albuquerque (Rotunda da Boavista), Porto",
+     "preco": "Entrada gratuita",
+     "url": "https://www.agenda-porto.pt/evento/praca-da-fantasia/",
+     "ligacao": "Agenda Porto",
+     "nota": "Datas (28 de novembro a 10 de janeiro), horário de segunda-feira (11:00–22:00, entradas até 30 minutos antes do fecho) e entrada livre confirmados hoje na Agenda Porto. A página não diz se as diversões (pista de gelo, carrosséis) são pagas à parte. Abre no sábado, 28 (sextas e sábados até às 23:30)."
+    },
+    {
+     "nome": "Sessão de planetário à escolha do público",
+     "descricao": "Ao fim da tarde de dias úteis, o Planetário do Porto abre a cúpula ao público geral numa sessão escolhida pelos primeiros visitantes a chegar.",
+     "horario": "16:00",
+     "tipo": "Família / Ciência",
+     "local": "Planetário do Porto – Centro Ciência Viva, Rua das Estrelas, s/n, 4150-762 Porto",
+     "preco": "6,60 € (adulto); 4,40 € (3–17 anos e maiores de 65); 15,40 € (família); grátis até aos 2 anos",
+     "url": "https://www.planetario.up.pt/pt/planear/horarios",
+     "ligacao": "Planetário do Porto",
+     "nota": "Hora e formato confirmados hoje na página de horários do Planetário (de manhã há sessões para escolas); preços confirmados hoje no preçário (30% de desconto com cartão U. Porto ou Porto. card). Reservas levantadas até 30 minutos antes; bilheteira: 226 089 800. A morada vem das edições anteriores. Também há sessão às 16:00 na sexta, 27."
+    },
+    {
+     "nome": "Eliana Glass + Anne Paceo + Mammal Hands (Misty Fest)",
+     "descricao": "Noite de jazz contemporâneo em três partes: a voz e o piano de Eliana Glass, a baterista Anne Paceo com uma banda de seis músicos e o trio britânico Mammal Hands, entre improviso, eletrónica e ambientes cinematográficos.",
+     "horario": "20:00",
+     "tipo": "Música",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "20 € a 40 €",
+     "url": "https://casadamusica.com/event/mammal-hands-anne-paceo/?selected_session=50683",
+     "ligacao": "Casa da Música",
+     "nota": "M/6. Data, hora, sala e preços (40 € nas filas A–D, 25 €, 22 € e 20 € no coro; 25% de desconto para Amigos) confirmados hoje na página do concerto, que tem bilhetes à venda e não indica esgotado. Duração não indicada."
+    },
+    {
+     "nome": "«Victor como toda a gente», de Pascal Bonitzer",
+     "descricao": "Fabrice Luchini é um ator que vive agarrado a Victor Hugo e recita versos todas as noites em Paris, até que o regresso da filha afastada lhe baralha a rotina. Com Chiara Mastroianni.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "5,50 €",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/victor-como-toda-a-gente-pascal-bonitzer/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12, 1h28, legendado. Sessão de segunda-feira (21:30) e preço confirmados hoje na página do Teatro Municipal do Porto, que não indica lugares disponíveis; em exibição até 6 de dezembro (sábado e domingo às 15:30, 18:00 e 21:30). A sinopse vem da edição de 26 de novembro."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Os 27 líderes da UE terminaram de madrugada, sem acordo, a cimeira sobre o orçamento europeu para 2028–2034; António Costa aponta agora para a cimeira de meados de dezembro.",
+   "noticia": 9
+  },
+  {
+   "texto": "Montenegro diz que o Governo não vai pedir ao Tribunal Constitucional que avalie as medidas da oposição no Orçamento; o Chega marcou um debate de urgência para 3 de dezembro.",
+   "noticia": 13
+  },
+  {
+   "texto": "A FIFA confirmou um ciberataque com acesso a «um conjunto limitado» de dados pessoais e comerciais; a AFP também foi atacada e desligou a plataforma onde os jornais vão buscar notícias.",
+   "noticia": 1
+  },
+  {
+   "texto": "Dois técnicos italianos morreram num ataque com drones no Kuwait; o Kuwait acusa o Irão, que nega qualquer envolvimento.",
+   "noticia": 10
+  },
+  {
+   "texto": "O Governo deu estatuto de «interesse estratégico nacional» à candidatura portuguesa a uma gigafábrica europeia de inteligência artificial.",
+   "noticia": 4
+  },
+  {
+   "texto": "Hoje há greve no Metro do Porto: só circulam o tronco comum Senhora da Hora–Estádio do Dragão e a Linha Amarela.",
+   "noticia": 16
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Domingo, 29 nov.",
+   "texto": "Lançamento previsto, não antes das 15h47 de Lisboa, da nave de carga Cygnus NG-25 para a Estação Espacial Internacional, num Falcon 9; acoplagem prevista para terça, 1 dez., se o tempo deixar."
+  },
+  {
+   "quando": "Quarta, 2 dez.",
+   "texto": "A ESA publica, por volta das 11h de Lisboa, o quarto grande catálogo da missão Gaia, com cerca de 2 mil milhões de estrelas e outros objetos.",
+   "noticia": 18
+  },
+  {
+   "quando": "Quinta, 3 dez.",
+   "texto": "Debate de urgência no Parlamento, pedido pelo Chega, sobre o Orçamento do Estado para 2027 e as medidas da oposição que o Governo diz que não vai aplicar.",
+   "noticia": 13
+  },
+  {
+   "quando": "Meados de dez.",
+   "texto": "Nova cimeira europeia em Bruxelas, onde os líderes voltam a tentar um acordo sobre o orçamento da UE até 2034 (data exata não reconfirmada hoje).",
+   "noticia": 9
+  }
+ ],
+ "linkedin_abertura": "Quase 15 horas de cimeira e nenhum acordo: os líderes da UE saíram de Bruxelas sem fechar o orçamento europeu até 2034 e voltam a tentar em dezembro."
+}
