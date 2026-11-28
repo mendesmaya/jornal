@@ -1,0 +1,65 @@
+[
+ {
+  "id": 1,
+  "ficheiro": "img/01-pedro-s-nchez-se-re-ne-con-el-presidente-nacional-del-partid.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedro_S%C3%A1nchez_se_re%C3%BAne_con_el_presidente_nacional_del_Partido_Popular%2C_Alberto_N%C3%BA%C3%B1ez_Feij%C3%B3o_%284%29.jpg?width=1000",
+  "commons": "Pedro Sánchez se reúne con el presidente nacional del Partido Popular, Alberto Núñez Feijóo (4).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 2,
+  "ficheiro": "img/02-sap-ag-headquarter-walldorf-building-1.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/SAP_AG_headquarter_Walldorf_building_1.jpg?width=1000",
+  "commons": "SAP AG headquarter Walldorf building 1.jpg",
+  "reserva": "assets/reserva-ciberseguranca.svg"
+ },
+ {
+  "id": 3,
+  "ficheiro": "img/03-cvn-69-transits-the-strait-of-hormuz-28465403076.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CVN_69_transits_the_Strait_of_Hormuz_%2828465403076%29.jpg?width=1000",
+  "commons": "CVN 69 transits the Strait of Hormuz (28465403076).jpg",
+  "reserva": "assets/reserva-mundo.svg"
+ },
+ {
+  "id": 4,
+  "ficheiro": "img/04-two-old-men-sitting-on-a-bench-365432689.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two_old_men_sitting_on_a_bench_%28365432689%29.jpg?width=1000",
+  "commons": "Two old men sitting on a bench (365432689).jpg",
+  "reserva": "assets/reserva-portugal.svg"
+ },
+ {
+  "id": 5,
+  "ficheiro": "img/05-the-cygnus-xl-cargo-spacecraft-approaches-the-international-.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Cygnus_XL_cargo_spacecraft_approaches_the_International_Space_Station_%28iss073e0816153%29.jpg?width=1000",
+  "commons": "The Cygnus XL cargo spacecraft approaches the International Space Station (iss073e0816153).jpg",
+  "reserva": "assets/reserva-espaco.svg"
+ },
+ {
+  "id": 6,
+  "ficheiro": "img/06-disneyanimationbuilding.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/DisneyAnimationBuilding.JPG?width=1000",
+  "commons": "DisneyAnimationBuilding.JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 7,
+  "ficheiro": "img/07-william-blake-by-thomas-phillips.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_Blake_by_Thomas_Phillips.jpg?width=1000",
+  "commons": "William Blake by Thomas Phillips.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 8,
+  "ficheiro": "img/08-frederick-hollyer-portrait-of-edward-burne-jones-c1882.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Frederick_Hollyer_portrait_of_Edward_Burne-Jones_c1882.jpg?width=1000",
+  "commons": "Frederick Hollyer portrait of Edward Burne-Jones c1882.jpg",
+  "reserva": "assets/reserva-cultura.svg"
+ },
+ {
+  "id": 9,
+  "ficheiro": "img/09-pr-republica-porto.jpg",
+  "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pr_Republica_%28Porto%29.JPG?width=1000",
+  "commons": "Pr Republica (Porto).JPG",
+  "reserva": "assets/reserva-cultura.svg"
+ }
+]

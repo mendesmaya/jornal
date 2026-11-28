@@ -1,0 +1,1110 @@
+{
+ "data": "2026-11-28",
+ "numero": "036",
+ "resumo": "Spain goes to the polls tomorrow, with the polls giving victory to the PP and Vox surging; in Portugal, the retirement age is set to reach 67 in 2028 and Chega files its zero-VAT bill; SAP confirms a cyberattack; and a cargo craft carrying a greenhouse leaves for the Space Station on Sunday.",
+ "tema_palavras": "words from this edition",
+ "noticias": [
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "SAP confirms cyberattack: hackers allegedly used employees' keys to get into the German software giant's code",
+   "estado": "Incident confirmed by SAP · access to source code reported by the German press, not confirmed by the company",
+   "data": "2026-11-27",
+   "texto": [
+    "SAP, Europe's largest software company, based in Walldorf, Germany, has confirmed that it was the target of a cyberattack. The magazine Der Spiegel revealed the case on Thursday 26 November: according to its sources, the hackers stole employees' «tokens» — digital keys that prove who is logging into a system — and used them to copy and alter company source code stored on GitHub, the platform where programmers work on code.",
+    "What SAP says. The company confirmed the incident but did not answer detailed questions. It says it detected «suspicious activity», acted immediately to protect customers and has so far found no signs of unauthorised access to customers' business data. It did not say who is behind the attack, how they got in, or whether the problem has been resolved.",
+    "Internally, the case has a code name: «Project Granite». According to Handelsblatt, SAP restricted access to GitHub, halted automated development processes and replaced the digital keys used to certify that its software is authentic. The German news agency dpa saw part of the internal communications and says employees were warned days before the case became public. The German press mentions the possibility that the attackers used AI «agents», but for now that is only a suspicion.",
+    "Why does this matter? SAP software runs the accounts, payroll and supply chains of thousands of large companies and public bodies around the world, including in Portugal. It remains to be seen whether the code was actually accessed and whether any changes reached customers. The case comes in the same week that Bloomberg reported SAP is considering cutting at least 10,000 jobs in an AI-focused restructuring."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "SAP's confirmation and the statement about no access to customer data match in the report by DTS/Presse Augsburg (which summarises Der Spiegel), Canadian HR Reporter (which compiles Der Spiegel, dpa, Handelsblatt and The Record) and Seeking Alpha. The theft of «tokens» and the copying/alteration of code come from anonymous Der Spiegel sources; SAP has not confirmed them. «Project Granite» and the internal measures come from Handelsblatt (cited). The 10,000 job cuts come from Bloomberg (cited by the Born blog and by Tek). The image's Commons page could not be opened; the file name comes from Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "Presse Augsburg / DTS – «SAP von IT-Sicherheitsvorfall betroffen» (SAP hit by IT security incident) (26 Nov, cites Der Spiegel)",
+     "url": "https://presse-augsburg.de/sap-von-it-sicherheitsvorfall-betroffen/"
+    },
+    {
+     "nome": "Canadian HR Reporter – «SAP confirms cyber incident after reports hackers reached source code» (27 Nov)",
+     "url": "https://www.hrreporter.com/focus-areas/hr-technology/sap-confirms-cyber-incident-after-reports-hackers-reached-source-code/395218"
+    },
+    {
+     "nome": "Seeking Alpha – «SAP source code target of cyberattack; company says no customer data compromised» (27 Nov)",
+     "url": "https://seekingalpha.com/news/4677022-sap-source-code-target-of-cyberattack-company-says-no-customer-data-compromised-report"
+    },
+    {
+     "nome": "Borns IT- und Windows-Blog – attack and cuts of 10,000 jobs (27 Nov)",
+     "url": "https://borncity.com/blog/2026/11/27/sap-goes-ki-opfer-eines-cyberangriffs-geworden-abbau-von-10-000-stellen-geplant"
+    },
+    {
+     "nome": "Tek Notícias – «SAP pondera cortar pelo menos 10.000 empregos numa reestruturação centrada na IA» (SAP considers cutting at least 10,000 jobs in an AI-focused restructuring) (27 Nov)",
+     "url": "https://tek.sapo.pt/noticias/negocios/artigos/sap-pondera-cortar-pelo-menos-10-000-empregos-numa-reestruturacao-centrada-na-ia/"
+    }
+   ],
+   "imagem": {
+    "commons": "SAP AG headquarter Walldorf building 1.jpg",
+    "tipo": "arquivo",
+    "alt": "SAP headquarters building in Walldorf, Germany",
+    "legenda": "SAP headquarters in Walldorf, Germany (archive image; does not show the attack)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Hackers got into the US Air Force's main computing «cloud», which runs radar, munitions and personnel systems",
+   "estado": "Intrusion reported by Reuters based on three sources · Air Force neither confirms nor denies",
+   "data": "2026-11-27",
+   "texto": [
+    "Another case in US government systems: hackers got into Cloud One, the US Air Force's main «cloud» computing platform. The news was broken by Reuters on Friday 27 November, based on three people familiar with the matter. The intrusion was reportedly discovered about a month ago, during a system update.",
+    "What is at stake. Cloud One has existed since 2017 and runs on servers from Microsoft, Amazon, Oracle and Google. It hosts applications for military operations, personnel, logistics and maintenance — including, according to Reuters, a system that receives data from air defence radars and another that controls munitions. One of the sources says the attackers exploited a software flaw to reach the platform's «control panel».",
+    "What we don't yet know: who the hackers are, how far they got and whether they took data. Investigators have asked US Cyber Command to assess the damage. Meanwhile, the platform is affected: application changes have been suspended, software updates blocked and some users have lost administrator permissions.",
+    "The Air Force said only that it does not comment on the security or status of specific networks, and that it takes measures to protect information. It is at least the seventh recent computer incident at US government bodies, after cases at FinCEN, the Treasury agency that receives money-laundering alerts, and at the CIA."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "All the information comes from the exclusive Reuters investigation (Mike Stone and Raphael Satter), read in AOL's republication, which is based on three anonymous sources. BleepingComputer confirms the same details but cites Reuters, so it is not an independent source. The Air Force has not confirmed the intrusion. The image's Commons page could not be opened; the file name comes from Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters (via AOL) – «Exclusive: Hackers breach US Air Force flagship Cloud One computing platform» (27 Nov)",
+     "url": "https://www.aol.com/articles/exclusive-hackers-breach-us-air-110125000.html"
+    },
+    {
+     "nome": "BleepingComputer – «US Air Force cloud platform reportedly hacked in latest federal breach» (27 Nov)",
+     "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/"
+    }
+   ],
+   "imagem": {
+    "commons": "An aerial view of the Pentagon, Washington, D.C., May 15, 2023.jpg",
+    "tipo": "arquivo",
+    "alt": "Aerial view of the Pentagon building in Washington",
+    "legenda": "The Pentagon, headquarters of the US Department of Defense (2023 archive image; does not show the attack)"
+   }
+  },
+  {
+   "seccao": "ciberseguranca",
+   "titulo": "Japanese newspaper Nikkei confirms leak of 5.4 million readers' data through a marketing tool",
+   "estado": "Leak confirmed by Nikkei · no known misuse · cards and passwords not included",
+   "data": "2026-11-27",
+   "texto": [
+    "Nikkei, Japan's largest business newspaper, confirmed on Friday 27 November that personal data of 5,399,986 registered users had leaked. The problem was not in the newspaper's systems but in KARTE, a marketing tool from the Japanese company Plaid, to which Nikkei handed this data to analyse readers' behaviour.",
+    "What data leaked? Gender, year and month of birth, and email addresses and phone numbers — the latter two «converted» into other strings of characters. Nikkei says the originals did not leak and that the conversion cannot be undone, but did not explain how it was done. Credit card numbers and passwords were not among the data handed to Plaid. So far, the newspaper says it has no sign that the information has been misused.",
+    "The timeline: Plaid detected third-party access on 13 November and shut down the whole KARTE service; two days later it notified Nikkei, which made the suspicion public on the 17th. According to Plaid, the attackers exploited a vulnerability in an internal process. Other Japanese companies that use the same tool, such as Sumitomo Mitsui bank and the airline Peach, were also affected.",
+    "In other words: an attack on a single supplier reached millions of people who had never heard of it. Nikkei will contact those affected directly and report the case to Japan's data protection authority. Plaid advises people to be wary of suspicious emails and text messages."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The figures and timeline come from Nikkei's statement of 27 November and Plaid's notices, summarised by the Japanese site Joho no Todai; Tokyo Reporter (which cites FNN) confirms the 5.4 million, the type of data and the absence of cards. Nikkei's and Plaid's statements could not be opened directly. The image's Commons page could not be opened; the file name comes from Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "Joho no Todai – «日経、委託先KARTEへの不正アクセスで日経ID利用者の個人情報約540万件の漏えいを確認» (Nikkei confirms leak of personal data of about 5.4 million Nikkei ID users through unauthorised access to contractor KARTE) (27 Nov)",
+     "url": "https://joho-todai.com/nikkei-karte-data-breach-5-4-million-users/"
+    },
+    {
+     "nome": "Tokyo Reporter – «Nikkei hit by massive data breach, 5.4 million user records exposed in cyberattack» (28 Nov)",
+     "url": "https://www.tokyoreporter.com/japan-news/nikkei-hit-by-massive-data-breach-5-4-million-user-records-exposed-in-cyberattack/"
+    }
+   ],
+   "imagem": {
+    "commons": "Otemachi Nikkei Building 20100618-001.jpg",
+    "tipo": "arquivo",
+    "alt": "The Nikkei building in the Otemachi district of Tokyo",
+    "legenda": "Nikkei building in Otemachi, Tokyo (2010 archive image; does not show the attack)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Two doctors caught with smart glasses in the specialty entrance exam; one of them was using AI",
+   "estado": "Cases confirmed by the Ministry of Health · validity of the exams still to be decided by the panel",
+   "data": "2026-11-26",
+   "texto": [
+    "Two doctors were caught with smart glasses in the Prova Nacional de Acesso (PNA), the national exam that ranks candidates for training in a medical specialty. It happened on Wednesday 25 November at the Europarque in Santa Maria da Feira, the exam venue for the North region. The Ministry of Health confirmed the cases on Thursday, after other candidates told the Lusa news agency about them.",
+    "How did it work? One of the candidates was wearing modified glasses with artificial intelligence. The other had glasses with a camera that sent images to someone outside the room, who whispered the answers through earphones. The invigilation teams spotted the devices, the officials confirmed and recorded the incidents, and the equipment was confiscated.",
+    "The exam rules forbid any electronic device, and using one can lead to the exam being annulled. The decision lies with the panel, after hearing the office that organises the exam. The candidates have not been identified.",
+    "The ministry says the cases do not, in themselves, show a security failure, but it is studying new measures — including technological solutions — to detect these devices. It admits that effectiveness, costs and logistics need to be balanced. In other words: AI glasses, ever more discreet and cheap, are forcing a rethink of how exams are invigilated."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The facts come from Lusa (published by DN) and RTP, which agree on the number of doctors, the type of devices and the risk of annulment; the venue, date and the ministry's position come from the Lusa text. How many candidates sat the exam was not confirmed. The image's Commons page could not be opened; the file name comes from Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "DN / Lusa – «Médicos apanhados a usar óculos com IA e câmara de filmar na prova de acesso à especialidade» (Doctors caught using AI glasses and a video camera in the specialty entrance exam) (26 Nov)",
+     "url": "https://www.dn.pt/sociedade/mdicos-apanhados-a-usar-culos-com-ia-e-cmara-de-filmar-na-prova-de-acesso-especialidade"
+    },
+    {
+     "nome": "RTP – «Médicos usaram óculos com IA na prova de acesso à especialidade» (Doctors used AI glasses in the specialty entrance exam) (26 Nov)",
+     "url": "https://www.rtp.pt/noticias/pais/medicos-usaram-oculos-com-ia-na-prova-de-acesso-a-especialidade_v1781928"
+    }
+   ],
+   "imagem": {
+    "commons": "Europarque (Santa Maria da Feira).jpg",
+    "tipo": "arquivo",
+    "alt": "The Europarque building in Santa Maria da Feira",
+    "legenda": "Europarque, in Santa Maria da Feira, where the exam took place for the North region (archive image; does not show the exam)"
+   }
+  },
+  {
+   "seccao": "ia",
+   "titulo": "New Chinese AI models delayed: US curbs on chips and on «copies» of American models weigh on companies",
+   "estado": "Delays reported by Reuters based on anonymous sources · companies have not confirmed the timelines",
+   "data": "2026-11-26",
+   "texto": [
+    "Chinese artificial intelligence companies are taking longer to launch new models. The news comes from Reuters, published on Thursday 26 November: new US rules on access to chips and American companies' stronger defences against «distillation» are holding back two of the best-known Chinese labs, Z.AI and Moonshot AI.",
+    "What is distillation? It means training a model on the answers of another, more advanced one — a cheap way of catching up with the competition. Anthropic said in September it had detected almost 200 million conversations with Claude linked to suspected distillation, which it attributed to Alibaba, Moonshot and Z.AI. OpenAI has made similar accusations. Moonshot denies that the results of its Kimi K3 model come from this.",
+    "The delays, according to Reuters' sources: Z.AI's next big model, GLM-5.5, was planned for November and may slip to 2027. At Moonshot, the usual six-month gap between models could stretch to 12 or more if it loses access to computers abroad; Kimi K4 may slip to mid-2027.",
+    "The backdrop is a US Department of Commerce rule, in force since 19 November, that requires a licence for data centres abroad with more than around 750 chips equivalent to Nvidia's H100. It was because of this rule that Nvidia halted server shipments to four Southeast Asian countries, as we reported yesterday."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "All the information comes from the exclusive Reuters report, read in the Daily Maverick's republication, based on anonymous sources; the Taipei Times published the same Reuters text, so it is not an independent source. Z.AI and Moonshot have not confirmed the new timelines. The original Reuters page could not be opened. No image."
+   },
+   "fontes": [
+    {
+     "nome": "Daily Maverick / Reuters – «US chip curbs, distillation crackdown threaten Chinese AI model development, sources say» (26 Nov)",
+     "url": "https://www.dailymaverick.co.za/article/2026-11-26-us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say/"
+    },
+    {
+     "nome": "Taipei Times / Reuters – same report (27 Nov)",
+     "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"
+    }
+   ]
+  },
+  {
+   "seccao": "ia",
+   "titulo": "Portuguese state starts AI training for civil servants and aims to reach 600,000 by 2030",
+   "estado": "Programme launched · first phase at IEFP until 31 December · 600,000 target is a goal, not a result",
+   "data": "2026-11-26",
+   "texto": [
+    "Civil servants are going to learn to use artificial intelligence. The Government launched the IA Agora AP programme in Lisbon on Thursday 26 November, aiming to train staff and managers in the public administration — including people who have never used an AI tool. The target is to reach 600,000 people by 2030, according to a member of the board of the INA, the National Institute of Administration, quoted by Lusa.",
+    "How does it work? Each person starts with an assessment that directs them to the right level. The training is mostly online and self-paced, with short videos, demonstrations and exercises linked to work in public services. Topics range from data protection and ethics to the use of generative AI and task automation. The introductory course and the intermediate path are free.",
+    "The first phase is for staff at the IEFP, the employment institute, and is due to be completed by 31 December. From 2027, the training will gradually extend to other bodies. The programme is coordinated by the INA and ARTE, the agency for the state's technological reform, with input from Microsoft, Google, Amazon Web Services and Instituto Superior Técnico.",
+    "The aim, the Government says, is for services to spend less time on repetitive tasks and serve citizens and businesses better. «State Reform is done with people», said the Assistant Minister for State Reform, Gonçalo Saraiva Matias."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The launch, phases, topics, the fact that it is free and the minister's quote come from the Government's statement; Tek Notícias (with Lusa) confirms the same details and adds the target of 600,000 workers by 2030, attributed to Miguel Agrochão of the INA. Jornal Económico confirms the date and venue of the launch. The programme's budget has not been disclosed. No image."
+   },
+   "fontes": [
+    {
+     "nome": "Portal do Governo – «IA Agora AP: formação em Inteligência Artificial quer simplificar os serviços públicos» (IA Agora AP: Artificial Intelligence training aims to simplify public services) (26 Nov)",
+     "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/ia-agora-ap-formacao-em-inteligencia-artificial-quer-simplificar-os-servicos-publicos"
+    },
+    {
+     "nome": "Tek Notícias – «Novo programa quer preparar a Administração Pública para a IA e formar 600 mil trabalhadores até 2030» (New programme aims to prepare the public administration for AI and train 600,000 workers by 2030) (27 Nov)",
+     "url": "https://tek.sapo.pt/noticias/computadores/artigos/novo-programa-quer-preparar-a-administracao-publica-para-a-ia-e-formar-600-mil-trabalhadores-ate-2030/"
+    },
+    {
+     "nome": "Jornal Económico – «INA lança programa de formação em inteligência artificial para toda a Administração Pública» (INA launches artificial intelligence training programme for the whole public administration) (23 Nov)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/ina-lanca-programa-de-formacao-em-inteligencia-artificial-para-toda-a-administracao-publica/"
+    }
+   ]
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Banned Nvidia chips turn up at a data centre in Shanghai; one rack was put up as collateral for a loan",
+   "estado": "Documents revealed by Bloomberg · no proof of who diverted the chips · Megaspeed denies wrongdoing",
+   "data": "2026-11-27",
+   "texto": [
+    "Nvidia's most powerful chips, which cannot be sold to China without US permission, have reached a data centre in Shanghai. The revelation comes from Bloomberg, on Friday 27 November, based on documents that two companies submitted to Chinese regulators. They refer to GB300 NVL72 and GB200 servers, of the Blackwell generation, at the so-called Yangtze River Delta Project.",
+    "How was it discovered? One of the companies, Shanghai Shuoyao, put up one of these server racks as collateral for a loan of 96 million yuan (about $14 million). Using the serial number, Bloomberg traced it, through a public manufacturer warranty database, to the Taiwanese manufacturer Gigabyte. Each of these racks has 72 Blackwell processors and weighs about 1.5 tonnes. According to the local press, the complex could eventually house up to 800,000 servers.",
+    "The case puts Megaspeed back in the spotlight. The Singapore company, which was Nvidia's largest customer in Southeast Asia, is being investigated by the US Justice Department on suspicion of breaking export rules, and denies wrongdoing. People linked to it appear to be associated with the Shanghai project, but Bloomberg says it has no proof that Megaspeed sent the equipment there. Shuoyao says it is merely a service provider to Megaspeed; Gigabyte will not say to whom it sold the rack; Nvidia did not respond.",
+    "Why does this matter? It shows how hard it is to control where AI chips go once they are sold — precisely what the new US rules are trying to stop. Nvidia's chief executive, Jensen Huang, is due to testify publicly before Congress on 3 December."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "The investigation is by Bloomberg (not consulted directly, as it is paywalled); Engadget and The Next Web summarise it and agree on the main facts, but depend on it. The US Justice Department's investigation into Megaspeed and the company's denial were already public. Following the rule set in the 23 November edition, we do not name Megaspeed's former executive or people linked to her, as there is no formal charge. Jensen Huang's hearing on 3 December comes from Engadget. Illustrative image: the file name comes from Commons search results (page not opened) and shows a Blackwell server of a different model."
+   },
+   "fontes": [
+    {
+     "nome": "Engadget – «Restricted NVIDIA chips were installed at a Chinese data center…» (27 Nov, summarises Bloomberg)",
+     "url": "https://www.engadget.com/2329748/restricted-nvidia-chips-were-installed-at-a-chinese-data-center-linked-to-alice-huang/"
+    },
+    {
+     "nome": "The Next Web – «Blackwell rack found at … Shanghai site, Bloomberg reports» (27 Nov)",
+     "url": "https://thenextweb.com/news/nvidia-blackwell-chips-alice-huang-shanghai-data-centre-bloomberg"
+    },
+    {
+     "nome": "Bloomberg – «Nvidia Blackwell chips turn up at China site…» (27 Nov, cited)",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"
+    }
+   ],
+   "imagem": {
+    "commons": "Nvidia DGX-B200-HGX.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Nvidia AI server with Blackwell-generation processors",
+    "legenda": "Nvidia server with Blackwell chips (illustrative image; does not show the Shanghai data centre)"
+   }
+  },
+  {
+   "seccao": "tecnologia",
+   "titulo": "Tesla's assisted driving may go to an EU vote on 15 December; Portugal has not yet authorised it",
+   "estado": "Vote possible, according to the Commission's provisional agenda · approval requires a qualified majority of the 27",
+   "data": "2026-11-26",
+   "texto": [
+    "European Union countries may vote on 15 December on whether to authorise Tesla's assisted-driving system across the EU. The information is in a provisional agenda published by the European Commission and was reported by Reuters on Thursday 26 November: member states will look again at the Netherlands' request to approve the system, «with possible vote».",
+    "What is it? It is the system Tesla sells in the US as «Full Self-Driving» and which in Europe has been renamed «Tesla Assisted Driving». Despite the original name, it always requires an attentive driver. The Netherlands gave a first approval in April, and around a dozen countries have followed — Italy was the largest market to do so, this week.",
+    "To apply across the EU, approval needs the support of at least 15 of the 27 countries, representing 65% of the population. Regulators have already discussed the matter twice without voting, and this meeting was postponed from 1 to 15 December. France and Sweden raised objections, and the European Transport Safety Council called in September for it to be rejected, because of a feature that allows speed limits to be exceeded.",
+    "And Portugal? It is not on the list of countries that have recognised the Dutch approval, according to an independent website that tracks the process country by country."
+   ],
+   "verificacao": {
+    "independentes": 1,
+    "nota": "The possible vote on 15 December and the 15 countries/65% rule come from Reuters (read in the Lufkin Daily News republication); Benzinga (via TradingView) repeats these details and adds the postponement from 1 to 15 December, the objections from France and Sweden, the ETSC's request and the Italian approval, but appears to be based on Reuters. Portugal's absence from the list comes from the independent site FSD Europe Tracker (updated on 27 Nov); it has not been confirmed with the IMT (Portugal's transport regulator) or the Government. The image's Commons page could not be opened; the file name comes from Commons search results."
+   },
+   "fontes": [
+    {
+     "nome": "Reuters (via Lufkin Daily News) – «EU may vote on authorising Tesla assisted-driving system at Dec 15 meeting» (26 Nov)",
+     "url": "https://lufkindailynews.com/news_reuters/business/eu-may-vote-on-authorising-tesla-assisted-driving-system-at-dec-15-meeting/article_0be574bf-1d96-53e5-8d2a-d8a959a4dbc4.html"
+    },
+    {
+     "nome": "Benzinga (via TradingView) – «Tesla Faces Crucial Dec. 15 EU Vote on Self-Driving Tech…» (26 Nov)",
+     "url": "https://www.tradingview.com/news/benzinga:b386cd420094b:0-tesla-faces-crucial-dec-15-eu-vote-on-self-driving-tech-after-months-of-regulatory-delays-here-s-what-elon-musk-led-ev-giant-needs/"
+    },
+    {
+     "nome": "FSD Europe Tracker – approval status by country (27 Nov)",
+     "url": "https://fsd-eu-tracker.de/en/"
+    }
+   ],
+   "imagem": {
+    "commons": "Tesla Model Y facelift 001.jpg",
+    "tipo": "ilustrativa",
+    "alt": "A Tesla Model Y car",
+    "legenda": "A Tesla Model Y (illustrative image)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Spain goes to the polls tomorrow: polls give victory to Feijóo's PP and Vox nearly doubling, but Sánchez says he can still win",
+   "estado": "Election set for Sunday 29 Nov (fact) · PP victory and a PP–Vox majority are poll forecasts",
+   "data": "2026-11-27",
+   "texto": [
+    "Spaniards choose a new parliament tomorrow, Sunday 29 November, in a snap general election. The campaign ended yesterday, Friday: the Socialist prime minister, Pedro Sánchez, closed it at a rally in Madrid with around 12,000 people, and the leader of the People's Party (PP, centre-right), Alberto Núñez Feijóo, in Seville, according to RTP. The polls give victory to the PP, but without an absolute majority, which requires 176 of the 350 seats.",
+    "What do the polls say? The average cited by Observador, a week before the vote, put the PP at around 31% (about 129 seats), Sánchez's PSOE at around 28% and the far-right Vox at around 19%, which would almost double its current 33 seats. Together, PP and Vox would exceed 190 seats. The gap between PP and PSOE has narrowed from around six to just over three points since the election was called, and two polls even allowed for a Socialist victory. The left-wing platform Frente Amplia, led by the former mayor of Barcelona Ada Colau, was below 7%. These are forecasts, not results.",
+    "Sánchez called this election on 5 October, two days after parliament voted down two decrees with housing measures, according to RTP. The parliamentary term would only have ended in July 2027. Housing is Spaniards' main concern, ahead of immigration and the economy, according to a CIS survey (the public centre for sociological research) cited by Euronews; rents have risen by an average of around 44% in five years, according to the Idealista property portal.",
+    "In the final hours of the campaign, each rallied their own voters. «This election is about the need for Spain to move forward and not go back to the past», said Sánchez, who demanded that the PP accept the results. Feijóo promised «a new era in Spain» if voters vote together, and the Vox leader, Santiago Abascal, warned that «ballot boxes are not filled with favourable polls», according to RTP. Feijóo has already admitted he could govern with Vox, with «red lines», and the two parties have governed together in four regions since this year. If no candidate wins the confidence of parliament within two months of the first vote, there will be new elections."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "End of the campaign, rallies by Sánchez (around 12,000 people, Madrid) and Feijóo (Seville), the 176-seat majority and the quotes from Sánchez, Feijóo and Abascal from RTP (27 Nov). Poll figures (averages from several outlets and two studies, without naming the polling companies), the calling of the election on 5 October, Frente Amplia and PP–Vox governments in four regions from Observador (22 Nov). Reason for the early election (housing decrees voted down) and the planned end of the term from RTP (5 Oct). CIS survey, rents (Idealista) and the two-month rule from Euronews (27 Nov); Euronews says the election was called «in July», which contradicts RTP and Observador — we followed the 5 October date. The polls are a week old; the most recent ones were not consulted. Feijóo's «red lines»: Observador headline (8 Nov), page not opened. Polling hours not confirmed. Image: file found in Commons search; the page could not be opened, and what it shows is inferred from the file name."
+   },
+   "fontes": [
+    {
+     "nome": "RTP – «Eleições em Espanha. Sánchez confiante na vitória apesar de sondagens desfavoráveis» (Elections in Spain. Sánchez confident of victory despite unfavourable polls) (27 Nov)",
+     "url": "https://www.rtp.pt/noticias/mundo/eleicoes-em-espanha-sanchez-confiante-na-vitoria-apesar-de-sondagens-desfavoraveis_n1782171"
+    },
+    {
+     "nome": "Observador (Lusa) – «Sondagens anunciam Governo PP/Vox a uma semana de legislativas \"ideológicas\" em Espanha» (Polls point to PP/Vox government a week before «ideological» general election in Spain) (22 Nov)",
+     "url": "https://observador.pt/2026/11/22/sondagens-anunciam-governo-pp-vox-a-uma-semana-de-legislativas-ideologicas-em-espanha/"
+    },
+    {
+     "nome": "Euronews – «Spain election: Will Vox be the kingmaker, and will housing decide the vote?» (27 Nov)",
+     "url": "https://www.euronews.com/2026/11/27/spain-general-election-is-vox-set-to-be-the-kingmaker-and-how-crucial-is-the-housing-issue"
+    },
+    {
+     "nome": "RTP – «Crise política em Espanha. Pedro Sánchez anuncia eleições antecipadas para 29 de novembro» (Political crisis in Spain. Pedro Sánchez announces snap election for 29 November) (5 Oct)",
+     "url": "https://www.rtp.pt/noticias/mundo/crise-politica-em-espanha-pedro-sanchez-anuncia-eleicoes-antecipadas-para-29-de-novembro_n1769632"
+    },
+    {
+     "nome": "Observador – «\"Não depende de mim\". Com \"linhas vermelhas\" e \"acordos claros\", Feijóo admite coligação de Governo com o Vox» («It doesn't depend on me». With «red lines» and «clear agreements», Feijóo admits a government coalition with Vox) (8 Nov, cited)",
+     "url": "https://observador.pt/2026/11/08/nao-depende-de-mim-com-linhas-vermelhas-e-acordos-claros-feijoo-admite-coligacao-de-governo-com-o-vox/"
+    }
+   ],
+   "imagem": {
+    "commons": "Pedro Sánchez se reúne con el presidente nacional del Partido Popular, Alberto Núñez Feijóo (4).jpg",
+    "tipo": "arquivo",
+    "alt": "Pedro Sánchez and Alberto Núñez Feijóo at a meeting in the Moncloa Palace, Madrid",
+    "legenda": "Pedro Sánchez receives Alberto Núñez Feijóo at the Moncloa, at an earlier meeting (archive image; does not show the campaign)"
+   },
+   "manchete": true
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "US fires on ship that tried to break the blockade of Iran's ports; Tehran says a tanker hit a mine in Hormuz",
+   "estado": "Attack on the ship: confirmed by the US · mine and Iranian threats: unverified statements",
+   "data": "2026-11-27",
+   "texto": [
+    "A US military aircraft fired on the merchant ship Pacific Archer, sailing under the flag of Palau, as it tried to break the US blockade of Iranian ports. The attack took place on Thursday 26 November in the Gulf of Oman and was announced on Friday by US Central Command (CENTCOM), according to AP and Euronews. The shots hit the stern and left the ship without propulsion; the civilian crew was not injured, according to the military.",
+    "The ship had left the Iranian port of Bandar Abbas and, according to ship-tracking websites, was heading for Singapore. It is at least the 15th ship the US says it has disabled since the blockade began in April, and the sixth since it was resumed in July after a pause during talks with Tehran, according to AP. Since July, 158 ships have been forced to change course. CENTCOM insists it always gives several warnings before firing; in June, an attack on another tanker killed three Indian sailors.",
+    "On the Iranian side, the Revolutionary Guard said two tankers had tried to pass through the Strait of Hormuz by an «unauthorised» route, and that one hit a mine and the other turned back. AP and Al Jazeera stress that this has not been independently confirmed. The commander of Iran's navy, Shahram Irani, promised on state television operations to «break the blockade» and drive the «enemy» out of the region's waters.",
+    "Why does this matter? The war between the US, Israel and Iran began at the end of February and has been at a stalemate for months, with both sides blocking shipping. According to the consultancy Rystad Energy, quoted by AP, the oil leaving the region in the first half of November fell by about 20% compared with October. Gulf countries, Pakistan and Turkey are trying, through diplomacy, to prevent a return to fighting."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Attack on the Pacific Archer, location, date, damage and unharmed crew: CENTCOM statement reported by AP (via PBS, 27 Nov), Al Jazeera (27 Nov) and Euronews (28 Nov). Count of disabled ships (15th, sixth since July), 158 diverted, the June attack and the Rystad Energy figures from AP. Revolutionary Guard statements (unverified) from AP and Al Jazeera; the quote from commander Shahram Irani only from Al Jazeera. The type of aircraft was not disclosed. Euronews refers to a «blockade since mid-July»; AP and Al Jazeera say it began in April and was resumed in July — we followed this version. Archive image found in Commons search; page not opened."
+   },
+   "fontes": [
+    {
+     "nome": "AP via PBS NewsHour – «U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports» (27 Nov)",
+     "url": "https://www.pbs.org/newshour/world/u-s-military-says-it-disabled-another-ship-that-tried-to-breach-naval-blockade-on-iranian-ports"
+    },
+    {
+     "nome": "Al Jazeera – «US military says it disabled merchant ship trying to breach Iran blockade» (27 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade"
+    },
+    {
+     "nome": "Euronews – «US military fires at a ship that violated blockade of Iranian ports» (28 Nov)",
+     "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports"
+    }
+   ],
+   "imagem": {
+    "commons": "CVN 69 transits the Strait of Hormuz (28465403076).jpg",
+    "tipo": "arquivo",
+    "alt": "US aircraft carrier passing through the Strait of Hormuz",
+    "legenda": "The aircraft carrier USS Dwight D. Eisenhower in the Strait of Hormuz (archive image; does not show the ship that was attacked)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Taiwan elects mayors and thousands of local officials today, as China sends military aircraft and attacks a candidate in Taipei",
+   "estado": "Voting under way today (fact) · results expected early in the evening in Taiwan · accusations against Beijing: statements",
+   "data": "2026-11-28",
+   "texto": [
+    "Taiwan votes today, Saturday 28 November, in local elections known as «nine-in-one»: around 11,000 posts are at stake, from mayors to councillors and neighbourhood chiefs, across the island's 22 cities and counties. Polls closed at 4pm local time (8am in Lisbon) and results were expected early in the evening, according to Al Jazeera, which cites AFP, AP and Reuters. When this edition went to press, there were no results yet.",
+    "The most closely watched contest is in Taipei, the capital. The mayor, Chiang Wan-an, of the Kuomintang (KMT, the main opposition party, which favours closer ties with Beijing), faces Puma Shen, an MP for the Democratic Progressive Party (DPP, in government) and an expert in Chinese information warfare. Chiang won last time by more than ten points, but he himself has called the race «very close». Four years ago, the KMT won 14 of the 22 cities and counties, the DPP five.",
+    "China, which claims Taiwan as its territory, is watching closely. Chinese police say Shen is wanted for «separatism»; he told Reuters he has never been contacted by them. Chinese state media accused Shen of receiving money from the US. Taiwan's Defence Ministry counted 33 Chinese military aircraft and eight warships around the island in 24 hours, and Taipei's Mainland Affairs Council accused Beijing of «cognitive warfare», in other words disinformation to influence the vote.",
+    "The result does not directly change Taiwan's policy towards China, which is set by the central government, and analysts warn that local elections are not a good guide to the 2028 presidential election. But a Shen victory in a KMT stronghold would be seen as «quite embarrassing» in Beijing, political scientist Austin Wang, of the University of Nevada, told Al Jazeera."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Date, number of posts, polling hours, the Taipei race, Chiang's quote, the results of four years ago and Austin Wang's comment from Al Jazeera (28 Nov, with AFP, AP and Reuters). 33 aircraft and eight ships in 24 hours, accusations by Chinese state media and Shen's reply to Reuters from Reuters (via the Korea Times, 28 Nov). Al Jazeera and the Korea Times share some Reuters material, so independence is partial. No confirmed results at closing time (a new search at around 09:00 Lisbon time did not find them either). Illustrative image found in Commons search; page not opened."
+   },
+   "fontes": [
+    {
+     "nome": "Al Jazeera (with AFP, AP and Reuters) – «Taiwan votes in local elections to choose mayors, other leaders» (28 Nov)",
+     "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders"
+    },
+    {
+     "nome": "Reuters via The Korea Times – «Taiwan votes in local elections as China sends warplanes, lambasts Taipei candidate» (28 Nov)",
+     "url": "https://www.koreatimes.co.kr/world/20261128/taiwan-votes-in-local-elections-as-china-sends-warplanes-lambasts-taipei-candidate"
+    }
+   ],
+   "imagem": {
+    "commons": "Taipei 101 in blue sky.jpg",
+    "tipo": "ilustrativa",
+    "alt": "The Taipei 101 skyscraper against a blue sky",
+    "legenda": "Taipei 101, in Taipei (illustrative image; does not show the elections)"
+   }
+  },
+  {
+   "seccao": "mundo",
+   "titulo": "Good news against malaria: Gavi restores money to vaccinate more children in Africa, thanks to $214 million from philanthropists",
+   "estado": "Donation announced (fact) · still needs approval from Gavi's board in December",
+   "data": "2026-11-27",
+   "texto": [
+    "Gavi, the international alliance that pays for vaccines for the poorest countries, is to restore part of the money it had cut from malaria vaccines. The announcement was made on Friday 27 November in Geneva: the organisation is receiving up to $214 million from GiveWell, with money from Coefficient Giving, two American philanthropic organisations, according to Gavi itself and Reuters. The support still has to be approved by Gavi's board in December.",
+    "What changes in practice? This year, for lack of money, Gavi reduced its support from 85% to 70% of eligible children in the areas where malaria is most widespread. With the donation, it goes back to 85%, which should spare countries from having to cut vaccination. «This created a lot of anxiety; a lot of ministers called», Gavi's chief executive, Sania Nishtar, told Reuters. «We went looking for money so we wouldn't have to scale back.»",
+    "The vaccine is already part of the schedule in 25 African countries, which together account for more than 70% of the world's malaria cases. In countries with at least one year of vaccination, around 80% of children receive the first dose and 70% the third, according to the Sabin Vaccine Institute. The vaccine has four doses, and completing them is the biggest challenge. «We are seeing a sharp drop in malaria cases, and mothers are seeing it», Eric Nebie, of the organisation PATH, told Reuters.",
+    "Malaria killed around 610,000 people in 2024, three in four of them children under five, almost all in Africa, according to Gavi. The organisation wants to fully protect 50 million children by 2030."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Amount, donors, board approval pending in December, the rise from 70% to 85%, 25 countries, Sabin Institute data and 2024 malaria figures from Gavi's press release (27 Nov). The earlier cut and the quotes from Sania Nishtar and Eric Nebie from Reuters (via KFGO, 27 Nov); also confirmed in the Taipei Times (agencies, 28 Nov). Image found in Commons search; page not opened; what it shows is inferred from the file name."
+   },
+   "fontes": [
+    {
+     "nome": "Gavi – «Major new funding announced for Gavi's malaria vaccine programme» (27 Nov)",
+     "url": "https://www.gavi.org/news/media-room/major-new-funding-announced-gavis-malaria-vaccine-programme"
+    },
+    {
+     "nome": "Reuters via KFGO – «Gavi set to restore malaria vaccine funding for countries» (27 Nov)",
+     "url": "https://kfgo.com/2026/11/27/gavi-set-to-restore-malaria-vaccine-funding-for-countries/"
+    },
+    {
+     "nome": "Taipei Times – «World News Quick Take» (28 Nov)",
+     "url": "https://www.taipeitimes.com/News/world/archives/2026/11/28/2003868555"
+    }
+   ],
+   "imagem": {
+    "commons": "RTS,S bring your child for malaria vaccination.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Appeal to vaccinate children against malaria with the RTS,S vaccine",
+    "legenda": "Malaria vaccination campaign with the RTS,S vaccine (illustrative image; not linked to Gavi's announcement)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Retirement age set to reach 67 in 2028, and those retiring early in 2027 lose 18% of their pension",
+   "estado": "Calculations by Lusa and ECO using provisional INE data · 2028 figure not yet official",
+   "data": "2026-11-27",
+   "texto": [
+    "The retirement age in Portugal is set to rise to 67 in 2028, one month more than in 2027. The calculation was made by the Lusa news agency and the newspaper ECO using provisional life expectancy data released by the Instituto Nacional de Estatística (INE, Portugal's national statistics office) on Friday 27 November. According to INE, people aged 65 can expect to live, on average, another 20.29 years (2024–2026 period), 0.10 years more than in the previous three-year period.",
+    "Why does this affect retirement? By law, the normal age for drawing a pension follows life expectancy at 65. It stands at 66 years and 9 months in 2026 and goes up to 66 years and 11 months in 2027. During the covid-19 years it actually fell, because more older people died. Now it is rising again and reaching a record, as Saturday's newspapers point out.",
+    "The same data increase the cut for those who retire early. The so-called sustainability factor goes from 17.63% to 18.04% in 2027. Anyone who takes early retirement, outside the special schemes and long careers, loses that percentage plus 0.5% for every month short of the legal age. There are exceptions: those aged 60 with 40 years of contributions escape the sustainability factor, but not the monthly penalty; and those who started working before 16, are 60 or over and have 46 years of contributions can retire with no cuts.",
+    "For people with long careers there is also the «personal retirement age»: for every year of contributions above 40, the qualifying age drops by four months. The 2028 figure will only be final when INE publishes the definitive data. Chega has been calling for the retirement age to be fixed at 65, a proposal that did not pass."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The 67 in 2028 comes from Lusa's own calculations (published in Observador and DN) and from ECO's, made separately from INE's provisional data; INE does not itself announce the retirement age. The life expectancy of 20.29 years and the 0.10-year increase come from ECO and DN/Lusa. The sustainability factor, the 0.5% monthly penalty and the exceptions come from Lusa (Observador); the personal retirement age comes from ECO. The «all-time high» is the reading of Público's front-page headline of 28 Nov (cited in Notícias ao Minuto's press review). INE's page was not consulted. Image: the file appears in Commons search results, but the page could not be opened; the location of the photograph has not been confirmed."
+   },
+   "fontes": [
+    {
+     "nome": "Observador (Lusa) – «Idade da reforma sobe para 67 anos em 2028» (Retirement age rises to 67 in 2028) (27 Nov)",
+     "url": "https://observador.pt/2026/11/27/idade-da-reforma-sobe-para-67-anos-em-2028/"
+    },
+    {
+     "nome": "ECO – «Idade da reforma volta a subir e atinge os 67 anos em 2028» (Retirement age rises again and reaches 67 in 2028) (27 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/27/idade-da-reforma-volta-a-subir-e-atinge-os-67-anos-em-2028/"
+    },
+    {
+     "nome": "DN (Lusa) – «Esperança de vida eleva idade da reforma para 67 anos em 2028» (Life expectancy raises retirement age to 67 in 2028) (27 Nov)",
+     "url": "https://www.dn.pt/economia/idade-da-reforma-sobe-para-67-anos-em-2028-2"
+    },
+    {
+     "nome": "Lusa – «Corte nas pensões antecipadas pelo fator de sustentabilidade sobe para 18% em 2027» (Sustainability factor cut on early pensions rises to 18% in 2027) (27 Nov)",
+     "url": "https://www.lusa.pt/economia/article/2026-11-27/48203124/corte-nas-pensões-antecipadas-pelo-fator-de-sustentabilidade-sobe-para-18-em-2027"
+    },
+    {
+     "nome": "Notícias ao Minuto – «Hoje é notícia» (In the news today) (front pages of 28 Nov, cited)",
+     "url": "https://www.noticiasaominuto.com/pais/3091664/hoje-e-noticia-burla-estado-e-foge-metade-dos-estagiarios-empregados"
+    }
+   ],
+   "imagem": {
+    "commons": "Two old men sitting on a bench (365432689).jpg",
+    "tipo": "ilustrativa",
+    "alt": "Two elderly men sitting side by side on a park bench",
+    "legenda": "Two elderly men sitting on a bench (illustrative image; does not show people quoted in the story)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Chega takes the Costa government's zero-VAT list and submits its own bill; PS repeats that it will not trigger a political crisis",
+   "estado": "Bill submitted to Parliament, no vote date yet · Government maintains its refusal",
+   "data": "2026-11-27",
+   "texto": [
+    "Chega, the far-right party, submitted a bill on Friday 27 November to bring VAT back to 0% on a basket of essential foods. The list is the same as in 2023, under António Costa's Socialist government: 46 types of product in 12 groups, from bread and rice to fruit, vegetables, milk, meat, fish, eggs and olive oil. The bill provides for the measure to apply from 1 January to 31 March 2027 and for the Government to assess its impact after one month.",
+    "It is Chega's response to the prime minister's refusal. Zero VAT made it into the 2027 State Budget thanks to the opposition, but Luís Montenegro says the Government will not draw up the list of products the measure needs in order to work, as it considers it «merely symbolic» with «practically no effect». André Ventura explained that he used the last PS government's basket to avoid «party politicising» the issue, and challenged the other opposition parties to approve the proposal. The leader of the PS (Socialist Party), José Luís Carneiro, had already said that «it is enough to go back to the 2023 list».",
+    "There are differences from 2023. Back then, the measure came from an agreement between the Government, farmers (CAP) and retailers (APED), with €140 million in support for producers. The bill now submitted has none of that. The finance minister, Joaquim Miranda Sarmento, calls it an «inefficient» measure and gives an example: in 2023, melon had 0% VAT and watermelon 6%.",
+    "Amid the dispute, the PS again rules out a crisis. Carneiro said on Friday that the Socialists will not allow «any instruments» seeking to provoke a political crisis to go through and that the country «is not plunged into chaos», according to Lusa. The president of the Assembleia da República (Portugal's parliament), José Pedro Aguiar-Branco, described the disagreements between Government and Parliament as «normal». The issue returns to the chamber on Thursday 3 December, in the urgent debate requested by Chega."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The submission of the bill and the contents of the basket match across ECO, Jornal Económico and Executive Digest; the 1 Jan to 31 Mar 2027 period, the 46 products, the quotes from Montenegro, Sarmento and Carneiro («it is enough to go back to the 2023 list», said before Friday) and the 2023 agreement come from ECO. Ventura's quotes come from Executive Digest. Carneiro's and Aguiar-Branco's statements of 27 Nov come only from Lusa's headlines and standfirsts (full text for subscribers only). The vote date for the bill was not found. Público's article on the subject could not be opened. Image: the file appears in Commons search results, but the page could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "ECO – «Melão incluído, melancia de fora. Veja a lista dos alimentos com ‘IVA zero’ que o Chega quer recuperar» (Melon in, watermelon out. See the list of ‘zero-VAT’ foods Chega wants to bring back) (27 Nov)",
+     "url": "https://eco.sapo.pt/2026/11/27/melao-incluido-melancia-de-fora-veja-a-lista-dos-alimentos-com-iva-zero-que-o-chega-quer-recuperar/"
+    },
+    {
+     "nome": "Jornal Económico – «Após rejeição da medida por parte de Montenegro, Chega volta à carga com proposta de IVA zero nos alimentos» (After Montenegro rejects the measure, Chega returns to the charge with a zero-VAT proposal on food) (27 Nov)",
+     "url": "https://jornaleconomico.sapo.pt/noticias/apos-rejeicao-da-medida-por-parte-de-montenegro-chega-volta-a-carga-com-proposta-de-iva-zero-nos-alimentos/"
+    },
+    {
+     "nome": "Executive Digest – «IVA zero nos alimentos: Chega entrega proposta no Parlamento e recupera lista de Costa» (Zero VAT on food: Chega submits proposal to Parliament and revives Costa's list) (27 Nov)",
+     "url": "https://executivedigest.sapo.pt/iva-zero-nos-alimentos-chega-entrega-proposta-no-parlamento-e-recupera-lista-de-costa-veja-os-produtos-incluidos/"
+    },
+    {
+     "nome": "Lusa – «Carneiro diz que PS não viabilizará quaisquer instrumentos que visem criar uma crise política» (Carneiro says PS will not allow any instruments aimed at creating a political crisis) (27 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-27/48204248/carneiro-diz-que-ps-não-viabilizará-quaisquer-instrumentos-que-visem-criar-uma-crise-política"
+    },
+    {
+     "nome": "Lusa – «Aguiar Branco considera normais divergências entre Governo e Parlamento» (Aguiar Branco considers disagreements between Government and Parliament normal) (27 Nov)",
+     "url": "https://www.lusa.pt/national/article/2026-11-27/48203976/aguiar-branco-considera-normais-divergências-entre-governo-e-parlamento"
+    },
+    {
+     "nome": "RTP – «OE2027. Debate de urgência requerido pelo Chega marcado para 3 de dezembro» (2027 Budget. Urgent debate requested by Chega set for 3 December) (26 Nov)",
+     "url": "https://www.rtp.pt/noticias/politica/oe2027-debate-de-urgencia-requerido-pelo-chega-marcado-para-3-de-dezembro_e1781811"
+    }
+   ],
+   "imagem": {
+    "commons": "Mercado do Bolhão interno.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Inside the Mercado do Bolhão market in Porto",
+    "legenda": "Mercado do Bolhão, in Porto (illustrative image; not related to Chega's bill)"
+   }
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Courts side with immigrants in 77% of rulings against AIMA, and requests to halt orders to leave the country have doubled",
+   "estado": "Data from the Higher Council of Administrative and Tax Courts, reported by the press",
+   "data": "2026-11-27",
+   "texto": [
+    "The administrative courts are ruling in favour of immigrants in the vast majority of cases against the Agency for Integration, Migration and Asylum (AIMA). Since the start of 2025, almost 21,000 lawsuits and urgent applications have been filed against the agency. Of the 4,864 cases already decided, 77.2% went against AIMA. The figures come from the Higher Council of Administrative and Tax Courts and were reported on Friday 27 November by Expresso and Observador.",
+    "Many of the cases concern rejected residence applications and notices to leave the country. AIMA has issued around 50,000 of these «voluntary departure» notices since the start of 2025. Applications for injunctions to suspend them have more than doubled: there were 3,939 in the whole of 2025 and already 7,940 by 17 November this year.",
+    "Why does this matter? A law published on 10 September (Law no. 62/2026) means that challenging the decision in court no longer automatically suspends the notice. Anyone who wants to stay while the case is decided has to apply for an urgent injunction. A note: a voluntary departure notice is not the same as an expulsion order, and the 77% refers only to cases already decided.",
+    "The Union of Migration Officers says the figures reflect a lack of resources. Its president, Manuela Niza Ribeiro, says they «don't speak of the officers' competence, they speak of the conditions they work in». The union is asking the Government for more staff for AIMA, a dedicated career track and specialised training."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The figures (almost 21,000 lawsuits, 4,864 rulings, 77.2%, 3,939 and 7,940 injunctions, around 50,000 notices, Law no. 62/2026) come from The Portugal News, which attributes them to the Higher Council of Administrative and Tax Courts, as cited by Expresso and Observador; DN's press review confirms Expresso's story («almost 80% of rulings favour immigrants»). The reactions of the Union of Migration Officers come from Executive Digest. The original Expresso and Observador articles were not opened. AIMA was not heard in the sources consulted."
+   },
+   "fontes": [
+    {
+     "nome": "The Portugal News – «Portugal courts rule against AIMA in 77% of cases» (27 Nov)",
+     "url": "https://www.theportugalnews.com/news/2026-11-27/portugal-courts-rule-against-aima-in-77-of-cases/1123341"
+    },
+    {
+     "nome": "DN – «Revista de imprensa. A crise política, as ordens de expulsão de imigrantes travadas nos tribunais e o preço das casas» (Press review. The political crisis, immigrant expulsion orders halted in the courts and house prices) (27 Nov)",
+     "url": "https://www.dn.pt/media-geral/revista-de-imprensa-a-crise-poltica-as-ordens-de-expulso-de-imigrantes-travadas-nos-tribunais-e-o-preo-das-casas"
+    },
+    {
+     "nome": "Executive Digest – «Tribunais travam centenas de expulsões de imigrantes e AIMA enfrenta mais de 20 mil ações judiciais» (Courts halt hundreds of immigrant expulsions and AIMA faces more than 20,000 lawsuits) (27 Nov)",
+     "url": "https://executivedigest.sapo.pt/tribunais-travam-centenas-de-expulsoes-de-imigrantes-e-aima-enfrenta-mais-de-20-mil-acoes-judiciais/"
+    },
+    {
+     "nome": "Observador – «Tribunais impedem centenas de ordens de expulsão de imigrantes emitidas pela AIMA» (Courts block hundreds of immigrant expulsion orders issued by AIMA) (27 Nov, cited)",
+     "url": "https://observador.pt/2026/11/27/tribunais-impedem-centenas-de-ordens-de-expulsao-de-imigrantes-emitidas-pela-aima/"
+    }
+   ]
+  },
+  {
+   "seccao": "portugal",
+   "titulo": "Fuel prices fall again on Monday and diesel should drop below €2, but the Government cuts part of the tax discount",
+   "estado": "ACP forecast for 30 Nov · cut to the ISP discount published in an order · final prices depend on the filling stations",
+   "data": "2026-11-27",
+   "texto": [
+    "Filling up should get cheaper from Monday 30 November. According to the forecast by the Automóvel Club de Portugal (ACP, Portugal's motoring association), based on Thursday's market close, a litre of diesel falls by 8.5 cents and petrol by 5 cents. That means standard diesel, which cost an average of €2.035 on 26 November, could drop back below €2, something that had not happened for three months, according to Jornal de Notícias.",
+    "But the fall at the pumps is likely to be slightly smaller. A government order published on Friday 27 November reduces the extraordinary discount on the fuel tax (ISP), created to offset rising prices. Calculations by Academia das Finanças, which already include this change, point to around 7.2 cents less on diesel (to close to €1.96) and 4.1 cents on petrol (to about €1.81).",
+    "In other words: filling a 50-litre tank should cost close to €3.60 less for diesel and €2 less for petrol. These forecasts are not official prices and do not always come true: last week a fall of 3.5 cents was expected and prices dropped by 2.9 cents for diesel and 2.4 for petrol. Each filling station can set its own price. The extraordinary ISP discount has been extended by law until 31 December."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "The ACP forecast (8.5 and 5 cents) and DGEG average prices come from O Digital (27 Nov) and are repeated by Academia das Finanças, which also cites Observador/Lusa. The effect of Order no. 539-A/2026/1, the estimates of 7.2 and 4.1 cents, the previous week's deviation and Law no. 64/2026 come from Academia das Finanças; Mira Online arrives at almost identical figures (7.22 and 4.15 cents). The «below €2 for the first time in three months» is JN's front-page headline of 28 Nov, cited in Notícias ao Minuto's press review. The ACP page and the order could not be read directly. Image: the file appears in Commons search results, but the page could not be opened."
+   },
+   "fontes": [
+    {
+     "nome": "O Digital – «Combustíveis devem baixar na segunda-feira. Gasóleo pode ficar abaixo dos 2 euros» (Fuel set to fall on Monday. Diesel may drop below 2 euros) (27 Nov)",
+     "url": "https://odigital.sapo.pt/preco-combustiveis-gasoleo-gasolina-30-novembro-2026/"
+    },
+    {
+     "nome": "Academia das Finanças – «Combustíveis próxima semana: gasóleo desce cerca de 7 cêntimos» (Fuel next week: diesel falls by about 7 cents) (27 Nov)",
+     "url": "https://academiafinancas.com/combustiveis-proxima-semana-30-novembro/"
+    },
+    {
+     "nome": "Mira Online – «Combustíveis voltam a baixar, mas alteração fiscal limita redução» (Fuel prices fall again, but tax change limits the reduction)",
+     "url": "https://miraonline.pt/%E2%9B%BD-combustiveis-voltam-a-baixar-mas-alteracao-fiscal-limita-reducao/"
+    },
+    {
+     "nome": "ACP – «Preço dos combustíveis na próxima semana | 30 de novembro a 6 de dezembro» (Fuel prices next week | 30 November to 6 December) (cited)",
+     "url": "https://www.acp.pt/o-clube/revista-acp/atualidade/detalhe/preco-dos-combustiveis-na-proxima-semana--30-de-novembro-a-6-de-dezembro"
+    },
+    {
+     "nome": "Notícias ao Minuto – «Hoje é notícia» (In the news today) (JN front page of 28 Nov, cited)",
+     "url": "https://www.noticiasaominuto.com/pais/3091664/hoje-e-noticia-burla-estado-e-foge-metade-dos-estagiarios-empregados"
+    }
+   ],
+   "imagem": {
+    "commons": "Bombas de gasolina, Paranhos, Porto.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Fuel pumps at a filling station in Paranhos, Porto",
+    "legenda": "Fuel pumps in Paranhos, Porto (illustrative image; does not show the new prices)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "«Jim Lovell» cargo ship leaves for the Space Station on Sunday with five tonnes and a greenhouse to grow food",
+   "estado": "Launch scheduled for Sunday 29 Nov at 15:47 Lisbon time · 60% chance of good weather, according to NASA",
+   "data": "2026-11-27",
+   "texto": [
+    "Everything is ready for the year's last resupply of the International Space Station. Northrop Grumman's Cygnus XL cargo ship is due to leave on Sunday 29 November at 15:47 Lisbon time, on a SpaceX Falcon 9 rocket from Cape Canaveral, Florida. It carries about 5 tonnes of scientific experiments and supplies. NASA gave the go-ahead on Friday to continue preparations.",
+    "The weather is the big question mark. Forecasts give a 60% chance of favourable conditions, and the main concern is thick layers of cloud: a rocket should not fly through them, because they can trigger electrical discharges. If the launch is postponed, there is another window on Monday 30 November at 15:24 Lisbon time.",
+    "On board are experiments designed for long journeys. One of them, Ohalo III, is a small greenhouse to test growing food in microgravity. Others study medicines against astronauts' loss of muscle mass, tiny replicas of tumours to understand how cancer spreads, and a radiation sensor for the areas where the crew lives. There is also a test of welding carried out by a robot, with no human intervention.",
+    "The ship has been named S.S. James «Jim» A. Lovell, in honour of the former astronaut of the Apollo 8 and Apollo 13 missions. If all goes to plan, it reaches the station in the early hours of Tuesday 1 December: at around 07:35 Lisbon time, astronauts Jessica Watkins and Luke Delaney will grab it with the Canadarm2 robotic arm. It stays docked until May 2027 and then burns up on re-entering the atmosphere, loaded with rubbish."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Time (10:47 EST = 15:47 Lisbon time), location, cargo (~11,000 pounds, about 5 tonnes), the ship's name, experiments, capture (02:35 EST on 1 Dec = 07:35 Lisbon time) by Jessica Watkins and Luke Delaney and departure in May 2027 confirmed in NASA's press release (18 Nov) and in The Florida Press (25 Nov); NASA's mission page confirms the experiments and the arm operators. The 60% forecast, the concern about thick cloud, Friday's «go» decision and the backup window on Monday (10:24 EST = 15:24 Lisbon time) come from NASA's Space Station blog (27 Nov) and are confirmed by SpaceAndSky (27 Nov). Space Coast Daily (23 Nov) gave 10:50 ET; we followed NASA's official time. The conversions to Lisbon time and from pounds to tonnes are ours. The weather forecast may change before Sunday."
+   },
+   "fontes": [
+    {
+     "nome": "NASA – «NASA, Partners' Preps on Track for Sunday Space Station Cargo Launch» (27 Nov)",
+     "url": "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/"
+    },
+    {
+     "nome": "NASA – «NASA Sets Coverage for Northrop Grumman CRS-25 Launch, Prelaunch» (18 Nov)",
+     "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grumman-crs-25-launch-prelaunch/"
+    },
+    {
+     "nome": "NASA – «NASA's Northrop Grumman CRS-25 Mission Overview»",
+     "url": "https://www.nasa.gov/missions/station/nasas-northrop-grumman-crs-25-mission-overview/"
+    },
+    {
+     "nome": "The Florida Press – «Cygnus cargo ship named for Jim Lovell targets Sunday launch from Cape Canaveral» (25 Nov)",
+     "url": "https://www.thefloridapress.com/news/cygnus-cargo-ship-named-for-jim-lovell-targets-sunday-launch-from-cape-canaveral"
+    },
+    {
+     "nome": "SpaceAndSky – «Cygnus XL NG-25 launch Sunday: 60% weather odds» (27 Nov)",
+     "url": "https://spaceandsky.com/cygnus-xl-ng-25-launch-sunday-weather-60-percent/"
+    }
+   ],
+   "imagem": {
+    "commons": "The Cygnus XL cargo spacecraft approaches the International Space Station (iss073e0816153).jpg",
+    "tipo": "arquivo",
+    "alt": "Cygnus XL cargo ship, with its solar panels open, approaching the International Space Station, with the Earth in the background",
+    "legenda": "A Cygnus XL approaching the International Space Station on an earlier mission, in 2025 (NASA archive image; does not show the NG-25 ship)"
+   }
+  },
+  {
+   "seccao": "espaco",
+   "titulo": "Neighbouring galaxies have less dark matter at their centres than models of the Universe predicted",
+   "estado": "Study published in Nature Astronomy on 26 Nov · the cause of the difference is not yet known",
+   "data": "2026-11-26",
+   "texto": [
+    "There is less dark matter at the centre of nearby galaxies than the best computer models predicted. That is the conclusion of an international team that analysed 136 of the Milky Way's neighbouring galaxies, in a study published on Thursday 26 November in the journal Nature Astronomy. The work is led by the Shanghai Astronomical Observatory, in China, with the Instituto de Astrofísica de Canarias (Canary Islands Institute of Astrophysics), in Spain.",
+    "Dark matter cannot be seen: it can only be detected through the gravitational pull it exerts on stars and gas. So the team measured how stars move, with data from the MaNGA and CALIFA surveys, and the more distant hydrogen gas, with China's FAST radio telescope. Combining the two made it possible to trace dark matter out to 20,000 to 50,000 parsecs from the centre — further than previous studies.",
+    "The result does not match three of the most widely used simulations of the Universe (IllustrisTNG, EAGLE and SIMBA). The difference appears in galaxies with more than 10 billion solar masses in stars and grows with size: in the largest, the zone «missing» dark matter extends to about 160,000 light years from the centre.",
+    "Why does this matter? Dark matter makes up most of the mass of the Universe and no one knows what it is made of. The authors point to two possible leads: the energy released by giant black holes at the centre of galaxies, which may push dark matter outwards, or dark matter particles colliding with each other. Neither explains everything, and more observations of the largest galaxies are needed."
+   ],
+   "verificacao": {
+    "independentes": 2,
+    "nota": "Sample (136 galaxies, from about a billion to 300 billion solar masses), data (MaNGA, CALIFA, hydrogen with FAST), reach of 20–50 kpc, simulations compared and extent from ~10 kpc to more than 50 kpc in the largest galaxies confirmed in the scientific paper (arXiv version, lead author Yu Lei, Shanghai Astronomical Observatory) and in Orbital Wire (27 Nov), which also gives the journal, the publication date (26 Nov), the IAC's involvement (Jesús Falcón-Barroso) and the possible explanations. The arXiv version consulted does not name the journal. The stories from the IAC, Phys.org and Nature could not be opened; Orbital Wire and GazeWire are based on the press release published by Phys.org. «Up to 50 kpc ≈ 160,000 light years» comes from Orbital Wire. The sentence about dark matter making up most of the mass of the Universe is reference knowledge. Illustrative image: the galaxy NGC 1300 is not necessarily part of the sample."
+   },
+   "fontes": [
+    {
+     "nome": "arXiv – Lei et al., «Lower central dark matter densities in nearby galaxies than predicted by simulations»",
+     "url": "https://arxiv.org/pdf/2609.16740"
+    },
+    {
+     "nome": "Orbital Wire – «Lower dark matter densities found in 136 nearby galaxies» (27 Nov)",
+     "url": "https://orbital-wire.com/astronomy-astrophysics/international-team-finds-lower-dark-matter-densities-galaxies/"
+    },
+    {
+     "nome": "GazeWire – «Nearby Galaxies Challenge Dark Matter Simulations» (27 Nov)",
+     "url": "https://gazewire.com/science-space/nearby-galaxies-show-lower-dark-matter-than-simulations-predict"
+    },
+    {
+     "nome": "Nature Astronomy – paper published on 26 Nov (cited)",
+     "url": "https://www.nature.com/articles/s41550-026-03017-y"
+    },
+    {
+     "nome": "IAC – «El enigma de la materia oscura se acentúa: las galaxias cercanas desafían las simulaciones del universo» (The dark matter mystery deepens: nearby galaxies challenge simulations of the universe) (cited)",
+     "url": "https://www.iac.es/es/divulgacion/noticias/el-enigma-de-la-materia-oscura-se-acentua-las-galaxias-cercanas-desafian-las-simulaciones-del-universo"
+    }
+   ],
+   "imagem": {
+    "commons": "Hubble2005-01-barred-spiral-galaxy-NGC1300.jpg",
+    "tipo": "ilustrativa",
+    "alt": "Barred spiral galaxy NGC 1300, with bluish arms and a bright core, photographed by the Hubble telescope",
+    "legenda": "The spiral galaxy NGC 1300 seen by Hubble (illustrative image; not necessarily part of the study)"
+   }
+  }
+ ],
+ "cultura": [
+  {
+   "rubrica": "cinema",
+   "titulo": "«Hexe: O Reino da Magia» (Hexed): Disney's new animated film takes a mother and daughter to a world of witches — lovely to look at, but with a story the critics already know by heart",
+   "ficha": {
+    "Original title": "Hexed (2026; USA)",
+    "Director": "Fawn Veerasunthorn and Jason Hand; Walt Disney Animation Studios (the studio's 65th animated feature)",
+    "Voices (original version)": "Hailee Steinfeld (Billie), Rashida Jones (Alice, the mother), Walton Goggins, Jodie Foster (Queen Celeste), Henry Winkler, Dan Stevens, Tracey Ullman and Stephen Fry",
+    "Release in Portugal": "Thursday 26 November 2026; in the USA on 25 November; rated PG in the USA; around 100 minutes (sources give 99 to 103)",
+    "Reviews": "Mixed reviews: between 55% and 68% positive reviews on Rotten Tomatoes in the first few days, depending on the number of reviews counted; 57 on Metacritic (according to Pirates & Princesses)"
+   },
+   "texto": [
+    "Disney has a new film in Portuguese cinemas. «Hexe: O Reino da Magia» (Hexed), the 65th animated feature from Walt Disney Animation Studios, opened on Thursday 26 November. It is an original story — neither a sequel nor a remake — directed by Fawn Veerasunthorn and Jason Hand, and international critics greeted it with a mixture of praise and yawns.",
+    "The premise is simple. Billie is an impulsive, unconventional teenager who discovers she has magical powers. Those powers tear her away from her quiet life in the suburbs and take her to Hexe, a vast kingdom of witches. She does not go alone: her mother, Alice, a cautious and organised woman, goes with her, and the two end up unearthing family secrets capable of changing that world. In the original version, Billie is voiced by Hailee Steinfeld and Alice by Rashida Jones; Jodie Foster plays Queen Celeste and Walton Goggins a three-eyed cat.",
+    "Its strengths, according to the reviews consulted, lie in the visuals and in the relationship between mother and daughter. The animation is praised almost unanimously, and several reviews single out Jodie Foster's villain as one of the best things in the film. J. Don Birnam, of Awards Watch, speaks of «classic Disney magic»; Collider found an adventure centred on a mother and a daughter refreshing; Abe Friedtanzer, of Awards Buzz, says there is enough humour for adults and adventure for younger viewers.",
+    "Its weaknesses lie in the plot. The most repeated complaint is that the story follows very familiar paths: Guy Lodge, of Variety, liked it but finds in it echoes of many earlier coming-of-age stories; Jacob Oller, of the AV Club, found the effects flashy and the quest forgettable; Benjamin Lee, of the Guardian, saw a Disney tale «by numbers». Some also point to a slow first half, which improves from the middle onwards. In short, according to the assessment drawn from the reviews consulted: a pretty, likeable adventure to watch as a family, which charms more through spectacle than through story."
+   ],
+   "fontes": [
+    {
+     "nome": "filmSPOT – Cinema releases in Portugal in November 2026",
+     "url": "https://filmspot.pt/estreias/202611/"
+    },
+    {
+     "nome": "Magazine.HD – New film with Hailee Steinfeld («Hexe») opens in cinemas (18 Nov)",
+     "url": "https://www.magazine-hd.com/apps/wp/novo-filme-hailee-steinfeld-hawkeye-pecadores-hexe-estreia-cinemas/"
+    },
+    {
+     "nome": "Forbes – Disney's «Hexed» Casts Weak Spell Over Rotten Tomatoes Critics (Tim Lammers, 24 Nov)",
+     "url": "https://www.forbes.com/sites/timlammers/2026/11/24/disneys-hexed-casts-weak-spell-over-rotten-tomatoes-critics/"
+    },
+    {
+     "nome": "Pirates & Princesses – Hexed reviews are in, and critics are split on Disney's witch movie",
+     "url": "https://piratesandprincesses.net/hexed-reviews-are-in-and-critics-are-split-on-disneys-witch-movie/"
+    },
+    {
+     "nome": "MovieWeb – Disney's New 103-Minute Fantasy Adventure Movie Stumbles on Rotten Tomatoes",
+     "url": "https://movieweb.com/hexed-rotten-tomatoes-critics/"
+    }
+   ],
+   "nota": "Release in Portugal on 26 Nov and Portuguese title according to filmSPOT (list of November releases) and Magazine.HD, which also gives the synopsis (Billie, her mother Alice, the kingdom of Hexe, family secrets). Directors, voices, PG rating, US release on 25 Nov and the reviews from Awards Watch, Awards Buzz, Variety, AV Club and the Guardian according to Forbes (57% from 23 reviews, on 24 Nov); Collider, praise for the villain and the animation, criticism of the pace of the first half and 57 on Metacritic according to Pirates & Princesses; the studio's 65th feature and 68% from 53 reviews according to MovieWeb. The Rotten Tomatoes score changed a lot in the first few days, so a range is given. The running time differs (103 min in the MovieWeb headline, 99 min in the details on the same page). The reviews were read through these aggregators, not on the original pages. The filmSPOT page with the week's releases could not be opened; the Portuguese distributor, the dubbed/subtitled versions, the Portuguese voices, the cinemas, the showtimes and the Portuguese age rating were not confirmed. The assessment is drawn from the reviews consulted, not from our own viewing. The image was chosen from Commons search results; the file page could not be opened and the description is based on the file name.",
+   "imagem": {
+    "commons": "DisneyAnimationBuilding.JPG",
+    "tipo": "ilustrativa",
+    "alt": "The Disney animation studios building, in Burbank, California",
+    "legenda": "The Walt Disney Animation Studios building, in Burbank (USA), where the studio's animated features are made (illustrative image; does not show the film)"
+   }
+  },
+  {
+   "rubrica": "artista",
+   "titulo": "William Blake was born 269 years ago: the London poet-engraver who saw angels in the trees and invented a way of printing text and image in one go",
+   "ficha": {
+    "Born and died": "28 November 1757, at 28 Broad Street, in Soho, London; 12 August 1827, at Fountain Court, London; buried in Bunhill Fields",
+    "Field": "Poetry, engraving, painting and watercolour; English Romanticism",
+    "Essential work": "«Songs of Innocence» (1789) and «Songs of Experience» (1794), with «The Tyger»; «The Marriage of Heaven and Hell» (1790); «Milton» (1811) and «Jerusalem» (1820); the colour prints of the 1790s, such as «Pity»; illustrations for the Book of Job and Dante's «Divine Comedy»",
+    "Technique": "Relief etching, which prints text and drawing on the same plate, then coloured by hand",
+    "Now": "269 years since his birth on 28 November; this year the National Gallery of Ireland, in Dublin, showed him in the exhibition «William Blake: The Age of Romantic Fantasy» (30 Apr–19 Jul), organised with Tate"
+   },
+   "texto": [
+    "William Blake was born 269 years ago, on 28 November 1757, above the family hosiery shop in Soho, London. In his lifetime he was almost unknown, an engraver who made a living illustrating other people's books. Today he is seen as one of the great poets of the English language and one of the most original visual artists of Romanticism — and as someone who, with his wife, made entire books on his own, from the poem to the binding.",
+    "The story begins early and unusually. As a child, Blake said he had seen God at a window of his home and a tree full of angels at Peckham Rye, on the outskirts of London. He had visions all his life. At 14 he was apprenticed to the engraver James Basire and spent hours drawing the royal tombs in Westminster Abbey. He then entered the Royal Academy Schools, but left at war with official taste and with its president, Joshua Reynolds. He married Catherine Boucher, who became an essential partner in printing and painting the works.",
+    "In 1787 his younger brother, Robert, died. According to Blake, Robert appeared to him in a dream and revealed a new printing method: relief etching, in which text and image stand in relief on the same copper plate and come out together on the paper. Each copy was then painted by hand, which makes every one a unique piece. That is how «Songs of Innocence» (1789) and «Songs of Experience» (1794), which includes «The Tyger», came into being, as well as prophetic books such as «Milton» and «Jerusalem». His themes ranged from poverty and child labour to tyranny and religious hypocrisy. In style, he sought a spiritual art, inspired by Michelangelo, Raphael and Dürer, with figures drawn from the imagination and the Bible rather than from landscape, like Turner or Constable.",
+    "A curiosity about how little success he had in his lifetime: in 1809, he put on a solo exhibition in the house where he had been born. Few people came, and the only published review was scathing. He lived almost always in London — he spent only three years away, at Felpham, in Sussex — and never left Britain. He died in 1827, singing, according to a friend, about what he saw in heaven. He was buried in Bunhill Fields, the burial ground of London's religious dissenters, where the Blake Society placed a stone over the grave."
+   ],
+   "fontes": [
+    {
+     "nome": "The Blake Society – William Blake",
+     "url": "https://blakesociety.org/blake/"
+    },
+    {
+     "nome": "The Metropolitan Museum of Art – William Blake (1757–1827) (essay)",
+     "url": "https://www.metmuseum.org/essays/william-blake-1757-1827"
+    },
+    {
+     "nome": "Discover Ireland – William Blake: The Age of Romantic Fantasy (National Gallery of Ireland)",
+     "url": "https://www.discoverireland.ie/dublin/william-blake-the-age-of-romantic-fantasy"
+    }
+   ],
+   "nota": "Date and place of birth (28 Broad Street, Soho, above the hosiery shop), childhood visions, apprenticeship with Basire from 1772 and drawings at Westminster, Royal Academy (1779) and conflict with Reynolds, Catherine Boucher's role, the dream of Robert (1787), dates of the works, Felpham (from 1800), the 1809 exhibition, death at Fountain Court on 12 Aug 1827, George Cumberland's remark and Bunhill Fields according to the Blake Society. Relief etching, hand colouring, social themes, influences (Raphael, Michelangelo, Dürer), contrast with Turner and Constable, Felpham 1800–1803, never having left Britain, «Pity» and current standing according to the Met. The date of the marriage differs (1782 at the Met, 1783 at the Blake Society), so it is not given. The age of 14 at the apprenticeship comes from 1772 minus 1757. Dublin exhibition (30 Apr–19 Jul 2026, with Tate) according to Discover Ireland; no exhibition currently running nor any specific event for the anniversary was found. The image was chosen from Commons search results; the file page could not be opened and the description is based on the file name (portrait of Blake by Thomas Phillips, from 1807, general knowledge).",
+   "imagem": {
+    "commons": "William Blake by Thomas Phillips.jpg",
+    "tipo": "obra",
+    "alt": "Oil portrait of William Blake, a middle-aged man with an intense gaze, in a dark coat",
+    "legenda": "William Blake portrayed by Thomas Phillips (1807) (work in the public domain)"
+   }
+  },
+  {
+   "rubrica": "sabias",
+   "titulo": "Did you know that, for more than a century, some painters used a brown paint made from ground-up Egyptian mummies?",
+   "texto": [
+    "It was called «mummy brown» («castanho múmia», in Portuguese) and it was exactly what the name says: a pigment made from the remains of ancient Egyptian mummies, ground up and mixed with resins and oil. It was widely used from the mid-18th century until the Victorian era, and the Pre-Raphaelite painters, in England, were among its customers. Dante Gabriel Rossetti is named as one of the buyers.",
+    "Why would anyone paint with mummies? For the colour. It was a warm brown, leaning towards reddish, somewhere between raw and burnt umber, and it mixed well with other paints. Depending on the recipe, it could have redder, yellower or even purplish tones. It had one flaw: it faded easily. The mummies were dug up and smuggled out of Egypt, and there are accounts that some of the paint may have been made from bodies that were not Egyptian at all.",
+    "Many painters did not even know what was on their brush. When Edward Burne-Jones discovered where the brown came from, he was so disturbed that, according to his wife, he insisted on burying the tube in the garden — and planted a daisy on top. Eugène Delacroix is said to have used it too, for example in «Liberty Leading the People», but that is hard to confirm: testing the paint in a picture without damaging it is rarely possible, so most of these attributions remain unproven.",
+    "The paint lasted longer than you might think. The London firm Roberson & Co. kept it in its catalogue until 1933 and made its last tube in 1964. That year, a director of the company explained that there was no way to carry on: they could not get any more mummies. «Mummy brown» is still sold today, but it is made from minerals. Next time you see a beautiful brown in a 19th-century painting, you will know what question to ask."
+   ],
+   "fontes": [
+    {
+     "nome": "Art UK – The corpse on the canvas: the story of mummy brown paint",
+     "url": "https://artuk.org/discover/stories/the-corpse-on-the-canvas-the-story-of-mummy-brown-paint"
+    },
+    {
+     "nome": "Smithsonian Magazine – Ground-Up Mummies Were Once an Ingredient in Paint",
+     "url": "https://www.smithsonianmag.com/smart-news/ground-mummies-were-once-ingredient-paint-180950350/"
+    }
+   ],
+   "nota": "Composition (ground mummies with resin and myrrh, oil base), colour between raw and burnt umber, variations in tone, use from the mid-18th century to the Victorian era, the Pre-Raphaelites and Rossetti, smuggling of mummies and accounts of bodies of London criminals, Delacroix (rumour) and the difficulty of testing, Roberson & Co. (catalogue until 1933, last tube in 1964) and mineral substitutes according to Art UK. Paint that faded, Burne-Jones burying the tube and the daisy (according to his wife's recollection), end of production in the 1960s and the director's remark in 1964 («We certainly can't get any more») according to the Smithsonian. Art UK attributes the account of the burial to Rudyard Kipling and the Smithsonian to Burne-Jones's wife; the Smithsonian was followed. The Smithsonian does not name the company; the identification with Roberson comes from Art UK. Image chosen from Commons search results; the file page could not be opened and the description is based on the file name.",
+   "imagem": {
+    "commons": "Frederick Hollyer portrait of Edward Burne-Jones c1882.jpg",
+    "tipo": "arquivo",
+    "alt": "Old black-and-white photograph of the painter Edward Burne-Jones, with a beard",
+    "legenda": "The painter Edward Burne-Jones photographed by Frederick Hollyer, around 1882 (archive image)"
+   }
+  },
+  {
+   "rubrica": "movimento",
+   "titulo": "Porta-Jazz: 16 years ago, Porto's jazz musicians came together in an association — and today they have their own venue, a record label and a festival",
+   "ficha": {
+    "Origins": "Association founded in 2010 by Porto jazz musicians; its first public project was the Festival Porta-Jazz, that same year",
+    "Where": "Espaço Porta-Jazz, Praça da República, 156, Porto (regular concerts since 2023); weekly sessions at Maus Hábitos",
+    "Field": "Music: jazz and improvised music; concerts, jam sessions, residencies, training and record releases",
+    "Participants": "Musicians from the Porto jazz scene, with Portuguese and foreign guests; the Carimbo Porta-Jazz label (since 2012); partnerships with foreign collectives",
+    "Now": "16th Festival Porta-Jazz in February 2026, at the Rivoli; regular programme at the Espaço Porta-Jazz; support from the Direção-Geral das Artes (DGArtes, the government arts agency)"
+   },
+   "texto": [
+    "In Porto, jazz musicians decided 16 years ago not to wait for someone to open the door for them. In 2010 they founded the Associação Porta-Jazz, so they could play original music regularly and reach new audiences. Today the association has its own venue on the Praça da República, a record label and an annual festival, which in February this year reached its 16th edition, at the Teatro Rivoli.",
+    "The basic idea is simple: a collective of musicians who organise themselves to create, play and show what they do. The first public step was the Festival Porta-Jazz itself, back in 2010. In 2012 the label was born, Carimbo Porta-Jazz, which releases records by musicians in the circle and which, according to the Teatro Municipal do Porto, has now passed a hundred releases. In 2013 the Sala Porta-Jazz opened, for rehearsals, residencies, concerts and workshops.",
+    "The association gets around the city. There is a jam session (an open improvisation session) on Fridays and a weekly series on Tuesdays at Maus Hábitos, «Jazz à Mesa» (Jazz at the Table), with meetings between musicians and new repertoire. There have also been summer concerts in the gardens of the Palácio de Cristal, a free jazz course with the Conservatório de Música do Porto and a partnership with Guimarães Jazz. Since 2023, the regular programme has been held at the Espaço Porta-Jazz, at no. 156 Praça da República.",
+    "Why does this matter? Because jazz is music that lives on being played live and on people meeting, and a city needs small stages where that happens every week, not just at festivals. Porta-Jazz also connects Porto to other scenes: at the last festival it hosted partner collectives from abroad, such as the Swiss AMR, from Geneva, and created its own group projects, such as Ursa Maior. For anyone who wants to take a look, the listings are on the association's website and on Agenda Porto."
+   ],
+   "fontes": [
+    {
+     "nome": "Direção-Geral das Artes – Associação Porta-Jazz (entity profile)",
+     "url": "https://www.dgartes.gov.pt/pt/entidade/2884"
+    },
+    {
+     "nome": "Teatro Municipal do Porto – 16th Festival Porta-Jazz",
+     "url": "https://teatromunicipaldoporto.pt/en/programa/16-festival-porta-jazz-a-terra-vista-do-ar/"
+    },
+    {
+     "nome": "Agenda Porto – Espaço Porta-Jazz",
+     "url": "https://www.agenda-porto.pt/en/local/espaco-porta-jazz/"
+    },
+    {
+     "nome": "Maus Hábitos – Porta Jazz presents: Hugo Ferreira + Gil Silva (Jazz à Mesa, 6 Jan 2026)",
+     "url": "https://www.maushabitos.com/events/260106-porta-jazz-apresenta-hugo-ferreira-gil-silva"
+    },
+    {
+     "nome": "Porta-Jazz – Archive",
+     "url": "https://portajazz.com/arquivo"
+    }
+   ],
+   "nota": "Founding in 2010 by Porto jazz musicians, the festival as the first initiative, Carimbo Porta-Jazz (2012), Sala Porta-Jazz (from 2013), free course with the Conservatório, concerts in the Jardins do Palácio, partnership with Guimarães Jazz and DGArtes support according to the DGArtes profile (which also mentions the 10th edition of the festival and 50 records, so these details date from 2020 or thereabouts). 16th edition on 6–8 Feb 2026 at the Rivoli, Carimbo release no. 119, Ursa Maior and partner collectives (Improdimensija, Bezau Beatz, Orbits, NICA, AMR-Genève) according to the Teatro Municipal do Porto. Address and regular concerts since 2023 according to Agenda Porto, which also lists a concert by the João Tavares Sexteto on 28 Nov (no year given, so it is not mentioned in the text). Jazz à Mesa on Tuesdays at Maus Hábitos according to the Maus Hábitos page (6 Jan 2026); jam session on Fridays and «Jazz às Terças» (Jazz on Tuesdays) according to the archive on the association's website (partly read). The founders' names, the number of members and the date of the next festival were not confirmed. The «16 years» figure comes from 2010–2026. No photograph of the Espaço Porta-Jazz was found on Commons: an illustrative image of the square is used; the file page could not be opened and the description is based on the file name.",
+   "imagem": {
+    "commons": "Pr Republica (Porto).JPG",
+    "tipo": "ilustrativa",
+    "alt": "The Praça da República, in Porto, with trees and buildings around it",
+    "legenda": "The Praça da República, in Porto, where the Espaço Porta-Jazz is located (illustrative image; does not show the association or a concert)"
+   }
+  }
+ ],
+ "agenda_aviso": "Getting around: according to Metro do Porto (notice of 27 November), the train drivers' strike called by SMAQ (the national train drivers' union) extends to today, Saturday 28, but with a «very slight impact»: the whole network runs from 06:00 to 01:00, with the Yellow line (D) every 7 minutes from 16:00 to 23:00, the Blue line (A) every 15 minutes until 22:00 and the Violet (E) and Orange (F) lines every 30 minutes. Aliados station closes from 16:00 to 20:00, because of the Christmas lights switch-on, and the upper deck of the Ponte Luiz I is closed to pedestrians from 21:00 to 22:00, during the drone show (information also confirmed by Viva Porto). On Sunday 29, the metro runs as on a normal Sunday, with a special service for FC Porto–Sporting at the Dragão, at 20:30. The website Notícias Primeira Mão (26 November) mentions a new metro strike between 28 November and 4 December, but Metro do Porto has not yet published the service for Monday 30 and Tuesday 1: it is worth checking the operator's website before setting out. On CP (Portuguese Railways), SAPO 24, quoted by the aggregator parou.pt, says the train drivers are considering new strikes, but none was found scheduled for these four days; no strike on STCP (Porto's buses) was found either, nor a special timetable for the 1 December public holiday (the only notice found on the STCP website is from 2025). For the events, the following were consulted today: the Casa da Música listings and concert pages (English version); the programme and the pages for «A Epopeia dos Bani Hilal», «Manual de Defesa» and «Victor como toda a gente» at the Teatro Municipal do Porto; the Serralves listings and activity pages; the listings and the «Auto da Barca do Inferno» page at the TNSJ; the Planetário do Porto times and prices pages; and, on Agenda Porto, the home page, the Christmas programme, the Coliseu page and the pages for the events mentioned. It was not possible to open: the Portuguese Casa da Música listings, the TNSJ online box office (so the price of «Auto da Barca do Inferno» is to be confirmed), the Coliseu listings (which require JavaScript) and the Agenda Porto pages on the Coliseu. For that reason the following were left out: «O Quebra-Nozes» (The Nutcracker), by the Imperial Heritage Ballet (Coliseu, 28), and Richard Strauss's «Uma Sinfonia Alpina» (An Alpine Symphony), in the Concertos Promenade (Coliseu, 29), with neither time nor price confirmed. Sold out: Youn Sun Nah (28, 22:00, Sala 2 at the Casa da Música). The Al Di Meola concert (29, 21:00) again appears as sold out in the Casa da Música listings, although the concert page does not say so and keeps the link to tickets: check with the box office. Left out for lack of space, with details confirmed today: «Manual de Defesa», by Júlio Cerdeira (28, 19:30, Campo Alegre, €7), «Mechita», by Sol Garcia (28, 21:00, Campo Alegre), and «A Epopeia dos Bani Hilal» on Saturday (28, 19:30); «Auto da Barca do Inferno» on Saturday (28, 19:00); the exhibition «Havia Sempre Mais para Ver» (There Was Always More to See), at the Centro Português de Fotografia (closed on Mondays); and «Um Verão Violento» (Violent Summer), by Valerio Zurlini (29, 17:00, Casa do Cinema Manoel de Oliveira). There are no activities in the Serralves listings on Monday 30, nor concerts in the Casa da Música listings on 1 December. The Planetário is closed on Sunday 29. The Praça da Fantasia gives no specific opening hours for the 1 December public holiday. Where it says «To be confirmed», the information was not in the source.",
+ "agenda": [
+  {
+   "dia": "2026-11-28",
+   "eventos": [
+    {
+     "nome": "«O Último Canto dos Pássaros» (The Birds' Last Song)",
+     "descricao": "A family concert that starts from the last recorded song of an extinct Hawaiian bird: recordings of birds from all over the world, electronics and images by Bianca Dacosta, with a thought for the biodiversity being lost.",
+     "horario": "15:00",
+     "tipo": "Music / Family",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "€9",
+     "url": "https://casadamusica.com/en/event/the-last-song-of-the-birds/?selected_session=58700",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (age rating). Date, time, hall and price reconfirmed today on the concert page and in the Casa da Música listings, with no sold-out notice. Running time not given. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Switching on the Christmas lights at the Aliados, with Áurea and Ricardo Ribeiro",
+     "descricao": "The city switches on its Christmas lights and tree with music, dance, light and fireworks: Áurea, Ricardo Ribeiro, the soprano Marina Pacheco and the Orquestra Portuguesa de Guitarras e Bandolins (Portuguese Guitar and Mandolin Orchestra), conducted by Hélder Magalhães.",
+     "horario": "18:00",
+     "tipo": "Christmas / Music (free)",
+     "local": "Avenida dos Aliados, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/evento/2811-inauguracao-luzes-natal-aurea/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, time, venue, performers and free entry reconfirmed today on Agenda Porto (with Portuguese Sign Language interpretation and ramps). According to Metro do Porto, Aliados station closes from 16:00 to 20:00 for safety reasons. Running time not given. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Javier Perianes – Falla, Chopin and Albéniz",
+     "descricao": "The Spanish pianist brings together nocturnes, mazurkas and waltzes by Falla and Chopin, Falla's «Four Spanish Pieces» and four pieces from Albéniz's «Iberia».",
+     "horario": "18:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "€30 to €34",
+     "url": "https://casadamusica.com/en/event/javier-perianes-en/?selected_session=46364",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (age rating). Date, time, hall, programme and prices (€34, €32 or €30 depending on the area; discounts for some audiences) confirmed today on the recital page and in the Casa da Música listings, with no sold-out notice. Running time not given."
+    },
+    {
+     "nome": "Hampus Lindwall plays Stephen O'Malley: «Spheres Collapser»",
+     "descricao": "The organist plays a piece for pipe organ by Stephen O'Malley (of Sunn O)))): deep drones, long chords and very slow transformations, in which the church's acoustics become part of the music.",
+     "horario": "19:00",
+     "tipo": "Music (Stephen O'Malley Focus, Serralves)",
+     "local": "Igreja Paroquial de Cedofeita, Porto",
+     "preco": "Free entry (according to Agenda Porto)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2811-hampus-lindwall-plays-stephen-oand39malley/",
+     "ligacao": "Serralves",
+     "nota": "Date, time and venue confirmed today on the Serralves page, which gives no price and has no link to tickets; the free entry comes from the Agenda Porto list of events consulted today. Exact address and running time not given."
+    },
+    {
+     "nome": "Air Invictus – drone show over the Douro",
+     "descricao": "Hundreds of drones light up the sky between the two banks of the river, in the second edition of the show, after its debut in June.",
+     "horario": "21:30",
+     "tipo": "Outdoor show (free)",
+     "local": "Ribeiras do Porto e de Vila Nova de Gaia (River Douro)",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/en/evento/air-invictus-1795685498344/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, time, venue and free entry reconfirmed today on Agenda Porto, which does not give the organiser or the running time. According to Metro do Porto, the upper deck of the Ponte Luiz I is closed to pedestrians from 21:00 to 22:00. Outdoor show: may depend on the weather. Event repeated from yesterday's edition."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-29",
+   "eventos": [
+    {
+     "nome": "«Brahms, a Segunda Sinfonia» (Brahms, the Second Symphony) – family concert",
+     "descricao": "The Orquestra Sinfónica do Porto Casa da Música, conducted by Michael Sanderling, presents Brahms's luminous Symphony No. 2 at midday, in a version with commentary.",
+     "horario": "12:00",
+     "tipo": "Music / Family",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "€14",
+     "url": "https://casadamusica.com/en/event/brahms-the-second-symphony/?selected_session=47273",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (age rating). Date, time, hall, conductor, format with commentary and price (discounts for some audiences) reconfirmed today on the concert page and in the listings, with no sold-out notice. Running time not given. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "«Auto da Barca do Inferno» (The Play of the Ship of Hell), by Gil Vicente, directed by Marta Pazos",
+     "descricao": "Dead, the characters arrive at a quay where an Angel and a Devil decide who goes to Paradise and who goes to Hell; the 1517 play returns to the stage with dance and visual arts.",
+     "horario": "16:00",
+     "tipo": "Theatre",
+     "local": "Teatro Nacional São João, Praça da Batalha, Porto",
+     "preco": "To be confirmed",
+     "url": "https://www.tnsj.pt/pt/espetaculos/7266/auto-da-barca-do-inferno/",
+     "ligacao": "TNSJ",
+     "nota": "M/12 (age rating), 1h30. Running from 12 November to 13 December (Wednesday, Thursday and Saturday at 19:00, Friday at 21:00, Sunday at 16:00), according to the TNSJ page consulted today, which gives neither prices nor any sold-out notice; it was not possible to open the online box office. On the 29th there is a talk with Dori, with no time given. There is also a performance on Saturday 28, at 19:00. The address (Praça da Batalha) does not come from the page consulted."
+    },
+    {
+     "nome": "«A Epopeia dos Bani Hilal» (The Epic of the Bani Hilal), by Bashar Murkus and Khulood Basel (Khashabi Theatre)",
+     "descricao": "Song, dance, shadows and puppets to tell the Arab saga of the Bani Hilal tribe and the hero Abu Zaid al-Hilali, passed down by word of mouth since the 14th century.",
+     "horario": "17:00",
+     "tipo": "Theatre",
+     "local": "Teatro Campo Alegre (Auditório), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€9",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/bashar-murkus-khulood-basel-khashabi-theatre-al-sirah-al-hilaliyyah-a-epopeia-de-ban-hil-l/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/16 (age rating), 2h40 with an interval; spoken in Arabic and Amharic, with Portuguese and English subtitles. Dates (28 at 19:30 and 29 at 17:00), venue and price reconfirmed today on the Teatro Municipal do Porto page, which does not show it as sold out (tickets on BOL). Note: yesterday the age rating was «to be determined» and today the page gives M/16. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Onceim plays Stephen O'Malley and François J. Bonnet",
+     "descricao": "The French experimental music orchestra, with 25 to 35 musicians, plays O'Malley's «Gruidés» (around 35 minutes of long, sustained sounds) and Bonnet's «Orbes», seven sections whose order the conductor chooses at each concert.",
+     "horario": "18:30",
+     "tipo": "Music (Stephen O'Malley Focus)",
+     "local": "Auditório do Museu de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "€13; €9 (Friends of Serralves, students, ages 12–18 and over-65s)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/2911-onceim-plays-stephen-oand39malley-francois-j-bonnet/",
+     "ligacao": "Serralves",
+     "nota": "Date, time, hall, prices and programme confirmed today on the Serralves page, which has a link to tickets and does not show it as sold out. The address comes from previous editions."
+    },
+    {
+     "nome": "Paus – farewell concert (Misty Fest)",
+     "descricao": "After 18 years, the Lisbon band says goodbye to the stage with the «Enterro» (Burial) tour: experimental rock, with images and sounds from its career and a choir.",
+     "horario": "21:30",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala 2), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "€20",
+     "url": "https://casadamusica.com/en/event/paus-2/?selected_session=51861",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (age rating). Date, time, hall and price (25% discount for Friends) reconfirmed today on the concert page and in the listings, with no sold-out notice. Running time not given. Event repeated from yesterday's edition."
+    }
+   ]
+  },
+  {
+   "dia": "2026-11-30",
+   "eventos": [
+    {
+     "nome": "Praça da Fantasia at the Rotunda da Boavista",
+     "descricao": "The Boavista Christmas grounds have an ice rink and ice slide, carousels, a Christmas train and stalls with crafts and regional produce.",
+     "horario": "11:00–22:00 (last entry at 21:30)",
+     "tipo": "Christmas / Family",
+     "local": "Praça Mouzinho de Albuquerque (Rotunda da Boavista), Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/evento/praca-da-fantasia/",
+     "ligacao": "Agenda Porto",
+     "nota": "Dates (28 November to 10 January), Monday to Thursday hours (11:00–22:00, entry until 30 minutes before closing) and free entry reconfirmed today on Agenda Porto, which does not say whether the attractions are paid for separately nor give specific hours for the 1 December public holiday. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Planetarium session chosen by the audience",
+     "descricao": "In the late afternoon on weekdays, the Planetário do Porto opens its dome to the general public for a session chosen by the first visitors to arrive.",
+     "horario": "16:00",
+     "tipo": "Family / Science",
+     "local": "Planetário do Porto – Centro Ciência Viva, Rua das Estrelas, s/n, 4150-762 Porto",
+     "preco": "€6.60 (adult); €4.40 (ages 3–17 and over-65s); €15.40 (family); free up to age 2",
+     "url": "https://www.planetario.up.pt/pt/planear/horarios",
+     "ligacao": "Planetário do Porto",
+     "nota": "Time and format reconfirmed today on the times page (in the morning there are sessions for schools); prices reconfirmed on the price list (30% discount with a U. Porto card or Porto. card). Bookings must be collected up to 30 minutes beforehand; box office: 226 089 800. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "Eliana Glass + Anne Paceo + Mammal Hands (Misty Fest)",
+     "descricao": "A night of contemporary jazz in three parts: the voice and piano of Eliana Glass, the drummer Anne Paceo with the album «Atlantis» and a six-piece band, and the British trio Mammal Hands with «Circada».",
+     "horario": "20:00",
+     "tipo": "Music",
+     "local": "Casa da Música (Sala Suggia), Av. da Boavista, 604-610, 4149-071 Porto",
+     "preco": "€20 to €40",
+     "url": "https://casadamusica.com/en/event/mammal-hands-anne-paceo-2/?selected_session=50687",
+     "ligacao": "Casa da Música",
+     "nota": "M/6 (age rating). Date, time, hall and prices (€40 in rows A–D, €25, €22 and €20 in the choir seats) reconfirmed today on the concert page and in the listings, with no sold-out notice. Running time not given. Event repeated from yesterday's edition."
+    },
+    {
+     "nome": "«Victor como toda a gente» (Victor, Like Everyone Else), by Pascal Bonitzer",
+     "descricao": "Fabrice Luchini is an actor devoted to the work of Victor Hugo who recites verse every night in a Paris theatre, until the return of his daughter, with whom he had lost touch, shakes up his routine.",
+     "horario": "21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/victor-como-toda-a-gente-pascal-bonitzer/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12 (age rating), 1h28. Monday screening (21:30) and price reconfirmed today on the Teatro Municipal do Porto page, with no sold-out notice; showing until 6 December. Fabrice Luchini's name comes from previous editions. Event repeated from yesterday's edition."
+    }
+   ]
+  },
+  {
+   "dia": "2026-12-01",
+   "eventos": [
+    {
+     "nome": "Planetarium on the public holiday: «Somos os Guardiões» (We Are the Guardians) and «3clipse»",
+     "descricao": "On the public holiday, the Planetário do Porto has two sessions for the general public, one at 15:00 and another at 16:00.",
+     "horario": "15:00 («Somos os Guardiões») and 16:00 («3clipse»)",
+     "tipo": "Family / Science",
+     "local": "Planetário do Porto – Centro Ciência Viva, Rua das Estrelas, s/n, 4150-762 Porto",
+     "preco": "€6.60 (adult); €4.40 (ages 3–17 and over-65s); €15.40 (family); free up to age 2",
+     "url": "https://www.planetario.up.pt/pt/planear/horarios",
+     "ligacao": "Planetário do Porto",
+     "nota": "Sessions and titles confirmed today on the Planetário's times page (on Saturdays and public holidays the building opens from 14:00 to 17:30); prices confirmed on the price list. The page does not describe the sessions or give an age range. Bookings must be collected up to 30 minutes beforehand; box office: 226 089 800."
+    },
+    {
+     "nome": "Mário Daniel + Nook: «Christmas Wonder»",
+     "descricao": "The magician Mário Daniel and the group Nook combine illusionism and jazz to breathe new life into classic Christmas songs, in a show with humour and plenty of audience participation, for the whole family.",
+     "horario": "18:00",
+     "tipo": "Christmas / Music and magic (free)",
+     "local": "Avenida dos Aliados, Porto",
+     "preco": "Free entry",
+     "url": "https://www.agenda-porto.pt/evento/112-mario-daniel-nook-christmas-wonder/",
+     "ligacao": "Agenda Porto",
+     "nota": "Date, time, venue and free entry confirmed today on Agenda Porto (Porto Christmas programme), with Portuguese Sign Language interpretation and access ramps. Running time not given. Outdoor event: may depend on the weather."
+    },
+    {
+     "nome": "«Victor como toda a gente» (Victor, Like Everyone Else), by Pascal Bonitzer",
+     "descricao": "Fabrice Luchini is an actor devoted to the work of Victor Hugo who recites verse every night in a Paris theatre, until the return of his daughter, with whom he had lost touch, shakes up his routine.",
+     "horario": "18:00 and 21:30",
+     "tipo": "Cinema",
+     "local": "Teatro Campo Alegre (Cine-Estúdio), Rua das Estrelas, 4150-762 Porto",
+     "preco": "€5.50",
+     "url": "https://www.teatromunicipaldoporto.pt/pt/programa/victor-como-toda-a-gente-pascal-bonitzer/",
+     "ligacao": "Teatro Municipal do Porto",
+     "nota": "M/12 (age rating), 1h28. Tuesday screenings (18:00 and 21:30) and price confirmed today on the Teatro Municipal do Porto page, with no sold-out notice."
+    },
+    {
+     "nome": "François J. Bonnet & Stephen O'Malley: Cylene",
+     "descricao": "The duo formed by the director of INA GRM and the guitarist of Sunn O))) and KTL makes music that suggests serenity and unease at the same time, «the calm before or after the storm».",
+     "horario": "18:30",
+     "tipo": "Music (Stephen O'Malley Focus)",
+     "local": "Auditório do Museu de Serralves, Rua D. João de Castro, 210, Porto",
+     "preco": "€13; €9 (Friends of Serralves, students, ages 12–18 and over-65s)",
+     "url": "https://www.serralves.pt/en/atividades-serralves/0112-francois-j-bonnet-andamp-stephen-oand39malley-cylene/",
+     "ligacao": "Serralves",
+     "nota": "Date, time, hall and prices confirmed today on the Serralves page, which has a link to tickets and does not show it as sold out. Running time not given. The address comes from previous editions."
+    }
+   ]
+  }
+ ],
+ "em_2_minutos": [
+  {
+   "texto": "Spain votes tomorrow in a snap general election: the polls give victory to Feijóo's PP, without an absolute majority, and Vox nearly doubling; Sánchez says he can still win.",
+   "noticia": 9
+  },
+  {
+   "texto": "The retirement age is set to rise to 67 in 2028, according to calculations by Lusa and ECO using provisional INE data; anyone retiring early in 2027 loses 18% of their pension.",
+   "noticia": 13
+  },
+  {
+   "texto": "Chega has filed a bill to bring back 0% VAT on 46 types of food, from January to March 2027; the PS repeats that it will not open a political crisis.",
+   "noticia": 14
+  },
+  {
+   "texto": "SAP, Europe's largest software company, has confirmed a cyberattack; the hackers' access to source code was reported by Der Spiegel but not confirmed by the company.",
+   "noticia": 1
+  },
+  {
+   "texto": "The US fired on a ship trying to break the blockade of Iran's ports; Tehran says a tanker hit a mine in Hormuz, which has not been verified.",
+   "noticia": 10
+  },
+  {
+   "texto": "Good news: Gavi will restore part of the money for malaria vaccines in Africa, with up to $214 million from philanthropists, if its board approves it in December.",
+   "noticia": 12
+  }
+ ],
+ "acompanhar": [
+  {
+   "quando": "Sunday 29 Nov",
+   "texto": "Snap general election in Spain; the polls point to a PP victory without an absolute majority, but they are forecasts, not results.",
+   "noticia": 9
+  },
+  {
+   "quando": "Sunday 29 Nov",
+   "texto": "Planned launch of the Cygnus XL cargo craft to the Space Station, at 15:47 Lisbon time, on a Falcon 9; if it is postponed, a new window on Monday at 15:24.",
+   "noticia": 17
+  },
+  {
+   "quando": "Monday 30 Nov",
+   "texto": "Fuel prices are expected to fall, according to the ACP's forecast, already including the partial cut in the tax discount; final prices depend on each filling station.",
+   "noticia": 16
+  },
+  {
+   "quando": "Thursday 3 Dec",
+   "texto": "Urgent debate in Parliament, requested by Chega, on the 2027 State Budget and the opposition measures the Government says it will not apply."
+  }
+ ],
+ "linkedin_abertura": "Spain goes to the polls tomorrow: the polls give victory to Feijóo's PP, without a majority, and Vox nearly doubling. Sánchez still believes in a comeback."
+}
